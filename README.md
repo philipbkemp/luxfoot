@@ -1,0 +1,2 @@
+# luxfoot
+Luxembourgish Football stats
