@@ -79,7 +79,7 @@
         {"JJG.1_WIL.N":"0-4"},
         {"RTV.2_AST.H":"1-7"}
     ],
-    "round_3": [
+    "last_32": [
         {"GRV.H_WLT.H":"2-4","aet":true},
         {"MMR.H_JEU.N":"1-2"},
         {"DUD.N_DIF.N":"0-2"},
@@ -97,7 +97,7 @@
         {"KER.N_SCH.N":"2-3"},
         {"ROD.H_BET.H":"3-4"}
     ],
-    "round_4": [
+    "last_16": [
         {"BET.H_SWI.N":"2-3"},
         {"RUM.H_JEU.N":"0-5"},
         {"MON.N_DIF.N":"0-3"},
