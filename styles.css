@@ -1,0 +1,46 @@
+* {
+	font-family: Arial;
+}
+
+h1 {
+	border-bottom: 1px solid black;
+	font-weight: bold;
+}
+
+h2 {
+	border-bottom: 1px solid black;
+}
+
+#league_table tbody tr td,
+#league_table thead tr th:not(:nth-of-type(2)) {
+	text-align: center;
+	width: 75px;
+}
+
+#league_table img {
+	height: 20px;
+}
+
+tr.champion > * {
+	background-color: #FFD43B22;
+}
+tr.relegated > * {
+	background-color: #911D1D33;
+}
+tr.relegation-playoff > * {
+	background-color: #911D1D22;
+}
+
+#results_table td,
+#results_table thead th:not(:first-of-type) {
+	text-align: center;
+}
+#results_table td.home-win {
+	background-color: #BBFFFF55;
+}
+#results_table td.draw {
+	background-color: #FFFFBB55;
+}
+#results_table td.away-win {
+	background-color: #FFBBBB55;
+}

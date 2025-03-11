@@ -21,6 +21,7 @@
     },
     "champion": "DIF",
     "relegated": ["SCH","MRS","KER"],
+    "relegation_target": "2024-25 Division of Honour",
     "relegation_playoffs": ["KER","FOL"],
     "standings": [
         {"club":"DIF","w":19,"d":9,"l":2,"f":70,"a":23},
