@@ -43,7 +43,7 @@
     ],
     "relegation_playoff_matches": [
         {"KER_HOS":"1-3"},
-        {"FOL_RUM":"2-2|aet|4-1"}
+        {"FOL_RUM":"2-2","aet":true,"pens":"4-1"}
     ],
     "matches": [
         {"DIF_DUD":"2-0"},

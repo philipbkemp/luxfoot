@@ -110,8 +110,7 @@ function displayLeague() {
 			rpTeams = Object.keys(m)[0].split("_");
 			homeTeam = season.teams[rpTeams[0]] ?? teams[rpTeams[0]];
 			awayTeam = season.teams[rpTeams[1]] ?? teams[rpTeams[1]];
-			scoreParts = m[Object.keys(m)[0]].split("|");
-			ftScore = scoreParts[0];
+			ftScore = m[Object.keys(m)[0]]
 			outcome = "";
 			if ( ftScore.split("-")[0] > ftScore.split("-")[1] ) {
 				if ( season.teams[rpTeams[0]] ) {
@@ -126,20 +125,20 @@ function displayLeague() {
 					outcome = homeTeam + " relegated to " + season.relegation_target;
 				}
 			}
-			if ( scoreParts.length === 2 ) {
+			if ( m.aet ) {
 				// aet
 				ftScore += "<br />(a.e.t)";
-			} else if ( scoreParts.length === 3 ) {
+			}
+			if ( m.pens ) {
 				// aet + pens
-				ftScore += "<br />(after extra time)";
-				ftScore += "<br />Penalties:<br />"+scoreParts[2];
-				if ( scoreParts[2].split("-")[0] > scoreParts[2].split("-")[1] ) {
+				ftScore += "<br />Penalties: " + m.pens;
+				if ( m.pens.split("-")[0] > m.pens.split("-")[1] ) {
 					if ( season.teams[rpTeams[0]] ) {
 						outcome = homeTeam + " remain in " + season.division;
 					} else {
 						outcome = homeTeam + " relegated to " + season.relegation_target;
 					}
-				} else if ( scoreParts[2].split("-")[0] < scoreParts[2].split("-")[1] ) {
+				} else if ( m.pens.split("-")[0] < m.pens.split("-")[1] ) {
 					if ( season.teams[rpTeams[1]] ) {
 						outcome = homeTeam + " remain in " + season.division;
 					} else {
