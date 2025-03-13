@@ -27,12 +27,12 @@
 	"relegation_playoff": ["LRZ","WLT","HOS","RUM"],
     "promotion_playoff": ["RUM","HOS"],
 	"relegation_playoff_matches": [
-		{"home":"LRZ","away":"LUX","score":"3-4","season":"2023-24","competition":"Division of Honour Relegation Playoffs","date":""},
-		{"home":"WLT","away":"FEU","score":"0-3","season":"2023-24","competition":"Division of Honour Relegation Playoffs","date":""}
+		{"home":"LRZ","away":"LUX","score":"3-4","season":"2023-24","competition":"Division of Honour Relegation Playoffs","date":"30.05.2024"},
+		{"home":"WLT","away":"FEU","score":"0-3","season":"2023-24","competition":"Division of Honour Relegation Playoffs","date":"01.06.2024"}
 	],
 	"promotion_playoff_matches": [
-		{"home":"KER","away":"HOS","score":"1-3","season":"2023-24","competition":"Division of Honour Promotion Playoffs","date":"","aet":true},
-		{"home":"FOL","away":"RUM","score":"2-2","season":"2023-24","competition":"Division of Honour Promotion Playoffs","date":"","aet":true,"pens":"6-3"}
+		{"home":"KER","away":"HOS","score":"1-3","season":"2023-24","competition":"Division of Honour Promotion Playoffs","date":"31.05.2024","aet":true},
+		{"home":"FOL","away":"RUM","score":"2-2","season":"2023-24","competition":"Division of Honour Promotion Playoffs","date":"02.06.2024","aet":true,"pens":"6-3"}
 	],
 	"matches": [
 		{"home":"RUM","away":"BET","score":"3-1","season":"2023-24","competition":"Division of Honour","date":"20.08.2023"},
