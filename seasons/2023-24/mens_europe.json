@@ -2,63 +2,39 @@
     "season": "2023-24",
     "champions_league": {
         "teams": ["SWI"],
-        "qualify_1": [{
-            "team": "SWI",
-            "opponent":{"id":"ŠK_Slovan_Bratislava","name":"Slovan Bratislava","country":"SVK"},
-            "leg_1": {"venue":"AWAY","score":"1-1","date":"12.07-2023"},
-            "leg_2": {"venue":"HOME","score":"0-2","date":"19.07.2023"},
-            "agg": "1-3"
-        }]
+        "qualify_1": [[
+            {"home":"SVK_SLV","away":"SWI","score":"1-1","season":"2023-24","competition":"UEFA Champions League","round":"Q1","leg":1,"date":"12.07.2023"},
+            {"home":"SWI","away":"SVK_SLV","score":"0-2","season":"2023-24","competition":"UEFA Champions League","round":"Q1","leg":2,"date":"19.07.2023"}
+        ]]
     },
     "europa_league": {
         "teams": []
     },
     "conference_league": {
         "teams": ["PRO","DUD","SWI","DIF"],
-        "qualify_1": [{
-            "team": "PRO",
-            "opponent": {"id":"SC_Gjilani","name":"Gjilani","country":"KOS"},
-            "leg_1": {"venue":"HOME","score":"2-2","date":"13.07.2023"},
-            "leg_2": {"venue":"AWAY","score":"2-0","date":"20.07.2023"},
-            "agg": "4-2"
-        },{
-            "team": "DUD",
-            "opponent": {"id":"St_Patrick%27s_Athletic_F.C.","name":"St Patrick's Athletic","country":"IRL"},
-            "leg_1": {"venue":"HOME","score":"2-1","date":"12.07.2023"},
-            "leg_2": {"venue":"AWAY","score":"3-2","date":"20.07.2023"},
-            "agg": "5-3"
-        }],
-        "qualify_2":[{
-            "team": "SWI",
-            "opponent": {"id":"The_New_Saints_F.C.","name":"The New Saints","country":"WAL"},
-            "leg_1": {"venue":"AWAY","score":"1-1","date":"25.07.2023"},
-            "leg_2": {"venue":"HOME","score":"3-2","date":"01.08.2023"},
-            "agg": "4-3"
-        },{
-            "team": "DUD",
-            "opponent": {"id":"G%C5%BCira_United_F.C.","name":"Gżira United","country":"MLT"},
-            "leg_1": {"venue":"AWAY","score":"0-2","date":"27.07.2023"},
-            "leg_2": {"venue":"HOME","score":"2-1","date":"02.08.2023"},
-            "agg": "2-3"
-        },{
-            "team": "DIF",
-            "opponent": {"id":"NK_Maribor","name":"Maribor","country":"SVN"},
-            "leg_1": {"venue":"HOME","score":"1-1","date":"27.07.2023"},
-            "leg_2": {"venue":"AWAY","score":"3-4","date":"03.08.2023","aet":true},
-            "agg": "4-5"
-        },{
-            "team": "PRO",
-            "opponent": {"id":"FC_Midtjylland","name":"Midtjylland","country":"DNK"},
-            "leg_1": {"venue":"AWAY","score":"0-2","date":"26.07.2023"},
-            "leg_2": {"venue":"HOME","score":"2-1","date":"03.08.2023","aet":true},
-            "agg": "2-3"
-        }],
-        "qualify_3":[{
-            "team": "SWI",
-            "opponent": {"id":"FC_Struga","name":"Struga","country":"MKD"},
-            "leg_1": {"venue":"AWAY","score":"1-3","date":"10.08.2023"},
-            "leg_2": {"venue":"HOME","score":"2-1","date":"17.08.2023"},
-            "agg": "3-4"
-        }]
+        "qualify_1": [[
+            {"home":"PRO","away":"KOS_GJI","score":"2-2","season":"2023-24","competition":"UEFA Conference League","round":"Q1","leg":1,"date":"13.07.2023"},
+            {"home":"KOS_GJI","away":"PRO","score":"2-0","season":"2023-24","competition":"UEFA Conference League","round":"Q1","leg":2,"date":"20.07.2023"}
+        ],[
+            {"home":"DUD","away":"IRL_PAT","score":"2-1","season":"2023-24","competition":"UEFA Conference League","round":"Q1","leg":1,"date":"12.07.2023"},
+            {"home":"IRL_PAT","away":"DUD","score":"3-2","season":"2023-24","competition":"UEFA Conference League","round":"Q1","leg":2,"date":"20.07.2023"}
+        ]],        
+        "qualify_2":[[
+            {"home":"WAL_TNS","away":"SWI","score":"1-1","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":1,"date":"25.07.2023"},
+            {"home":"SWI","away":"WAL_TNS","score":"3-2","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":2,"date":"01.08.2023"}
+        ],[
+            {"home":"MLT_GZI","away":"DUD","score":"0-2","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":1,"date":"27.07.2023"},
+            {"home":"DUD","away":"MLT_GZI","score":"2-1","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":2,"date":"02.08.2023"}
+        ],[
+            {"home":"DIF","away":"SVN_MRB","score":"1-1","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":1,"date":"27.07.2023"},
+            {"home":"SVN_MRB","away":"DIF","score":"3-4","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":2,"date":"03.08.2023","aet":true}
+        ],[
+            {"home":"DNK_MDT","away":"PRO","score":"0-2","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":1,"date":"27.07.2023"},
+            {"home":"PRO","away":"DNK_MDT","score":"2-1","season":"2023-24","competition":"UEFA Conference League","round":"Q2","leg":2,"date":"03.08.2023","aet":true}
+        ]],
+        "qualify_3": [[
+            {"home":"MKD_STG","away":"SWI","score":"1-3","season":"2023-24","competition":"UEFA Conference League","round":"Q3","leg":1,"date":"10.08.2023"},
+            {"home":"SWI","away":"MKD_STG","score":"2-1","season":"2023-24","competition":"UEFA Conference League","round":"Q3","leg":2,"date":"17.08.2023"}
+        ]]
     }
 }
