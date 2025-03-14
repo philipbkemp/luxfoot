@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "Division 1 Série 1",
+    "level": 3,
 	"teams": ["ASH","ATB","BCN","BST","COL","ECH","ERP","FEU","JGL","JSC","JUS","MER","NRD","RLL","WIN","YBD"],
 	"standings": [
 		{"club":"ATB","w":24,"d":6,"l":0,"f":120,"a":23},

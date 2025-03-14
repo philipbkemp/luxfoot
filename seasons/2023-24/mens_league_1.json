@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "BGL Ligue",
+	"level": 1,
 	"teams": ["DIF","DUD","FOL","JEU","KER","MLB","MON","MRS","PRO","RAC","SCH","SWI","UNA","UTP","VIC","WIL"],
 	"standings": [
 		{"club":"DIF","w":19,"d":9,"l":2,"f":70,"a":23},

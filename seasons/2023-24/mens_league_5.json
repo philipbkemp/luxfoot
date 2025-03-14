@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "Division 3",
+    "level": 5,
 	"teams": ["BOU","BRO","CLR","ESS","EXG","KIW","LAD","RBA","RHE","VNE"],
 	"standings": [
 		{"club":"RHE","w":12,"d":4,"l":2,"f":50,"a":16},

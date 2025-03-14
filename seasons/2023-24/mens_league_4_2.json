@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "Division 2 Serie 2",
+    "level": 4,
 	"teams": ["BER","BIW","CSO","EHL","ESC","KOE","MNL","MOM","NOE","SFT","SNM","TRG","UMW","USE"],
 	"standings": [
 		{"club":"SNM","w":22,"d":0,"l":4,"f":75,"a":26},

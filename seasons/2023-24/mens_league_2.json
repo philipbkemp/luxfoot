@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "Division of Honour",
+	"level": 2,
 	"teams": ["AST","AVB","BBR","BET","BWM","ETZ","GRV","HOS","JCN","KWM","LRZ","MMR","ROD","RUM","WLF","WLT"],
 	"standings": [
 		{"club":"BET","w":18,"d":3,"l":9,"f":68,"a":44},

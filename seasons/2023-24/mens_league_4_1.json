@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "Division 2 Serie 1",
+    "level": 4,
 	"teams": ["AIS","BAT","BIE","ELL","GRN","LAP","LIN","OCW","PRR","RAM","RTV","USF","USR","VIA"],
 	"standings": [
 		{"club":"AIS","w":18,"d":6,"l":2,"f":77,"a":37},

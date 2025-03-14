@@ -1,6 +1,7 @@
 {
 	"season": "2023-24",
 	"division": "Division 1 Serie 2",
+    "level": 3,
 	"teams": ["ASL","BEL","BWI","JJG","KEH","KOP","LNA","LUX","MUN","RBE","RED","SCN","SND","SYR","UKT","URB"],
 	"standings": [
 		{"club":"SND","w":23,"d":3,"l":4,"f":85,"a":28},
