@@ -25,7 +25,7 @@
 	"relegated": ["LRZ","WLT","GRV","BWM"],
 	"promotion_target": "2024-25 BGL Ligue",
 	"relegation_target": "2024-25 1. Division",
-	"relegation_playoff": ["LRZ","WLT","HOS","RUM"],
+	"relegation_playoff": ["LRZ","WLT"],
     "promotion_playoff": ["RUM","HOS"],
 	"relegation_playoff_matches": [
 		{"home":"LRZ","away":"LUX","score":"3-4","season":"2023-24","competition":"Division of Honour Relegation Playoffs","date":"30.05.2024"},
