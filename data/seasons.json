@@ -1,0 +1,12 @@
+{
+    "1915-16": {
+        "leagues": {
+            "level_1": {"name": "1. Division", "winner": "HLBN"},
+            "level_2": {"name": "2. Division", "winner": "YBDK"},
+            "level_3": {"name": "3. Division", "series": [
+                {"name": "Serie 1","winner": "CSHL"},
+                {"name": "Serie 2","winner": "JBET"}
+            ]}
+        }
+    }
+}

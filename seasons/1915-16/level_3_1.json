@@ -1,0 +1,20 @@
+{
+    "level": 3,
+    "series": 1,
+    "season": "1915-16",
+    "name": "3. Division Series 1",
+    "teams": ["CSHL","JSTF","ROLG"],
+    "excluded": ["PHLK","MDLB"],
+    "standings": [
+        {"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9 },
+        {"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6 },
+        {"team": "ROLG", "w": 1, "d": 0, "l": 3, "f":  8, "a": 13 }
+    ],
+    "playoff": [
+        {"home": "CSHL", "away": "JSTF", "score": "5-0", "date": "", "season": "1915-16", "competition": {"type":"league","level":3,"series":1,"name":"3.Division Series 2","round":"Winner Play-off"}}
+    ],
+    "promotion": {
+        "teams": ["CSHL"],
+        "target": {"season":"1916-17","level":2,"name":"2. Division"}
+    }
+}
