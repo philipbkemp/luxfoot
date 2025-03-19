@@ -151,8 +151,14 @@ function showLeagueLevel(data,level,isSeries=false) {
 	}
 	keys = keys.replace(prefix + "name","");
 
-	levelOneColWinner = $("<DIV></DIV>").addClass("col-5").addClass("p-1").html(allTeams[data.winner]);
+	levelOneColWinner = $("<DIV></DIV>").addClass("col-10").addClass("p-1").html(allTeams[data.winner]);
 	keys = keys.replace(prefix + "winner","");
+
+	if ( data.count ) {
+		levelWinnerCount = $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").html(getTitleCount(data.count));
+		levelOneColWinner.append(levelWinnerCount);
+		keys = keys.replace(prefix + "count","");
+	}
 
 	levelOneRow.append(levelOneColLevel);
 	levelOneRow.append(levelOneColWinner);
@@ -160,4 +166,22 @@ function showLeagueLevel(data,level,isSeries=false) {
 	$("#competitions").append(levelOne);
 
 	keys = keys.replace("|"+level,"");
+}
+
+function getTitleCount(number) {
+	ordinal = number + "th";
+
+	j = number % 10,
+	k = number % 100;
+	if ( j === 1 && k !== 11 ) {
+		ordinal = number + "st";
+	}
+	if ( j === 2 && k !== 12 ) {
+		ordinal = number + "nd";
+	}
+	if ( j === 3 && k !== 13 ) {
+		ordinal = number + "rd";
+	}
+
+	return ordinal + " title";
 }
