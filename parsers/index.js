@@ -64,6 +64,8 @@ function parseSeasons(data) {
 		}
 
 	});
+
+	$(".placeholder-glow").hide();
 }
 
 function buildLeague(league,name) {
