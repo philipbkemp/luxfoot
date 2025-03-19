@@ -1,5 +1,34 @@
-{
-    "1915-16": {
+[
+    {
+        "season": "1909-10",
+        "leagues": {
+            "level_1": {"name": "Klasse A", "winner": "RACL", "missing": true}
+        }
+    },{
+        "season": "1910-11",
+        "leagues": {
+            "level_1": {"name": "Klasse A", "winner": "SCLX", "missing": true}
+        }
+    },{
+        "season": "1911-12",
+        "leagues": {
+            "level_1": {"name": "Klasse A", "winner": "HLBN", "missing": true}
+        }
+    },{
+        "season": "1912-13",
+        "note": "Championship not held"
+    },{
+        "season": "1913-14",
+        "leagues": {
+            "level_1": {"name": "1. Division", "winner": "HLBN", "missing": true}
+        }
+    },{
+        "season": "1914-15",
+        "leagues": {
+            "level_1": {"name": "1. Division", "winner": "HLBN", "missing": true}
+        }
+    },{
+        "season": "1915-16",
         "leagues": {
             "level_1": {"name": "1. Division", "winner": "HLBN"},
             "level_2": {"name": "2. Division", "winner": "YBDK"},
@@ -9,4 +38,4 @@
             ]}
         }
     }
-}
+]
