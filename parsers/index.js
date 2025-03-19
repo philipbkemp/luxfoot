@@ -17,7 +17,9 @@ function parseSeasons(data) {
 		listGroupItem = $("<DIV></DIV>").addClass("list-group-item");
 		row = $("<DIV></DIV>").addClass("row");
 		
-		colSeason = $("<DIV></DIV>").addClass("col-1").html(season.season);
+		colSeason = $("<DIV></DIV>").addClass("col-1");
+		colSeasonLink = $("<A></A>").attr("href","season.html?season="+season.season).html(season.season).addClass("p-1").addClass("d-block").addClass("text-center");
+		colSeason.append(colSeasonLink);
 		keys = keys.replace("|season","");
 		row.append(colSeason);
 
@@ -116,7 +118,7 @@ function buildLeague(league,name) {
 
 	} else {
 		leagueKeys = leagueKeys.replace(prefix+"missing","");
-		ret = league.name + " <small class='fst-italic'>(No data)</small>";
+		ret = $("<SPAN></SPAN>").addClass("p-1").html(league.name + " <small class='fst-italic'>(No data)</small>)");
 		leagueKeys = leagueKeys.replace(prefix+"name","");
 		leagueKeys = leagueKeys.replace(prefix+"level","");
 		leagueKeys = leagueKeys.replace(prefix+"season","");
