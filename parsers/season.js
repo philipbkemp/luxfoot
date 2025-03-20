@@ -13,43 +13,6 @@ $(document).ready(function(){
 
 });
 
-urlParams = {};
-function checkParams(required) {
-	paramsOk = true;
-
-	queryString = window.location.search.replace("?","");
-	if ( queryString === "" ) {
-		if ( required.length !== 0 ) {
-			invalid();
-			return false;
-		}
-	}
-	queryArray = queryString.split("&");
-	queryArray.forEach(q=>{
-		key = q.split("=")[0];
-		value =  q.split("=")[1];
-		urlParams[key] = value;
-	});
-	
-	required.forEach(q=>{
-		if ( ! urlParams[q] || urlParams[q] === "" ) {
-			invalid();
-			paramsOk = false;
-		}
-	});
-
-	return paramsOk;
-}
-
-function invalid() {
-	$(".placeholder-glow").append(
-		$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load season")
-	);
-	$("head title").html( $("head title").html().replace("%season%","Oops"));
-	$("h1").html( $("h1").html().replace("%season%","Oops"));
-	$(".placeholder").hide();
-}
-
 seasonToShow = {};
 function parseSeasons(data) {
 	toShow = data.filter(s=>{return s.season === urlParams.season;});
@@ -68,19 +31,11 @@ function parseSeasons(data) {
 	})
 }
 
-allTeams = {};
-function parseTeams(data) {
-	allTeams = data;
-
-	parseSeason();
-}
-
-function parseSeason() {
+function doneParsingTeams() {
 	season = seasonToShow;
 	keys = "|" + Object.keys(season).join("|");
 
-	$("head title").html( $("head title").html().replace("%season%",season.season));
-	$("h1").html( $("h1").html().replace("%season%",season.season));
+	setTitles(season.season);
 	keys = keys.replace("|season","");
 
 	if ( season.leagues ) {
@@ -166,22 +121,4 @@ function showLeagueLevel(data,level,isSeries=false) {
 	$("#competitions").append(levelOne);
 
 	keys = keys.replace("|"+level,"");
-}
-
-function getTitleCount(number) {
-	ordinal = number + "th";
-
-	j = number % 10,
-	k = number % 100;
-	if ( j === 1 && k !== 11 ) {
-		ordinal = number + "st";
-	}
-	if ( j === 2 && k !== 12 ) {
-		ordinal = number + "nd";
-	}
-	if ( j === 3 && k !== 13 ) {
-		ordinal = number + "rd";
-	}
-
-	return ordinal + " title";
 }
