@@ -5,13 +5,14 @@
     "name": "3. Division Series 2",
     "teams": ["JBET","NSCH","ERDU"],
     "excluded": ["JKYL"],
+    "pts_win": 2,
     "standings": [
-        {"team": "JBET", "w": 3, "d": 0, "l": 1, "f": 15, "a": 10,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2", "promoted": true },
-        {"team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2" },
-        {"team": "ERDU", "w": 0, "d": 0, "l": 4, "f":  2, "a":  7,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2" }
+        {"place":1,"team": "JBET", "w": 3, "d": 0, "l": 1, "f": 15, "a": 10,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2", "promoted": true },
+        {"place":2,"team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2" },
+        {"place":3,"team": "ERDU", "w": 0, "d": 0, "l": 4, "f":  2, "a":  7,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2" }
     ],
     "playoff": [
-        {"home": "JBET", "away": "NSCH", "score": "4-0", "date": "", "season": "1915-16", "competition": {"type":"league","level":3,"series":2,"name":"3.Division Series 2","round":"Winner Play-off"}}
+        {"home": "JBET", "away": "NSCH", "score": "4-0", "season": "1915-16", "competition": {"type":"league","level":3,"series":2,"name":"3.Division Series 2","round":"Winner Play-off"}}
     ],
     "promotion": {
         "teams": ["JBET"],

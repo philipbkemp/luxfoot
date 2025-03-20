@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>LuxFoot / %season% / %league%</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link href="styles.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container mt-3">
+			<h1 class="mb-5">
+				LuxFoot / %season% / %league%
+				<a href="index.html" class="float-end">Home</a>
+				<a href="season.html" class="float-end me-3" id="seasonLink">%season%</a>
+			</h1>
+			<div class="placeholder-glow">
+				<div class="col-12 placeholder"></div>
+			</div>
+			<div class="d-none" id="tabs">
+
+				<ul class="nav nav-tabs" id="luxfoot-tabs" role="tablist">
+
+					<li class="nav-item" role="presentation"><button class="nav-link active" id="standings-tab" data-bs-toggle="tab" data-bs-target="#standings-tab-pane" type="button" role="tab" aria-controls="standings-tab-pane" aria-selected="true">Standings</button></li>
+					<li class="nav-item d-none" role="presentation" id="tabResults"><button class="nav-link" id="results-tab" data-bs-toggle="tab" data-bs-target="#results-tab-pane" type="button" role="tab" aria-controls="results-tab-pane" aria-selected="true">Results</button></li>
+					<li class="nav-item d-none" role="presentation" id="tabPlayoff"><button class="nav-link" id="playoff-tab" data-bs-toggle="tab" data-bs-target="#playoff-tab-pane" type="button" role="tab" aria-controls="playoff-tab-pane" aria-selected="true">Play-off</button></li>
+
+				</ul>
+				<div class="tab-content" id="luxfoot-tabs-content">
+					<div class="tab-pane fade show active" id="standings-tab-pane" role="tabpanel" aria-labelledby="standings-tab" tabindex="0">
+						
+						<table class="table mt-3 table-sm table-hover" id="standingsTable">
+							<thead>
+								<tr>
+									<th scope="col"></th>
+									<th scope="col">Team</th>
+									<th scope="col"><abbr title="Played">P</abbr></th>
+									<th scope="col"><abbr title="Won">W</abbr></th>
+									<th scope="col"><abbr title="Drawn">D</abbr></th>
+									<th scope="col"><abbr title="Lost">L</abbr></th>
+									<th scope="col"><abbr title="Goals For">F</abbr></th>
+									<th scope="col"><abbr title="Goals Against">A</abbr></th>
+									<th scope="col"><abbr title="Points" id="pts_win">Pts</abbr></th>
+									<th scope="col"><abbr title="Goal difference">GD</abbr></th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+
+					</div>
+					<div class="tab-pane fade" id="results-tab-pane" role="tabpanel" aria-labelledby="results-tab" tabindex="0">
+
+						<table class="table mt-3 table-sm table-bordered" id="resultsTable">
+							<thead>
+								<tr>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+
+						<small>Legend: Blue = home team win; Yellow = draw; Red = away team win.</small>
+
+					</div>
+					<div class="tab-pane fade" id="playoff-tab-pane" role="tabpanel" aria-labelledby="playoff-tab" tabindex="0">
+
+						<div class="list-group mt-3" id="matches_playoff">
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+		<script src="parsers/league.js" type="text/javascript"></script>
+	</body>
+</html>
