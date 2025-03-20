@@ -54,13 +54,13 @@ function parseLeague(league) {
 		keys += "|relegation.target." + Object.keys(league.relegation.target).join("|relegation.target.") + "|";
 		keys = keys.replace("|relegation.target|","|").replace("||","|");
 
-		$(".is_relegated .badge-titleCount").html("Relegated to "+league.relegation.target.name);
+		$(".is_relegated .badge-titleCount").html("Relegated to "+league.relegation.target.name).attr("href","league.html?season="+league.relegation.target.season+"&level="+league.relegation.target.level);
 		keys = keys.replace("|relegation.target.season|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.name|","|").replace("||","|");
+		keys = keys.replace("|relegation.target.level|","|").replace("||","|");
 
 		keys = keys.replace("|relegation|","|").replace("||","|");
 		keys = keys.replace("|relegation.teams|","|").replace("||","|");
-		keys = keys.replace("|relegation.target.level|","|").replace("||","|");
 	}
 
 	if ( league.promotion ) {
@@ -70,13 +70,13 @@ function parseLeague(league) {
 		keys += "|promotion.target." + Object.keys(league.promotion.target).join("|promotion.target.") + "|";
 		keys = keys.replace("|promotion.target|","|").replace("||","|");
 
-		$(".is_promoted .badge-titleCount").html("Promoted to "+league.promotion.target.name);
+		$(".is_promoted .badge-titleCount").html("Promoted to "+league.promotion.target.name).attr("href","league.html?season="+league.promotion.target.season+"&level="+league.promotion.target.level);
 		keys = keys.replace("|promotion.target.season|","|").replace("||","|");
 		keys = keys.replace("|promotion.target.name|","|").replace("||","|");
+		keys = keys.replace("|promotion.target.level|","|").replace("||","|");
 
 		keys = keys.replace("|promotion|","|").replace("||","|");
 		keys = keys.replace("|promotion.teams|","|").replace("||","|");
-		keys = keys.replace("|promotion.target.level|","|").replace("||","|");
 	}
 
 	if ( league.matches ) {
@@ -201,14 +201,14 @@ function parseStanding(standing,pts_win=3) {
 	if ( standing.relegated ) {
 		standingRow.addClass("is_relegated");
 		standingNotes.append( $("<IMG/>").attr("src","assets/relegated.png").attr("alt","Relegated").attr("title","Relegated") );
-		standingNotes.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").html( "" ) );
+		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").html( "" ) );
 		keys = keys.replace("|standings.relegated|","|").replace("||","|");
 	}
 
 	if ( standing.promoted ) {
 		standingRow.addClass("is_promoted");
 		standingNotes.append( $("<IMG/>").attr("src","assets/promoted.png").attr("alt","Promoted").attr("title","Promoted") );
-		standingNotes.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").html( "" ) );
+		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").html( "" ) );
 		keys = keys.replace("|standings.promoted|","|").replace("||","|");
 	}
 
