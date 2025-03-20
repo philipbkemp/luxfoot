@@ -4,7 +4,6 @@
     "season": "1915-16",
     "name": "3. Division Series 1",
     "teams": ["CSHL","JSTF","ROLG"],
-    "excluded": ["PHLK","MDLB"],
     "pts_win": 2,
     "standings": [
         {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9,"season":"1915-16","level":3,"series":1,"league":"3. Division Series 1","promoted":true },

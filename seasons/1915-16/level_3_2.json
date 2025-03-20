@@ -4,7 +4,6 @@
     "season": "1915-16",
     "name": "3. Division Series 2",
     "teams": ["JBET","NSCH","ERDU"],
-    "excluded": ["JKYL"],
     "pts_win": 2,
     "standings": [
         {"place":1,"team": "JBET", "w": 3, "d": 0, "l": 1, "f": 15, "a": 10,"season":"1915-16","level":3,"series":2,"league":"3. Division Series 2", "promoted": true },

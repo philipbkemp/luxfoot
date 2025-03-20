@@ -189,7 +189,6 @@ function parseLeague(league) {
 	keys = keys.replace("|level|","|").replace("||","|");
 	keys = keys.replace("|teams|","|").replace("||","|");
 	keys = keys.replace("|champion|","|").replace("||","|");
-	keys = keys.replace("|excluded|","|").replace("||","|");
 	keys = keys.replace("|series|","|").replace("||","|");
 
 	if ( keys !== "|" ) {
