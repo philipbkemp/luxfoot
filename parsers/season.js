@@ -21,6 +21,17 @@ function parseSeasons(data) {
 		return;
 	}
 
+	showIndex = data.indexOf(toShow[0]);
+
+	prevSeason = data[showIndex-1];
+	nextSeason = data[showIndex+1];
+	if ( nextSeason ) {
+		$("#seasonLinkNext").attr("href","season.html?season="+nextSeason.season).removeClass("d-none");
+	}
+	if ( prevSeason ) {
+		$("#seasonLinkPrev").attr("href","season.html?season="+prevSeason.season).removeClass("d-none");
+	}
+
 	seasonToShow = toShow[0];
 
 	$.ajax({
