@@ -1,5 +1,7 @@
 {
     "ADUD": "Alliance Dudelange",
+    "AVBG": "Avenir Beggen",
+    "BLVL": "The Belval Belvaux",
     "CECH": "CS Echternach",
     "CSHL": "CS Hollerich",
     "CPET": "CS Petange",
@@ -11,6 +13,7 @@
     "JESH": "Jeunesse Esch",
     "JKYL": "Jeunesse 07 Kayl",
     "JSTF": "Jeunesse Steinfort",
+    "JWMK": "Jeunesse Weimerskirch",
     "MDLB": "CS Mondorf-les-Bains",
     "NSCH": "National Schifflange",
     "PHLK": "Phalanx Kleinbettingen",
@@ -19,7 +22,10 @@
     "SCLX": "Sporting Club Luxemburg",
     "SDIF": "SC Differdange",
     "SDUD": "Stade Dudelange",
+    "STET": "SC Tétange",
     "UESH": "US Esch",
+    "URUM": "US Rumelange",
     "USDD": "US Dudelange",
+    "WALF": "Résidence Walferdange",
     "YBDK": "Young Boys Diekirch"
 }

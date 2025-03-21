@@ -6,12 +6,12 @@
     "teams": ["CSHL","JSTF","ROLG"],
     "pts_win": 2,
     "standings": [
-        {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9,"season":"1915-16","level":3,"series":1,"league":"3. Division Series 1","promoted":true },
-        {"place":2,"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6,"season":"1915-16","level":3,"series":1,"league":"3. Division Series 1" },
+        {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9,"season":"1915-16","level":3,"series":1,"league":"3. Division Series 1", "playoff": "playoff", "promoted":true },
+        {"place":2,"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6,"season":"1915-16","level":3,"series":1,"league":"3. Division Series 1", "playoff": "playoff" },
         {"place":3,"team": "ROLG", "w": 1, "d": 0, "l": 3, "f":  8, "a": 13,"season":"1915-16","level":3,"series":1,"league":"3. Division Series 1" }
     ],
     "playoff": [
-        {"home": "CSHL", "away": "JSTF", "score": "5-0", "season": "1915-16", "competition": {"type":"league","level":3,"series":1,"name":"3.Division Series 2","round":"Winner Play-off"}}
+        {"home": "CSHL", "away": "JSTF", "score": "5-0", "season": "1915-16", "competition": {"type":"league","level":3,"series":1,"name":"3.Division Series 2","round":"Winner Playoff"}}
     ],
     "promotion": {
         "teams": ["CSHL"],

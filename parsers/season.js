@@ -101,7 +101,7 @@ function showLeagueLevel(data,level,isSeries=false) {
 
 	levelOne = $("<DIV></DIV>").addClass("list-group-item");
 	levelOneRow = $("<DIV></DIV>").addClass("row");
-	levelOneColLevel = $("<DIV></DIV>").addClass("col-2")
+	levelOneColLevel = $("<DIV></DIV>").addClass("col-3")
 
 	if ( ! data.missing ) {
 		link = "league.html?season="+data.season+"&level="+data.level;
@@ -117,7 +117,7 @@ function showLeagueLevel(data,level,isSeries=false) {
 	}
 	keys = keys.replace(prefix + "name","");
 
-	levelOneColWinner = $("<DIV></DIV>").addClass("col-10").addClass("p-1").html(allTeams[data.winner]);
+	levelOneColWinner = $("<DIV></DIV>").addClass("col-9").addClass("p-1").html(allTeams[data.winner]);
 	keys = keys.replace(prefix + "winner","");
 
 	if ( data.count ) {

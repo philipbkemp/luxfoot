@@ -37,5 +37,15 @@
                 {"season": "1915-16","level":3,"series":2,"name": "3. Division Serie 2","winner": "JBET"}
             ]}
         }
+    },{
+        "season": "1916-17",
+        "leagues": {
+            "level_1": {"season": "1916-17", "level": 1, "name": "1. Division", "winner": "HLBN", "count": 5},
+            "level_2": {"season": "1916-17", "level": 2, "name": "2. Division", "winner": "CPET"},
+            "level_3": {"season":"1916-17", "level": 3, "name": "3. Division", "series": [
+                {"season": "1916-17", "level": 3, "series": 1, "name": "3. Division Serie Luxembourg", "winner": "AVBG"},
+                {"season": "1916-17", "level": 3, "series": 2, "name": "3. Division Serie Esch", "winner": "URUM"}
+            ]}
+        }
     }
 ]

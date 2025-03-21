@@ -1,0 +1,52 @@
+{
+	"level": 1,
+	"season": "1916-17",
+	"name": "1. Division",
+	"teams": ["HLBN","FOLA","RACL","SCLX","YBDK","JESH"],
+	"pts_win": 2,
+	"standings": [
+		{"place":1,"team": "HLBN", "w": 10, "d": 0, "l": 0, "f": 33, "a": 10 ,"season":"1915-16","level":1,"league":"1. Division","champion":true,"title_count":5},
+		{"place":2,"team": "FOLA", "w": 6, "d": 0, "l": 4, "f": 23, "a": 16 ,"season":"1915-16","level":1,"league":"1. Division"},
+		{"place":3,"team": "RACL", "w": 3, "d": 2, "l": 5, "f": 20, "a": 23 ,"season":"1915-16","level":1,"league":"1. Division"},
+		{"place":4,"team": "SCLX", "w": 3, "d": 2, "l": 5, "f": 24, "a": 29 ,"season":"1915-16","level":1,"league":"1. Division"},
+		{"place":5,"team": "YBDK", "w": 2, "d": 2, "l": 6, "f": 14, "a": 28 ,"season":"1915-16","level":1,"league":"1. Division"},
+		{"place":6,"team": "JESH", "w": 3, "d": 0, "l": 7, "f": 18, "a": 26 ,"season":"1915-16","level":1,"league":"1. Division","relegated":true}
+	],
+	"champion": "HLBN",
+	"relegation": {
+		"teams": ["JESH"],
+		"target": {"season":"1917-18","level":2,"name":"2. Division"}
+	},
+	"matches": [
+		{"home": "HLBN", "away": "FOLA", "score": "2-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "HLBN", "away": "RACL", "score": "3-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "HLBN", "away": "SCLX", "score": "3-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "HLBN", "away": "YBDK", "score": "4-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "HLBN", "away": "JESH", "score": "6-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "FOLA", "away": "HLBN", "score": "0-3", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "FOLA", "away": "RACL", "score": "3-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "FOLA", "away": "SCLX", "score": "4-5", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "FOLA", "away": "YBDK", "score": "4-0", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "FOLA", "away": "JESH", "score": "0-3", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "RACL", "away": "HLBN", "score": "1-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "RACL", "away": "FOLA", "score": "0-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "RACL", "away": "SCLX", "score": "2-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "RACL", "away": "YBDK", "score": "2-0", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "RACL", "away": "JESH", "score": "3-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "SCLX", "away": "HLBN", "score": "1-4", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "SCLX", "away": "FOLA", "score": "0-5", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "SCLX", "away": "RACL", "score": "4-6", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "SCLX", "away": "YBDK", "score": "7-0", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "SCLX", "away": "JESH", "score": "3-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "YBDK", "away": "HLBN", "score": "2-5", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "YBDK", "away": "FOLA", "score": "0-3", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "YBDK", "away": "RACL", "score": "2-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "YBDK", "away": "SCLX", "score": "0-0", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "YBDK", "away": "JESH", "score": "6-0", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "JESH", "away": "HLBN", "score": "0-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "JESH", "away": "FOLA", "score": "1-2", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "JESH", "away": "RACL", "score": "5-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "JESH", "away": "SCLX", "score": "3-1", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}},
+		{"home": "JESH", "away": "YBDK", "score": "1-3", "season": "1916-17", "competition": {"type":"league","level":1,"name":"1. Division"}}
+	]
+}

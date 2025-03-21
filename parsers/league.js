@@ -54,7 +54,7 @@ function parseLeague(league) {
 		keys += "|relegation.target." + Object.keys(league.relegation.target).join("|relegation.target.") + "|";
 		keys = keys.replace("|relegation.target|","|").replace("||","|");
 
-		$(".is_relegated .badge-titleCount").html("Relegated to "+league.relegation.target.name).attr("href","league.html?season="+league.relegation.target.season+"&level="+league.relegation.target.level);
+		$(".is_relegated .badge-titleCount.relegate").html("Relegated to "+league.relegation.target.name).attr("href","league.html?season="+league.relegation.target.season+"&level="+league.relegation.target.level);
 		keys = keys.replace("|relegation.target.season|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.name|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.level|","|").replace("||","|");
@@ -70,7 +70,7 @@ function parseLeague(league) {
 		keys += "|promotion.target." + Object.keys(league.promotion.target).join("|promotion.target.") + "|";
 		keys = keys.replace("|promotion.target|","|").replace("||","|");
 
-		$(".is_promoted .badge-titleCount").html("Promoted to "+league.promotion.target.name).attr("href","league.html?season="+league.promotion.target.season+"&level="+league.promotion.target.level);
+		$(".is_promoted .badge-titleCount.promote").html("Promoted to "+league.promotion.target.name).attr("href","league.html?season="+league.promotion.target.season+"&level="+league.promotion.target.level);
 		keys = keys.replace("|promotion.target.season|","|").replace("||","|");
 		keys = keys.replace("|promotion.target.name|","|").replace("||","|");
 		keys = keys.replace("|promotion.target.level|","|").replace("||","|");
@@ -141,6 +141,14 @@ function parseLeague(league) {
 		keys = keys.replace("|playoff|","|").replace("||","|");
 	}
 
+	if ( league.level_playoff ) {
+		$("#tabLevelPlayoff").removeClass("d-none");
+		league.level_playoff.forEach(match=>{
+			drawMatch(match,"matches_level_playoff","level_playoff",true);
+		});
+		keys = keys.replace("|level_playoff|","|").replace("||","|");
+	}
+
 	// not shown
 	keys = keys.replace("|level|","|").replace("||","|");
 	keys = keys.replace("|teams|","|").replace("||","|");
@@ -193,7 +201,7 @@ function parseStanding(standing,pts_win=3) {
 	if ( standing.champion ) {
 		standingRow.addClass("is_champion");
 		standingNotes.append( $("<IMG/>").attr("src","assets/trophy.png").attr("alt","Champion").attr("title","Champion") );
-		standingNotes.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").html( getTitleCount(standing.title_count) ) );
+		standingNotes.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("champion").html( getTitleCount(standing.title_count) ) );
 		keys = keys.replace("|standings.champion|","|").replace("||","|");
 		keys = keys.replace("|standings.title_count|","|").replace("||","|");
 	}
@@ -201,15 +209,26 @@ function parseStanding(standing,pts_win=3) {
 	if ( standing.relegated ) {
 		standingRow.addClass("is_relegated");
 		standingNotes.append( $("<IMG/>").attr("src","assets/relegated.png").attr("alt","Relegated").attr("title","Relegated") );
-		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").html( "" ) );
+		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("relegate").html( "" ) );
 		keys = keys.replace("|standings.relegated|","|").replace("||","|");
 	}
 
 	if ( standing.promoted ) {
 		standingRow.addClass("is_promoted");
 		standingNotes.append( $("<IMG/>").attr("src","assets/promoted.png").attr("alt","Promoted").attr("title","Promoted") );
-		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").html( "" ) );
+		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("promote").html( "" ) );
 		keys = keys.replace("|standings.promoted|","|").replace("||","|");
+	}
+
+	if ( standing.playoff ) {
+		standingRow.addClass("go_playoff");
+		playoff = "Play-off";
+		switch ( standing.playoff ) {
+			case "level_playoff": playoff = "Promotion play-off"; break;
+			case "playoff": playoff = "Title Play-off"; break;
+		}
+		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("playoff").html( playoff ).attr("href","#").on("click",function(e){e.preventDefault();$("#"+standing.playoff+"-tab").click();}) );
+		keys = keys.replace("|standings.playoff|","|").replace("||","|");
 	}
 
 	standingRow.append(standingPlace).append(standingTeam).append(standingP).append(standingW).append(standingD).append(standingL).append(standingF).append(standingA).append(standingPts).append(standingGd).append(standingNotes);

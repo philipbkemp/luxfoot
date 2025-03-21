@@ -32,8 +32,9 @@ function checkParams(required) {
 function drawMatch(match,containerId,prefix,highlightWinner) {
 	prefix = "|" + prefix + ".";
 	keys += prefix + Object.keys(match).join(prefix) + "|";
+	winner = "";
 
-	matchObj = $("<DIV></DIV>").addClass("list-group-item");
+	matchObj = $("<DIV></DIV>").addClass("list-group-item").addClass("match-item");
 
 	matchRow = $("<DIV></DIV>").addClass("row");
 
@@ -51,22 +52,50 @@ function drawMatch(match,containerId,prefix,highlightWinner) {
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").html( allTeams[match.home] );
 	if ( highlightWinner && scoreH > scoreA ) {
 		matchHome.addClass("fw-bold");
+		winner = allTeams[match.home];
+	}
+	if ( match.homeDivision ) {
+		matchHome.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.homeDivision) );
+		keys = keys.replace(prefix+"homeDivision|","|").replace("||","|");
 	}
 	matchRow.append(matchHome);
 	keys = keys.replace(prefix+"home|","|").replace("||","|");
 
 	matchScore = $("<DIV></DIV>").addClass("col-1").addClass("text-center").html( match.score );
-	if ( highlightWinner && scoreH < scoreA ) {
-		matchAway.addClass("fw-bold");
-	}
 	matchRow.append(matchScore);
 	keys = keys.replace(prefix+"score|","|").replace("||","|");
 
 	matchAway = $("<DIV></DIV>").addClass("col-3").html( allTeams[match.away] );
+	if ( highlightWinner && scoreH < scoreA ) {
+		matchAway.addClass("fw-bold");
+		winner = allTeams[match.away];
+	}
+	if ( match.awayDivision ) {
+		matchAway.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.awayDivision) );
+		keys = keys.replace(prefix+"awayDivision|","|").replace("||","|");
+	}
 	matchRow.append(matchAway);
 	keys = keys.replace(prefix+"away|","|").replace("||","|");
 
 	matchObj.append(matchRow);
+
+	if ( match.promotion ) {
+		keys += prefix +"promotion." + Object.keys(match.promotion).join(prefix+"promotion.") + "|";
+
+		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
+		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(winner + " promoted to ");
+
+		matchNoteLink = $("<A></A>").attr("href","league.html?season="+match.promotion.season+"&level="+match.promotion.level).html(match.promotion.name);
+		keys = keys.replace(prefix+"promotion.name|","|").replace("||","|");
+		keys = keys.replace(prefix+"promotion.season|","|").replace("||","|");
+		keys = keys.replace(prefix+"promotion.level|","|").replace("||","|");
+
+		matchNote.append(matchNoteLink);
+
+		matchNoteRow.append(matchNote);
+		matchObj.append(matchNoteRow);
+		keys = keys.replace(prefix+"promotion|","|").replace("||","|");
+	}
 
 	// not shown
 	keys = keys.replace(prefix+"season|","|").replace("||","|");	
@@ -94,6 +123,9 @@ function getTitleCount(number) {
 }
 
 function invalid() {
+	if ( $(".alert.alert-danger").length !== 0 ) {
+		return;
+	}
 	$(".placeholder-glow").append(
 		$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load season")
 	);
