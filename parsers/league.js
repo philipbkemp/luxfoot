@@ -240,4 +240,5 @@ function parseStanding(standing,pts_win=3) {
 	keys = keys.replace("|standings.level|","|").replace("||","|");	
 	keys = keys.replace("|standings.league|","|").replace("||","|");
 	keys = keys.replace("|standings.series|","|").replace("||","|");
+	keys = keys.replace("|standings.pts_win|","|").replace("||","|");
 }

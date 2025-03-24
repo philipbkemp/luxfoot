@@ -129,7 +129,7 @@ function buildLeague(league,name) {
 
 	// not shown
 	leagueKeys = leagueKeys.replace(prefix+"winner","");
-	leagueKeys = leagueKeys.replace(prefix+"count","");
+	leagueKeys = leagueKeys.replace(prefix+"title_count","");
 
 	if ( leagueKeys.length !== 0 ) {
 		console.warn(leagueKeys);

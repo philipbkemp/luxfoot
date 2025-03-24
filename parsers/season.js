@@ -120,10 +120,10 @@ function showLeagueLevel(data,level,isSeries=false) {
 	levelOneColWinner = $("<DIV></DIV>").addClass("col-9").addClass("p-1").html(allTeams[data.winner]);
 	keys = keys.replace(prefix + "winner","");
 
-	if ( data.count ) {
-		levelWinnerCount = $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").html(getTitleCount(data.count));
+	if ( data.title_count ) {
+		levelWinnerCount = $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").html(getTitleCount(data.title_count));
 		levelOneColWinner.append(levelWinnerCount);
-		keys = keys.replace(prefix + "count","");
+		keys = keys.replace(prefix + "title_count","");
 	}
 
 	levelOneRow.append(levelOneColLevel);
