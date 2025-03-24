@@ -1,16 +1,16 @@
 {
-    "level": 2,
-    "season": "1915-16",
-    "name": "2. Division",
-    "teams": ["YBDK","SDIF","CPET"],
-    "pts_win": 2,
-    "standings": [
-        {"place":1,"team": "YBDK", "w": 3, "d": 1, "l": 0, "f": 7, "a": 2, "season":"1915-16","level":2,"league":"2. Division","promoted":true },
-        {"place":2,"team": "SDIF", "w": 2, "d": 0, "l": 2, "f": 9, "a": 7, "season":"1915-16","level":2,"league":"2. Division" },
-        {"place":3,"team": "CPET", "w": 0, "d": 1, "l": 3, "f": 2, "a": 9, "season":"1915-16","level":2,"league":"2. Division" }
-    ],
-    "promotion": {
-        "teams": ["YBDK"],
-        "target": {"season":"1916-17","level":1,"name":"1. Division"}
-    }
+	"level": 2,
+	"season": "1915-16",
+	"name": "2. Division",
+	"teams": ["CPET","SDIF","YBDK"],
+	"pts_win": 2,
+	"standings": [
+		{"place":  1, "team": "YBDK", "w":  3, "d":  1, "l":  0, "f":  7, "a":  2, "pts_win":  2, "season": "1915-16", "level": "2", "league": "2. Division", "promoted": true, "target": { "season": "1916-17", "level": 1, "name": "1. Division"}},
+		{"place":  2, "team": "SDIF", "w":  2, "d":  0, "l":  2, "f":  9, "a":  7, "pts_win":  2, "season": "1915-16", "level": "2", "league": "2. Division"},
+		{"place":  3, "team": "CPET", "w":  0, "d":  1, "l":  3, "f":  2, "a":  9, "pts_win":  2, "season": "1915-16", "level": "2", "league": "2. Division"}
+	],
+	"promotion": {
+		"teams": ["YBDK"],
+		"target": { "season": "1916-17", "level": 1, "name": "1. Division"}
+	}
 }
