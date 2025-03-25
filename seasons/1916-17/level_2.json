@@ -1,18 +1,18 @@
 {
-    "level": 2,
-    "season": "1916-17",
-    "name": "2. Division",
-    "teams": ["CPET","SDIF","SDUD","CSHL","UESH"],
-    "pts_win": 2,
-    "standings": [
-        {"place":1,"team": "CPET", "w": 5, "d": 2, "l": 1, "f": 22, "a": 11, "season":"1916-17","level":2,"league":"2. Division","promoted":true },
-        {"place":2,"team": "SDIF", "w": 5, "d": 1, "l": 2, "f": 26, "a": 12, "season":"1916-17","level":2,"league":"2. Division" },
-        {"place":3,"team": "SDUD", "w": 4, "d": 2, "l": 2, "f": 36, "a": 13, "season":"1916-17","level":2,"league":"2. Division" },
-        {"place":4,"team": "CSHL", "w": 2, "d": 1, "l": 5, "f": 15, "a": 28, "season":"1916-17","level":2,"league":"2. Division" },
-        {"place":5,"team": "UESH", "w": 1, "d": 0, "l": 7, "f": 6, "a": 41, "season":"1916-17","level":2,"league":"2. Division" }
-    ],
-    "promotion": {
-        "teams": ["CPET"],
-        "target": {"season":"1917-18","level":1,"name":"1. Division"}
-    }
+	"level": 2,
+	"season": "1916-17",
+	"name": "2. Division",
+	"teams": ["CPET","CSHL","SDIF","SDUD","UESH"],
+	"pts_win": 2,
+	"standings": [
+		{"place":  1, "team": "CPET", "w":  5, "d":  2, "l":  1, "f": 22, "a": 11, "pts_win":  2, "season": "1916-17", "level": "2", "league": "2. Division", "promoted": true, "target": { "season": "1917-18", "level": 1, "name": "1. Division"}},
+		{"place":  2, "team": "SDIF", "w":  5, "d":  1, "l":  2, "f": 26, "a": 12, "pts_win":  2, "season": "1916-17", "level": "2", "league": "2. Division"},
+		{"place":  3, "team": "SDUD", "w":  4, "d":  2, "l":  2, "f": 36, "a": 13, "pts_win":  2, "season": "1916-17", "level": "2", "league": "2. Division"},
+		{"place":  4, "team": "CSHL", "w":  2, "d":  1, "l":  5, "f": 15, "a": 28, "pts_win":  2, "season": "1916-17", "level": "2", "league": "2. Division"},
+		{"place":  5, "team": "UESH", "w":  1, "d":  0, "l":  7, "f":  6, "a": 41, "pts_win":  2, "season": "1916-17", "level": "2", "league": "2. Division"}
+	],
+	"promotion": {
+		"teams": ["CPET"],
+		"target": { "season": "1917-18", "level": 1, "name": "1. Division"}
+	}
 }
