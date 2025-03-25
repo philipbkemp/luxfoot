@@ -47,21 +47,30 @@ function parseSeasons(data) {
 
 			if ( thisLevel.series ) {
 
+				colName = $("<DIV></DIV>").addClass("col-1");
+				seasonLink = thisLevel.name;
+				colName.addClass("px-3").addClass("py-1");
+				colName.append(seasonLink);
+				row.append(colName);
+
 				thisLevel.series.forEach(serie=>{
 					keys = "|series." + Object.keys(serie).join("|series.") + "|";
 
-					seriesLink = $("<A></A>").attr("href","league.html?season="+season.season+"&level="+urlParams.level+"&series="+serie.series).html(serie.name.replace("Division ","Division<br/>").replace("Series ","S.")).addClass("p-1").addClass("d-block");
-					keys = keys.replace("|series.series|","|").replace("||","|");
-					colSeries = $("<DIV></DIV>").addClass("col-1").addClass("px-0").append(seriesLink);
-					row.append(colSeries);
-					keys = keys.replace("|series.name|","|").replace("||","|");
+					seriesDiv = $("<DIV></DIV>").addClass("col-2").addClass("py-1");
+					seriesDiv.append(allTeams[serie.winner]);
+					seriesDiv.append( $("<BR/>") );
 
-					colWinner = $("<DIV></DIV>").addClass("col-2").addClass("py-1").html(allTeams[serie.winner]);
-					row.append(colWinner);
-					keys = keys.replace("|series.winner|","|").replace("||","|");
+					seriesLink = $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("ms-0").html( serie.name );
+					seriesLink.attr("href","league.html?season="+thisLevel.season+"&level="+thisLevel.level+"&series="+serie.series);
+					seriesDiv.append(seriesLink);
+
+					row.append(seriesDiv);
 
 					keys = keys.replace("|series.season|","|").replace("||","|");
 					keys = keys.replace("|series.level|","|").replace("||","|");
+					keys = keys.replace("|series.series|","|").replace("||","|");
+					keys = keys.replace("|series.winner|","|").replace("||","|");
+					keys = keys.replace("|series.name|","|").replace("||","|");
 				});
 				keys = keys.replace("|series|","|").replace("||","|");
 
