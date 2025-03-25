@@ -2,17 +2,17 @@
     {
         "season": "1909-10",
         "leagues": {
-            "level_1": {"season": "1909-10","level":1,"name": "Klasse A", "winner": "RACL", "missing": true, "count":1}
+            "level_1": {"season": "1909-10","level":1,"name": "Klasse A", "winner": "RACL", "missing": true, "title_count":1}
         }
     },{
         "season": "1910-11",
         "leagues": {
-            "level_1": {"season": "1910-11","level":1,"name": "Klasse A", "winner": "SCLX", "missing": true, "count":1}
+            "level_1": {"season": "1910-11","level":1,"name": "Klasse A", "winner": "SCLX", "missing": true, "title_count":1}
         }
     },{
         "season": "1911-12",
         "leagues": {
-            "level_1": {"season": "1911-12","level":1,"name": "Klasse A", "winner": "HLBN", "missing": true, "count":1}
+            "level_1": {"season": "1911-12","level":1,"name": "Klasse A", "winner": "HLBN", "missing": true, "title_count":1}
         }
     },{
         "season": "1912-13",
@@ -20,32 +20,32 @@
     },{
         "season": "1913-14",
         "leagues": {
-            "level_1": {"season": "1913-14","level":1,"name": "1. Division", "winner": "HLBN", "missing": true, "count":2}
+            "level_1": {"season": "1913-14","level":1,"name": "1. Division", "winner": "HLBN", "missing": true, "title_count":2}
         }
     },{
         "season": "1914-15",
         "leagues": {
-            "level_1": {"season": "1914-15","level":1,"name": "1. Division", "winner": "HLBN", "missing": true, "count":3}
+            "level_1": {"season": "1914-15","level":1,"name": "1. Division", "winner": "HLBN", "missing": true, "title_count":3}
         }
     },{
-		"season": "1915-16",
-		"leagues": {
-			"level_1": {"season": "1915-16", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": "4"},
-			"level_2": {"season": "1915-16", "level":  2, "name": "2. Division", "winner": "YBDK"},
-			"level_3": {"season": "1915-16", "level":  3, "name": "3. Division", "series": [
-				{"season": "1915-16", "level":  3, "series":  1, "name": "3. Division Series 1", "winner": "CSHL"},
-				{"season": "1915-16", "level":  3, "series":  2, "name": "3. Division Series 2", "winner": "JBET"}
-			]}
-		}
-	},{
-		"season": "1916-17",
-		"leagues": {
-			"level_1": {"season": "1916-17", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": "5"},
-			"level_2": {"season": "1916-17", "level":  2, "name": "2. Division", "winner": "CPET"},
-			"level_3": {"season": "1916-17", "level":  3, "name": "3. Division", "series": [
-				{"season": "1916-17", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
-				{"season": "1916-17", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "URUM"}
-			]}
-		}
-	}
+        "season": "1915-16",
+        "leagues": {
+            "level_1": {"season": "1915-16", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": "4"},
+            "level_2": {"season": "1915-16", "level":  2, "name": "2. Division", "winner": "YBDK"},
+            "level_3": {"season": "1915-16", "level":  3, "name": "3. Division", "series": [
+                {"season": "1915-16", "level":  3, "series":  1, "name": "3. Division Series 1", "winner": "CSHL"},
+                {"season": "1915-16", "level":  3, "series":  2, "name": "3. Division Series 2", "winner": "JBET"}
+            ]}
+        }
+    },{
+        "season": "1916-17",
+        "leagues": {
+            "level_1": {"season": "1916-17", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": "5"},
+            "level_2": {"season": "1916-17", "level":  2, "name": "2. Division", "winner": "CPET"},
+            "level_3": {"season": "1916-17", "level":  3, "name": "3. Division", "series": [
+                {"season": "1916-17", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
+                {"season": "1916-17", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "URUM"}
+            ]}
+        }
+    }
 ]

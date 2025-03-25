@@ -121,7 +121,7 @@ function buildLeague(league,name) {
 
 	} else {
 		leagueKeys = leagueKeys.replace(prefix+"missing","");
-		ret = $("<SPAN></SPAN>").addClass("p-1").html(league.name + " <small class='fst-italic'>(No data)</small>)");
+		ret = $("<SPAN></SPAN>").addClass("p-1").html(league.name + " <small class='fst-italic'>(No data)</small>");
 		leagueKeys = leagueKeys.replace(prefix+"name","");
 		leagueKeys = leagueKeys.replace(prefix+"level","");
 		leagueKeys = leagueKeys.replace(prefix+"season","");

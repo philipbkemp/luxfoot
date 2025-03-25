@@ -58,6 +58,7 @@ function parseLeague(league) {
 		keys = keys.replace("|relegation.target.season|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.name|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.level|","|").replace("||","|");
+		keys = keys.replace("|standings.target|","|").replace("||","|");
 
 		keys = keys.replace("|relegation|","|").replace("||","|");
 		keys = keys.replace("|relegation.teams|","|").replace("||","|");
@@ -74,6 +75,7 @@ function parseLeague(league) {
 		keys = keys.replace("|promotion.target.season|","|").replace("||","|");
 		keys = keys.replace("|promotion.target.name|","|").replace("||","|");
 		keys = keys.replace("|promotion.target.level|","|").replace("||","|");
+		keys = keys.replace("|standings.target|","|").replace("||","|");
 
 		keys = keys.replace("|promotion|","|").replace("||","|");
 		keys = keys.replace("|promotion.teams|","|").replace("||","|");

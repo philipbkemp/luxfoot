@@ -1,17 +1,17 @@
 {
-	"level": 3,
-	"series": 1,
-	"season": "1916-17",
-	"name": "3. Division Series Luxemburg",
-	"teams": ["AVBG","JWMK","ROLG","WALF"],
-	"pts_win": 2,
-	"standings": [
-		{"place":  1, "team": "AVBG", "w":  6, "d":  0, "l":  0, "f": 51, "a":  5, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg", "playoff": "level_playoff"},
-		{"place":  2, "team": "JWMK", "w":  3, "d":  0, "l":  3, "f": 16, "a": 19, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg"},
-		{"place":  3, "team": "WALF", "w":  2, "d":  0, "l":  4, "f":  4, "a": 39, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg"},
-		{"place":  4, "team": "ROLG", "w":  1, "d":  0, "l":  5, "f": 10, "a": 18, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg"}
-	],
-	"playoff": [
-		{"home": "URUM", "homeDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"away": "AVBG", "awayDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"score": "6-2", "season": "1916-17", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1917-18", "level": 2, "name": "2. Division"}}
-	]
+    "level": 3,
+    "series": 1,
+    "season": "1916-17",
+    "name": "3. Division Series Luxemburg",
+    "teams": ["AVBG","JWMK","ROLG","WALF"],
+    "pts_win": 2,
+    "standings": [
+        {"place":  1, "team": "AVBG", "w":  6, "d":  0, "l":  0, "f": 51, "a":  5, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg", "playoff": "level_playoff"},
+        {"place":  2, "team": "JWMK", "w":  3, "d":  0, "l":  3, "f": 16, "a": 19, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg"},
+        {"place":  3, "team": "WALF", "w":  2, "d":  0, "l":  4, "f":  4, "a": 39, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg"},
+        {"place":  4, "team": "ROLG", "w":  1, "d":  0, "l":  5, "f": 10, "a": 18, "pts_win":  2, "season": "1916-17", "level": "3", "league": "3. Division Series Luxemburg"}
+    ],
+    "level_playoff": [
+        {"home": "URUM", "homeDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"away": "AVBG", "awayDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"score": "6-2", "season": "1916-17", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1917-18", "level": 2, "name": "2. Division"}}
+    ]
 }

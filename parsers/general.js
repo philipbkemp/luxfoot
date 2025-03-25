@@ -55,8 +55,12 @@ function drawMatch(match,containerId,prefix,highlightWinner) {
 		winner = allTeams[match.home];
 	}
 	if ( match.homeDivision ) {
-		matchHome.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.homeDivision) );
+		keys += prefix+"homeDivision." + Object.keys(match.homeDivision).join(prefix+"homeDivision.") + "|";
+		matchHome.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.homeDivision.name) );
 		keys = keys.replace(prefix+"homeDivision|","|").replace("||","|");
+		keys = keys.replace(prefix+"homeDivision.level|","|").replace("||","|");
+		keys = keys.replace(prefix+"homeDivision.series|","|").replace("||","|");
+		keys = keys.replace(prefix+"homeDivision.name|","|").replace("||","|");
 	}
 	matchRow.append(matchHome);
 	keys = keys.replace(prefix+"home|","|").replace("||","|");
@@ -71,8 +75,12 @@ function drawMatch(match,containerId,prefix,highlightWinner) {
 		winner = allTeams[match.away];
 	}
 	if ( match.awayDivision ) {
-		matchAway.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.awayDivision) );
+		keys += prefix+"awayDivision." + Object.keys(match.awayDivision).join(prefix+"awayDivision.") + "|";
+		matchAway.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.awayDivision.name) );
 		keys = keys.replace(prefix+"awayDivision|","|").replace("||","|");
+		keys = keys.replace(prefix+"awayDivision.level|","|").replace("||","|");
+		keys = keys.replace(prefix+"awayDivision.series|","|").replace("||","|");
+		keys = keys.replace(prefix+"awayDivision.name|","|").replace("||","|");
 	}
 	matchRow.append(matchAway);
 	keys = keys.replace(prefix+"away|","|").replace("||","|");
