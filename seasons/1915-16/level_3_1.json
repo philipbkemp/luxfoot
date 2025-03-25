@@ -11,7 +11,7 @@
 		{"place":  3, "team": "ROLG", "w":  1, "d":  0, "l":  3, "f":  8, "a": 13, "pts_win":  2, "season": "1915-16", "level": "3", "league": "3. Division Series 1"}
 	],
 	"playoff": [
-		{"home": "CSHL", "away": "JSTF", "score": "5-0", "season": "1915-16", "competition": {"type": "league", "round": "Winner playoff", "level": 3, "name": "3. Division Series 1"}}
+		{"home": "CSHL", "away": "JSTF", "score": "5-0", "season": "1915-16", "competition": {"type": "league", "round": "Winner playoff", "level": 3, "series": 1, "name": "3. Division Series 1"}}
 	],
 	"promotion": {
 		"teams": ["CSHL"],

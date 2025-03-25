@@ -11,7 +11,7 @@
 		{"place":  3, "team": "ERDU", "w":  0, "d":  0, "l":  4, "f":  2, "a":  7, "pts_win":  2, "season": "1915-16", "level": "3", "league": "3. Division Series 2"}
 	],
 	"playoff": [
-		{"home": "JBET", "away": "NSCH", "score": "4-0", "season": "1915-16", "competition": {"type": "league", "round": "Winner playoff", "level": 3, "name": "3. Division Series 2"}}
+		{"home": "JBET", "away": "NSCH", "score": "4-0", "season": "1915-16", "competition": {"type": "league", "round": "Winner playoff", "level": 3, "series": 2, "name": "3. Division Series 2"}}
 	],
 	"promotion": {
 		"teams": ["JBET"],
