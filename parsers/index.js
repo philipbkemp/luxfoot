@@ -24,7 +24,7 @@ function parseSeasons(data) {
 		row.append(colSeason);
 
 		if ( season.note ) {
-			colNote = $("<DIV></DIV>").addClass("col-11").addClass("fst-italic").html(season.note);
+			colNote = $("<DIV></DIV>").addClass("col-11").addClass("py-1").addClass("fst-italic").html(season.note);
 			keys = keys.replace("|note","");
 			row.append(colNote);
 		}
@@ -67,6 +67,7 @@ function parseSeasons(data) {
 
 	$(".placeholder-glow").hide();
 	$("#seasons").removeClass("d-none");
+	$("#history").removeClass("d-none");
 }
 
 function buildLeague(league,name) {
@@ -121,7 +122,7 @@ function buildLeague(league,name) {
 
 	} else {
 		leagueKeys = leagueKeys.replace(prefix+"missing","");
-		ret = $("<SPAN></SPAN>").addClass("p-1").html(league.name + " <small class='fst-italic'>(No data)</small>");
+		ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(league.name);
 		leagueKeys = leagueKeys.replace(prefix+"name","");
 		leagueKeys = leagueKeys.replace(prefix+"level","");
 		leagueKeys = leagueKeys.replace(prefix+"season","");

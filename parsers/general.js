@@ -149,13 +149,13 @@ function parseTeams(data) {
 	doneParsingTeams();	
 }
 
-function setTitles(season="",competition="") {
+function setTitles(pOne="",pTwo="") {
 	titleParts = ["LuxFoot"];
-	if ( season !== "" ) {
-		titleParts.push(season);
+	if ( pOne !== "" ) {
+		titleParts.push(pOne);
 	}
-	if ( competition !== "" ) {
-		titleParts.push(competition);
+	if ( pTwo !== "" ) {
+		titleParts.push(pTwo);
 	}
 
 	$("head title").html( titleParts.join(" / ") );

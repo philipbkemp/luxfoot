@@ -7,7 +7,7 @@ $(document).ready(function(){
 			success: function(data) {
 				parseTeams(data);
 			}
-		})
+		});
 
 	}
 
