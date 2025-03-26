@@ -32,7 +32,7 @@ function parseSeasons(data) {
 		if ( season.leagues ) {
 			keys = keys + "|leagues."+ Object.keys(season.leagues).join("|leagues.");
 
-			colLeague = $("<DIV></DIV>").addClass("col-3");
+			colLeague = $("<DIV></DIV>").addClass("col-2");
 
 			if ( season.leagues.level_1 ) {
 				colLeague.append( buildLeague(season.leagues.level_1,"leagues.level_1") );
@@ -98,12 +98,12 @@ function buildLeague(league,name) {
 			league.series.forEach(series=>{
 				seriesKeys = seriesPrefix+ Object.keys(series).join(seriesPrefix);
 
-				retSeries = $("<A></A>").addClass("d-block").addClass("p-1").addClass("ps-5");
+				retSeries = $("<A></A>").addClass("d-block").addClass("p-1").addClass("ps-4");
 				retSeries.attr("href","league.html?season="+league.season+"&level="+series.level+"&series="+series.series);
 				seriesKeys = seriesKeys.replace(seriesPrefix+"level","");
 				seriesKeys = seriesKeys.replace(seriesPrefix+"series","");
 				seriesKeys = seriesKeys.replace(seriesPrefix+"season","");
-				retSeries.html(series.name);
+				retSeries.html(series.name.replace(league.name+" ",""));
 				seriesKeys = seriesKeys.replace(seriesPrefix+"name","");
 
 				// winner not shown
