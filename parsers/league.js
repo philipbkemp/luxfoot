@@ -116,7 +116,18 @@ function parseLeague(league) {
 						} else if ( scoreH < scoreA ) {
 							scoreClass = "awayWin";
 						}
-						row.append( $("<TD></TD>").html(theMatch.score).addClass(scoreClass) );
+
+						if ( ! theMatch.forfeit ) {
+							row.append( $("<TD></TD>").html(theMatch.score).addClass(scoreClass) );
+						} else {
+							forfeit = $("<ABBR></ABBR>").attr("title","Match forfeited").html(theMatch.score);
+							row.append( $("<TD></TD>").html(forfeit).addClass(scoreClass) );
+
+							$("#results_notes").append(
+								$("<SMALL></SMALL>").addClass("list-group-item").html(allTeams[theMatch.home] + " v. " + allTeams[theMatch.away] + " awarded as "+theMatch.score+" by forfeit")
+							);
+							keys = keys.replace("|matches.forfeit|","|").replace("||","|");
+						}
 
 						keys = keys.replace("|matches.score|","|").replace("||","|");
 

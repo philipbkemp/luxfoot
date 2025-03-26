@@ -1,0 +1,52 @@
+{
+	"level": 1,
+	"season": "1917-18",
+	"name": "1. Division",
+	"teams": ["CPET","FOLA","HLBN","RACL","SCLX","YBDK"],
+	"pts_win": 2,
+	"standings": [
+		{"place":  1, "team": "FOLA", "w":  7, "d":  2, "l":  1, "f": 28, "a": 11, "pts_win":  2, "season": "1917-18", "level": "1", "league": "1. Division", "champion": true, "title_count":  1},
+		{"place":  2, "team": "HLBN", "w":  6, "d":  1, "l":  3, "f": 34, "a": 22, "pts_win":  2, "season": "1917-18", "level": "1", "league": "1. Division"},
+		{"place":  3, "team": "SCLX", "w":  4, "d":  2, "l":  4, "f": 19, "a": 17, "pts_win":  2, "season": "1917-18", "level": "1", "league": "1. Division"},
+		{"place":  4, "team": "YBDK", "w":  4, "d":  1, "l":  5, "f": 25, "a": 18, "pts_win":  2, "season": "1917-18", "level": "1", "league": "1. Division"},
+		{"place":  5, "team": "RACL", "w":  4, "d":  1, "l":  5, "f": 20, "a": 21, "pts_win":  2, "season": "1917-18", "level": "1", "league": "1. Division"},
+		{"place":  6, "team": "CPET", "w":  1, "d":  1, "l":  8, "f": 10, "a": 47, "pts_win":  2, "season": "1917-18", "level": "1", "league": "1. Division", "relegated": true, "target": {"season": "1918-19", "level": 2, "name": "2. Division"}}
+	],
+	"champion": "FOLA",
+	"relegation": {
+		"teams": ["CPET"],
+		"target": {"season": "1918-19", "level": 2, "name": "2. Division"}
+	},
+	"matches": [
+		{"home": "FOLA", "away": "HLBN", "score": "4-2", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "FOLA", "away": "SCLX", "score": "4-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "FOLA", "away": "YBDK", "score": "0-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "FOLA", "away": "RACL", "score": "5-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "FOLA", "away": "CPET", "score": "5-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "HLBN", "away": "FOLA", "score": "4-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "HLBN", "away": "SCLX", "score": "2-6", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "HLBN", "away": "YBDK", "score": "4-3", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "HLBN", "away": "RACL", "score": "2-2", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "HLBN", "away": "CPET", "score": "7-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "SCLX", "away": "FOLA", "score": "1-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "SCLX", "away": "HLBN", "score": "1-4", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "SCLX", "away": "YBDK", "score": "2-3", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "SCLX", "away": "RACL", "score": "2-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "SCLX", "away": "CPET", "score": "3-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "YBDK", "away": "FOLA", "score": "1-2", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "YBDK", "away": "HLBN", "score": "0-4", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "YBDK", "away": "SCLX", "score": "1-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "YBDK", "away": "RACL", "score": "3-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "YBDK", "away": "CPET", "score": "13-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "RACL", "away": "FOLA", "score": "1-3", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "RACL", "away": "HLBN", "score": "2-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "RACL", "away": "SCLX", "score": "0-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "RACL", "away": "YBDK", "score": "3-1", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "RACL", "away": "CPET", "score": "7-2", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "CPET", "away": "FOLA", "score": "0-3", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"},"forfeit":true},
+		{"home": "CPET", "away": "HLBN", "score": "2-4", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "CPET", "away": "SCLX", "score": "2-2", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "CPET", "away": "YBDK", "score": "2-0", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}},
+		{"home": "CPET", "away": "RACL", "score": "1-3", "season": "1917-18", "competition": {"type": "league", "level": 1, "name": "1. Division"}}
+	]
+}

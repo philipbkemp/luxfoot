@@ -38,7 +38,7 @@ function getTeam(team) {
 
    team =  team.replace(" (A)","");
 
-    teams = {"Alliance Dudelange":"ADUD","Avenir Beggen":"AVBG","The Belval Belvaux":"BLVL","CS Echternach":"CECH","CS Hollerich":"CSHL","CS Petange":"CPET","Etoile Bleu Dudelange":"EBDU","Etoile Rouge 1908 Dudelange":"ERDU","Fola Esch":"FOLA","US Hollerich/Bonnevoie":"HLBN","Jeunesse Bettembourg":"JBET","Jeunesse Esch":"JESH","Jeunesse 07 Kayl":"JKYL","Jeunesse Steinfort":"JSTF","Jeunesse Weimerskirch":"JWMK","CS Mondorf-les-Bains":"MDLB","National Schifflange":"NSCH","Phalanx Kleinbettingen":"PHLK","Racing Club Luxemburg":"RACL","CS Rollingergrund":"ROLG","Sporting Club Luxemburg":"SCLX","SC Differdange":"SDIF","Stade Dudelange":"SDUD","SC Tétange":"STET","US Esch":"UESH","US Rumelange":"URUM","US Dudelange":"USDD","Résidence Walferdange":"WALF","Young Boys Diekirch":"YBDK","US Hollerich/Bonneweg":"HLBN","CS Petingen":"CPET","Stade Düdelingen":"SDUD","SC Differdingen":"SDIF","Jeunesse de la frontière Steinfort":"JSTF","The National Schifflingen":"NSCH","Etoile Rouge 1908 Düdelingen":"ERDU","US Rümelingen":"URUM"};
+    teams = {"Alliance Dudelange":"ADUD","Avenir Beggen":"AVBG","The Belval Belvaux":"BLVL","CS Echternach":"CECH","CS Hollerich":"CSHL","CS Petange":"CPET","Etoile Bleu Dudelange":"EBDU","Etoile Rouge 1908 Dudelange":"ERDU","Fola Esch":"FOLA","US Hollerich/Bonnevoie":"HLBN","Jeunesse Bettembourg":"JBET","Jeunesse Esch":"JESH","Jeunesse 07 Kayl":"JKYL","Jeunesse Steinfort":"JSTF","Jeunesse Weimerskirch":"JWMK","CS Mondorf-les-Bains":"MDLB","National Schifflange":"NSCH","Phalanx Kleinbettingen":"PHLK","Racing Club Luxemburg":"RACL","CS Rollingergrund":"ROLG","Sporting Club Luxemburg":"SCLX","SC Differdange":"SDIF","Stade Dudelange":"SDUD","SC Tétange":"STET","US Esch":"UESH","US Rumelange":"URUM","US Dudelange":"USDD","Résidence Walferdange":"WALF","Young Boys Diekirch":"YBDK","US Hollerich/Bonneweg":"HLBN","CS Petingen":"CPET","Stade Düdelingen":"SDUD","SC Differdingen":"SDIF","Jeunesse de la frontière Steinfort":"JSTF","The National Schifflingen":"NSCH","Etoile Rouge 1908 Düdelingen":"ERDU","US Rümelingen":"URUM","Eclair Bettembourg":"ECBT","Alliance Düdelingen":"ADUD"};
     if ( teams[team] ) {
         return teams[team];
     }
@@ -182,8 +182,9 @@ function pullResults(table) {
     resTeams = [];
     matches = [];
     rows.forEach(row=>{
-        col1 = row.querySelector("td");
-        if ( col1.textContent.trim() !== "" ) {
+        cols = row.querySelectorAll("td");
+        col1 = cols[0];
+        if ( cols.length !== 1 && col1.textContent.trim() !== "" ) {
             resTeams.push( getTeam(col1.textContent.trim()) );
         }
     });
@@ -193,6 +194,8 @@ function pullResults(table) {
             // header 
         } else if ( cols[0].textContent.trim() === "" ) {
             // empty
+        } else if ( cols.length === 1 ) {
+            // note?
         } else {
             for ( c=1 ; c!==cols.length ; c++ ) {
                 score = cols[c].textContent.trim();
@@ -229,8 +232,9 @@ function pullCup(table) { console.log("CUP"); }
 function addPlayoff() {
     levelPart = parseInt(prompt("Level"));
     level = levelPart;
-    series = parseInt(prompt("Series"));
+    series = prompt("Series").trim();
     if ( series !== "" ) {
+        series = parseInt(series);
         level += "_" + series;
     }
     home = "";
@@ -319,6 +323,26 @@ function addLevelPlayoff() {
     }
     allLevelPlayoffs[level+"_"+homeSeries].push(playoffItem);
     allLevelPlayoffs[level+"_"+awaySeries].push(playoffItem);
+}
+
+function addForfeitMatch() {
+    levelPart = parseInt(prompt("Level"));
+    level = levelPart;
+    series = prompt("Series").trim();
+    if ( series !== "" ) {
+        series = parseInt(series);
+        level += "_" + series;
+    }
+    home = "";
+    while ( home === "" ) {
+        home = getTeamOrEmpty( prompt("Home team") );
+    }
+    away = "";
+    while ( away === "" ) {
+        away = getTeamOrEmpty( prompt("Away team") );
+    }
+    index = allMatches[level].findIndex(m=>{return m.home === home && m.away === away;});
+    allMatches[level][index].forfeit = true;
 }
 
 function buildLeague(level) {
@@ -410,7 +434,7 @@ function buildLeague(level) {
           out += '\t]';
     }
     if ( allLevelPlayoffs[level] ) {
-         out += ',\n\t"playoff": [\n';
+         out += ',\n\t"level_playoff": [\n';
          for ( mm=0 ; mm!==allLevelPlayoffs[level].length ; mm++ ) {
             m = allLevelPlayoffs[level][mm];
             out += '\t\t'+JSON.stringify(m)

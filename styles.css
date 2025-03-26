@@ -121,6 +121,9 @@ abbr {
 	text-underline-offset: 4px;
 	text-decoration-color: #CCCCCC !important;
 }
+#resultsTable tbody abbr {
+	text-decoration-color: black !important;
+}
 
 .match-item .match-note {
 	font-size: 0.8rem;
@@ -128,3 +131,4 @@ abbr {
 .match-item .fw-bold {
 	color: #2B5973;
 }
+

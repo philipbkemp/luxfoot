@@ -1,0 +1,17 @@
+{
+	"level": 3,
+	"series": 2,
+	"season": "1917-18",
+	"name": "3. Division Series Esch",
+	"teams": ["ADUD","ECBT","NSCH","STET"],
+	"pts_win": 2,
+	"standings": [
+		{"place":  1, "team": "STET", "w":  5, "d":  0, "l":  1, "f": 26, "a": 12, "pts_win":  2, "season": "1917-18", "level": "3", "league": "3. Division Series Esch", "playoff": "level_playoff"},
+		{"place":  2, "team": "ECBT", "w":  3, "d":  0, "l":  3, "f": 17, "a": 17, "pts_win":  2, "season": "1917-18", "level": "3", "league": "3. Division Series Esch"},
+		{"place":  3, "team": "NSCH", "w":  3, "d":  0, "l":  3, "f": 17, "a": 17, "pts_win":  2, "season": "1917-18", "level": "3", "league": "3. Division Series Esch"},
+		{"place":  4, "team": "ADUD", "w":  1, "d":  0, "l":  5, "f":  7, "a": 21, "pts_win":  2, "season": "1917-18", "level": "3", "league": "3. Division Series Esch"}
+	],
+	"level_playoff": [
+		{"home": "AVBG", "homeDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"away": "STET", "awayDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"score": "3-1", "season": "1917-18", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1918-19", "level": 2, "name": "2. Division"}}
+	]
+}

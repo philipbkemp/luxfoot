@@ -47,5 +47,15 @@
                 {"season": "1916-17", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "URUM"}
             ]}
         }
+    },{
+        "season": "1917-18",
+        "leagues": {
+            "level_1": {"season": "1917-18", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": "1"},
+            "level_2": {"season": "1917-18", "level":  2, "name": "2. Division", "winner": "JESH"},
+            "level_3": {"season": "1917-18", "level":  3, "name": "3. Division", "series": [
+                {"season": "1917-18", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
+                {"season": "1917-18", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "STET"}
+            ]}
+        }
     }
 ]
