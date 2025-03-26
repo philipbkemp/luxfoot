@@ -57,5 +57,15 @@
                 {"season": "1917-18", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "STET"}
             ]}
         }
-    }
+    },{
+		"season": "1918-19",
+		"leagues": {
+			"level_1": {"season": "1918-19", "level":  1, "name": "1. Division", "winner": "SCLX", "title_count": "2"},
+			"level_2": {"season": "1918-19", "level":  2, "name": "2. Division", "winner": "SDUD"},
+			"level_3": {"season": "1918-19", "level":  3, "name": "3. Division", "series": [
+				{"season": "1918-19", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "MDLB"},
+				{"season": "1918-19", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "CROD"}
+			]}
+		}
+	}
 ]
