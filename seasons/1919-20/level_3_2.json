@@ -1,0 +1,29 @@
+{
+	"level": 3,
+	"series": 2,
+	"season": "1919-20",
+	"name": "3. Division Series Süd",
+	"teams": ["ADUD","BLVL","ECBT","STET","UESH"],
+	"pts_win": 2,
+	"standings": [
+		{"place":  1, "team": "BLVL", "w":  6, "d":  0, "l":  2, "f": 22, "a": 15, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Süd", "playoff": "playoff", "promoted": true, "target": { "season": "1920-21", "level": 2, "name": "The Promotion"}},
+		{"place":  2, "team": "STET", "w":  6, "d":  0, "l":  2, "f": 34, "a": 10, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Süd", "playoff": "playoff"},
+		{"place":  3, "team": "ADUD", "w":  4, "d":  1, "l":  3, "f": 22, "a": 25, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Süd"},
+		{"place":  4, "team": "UESH", "w":  2, "d":  0, "l":  6, "f": 18, "a": 38, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Süd"},
+		{"place":  5, "team": "ECBT", "w":  1, "d":  1, "l":  6, "f": 15, "a": 23, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Süd", "relegated": true, "target": {"season": "1920-21", "level": 4, "name": "3. Division", "series": 2}}
+	],
+	"playoff": [
+		{"home": "BLVL", "away": "STET", "score": "2-1", "season": "1919-20", "competition": {"type": "league", "round": "Winner playoff", "level": 3, "series": 2, "name": "3. Division Series Süd"}}
+	],
+	"level_playoff": [
+		{"home": "TRIM", "homeDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"away": "STET", "awayDivision": {"level": 3, "series": 2, "name": "3. Division Series Süd"},"score": "1-0", "season": "1919-20", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1920-21", "level": 2, "name": "The Promotion"}}
+	],
+	"relegation": {
+		"teams": ["ECBT"],
+		"target": {"season": "1920-21", "level": 4, "name": "3. Division", "isSeries": true}
+	},
+	"promotion": {
+		"teams": ["BLVL"],
+		"target": { "season": "1920-21", "level": 2, "name": "The Promotion"}
+	}
+}

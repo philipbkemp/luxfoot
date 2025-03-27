@@ -67,5 +67,16 @@
 				{"season": "1918-19", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "CROD"}
 			]}
 		}
+	},{
+		"season": "1919-20",
+		"leagues": {
+			"level_1": {"season": "1919-20", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": "2"},
+			"level_2": {"season": "1919-20", "level":  2, "name": "2. Division", "winner": "RBDF"},
+			"level_3": {"season": "1919-20", "level":  3, "name": "3. Division", "series": [
+				{"season": "1919-20", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "PROG"},
+				{"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series Süd", "winner": "BLVL"},
+				{"season": "1919-20", "level":  3, "series":  3, "name": "3. Division Series West", "winner": "JSTF"}
+			]}
+		}
 	}
 ]

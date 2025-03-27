@@ -6,6 +6,7 @@ allStandings = {};
 allMatches = {};
 allPlayoffs = {}; allLevelPlayoffs = {};
 allPlayoffTeams = []; allLevelPlayoffTeams = [];
+thirdDivisionSeries = [];
 
 document.querySelectorAll("table").forEach(table=>{
     innerTables = table.querySelectorAll("table");
@@ -37,7 +38,7 @@ document.querySelectorAll("table").forEach(table=>{
 function getTeam(team) {
     team =  team.replace(" (A)","");
 
-    teams = {"US Hollerich-Bonneweg":"HLBN","CS Fola":"FOLA","Racing Club Luxembourg":"RACL","Sporting Club Luxembourg":"SCLX","Chiers Rodange":"CROD","Etoile Sportive Clemency":"CLMC","Swift Hesperingen":"SWFT","Etzella Ettelbrück":"ETZE","Alliance Dudelange":"ADUD","Avenir Beggen":"AVBG","The Belval Belvaux":"BLVL","CS Echternach":"CECH","CS Hollerich":"CSHL","CS Petange":"CPET","Etoile Bleu Dudelange":"EBDU","Etoile Rouge 1908 Dudelange":"ERDU","Fola Esch":"FOLA","US Hollerich/Bonnevoie":"HLBN","Jeunesse Bettembourg":"JBET","Jeunesse Esch":"JESH","Jeunesse 07 Kayl":"JKYL","Jeunesse Steinfort":"JSTF","Jeunesse Weimerskirch":"JWMK","CS Mondorf-les-Bains":"MDLB","National Schifflange":"NSCH","Phalanx Kleinbettingen":"PHLK","Racing Club Luxemburg":"RACL","CS Rollingergrund":"ROLG","Sporting Club Luxemburg":"SCLX","SC Differdange":"SDIF","Stade Dudelange":"SDUD","SC Tétange":"STET","US Esch":"UESH","US Rumelange":"URUM","US Dudelange":"USDD","Résidence Walferdange":"WALF","Young Boys Diekirch":"YBDK","US Hollerich/Bonneweg":"HLBN","CS Petingen":"CPET","Stade Düdelingen":"SDUD","SC Differdingen":"SDIF","Jeunesse de la frontière Steinfort":"JSTF","The National Schifflingen":"NSCH","Etoile Rouge 1908 Düdelingen":"ERDU","US Rümelingen":"URUM","Eclair Bettembourg":"ECBT","Alliance Düdelingen":"ADUD"};
+    teams = {"Jeunesse Hautcharage":"JHTC","Progrès Niederkorn":"PRON","Jeunesse Verlorenkost":"JVRL","Mansfeldia Clausen":"MANC","Tricolore Muhlenweg":"TRIM","Progrès Grund":"PROG","Red Boys Differdingen":"RBDF","US Hollerich-Bonneweg":"HLBN","CS Fola":"FOLA","Racing Club Luxembourg":"RACL","Sporting Club Luxembourg":"SCLX","Chiers Rodange":"CROD","Etoile Sportive Clemency":"CLMC","Swift Hesperingen":"SWFT","Etzella Ettelbrück":"ETZE","Alliance Dudelange":"ADUD","Avenir Beggen":"AVBG","The Belval Belvaux":"BLVL","CS Echternach":"CECH","CS Hollerich":"CSHL","CS Petange":"CPET","Etoile Bleu Dudelange":"EBDU","Etoile Rouge 1908 Dudelange":"ERDU","Fola Esch":"FOLA","US Hollerich/Bonnevoie":"HLBN","Jeunesse Bettembourg":"JBET","Jeunesse Esch":"JESH","Jeunesse 07 Kayl":"JKYL","Jeunesse Steinfort":"JSTF","Jeunesse Weimerskirch":"JWMK","CS Mondorf-les-Bains":"MDLB","National Schifflange":"NSCH","Phalanx Kleinbettingen":"PHLK","Racing Club Luxemburg":"RACL","CS Rollingergrund":"ROLG","Sporting Club Luxemburg":"SCLX","SC Differdange":"SDIF","Stade Dudelange":"SDUD","SC Tétange":"STET","US Esch":"UESH","US Rumelange":"URUM","US Dudelange":"USDD","Résidence Walferdange":"WALF","Young Boys Diekirch":"YBDK","US Hollerich/Bonneweg":"HLBN","CS Petingen":"CPET","Stade Düdelingen":"SDUD","SC Differdingen":"SDIF","Jeunesse de la frontière Steinfort":"JSTF","The National Schifflingen":"NSCH","Etoile Rouge 1908 Düdelingen":"ERDU","US Rümelingen":"URUM","Eclair Bettembourg":"ECBT","Alliance Düdelingen":"ADUD"};
     if ( teams[team] ) {
         return teams[team];
     }
@@ -74,12 +75,16 @@ function findLeague(league) {
             break;
         case "3. Division - Bezirk Luxemburg":
         case "3. Division - Bezirk Esch":
+        case "3. Division - Süd-Bezirk":
+        case "3. Division - West-Bezirk":
             theLeague.level = 3;
-            theLeague.series = theLeague.name.split(" - ")[1].split(" ")[1].trim();
-            if ( theLeague.series === "Luxemburg" ) { theLeague.series = 1;
-            } else if ( theLeague.series === "Esch" ) { theLeague.series = 2;
+            if ( thirdDivisionSeries.includes(league) ) {
+                theLeague.series = thirdDivisionSeries.indexOf(leaguge) +1;
+            } else {
+                thirdDivisionSeries.push(league);
+                theLeague.series = thirdDivisionSeries.length;
             }
-            theLeague.name = theLeague.name.replace(" - "," Series ").replace("Bezirk ","");
+            theLeague.name = theLeague.name.replace(" - "," Series ").replace("Bezirk ","").replace("-Bezirk","");
             break;
         default:
             console.error("Unknown league",league);
@@ -228,23 +233,27 @@ function pullResults(table) {
 
 function pullCup(table) { console.log("CUP"); }
 
-function addPlayoff() {
-    levelPart = parseInt(prompt("Level"));
+function addTitlePlayoff(levelPart=-1,home="",away="",score="",series=-1) {
+    if ( levelPart === -1 ) { levelPart = parseInt(prompt("Level")); }
     level = levelPart;
-    series = prompt("Series").trim();
-    if ( series !== "" ) {
-        series = parseInt(series);
+    if ( series === -1 ) {
+        series = prompt("Series").trim();
+        if ( series !== "" ) {
+            series = parseInt(series);
+            level += "_" + series;
+        }
+    } else if ( series !== "" ) {
         level += "_" + series;
     }
-    home = "";
+    if ( home !== "" ) { home = getTeamOrEmpty(home); }
     while ( home === "" ) {
         home = getTeamOrEmpty( prompt("Home team") );
     }
-    away = "";
+    if ( away !== "" ) { away = getTeamOrEmpty(away); }
     while ( away === "" ) {
         away = getTeamOrEmpty( prompt("Away team") );
     }
-    score = prompt("Score");
+    if ( score === -1 ) { score = prompt("Score"); }
 
     if ( ! allPlayoffs[level] ) {
         allPlayoffs[level] = [];
@@ -266,22 +275,24 @@ function addPlayoff() {
             name: allStandings[level][0].league
         }
     });
+
+    console.log('\x1B[97;42;4m - title playoff noted - \x1B[m');
 }
 
-function addLevelPlayoff() {
-    levelPart = parseInt(prompt("Level"));
+function addLevelPlayoff(levelPart=-1,home="",homeSeries=-1,away="",awaySeries=-1,score="") {
+    if ( levelPart === -1 ) { levelPart = parseInt(prompt("Level")); }
     level = levelPart;
-    home = "";
+    if ( home !== "" ) { home = getTeamOrEmpty(home); }
     while ( home === "" ) {
         home = getTeamOrEmpty( prompt("Home team") );
     }
-    homeSeries = parseInt(prompt("Home team Series"));
-    away = "";
+    if ( homeSeries === -1 ) { homeSeries = parseInt(prompt("Home team Series")); }
+    if ( away !== "" ) { away = getTeamOrEmpty(away); }
     while ( away === "" ) {
         away = getTeamOrEmpty( prompt("Away team") );
     }
-    awaySeries = parseInt(prompt("Away team Series"));
-    score = prompt("Score");
+    if ( awaySeries === -1 ) { awaySeries = parseInt(prompt("Away team Series")); }
+    if ( score === "" ) { score = prompt("Score"); }
 
     allLevelPlayoffTeams.push(home);
     allLevelPlayoffTeams.push(away);
@@ -322,26 +333,32 @@ function addLevelPlayoff() {
     }
     allLevelPlayoffs[level+"_"+homeSeries].push(playoffItem);
     allLevelPlayoffs[level+"_"+awaySeries].push(playoffItem);
+    console.log('\x1B[97;42;4m - level playoff noted - \x1B[m');
 }
 
-function addForfeitMatch() {
-    levelPart = parseInt(prompt("Level"));
+function addForfeitMatch(levelPart=-1,home="",away="",series=-1) {
+    if ( levelPart === -1 ) { levelPart = parseInt(prompt("Level")); }
     level = levelPart;
-    series = prompt("Series").trim();
-    if ( series !== "" ) {
-        series = parseInt(series);
+    if ( series === -1 ) {
+        series = prompt("Series").trim();
+        if ( series !== "" ) {
+            series = parseInt(series);
+            level += "_" + series;
+        }
+    } else if ( series !== "" ) {
         level += "_" + series;
     }
-    home = "";
+    if ( home !== "" ) { home = getTeamOrEmpty(home); }
     while ( home === "" ) {
         home = getTeamOrEmpty( prompt("Home team") );
     }
-    away = "";
+    if ( away !== "" ) { away = getTeamOrEmpty(away); }
     while ( away === "" ) {
         away = getTeamOrEmpty( prompt("Away team") );
     }
     index = allMatches[level].findIndex(m=>{return m.home === home && m.away === away;});
     allMatches[level][index].forfeit = true;
+    console.log('\x1B[97;42;4m - forfeit noted - \x1B[m');
 }
 
 function buildLeague(level) {
@@ -461,7 +478,11 @@ function buildLeague(level) {
          rTarget += '"season": "'+prompt(rNote+": Season",rSeason)+'",';
          rLevel = parseInt(prompt(rNote+": Level",allStandings[level][0].level+1));
          rTarget += ' "level": '+rLevel+',';
-         rTarget += ' "name": "'+prompt(rNote+": League",allStandings[rLevel][0].league)+'"';
+         if ( ! allStandings[rLevel] ) {
+            rTarget += ' "name": "'+prompt(rNote+": League")+'"';
+         } else {
+            rTarget += ' "name": "'+prompt(rNote+": League",allStandings[rLevel][0].league)+'"';
+         }
          rTarget += '}';
          out += rTarget + '\n';
          out += '\t}';
