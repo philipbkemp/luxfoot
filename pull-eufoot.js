@@ -122,6 +122,7 @@ for ( p=0 ; p!==players.length ; p++ ) {
     myGoals = luxGoals.filter(g=>{return g.scorer === pname;});
     if ( myGoals.length !== 0 ) {
         out += ' "goals": ' + JSON.stringify(myGoals) + ',';
+        out = out.replaceAll('"scorer": "'+pname+'"','"pid": '+(pid+"").padStart(5," ")+', "scorer": "'+pname+'"')
     }
     out += ' "capNumber": '+capNumber+',';
     out += ' "club": "'+club+'",';
