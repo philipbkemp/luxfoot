@@ -120,6 +120,7 @@ h1 a {
 abbr {
 	text-underline-offset: 4px;
 	text-decoration-color: #CCCCCC !important;
+	color: black;
 }
 #resultsTable tbody abbr {
 	text-decoration-color: black !important;
