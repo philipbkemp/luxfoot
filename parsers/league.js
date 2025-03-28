@@ -251,12 +251,23 @@ function parseStanding(standing,pts_win=3) {
 
 	if ( standing.playoff ) {
 		standingRow.addClass("go_playoff");
-		playoff = "Play-off";
-		switch ( standing.playoff ) {
-			case "level_playoff": playoff = "Promotion play-off"; break;
-			case "playoff": playoff = "Title Play-off"; break;
+		if ( standing.playoff.indexOf("|") === -1 ) {
+			playoff = "Play-off";
+			switch ( standing.playoff ) {
+				case "level_playoff": playoff = "Promotion play-off"; break;
+				case "playoff": playoff = "Title Play-off"; break;
+			}
+			standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("ms-0").addClass("playoff").html( playoff ).attr("href","#").on("click",function(e){e.preventDefault();$("#"+standing.playoff+"-tab").click();}) );
+		} else {
+			standing.playoff.split("|").forEach(po=>{
+				playoff = "Play-off";
+				switch ( po ) {
+					case "level_playoff": playoff = "Promotion play-off"; break;
+					case "playoff": playoff = "Title Play-off"; break;
+				}
+				standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("ms-0").addClass("playoff").html( playoff ).attr("href","#").on("click",function(e){e.preventDefault();$("#"+po+"-tab").click();}) );
+			});
 		}
-		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("ms-0").addClass("playoff").html( playoff ).attr("href","#").on("click",function(e){e.preventDefault();$("#"+standing.playoff+"-tab").click();}) );
 		keys = keys.replace("|standings.playoff|","|").replace("||","|");
 	}
 

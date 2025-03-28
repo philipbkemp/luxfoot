@@ -66,11 +66,11 @@ h1 a {
 .is_relegated > * {
     background-color: #DCB6B6 !important;
 }
-.is_promoted > * {
-	background-color: #DCF1DA !important;
-}
 .go_playoff > * {
     background-color: #F1F9F0 !important;
+}
+.is_promoted > * {
+	background-color: #DCF1DA !important;
 }
 
 .nav-tabs {
