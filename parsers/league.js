@@ -54,10 +54,19 @@ function parseLeague(league) {
 		keys += "|relegation.target." + Object.keys(league.relegation.target).join("|relegation.target.") + "|";
 		keys = keys.replace("|relegation.target|","|").replace("||","|");
 
-		$(".is_relegated .badge-titleCount.relegate").html("Relegated to "+league.relegation.target.name).attr("href","league.html?season="+league.relegation.target.season+"&level="+league.relegation.target.level);
+		relegateLevel = league.relegation.target.level;
+
+		Array.from($(".is_relegated .badge-titleCount.relegate")).forEach(x=>{
+			relegateThisLevel = relegateLevel;
+			if ( league.relegation.target.isSeries ) {
+				relegateThisLevel += "&series=" + $(x).attr("data-series");
+			}
+			$(x).html("Relegated to "+league.relegation.target.name).attr("href","league.html?season="+league.relegation.target.season+"&level="+relegateThisLevel);
+		});
 		keys = keys.replace("|relegation.target.season|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.name|","|").replace("||","|");
 		keys = keys.replace("|relegation.target.level|","|").replace("||","|");
+		keys = keys.replace("|relegation.target.isSeries|","|").replace("||","|");
 		keys = keys.replace("|standings.target|","|").replace("||","|");
 
 		keys = keys.replace("|relegation|","|").replace("||","|");
@@ -223,7 +232,11 @@ function parseStanding(standing,pts_win=3) {
 	if ( standing.relegated ) {
 		standingRow.addClass("is_relegated");
 		standingIcon.append( $("<IMG/>").attr("src","assets/relegated.png").attr("alt","Relegated").attr("title","Relegated") );
-		standingNotes.append( $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("ms-0").addClass("relegate").html( "" ) );
+		badgeRelegate = $("<A></A>").addClass("badge").addClass("badge-titleCount").addClass("ms-0").addClass("relegate").html( "" );
+		if ( standing.target && standing.target.series ) {
+			badgeRelegate.attr("data-series",standing.target.series);
+		}
+		standingNotes.append( badgeRelegate );
 		keys = keys.replace("|standings.relegated|","|").replace("||","|");
 	}
 
