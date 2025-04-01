@@ -112,7 +112,7 @@ function buildLeague(league,name) {
 					retSeries = $("<A></A>").addClass("d-block").addClass("p-1").addClass("ps-4");
 					retSeries.attr("href","league.html?season="+league.season+"&level="+series.level+"&series="+series.series);
 				} else {
-					retSeries = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(league.name);
+					retSeries = $("<SPAN></SPAN>").addClass("p-1").addClass("ps-4").addClass("d-block").html(league.name);
 					seriesKeys = seriesKeys.replace(seriesPrefix+"missing","");
 				}
 				seriesKeys = seriesKeys.replace(seriesPrefix+"level","");
