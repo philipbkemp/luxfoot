@@ -62,6 +62,12 @@ function doneParsingTeams() {
 		if ( season.leagues.level_3 ) {
 			showLeagueLevel(season.leagues.level_3,"leagues.level_3");
 		}
+		if ( season.leagues.level_4 ) {
+			showLeagueLevel(season.leagues.level_4,"leagues.level_4");
+		}
+		if ( season.leagues.level_5 ) {
+			showLeagueLevel(season.leagues.level_5,"leagues.level_5");
+		}
 	}
 
 	if ( season.note ) {
