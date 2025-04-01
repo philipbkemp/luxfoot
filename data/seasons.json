@@ -104,7 +104,27 @@
 			]}
 		},
         "cup": {
-            "cup_luxembourg": {"missing":true,"season": "1921-11", "name": "Luxembourg Cup", "winner": "RACL", "title_count": 1}
+            "cup_luxembourg": {"missing":true,"season": "1921-11", "name": "Luxembourg Cup", "winner": "RACL", "title_count": 1, "winner_division": {"level": 2,"name": "The Promotion"}}
+        }
+	},{
+		"season": "1922-23",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1922-23", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 1},
+			"level_2": {"missing":true,"season": "1922-23", "level":  2, "name": "The Promotion", "winner": "RBPF"},
+			"level_3": {"season": "1922-23", "level":  3, "name": "2. Division", "series": [
+                {"missing":true,"season": "1922-23", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "RPDN"},
+				{"missing":true,"season": "1922-23", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "USDD"},
+				{"missing":true,"season": "1922-23", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "PRON"}
+            ]},
+			"level_4": {"season": "1922-23", "level":  4, "name": "3. Division", "series": [
+				{"missing":true,"season": "1922-23", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "ASLX"},
+				{"missing":true,"season": "1922-23", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "ETZE"},
+				{"missing":true,"season": "1922-23", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "ASDF"},
+				{"missing":true,"season": "1922-23", "level":  4, "series":  4, "name": "3. Division Series 4", "winner": "JKYL"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1922-13", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	}
 ]
