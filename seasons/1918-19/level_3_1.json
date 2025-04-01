@@ -3,15 +3,15 @@
 	"series": 1,
 	"season": "1918-19",
 	"name": "3. Division Series Luxemburg",
-	"teams": ["CLMC","ETZE","MDLB","SWFT"],
+	"teams": ["CLMC","ETZE","CMLB","SWFT"],
 	"pts_win": 2,
 	"standings": [
-		{"place":  1, "team": "MDLB", "w":  6, "d":  0, "l":  0, "f": 33, "a":  4, "pts_win":  2, "season": "1918-19", "level": "3", "league": "3. Division Series Luxemburg", "playoff": "level_playoff"},
+		{"place":  1, "team": "CMLB", "w":  6, "d":  0, "l":  0, "f": 33, "a":  4, "pts_win":  2, "season": "1918-19", "level": "3", "league": "3. Division Series Luxemburg", "playoff": "level_playoff"},
 		{"place":  2, "team": "ETZE", "w":  4, "d":  0, "l":  2, "f": 15, "a": 14, "pts_win":  2, "season": "1918-19", "level": "3", "league": "3. Division Series Luxemburg"},
 		{"place":  3, "team": "SWFT", "w":  2, "d":  0, "l":  4, "f":  8, "a": 10, "pts_win":  2, "season": "1918-19", "level": "3", "league": "3. Division Series Luxemburg"},
 		{"place":  4, "team": "CLMC", "w":  0, "d":  0, "l":  6, "f":  2, "a": 30, "pts_win":  2, "season": "1918-19", "level": "3", "league": "3. Division Series Luxemburg"}
 	],
 	"level_playoff": [
-		{"home": "NSCH", "homeDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"away": "MDLB", "awayDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"score": "7-2", "season": "1918-19", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1919-20", "level": 2, "name": "2. Division"}}
+		{"home": "NSCH", "homeDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"away": "CMLB", "awayDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"score": "7-2", "season": "1918-19", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1919-20", "level": 2, "name": "2. Division"}}
 	]
 }

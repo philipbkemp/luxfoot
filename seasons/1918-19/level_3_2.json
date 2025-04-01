@@ -13,7 +13,7 @@
 		{"place":  5, "team": "ADUD", "w":  2, "d":  0, "l":  6, "f":  9, "a": 28, "pts_win":  2, "season": "1918-19", "level": "3", "league": "3. Division Series Esch"}
 	],
 	"level_playoff": [
-		{"home": "NSCH", "homeDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"away": "MDLB", "awayDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"score": "7-2", "season": "1918-19", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1919-20", "level": 2, "name": "2. Division"}}
+		{"home": "NSCH", "homeDivision": {"level": 3, "series": 2, "name": "3. Division Series Esch"},"away": "CMLB", "awayDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"score": "7-2", "season": "1918-19", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1919-20", "level": 2, "name": "2. Division"}}
 	],
 	"promotion": {
 		"teams": ["CROD","NSCH"],

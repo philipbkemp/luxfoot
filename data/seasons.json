@@ -63,7 +63,7 @@
 			"level_1": {"season": "1918-19", "level":  1, "name": "1. Division", "winner": "SCLX", "title_count": 2},
 			"level_2": {"season": "1918-19", "level":  2, "name": "2. Division", "winner": "SDUD"},
 			"level_3": {"season": "1918-19", "level":  3, "name": "3. Division", "series": [
-				{"season": "1918-19", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "MDLB"},
+				{"season": "1918-19", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "CMLB"},
 				{"season": "1918-19", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "CROD"}
 			]}
 		}
@@ -74,7 +74,7 @@
 			"level_2": {"season": "1919-20", "level":  2, "name": "2. Division", "winner": "RBDF"},
 			"level_3": {"season": "1919-20", "level":  3, "name": "3. Division", "series": [
 				{"season": "1919-20", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "PROG"},
-				{"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series Süd", "winner": "BLVL"},
+				{"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series South", "winner": "BLVL"},
 				{"season": "1919-20", "level":  3, "series":  3, "name": "3. Division Series West", "winner": "JSTF"}
 			]}
 		}
@@ -86,8 +86,8 @@
 			"level_3": {"missing":true,"season": "1920-21", "level":  3, "name": "2. Division", "winner": "STET"},
 			"level_4": {"season": "1920-21", "level":  4, "name": "3. Division", "series": [
 				{"missing":true,"season": "1920-21", "level":  4, "series":  1, "name": "3. Division Series Luxemburg", "winner": "RBPF"},
-				{"missing":true,"season": "1920-21", "level":  4, "series":  2, "name": "3. Division Series Süd", "winner": "ECBT"},
-				{"missing":true,"season": "1920-21", "level":  4, "series":  3, "name": "3. Division Series Südwest", "winner": "FCOB"}
+				{"missing":true,"season": "1920-21", "level":  4, "series":  2, "name": "3. Division Series South", "winner": "ECBT"},
+				{"missing":true,"season": "1920-21", "level":  4, "series":  3, "name": "3. Division Series South West", "winner": "FCOB"}
 			]}
 		}
 	},{
@@ -98,9 +98,9 @@
 			"level_3": {"missing":true,"season": "1921-22", "level":  3, "name": "2. Division", "winner": "RBPF"},
 			"level_4": {"season": "1921-22", "level":  4, "name": "3. Division", "series": [
 				{"missing":true,"season": "1921-22", "level":  4, "series":  1, "name": "3. Division Series Luxemburg", "winner": "JWAS"},
-				{"missing":true,"season": "1921-22", "level":  4, "series":  2, "name": "3. Division Series Süd", "winner": "USDD"},
-				{"missing":true,"season": "1921-22", "level":  4, "series":  3, "name": "3. Division Series Südwest", "winner": "JHTC"},
-				{"missing":true,"season": "1921-22", "level":  4, "series":  4, "name": "3. Division Series Nord", "winner": "YBDK"}
+				{"missing":true,"season": "1921-22", "level":  4, "series":  2, "name": "3. Division Series South", "winner": "USDD"},
+				{"missing":true,"season": "1921-22", "level":  4, "series":  3, "name": "3. Division Series South West", "winner": "JHTC"},
+				{"missing":true,"season": "1921-22", "level":  4, "series":  4, "name": "3. Division Series North", "winner": "YBDK"}
 			]}
 		},
         "cup": {
@@ -129,7 +129,7 @@
 	},{
 		"season": "1923-24",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1923-24", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 4},
+			"level_1": {"missing":true,"season": "1923-24", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 4, "double": true},
 			"level_2": {"missing":true,"season": "1923-24", "level":  2, "name": "The Promotion", "winner": "PROG"},
 			"level_3": {"season": "1923-24", "level":  3, "name": "2. Division", "series": [
                 {"missing":true,"season": "1923-24", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "YBDK"},
@@ -143,7 +143,7 @@
 			]}
 		},
         "cup": {
-            "cup_luxembourg": {"missing":true,"season": "1923-24", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 2, "winner_division": {"level": 1,"name": "1. Division"}}
+            "cup_luxembourg": {"missing":true,"season": "1923-24", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
 		"season": "1924-25",
@@ -245,6 +245,198 @@
 		},
         "cup": {
             "cup_luxembourg": {"missing":true,"season": "1929-30", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 5, "winner_division": {"level": 1,"name": "1. Division"}}
+        }
+	},{
+		"season": "1930-31",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1930-31", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 3, "double": true},
+			"level_2": {"missing":true,"season": "1930-31", "level":  2, "name": "The Promotion", "winner": "USDD"},
+			"level_3": {"season": "1930-31", "level":  3, "name": "2. Division", "series": [
+                {"missing":true,"season": "1930-31", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "AVBG"},
+				{"missing":true,"season": "1930-31", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"}
+            ]},
+			"level_4": {"season": "1930-31", "level":  4, "name": "3. Division", "series": [
+				{"missing":true,"season": "1930-31", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "SCLX"},
+				{"missing":true,"season": "1930-31", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "JWAS"},
+				{"missing":true,"season": "1930-31", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "MANC"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1930-31", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 6, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
+        }
+	},{
+		"season": "1931-32",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1931-32", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 4},
+			"level_2": {"missing":true,"season": "1931-32", "level":  2, "name": "The Promotion", "winner": "SDUD"},
+			"level_3": {"season": "1931-32", "level":  3, "name": "2. Division", "series": [
+                {"missing":true,"season": "1931-32", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SCBT"},
+				{"missing":true,"season": "1931-32", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "BLVL"}
+            ]},
+			"level_4": {"season": "1931-32", "level":  4, "name": "3. Division", "series": [
+				{"missing":true,"season": "1931-32", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "CSOB"},
+				{"missing":true,"season": "1931-32", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "AREM"},
+				{"missing":true,"season": "1931-32", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "ETZE"},
+				{"missing":true,"season": "1931-32", "level":  4, "series":  4, "name": "3. Division Series 4", "winner": "CGRV"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1931-32", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 2, "winner_division": {"level": 1,"name": "1. Division"}}
+        }
+	},{
+		"season": "1932-33",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1932-33", "level":  1, "name": "Honour Division", "winner": "RBDF", "title_count": 5},
+			"level_2": {"missing":true,"season": "1932-33", "level":  2, "name": "1.  Division", "winner": "USDD"},
+			"level_3": {"missing":true,"season": "1932-33", "level":  3, "name": "The Promotion", "winner": "CROD"},
+			"level_4": {"season": "1932-33", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1932-33", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "RSML"},
+				{"missing":true,"season": "1932-33", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JWAS"}
+            ]},
+			"level_5": {"season": "1932-33", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1932-33", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "UMRT"},
+				{"missing":true,"season": "1932-33", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1932-33", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1933-34",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1933-34", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 4},
+			"level_2": {"missing":true,"season": "1933-34", "level":  2, "name": "1.  Division", "winner": "RBPF"},
+			"level_3": {"missing":true,"season": "1933-34", "level":  3, "name": "The Promotion", "winner": "CPET"},
+			"level_4": {"season": "1933-34", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1933-34", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "TRIM"},
+				{"missing":true,"season": "1933-34", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "CSOB"}
+            ]},
+			"level_5": {"season": "1933-34", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1933-34", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "DARE"},
+				{"missing":true,"season": "1933-34", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "RBAS"},
+				{"missing":true,"season": "1933-34", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MANC"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1933-34", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 7, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1934-35",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1934-35", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 5},
+			"level_2": {"missing":true,"season": "1934-35", "level":  2, "name": "1.  Division", "winner": "FOLA"},
+			"level_3": {"missing":true,"season": "1934-35", "level":  3, "name": "The Promotion", "winner": "BLVL"},
+			"level_4": {"season": "1934-35", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1934-35", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "EGWM"},
+				{"missing":true,"season": "1934-35", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "CSHL"}
+            ]},
+			"level_5": {"season": "1934-35", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1934-35", "level":  5, "series":  1, "name": "3. Division Series North", "winner": "GSWW"},
+				{"missing":true,"season": "1934-35", "level":  5, "series":  2, "name": "3. Division Series Central", "winner": "WALF"},
+				{"missing":true,"season": "1934-35", "level":  5, "series":  3, "name": "3. Division Series East", "winner": "MDLB"},
+				{"missing":true,"season": "1934-35", "level":  5, "series":  4, "name": "4. Division Series South", "winner": "RROD"},
+				{"missing":true,"season": "1934-35", "level":  5, "series":  5, "name": "4. Division Series West", "winner": "RPDN"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1934-35", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1935-36",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1935-36", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 6},
+			"level_2": {"missing":true,"season": "1935-36", "level":  2, "name": "1.  Division", "winner": "PRON"},
+			"level_3": {"missing":true,"season": "1935-36", "level":  3, "name": "The Promotion", "winner": "AREM"},
+			"level_4": {"season": "1935-36", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1935-36", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "UESH"},
+				{"missing":true,"season": "1935-36", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "YBDK"}
+            ]},
+			"level_5": {"season": "1935-36", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1935-36", "level":  5, "series":  1, "name": "3. Division Series North", "winner": "ETZE"},
+				{"missing":true,"season": "1935-36", "level":  5, "series":  2, "name": "3. Division Series East", "winner": "JGIL"},
+				{"missing":true,"season": "1935-36", "level":  5, "series":  3, "name": "4. Division Series South", "winner": "UBSH"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1935-36", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 8, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1936-37",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1936-37", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 2, "double": true},
+			"level_2": {"missing":true,"season": "1936-37", "level":  2, "name": "1.  Division", "winner": "ASDF"},
+			"level_3": {"missing":true,"season": "1936-37", "level":  3, "name": "The Promotion", "winner": "ADUD"},
+			"level_4": {"season": "1936-37", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1936-37", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SCBT"},
+				{"missing":true,"season": "1936-37", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "BBML"}
+            ]},
+			"level_5": {"season": "1936-37", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1936-37", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "MARM"},
+				{"missing":true,"season": "1936-37", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "RUPL"},
+				{"missing":true,"season": "1936-37", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "ASCH"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1936-37", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1937-38",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1937-38", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 7},
+			"level_2": {"missing":true,"season": "1937-38", "level":  2, "name": "1.  Division", "winner": "AVBG"},
+			"level_3": {"missing":true,"season": "1937-38", "level":  3, "name": "The Promotion", "winner": "YBDK"},
+			"level_4": {"season": "1937-38", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1937-38", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "RROD"},
+				{"missing":true,"season": "1937-38", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JWAS"}
+            ]},
+			"level_5": {"season": "1937-38", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1937-38", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "CGRV"},
+				{"missing":true,"season": "1937-38", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JKYL"},
+				{"missing":true,"season": "1937-38", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "WALF"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1937-38", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1938-39",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1938-39", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 1},
+			"level_2": {"missing":true,"season": "1938-39", "level":  2, "name": "1.  Division", "winner": "RBDF"},
+			"level_3": {"missing":true,"season": "1938-39", "level":  3, "name": "The Promotion", "winner": "JWAS"},
+			"level_4": {"season": "1938-39", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1938-39", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "EGWM"},
+				{"missing":true,"season": "1938-39", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "BLVL"}
+            ]},
+			"level_5": {"season": "1938-39", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1938-39", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "RUPL"},
+				{"missing":true,"season": "1938-39", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "SPST"},
+				{"missing":true,"season": "1938-39", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "MAMR"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1938-39", "name": "Luxembourg Cup", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1938-39", "name": "Coupe FLF", "winner": "SPOR", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1939-40",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1939-40", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 2},
+			"level_2": {"missing":true,"season": "1939-40", "level":  2, "name": "1.  Division", "winner": "CPET"},
+			"level_3": {"missing":true,"season": "1939-40", "level":  3, "name": "The Promotion", "winner": "ADUD"},
+			"level_4": {"season": "1939-40", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1939-40", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
+				{"missing":true,"season": "1939-40", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JKYL"}
+            ]},
+			"level_5": {"season": "1939-40", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1939-40", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JGIL"},
+				{"missing":true,"season": "1939-40", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UESH"},
+				{"missing":true,"season": "1939-40", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "TRIM"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1939-40", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1939-40", "name": "Coupe FLF", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	}
 ]

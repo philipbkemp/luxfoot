@@ -3,7 +3,7 @@
 	"series": 1,
 	"season": "1919-20",
 	"name": "3. Division Series Luxemburg",
-	"teams": ["CSHL","JVRL","MANC","MDLB","PROG","TRIM","WALF"],
+	"teams": ["CSHL","JVRL","MANC","CMLB","PROG","TRIM","WALF"],
 	"pts_win": 2,
 	"standings": [
 		{"place":  1, "team": "PROG", "w":  8, "d":  3, "l":  1, "f": 34, "a": 11, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Luxemburg", "promoted": true, "target": { "season": "1920-21", "level": 2, "name": "The Promotion"}},
@@ -12,7 +12,7 @@
 		{"place":  4, "team": "CSHL", "w":  6, "d":  2, "l":  4, "f": 27, "a": 22, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Luxemburg"},
 		{"place":  5, "team": "JVRL", "w":  2, "d":  6, "l":  4, "f": 16, "a": 23, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Luxemburg", "relegated": true, "target": {"season": "1920-21", "level": 4, "name": "3. Division", "series": 3}},
 		{"place":  6, "team": "WALF", "w":  1, "d":  3, "l":  8, "f": 12, "a": 31, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Luxemburg"},
-		{"place":  7, "team": "MDLB", "w":  1, "d":  0, "l": 11, "f":  4, "a": 32, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Luxemburg"}
+		{"place":  7, "team": "CMLB", "w":  1, "d":  0, "l": 11, "f":  4, "a": 32, "pts_win":  2, "season": "1919-20", "level": "3", "league": "3. Division Series Luxemburg"}
 	],
 	"level_playoff": [
 		{"home": "TRIM", "homeDivision": {"level": 3, "series": 1, "name": "3. Division Series Luxemburg"},"away": "STET", "awayDivision": {"level": 3, "series": 2, "name": "3. Division Series Süd"},"score": "1-0", "season": "1919-20", "competition": {"type": "league", "round": "Promotion playoff", "level": 3, "name": "3. Division"},"promotion": {"season": "1920-21", "level": 2, "name": "The Promotion"}},
