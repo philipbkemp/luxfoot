@@ -49,6 +49,16 @@ function parseSeasons(data) {
 				keys = keys.replace("|leagues.level_3","");
 			}
 
+			if ( season.leagues.level_4 ) {
+				colLeague.append( buildLeague(season.leagues.level_4,"leagues.level_4") );
+				keys = keys.replace("|leagues.level_4","");
+			}
+
+			if ( season.leagues.level_5 ) {
+				colLeague.append( buildLeague(season.leagues.level_5,"leagues.level_5") );
+				keys = keys.replace("|leagues.level_5","");
+			}
+
 			keys = keys.replace("|leagues","");
 
 			row.append(colLeague);
