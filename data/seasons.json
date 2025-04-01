@@ -84,7 +84,7 @@
 			"level_1": {"missing":true,"season": "1920-21", "level":  1, "name": "1. Division", "winner": "JESH", "title_count": "1"},
 			"level_2": {"missing":true,"season": "1920-21", "level":  2, "name": "The Promotion", "winner": "TRIM"},
 			"level_3": {"missing":true,"season": "1920-21", "level":  3, "name": "2. Division", "winner": "STET"},
-			"level_4": {"missing":true,"season": "1920-21", "level":  4, "name": "3. Division", "series": [
+			"level_4": {"season": "1920-21", "level":  4, "name": "3. Division", "series": [
 				{"missing":true,"season": "1920-21", "level":  4, "series":  1, "name": "3. Division Series Luxemburg", "winner": "RBPF"},
 				{"missing":true,"season": "1920-21", "level":  4, "series":  2, "name": "3. Division Series Süd", "winner": "ECBT"},
 				{"missing":true,"season": "1920-21", "level":  4, "series":  3, "name": "3. Division Series Südwest", "winner": "FCOB"}

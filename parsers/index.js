@@ -108,8 +108,13 @@ function buildLeague(league,name) {
 			league.series.forEach(series=>{
 				seriesKeys = seriesPrefix+ Object.keys(series).join(seriesPrefix);
 
-				retSeries = $("<A></A>").addClass("d-block").addClass("p-1").addClass("ps-4");
-				retSeries.attr("href","league.html?season="+league.season+"&level="+series.level+"&series="+series.series);
+				if ( ! series.missing ) {
+					retSeries = $("<A></A>").addClass("d-block").addClass("p-1").addClass("ps-4");
+					retSeries.attr("href","league.html?season="+league.season+"&level="+series.level+"&series="+series.series);
+				} else {
+					retSeries = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(league.name);
+					seriesKeys = seriesKeys.replace(seriesPrefix+"missing","");
+				}
 				seriesKeys = seriesKeys.replace(seriesPrefix+"level","");
 				seriesKeys = seriesKeys.replace(seriesPrefix+"series","");
 				seriesKeys = seriesKeys.replace(seriesPrefix+"season","");
