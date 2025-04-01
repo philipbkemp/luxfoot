@@ -334,8 +334,8 @@
 				{"missing":true,"season": "1934-35", "level":  5, "series":  1, "name": "3. Division Series North", "winner": "GSWW"},
 				{"missing":true,"season": "1934-35", "level":  5, "series":  2, "name": "3. Division Series Central", "winner": "WALF"},
 				{"missing":true,"season": "1934-35", "level":  5, "series":  3, "name": "3. Division Series East", "winner": "MDLB"},
-				{"missing":true,"season": "1934-35", "level":  5, "series":  4, "name": "4. Division Series South", "winner": "RROD"},
-				{"missing":true,"season": "1934-35", "level":  5, "series":  5, "name": "4. Division Series West", "winner": "RPDN"}
+				{"missing":true,"season": "1934-35", "level":  5, "series":  4, "name": "3. Division Series South", "winner": "RROD"},
+				{"missing":true,"season": "1934-35", "level":  5, "series":  5, "name": "3. Division Series West", "winner": "RPDN"}
 			]}
 		},
         "cup": {
@@ -354,7 +354,7 @@
 			"level_5": {"season": "1935-36", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1935-36", "level":  5, "series":  1, "name": "3. Division Series North", "winner": "ETZE"},
 				{"missing":true,"season": "1935-36", "level":  5, "series":  2, "name": "3. Division Series East", "winner": "JGIL"},
-				{"missing":true,"season": "1935-36", "level":  5, "series":  3, "name": "4. Division Series South", "winner": "UBSH"}
+				{"missing":true,"season": "1935-36", "level":  5, "series":  3, "name": "3. Division Series South", "winner": "UBSH"}
 			]}
 		},
         "cup": {
@@ -373,7 +373,7 @@
 			"level_5": {"season": "1936-37", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1936-37", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "MARM"},
 				{"missing":true,"season": "1936-37", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "RUPL"},
-				{"missing":true,"season": "1936-37", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "ASCH"}
+				{"missing":true,"season": "1936-37", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ASCH"}
 			]}
 		},
         "cup": {
@@ -392,7 +392,7 @@
 			"level_5": {"season": "1937-38", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1937-38", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "CGRV"},
 				{"missing":true,"season": "1937-38", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JKYL"},
-				{"missing":true,"season": "1937-38", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "WALF"}
+				{"missing":true,"season": "1937-38", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "WALF"}
 			]}
 		},
         "cup": {
@@ -411,7 +411,7 @@
 			"level_5": {"season": "1938-39", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1938-39", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "RUPL"},
 				{"missing":true,"season": "1938-39", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "SPST"},
-				{"missing":true,"season": "1938-39", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "MAMR"}
+				{"missing":true,"season": "1938-39", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MAMR"}
 			]}
 		},
         "cup": {
@@ -431,7 +431,7 @@
 			"level_5": {"season": "1939-40", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1939-40", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JGIL"},
 				{"missing":true,"season": "1939-40", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UESH"},
-				{"missing":true,"season": "1939-40", "level":  5, "series":  3, "name": "4. Division Series 3", "winner": "TRIM"}
+				{"missing":true,"season": "1939-40", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "TRIM"}
 			]}
 		},
         "cup": {
