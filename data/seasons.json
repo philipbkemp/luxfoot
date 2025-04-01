@@ -438,5 +438,159 @@
             "cup_luxembourg": {"missing":true,"season": "1939-40", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1939-40", "name": "Coupe FLF", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
+	},{
+		"season": "1940-41",
+		"league": {
+			"note": "Championship not held due to World War 2"
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1940-41", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 9, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1940-41", "name": "Coupe FLF", "winner": "JWAS", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+        "season": "1941-42",
+        "note": "Championship not held due to World War 2"
+    },{
+        "season": "1942-43",
+        "note": "Championship not held due to World War 2"
+    },{
+        "season": "1943-44",
+        "note": "Championship not held due to World War 2"
+    },{
+		"season": "1944-45",
+		"league": {
+			"note": "Championship not held due to World War 2"
+		},
+        "cup": {
+			"liberation": {"missing":true,"season": "1944-45", "name": "Liberation Cup", "winner": "SDUD"},
+            "cup_luxembourg": {"missing":true,"season": "1944-45", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 2, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1945-46",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1945-46", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 3},
+			"level_2": {"missing":true,"season": "1945-46", "level":  2, "name": "1.  Division", "winner": "JESH"},
+			"level_3": {"missing":true,"season": "1945-46", "level":  3, "name": "The Promotion", "winner": "CSOB"},
+			"level_4": {"season": "1945-46", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1945-46", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "ASCH"},
+				{"missing":true,"season": "1945-46", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "PROG"}
+            ]},
+			"level_5": {"season": "1945-46", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1945-46", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SBRT"},
+				{"missing":true,"season": "1945-46", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MDLB"},
+				{"missing":true,"season": "1945-46", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "WALF"},
+				{"missing":true,"season": "1945-46", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "CLVX"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1945-46", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 3, "winner_division": {"level": 2,"name": "1. Division"}},
+			"cup_flf": {"missing":true,"season": "1945-46", "name": "Coupe FLF", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1946-47",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1946-47", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 4},
+			"level_2": {"missing":true,"season": "1946-47", "level":  2, "name": "1.  Division", "winner": "RBPF"},
+			"level_3": {"missing":true,"season": "1946-47", "level":  3, "name": "The Promotion", "series": [
+                {"missing":true,"season": "1946-47", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "CGRV"},
+				{"missing":true,"season": "1946-47", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "YBDK"}
+            ]},
+			"level_4": {"season": "1946-47", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1946-47", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "CLVX"},
+				{"missing":true,"season": "1946-47", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "BWIT"}
+            ]},
+			"level_5": {"season": "1946-47", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1946-47", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JWIL"},
+				{"missing":true,"season": "1946-47", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "AWDG"},
+				{"missing":true,"season": "1946-47", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ATBS"},
+				{"missing":true,"season": "1946-47", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "OYMP"},
+				{"missing":true,"season": "1946-47", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "FRTA"},
+				{"missing":true,"season": "1946-47", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "KWRM"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1946-47", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1946-47", "name": "Coupe FLF", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+        }
+	},{
+		"season": "1947-48",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1947-48", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 5, "double": true},
+			"level_2": {"missing":true,"season": "1947-48", "level":  2, "name": "1.  Division", "winner": "RROD"},
+			"level_3": {"missing":true,"season": "1947-48", "level":  3, "name": "The Promotion", "series": [
+                {"missing":true,"season": "1947-48", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "EGWM"},
+				{"missing":true,"season": "1947-48", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "RPDN"}
+            ]},
+			"level_4": {"season": "1947-48", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1947-48", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "UESH"},
+				{"missing":true,"season": "1947-48", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "ETZE"}
+            ]},
+			"level_5": {"season": "1947-48", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1947-48", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "WWMP"},
+				{"missing":true,"season": "1947-48", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "GOLD"},
+				{"missing":true,"season": "1947-48", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ASTN"},
+				{"missing":true,"season": "1947-48", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "ESHW"},
+				{"missing":true,"season": "1947-48", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "RBAS"},
+				{"missing":true,"season": "1947-48", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "JUSE"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1947-48", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1947-48", "name": "Coupe FLF", "winner": "UESH", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series": 1,"series_name":"2. Division Series 1"}}
+        }
+	},{
+		"season": "1948-49",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1948-49", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 8},
+			"level_2": {"missing":true,"season": "1948-49", "level":  2, "name": "1.  Division", "winner": "JESH"},
+			"level_3": {"missing":true,"season": "1948-49", "level":  3, "name": "The Promotion", "series": [
+                {"missing":true,"season": "1948-49", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "AVBG"},
+				{"missing":true,"season": "1948-49", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "PROG"}
+            ]},
+			"level_4": {"season": "1948-49", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1948-49", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "ASDF"},
+				{"missing":true,"season": "1948-49", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "MINL"},
+				{"missing":true,"season": "1948-49", "level":  4, "series":  3, "name": "2. Division Series 3", "winner": "UMRT"}
+            ]},
+			"level_5": {"season": "1948-49", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1948-49", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "LUNA"},
+				{"missing":true,"season": "1948-49", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "ARBD"},
+				{"missing":true,"season": "1948-49", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "SMOB"},
+				{"missing":true,"season": "1948-49", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "RLCN"},
+				{"missing":true,"season": "1948-49", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "SURA"},
+				{"missing":true,"season": "1948-49", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "LRNZ"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1948-49", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1948-49", "name": "Coupe FLF", "winner": "RBAS", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":1,"series_name":"2. Division Series 1"}}
+        }
+	},{
+		"season": "1949-50",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1949-50", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 6},
+			"level_2": {"missing":true,"season": "1949-50", "level":  2, "name": "1.  Division", "winner": "RROD"},
+			"level_3": {"missing":true,"season": "1949-50", "level":  3, "name": "The Promotion", "series": [
+                {"missing":true,"season": "1949-50", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "EGWM"},
+				{"missing":true,"season": "1949-50", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "ADUD"}
+            ]},
+			"level_4": {"season": "1949-50", "level":  4, "name": "2. Division", "series": [
+                {"missing":true,"season": "1949-50", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "ETZE"},
+				{"missing":true,"season": "1949-50", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JBIW"},
+				{"missing":true,"season": "1949-50", "level":  4, "series":  3, "name": "2. Division Series 3", "winner": "UESH"}
+            ]},
+			"level_5": {"season": "1949-50", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1949-50", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SURA"},
+				{"missing":true,"season": "1949-50", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "OVND"},
+				{"missing":true,"season": "1949-50", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "HAMM"},
+				{"missing":true,"season": "1949-50", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "TLMD"},
+				{"missing":true,"season": "1949-50", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "LARD"},
+				{"missing":true,"season": "1949-50", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "FRTA"}
+			]}
+		},
+        "cup": {
+            "cup_luxembourg": {"missing":true,"season": "1949-50", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"missing":true,"season": "1949-50", "name": "Coupe FLF", "winner": "RPDN", "title_count": 1, "winner_division": {"level": 3,"name": "2. Division","series": 1,"series_name": "2. Division Series 1"}}
+        }
 	}
 ]
