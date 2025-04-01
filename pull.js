@@ -7,6 +7,8 @@ allMatches = {};
 allPlayoffs = {}; allLevelPlayoffs = {};
 allPlayoffTeams = []; allLevelPlayoffTeams = [];
 thirdDivisionSeries = [];
+levelNames = {};
+nextSeason = "";
 
 document.querySelectorAll("table").forEach(table=>{
     innerTables = table.querySelectorAll("table");
@@ -65,6 +67,7 @@ function findLeague(league) {
             theLeague.level = 1;
             break;
         case "2. Division":
+        case "Promotion":
             theLeague.level = 2;
             break;
         case "3. Division - 1. Bezirk":
@@ -297,6 +300,19 @@ function addLevelPlayoff(levelPart=-1,home="",homeSeries=-1,away="",awaySeries=-
     allLevelPlayoffTeams.push(home);
     allLevelPlayoffTeams.push(away);
 
+    if ( ! levelNames[level] ) {
+        levelNames[level] = prompt("Name for level " + level)
+    }
+    poi_c_n = levelNames[level];
+
+    if ( nextSeason === "" ) {
+        nextSeason = prompt("Next season",(parseInt(seasonShort.split("-")[0])+1) + "-" + (parseInt(seasonShort.split("-")[1])+1));
+    }
+
+    if ( ! levelNames[level-1] ) {
+        levelNames[level-1] = prompt("Name for level " + level-1)
+    }
+
     playoffItem = {
         home: home,
         homeDivision: {
@@ -316,12 +332,12 @@ function addLevelPlayoff(levelPart=-1,home="",homeSeries=-1,away="",awaySeries=-
             type: "league",
             round: "Promotion playoff",
             level: level,
-            name: prompt("Name for level " + level)
+            name: poi_c_n
         },
         promotion: {
-            season:  prompt("Promotion to season:",(parseInt(seasonShort.split("-")[0])+1) + "-" + (parseInt(seasonShort.split("-")[1])+1)),
-            level: parseInt(prompt("Promotion to level:",level-1)),
-            name: prompt("Promotion to league",allStandings[level-1][0].league)
+            season:  nextSeason,
+            level: level-1,
+            name: levelNames[level-1]
         }
     };
 
@@ -475,13 +491,13 @@ function buildLeague(level) {
          rTarget = '"target": {';
          rNote = "Relegation from " + allStandings[level][0].league;
          rSeason = (parseInt(seasonShort.split("-")[0])+1) + "-" + (parseInt(seasonShort.split("-")[1])+1);
-         rTarget += '"season": "'+prompt(rNote+": Season",rSeason)+'",';
+         rTarget += '"season": "'+prompt(rNote+": Season",rSeason)+'",'; // todo: don't repeat
          rLevel = parseInt(prompt(rNote+": Level",allStandings[level][0].level+1));
          rTarget += ' "level": '+rLevel+',';
          if ( ! allStandings[rLevel] ) {
-            rTarget += ' "name": "'+prompt(rNote+": League")+'"';
+            rTarget += ' "name": "'+prompt(rNote+": League")+'"'; // todo: don't repeat
          } else {
-            rTarget += ' "name": "'+prompt(rNote+": League",allStandings[rLevel][0].league)+'"';
+            rTarget += ' "name": "'+prompt(rNote+": League",allStandings[rLevel][0].league)+'"'; // todo: don't repeat
          }
          rTarget += '}';
          out += rTarget + '\n';
@@ -495,10 +511,10 @@ function buildLeague(level) {
          pTarget = '"target": {';
          pNote = "Promotion from " + allStandings[level][0].league;
          pSeason = (parseInt(seasonShort.split("-")[0])+1) + "-" + (parseInt(seasonShort.split("-")[1])+1);
-         pTarget += ' "season": "'+prompt(pNote+": Season",pSeason)+'",';
-         pLevel = parseInt(prompt(pNote+": Level",allStandings[level][0].level-1));
+         pTarget += ' "season": "'+prompt(pNote+": Season",pSeason)+'",'; // todo: don't repeat
+         pLevel = parseInt(prompt(pNote+": Level",allStandings[level][0].level-1)); // todo: don't repeat
          pTarget += ' "level": '+pLevel+',';
-         pTarget += ' "name": "'+prompt(pNote+": League",allStandings[pLevel][0].league)+'"';
+         pTarget += ' "name": "'+prompt(pNote+": League",allStandings[pLevel][0].league)+'"'; // todo: don't repeat
          pTarget += '}';
          out += pTarget + '\n';
          out += '\t}';
@@ -550,7 +566,7 @@ function buildSeason() {
         } else {
             out += '"season": "'+seasonShort+'"';
             out += ', "level": '+(parseInt(lvl)+"").padStart(2," ");
-            out += ', "name": "'+prompt("Name for level " + lvl,allStandings[levels[lvl][0]][0].league)+'"';
+            out += ', "name": "'+prompt("Name for level " + lvl,allStandings[levels[lvl][0]][0].league)+'"'; // todo: don't repeat
             out += ', "series": [\n';
             for ( s=0 ; s!==levels[lvl].length ; s++ ) {
                 lvlSerie = levels[lvl][s];
