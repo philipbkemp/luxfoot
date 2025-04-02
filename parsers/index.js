@@ -74,7 +74,7 @@ function parseSeasons(data) {
 					ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups.cup_luxembourg.name);
 					keys = keys.replace("|cups.cup_luxembourg.missing","");
 				}
-				colLeague.append(ret);
+				colCup.append(ret);
 				keys = keys.replace("|cups.cup_luxembourg","");
 			}
 			
@@ -86,7 +86,7 @@ function parseSeasons(data) {
 					ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups.cup_flf.name);
 					keys = keys.replace("|cups.cup_flf.missing","");
 				}
-				colLeague.append(ret);
+				colCup.append(ret);
 				keys = keys.replace("|cups.cup_flf","");
 			}
 
