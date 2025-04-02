@@ -48,7 +48,7 @@ function parseSeasons(data) {
 		if ( season.cups ) {
 			keys = keys + "|cups."+ Object.keys(season.cups).join("|cups.");
 
-			["cup_luxembourg","cup_flf"].forEach(thisCup=>{
+			["liberation","cup_luxembourg","cup_flf"].forEach(thisCup=>{
 				if ( season.cups[thisCup] ) {
 					keys = keys + "|cups."+thisCup+"."+ Object.keys(season.cups[thisCup]).join("|cups."+thisCup+".");
 					if ( !season.cups[thisCup].missing ) {
@@ -67,6 +67,7 @@ function parseSeasons(data) {
 					keys = keys.replace("|cups."+thisCup+".winner","");
 					keys = keys.replace("|cups."+thisCup+".title_count","");
 					keys = keys.replace("|cups."+thisCup+".winner_division","");
+					keys = keys.replace("|cups."+thisCup+".double","");
 
 					keys = keys.replace("|cups."+thisCup,"");
 				}
@@ -158,6 +159,7 @@ function buildLeague(league,name) {
 	// not shown
 	leagueKeys = leagueKeys.replace(prefix+"winner","");
 	leagueKeys = leagueKeys.replace(prefix+"title_count","");
+	leagueKeys = leagueKeys.replace(prefix+"double","");
 
 	if ( leagueKeys.length !== 0 ) {
 		console.warn(leagueKeys);

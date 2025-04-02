@@ -16,7 +16,7 @@
         }
     },{
         "season": "1912-13",
-        "note": "Championship not held"
+        "note": "No competitions held"
     },{
         "season": "1913-14",
         "leagues": {
@@ -440,27 +440,21 @@
         }
 	},{
 		"season": "1940-41",
-		"league": {
-			"note": "Championship not held due to World War 2"
-		},
         "cups": {
             "cup_luxembourg": {"missing":true,"season": "1940-41", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 9, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1940-41", "name": "Coupe FLF", "winner": "JWAS", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
         "season": "1941-42",
-        "note": "Championship not held due to World War 2"
+        "note": "No competitions held due to World War 2"
     },{
         "season": "1942-43",
-        "note": "Championship not held due to World War 2"
+        "note": "No competitions held due to World War 2"
     },{
         "season": "1943-44",
-        "note": "Championship not held due to World War 2"
+        "note": "No competitions held due to World War 2"
     },{
 		"season": "1944-45",
-		"league": {
-			"note": "Championship not held due to World War 2"
-		},
         "cups": {
 			"liberation": {"missing":true,"season": "1944-45", "name": "Liberation Cup", "winner": "SDUD"},
             "cup_luxembourg": {"missing":true,"season": "1944-45", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 2, "winner_division": {"level": 1,"name": "Honour Division"}}
