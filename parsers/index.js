@@ -33,7 +33,7 @@ function parseSeasons(data) {
 		if ( season.leagues ) {
 			keys = keys + "|leagues."+ Object.keys(season.leagues).join("|leagues.");
 
-			["level_1","level_2","level_3","level_4","level_5"].forEach(thisLevel=>{
+			["level_1","level_2","level_3","level_4","level_5","level_6"].forEach(thisLevel=>{
 				if ( season.leagues[thisLevel] ) {
 					colLeague.append( buildLeague(season.leagues[thisLevel],"leagues."+thisLevel) );
 					keys = keys.replace("|leagues."+thisLevel,"");

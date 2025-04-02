@@ -2,5 +2,7 @@
     {"end_season": "1915-16", "new": "ADUD", "team1": "ERDU", "team2": "EBDU"},
     {"end_season": "1918-19", "new": "RBDF", "team1": "SDIF"},
     {"end_season": "1922-23", "new": "SPOR", "team1": "SCLX", "team2": "RACL"},
-    {"end_season": "1924-25", "new": "ULUX", "team1": "JVRL", "team2": "HLBN"}
+    {"end_season": "1924-25", "new": "ULUX", "team1": "JVRL", "team2": "HLBN"},
+    {"end_season": "1955-56", "new": "BGUP", "team1": "HUPP"},
+    {"end_season": "1970-71", "new": "WLTZ", "team1": "USND", "team2": "GOLD"}
 ]
