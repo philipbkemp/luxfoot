@@ -28,11 +28,10 @@ function parseSeasons(data) {
 			keys = keys.replace("|note","");
 			row.append(colNote);
 		}
-
+		
+		colLeague = $("<DIV></DIV>").addClass("col-2");
 		if ( season.leagues ) {
 			keys = keys + "|leagues."+ Object.keys(season.leagues).join("|leagues.");
-
-			colLeague = $("<DIV></DIV>").addClass("col-2");
 
 			if ( season.leagues.level_1 ) {
 				colLeague.append( buildLeague(season.leagues.level_1,"leagues.level_1") );
@@ -60,9 +59,40 @@ function parseSeasons(data) {
 			}
 
 			keys = keys.replace("|leagues","");
-
-			row.append(colLeague);
 		}
+		row.append(colLeague);
+
+		colCup = $("<DIV></DIV>").addClass("col-2");
+		if ( season.cups ) {
+			keys = keys + "|cups."+ Object.keys(season.cups).join("|cups.");
+
+			if ( season.cups.cup_luxembourg ) {
+				keys = keys + "|cups.cup_luxembourg"+ Object.keys(season.cups.cup_luxembourg).join("|cups.cup_luxembourg");
+				if ( !season.cups.cup_luxembourg.missing ) {
+					ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups.cup_luxembourg.name);
+				} else {
+					ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups.cup_luxembourg.name);
+					keys = keys.replace("|cups.cup_luxembourg.missing","");
+				}
+				colLeague.append(ret);
+				keys = keys.replace("|cups.cup_luxembourg","");
+			}
+			
+			if ( season.cups.cup_flf ) {
+				keys = keys + "|cups.cup_flf"+ Object.keys(season.cups.cup_flf).join("|cups.cup_flf");
+				if ( !season.cups.cup_flf.missing ) {
+					ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups.cup_flf.name);
+				} else {
+					ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups.cup_flf.name);
+					keys = keys.replace("|cups.cup_flf.missing","");
+				}
+				colLeague.append(ret);
+				keys = keys.replace("|cups.cup_flf","");
+			}
+
+			keys = keys.replace("|cups","");
+		}
+		row.append(colCup);
 
 		listGroupItem.append(row);
 

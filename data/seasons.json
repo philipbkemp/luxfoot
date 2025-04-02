@@ -103,7 +103,7 @@
 				{"missing":true,"season": "1921-22", "level":  4, "series":  4, "name": "3. Division Series North", "winner": "YBDK"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1921-22", "name": "Luxembourg Cup", "winner": "RACL", "title_count": 1, "winner_division": {"level": 2,"name": "The Promotion"}}
         }
 	},{
@@ -123,7 +123,7 @@
 				{"missing":true,"season": "1922-23", "level":  4, "series":  4, "name": "3. Division Series 4", "winner": "JKYL"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1922-23", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -142,7 +142,7 @@
 				{"missing":true,"season": "1923-24", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "ARIS"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1923-24", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -160,7 +160,7 @@
 				{"missing":true,"season": "1924-25", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1924-25", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -178,7 +178,7 @@
 				{"missing":true,"season": "1925-26", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1925-26", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -195,7 +195,7 @@
 				{"missing":true,"season": "1926-27", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "SWFT"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1926-27", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 3, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -212,7 +212,7 @@
 				{"missing":true,"season": "1927-28", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "SPST"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1927-28", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 1, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -226,7 +226,7 @@
             ]},
 			"level_4": {"missing":true,"season": "1928-29", "level":  4, "name": "3. Division", "winner": "OYMP"}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1928-29", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 4, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -243,7 +243,7 @@
 				{"missing":true,"season": "1929-30", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1929-30", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 5, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -261,7 +261,7 @@
 				{"missing":true,"season": "1930-31", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "MANC"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1930-31", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 6, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -280,7 +280,7 @@
 				{"missing":true,"season": "1931-32", "level":  4, "series":  4, "name": "3. Division Series 4", "winner": "CGRV"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1931-32", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 2, "winner_division": {"level": 1,"name": "1. Division"}}
         }
 	},{
@@ -298,7 +298,7 @@
 				{"missing":true,"season": "1932-33", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1932-33", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
@@ -317,7 +317,7 @@
 				{"missing":true,"season": "1933-34", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MANC"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1933-34", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 7, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
@@ -338,7 +338,7 @@
 				{"missing":true,"season": "1934-35", "level":  5, "series":  5, "name": "3. Division Series West", "winner": "RPDN"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1934-35", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
@@ -357,7 +357,7 @@
 				{"missing":true,"season": "1935-36", "level":  5, "series":  3, "name": "3. Division Series South", "winner": "UBSH"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1935-36", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 8, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
@@ -376,7 +376,7 @@
 				{"missing":true,"season": "1936-37", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ASCH"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1936-37", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
@@ -395,7 +395,7 @@
 				{"missing":true,"season": "1937-38", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "WALF"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1937-38", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
 	},{
@@ -414,7 +414,7 @@
 				{"missing":true,"season": "1938-39", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MAMR"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1938-39", "name": "Luxembourg Cup", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1938-39", "name": "Coupe FLF", "winner": "SPOR", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
@@ -434,7 +434,7 @@
 				{"missing":true,"season": "1939-40", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "TRIM"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1939-40", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1939-40", "name": "Coupe FLF", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
@@ -443,7 +443,7 @@
 		"league": {
 			"note": "Championship not held due to World War 2"
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1940-41", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 9, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1940-41", "name": "Coupe FLF", "winner": "JWAS", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
@@ -461,7 +461,7 @@
 		"league": {
 			"note": "Championship not held due to World War 2"
 		},
-        "cup": {
+        "cups": {
 			"liberation": {"missing":true,"season": "1944-45", "name": "Liberation Cup", "winner": "SDUD"},
             "cup_luxembourg": {"missing":true,"season": "1944-45", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 2, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
@@ -482,7 +482,7 @@
 				{"missing":true,"season": "1945-46", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "CLVX"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1945-46", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 3, "winner_division": {"level": 2,"name": "1. Division"}},
 			"cup_flf": {"missing":true,"season": "1945-46", "name": "Coupe FLF", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
@@ -508,7 +508,7 @@
 				{"missing":true,"season": "1946-47", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "KWRM"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1946-47", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1946-47", "name": "Coupe FLF", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
         }
@@ -534,7 +534,7 @@
 				{"missing":true,"season": "1947-48", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "JUSE"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1947-48", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1947-48", "name": "Coupe FLF", "winner": "UESH", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series": 1,"series_name":"2. Division Series 1"}}
         }
@@ -561,7 +561,7 @@
 				{"missing":true,"season": "1948-49", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "LRNZ"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1948-49", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1948-49", "name": "Coupe FLF", "winner": "RBAS", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":1,"series_name":"2. Division Series 1"}}
         }
@@ -588,7 +588,7 @@
 				{"missing":true,"season": "1949-50", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "FRTA"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1949-50", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1949-50", "name": "Coupe FLF", "winner": "RPDN", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series": 1,"series_name": "2. Division Series 1"}}
         }
@@ -614,7 +614,7 @@
 				{"missing":true,"season": "1950-51", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "ATBS"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1950-51", "name": "Luxembourg Cup", "winner": "STET", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1950-51", "name": "Coupe FLF", "winner": "RBAS", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
         }
@@ -643,7 +643,7 @@
 				{"missing":true,"season": "1951-52", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "SRED"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1951-52", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 10, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1951-52", "name": "Coupe FLF", "winner": "JKYL", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":2,"series_name":"The Promotion Series 2"}}
         }
@@ -668,7 +668,7 @@
 				{"missing":true,"season": "1952-53", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "TRIG"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1952-53", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 11, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1952-53", "name": "Coupe FLF", "winner": "UMRT", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":2,"series_name":"2. Division Series 2"}}
         }
@@ -693,7 +693,7 @@
 				{"missing":true,"season": "1953-54", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JHSD"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1953-54", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 4, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1953-54", "name": "Coupe FLF", "winner": "JSKH", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":2,"series_name":"2. Division Series 2"}}
         }
@@ -718,7 +718,7 @@
 				{"missing":true,"season": "1954-55", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MDLB"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1954-55", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1954-55", "name": "Coupe FLF", "winner": "AREM", "title_count": 1, "winner_division": {"level": 3,"name": "The Promotion","series":2,"series_name":"The Promotion Series 2"}}
         }
@@ -743,7 +743,7 @@
 				{"missing":true,"season": "1955-56", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MLSV"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1955-56", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1955-56", "name": "Coupe FLF", "winner": "YBDK", "title_count": 1, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
         }
@@ -769,14 +769,14 @@
 				{"missing":true,"season": "1956-57", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MDCG"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1956-57", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 5, "winner_division": {"level": 1,"name": "Honour Division"}}        }
 	},{
 		"season": "1957-58",
 		"leagues": {
 			"level_1": {"missing":true,"season": "1957-58", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 5},
-			"level_2": {"season": "1957-58", "level":  2, "name": "Division of Honour", "winner": "NSCH"},
-			"level_3": {"season": "1957-58", "level":  3, "name": "1. Division", "winner": "CLVX"},
+			"level_2": {"missing":true,"season": "1957-58", "level":  2, "name": "Division of Honour", "winner": "NSCH"},
+			"level_3": {"missing":true,"season": "1957-58", "level":  3, "name": "1. Division", "winner": "CLVX"},
 			"level_4": {"season": "1957-58", "level":  4, "name": "2. Division", "series": [
                 {"missing":true,"season": "1957-58", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "KWRM"},
 				{"missing":true,"season": "1957-58", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "SPST"}
@@ -788,14 +788,14 @@
 				{"missing":true,"season": "1957-58", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "JHTC"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1957-58", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 12, "winner_division": {"level": 1,"name": "National Division"}}        }
 	},{
 		"season": "1958-59",
 		"leagues": {
 			"level_1": {"missing":true,"season": "1958-59", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 6},
-			"level_2": {"season": "1958-59", "level":  2, "name": "Division of Honour", "winner": "FOLA"},
-			"level_3": {"season": "1958-59", "level":  3, "name": "1. Division", "winner": "CSOB"},
+			"level_2": {"missing":true,"season": "1958-59", "level":  2, "name": "Division of Honour", "winner": "FOLA"},
+			"level_3": {"missing":true,"season": "1958-59", "level":  3, "name": "1. Division", "winner": "CSOB"},
 			"level_4": {"season": "1958-59", "level":  4, "name": "2. Division", "series": [
                 {"missing":true,"season": "1958-59", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
 				{"missing":true,"season": "1958-59", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "AVBG"}
@@ -807,14 +807,14 @@
 				{"missing":true,"season": "1958-59", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "UESH"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1958-59", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 2, "winner_division": {"level": 1,"name": "National Division"}}        }
 	},{
 		"season": "1959-60",
 		"leagues": {
 			"level_1": {"missing":true,"season": "1959-60", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 7},
-			"level_2": {"season": "1959-60", "level":  2, "name": "Division of Honour", "winner": "CROD"},
-			"level_3": {"season": "1959-60", "level":  3, "name": "1. Division", "winner": "AVBG"},
+			"level_2": {"missing":true,"season": "1959-60", "level":  2, "name": "Division of Honour", "winner": "CROD"},
+			"level_3": {"missing":true,"season": "1959-60", "level":  3, "name": "1. Division", "winner": "AVBG"},
 			"level_4": {"season": "1959-60", "level":  4, "name": "2. Division", "series": [
                 {"missing":true,"season": "1959-60", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
 				{"missing":true,"season": "1959-60", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JHTC"}
@@ -826,7 +826,7 @@
 				{"missing":true,"season": "1959-60", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "SBRT"}
 			]}
 		},
-        "cup": {
+        "cups": {
             "cup_luxembourg": {"missing":true,"season": "1959-60", "name": "Luxembourg Cup", "winner": "NSCH", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}        }
 	}
 ]
