@@ -53,11 +53,21 @@ function parseSeasons(data) {
 					keys = keys + "|cups."+thisCup+"."+ Object.keys(season.cups[thisCup]).join("|cups."+thisCup+".");
 					if ( !season.cups[thisCup].missing ) {
 						ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups[thisCup].name);
+						console.warn("non-missing cup competition - not yet handled");
+						keys = keys.replace("|cups."+thisCup+".name","");
 					} else {
 						ret = $("<SPAN></SPAN>").addClass("p-1").addClass("d-block").html(season.cups[thisCup].name);
 						keys = keys.replace("|cups."+thisCup+".missing","");
+						keys = keys.replace("|cups."+thisCup+".name","");
 					}
 					colCup.append(ret);
+
+					// not displayed
+					keys = keys.replace("|cups."+thisCup+".season","");
+					keys = keys.replace("|cups."+thisCup+".winner","");
+					keys = keys.replace("|cups."+thisCup+".title_count","");
+					keys = keys.replace("|cups."+thisCup+".winner_division","");
+
 					keys = keys.replace("|cups."+thisCup,"");
 				}
 			});
