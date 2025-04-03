@@ -4,5 +4,8 @@
     {"end_season": "1922-23", "new": "SPOR", "team1": "SCLX", "team2": "RACL"},
     {"end_season": "1924-25", "new": "ULUX", "team1": "JVRL", "team2": "HLBN"},
     {"end_season": "1955-56", "new": "BGUP", "team1": "HUPP"},
-    {"end_season": "1970-71", "new": "WLTZ", "team1": "USND", "team2": "GOLD"}
+    {"end_season": "1959-60", "new": "RSMB", "team1": "RSML"},
+    {"end_season": "1970-71", "new": "WLTZ", "team1": "USND", "team2": "GOLD"},
+    {"end_season": "1976-77", "new": "GBHT", "team1": "HARL", "team2": "TWTC"},
+    {"end_season": "1977-78", "new": "WLTZ", "team1": "WLTZ", "team2": "AWDG"}
 ]

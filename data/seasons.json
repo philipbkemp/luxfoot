@@ -1047,5 +1047,287 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1969-70", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 6, "winner_division": {"level": 1,"name": "National Division"}}
 		}
+	},{
+		"season": "1970-71",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1970-71", "level":  1, "name": "National Division", "winner": "ULUX", "title_count": 3},
+			"level_2": {"missing":true,"season": "1970-71", "level":  2, "name": "Division of Honour", "winner": "NSCH"},
+			"level_3": {"missing":true,"season": "1970-71", "level":  3, "name": "1. Division", "winner": "CROD"},
+			"level_4": {"season": "1970-71", "level":  4, "name": "2. Division", "series": [
+			    {"missing":true,"season": "1970-71", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "WALF"},
+				{"missing":true,"season": "1970-71", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "MAMR"}
+			]},
+			"level_5": {"season": "1970-71", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1970-71", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "BWMD"},
+				{"missing":true,"season": "1970-71", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "HOST"}
+				]},
+			"level_6": {"season": "1970-71", "level":  6, "name": "4. Division", "series": [
+				{"missing":true,"season": "1970-71", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "PRTZ"},
+				{"missing":true,"season": "1970-71", "level":  6, "series":  2, "name": "4. Division Series 2", "winner": "JUSE"},
+				{"missing":true,"season": "1970-71", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "RBAS"},
+				{"missing":true,"season": "1970-71", "level":  6, "series":  4, "name": "4. Division Series 4", "winner": "MDCG"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true,"season": "1970-71", "name": "Luxembourg Cup", "winner": "JHTC", "title_count": 1, "winner_division": {"level": 3,"name": "1. Division"}}
+		}
+	},{
+		"season": "1971-72",
+		"leagues": {
+			"level_1": {"missing":true,"season": "1971-72", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 3},
+			"level_2": {"missing":true,"season": "1971-72", "level":  2, "name": "Division of Honour", "winner": "SCBT"},
+			"level_3": {"missing":true,"season": "1971-72", "level":  3, "name": "1. Division", "winner": "MDLB"},
+			"level_4": {"season": "1971-72", "level":  4, "name": "2. Division", "series": [
+			    {"missing":true,"season": "1971-72", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
+				{"missing":true,"season": "1971-72", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "HOST"}
+			]},
+			"level_5": {"season": "1971-72", "level":  5, "name": "3. Division", "series": [
+				{"missing":true,"season": "1971-72", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SRED"},
+				{"missing":true,"season": "1971-72", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JSKH"}
+				]},
+			"level_6": {"season": "1971-72", "level":  6, "name": "4. Division", "series": [
+				{"missing":true,"season": "1971-72", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "BGHP"},
+				{"missing":true,"season": "1971-72", "level":  6, "series":  2, "name": "4. Division Series 2", "winner": "AFLX"},
+				{"missing":true,"season": "1971-72", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "LUNA"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true,"season": "1971-72", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 13, "winner_division": {"level": 1,"name": "National Division"}}
+		}
+	},{
+		"season": "1972-73",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1972-73", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 12, "double": true},
+			"level_2": {"missing":true, "season": "1972-73", "level": 2, "name": "Division of Honour", "winner": "RSMB"},
+			"level_3": {"missing":true, "season": "1972-73", "level": 3, "name": "1. Division", "winner": "RBPF"},
+			"level_4": { "season": "1972-73", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1972-73", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "WLTZ"},
+				{"missing":true, "season": "1972-73", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "RPDN"}
+			]},
+			"level_5": { "season": "1972-73", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1972-73", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "ARBD"},
+				{"missing":true, "season": "1972-73", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "AFLX"}
+			]},
+			"level_6": { "season": "1972-73", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1972-73", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "CLVX"},
+				{"missing":true, "season": "1972-73", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "BRCH"},
+				{"missing":true, "season": "1972-73", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "SYRA"},
+				{"missing":true, "season": "1972-73", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "SBRT"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1972-73", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 5, "double": true, "winner_division": {"level": 1,"name": "National Division"}}
+		}
+	},{
+		"season": "1973-74",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1973-74", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 13, "double": true},
+			"level_2": {"missing":true, "season": "1973-74", "level": 2, "name": "Division of Honour", "winner": "PRON"},
+			"level_3": {"missing":true, "season": "1973-74", "level": 3, "name": "1. Division", "winner": "CSHL"},
+			"level_4": { "season": "1973-74", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1973-74", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "YBDK"},
+				{"missing":true, "season": "1973-74", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MLSV"}
+			]},
+			"level_5": { "season": "1973-74", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1973-74", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "BRCH"},
+				{"missing":true, "season": "1973-74", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "RBAS"}
+			]},
+			"level_6": { "season": "1973-74", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1973-74", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "AHOS"},
+				{"missing":true, "season": "1973-74", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "ASCB"},
+				{"missing":true, "season": "1973-74", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "ASTN"},
+				{"missing":true, "season": "1973-74", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "LADH"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1973-74", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 6,"winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "1974-75",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1974-75", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 14},
+			"level_2": {"missing":true, "season": "1974-75", "level": 2, "name": "Division of Honour", "winner": "CROD"},
+			"level_3": {"missing":true, "season": "1974-75", "level": 3, "name": "1. Division", "winner": "DARE"},
+			"level_4": { "season": "1974-75", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1974-75", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JSCH"},
+				{"missing":true, "season": "1974-75", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "RBAS"}
+			]},
+			"level_5": { "season": "1974-75", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1974-75", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "AHOS"},
+				{"missing":true, "season": "1974-75", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "AREM"}
+			]},
+			"level_6": { "season": "1974-75", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1974-75", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "ERPL"},
+				{"missing":true, "season": "1974-75", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "PRTZ"},
+				{"missing":true, "season": "1974-75", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "BWIT"},
+				{"missing":true, "season": "1974-75", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "JCNC"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1974-75", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1975-76",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1975-76", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 15, "double": true},
+			"level_2": {"missing":true, "season": "1975-76", "level": 2, "name": "Division of Honour", "winner": "CGRV"},
+			"level_3": {"missing":true, "season": "1975-76", "level": 3, "name": "1. Division", "winner": "BBML"},
+			"level_4": { "season": "1975-76", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1975-76", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JUNG"},
+				{"missing":true, "season": "1975-76", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "UESH"}
+			]},
+			"level_5": { "season": "1975-76", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1975-76", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JBIW"},
+				{"missing":true, "season": "1975-76", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "OYMP"}
+			]},
+			"level_6": { "season": "1975-76", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1975-76", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "MGWW"},
+				{"missing":true, "season": "1975-76", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "KHLN"},
+				{"missing":true, "season": "1975-76", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "MUNS"},
+				{"missing":true, "season": "1975-76", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "LUNA"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1975-76", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "1976-77",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1976-77", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 16},
+			"level_2": {"missing":true, "season": "1976-77", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
+			"level_3": { "season": "1976-77", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1976-77", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "YBDK"},
+				{"missing":true, "season": "1976-77", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "RROD"}
+			]},
+			"level_4": { "season": "1976-77", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1976-77", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "UFLN"},
+				{"missing":true, "season": "1976-77", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "KHLN"},
+				{"missing":true, "season": "1976-77", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "UMRT"},
+				{"missing":true, "season": "1976-77", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "SCBT"}
+			]},
+			"level_5": { "season": "1976-77", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1976-77", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "CBSH"},
+				{"missing":true, "season": "1976-77", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "RSMB:2"},
+				{"missing":true, "season": "1976-77", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "OBCN"},
+				{"missing":true, "season": "1976-77", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "JESH:2"}
+			]},
+			"level_6": { "season": "1976-77", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1976-77", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "OVND:2"},
+				{"missing":true, "season": "1976-77", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "AVBG:2"},
+				{"missing":true, "season": "1976-77", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "JUNG:2"},
+				{"missing":true, "season": "1976-77", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "CSHL:2"},
+				{"missing":true, "season": "1976-77", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "SCBT:2"},
+				{"missing":true, "season": "1976-77", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "CROD:2"},
+				{"missing":true, "season": "1976-77", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "ADUD:2"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1976-77", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1977-78",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1977-78", "level": 1, "name": "National Division", "winner": "PRON", "title_count": 2, "double": true},
+			"level_2": {"missing":true, "season": "1977-78", "level": 2, "name": "Division of Honour", "winner": "ARIS"},
+			"level_3": { "season": "1977-78", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1977-78", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "SWFT"},
+				{"missing":true, "season": "1977-78", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "USDD"}
+			]},
+			"level_4": { "season": "1977-78", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1977-78", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "AHOS"},
+				{"missing":true, "season": "1977-78", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "ATBS"},
+				{"missing":true, "season": "1977-78", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "AREM"},
+				{"missing":true, "season": "1977-78", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "OYMP"}
+			]},
+			"level_5": { "season": "1977-78", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1977-78", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "TSVG"},
+				{"missing":true, "season": "1977-78", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "UNAS"},
+				{"missing":true, "season": "1977-78", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "ULUX:2"},
+				{"missing":true, "season": "1977-78", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "UBSH"}
+			]},
+			"level_6": { "season": "1977-78", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1977-78", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "RHDS"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "JSCH:2"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "JWAS:2"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "VINE"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "JHTC:2"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "BVAT"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "PROG"},
+				{"missing":true, "season": "1977-78", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "BYUD"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1977-78", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "1978-79",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1978-79", "level": 1, "name": "National Division", "winner": "RBDF", "title_count": 6, "double": true},
+			"level_2": {"missing":true, "season": "1978-79", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
+			"level_3": { "season": "1978-79", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1978-79", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "WLTZ"},
+				{"missing":true, "season": "1978-79", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "OYMP"}
+			]},
+			"level_4": { "season": "1978-79", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1978-79", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ASCB"},
+				{"missing":true, "season": "1978-79", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOBS"},
+				{"missing":true, "season": "1978-79", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "VICR"},
+				{"missing":true, "season": "1978-79", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "BLVL"}
+			]},
+			"level_5": { "season": "1978-79", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1978-79", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "ETZE:2"},
+				{"missing":true, "season": "1978-79", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "TRIG"},
+				{"missing":true, "season": "1978-79", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "YBWT"},
+				{"missing":true, "season": "1978-79", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "YGGC"}
+			]},
+			"level_6": { "season": "1978-79", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1978-79", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "GBHT:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "MARM:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "DARE:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "USMM:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "WALF:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "CSHL:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "CSOB:2"},
+				{"missing":true, "season": "1978-79", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "MDCG"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1978-79", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "1979-80",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1979-80", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 17},
+			"level_2": {"missing":true, "season": "1979-80", "level": 2, "name": "Division of Honour", "winner": "OYMP"},
+			"level_3": { "season": "1979-80", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1979-80", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "BWMD"},
+				{"missing":true, "season": "1979-80", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CSOB"}
+			]},
+			"level_4": { "season": "1979-80", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1979-80", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "CLVX"},
+				{"missing":true, "season": "1979-80", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "ASLX"},
+				{"missing":true, "season": "1979-80", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "UMRT"},
+				{"missing":true, "season": "1979-80", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "SNEM"}
+			]},
+			"level_5": { "season": "1979-80", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1979-80", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "BVAT"},
+				{"missing":true, "season": "1979-80", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "OYCW"},
+				{"missing":true, "season": "1979-80", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "SPOR:2"},
+				{"missing":true, "season": "1979-80", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "UBSH"}
+			]},
+			"level_6": { "season": "1979-80", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1979-80", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "AHOS:2"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "LARD"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "JWAS:2"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "BYUD:2"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "RBPF:2"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "BBML:2"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "SNEM:2"},
+				{"missing":true, "season": "1979-80", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "BLVL:2"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1979-80", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
+		}
 	}
 ]
