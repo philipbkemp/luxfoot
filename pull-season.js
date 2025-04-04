@@ -27,7 +27,9 @@ allTeams = {
     "Résidence Walferdange": "WALF","FC Wiltz 71": "WLTZ","FC Weiswampach": "WWMP","Young Boys Diekirch": "YBDK","Yellow Boys Weiler-la-Tour": "YBWT",
     "Red Star Merl/Belair":"RSMB","AS Hosingen":"AHOS","AS Colmar-Berg":"ASCB","Les Aiglons Dalheim":"LADH","FC Erpeldange 72":"ERPL","Jeunesse Canach":"JCNC",
     "FC Munsbach":"MUNS","CS Bourscheid":"CBSH","FC Harlange":"HARL","Tarwat Tarchamps":"TWTC","GB Harlange/Tarchamps":"GBHT","UNA Strassen":"UNAS",
-    "Vinesca Ehnen":"VINE","FC Beyren-Udinesina":"BYUD","Yougo Grund-Cessange":"YGCC"
+    "Vinesca Ehnen":"VINE","FC Beyren-Udinesina":"BYUD","Yougo Grund-Cessange":"YGCC","Progrès Cessange":"PROC","Berdenia Berbourg": "BDBB",
+    "Amis de la Moselle Remerschen":"AMRS","FC Noertzange HF":"NORZ","US Folschette":"FOLS","AS Wincrange":"WINC","FC 47 Bastendorf":"BAST","Excelsior Grevels":"EXGV",
+    "SC Ell":"SELL","Iska Boys Simmern":"ISKA","RM 86 Luxembourg":"RMLX","Racing Heiderscheid/Eschdorf":"RHSE","US Rambrouch":"RAMB","Sporting Beckerich":"SBCK"
 }
 champs = JSON.parse(localStorage.champs);
 obj = {
@@ -200,7 +202,11 @@ function level(level,winner) {
 	}
 }
 function series(level,winners) {
-	if ( level === 3 ) {
+	if ( level === 2 ) {
+		for ( w=0 ; w!==winners.length ; w++ ) {
+			addSeries(level,w+1,"Division of Honour Series "+(w+1),winners[w]);
+		}
+    } else if ( level === 3 ) {
 		for ( w=0 ; w!==winners.length ; w++ ) {
 			addSeries(level,w+1,"1. Division Series "+(w+1),winners[w]);
 		}

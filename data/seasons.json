@@ -1329,5 +1329,304 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1979-80", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
 		}
+	},{
+		"season": "1980-81",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1980-81", "level": 1, "name": "National Division", "winner": "PRON", "title_count": 3},
+			"level_2": {"missing":true, "season": "1980-81", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
+			"level_3": { "season": "1980-81", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1980-81", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "OVND"},
+				{"missing":true, "season": "1980-81", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SWFT"}
+			]},
+			"level_4": { "season": "1980-81", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1980-81", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JSCH"},
+				{"missing":true, "season": "1980-81", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOST"},
+				{"missing":true, "season": "1980-81", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "ULUX:2"},
+				{"missing":true, "season": "1980-81", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "SCBT"}
+			]},
+			"level_5": { "season": "1980-81", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1980-81", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "MGWW"},
+				{"missing":true, "season": "1980-81", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "KOPS"},
+				{"missing":true, "season": "1980-81", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "BYUD"},
+				{"missing":true, "season": "1980-81", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "JESH:2"}
+			]},
+			"level_6": { "season": "1980-81", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1980-81", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "RHDS"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "ATBS:2"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "BDBB"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "AMRS"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "UNAS:2"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "ARIS:2"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "NORZ"},
+				{"missing":true, "season": "1980-81", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "CSOB"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1980-81", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1981-82",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1981-82", "level": 1, "name": "National Division", "winner": "AVBG", "title_count": 2},
+			"level_2": {"missing":true, "season": "1981-82", "level": 2, "name": "Division of Honour", "winner": "URUM"},
+			"level_3": { "season": "1981-82", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1981-82", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "DARE"},
+				{"missing":true, "season": "1981-82", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "RPDN"}
+			]},
+			"level_4": { "season": "1981-82", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1981-82", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "MRTZ"},
+				{"missing":true, "season": "1981-82", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MINL"},
+				{"missing":true, "season": "1981-82", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "JBIW"},
+				{"missing":true, "season": "1981-82", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "MDLB"}
+			]},
+			"level_5": { "season": "1981-82", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1981-82", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "WLTZ:2"},
+				{"missing":true, "season": "1981-82", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "UNAS"},
+				{"missing":true, "season": "1981-82", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "PROC"},
+				{"missing":true, "season": "1981-82", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "JKYL"}
+			]},
+			"level_6": { "season": "1981-82", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1981-82", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "OVND:2"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "FOLS"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "BRCH:2"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "VICR:2"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "MDLB:2"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "SWFT:2"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "USDD:2"},
+				{"missing":true, "season": "1981-82", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "CROD:2"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1981-82", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 15, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1982-83",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1982-83", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 18},
+			"level_2": {"missing":true, "season": "1982-83", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
+			"level_3": { "season": "1982-83", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1982-83", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MRTZ"},
+				{"missing":true, "season": "1982-83", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SWFT"}
+			]},
+			"level_4": { "season": "1982-83", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1982-83", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ATBS"},
+				{"missing":true, "season": "1982-83", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SPST"},
+				{"missing":true, "season": "1982-83", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "JCNC"},
+				{"missing":true, "season": "1982-83", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "BLVL"}
+			]},
+			"level_5": { "season": "1982-83", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1982-83", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "WINC"},
+				{"missing":true, "season": "1982-83", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "BVAT"},
+				{"missing":true, "season": "1982-83", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "USMM"},
+				{"missing":true, "season": "1982-83", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "MAMR"}
+			]},
+			"level_6": { "season": "1982-83", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1982-83", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "AHOS:2"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "BAST"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "EXGV"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "DARE:2"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "AMRS"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "RPDN:2"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "CPET:2"},
+				{"missing":true, "season": "1982-83", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "LUNA"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1982-83", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1983-84",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1983-84", "level": 1, "name": "National Division", "winner": "AVBG", "title_count": 3, "double": true},
+			"level_2": {"missing":true, "season": "1983-84", "level": 2, "name": "Division of Honour", "winner": "ADUD"},
+			"level_3": { "season": "1983-84", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1983-84", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "OVND"},
+				{"missing":true, "season": "1983-84", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "UMRT"}
+			]},
+			"level_4": { "season": "1983-84", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1983-84", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "OYCW"},
+				{"missing":true, "season": "1983-84", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOBS"},
+				{"missing":true, "season": "1983-84", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "RBPF"},
+				{"missing":true, "season": "1983-84", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "ASDF"}
+			]},
+			"level_5": { "season": "1983-84", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1983-84", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "SPOR:2"},
+				{"missing":true, "season": "1983-84", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "WALF"},
+				{"missing":true, "season": "1983-84", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "AFLX"},
+				{"missing":true, "season": "1983-84", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "NSCH"}
+			]},
+			"level_6": { "season": "1983-84", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1983-84", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "YBDK:2"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "ATBS:2"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "SELL"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "UMRT:2"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "VINE"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "TRIG:2"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "ISKA"},
+				{"missing":true, "season": "1983-84", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "NSCH:2"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1983-84", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "1984-85",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1984-85", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 19},
+			"level_2": {"missing":true, "season": "1984-85", "level": 2, "name": "Division of Honour", "winner": "CGRV"},
+			"level_3": { "season": "1984-85", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1984-85", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "JWAS"},
+				{"missing":true, "season": "1984-85", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SPST"}
+			]},
+			"level_4": { "season": "1984-85", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1984-85", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BRCH"},
+				{"missing":true, "season": "1984-85", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "CSHL"},
+				{"missing":true, "season": "1984-85", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "HOST"},
+				{"missing":true, "season": "1984-85", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "SNEM"}
+			]},
+			"level_5": { "season": "1984-85", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1984-85", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "ATBS:2"},
+				{"missing":true, "season": "1984-85", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "UNAS"},
+				{"missing":true, "season": "1984-85", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "MUNS"},
+				{"missing":true, "season": "1984-85", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "UBSH"}
+			]},
+			"level_6": { "season": "1984-85", "level": 6, "name": "4. Division","series":[
+				{"missing":true, "season": "1984-85", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "RHDS"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "MRTZ:2"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "OBCN"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "RPDN:2"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "SPST:2"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "AREM:2"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "HAMM"},
+				{"missing":true, "season": "1984-85", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "BLVL:2"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1984-85", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 16, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1985-86",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1985-86", "level": 1, "name": "National Division", "winner": "AVBG", "title_count": 4},
+			"level_2": {"missing":true, "season": "1985-86", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
+			"level_3": { "season": "1985-86", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1985-86", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MRTZ"},
+				{"missing":true, "season": "1985-86", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "USDD"}
+			]},
+			"level_4": { "season": "1985-86", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1985-86", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BWMD"},
+				{"missing":true, "season": "1985-86", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "TRIG"},
+				{"missing":true, "season": "1985-86", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "STET"}
+			]},
+			"level_5": { "season": "1985-86", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1985-86", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "TSVG"},
+				{"missing":true, "season": "1985-86", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "LRNZ"},
+				{"missing":true, "season": "1985-86", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "KHLN"},
+				{"missing":true, "season": "1985-86", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "CLMC"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1985-86", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1986-87",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1986-87", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 20},
+			"level_2": {"missing":true, "season": "1986-87", "level": 2, "name": "Division of Honour", "winner": "ARIS"},
+			"level_3": { "season": "1986-87", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1986-87", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "VICR"},
+				{"missing":true, "season": "1986-87", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "ASDF"}
+			]},
+			"level_4": { "season": "1986-87", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1986-87", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "TSVG"},
+				{"missing":true, "season": "1986-87", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "RBPF"},
+				{"missing":true, "season": "1986-87", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "NSCH"}
+			]},
+			"level_5": { "season": "1986-87", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1986-87", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "MGWW"},
+				{"missing":true, "season": "1986-87", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "BVAT"},
+				{"missing":true, "season": "1986-87", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "ASLX"},
+				{"missing":true, "season": "1986-87", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "UESH"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1986-87", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1987-88",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1987-88", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 21, "double": true},
+			"level_2": {"missing":true, "season": "1987-88", "level": 2, "name": "Division of Honour", "winner": "CPET"},
+			"level_3": { "season": "1987-88", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1987-88", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "YBDK"},
+				{"missing":true, "season": "1987-88", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CSHL"}
+			]},
+			"level_4": { "season": "1987-88", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1987-88", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "WINC"},
+				{"missing":true, "season": "1987-88", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "TRIG"},
+				{"missing":true, "season": "1987-88", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "STET"}
+			]},
+			"level_5": { "season": "1987-88", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1987-88", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "RAMB"},
+				{"missing":true, "season": "1987-88", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "ERPL"},
+				{"missing":true, "season": "1987-88", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "LADH"},
+				{"missing":true, "season": "1987-88", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "SBCK"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1987-88", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "1988-89",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1988-89", "level": 1, "name": "National Division", "winner": "SPOR", "title_count": 11},
+			"level_2": {"season": "1988-89", "level": 2, "name":"Division of Honour", "series":[
+				{"missing":true, "season": "1988-89", "level": 2, "series": 1, "name":"Division of Honour Series 1", "winner":"ARIS"},
+				{"missing":true, "season": "1988-89", "level": 2, "series": 2, "name":"Division of Honour Series 2", "winner":"KWRM"}
+			]},
+			"level_3": { "season": "1988-89", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1988-89", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "UMRT"},
+				{"missing":true, "season": "1988-89", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CROD"}
+			]},
+			"level_4": { "season": "1988-89", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1988-89", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JSCH"},
+				{"missing":true, "season": "1988-89", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOST"},
+				{"missing":true, "season": "1988-89", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "SCBT"}
+			]},
+			"level_5": { "season": "1988-89", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1988-89", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "PRTZ"},
+				{"missing":true, "season": "1988-89", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "JCNC"},
+				{"missing":true, "season": "1988-89", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "RROD"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1988-89", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "1989-90",
+		"leagues": {
+			"level_1": {"missing":true, "season": "1989-90", "level": 1, "name": "National Division", "winner": "ULUX", "title_count": 4},
+			"level_2": { "season": "1989-90", "level": 2, "name": "Division of Honour","series":[
+				{"missing":true, "season": "1989-90", "level": 2,"series":1, "name": "Division of Honour Series 1", "winner": "VICR"},
+				{"missing":true, "season": "1989-90", "level": 2,"series":2, "name": "Division of Honour Series 2", "winner": "PRON"}
+			]},
+			"level_3": { "season": "1989-90", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "1989-90", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "JWAS"},
+				{"missing":true, "season": "1989-90", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "TRIG"}
+			]},
+			"level_4": { "season": "1989-90", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "1989-90", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "MINL"},
+				{"missing":true, "season": "1989-90", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SAND"},
+				{"missing":true, "season": "1989-90", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "MDCG"}
+			]},
+			"level_5": { "season": "1989-90", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "1989-90", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "RAMB"},
+				{"missing":true, "season": "1989-90", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "HAMM"},
+				{"missing":true, "season": "1989-90", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "ASCH"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "1989-90", "name": "Luxembourg Cup", "winner": "SWFT", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		}
 	}
 ]
