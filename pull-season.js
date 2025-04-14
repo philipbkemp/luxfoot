@@ -29,7 +29,9 @@ allTeams = {
     "FC Munsbach":"MUNS","CS Bourscheid":"CBSH","FC Harlange":"HARL","Tarwat Tarchamps":"TWTC","GB Harlange/Tarchamps":"GBHT","UNA Strassen":"UNAS",
     "Vinesca Ehnen":"VINE","FC Beyren-Udinesina":"BYUD","Yougo Grund-Cessange":"YGCC","Progrès Cessange":"PROC","Berdenia Berbourg": "BDBB",
     "Amis de la Moselle Remerschen":"AMRS","FC Noertzange HF":"NORZ","US Folschette":"FOLS","AS Wincrange":"WINC","FC 47 Bastendorf":"BAST","Excelsior Grevels":"EXGV",
-    "SC Ell":"SELL","Iska Boys Simmern":"ISKA","RM 86 Luxembourg":"RMLX","Racing Heiderscheid/Eschdorf":"RHSE","US Rambrouch":"RAMB","Sporting Beckerich":"SBCK"
+    "SC Ell":"SELL","Iska Boys Simmern":"ISKA","RM 86 Luxembourg":"RMLX","Racing Heiderscheid/Eschdorf":"RHSE","US Rambrouch":"RAMB","Sporting Beckerich":"SBCK",
+    "FC Rodange 91": "RODG", "F91 Dudelange": "F91D","Etzella Ettelbruck": "ETZE","The National Schifflange":"NSCH", "Union Mertert/Wasserbillig":"UNMW",
+    "Schifflange 95":"SCHF", "UN Käerjéng 97":"KAER","Rupensia Lusitanos Larochette":"RPLL"
 }
 champs = JSON.parse(localStorage.champs);
 obj = {
@@ -84,7 +86,7 @@ function addSeries(level,series,name,winner){
         obj.leagues["level_"+level] = {
             season: obj.season,
             level: level,
-            name: prompt("General name",name),
+            name: prompt("General name",name.replace(" Series 1","")),
             series: []
         }
     }
@@ -225,4 +227,16 @@ function series(level,winners) {
 	} else {
 		console.error("What to do?");
 	}
+}
+function league(nationalDivision,divisionHonour,division1,division2,division3) {
+    one = nationalDivision;
+    two = divisionHonour;
+    thr = division1;
+    fou = division2;
+    fiv = division3;
+    if ( Array.isArray(one) ) { series(1,one); } else { level(1,one); }
+    if ( Array.isArray(two) ) { series(2,two); } else { level(2,two); }
+    if ( Array.isArray(thr) ) { series(3,thr); } else { level(3,thr); }
+    if ( Array.isArray(fou) ) { series(4,fou); } else { level(4,fou); }
+    if ( Array.isArray(fiv) ) { series(5,fiv); } else { level(5,fiv); }
 }
