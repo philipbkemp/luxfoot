@@ -29,5 +29,8 @@
     {"end_season": "2004-05", "new": "U5KT", "team1": "STET", "team2": "JKYL"},
     {"end_season": "2006-07", "new": "AAHE", "team1": "HOBS", "team2": "OYMP"},
     {"end_season": "2006-07", "new": "RBE7", "team1": "RBPF", "team2": "EGWM"},
-    {"end_season": "2009-10", "new": "UNRB", "team1": "AREM", "team2": "BOUS"}
+    {"end_season": "2009-10", "new": "UNRB", "team1": "AREM", "team2": "BOUS"},
+    {"end_season": "2010-11", "new": "KOSM", "team1": "JSKH"},
+    {"end_season": "2014-15", "new": "UNTP", "team1": "CPET", "team2": "TLMD"},
+    {"end_season": "2019-20", "new": "BENF", "team1": "RMHM", "team2": "BBML"}
 ]

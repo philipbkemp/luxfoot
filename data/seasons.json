@@ -2086,5 +2086,227 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2009-10", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
 		}
+	},{
+		"season": "2010-11",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2010-11", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 12},
+			"level_2": {"missing":true, "season": "2010-11", "level": 2, "name": "Division of Honour", "winner": "U5KT"},
+			"level_3": { "season": "2010-11", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2010-11", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "NORD"},
+				{"missing":true, "season": "2010-11", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "UNAS"}
+			]},
+			"level_4": { "season": "2010-11", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2010-11", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "LRNZ"},
+				{"missing":true, "season": "2010-11", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "JUNG"}
+			]},
+			"level_5": { "season": "2010-11", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2010-11", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "BVAT"},
+				{"missing":true, "season": "2010-11", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "NORZ"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2010-11", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2010-11", "name": "Coupe FLF", "winner": "JUNG", "title_count": 1, "winner_division": { "level": 4,"series":2, "name": "2. Division Series 2"}}
+		}
+	},{
+		"season": "2011-12",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2011-12", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 13, "double": true},
+			"level_2": {"missing":true, "season": "2011-12", "level": 2, "name": "Division of Honour", "winner": "JCNC"},
+			"level_3": { "season": "2011-12", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2011-12", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "AAHE"},
+				{"missing":true, "season": "2011-12", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SAND"}
+			]},
+			"level_4": { "season": "2011-12", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2011-12", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BVAT"},
+				{"missing":true, "season": "2011-12", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "RODG"}
+			]},
+			"level_5": { "season": "2011-12", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2011-12", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "EXGV"},
+				{"missing":true, "season": "2011-12", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "KOPS"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2011-12", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
+			"cup_flf": {"missing":true, "season": "2011-12", "name": "Coupe FLF", "winner": "BLVL", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		}
+	},{
+		"season": "2012-13",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2012-13", "level": 1, "name": "National Division", "winner": "FOLA", "title_count": 6},
+			"level_2": {"missing":true, "season": "2012-13", "level": 2, "name": "Division of Honour", "winner": "SWFT"},
+			"level_3": { "season": "2012-13", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2012-13", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MARM"},
+				{"missing":true, "season": "2012-13", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "JUNG"}
+			]},
+			"level_4": { "season": "2012-13", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2012-13", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "KHLN"},
+				{"missing":true, "season": "2012-13", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SNEM"}
+			]},
+			"level_5": { "season": "2012-13", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2012-13", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JGIL"},
+				{"missing":true, "season": "2012-13", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "USMM"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2012-13", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2012-13", "name": "Coupe FLF", "winner": "OVND", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		}
+	},{
+		"season": "2013-14",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2013-14", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 14},
+			"level_2": {"missing":true, "season": "2013-14", "level": 2, "name": "Division of Honour", "winner": "VICR"},
+			"level_3": { "season": "2013-14", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2013-14", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MAMR"},
+				{"missing":true, "season": "2013-14", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MDCG"}
+			]},
+			"level_4": { "season": "2013-14", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2013-14", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JSCH"},
+				{"missing":true, "season": "2013-14", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SCHF"}
+			]},
+			"level_5": { "season": "2013-14", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2013-14", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JUSE"},
+				{"missing":true, "season": "2013-14", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "RBE7"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2013-14", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2013-14", "name": "Coupe FLF", "winner": "TLMD", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		}
+	},{
+		"season": "2014-15",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2014-15", "level": 1, "name": "National Division", "winner": "FOLA", "title_count": 7},
+			"level_2": {"missing":true, "season": "2014-15", "level": 2, "name": "Division of Honour", "winner": "RMHM"},
+			"level_3": { "season": "2014-15", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2014-15", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "NORD"},
+				{"missing":true, "season": "2014-15", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "UNRB"}
+			]},
+			"level_4": { "season": "2014-15", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2014-15", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ASTN"},
+				{"missing":true, "season": "2014-15", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MUNS"}
+			]},
+			"level_5": { "season": "2014-15", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2014-15", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "LARD"},
+				{"missing":true, "season": "2014-15", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "KOSM"},
+				{"missing":true, "season": "2014-15", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "MLSV"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2014-15", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2014-15", "name": "Coupe FLF", "winner": "NORD", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		}
+	},{
+		"season": "2015-16",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2015-16", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 15, "double": true},
+			"level_2": {"missing":true, "season": "2015-16", "level": 2, "name": "Division of Honour", "winner": "KAER"},
+			"level_3": { "season": "2015-16", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2015-16", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ATBS"},
+				{"missing":true, "season": "2015-16", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "UESH"}
+			]},
+			"level_4": { "season": "2015-16", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2015-16", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BWMD"},
+				{"missing":true, "season": "2015-16", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SNEM"}
+			]},
+			"level_5": { "season": "2015-16", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2015-16", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "CLVX"},
+				{"missing":true, "season": "2015-16", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "RPLL"},
+				{"missing":true, "season": "2015-16", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "VINE"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2015-16", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
+			"cup_flf": {"missing":true, "season": "2015-16", "name": "Coupe FLF", "winner": "ASTN", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		}
+	},{
+		"season": "2016-17",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2016-17", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 16, "double": true},
+			"level_2": {"missing":true, "season": "2016-17", "level": 2, "name": "Division of Honour", "winner": "UESH"},
+			"level_3": { "season": "2016-17", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2016-17", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ERPL"},
+				{"missing":true, "season": "2016-17", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "BBML"}
+			]},
+			"level_4": { "season": "2016-17", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2016-17", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "SPST"},
+				{"missing":true, "season": "2016-17", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "RBAS"}
+			]},
+			"level_5": { "season": "2016-17", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2016-17", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "REIS"},
+				{"missing":true, "season": "2016-17", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "CBRA"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2016-17", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
+			"cup_flf": {"missing":true, "season": "2016-17", "name": "Coupe FLF", "winner": "RSMB", "title_count": 1, "winner_division": { "level": 4,"series":2, "name": "2. Division Series 2"}}
+		}
+	},{
+		"season": "2017-18",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2017-18", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 17},
+			"level_2": {"missing":true, "season": "2017-18", "level": 2, "name": "Division of Honour", "winner": "ETZE"},
+			"level_3": { "season": "2017-18", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2017-18", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ATBS"},
+				{"missing":true, "season": "2017-18", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "JUNG"}
+			]},
+			"level_4": { "season": "2017-18", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2017-18", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JUSE"},
+				{"missing":true, "season": "2017-18", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "UNRB"}
+			]},
+			"level_5": { "season": "2017-18", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2017-18", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "LARD"},
+				{"missing":true, "season": "2017-18", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "DARE"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2017-18", "name": "Luxembourg Cup", "winner": "RACE", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2017-18", "name": "Coupe FLF", "winner": "ASTN", "title_count": 2, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		}
+	},{
+		"season": "2018-19",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2018-19", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 18, "double": true},
+			"level_2": {"missing":true, "season": "2018-19", "level": 2, "name": "Division of Honour", "winner": "RODG"},
+			"level_3": { "season": "2018-19", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2018-19", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ASTN"},
+				{"missing":true, "season": "2018-19", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MDCG"}
+			]},
+			"level_4": { "season": "2018-19", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2018-19", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "UFLN"},
+				{"missing":true, "season": "2018-19", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "WALF"}
+			]},
+			"level_5": { "season": "2018-19", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2018-19", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "REIS"},
+				{"missing":true, "season": "2018-19", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "CLMC"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2018-19", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
+			"cup_flf": {"missing":true, "season": "2018-19", "name": "Coupe FLF", "winner": "YBWT", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		}
+	},{
+		"season": "2019-20",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2019-20", "level": 1, "name": "National Division", "winner": "", "covid":true},
+			"level_2": {"missing":true, "season": "2019-20", "level": 2, "name": "Division of Honour", "winner": "", "covid":true},
+			"level_3": { "season": "2019-20", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2019-20", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "", "covid":true},
+				{"missing":true, "season": "2019-20", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "", "covid":true}
+			]},
+			"level_4": { "season": "2019-20", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2019-20", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "", "covid":true},
+				{"missing":true, "season": "2019-20", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "", "covid":true}
+			]},
+			"level_5": { "season": "2019-20", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2019-20", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "", "covid":true},
+				{"missing":true, "season": "2019-20", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "", "covid":true}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
+			"cup_flf": {"missing":true, "season": "2019-20", "name": "Coupe FLF", "winner": "", "covid":true}
+		}
 	}
 ]
