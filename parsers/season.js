@@ -57,6 +57,7 @@ function doneParsingTeams() {
 			subKeys[i] = "leagues." + subKeys[i];
 		}
 		keys = [...keys,...subKeys];
+		keys.splice(keys.indexOf("leagues"),1);
 		if ( season.leagues.level_1 ) {
 			subKeys = Object.keys(season.leagues.level_1);
 			for ( i=0 ; i!==subKeys.length ; i++ ) {
@@ -116,10 +117,10 @@ function doneParsingTeams() {
 
 function displayWinner(competition) {
 	col = $("<DIV></DIV>").addClass("col-4").addClass("winner-box");
-	competition = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
-	winner = $("<DIV></DIV>").addClass("winner-box__team").html(competition.winner);
+	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
+	team = $("<DIV></DIV>").addClass("winner-box__team").html(competition.winner);
 
-	col.append(competition).append(winner);
+	col.append(comp).append(team);
 
 	$("#winners").append(col);
 }
