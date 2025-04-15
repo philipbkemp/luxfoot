@@ -75,13 +75,14 @@ function doneParsingTeams() {
 		keys = [...keys,...subKeys];
 		keys.splice(keys.indexOf("cups"),1);
 		subKeys.forEach(k=>{
-			subSubKeys = Object.keys(season.cups[k]);
+			kClean = k.replace("cups.","");
+			subSubKeys = Object.keys(season.cups[kClean]);
 			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
-				subSubKeys[i] = "cups." + k + "." + subSubKeys[i];
+				subSubKeys[i] = k + "." + subSubKeys[i];
 			}
 			keys = [...keys,...subSubKeys];
-			keys.splice(keys.indexOf("cups."+k),1);
-			displayWinner(season.cups[k]);
+			keys.splice(keys.indexOf(k),1);
+			displayWinner(season.cups[kClean]);
 		});
 	}
 
