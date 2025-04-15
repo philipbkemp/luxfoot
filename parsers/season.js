@@ -63,7 +63,7 @@ function doneParsingTeams() {
 				subKeys[i] = "leagues.level_1." + subKeys[i];
 			}
 			keys = [...keys,...subKeys];
-			displayWinner(season.league.level_1);
+			displayWinner(season.leagues.level_1);
 		}
 	}
 
