@@ -765,6 +765,9 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1956-57", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 5, "winner_division": {"level": 1,"name": "Honour Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1956-57","name":"European Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1957-58",
@@ -785,6 +788,9 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1957-58", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 12, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1957-58","name":"European Cup","teams":["SDUD"]}
 		}
 	},{
 		"season": "1958-59",
@@ -805,6 +811,9 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1958-59", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 2, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1958-59","name":"European Cup","teams":["JESH"]}
 		}
 	},{
 		"season": "1959-60",
@@ -825,6 +834,9 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1959-60", "name": "Luxembourg Cup", "winner": "NSCH", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1959-60","name":"European Cup","teams":["JESH"]}
 		}
 	},{
 		"season": "1960-61",
@@ -846,6 +858,9 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1960-61", "name": "Luxembourg Cup", "winner": "ADUD", "title_count": 1, "winner_division": {"level": 2,"name": "Division of Honour"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1960-61","name":"European Cup","teams":["JESH"]}
 		}
 	},{
 		"season": "1961-62",
@@ -866,6 +881,10 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1961-62", "name": "Luxembourg Cup", "winner": "ADUD", "title_count": 2, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1961-62","name":"European Cup","teams":["SPOR"]},
+			"cup_winners_cup": {"missing":true,"season":"1961-62","name":"Cup Winners Cup","teams":["ADUD"]}
 		}
 	},{
 		"season": "1962-63",
@@ -886,6 +905,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1962-63", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 3, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1962-63","name":"European Cup","teams":["ULUX"]},
+			"fairs_cup": {"missing":true,"season":"1962-63","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
+			"cup_winners_cup": {"missing":true,"season":"1962-63","name":"Cup Winners Cup","teams":["ADUD"]}
 		}
 	},{
 		"season": "1963-64",
@@ -906,6 +930,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1963-64", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 4, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1963-64","name":"European Cup","teams":["JESH"]},
+			"fairs_cup": {"missing":true,"season":"1963-64","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
+			"cup_winners_cup": {"missing":true,"season":"1963-64","name":"Cup Winners Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1964-65",
@@ -929,6 +958,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1964-65", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 6, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1964-65","name":"European Cup","teams":["ARIS"]},
+			"fairs_cup": {"missing":true,"season":"1964-65","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
+			"cup_winners_cup": {"missing":true,"season":"1964-65","name":"Cup Winners Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1965-66",
@@ -952,6 +986,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1965-66", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 7, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1965-66","name":"European Cup","teams":["SDUD"]},
+			"fairs_cup": {"missing":true,"season":"1965-66","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"cup_winners_cup": {"missing":true,"season":"1965-66","name":"Cup Winners Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1966-67",
@@ -975,6 +1014,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1966-67", "name": "Luxembourg Cup", "winner": "ARIS", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1966-67","name":"European Cup","teams":["ARIS"]},
+			"fairs_cup": {"missing":true,"season":"1966-67","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"cup_winners_cup": {"missing":true,"season":"1966-67","name":"Cup Winners Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1967-68",
@@ -998,6 +1042,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1967-68", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1967-68","name":"European Cup","teams":["JESH"]},
+			"fairs_cup": {"missing":true,"season":"1967-68","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
+			"cup_winners_cup": {"missing":true,"season":"1967-68","name":"Cup Winners Cup","teams":["ARIS"]}
 		}
 	},{
 		"season": "1968-69",
@@ -1022,6 +1071,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1968-69", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 5, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1968-69","name":"European Cup","teams":["JESH"]},
+			"fairs_cup": {"missing":true,"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"cup_winners_cup": {"missing":true,"season":"1968-69","name":"Cup Winners Cup","teams":["URUM"]}
 		}
 	},{
 		"season": "1969-70",
@@ -1046,6 +1100,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1969-70", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 6, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1969-70","name":"European Cup","teams":["AVBG"]},
+			"fairs_cup": {"missing":true,"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
+			"cup_winners_cup": {"missing":true,"season":"1969-70","name":"Cup Winners Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1970-71",
@@ -1070,6 +1129,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1970-71", "name": "Luxembourg Cup", "winner": "JHTC", "title_count": 1, "winner_division": {"level": 3,"name": "1. Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"season":"1970-71","name":"European Cup","teams":["JESH"]},
+			"fairs_cup": {"missing":true,"season":"1970-71","name":"Inter-Cities Fairs Cup","teams":["URUM"]},
+			"cup_winners_cup": {"missing":true,"season":"1970-71","name":"Cup Winners Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1971-72",
@@ -1093,6 +1157,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1971-72", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 13, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1971-72","teams":["ULUX"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1971-72","teams":["ARIS"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1971-72","teams":["JHTC"]}
 		}
 	},{
 		"season": "1972-73",
@@ -1117,6 +1186,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1972-73", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 5, "double": true, "winner_division": {"level": 1,"name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1972-73","teams":["ARIS"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1972-73","teams":["URUM"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1972-73","teams":["RBDF"]}
 		}
 	},{
 		"season": "1973-74",
@@ -1141,6 +1215,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1973-74", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 6,"winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1973-74","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1973-74","teams":["ULUX"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1973-74","teams":["FOLA"]}
 		}
 	},{
 		"season": "1974-75",
@@ -1165,6 +1244,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1974-75", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1974-75","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1974-75","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1974-75","teams":["AVBG"]}
 		}
 	},{
 		"season": "1975-76",
@@ -1189,6 +1273,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1975-76", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1975-76","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1975-76","teams":["AVBG"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1975-76","teams":["URUM"]}
 		}
 	},{
 		"season": "1976-77",
@@ -1223,6 +1312,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1976-77", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1976-77","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1976-77","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1976-77","teams":["ARIS"]}
 		}
 	},{
 		"season": "1977-78",
@@ -1258,6 +1352,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1977-78", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1977-78","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1977-78","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1977-78","teams":["PRON"]}
 		}
 	},{
 		"season": "1978-79",
@@ -1293,6 +1392,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1978-79", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1978-79","teams":["PRON"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1978-79","teams":["JESH"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1978-79","teams":["ULUX"]}
 		}
 	},{
 		"season": "1979-80",
@@ -1328,6 +1432,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1979-80", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1979-80","teams":["RBDF"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1979-80","teams":["PRON"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1979-80","teams":["ARIS"]}
 		}
 	},{
 		"season": "1980-81",
@@ -1363,6 +1472,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1980-81", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1980-81","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1980-81","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1980-81","teams":["SPOR"]}
 		}
 	},{
 		"season": "1981-82",
@@ -1398,6 +1512,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1981-82", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 15, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1981-82","teams":["PRON"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1981-82","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1981-82","teams":["JESH"]}
 		}
 	},{
 		"season": "1982-83",
@@ -1433,6 +1552,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1982-83", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1982-83","teams":["AVBG"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1982-83","teams":["PRON"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1972-83","teams":["RBDF"]}
 		}
 	},{
 		"season": "1983-84",
@@ -1468,6 +1592,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1983-84", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1983-84","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1983-84","teams":["ARIS"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1983-84","teams":["AVBG"]}
 		}
 	},{
 		"season": "1984-85",
@@ -1503,6 +1632,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1984-85", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 16, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1984-85","teams":["AVBG"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1984-85","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1984-85","teams":["ULUX"]}
 		}
 	},{
 		"season": "1985-86",
@@ -1527,6 +1661,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1985-86", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1985-86","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1985-86","teams":["AVBG"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1985-86","teams":["RBDF"]}
 		}
 	},{
 		"season": "1986-87",
@@ -1551,6 +1690,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1986-87", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1986-87","teams":["AVBG"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1986-87","teams":["JESH"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1986-87","teams":["ULUX"]}
 		}
 	},{
 		"season": "1987-88",
@@ -1575,6 +1719,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1987-88", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1987-88","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1987-88","teams":["SPOR"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1987-88","teams":["AVBG"]}
 		}
 	},{
 		"season": "1988-89",
@@ -1601,6 +1750,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1988-89", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1988-89","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1988-89","teams":["RBDF"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1988-89","teams":["AVBG"]}
 		}
 	},{
 		"season": "1989-90",
@@ -1627,6 +1781,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1989-90", "name": "Luxembourg Cup", "winner": "SWFT", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1989-90","teams":["SPOR"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1989-90","teams":["JESH"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1989-90","teams":["ULUX"]}
 		}
 	},{
 		"season": "1990-91",
@@ -1653,6 +1812,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1990-91", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1990-91","teams":["ULUX"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1990-91","teams":["AVBG"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1990-91","teams":["SWFT"]}
 		}
 	},{
 		"season": "1991-92",
@@ -1679,6 +1843,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1991-92", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"European Cup",	"season":"1991-92","teams":["ULUX"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1991-92","teams":["SPOR"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1991-92","teams":["JESH"]}
 		}
 	},{
 		"season": "1992-93",
@@ -1705,6 +1874,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1992-93", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"1992-93","teams":["ULUX"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1992-93","teams":["SPOR"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1992-93","teams":["AVBG"]}
 		}
 	},{
 		"season": "1993-94",
@@ -1731,6 +1905,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1993-94", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 6, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"1993-94","teams":["AVBG"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1993-94","teams":["ULUX"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1993-94","teams":["F91D"]}
 		}
 	},{
 		"season": "1994-95",
@@ -1754,6 +1933,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1994-95", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"1994-95","teams":["AVBG"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1994-95","teams":["CGRV"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1994-95","teams":["F91D"]}
 		}
 	},{
 		"season": "1995-96",
@@ -1779,6 +1963,10 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1995-96", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 11, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1995-96","teams":["JESH","AVBG"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1995-96","teams":["CGRV"]}
 		}
 	},{
 		"season": "1996-97",
@@ -1804,6 +1992,10 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1996-97", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 11, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1996-97","teams":["JESH","CGRV"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1996-97","teams":["ULUX"]}
 		}
 	},{
 		"season": "1997-98",
@@ -1829,6 +2021,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1997-98", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"1997-98","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1997-98","teams":["CGRV"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1997-98","teams":["ULUX"]}
 		}
 	},{
 		"season": "1998-99",
@@ -1854,6 +2051,12 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1998-99", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 12, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"1998-99","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1998-99","teams":["ULUX"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1998-99","teams":["CGRV"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"1998-99","teams":["HOBS"]}
 		}
 	},{
 		"season": "1999-00",
@@ -1876,6 +2079,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1999-00", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 13, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"1999-00","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1999-00","teams":["F91D","MDCG"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"1999-00","teams":["ULUX"]}
 		}
 	},{
 		"season": "2000-01",
@@ -1898,6 +2106,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2000-01", "name": "Luxembourg Cup", "winner": "ETZE", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2000-01","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2000-01","teams":["JESH","CGRV"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2000-01","teams":["HOBS"]}
 		}
 	},{
 		"season": "2001-02",
@@ -1920,6 +2133,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2001-02", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2001-02","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2001-02","teams":["ETZE","CGRV"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2001-02","teams":["HOBS"]}
 		}
 	},{
 		"season": "2002-03",
@@ -1942,6 +2160,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2002-03", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2002-03","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2002-03","teams":["AVBG","CGRV"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2002-03","teams":["ULUX"]}
 		}
 	},{
 		"season": "2003-04",
@@ -1964,6 +2187,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2003-04", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2003-04","teams":["CGRV"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2003-04","teams":["F91D","ETZE"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2003-04","teams":["ULUX"]}
 		}
 	},{
 		"season": "2004-05",
@@ -1986,6 +2214,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2004-05", "name": "Luxembourg Cup", "winner": "CPET", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2004-05","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2004-05","teams":["F91D","ETZE"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2004-05","teams":["CGRV"]}
 		}
 	},{
 		"season": "2005-06",
@@ -2005,6 +2238,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2005-06", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2005-06","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2005-06","teams":["CPET","ETZE"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2005-06","teams":["VICR"]}
 		}
 	},{
 		"season": "2006-07",
@@ -2024,6 +2262,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2006-07", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2006-07","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2006-07","teams":["JESH","ETZE"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2006-07","teams":["CGRV"]}
 		}
 	},{
 		"season": "2007-08",
@@ -2043,6 +2286,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2007-08", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2007-08","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2007-08","teams":["ETZE","KAER"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2007-08","teams":["DIFF"]}
 		}
 	},{
 		"season": "2008-09",
@@ -2064,6 +2312,11 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2008-09", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 6, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2008-09","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2008-09","teams":["CGRV","RACE"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2008-09","teams":["ETZE"]}
 		}
 	},{
 		"season": "2009-10",
@@ -2085,6 +2338,10 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2009-10", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2009-10","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2009-10","teams":["DIFF","CGRV","KAER"]}
 		}
 	},{
 		"season": "2010-11",
@@ -2107,6 +2364,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2010-11", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2010-11", "name": "Coupe FLF", "winner": "JUNG", "title_count": 1, "winner_division": { "level": 4,"series":2, "name": "2. Division Series 2"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2010-11","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2010-11","teams":["DIFF","F91D","CGRV"]}
 		}
 	},{
 		"season": "2011-12",
@@ -2129,6 +2390,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2011-12", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
 			"cup_flf": {"missing":true, "season": "2011-12", "name": "Coupe FLF", "winner": "BLVL", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2011-12","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2011-12","teams":["DIFF","FOLA","KAER"]}
 		}
 	},{
 		"season": "2012-13",
@@ -2151,6 +2416,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2012-13", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2012-13", "name": "Coupe FLF", "winner": "OVND", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2012-13","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2012-13","teams":["F91D","JESH","CGRV","DIFF"]}
 		}
 	},{
 		"season": "2013-14",
@@ -2173,6 +2442,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2013-14", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2013-14", "name": "Coupe FLF", "winner": "TLMD", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2013-14","teams":["FOLA"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2013-14","teams":["JESH","F91D","DIFF"]}
 		}
 	},{
 		"season": "2014-15",
@@ -2196,6 +2469,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2014-15", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2014-15", "name": "Coupe FLF", "winner": "NORD", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2014-15","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2014-15","teams":["DIFF","FOLA","JESH"]}
 		}
 	},{
 		"season": "2015-16",
@@ -2219,6 +2496,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2015-16", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
 			"cup_flf": {"missing":true, "season": "2015-16", "name": "Coupe FLF", "winner": "ASTN", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2015-16","teams":["FOLA"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2015-16","teams":["PRON","DIFF","F91D"]}
 		}
 	},{
 		"season": "2016-17",
@@ -2241,6 +2522,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2016-17", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
 			"cup_flf": {"missing":true, "season": "2016-17", "name": "Coupe FLF", "winner": "RSMB", "title_count": 1, "winner_division": { "level": 4,"series":2, "name": "2. Division Series 2"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2016-17","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2016-17","teams":["FOLA","DIFF","JESH"]}
 		}
 	},{
 		"season": "2017-18",
@@ -2263,6 +2548,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2017-18", "name": "Luxembourg Cup", "winner": "RACE", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2017-18", "name": "Coupe FLF", "winner": "ASTN", "title_count": 2, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2017-18","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2017-18","teams":["PRON","FOLA","DIFF"]}
 		}
 	},{
 		"season": "2018-19",
@@ -2285,6 +2574,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2018-19", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
 			"cup_flf": {"missing":true, "season": "2018-19", "name": "Coupe FLF", "winner": "YBWT", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2018-19","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2018-19","teams":["F91D","RACE","PRON","FOLA"]}
 		}
 	},{
 		"season": "2019-20",
@@ -2307,6 +2600,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
 			"cup_flf": {"missing":true, "season": "2019-20", "name": "Coupe FLF", "winner": "", "covid":true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2019-20","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2019-20","teams":["F91D","FOLA","JESH","PRON"]}
 		}
 	},{
 		"season": "2019-20",
@@ -2329,6 +2626,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
 			"cup_flf": {"missing":true, "season": "2019-20", "name": "Coupe FLF", "winner": "", "covid":true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2020-21","teams":["FOLA"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2020-21","teams":["FOLA","PRON","DIFF","UNTP"]}
 		}
 	},{
 		"season": "2021-22",
@@ -2348,6 +2649,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2021-22", "name": "Luxembourg Cup", "winner": "RACE", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2021-22", "name": "Coupe FLF", "winner": "JSCH", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2021-22","teams":["FOLA"]},
+			"conference_league": {"missing":true,"name":"Conference League","season":"2021-22","teams":["FOLA","F91D","SWFT","RACE"]}
 		}
 	},{
 		"season": "2022-23",
@@ -2367,6 +2672,11 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2022-23", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2022-23", "name": "Coupe FLF", "winner": "WALF", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2022-23","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League",		"season":"2022-23","teams":["F91D"]},
+			"conference_league": {"missing":true,"name":"Conference League","season":"2022-23","teams":["F91D","RACE","DIFF","FOLA"]}
 		}
 	},{
 		"season": "2023-24",
@@ -2386,6 +2696,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2023-24", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2023-24", "name": "Coupe FLF", "winner": "JSCH", "title_count": 2, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2023-24","teams":["SWFT"]},
+			"conference_league": {"missing":true,"name":"Conference League","season":"2023-24","teams":["SWFT","DIFF","PRON","F91D"]}
 		}
 	},{
 		"season": "2024-25",
@@ -2405,6 +2719,10 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2024-25", "name": "Luxembourg Cup", "ongoing": true},
 			"cup_flf": {"missing":true, "season": "2024-25", "name": "Coupe FLF", "ongoing": true}
+		},
+		"europe": {
+			"champions_league": {"missing":true,"name":"Champions League",	"season":"2024-25","teams":["DIFF"]},
+			"conference_league": {"missing":true,"name":"Conference League","season":"2024-25","teams":["DIFF","PRON","F91D","UNAS"]}
 		}
 	}
 ]
