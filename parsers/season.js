@@ -85,10 +85,31 @@ function doneParsingTeams() {
 			displayWinner(season.cups[kClean]);
 		});
 	}
+	
+	if ( season.europe ) {
+		subKeys = Object.keys(season.europe);
+		for ( i=0 ; i!==subKeys.length ; i++ ) {
+			subKeys[i] = "europe." + subKeys[i];
+		}
+		keys = [...keys,...subKeys];
+		keys.splice(keys.indexOf("europe"),1);
+		subKeys.forEach(k=>{
+			kClean = k.replace("europe.","");
+			subSubKeys = Object.keys(season.europe[kClean]);
+			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
+				subSubKeys[i] = k + "." + subSubKeys[i];
+			}
+			keys = [...keys,...subSubKeys];
+			keys.splice(keys.indexOf(k),1);
+			displayWinner(season.europe[kClean]);
+		});
+	}
 
 	if ( keys.length !== 0 ) {
 		console.log(keys);
 	}
+
+	$(".displayAfterLoad").removeClass("d-none");
 
 	/*
 	
