@@ -16,5 +16,18 @@
     {"end_season": "1993-94", "new": "UNMW", "team1": "JWAS", "team2": "UMRT"},
     {"end_season": "1994-95", "new": "SCHF", "team1": "ASCH", "team2": "NSCH"},
     {"end_season": "1996-97", "new": "KAER", "team1": "JHTC", "team2": "UBSH"},
-    {"end_season": "1997-98", "new": "RPLL", "team1": "RUPL", "team2": "GDLL"}
+    {"end_season": "1997-98", "new": "RPLL", "team1": "RUPL", "team2": "GDLL"},
+    {"end_season": "2000-01", "new": "ALLX", "team1": "ARIS", "team2": "CSHL"},
+    {"end_season": "2000-01", "new": "FCPR", "team1": "PRTZ", "team2": "SRED"},
+    {"end_season": "2000-01", "new": "USBC", "team1": "ARBD", "team2": "OBCN"},
+    {"end_season": "2000-01", "new": "FBU1", "team1": "AFLX", "team2": "BYUD"},
+    {"end_season": "2000-01", "new": "CBRA", "team1": "PROC", "team2": "BRAC"},
+    {"end_season": "2001-02", "new": "NORD", "team1": "MGWW", "team2": "BGHP"},
+    {"end_season": "2002-03", "new": "DIFF", "team1": "RBDF", "team2": "ASDF"},
+    {"end_season": "2003-04", "new": "RMHM", "team1": "HAMM", "team2": "RMLX"},
+    {"end_season": "2004-05", "new": "RACE", "team1": "ALLX", "team2": "ULUX", "team3": "SPOR"},
+    {"end_season": "2004-05", "new": "U5KT", "team1": "STET", "team2": "JKYL"},
+    {"end_season": "2006-07", "new": "AAHE", "team1": "HOBS", "team2": "OYMP"},
+    {"end_season": "2006-07", "new": "RBE7", "team1": "RBPF", "team2": "EGWM"},
+    {"end_season": "2009-10", "new": "UNRB", "team1": "AREM", "team2": "BOUS"}
 ]

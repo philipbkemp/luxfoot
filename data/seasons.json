@@ -1877,5 +1877,214 @@
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "1999-00", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 13, "winner_division": { "level": 1, "name": "National Division"}}
 		}
+	},{
+		"season": "2000-01",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2000-01", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 2},
+			"level_2": {"missing":true, "season": "2000-01", "level": 2, "name": "Division of Honour", "winner": "SWFT"},
+			"level_3": { "season": "2000-01", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2000-01", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "DARE"},
+				{"missing":true, "season": "2000-01", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "ASDF"}
+			]},
+			"level_4": { "season": "2000-01", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2000-01", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ASCB"},
+				{"missing":true, "season": "2000-01", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "BDBB"},
+				{"missing":true, "season": "2000-01", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "CSOB"}
+			]},
+			"level_5": { "season": "2000-01", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2000-01", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "OYCW"},
+				{"missing":true, "season": "2000-01", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "OYMP"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2000-01", "name": "Luxembourg Cup", "winner": "ETZE", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "2001-02",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2001-02", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 3},
+			"level_2": {"missing":true, "season": "2001-02", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
+			"level_3": { "season": "2001-02", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2001-02", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "KWRM"},
+				{"missing":true, "season": "2001-02", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SCHF"}
+			]},
+			"level_4": { "season": "2001-02", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2001-02", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ERPL"},
+				{"missing":true, "season": "2001-02", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOST"},
+				{"missing":true, "season": "2001-02", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "OYMP"}
+			]},
+			"level_5": { "season": "2001-02", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2001-02", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "ASTN"},
+				{"missing":true, "season": "2001-02", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "RBPF"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2001-02", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "2002-03",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2002-03", "level": 1, "name": "National Division", "winner": "CGRV", "title_count": 1, "double": true},
+			"level_2": {"missing":true, "season": "2002-03", "level": 2, "name": "Division of Honour", "winner": "ETZE"},
+			"level_3": { "season": "2002-03", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2002-03", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MINL"},
+				{"missing":true, "season": "2002-03", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "FOLA"}
+			]},
+			"level_4": { "season": "2002-03", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2002-03", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ISKA"},
+				{"missing":true, "season": "2002-03", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MDLB"},
+				{"missing":true, "season": "2002-03", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "BBML"}
+			]},
+			"level_5": { "season": "2002-03", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2002-03", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "NORD"},
+				{"missing":true, "season": "2002-03", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "EGWM"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2002-03", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "2003-04",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2003-04", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 28},
+			"level_2": {"missing":true, "season": "2003-04", "level": 2, "name": "Division of Honour", "winner": "ALLX"},
+			"level_3": { "season": "2003-04", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2003-04", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "UNMW"},
+				{"missing":true, "season": "2003-04", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "DARE"}
+			]},
+			"level_4": { "season": "2003-04", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2003-04", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "RPLL"},
+				{"missing":true, "season": "2003-04", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SAND"},
+				{"missing":true, "season": "2003-04", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "SCBT"}
+			]},
+			"level_5": { "season": "2003-04", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2003-04", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "OYCW"},
+				{"missing":true, "season": "2003-04", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "SBRT"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2003-04", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "2004-05",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2004-05", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 4},
+			"level_2": {"missing":true, "season": "2004-05", "level": 2, "name": "Division of Honour", "winner": "KAER"},
+			"level_3": { "season": "2004-05", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2004-05", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MINL"},
+				{"missing":true, "season": "2004-05", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MAMR"}
+			]},
+			"level_4": { "season": "2004-05", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2004-05", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JSCH"},
+				{"missing":true, "season": "2004-05", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "TRIG"},
+				{"missing":true, "season": "2004-05", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "RSMB"}
+			]},
+			"level_5": { "season": "2004-05", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2004-05", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JGIL"},
+				{"missing":true, "season": "2004-05", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "JKYL"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2004-05", "name": "Luxembourg Cup", "winner": "CPET", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "2005-06",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2005-06", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 5, "double": true},
+			"level_2": {"missing":true, "season": "2005-06", "level": 2, "name": "Division of Honour", "winner": "DIFF"},
+			"level_3": { "season": "2005-06", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2005-06", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "SPST"},
+				{"missing":true, "season": "2005-06", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "HOST"}
+			]},
+			"level_4": { "season": "2005-06", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2005-06", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ATBS"},
+				{"missing":true, "season": "2005-06", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MDLB"},
+				{"missing":true, "season": "2005-06", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "HOBS"}
+			]},
+			"level_5": {"missing":true, "season": "2005-06", "level": 5, "name": "3. Division", "winner": "JUSE"}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2005-06", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "2006-07",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2006-07", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 6, "double": true},
+			"level_2": {"missing":true, "season": "2006-07", "level": 2, "name": "Division of Honour", "winner": "RMHM"},
+			"level_3": { "season": "2006-07", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2006-07", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ATBS"},
+				{"missing":true, "season": "2006-07", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MINL"}
+			]},
+			"level_4": { "season": "2006-07", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2006-07", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BVAT"},
+				{"missing":true, "season": "2006-07", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "FBU1"},
+				{"missing":true, "season": "2006-07", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "EHLR"}
+			]},
+			"level_5": {"missing":true, "season": "2006-07", "level": 5, "name": "3. Division", "winner": "USMM"}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2006-07", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "2007-08",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2007-08", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 7},
+			"level_2": {"missing":true, "season": "2007-08", "level": 2, "name": "Division of Honour", "winner": "URUM"},
+			"level_3": { "season": "2007-08", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2007-08", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "FBU1"},
+				{"missing":true, "season": "2007-08", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "KWRM"}
+			]},
+			"level_4": { "season": "2007-08", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2007-08", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "WINC"},
+				{"missing":true, "season": "2007-08", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SYRA"},
+				{"missing":true, "season": "2007-08", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "SBRT"}
+			]},
+			"level_5": {"missing":true, "season": "2007-08", "level": 5, "name": "3. Division", "winner": "OYCW"}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2007-08", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}}
+		}
+	},{
+		"season": "2008-09",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2008-09", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 11, "double": true},
+			"level_2": {"missing":true, "season": "2008-09", "level": 2, "name": "Division of Honour", "winner": "CPET"},
+			"level_3": { "season": "2008-09", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2008-09", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "YBDK"},
+				{"missing":true, "season": "2008-09", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CSOB"}
+			]},
+			"level_4": { "season": "2008-09", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2008-09", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "NORD"},
+				{"missing":true, "season": "2008-09", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "CLMC"}
+			]},
+			"level_5": { "season": "2008-09", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2008-09", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "RAMB"},
+				{"missing":true, "season": "2008-09", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "WALF"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2008-09", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 6, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+		}
+	},{
+		"season": "2009-10",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2009-10", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 29},
+			"level_2": {"missing":true, "season": "2009-10", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
+			"level_3": { "season": "2009-10", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2009-10", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "GBHT"},
+				{"missing":true, "season": "2009-10", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MDLB"}
+			]},
+			"level_4": { "season": "2009-10", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2009-10", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "AHOS"},
+				{"missing":true, "season": "2009-10", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SCHF"}
+			]},
+			"level_5": { "season": "2009-10", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2009-10", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "BWMD"},
+				{"missing":true, "season": "2009-10", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "JBIW"}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2009-10", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+		}
 	}
 ]

@@ -31,7 +31,7 @@ allTeams = {
     "Amis de la Moselle Remerschen":"AMRS","FC Noertzange HF":"NORZ","US Folschette":"FOLS","AS Wincrange":"WINC","FC 47 Bastendorf":"BAST","Excelsior Grevels":"EXGV",
     "SC Ell":"SELL","Iska Boys Simmern":"ISKA","RM 86 Luxembourg":"RMLX","Racing Heiderscheid/Eschdorf":"RHSE","US Rambrouch":"RAMB","Sporting Beckerich":"SBCK",
     "FC Rodange 91": "RODG", "F91 Dudelange": "F91D","Etzella Ettelbruck": "ETZE","The National Schifflange":"NSCH", "Union Mertert/Wasserbillig":"UNMW",
-    "Schifflange 95":"SCHF", "UN Käerjéng 97":"KAER","Rupensia Lusitanos Larochette":"RPLL"
+    "Schifflange 95":"SCHF", "UN Käerjéng 97":"KAER","Rupensia Lusitanos Larochette":"RPLL","FC Differdange 03":"DIFF","Blo-Weiss Medernach":"BWMD"
 }
 champs = JSON.parse(localStorage.champs);
 obj = {
@@ -189,6 +189,7 @@ function draw() {
 	output = output.replaceAll('},{','},\n\t\t\t\t{');
 	output = output.replaceAll('}]},','}\n\t\t\t]},');
 	output = output.replace('}]}},"cups":{','}\n\t\t\t]}\n\t\t},\n\t\t"cups": {\n');
+	output = output.replace('}},"cups":{','}\n\t\t\t]}\n\t\t},\n\t\t"cups": {\n');
 	output = output.replaceAll('":{','": {');
 	output = output.replace(' "season":','"season":');
 	output = output.replace("}}}","}\n\t\t}\n\t}");
@@ -199,6 +200,8 @@ function level(level,winner) {
 		addLevel(1,'National Division',winner);
 	} else if ( level === 2 ) {
 		addLevel(2,'Division of Honour',winner);
+    } else if ( level === 5 ) {
+        addLevel(5,'3. Division',winner);
 	} else {
 		console.error("What to do?");
 	}
