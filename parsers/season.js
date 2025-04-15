@@ -134,11 +134,13 @@ function doneParsingTeams() {
 }
 
 function displayWinner(competition) {
-	col = $("<DIV></DIV>").addClass("col-3").addClass("winner-box");
+	col = $("<DIV></DIV>").addClass("col-3");
+	wrap = $("<DIV></DIV>").addClass("winner-box");
 	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
 	team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
 
-	col.append(comp).append(team);
+	wrap.append(comp).append(team);
+	col.append(wrap);
 
 	$("#winners").append(col);
 }
