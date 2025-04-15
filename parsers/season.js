@@ -101,7 +101,6 @@ function doneParsingTeams() {
 			}
 			keys = [...keys,...subSubKeys];
 			keys.splice(keys.indexOf(k),1);
-			displayWinner(season.europe[kClean]);
 		});
 	}
 
@@ -155,7 +154,7 @@ function doneParsingTeams() {
 }
 
 function displayWinner(competition) {
-	col = $("<DIV></DIV>").addClass("col-3");
+	col = $("<DIV></DIV>").addClass("col-3 mb-2");
 	wrap = $("<DIV></DIV>").addClass("winner-box");
 	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
 	team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
