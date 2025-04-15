@@ -43,6 +43,9 @@ function parseSeasons(data) {
 }
 
 function doneParsingTeams() {
+	console.log(seasonToShow);
+	return;
+	/*
 	season = seasonToShow;
 	keys = "|" + Object.keys(season).join("|");
 
@@ -87,8 +90,9 @@ function doneParsingTeams() {
 
 	$(".placeholder-glow").hide();
 	$("#competitions").removeClass("d-none");
+	*/
 }
-
+/*
 function showLeagueLevel(data,level,isSeries=false) {
 	prefix = "|" + level + ".";
 
@@ -141,3 +145,4 @@ function showLeagueLevel(data,level,isSeries=false) {
 
 	keys = keys.replace("|"+level,"");
 }
+*/
