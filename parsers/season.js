@@ -43,15 +43,19 @@ function parseSeasons(data) {
 }
 
 function doneParsingTeams() {
-	console.log(seasonToShow);
-	return;
-	/*
 	season = seasonToShow;
-	keys = "|" + Object.keys(season).join("|");
-
+	keys = Object.keys(season);
+	
+	console.log(season);
 	setTitles(season.season);
-	keys = keys.replace("|season","");
+    keys.splice(keys.indexOf("season"),1);
 
+	if ( keys.length !== 0 ) {
+		console.log(keys);
+	}
+
+	/*
+	
 	if ( season.leagues ) {
 		keys = keys + "|leagues." + Object.keys(season.leagues).join("|leagues.");
 		keys = keys.replace("|leagues","");
