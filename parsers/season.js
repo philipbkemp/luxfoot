@@ -50,7 +50,6 @@ function doneParsingTeams() {
 	setTitles(season.season);
     keys.splice(keys.indexOf("season"),1);
 
-	// league title
 	if ( season.leagues ) {
 		subKeys = Object.keys(season.leagues);
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
@@ -66,6 +65,24 @@ function doneParsingTeams() {
 			keys = [...keys,...subKeys];
 			displayWinner(season.leagues.level_1);
 		}
+	}
+	
+	if ( season.cups ) {
+		subKeys = Object.keys(season.cups);
+		for ( i=0 ; i!==subKeys.length ; i++ ) {
+			subKeys[i] = "cups." + subKeys[i];
+		}
+		keys = [...keys,...subKeys];
+		keys.splice(keys.indexOf("cups"),1);
+		subKeys.forEach(k=>{
+			subSubKeys = Object.keys(season.cups[k]);
+			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
+				subSubKeys[i] = "cups." + k + "." + subSubKeys[i];
+			}
+			keys = [...keys,...subSubKeys];
+			keys.splice(keys.indexOf("cups."+k),1);
+			displayWinner(season.cups[k]);
+		});
 	}
 
 	if ( keys.length !== 0 ) {
@@ -116,7 +133,7 @@ function doneParsingTeams() {
 }
 
 function displayWinner(competition) {
-	col = $("<DIV></DIV>").addClass("col-4").addClass("winner-box");
+	col = $("<DIV></DIV>").addClass("col-3").addClass("winner-box");
 	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
 	team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
 
