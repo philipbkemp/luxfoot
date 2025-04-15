@@ -138,8 +138,9 @@ function displayWinner(competition) {
 	wrap = $("<DIV></DIV>").addClass("winner-box");
 	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
 	team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
+	nmbr = $("<DIV></DIV>").addClass("winner-box__count").html( getTitleCount(competition.title_count) );
 
-	wrap.append(comp).append(team);
+	wrap.append(comp).append(team).append(nmbr);
 	col.append(wrap);
 
 	$("#winners").append(col);
