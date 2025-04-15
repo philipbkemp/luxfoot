@@ -2308,5 +2308,103 @@
 			"cup_luxembourg": {"missing":true, "season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
 			"cup_flf": {"missing":true, "season": "2019-20", "name": "Coupe FLF", "winner": "", "covid":true}
 		}
+	},{
+		"season": "2019-20",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2019-20", "level": 1, "name": "National Division", "winner": "FOLA", "title_count": 8},
+			"level_2": {"missing":true, "season": "2019-20", "level": 2, "name": "Division of Honour", "winner": "", "covid":true},
+			"level_3": { "season": "2019-20", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2019-20", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "", "covid":true},
+				{"missing":true, "season": "2019-20", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "", "covid":true}
+			]},
+			"level_4": { "season": "2019-20", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2019-20", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "", "covid":true},
+				{"missing":true, "season": "2019-20", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "", "covid":true}
+			]},
+			"level_5": { "season": "2019-20", "level": 5, "name": "3. Division","series":[
+				{"missing":true, "season": "2019-20", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "", "covid":true},
+				{"missing":true, "season": "2019-20", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "", "covid":true}
+			]}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
+			"cup_flf": {"missing":true, "season": "2019-20", "name": "Coupe FLF", "winner": "", "covid":true}
+		}
+	},{
+		"season": "2021-22",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2021-22", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 19},
+			"level_2": {"missing":true, "season": "2021-22", "level": 2, "name": "Division of Honour", "winner": "MDCG"},
+			"level_3": { "season": "2021-22", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2021-22", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "JSCH"},
+				{"missing":true, "season": "2021-22", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CGRV"}
+			]},
+			"level_4": { "season": "2021-22", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2021-22", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "FCPR"},
+				{"missing":true, "season": "2021-22", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "BLVL"}
+			]},
+			"level_5": {"missing":true, "season": "2021-22", "level": 5, "name": "3. Division", "winner": "RPLL"}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2021-22", "name": "Luxembourg Cup", "winner": "RACE", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2021-22", "name": "Coupe FLF", "winner": "JSCH", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		}
+	},{
+		"season": "2022-23",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2022-23", "level": 1, "name": "National Division", "winner": "SWFT", "title_count": 1},
+			"level_2": {"missing":true, "season": "2022-23", "level": 2, "name": "Division of Honour", "winner": "SCHF"},
+			"level_3": { "season": "2022-23", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2022-23", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "LRNZ"},
+				{"missing":true, "season": "2022-23", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "WALF"}
+			]},
+			"level_4": { "season": "2022-23", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2022-23", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "WINC"},
+				{"missing":true, "season": "2022-23", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MUNS"}
+			]},
+			"level_5": {"missing":true, "season": "2022-23", "level": 5, "name": "3. Division", "winner": "TSVG"}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2022-23", "name": "Luxembourg Cup", "winner": "DIFF", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2022-23", "name": "Coupe FLF", "winner": "WALF", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+		}
+	},{
+		"season": "2023-24",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2023-24", "level": 1, "name": "National Division", "winner": "DIFF", "title_count": 1},
+			"level_2": {"missing":true, "season": "2023-24", "level": 2, "name": "Division of Honour", "winner": "SCBT"},
+			"level_3": { "season": "2023-24", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2023-24", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ATBS"},
+				{"missing":true, "season": "2023-24", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SAND"}
+			]},
+			"level_4": { "season": "2023-24", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2023-24", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "AAHE"},
+				{"missing":true, "season": "2023-24", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SNEM"}
+			]},
+			"level_5": {"missing":true, "season": "2023-24", "level": 5, "name": "3. Division", "winner": "RHSE"}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2023-24", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_flf": {"missing":true, "season": "2023-24", "name": "Coupe FLF", "winner": "JSCH", "title_count": 2, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
+		}
+	},{
+		"season": "2024-25",
+		"leagues": {
+			"level_1": {"missing":true, "season": "2024-25", "level": 1, "name": "National Division", "ongoing": true},
+			"level_2": {"missing":true, "season": "2024-25", "level": 2, "name": "Division of Honour", "ongoing": true},
+			"level_3": { "season": "2024-25", "level": 3, "name": "1. Division","series":[
+				{"missing":true, "season": "2024-25", "level": 3,"series":1, "name": "1. Division Series 1", "ongoing": true},
+				{"missing":true, "season": "2024-25", "level": 3,"series":2, "name": "1. Division Series 2", "ongoing": true}
+			]},
+			"level_4": { "season": "2024-25", "level": 4, "name": "2. Division","series":[
+				{"missing":true, "season": "2024-25", "level": 4,"series":1, "name": "2. Division Series 1", "ongoing": true},
+				{"missing":true, "season": "2024-25", "level": 4,"series":2, "name": "2. Division Series 2", "ongoing": true}
+			]},
+			"level_5": {"missing":true, "season": "2024-25", "level": 5, "name": "3. Division", "ongoing": true}
+		},
+		"cups": {
+			"cup_luxembourg": {"missing":true, "season": "2024-25", "name": "Luxembourg Cup", "ongoing": true},
+			"cup_flf": {"missing":true, "season": "2024-25", "name": "Coupe FLF", "ongoing": true}
+		}
 	}
 ]
