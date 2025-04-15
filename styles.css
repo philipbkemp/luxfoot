@@ -47,6 +47,18 @@ h1 a {
 	border-color: #2b5873;
 }
 
+.winner-box {
+    border: 1px solid #2b5873;
+    border-radius: 10px;
+    padding: 10px;
+}
+.winner-box__competition {
+    opacity: 0.6;
+}
+.winner-box__team {
+    font-size: 1.5rem;
+    color: #2b5873;
+}
 
 /*.badge.badge-titleCount {
 	color: #666;

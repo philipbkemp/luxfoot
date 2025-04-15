@@ -118,7 +118,7 @@ function doneParsingTeams() {
 function displayWinner(competition) {
 	col = $("<DIV></DIV>").addClass("col-4").addClass("winner-box");
 	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
-	team = $("<DIV></DIV>").addClass("winner-box__team").html(competition.winner);
+	team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
 
 	col.append(comp).append(team);
 
