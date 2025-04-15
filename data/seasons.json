@@ -30,52 +30,52 @@
     },{
 		"season": "1915-16",
 		"leagues": {
-			"level_1": {"season": "1915-16", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 4},
-			"level_2": {"season": "1915-16", "level":  2, "name": "2. Division", "winner": "YBDK"},
+			"level_1": {"missing":true,"season": "1915-16", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 4},
+			"level_2": {"missing":true,"season": "1915-16", "level":  2, "name": "2. Division", "winner": "YBDK"},
 			"level_3": {"season": "1915-16", "level":  3, "name": "3. Division", "series": [
-			    {"season": "1915-16", "level":  3, "series":  1, "name": "3. Division Series 1", "winner": "CSHL"},
-			    {"season": "1915-16", "level":  3, "series":  2, "name": "3. Division Series 2", "winner": "JBET"}
+			    {"missing":true,"season": "1915-16", "level":  3, "series":  1, "name": "3. Division Series 1", "winner": "CSHL"},
+			    {"missing":true,"season": "1915-16", "level":  3, "series":  2, "name": "3. Division Series 2", "winner": "JBET"}
 			]}
 		}
     },{
 		"season": "1916-17",
 		"leagues": {
-			"level_1": {"season": "1916-17", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 5},
-			"level_2": {"season": "1916-17", "level":  2, "name": "2. Division", "winner": "CPET"},
+			"level_1": {"missing":true,"season": "1916-17", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 5},
+			"level_2": {"missing":true,"season": "1916-17", "level":  2, "name": "2. Division", "winner": "CPET"},
 			"level_3": {"season": "1916-17", "level":  3, "name": "3. Division", "series": [
-			    {"season": "1916-17", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
-			    {"season": "1916-17", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "URUM"}
+			    {"missing":true,"season": "1916-17", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
+			    {"missing":true,"season": "1916-17", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "URUM"}
 			]}
 		}
     },{
 		"season": "1917-18",
 		"leagues": {
-			"level_1": {"season": "1917-18", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 1},
-			"level_2": {"season": "1917-18", "level":  2, "name": "2. Division", "winner": "JESH"},
+			"level_1": {"missing":true,"season": "1917-18", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 1},
+			"level_2": {"missing":true,"season": "1917-18", "level":  2, "name": "2. Division", "winner": "JESH"},
 			"level_3": {"season": "1917-18", "level":  3, "name": "3. Division", "series": [
-			    {"season": "1917-18", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
-			    {"season": "1917-18", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "STET"}
+			    {"missing":true,"season": "1917-18", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
+			    {"missing":true,"season": "1917-18", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "STET"}
 			]}
 		}
     },{
 		"season": "1918-19",
 		"leagues": {
-			"level_1": {"season": "1918-19", "level":  1, "name": "1. Division", "winner": "SCLX", "title_count": 2},
-			"level_2": {"season": "1918-19", "level":  2, "name": "2. Division", "winner": "SDUD"},
+			"level_1": {"missing":true,"season": "1918-19", "level":  1, "name": "1. Division", "winner": "SCLX", "title_count": 2},
+			"level_2": {"missing":true,"season": "1918-19", "level":  2, "name": "2. Division", "winner": "SDUD"},
 			"level_3": {"season": "1918-19", "level":  3, "name": "3. Division", "series": [
-				{"season": "1918-19", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "CMLB"},
-				{"season": "1918-19", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "CROD"}
+				{"missing":true,"season": "1918-19", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "CMLB"},
+				{"missing":true,"season": "1918-19", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "CROD"}
 			]}
 		}
 	},{
 		"season": "1919-20",
 		"leagues": {
-			"level_1": {"season": "1919-20", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 2},
-			"level_2": {"season": "1919-20", "level":  2, "name": "2. Division", "winner": "RBDF"},
+			"level_1": {"mising":true,"season": "1919-20", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 2},
+			"level_2": {"mising":true,"season": "1919-20", "level":  2, "name": "2. Division", "winner": "RBDF"},
 			"level_3": {"season": "1919-20", "level":  3, "name": "3. Division", "series": [
-				{"season": "1919-20", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "PROG"},
-				{"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series South", "winner": "BLVL"},
-				{"season": "1919-20", "level":  3, "series":  3, "name": "3. Division Series West", "winner": "JSTF"}
+				{"mising":true,"season": "1919-20", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "PROG"},
+				{"mising":true,"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series South", "winner": "BLVL"},
+				{"mising":true,"season": "1919-20", "level":  3, "series":  3, "name": "3. Division Series West", "winner": "JSTF"}
 			]}
 		}
 	},{
