@@ -50,6 +50,23 @@ function doneParsingTeams() {
 	setTitles(season.season);
     keys.splice(keys.indexOf("season"),1);
 
+	// league title
+	if ( season.leagues ) {
+		subKeys = Object.keys(season.leagues);
+		for ( i=0 ; i!==subKeys.length ; i++ ) {
+			subKeys[i] = "leagues." + subKeys[i];
+		}
+		keys = [...keys,...subKeys];
+		if ( season.leagues.level_1 ) {
+			subKeys = Object.keys(season.leagues.level_1);
+			for ( i=0 ; i!==subKeys.length ; i++ ) {
+				subKeys[i] = "leagues.level_1." + subKeys[i];
+			}
+			keys = [...keys,...subKeys];
+			displayWinner(season.league.level_1);
+		}
+	}
+
 	if ( keys.length !== 0 ) {
 		console.log(keys);
 	}
@@ -95,6 +112,16 @@ function doneParsingTeams() {
 	$(".placeholder-glow").hide();
 	$("#competitions").removeClass("d-none");
 	*/
+}
+
+function displayWinner(competition) {
+	col = $("<DIV></DIV>").addClass("col-4").addClass("winner-box");
+	competition = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
+	winner = $("<DIV></DIV>").addClass("winner-box__team").html(competition.winner);
+
+	col.append(competition).append(winner);
+
+	$("#winners").append(col);
 }
 /*
 function showLeagueLevel(data,level,isSeries=false) {
