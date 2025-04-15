@@ -65,6 +65,16 @@ function doneParsingTeams() {
 			keys = [...keys,...subKeys];
 			displayWinner(season.leagues.level_1);
 		}
+		leagueComp = $("<DIV></DIV>").addClass("col-2");
+		leagueCompList = $("<DIV></DIV>").addClass("list-group");
+		leagueCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Leagues");
+		leagueCompList.append(leagueCompHead);
+		["level_1","level_2","level_3","level_4","level_5","level_6"].forEach(lvl=>{
+			thisLevel = $("<A></A>").addClass("list-group-item").attr("href","league.html?level="+lvl.split("_").pop()).html(season.leagues[lvl].name);
+			leagueCompList.append(thisLevel);
+		});
+		leagueComp.append(leagueCompList);
+		$("#competitions").append(leagueComp);
 	}
 	
 	if ( season.cups ) {
