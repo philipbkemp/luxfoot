@@ -71,6 +71,19 @@ h1 a {
     top: 10px;
 }
 
+#competitions .list-group-item {
+    border-color: #2b5873;
+    border-bottom-color: #ccc;
+}
+#competitions .list-group-item-primary {
+    color: #2b5873;
+    border-bottom-color: #2b5873;
+    font-weight: bold;
+}
+#competitions .list-group-item:last-child {
+    border-bottom-color: #2b5873;
+}
+
 /*.badge.badge-titleCount {
 	color: #666;
 	font-style: italic;
