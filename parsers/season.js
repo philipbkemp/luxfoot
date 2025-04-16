@@ -83,17 +83,18 @@ function doneParsingTeams() {
 						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
 						.html(season.leagues[lvl].name)
 						;
+					keys.splice(keys.indexOf("leagues."+lvl+".missing"),1);
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.leagues[lvl].name);
 				}
 				
 				leagueCompList.append(thisLevel);
-				keys.splice(keys.indexOf("leagues."+lvl),1);
-				keys.splice(keys.indexOf("leagues."+lvl+".season"),1);
-				keys.splice(keys.indexOf("leagues."+lvl+".level"),1);
-				keys.splice(keys.indexOf("leagues."+lvl+".name"),1);
-				keys.splice(keys.indexOf("leagues."+lvl+".winner"),1);
-				keys.splice(keys.indexOf("leagues."+lvl+".title_count"),1);
+				if ( keys.indexOf("leagues."+lvl) !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl),1); }
+				if ( keys.indexOf("leagues."+lvl+".season") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".season"),1); }
+				if ( keys.indexOf("leagues."+lvl+".level") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".level"),1); }
+				if ( keys.indexOf("leagues."+lvl+".name") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".name"),1); }
+				if ( keys.indexOf("leagues."+lvl+".winner") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".winner"),1); }
+				if ( keys.indexOf("leagues."+lvl+".title_count") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".title_count"),1); }
 			}
 		});
 		leagueComp.append(leagueCompList);
@@ -140,11 +141,11 @@ function doneParsingTeams() {
 				}
 				
 				cupCompList.append(thisLevel);
-				keys.splice(keys.indexOf("cups."+lvl),1);
-				keys.splice(keys.indexOf("cups."+lvl+".season"),1);
-				keys.splice(keys.indexOf("cups."+lvl+".name"),1);
-				keys.splice(keys.indexOf("cups."+lvl+".winner"),1);
-				keys.splice(keys.indexOf("cups."+lvl+".title_count"),1);
+				if ( keys.indexOf("cups."+lvl) !== -1 ) { keys.splice(keys.indexOf("cups."+lvl),1); }
+				if ( keys.indexOf("cups."+lvl+".season") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".season"),1); }
+				if ( keys.indexOf("cups."+lvl+".name") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".name"),1); }
+				if ( keys.indexOf("cups."+lvl+".winner") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".winner"),1); }
+				if ( keys.indexOf("cups."+lvl+".title_count") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".title_count"),1); }
 			}
 		});
 		cupComp.append(cupCompList);
