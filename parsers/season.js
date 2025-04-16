@@ -179,7 +179,7 @@ function doneParsingTeams() {
 		euroCompList = $("<DIV></DIV>").addClass("list-group");
 		euroCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Europe");
 		euroCompList.append(euroCompHead);
-		["champions_league"].forEach(lvl=>{
+		["champions_league","cup_winners_cup"].forEach(lvl=>{
 			if ( season.europe[lvl] ) {
 				lvlKeys = Object.keys(season.europe[lvl]);
 				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
