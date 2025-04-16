@@ -31,5 +31,16 @@ function doneParsingTeams() {
 }
 
 function parseLeague(league) {
-	console.log(league);
+	addKeys(Object.keys(league));
+
+	setTitles(league.season,league.name);
+    removeKey("season");
+
+	if ( keys.length !== 0 ) {
+		console.log(season);
+		console.log(keys);
+	}
+
+	$(".placeholder-glow").addClass("d-none");
+	$(".displayAfterLoad").removeClass("d-none");
 }

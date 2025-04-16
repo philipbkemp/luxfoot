@@ -11,14 +11,19 @@
 		{"place":  4, "team": "FOLA", "w":  3, "d":  6, "l":  5, "f": 23, "a": 34, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
 		{"place":  5, "team": "ULUX", "w":  5, "d":  2, "l":  7, "f": 28, "a": 43, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
 		{"place":  6, "team": "NSCH", "w":  4, "d":  2, "l":  8, "f": 29, "a": 41, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
-		{"place":  7, "team": "SDUD", "w":  3, "d":  4, "l":  7, "f": 23, "a": 38, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}},
-		{"place":  8, "team": "RBPF", "w":  2, "d":  5, "l":  7, "f": 16, "a": 30, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}}
+		{"place":  7, "team": "SDUD", "w":  3, "d":  4, "l":  7, "f": 23, "a": 38, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "playoff": "relegation", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}},
+		{"place":  8, "team": "RBPF", "w":  2, "d":  5, "l":  7, "f": 16, "a": 30, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "playoff": "relegation", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}}
 	],
 	"champion": "RBDF",
 	"relegation": {
 		"teams": ["SDUD","RBPF"],
 		"target": {"season": "1931-32", "level": 2, "name": "The Promotion"}
 	},
+    "playoffs": {
+        "relegation": [
+            {"home":"NSCH", "away":"SDUD", "score":"2-1", "season":"1930-31", "competition": {"type":"league", "level":1, "name":"1. Division", "playoff": "relegation"}, "outcome": "SDUD relegated to The Promotion"}
+        ]
+    },
 	"matches": [
         {"home":"RBDF", "away":"SPOR", "score":"2-1", "season":"1930-31", "competition": {"type":"league", "level":1, "name":"1. Division"}},
         {"home":"RBDF", "away":"PRON", "score":"5-2", "season":"1930-31", "competition": {"type":"league", "level":1, "name":"1. Division"}},
