@@ -118,6 +118,7 @@ function doneParsingTeams() {
 				removeKey("leagues."+lvl+".title_count");
 				removeKey("leagues."+lvl+".double");
 				removeKey("leagues."+lvl+".covid");
+				removeKey("leagues."+lvl+".ongoing");
 			}
 		});
 		leagueComp.append(leagueCompList);
@@ -163,6 +164,7 @@ function doneParsingTeams() {
 				removeKey("cups."+lvl+".winner_division");
 				removeKey("cups."+lvl+".double");
 				removeKey("cups."+lvl+".covid");
+				removeKey("cups."+lvl+".ongoing");
 			}
 		});
 		cupComp.append(cupCompList);
@@ -209,6 +211,7 @@ function doneParsingTeams() {
 				removeKey("europe."+lvl+".season");
 				removeKey("europe."+lvl+".name");
 				removeKey("europe."+lvl+".teams");
+				removeKey("europe."+lvl+".ongoing");
 			}
 		});		
 		euroComp.append(euroCompList);

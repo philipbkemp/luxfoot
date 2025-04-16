@@ -2704,6 +2704,7 @@
 		}
 	},{
 		"season": "2024-25",
+		"note": "Season ongoing",
 		"leagues": {
 			"level_1": {"missing":true, "season": "2024-25", "level": 1, "name": "National Division", "ongoing": true},
 			"level_2": {"missing":true, "season": "2024-25", "level": 2, "name": "Division of Honour", "ongoing": true},
