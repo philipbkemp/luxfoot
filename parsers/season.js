@@ -65,6 +65,11 @@ function doneParsingTeams() {
 	} else {
 		displayWinner(null);
 	}
+	if ( season.cups && season.cups.liberation ) {
+		displayWinner(season.cups.liberation);
+	} else {
+		displayWinner(null);
+	}
 
 	leagueComp = $("<DIV></DIV>").addClass("col-2");
 	if ( season.leagues ) {
@@ -130,7 +135,7 @@ function doneParsingTeams() {
 		cupCompList = $("<DIV></DIV>").addClass("list-group");
 		cupCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Cups");
 		cupCompList.append(cupCompHead);
-		["cup_luxembourg","cup_flf"].forEach(lvl=>{
+		["cup_luxembourg","cup_flf","liberation"].forEach(lvl=>{
 			if ( season.cups[lvl] ) {
 				lvlKeys = Object.keys(season.cups[lvl]);
 				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
