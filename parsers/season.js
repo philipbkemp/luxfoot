@@ -49,6 +49,7 @@ function doneParsingTeams() {
 	setTitles(season.season);
     removeKey("season");
 
+	leagueComp = $("<DIV></DIV>").addClass("col-2");
 	if ( season.leagues ) {
 		subKeys = Object.keys(season.leagues);
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
@@ -59,7 +60,6 @@ function doneParsingTeams() {
 		if ( season.leagues.level_1 ) {
 			displayWinner(season.leagues.level_1);
 		}
-		leagueComp = $("<DIV></DIV>").addClass("col-2");
 		leagueCompList = $("<DIV></DIV>").addClass("list-group");
 		leagueCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Leagues");
 		leagueCompList.append(leagueCompHead);
@@ -100,9 +100,10 @@ function doneParsingTeams() {
 			}
 		});
 		leagueComp.append(leagueCompList);
-		$("#competitions").append(leagueComp);
 	}
+	$("#competitions").append(leagueComp);
 	
+	cupComp = $("<DIV></DIV>").addClass("col-2");
 	if ( season.cups ) {
 		subKeys = Object.keys(season.cups);
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
@@ -116,7 +117,6 @@ function doneParsingTeams() {
 			displayWinner(season.cups[kClean]);
 		});
 
-		cupComp = $("<DIV></DIV>").addClass("col-2");
 		cupCompList = $("<DIV></DIV>").addClass("list-group");
 		cupCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Cups");
 		cupCompList.append(cupCompHead);
@@ -149,8 +149,8 @@ function doneParsingTeams() {
 			}
 		});
 		cupComp.append(cupCompList);
-		$("#competitions").append(cupComp);
 	}
+	$("#competitions").append(cupComp);
 	
 	if ( season.europe ) {
 		subKeys = Object.keys(season.europe);
