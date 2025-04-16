@@ -167,6 +167,14 @@ function doneParsingTeams() {
 		});
 	}
 
+	if ( season.note ) {
+		noteWrap = $("<DIV></DIV>").addClass("col-12");
+		note = $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html(season.note);
+		noteWrap.append(note);
+		$("#competitions").append(noteWrap);
+		removeKey("notes");
+	}
+
 	if ( keys.length !== 0 ) {
 		console.log(keys);
 	}
