@@ -63,7 +63,7 @@ function buildTabPanel(code,active=false) {
 	panel = $("<DIV></DIV>")
 		.addClass("tab-pane")
 		.addClass("fade")
-		.id(code+"-tab-pane")
+		.attr(code+"-tab-pane")
 		.attr("role","tabpanel")
 		.attr("aria-labelledby",code+"-tab")
 		.attr("tabindex",0)
