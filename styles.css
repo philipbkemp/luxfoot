@@ -85,6 +85,11 @@ h1 a {
     border-bottom-color: #2b5873;
 }
 
+#competitions .list-group-item:not(a):not(.list-group-item-primary),
+#competitions .list-group-item:not(a):not(.list-group-item-primary) * {
+	color: #66666666;
+}
+
 .list-group-item .series {
     display: block;
     font-size: 0.75rem;
