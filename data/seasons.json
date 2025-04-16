@@ -2581,6 +2581,7 @@
 		}
 	},{
 		"season": "2019-20",
+		"note": "Competitions ended prematurely due to the COVID-19 Pandemic",
 		"leagues": {
 			"level_1": {"missing":true, "season": "2019-20", "level": 1, "name": "National Division", "winner": "", "covid":true},
 			"level_2": {"missing":true, "season": "2019-20", "level": 2, "name": "Division of Honour", "winner": "", "covid":true},

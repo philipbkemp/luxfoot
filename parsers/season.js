@@ -50,22 +50,22 @@ function doneParsingTeams() {
     removeKey("season");
 
 	// winners
-	if ( season.leagues && season.leagues.level_1 ) {
+	if ( season.leagues && season.leagues.level_1 && season.leagues.level_1.winner ) {
 		displayWinner(season.leagues.level_1);
 	} else {
 		displayWinner(null);
 	}
-	if ( season.cups && season.cups.cup_luxembourg ) {
+	if ( season.cups && season.cups.cup_luxembourg && season.cups.cup_luxembourg.winner ) {
 		displayWinner(season.cups.cup_luxembourg);
 	} else {
 		displayWinner(null);
 	}
-	if ( season.cups && season.cups.cup_flf ) {
+	if ( season.cups && season.cups.cup_flf && season.cups.cup_flf.winner ) {
 		displayWinner(season.cups.cup_flf);
 	} else {
 		displayWinner(null);
 	}
-	if ( season.cups && season.cups.liberation ) {
+	if ( season.cups && season.cups.liberation && season.cups.liberation.winner ) {
 		displayWinner(season.cups.liberation);
 	} else {
 		displayWinner(null);
