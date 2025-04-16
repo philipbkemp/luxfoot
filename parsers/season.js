@@ -58,11 +58,6 @@ function doneParsingTeams() {
 		addKeys(subKeys);
 		removeKey("leagues");
 		if ( season.leagues.level_1 ) {
-			subKeys = Object.keys(season.leagues.level_1);
-			for ( i=0 ; i!==subKeys.length ; i++ ) {
-				subKeys[i] = "leagues.level_1." + subKeys[i];
-			}
-			addKeys(subKeys);
 			displayWinner(season.leagues.level_1);
 		}
 		leagueComp = $("<DIV></DIV>").addClass("col-2");
@@ -109,7 +104,7 @@ function doneParsingTeams() {
 			subKeys[i] = "cups." + subKeys[i];
 		}
 		addKeys(subKeys)
-		removeKeys("cups");
+		removeKey("cups");
 		subKeys.forEach(k=>{
 			kClean = k.replace("cups.","");
 			subSubKeys = Object.keys(season.cups[kClean]);
