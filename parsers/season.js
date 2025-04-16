@@ -110,6 +110,7 @@ function doneParsingTeams() {
 		addKeys(subKeys)
 		removeKey("cups");
 		subKeys.forEach(k=>{
+			kClean = k.replace("cups.","");
 			removeKey(k);
 			displayWinner(season.cups[kClean]);
 		});
