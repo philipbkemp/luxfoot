@@ -93,14 +93,14 @@ function parseLeague(league) {
 	}
 	if ( league.matches ) {
 		$("#leagueTabs").append(buildTabButton("matches","Results Table"));
-		matchesPanel = buildTabPanel("matches",true);
+		matchesPanel = buildTabPanel("matches");
 		matchesPanel.html("ergebniskasten");
 		$("#leagueTabContent").append(matchesPanel);
 	}
 	if ( league.playoffs ) {
 		if ( league.playoffs.relegation ) {
 			$("#leagueTabs").append(buildTabButton("po_relegation","Relegation play-off"));
-			poRelegation = buildTabPanel("po_relegation",true);
+			poRelegation = buildTabPanel("po_relegation");
 			poRelegation.html("relegation play-off");
 			$("#leagueTabContent").append(poRelegation);
 		}
