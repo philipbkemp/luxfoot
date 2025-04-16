@@ -70,12 +70,12 @@
 	},{
 		"season": "1919-20",
 		"leagues": {
-			"level_1": {"mising":true,"season": "1919-20", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 2},
-			"level_2": {"mising":true,"season": "1919-20", "level":  2, "name": "2. Division", "winner": "RBDF"},
+			"level_1": {"missing":true,"season": "1919-20", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 2},
+			"level_2": {"missing":true,"season": "1919-20", "level":  2, "name": "2. Division", "winner": "RBDF"},
 			"level_3": {"missing":true,"season": "1919-20", "level":  3, "name": "3. Division", "series": [
-				{"mising":true,"season": "1919-20", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "PROG"},
-				{"mising":true,"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series South", "winner": "BLVL"},
-				{"mising":true,"season": "1919-20", "level":  3, "series":  3, "name": "3. Division Series West", "winner": "JSTF"}
+				{"missing":true,"season": "1919-20", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "PROG"},
+				{"missing":true,"season": "1919-20", "level":  3, "series":  2, "name": "3. Division Series South", "winner": "BLVL"},
+				{"missing":true,"season": "1919-20", "level":  3, "series":  3, "name": "3. Division Series West", "winner": "JSTF"}
 			]}
 		}
 	},{
