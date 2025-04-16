@@ -183,6 +183,7 @@ function doneParsingTeams() {
 		console.log(keys);
 	}
 
+	$(".placeholder-glow").addClass("d-none");
 	$(".displayAfterLoad").removeClass("d-none");
 
 	/*
