@@ -37,7 +37,7 @@ function parseLeague(league) {
     removeKey("season");
 
 	if ( keys.length !== 0 ) {
-		console.log(season);
+		console.log(league);
 		console.log(keys);
 	}
 
