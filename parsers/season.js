@@ -146,7 +146,7 @@ function doneParsingTeams() {
 				if ( ! season.cups[lvl].missing ) {
 					thisLevel = $("<A></A>")
 						.addClass("list-group-item")
-						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
+						.attr("href","cup.html?season="+season.season+"&comp="+lvl)
 						.html(season.cups[lvl].name);
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.cups[lvl].name);
@@ -178,16 +178,16 @@ function doneParsingTeams() {
 
 		["champions_league"].forEach(lvl=>{
 			if ( season.europe[lvl] ) {
-				lvlKeys = Object.keys(season.cups[lvl]);
+				lvlKeys = Object.keys(season.europe[lvl]);
 				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
-					lvlKeys[i] = "cups."+lvl+"." + lvlKeys[i];
+					lvlKeys[i] = "europe."+lvl+"." + lvlKeys[i];
 				}
 				addKeys(lvlKeys);
 				
 				if ( ! season.europe[lvl].missing ) {
 					thisLevel = $("<A></A>")
 						.addClass("list-group-item")
-						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
+						.attr("href","europe.html?season="+season.season+"&comp="+lvl)
 						.html(season.europe[lvl].name);
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.europe[lvl].name);
