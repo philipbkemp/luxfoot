@@ -110,12 +110,6 @@ function doneParsingTeams() {
 		addKeys(subKeys)
 		removeKey("cups");
 		subKeys.forEach(k=>{
-			kClean = k.replace("cups.","");
-			subSubKeys = Object.keys(season.cups[kClean]);
-			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
-				subSubKeys[i] = k + "." + subSubKeys[i];
-			}
-			addKeys(subSubKeys);
 			removeKey(k);
 			displayWinner(season.cups[kClean]);
 		});
@@ -139,7 +133,7 @@ function doneParsingTeams() {
 						.html(season.cups[lvl].name);
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.cups[lvl].name);
-					removeKey("cup."+lvl+".missing");
+					removeKey("cups."+lvl+".missing");
 				}
 				
 				cupCompList.append(thisLevel);
@@ -148,6 +142,7 @@ function doneParsingTeams() {
 				removeKey("cups."+lvl+".name");
 				removeKey("cups."+lvl+".winner");
 				removeKey("cups."+lvl+".title_count");
+				removeKey("cups."+lvl+".winner_division");
 			}
 		});
 		cupComp.append(cupCompList);
