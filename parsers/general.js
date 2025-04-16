@@ -169,8 +169,9 @@ function addKeys(newKeys) {
 }
 
 function removeKey(oldKey) {
-	if ( keys.indexOf(oldKey) ) {
-		console.log(oldKey + " removed");
+	if ( keys.indexOf(oldKey) !== -1 ) {
 		keys.splice(keys.indexOf(oldKey),1);
+	} else {
+		console.log("couldn't find ",oldKey);
 	}
 }
