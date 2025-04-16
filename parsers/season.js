@@ -71,8 +71,29 @@ function doneParsingTeams() {
 		leagueCompList.append(leagueCompHead);
 		["level_1","level_2","level_3","level_4","level_5","level_6"].forEach(lvl=>{
 			if ( season.leagues[lvl] ) {
-				thisLevel = $("<A></A>").addClass("list-group-item").attr("href","league.html?level="+lvl.split("_").pop()).html(season.leagues[lvl].name);
+				lvlKeys = Object.keys(season.leagues[lvl]);
+				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
+					lvlKeys[i] = "leagues."+lvl+"." + lvlKeys[i];
+				}
+				keys = [...keys,...lvlKeys];
+
+				if ( ! season.leagues[lvl].missing ) {
+					thisLevel = $("<A></A>")
+						.addClass("list-group-item")
+						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
+						.html(season.leagues[lvl].name)
+						;
+				} else {
+					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.leagues[lvl].name);
+				}
+				
 				leagueCompList.append(thisLevel);
+				keys.splice(keys.indexOf("leagues."+lvl),1);
+				keys.splice(keys.indexOf("leagues."+lvl+".season"),1);
+				keys.splice(keys.indexOf("leagues."+lvl+".level"),1);
+				keys.splice(keys.indexOf("leagues."+lvl+".name"),1);
+				keys.splice(keys.indexOf("leagues."+lvl+".winner"),1);
+				keys.splice(keys.indexOf("leagues."+lvl+".title_count"),1);
 			}
 		});
 		leagueComp.append(leagueCompList);
@@ -96,6 +117,38 @@ function doneParsingTeams() {
 			keys.splice(keys.indexOf(k),1);
 			displayWinner(season.cups[kClean]);
 		});
+
+		cupComp = $("<DIV></DIV>").addClass("col-2");
+		cupCompList = $("<DIV></DIV>").addClass("list-group");
+		cupCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Cups");
+		cupCompList.append(cupCompHead);
+		["cup_luxembourg","cup_flf"].forEach(lvl=>{
+			if ( season.cups[lvl] ) {
+				lvlKeys = Object.keys(season.cups[lvl]);
+				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
+					lvlKeys[i] = "cups."+lvl+"." + lvlKeys[i];
+				}
+				keys = [...keys,...lvlKeys];
+
+				if ( ! season.cups[lvl].missing ) {
+					thisLevel = $("<A></A>")
+						.addClass("list-group-item")
+						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
+						.html(season.cups[lvl].name);
+				} else {
+					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.cups[lvl].name);
+				}
+				
+				cupCompList.append(thisLevel);
+				keys.splice(keys.indexOf("cups."+lvl),1);
+				keys.splice(keys.indexOf("cups."+lvl+".season"),1);
+				keys.splice(keys.indexOf("cups."+lvl+".name"),1);
+				keys.splice(keys.indexOf("cups."+lvl+".winner"),1);
+				keys.splice(keys.indexOf("cups."+lvl+".title_count"),1);
+			}
+		});
+		cupComp.append(cupCompList);
+		$("#competitions").append(cupComp);
 	}
 	
 	if ( season.europe ) {
