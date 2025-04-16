@@ -117,6 +117,7 @@ function doneParsingTeams() {
 				removeKey("leagues."+lvl+".winner");
 				removeKey("leagues."+lvl+".title_count");
 				removeKey("leagues."+lvl+".double");
+				removeKey("leagues."+lvl+".covid");
 			}
 		});
 		leagueComp.append(leagueCompList);
@@ -161,6 +162,7 @@ function doneParsingTeams() {
 				removeKey("cups."+lvl+".title_count");
 				removeKey("cups."+lvl+".winner_division");
 				removeKey("cups."+lvl+".double");
+				removeKey("cups."+lvl+".covid");
 			}
 		});
 		cupComp.append(cupCompList);
@@ -217,7 +219,7 @@ function doneParsingTeams() {
 		noteWrap = $("<DIV></DIV>").addClass("col-12");
 		note = $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html(season.note);
 		noteWrap.append(note);
-		$("#competitions").append(noteWrap);
+		$("#competitions").prepend(noteWrap);
 		removeKey("note");
 	}
 
