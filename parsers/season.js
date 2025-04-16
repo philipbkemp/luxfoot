@@ -49,6 +49,23 @@ function doneParsingTeams() {
 	setTitles(season.season);
     removeKey("season");
 
+	// winners
+	if ( season.leagues && season.leagues.level_1 ) {
+		displayWinner(season.leagues.level_1);
+	} else {
+		displayWinner(null);
+	}
+	if ( season.cups && season.cups.cup_luxembourg ) {
+		displayWinner(season.cups.cup_luxembourg);
+	} else {
+		displayWinner(null);
+	}
+	if ( season.cups && season.cups.cup_flf ) {
+		displayWinner(season.cups.cup_flf);
+	} else {
+		displayWinner(null);
+	}
+
 	leagueComp = $("<DIV></DIV>").addClass("col-2");
 	if ( season.leagues ) {
 		subKeys = Object.keys(season.leagues);
@@ -57,9 +74,7 @@ function doneParsingTeams() {
 		}
 		addKeys(subKeys);
 		removeKey("leagues");
-		if ( season.leagues.level_1 ) {
-			displayWinner(season.leagues.level_1);
-		}
+		
 		leagueCompList = $("<DIV></DIV>").addClass("list-group");
 		leagueCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Leagues");
 		leagueCompList.append(leagueCompHead);
@@ -111,12 +126,7 @@ function doneParsingTeams() {
 		}
 		addKeys(subKeys)
 		removeKey("cups");
-		subKeys.forEach(k=>{
-			kClean = k.replace("cups.","");
-			removeKey(k);
-			displayWinner(season.cups[kClean]);
-		});
-
+		
 		cupCompList = $("<DIV></DIV>").addClass("list-group");
 		cupCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Cups");
 		cupCompList.append(cupCompHead);
@@ -231,13 +241,16 @@ function doneParsingTeams() {
 
 function displayWinner(competition) {
 	col = $("<DIV></DIV>").addClass("col-3 mb-2");
-	wrap = $("<DIV></DIV>").addClass("winner-box");
-	comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
-	team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
-	nmbr = $("<DIV></DIV>").addClass("winner-box__count").html( getTitleCount(competition.title_count) );
+	
+	if ( competition ) {
+		wrap = $("<DIV></DIV>").addClass("winner-box");
+		comp = $("<DIV></DIV>").addClass("winner-box__competition").html(competition.name);
+		team = $("<DIV></DIV>").addClass("winner-box__team").html( allTeams[competition.winner] );
+		nmbr = $("<DIV></DIV>").addClass("winner-box__count").html( getTitleCount(competition.title_count) );
 
-	wrap.append(comp).append(team).append(nmbr);
-	col.append(wrap);
+		wrap.append(comp).append(team).append(nmbr);
+		col.append(wrap);
+	}
 
 	$("#winners").append(col);
 }
