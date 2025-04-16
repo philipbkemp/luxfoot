@@ -46,7 +46,6 @@ function doneParsingTeams() {
 	season = seasonToShow;
 	addKeys(Object.keys(season));
 	
-	console.log(season);
 	setTitles(season.season);
     removeKey("season");
 
@@ -81,6 +80,12 @@ function doneParsingTeams() {
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.leagues[lvl].name);
 					removeKey("leagues."+lvl+".missing");
+				}
+
+				if ( season.leagues[lvl].series ) {
+					seriesSpan = $("<SPAN></SPAN>").addClass("series").html( season.leagues[lvl].series.length + " series");
+					thisLevel.append(seriesSpan);
+					removeKey("leagues."+lvl+".series");
 				}
 				
 				leagueCompList.append(thisLevel);
@@ -172,10 +177,11 @@ function doneParsingTeams() {
 		note = $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html(season.note);
 		noteWrap.append(note);
 		$("#competitions").append(noteWrap);
-		removeKey("notes");
+		removeKey("note");
 	}
 
 	if ( keys.length !== 0 ) {
+		console.log(season);
 		console.log(keys);
 	}
 
