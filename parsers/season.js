@@ -83,12 +83,14 @@ function doneParsingTeams() {
 						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
 						.html(season.leagues[lvl].name)
 						;
-					removeKey("leagues."+lvl+".missing");
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.leagues[lvl].name);
+					removeKey("leagues."+lvl+".missing");
 				}
 				
 				leagueCompList.append(thisLevel);
+
+				console.log(keys,lvl,"about to remove?");
 				removeKey("leagues."+lvl);
 				removeKey("leagues."+lvl+".season");
 				removeKey("leagues."+lvl+".level");
@@ -136,9 +138,9 @@ function doneParsingTeams() {
 						.addClass("list-group-item")
 						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
 						.html(season.cups[lvl].name);
-						removeKey("cup."+lvl+".missing");
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.cups[lvl].name);
+					removeKey("cup."+lvl+".missing");
 				}
 				
 				cupCompList.append(thisLevel);
