@@ -176,6 +176,9 @@ function doneParsingTeams() {
 		addKeys(subKeys);
 		removeKey("europe");
 
+		euroCompList = $("<DIV></DIV>").addClass("list-group");
+		euroCompHead = $("<DIV></DIV>").addClass("list-group-item list-group-item-primary").html("Europe");
+		euroCompList.append(euroCompHead);
 		["champions_league"].forEach(lvl=>{
 			if ( season.europe[lvl] ) {
 				lvlKeys = Object.keys(season.europe[lvl]);
@@ -199,7 +202,7 @@ function doneParsingTeams() {
 					thisLevel.append(seriesSpan);
 				});
 
-				cupCompList.append(thisLevel);
+				euroComp.append(thisLevel);
 				removeKey("europe."+lvl);
 				removeKey("europe."+lvl+".season");
 				removeKey("europe."+lvl+".name");
