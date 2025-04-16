@@ -167,6 +167,7 @@ function doneParsingTeams() {
 	}
 	$("#competitions").append(cupComp);
 	
+	euroComp = $("<DIV></DIV>").addClass("col-2");
 	if ( season.europe ) {
 		subKeys = Object.keys(season.europe);
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
@@ -174,16 +175,39 @@ function doneParsingTeams() {
 		}
 		addKeys(subKeys);
 		removeKey("europe");
-		subKeys.forEach(k=>{
-			kClean = k.replace("europe.","");
-			subSubKeys = Object.keys(season.europe[kClean]);
-			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
-				subSubKeys[i] = k + "." + subSubKeys[i];
+
+		["champions_league"].forEach(lvl=>{
+			if ( season.europe[lvl] ) {
+				lvlKeys = Object.keys(season.cups[lvl]);
+				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
+					lvlKeys[i] = "cups."+lvl+"." + lvlKeys[i];
+				}
+				addKeys(lvlKeys);
+				
+				if ( ! season.europe[lvl].missing ) {
+					thisLevel = $("<A></A>")
+						.addClass("list-group-item")
+						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
+						.html(season.europe[lvl].name);
+				} else {
+					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.europe[lvl].name);
+					removeKey("europe."+lvl+".missing");
+				}
+
+				season.europe[lvl].teams.forEach(t=>{
+					seriesSpan = $("<SPAN></SPAN>").addClass("series").html( allTeams[t] );
+					thisLevel.append(seriesSpan);
+				});
+
+				cupCompList.append(thisLevel);
+				removeKey("europe."+lvl);
+				removeKey("europe."+lvl+".season");
+				removeKey("europe."+lvl+".name");
+				removeKey("europe."+lvl+".teams");
 			}
-			addKeys(subSubKeys);
-			removeKey(k);
 		});
 	}
+	$("#competitions").append(euroComp);
 
 	if ( season.note ) {
 		noteWrap = $("<DIV></DIV>").addClass("col-12");
