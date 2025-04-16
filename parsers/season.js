@@ -85,7 +85,6 @@ function doneParsingTeams() {
 				
 				leagueCompList.append(thisLevel);
 
-				console.log(keys,lvl,"about to remove?");
 				removeKey("leagues."+lvl);
 				removeKey("leagues."+lvl+".season");
 				removeKey("leagues."+lvl+".level");
@@ -139,11 +138,11 @@ function doneParsingTeams() {
 				}
 				
 				cupCompList.append(thisLevel);
-				removeKey("cup."+lvl);
-				removeKey("cup."+lvl+".season");
-				removeKey("cup."+lvl+".name");
-				removeKey("cup."+lvl+".winner");
-				removeKey("cup."+lvl+".title_count");
+				removeKey("cups."+lvl);
+				removeKey("cups."+lvl+".season");
+				removeKey("cups."+lvl+".name");
+				removeKey("cups."+lvl+".winner");
+				removeKey("cups."+lvl+".title_count");
 			}
 		});
 		cupComp.append(cupCompList);
