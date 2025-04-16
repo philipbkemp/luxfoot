@@ -202,7 +202,7 @@ function doneParsingTeams() {
 					thisLevel.append(seriesSpan);
 				});
 
-				euroComp.append(thisLevel);
+				euroCompList.append(thisLevel);
 				removeKey("europe."+lvl);
 				removeKey("europe."+lvl+".season");
 				removeKey("europe."+lvl+".name");
