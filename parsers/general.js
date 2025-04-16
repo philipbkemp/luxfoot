@@ -1,4 +1,4 @@
-keys = "";
+keys = [];
 urlParams = {};
 allTeams = {};
 
@@ -29,7 +29,7 @@ function checkParams(required) {
 	return paramsOk;
 }
 
-function drawMatch(match,containerId,prefix,highlightWinner) {
+/*function drawMatch(match,containerId,prefix,highlightWinner) {
 	prefix = "|" + prefix + ".";
 	keys += prefix + Object.keys(match).join(prefix) + "|";
 	winner = "";
@@ -110,9 +110,9 @@ function drawMatch(match,containerId,prefix,highlightWinner) {
 	keys = keys.replace(prefix+"competition|","|").replace("||","|");
 
 	$("#"+containerId).append(matchObj);
-}
+}*/
 
-function getTitleCount(number) {
+/*function getTitleCount(number) {
 	ordinal = number + "th";
 
 	j = number % 10,
@@ -128,7 +128,7 @@ function getTitleCount(number) {
 	}
 
 	return ordinal + " title";
-}
+}*/
 
 function invalid() {
 	if ( $(".alert.alert-danger").length !== 0 ) {
@@ -160,4 +160,10 @@ function setTitles(pOne="",pTwo="") {
 
 	$("head title").html( titleParts.join(" / ") );
 	$("h1 span").html( titleParts.join(" / ") );
+}
+
+function addKeys(newKeys) {
+	newKeys.forEach(k=>{
+		keys.push(k);
+	});
 }

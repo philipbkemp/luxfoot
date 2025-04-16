@@ -44,25 +44,25 @@ function parseSeasons(data) {
 
 function doneParsingTeams() {
 	season = seasonToShow;
-	keys = Object.keys(season);
+	addKeys(Object.keys(season));
 	
 	console.log(season);
 	setTitles(season.season);
-    keys.splice(keys.indexOf("season"),1);
+    //keys.splice(keys.indexOf("season"),1);
 
 	if ( season.leagues ) {
 		subKeys = Object.keys(season.leagues);
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
 			subKeys[i] = "leagues." + subKeys[i];
 		}
-		keys = [...keys,...subKeys];
-		keys.splice(keys.indexOf("leagues"),1);
+		addKeys(subKeys);
+		//keys.splice(keys.indexOf("leagues"),1);
 		if ( season.leagues.level_1 ) {
 			subKeys = Object.keys(season.leagues.level_1);
 			for ( i=0 ; i!==subKeys.length ; i++ ) {
 				subKeys[i] = "leagues.level_1." + subKeys[i];
 			}
-			keys = [...keys,...subKeys];
+			addKeys(subKeys);
 			displayWinner(season.leagues.level_1);
 		}
 		leagueComp = $("<DIV></DIV>").addClass("col-2");
@@ -75,7 +75,7 @@ function doneParsingTeams() {
 				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
 					lvlKeys[i] = "leagues."+lvl+"." + lvlKeys[i];
 				}
-				keys = [...keys,...lvlKeys];
+				addKeys(lvlKeys);
 
 				if ( ! season.leagues[lvl].missing ) {
 					thisLevel = $("<A></A>")
@@ -83,18 +83,18 @@ function doneParsingTeams() {
 						.attr("href","league.html?season="+season.season+"&level="+lvl.split("_").pop())
 						.html(season.leagues[lvl].name)
 						;
-					keys.splice(keys.indexOf("leagues."+lvl+".missing"),1);
+					//keys.splice(keys.indexOf("leagues."+lvl+".missing"),1);
 				} else {
 					thisLevel = $("<DIV></DIV>").addClass("list-group-item").html(season.leagues[lvl].name);
 				}
 				
 				leagueCompList.append(thisLevel);
-				if ( keys.indexOf("leagues."+lvl) !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl),1); }
-				if ( keys.indexOf("leagues."+lvl+".season") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".season"),1); }
-				if ( keys.indexOf("leagues."+lvl+".level") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".level"),1); }
-				if ( keys.indexOf("leagues."+lvl+".name") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".name"),1); }
-				if ( keys.indexOf("leagues."+lvl+".winner") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".winner"),1); }
-				if ( keys.indexOf("leagues."+lvl+".title_count") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".title_count"),1); }
+				//if ( keys.indexOf("leagues."+lvl) !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl),1); }
+				//if ( keys.indexOf("leagues."+lvl+".season") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".season"),1); }
+				//if ( keys.indexOf("leagues."+lvl+".level") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".level"),1); }
+				//if ( keys.indexOf("leagues."+lvl+".name") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".name"),1); }
+				//if ( keys.indexOf("leagues."+lvl+".winner") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".winner"),1); }
+				//if ( keys.indexOf("leagues."+lvl+".title_count") !== -1 ) { keys.splice(keys.indexOf("leagues."+lvl+".title_count"),1); }
 			}
 		});
 		leagueComp.append(leagueCompList);
@@ -106,16 +106,16 @@ function doneParsingTeams() {
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
 			subKeys[i] = "cups." + subKeys[i];
 		}
-		keys = [...keys,...subKeys];
-		keys.splice(keys.indexOf("cups"),1);
+		addKeys(subKeys)
+		//keys.splice(keys.indexOf("cups"),1);
 		subKeys.forEach(k=>{
 			kClean = k.replace("cups.","");
 			subSubKeys = Object.keys(season.cups[kClean]);
 			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
 				subSubKeys[i] = k + "." + subSubKeys[i];
 			}
-			keys = [...keys,...subSubKeys];
-			keys.splice(keys.indexOf(k),1);
+			addKeys(subSubKeys);
+			//keys.splice(keys.indexOf(k),1);
 			displayWinner(season.cups[kClean]);
 		});
 
@@ -129,7 +129,7 @@ function doneParsingTeams() {
 				for ( i=0 ; i!==lvlKeys.length ; i++ ) {
 					lvlKeys[i] = "cups."+lvl+"." + lvlKeys[i];
 				}
-				keys = [...keys,...lvlKeys];
+				addKeys(lvlKeys);
 
 				if ( ! season.cups[lvl].missing ) {
 					thisLevel = $("<A></A>")
@@ -141,11 +141,11 @@ function doneParsingTeams() {
 				}
 				
 				cupCompList.append(thisLevel);
-				if ( keys.indexOf("cups."+lvl) !== -1 ) { keys.splice(keys.indexOf("cups."+lvl),1); }
-				if ( keys.indexOf("cups."+lvl+".season") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".season"),1); }
-				if ( keys.indexOf("cups."+lvl+".name") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".name"),1); }
-				if ( keys.indexOf("cups."+lvl+".winner") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".winner"),1); }
-				if ( keys.indexOf("cups."+lvl+".title_count") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".title_count"),1); }
+				//if ( keys.indexOf("cups."+lvl) !== -1 ) { keys.splice(keys.indexOf("cups."+lvl),1); }
+				//if ( keys.indexOf("cups."+lvl+".season") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".season"),1); }
+				//if ( keys.indexOf("cups."+lvl+".name") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".name"),1); }
+				//if ( keys.indexOf("cups."+lvl+".winner") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".winner"),1); }
+				//if ( keys.indexOf("cups."+lvl+".title_count") !== -1 ) { keys.splice(keys.indexOf("cups."+lvl+".title_count"),1); }
 			}
 		});
 		cupComp.append(cupCompList);
@@ -157,16 +157,16 @@ function doneParsingTeams() {
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
 			subKeys[i] = "europe." + subKeys[i];
 		}
-		keys = [...keys,...subKeys];
-		keys.splice(keys.indexOf("europe"),1);
+		addKeys(subKeys);
+		//keys.splice(keys.indexOf("europe"),1);
 		subKeys.forEach(k=>{
 			kClean = k.replace("europe.","");
 			subSubKeys = Object.keys(season.europe[kClean]);
 			for ( i=0 ; i!==subSubKeys.length ; i++ ) {
 				subSubKeys[i] = k + "." + subSubKeys[i];
 			}
-			keys = [...keys,...subSubKeys];
-			keys.splice(keys.indexOf(k),1);
+			addKeys(subSubKeys);
+			//keys.splice(keys.indexOf(k),1);
 		});
 	}
 
