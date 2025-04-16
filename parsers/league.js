@@ -117,7 +117,7 @@ function parseLeague(league) {
 }
 
 function buildStandings(standings) {
-	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm");
+	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover");
 
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
@@ -148,7 +148,7 @@ function buildStandings(standings) {
 		thisRow = $("<TR></TR>");
 		thisRow
 			.append( $("<TD></TD>").html( s.place) )
-			.append( $("<TH></TH>").attr("scope","row"),html(allTeams[s.team]) )
+			.append( $("<TH></TH>").attr("scope","row").html(allTeams[s.team]) )
 			;
 		removeKey("standings.place");
 		removeKey("standings.team");
