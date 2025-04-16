@@ -96,6 +96,7 @@ function doneParsingTeams() {
 				removeKey("leagues."+lvl+".name");
 				removeKey("leagues."+lvl+".winner");
 				removeKey("leagues."+lvl+".title_count");
+				removeKey("leagues."+lvl+".double");
 			}
 		});
 		leagueComp.append(leagueCompList);
@@ -144,6 +145,7 @@ function doneParsingTeams() {
 				removeKey("cups."+lvl+".winner");
 				removeKey("cups."+lvl+".title_count");
 				removeKey("cups."+lvl+".winner_division");
+				removeKey("cups."+lvl+".double");
 			}
 		});
 		cupComp.append(cupCompList);
