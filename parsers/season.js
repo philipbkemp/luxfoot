@@ -208,7 +208,8 @@ function doneParsingTeams() {
 				removeKey("europe."+lvl+".name");
 				removeKey("europe."+lvl+".teams");
 			}
-		});
+		});		
+		euroComp.append(euroCompList);
 	}
 	$("#competitions").append(euroComp);
 
