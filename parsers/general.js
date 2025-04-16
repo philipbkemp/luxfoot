@@ -112,7 +112,7 @@ function checkParams(required) {
 	$("#"+containerId).append(matchObj);
 }*/
 
-/*function getTitleCount(number) {
+function getTitleCount(number) {
 	ordinal = number + "th";
 
 	j = number % 10,
@@ -128,7 +128,7 @@ function checkParams(required) {
 	}
 
 	return ordinal + " title";
-}*/
+}
 
 function invalid() {
 	if ( $(".alert.alert-danger").length !== 0 ) {
@@ -166,4 +166,11 @@ function addKeys(newKeys) {
 	newKeys.forEach(k=>{
 		keys.push(k);
 	});
+}
+
+function removeKey(oldKey) {
+	if ( keys.indexOf(oldKey) ) {
+		console.log(oldKey + " removed");
+		keys.splice(keys.indexOf(oldKey),1);
+	}
 }

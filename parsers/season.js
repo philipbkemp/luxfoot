@@ -48,7 +48,7 @@ function doneParsingTeams() {
 	
 	console.log(season);
 	setTitles(season.season);
-    //keys.splice(keys.indexOf("season"),1);
+    removeKey("season");
 
 	if ( season.leagues ) {
 		subKeys = Object.keys(season.leagues);
