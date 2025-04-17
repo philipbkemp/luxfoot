@@ -228,6 +228,12 @@ function buildStandings(standings,ptsWin=3) {
 			thisRowNotes.append( $("<SPAN></SPAN>").html( getTitleCount(s.title_count)) );
 			removeKey("standings.title_count");
 		}
+		if ( s.playoff ) {
+			if ( ["relegation"].indexOf(s.playoff) !== -1 ) {
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html("Relegation play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+				removeKey("standings.playoff");
+			}
+		}
 
 		thisRow.append(thisRowNotes);
 
