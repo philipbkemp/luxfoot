@@ -117,6 +117,7 @@ function parseLeague(league) {
 			league.playoffs.relegation.forEach(m=>{
 				poRelegationMatches.append( drawMatch(m,true));
 			});
+			poRelegation.append(poRelegationMatches);
 			$("#leagueTabContent").append(poRelegation);
 			removeKey("playoffs.relegation");
 		}
