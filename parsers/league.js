@@ -263,6 +263,8 @@ function buildStandings(standings,ptsWin=3) {
 
 		thisRow.append(thisRowNotes);
 
+		console.log(keys);
+
 		removeKey("standings.place");
 		removeKey("standings.team");
 		removeKey("standings.w");
