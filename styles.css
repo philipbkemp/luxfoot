@@ -159,10 +159,11 @@ h1 a {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-underline-offset: 2px;
+	color: black;
     cursor: pointer;
 }
 #standings-tab-pane table tbody tr td:last-child span.faux-link:hover {
-    color: black;
+	text-decoration-style: solid
 }
 
 /* STANDINGS TABLE ROW STYLES ********************************************************************/

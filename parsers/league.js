@@ -227,6 +227,24 @@ function buildStandings(standings,ptsWin=3) {
 		if ( s.relegated ) {
 			thisRow.addClass("is-relegated");
 			removeKey("standings.relegated");
+			if ( s.target && ! s.playoff ) {
+				
+				targetKeys = Object.keys(s);
+				for ( i=0 ; i!==targetKeys.length ; i++ ) {
+					targetKeys[i] = "standings.target." + targetKeys[i];
+				}
+				addKeys(subKeys);
+
+				thisRowNotes.append(
+					$("<A></A>")
+						.html(["Relegated to",s.target.season,s.target.name].join(" "))
+						.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
+				);
+				removeKey("standings.target");
+				removeKey("standings.target.season");
+				removeKey("standings.target.level");
+				removeKey("standings.target.name");
+			}
 		}
 
 		if ( s.title_count ) {
