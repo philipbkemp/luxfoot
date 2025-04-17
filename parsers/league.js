@@ -113,6 +113,7 @@ function parseLeague(league) {
 	}
 
 	removeKey("level");
+	removeKey("champion");
 
 	if ( keys.length !== 0 ) {
 		console.log(league);
@@ -202,6 +203,12 @@ function buildStandings(standings,ptsWin=3) {
 			.append( $("<TD></TD>").html(s.f-s.a) )
 			.append( $("<TD></TD>") )
 			;
+		
+		if ( s.champion ) {
+			thisRow.addClass("is-champion");
+			removeKey("standings.champion");
+		}
+
 		removeKey("standings.place");
 		removeKey("standings.team");
 		removeKey("standings.w");

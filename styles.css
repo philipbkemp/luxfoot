@@ -152,6 +152,11 @@ h1 a {
     text-underline-offset: 5px;
 }
 
+/* STANDINGS TABLE ROW STYLES ********************************************************************/
+.is_champion > * {
+    background-color: #FEFBDC !important;
+}
+
 /* RESULTS TABLE *********************************************************************************/
 #matches-tab-pane table {
     width: auto;
@@ -217,9 +222,6 @@ h1 a {
 	height: 20px;
 }
 
-.is_champion > * {
-    background-color: #FEFBDC !important;
-}
 .is_relegated > * {
     background-color: #DCB6B6 !important;
 }
