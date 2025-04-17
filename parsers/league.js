@@ -223,6 +223,11 @@ function buildStandings(standings,ptsWin=3) {
 			thisRow.addClass("is-champion");
 			removeKey("standings.champion");
 		}
+	
+		if ( s.relegated ) {
+			thisRow.addClass("is-relegated");
+			removeKey("standings.relegated");
+		}
 
 		if ( s.title_count ) {
 			thisRowNotes.append( $("<SPAN></SPAN>").html( getTitleCount(s.title_count)) );

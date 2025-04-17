@@ -170,16 +170,24 @@ h1 a {
     background-color: #FEFBDC !important;
 }
 .is-playoff_relegation > * {
-	background-color: #F1F9F0 !important;
+	background-color: #f9f0f0 !important;
+}
+.is-relegated > * {
+    background-color: #DCB6B6 !important;
+}
+.is-champion td:nth-of-type(1),
+.is-relegated td:nth-of-type(1) {
+    color: transparent;  
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .is-champion td:nth-of-type(1) {
 	background-image: url("assets/trophy.png");
+	background-size: 25px;
 }
-.is-champion td:nth-of-type(1) {
-    color: transparent;  
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
+.is-relegated td:nth-of-type(1) {
+	background-image: url("assets/relegated.png");
 }
 
 /* RESULTS TABLE *********************************************************************************/
@@ -252,9 +260,6 @@ h1 a {
 	height: 20px;
 }
 
-.is_relegated > * {
-    background-color: #DCB6B6 !important;
-}
 .is_promoted > * {
 	background-color: #DCF1DA !important;
 }
