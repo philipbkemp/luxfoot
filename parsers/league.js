@@ -98,7 +98,6 @@ function parseLeague(league) {
 	if ( league.matches ) {
 		$("#leagueTabs").append(buildTabButton("matches","Results Table"));
 		matchesPanel = buildTabPanel("matches");
-		matchesPanel.html("ergebniskasten");
 		matchesPanel.append( buildResultsTable(league.teams,league.matches) );
 		$("#leagueTabContent").append(matchesPanel);
 		removeKey("teams");
@@ -142,7 +141,13 @@ function buildResultsTable(teams,results) {
 			if ( tt === t ) {
 				teamRow.append( $("<TD></TD>").html("") );
 			} else {
-				teamRow.append( $("<TD></TD>").html(t + " v " + tt) );
+				theMatch = matches.filter(m=>{return m.home===t && m.away===tt;});
+				if ( theMatch.length === 1 ) {
+					teamRow.append( $("<TD></TD>").html(theMatch[0].score) );
+				} else {
+					teamRow.append( $("<TD></TD>").html("--") );
+					console.error(t,tt,theMatch);
+				}
 			}
 		});
 		tblBody.append(teamRow);
