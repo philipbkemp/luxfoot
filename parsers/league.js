@@ -130,7 +130,7 @@ function buildResultsTable(teams,results) {
 	topRow = $("<TR></TR>").addClass("top-row");
 	topRow.append( $("<TD></TD>").html("") );
 	teams.forEach(t=>{
-		topRow.append( $("<TD></TD>").html(t) );
+		topRow.append( $("<TH></TH>").attr("scope","col").html(t) );
 	});
 	tblBody.append(topRow);
 

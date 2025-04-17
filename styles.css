@@ -113,6 +113,7 @@ h1 a {
     border-bottom-color: white;
 }
 
+/* STANDINGS TABLE *******************************************************************************/
 #standings-tab-pane table {
     border: none;
 }
@@ -145,6 +146,37 @@ h1 a {
 #standings-tab-pane table tbody tr td:last-of-type {
     text-align: left;
     padding-left: 50px;
+}
+
+/* RESULTS TABLE *********************************************************************************/
+#matches-tab-pane table {
+    width: auto;
+}
+#matches-tab-pane table .top-row > * {
+    background-color: #2b5873;
+    color: white;
+    border: 1px solid #2b5873;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+#matches-tab-pane table :not(.top-row) > th {
+    border: 1px solid #ccc;
+    border-left-color: #2b5873;
+    padding: 10px;
+    width: 350px;
+}
+#matches-tab-pane table :not(.top-row) > td {
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+#matches-tab-pane table :not(.top-row) > *:last-child {
+    border-right-color: #2b5873;
+}
+#matches-tab-pane table tr:not(.top-row):last-child > * {
+    border-bottom-color: #2b5873;
 }
 
 /*.badge.badge-titleCount {
