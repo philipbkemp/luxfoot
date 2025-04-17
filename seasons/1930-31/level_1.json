@@ -10,9 +10,9 @@
 		{"place":  3, "team": "PRON", "w":  6, "d":  2, "l":  6, "f": 27, "a": 31, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
 		{"place":  4, "team": "FOLA", "w":  3, "d":  6, "l":  5, "f": 23, "a": 34, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
 		{"place":  5, "team": "ULUX", "w":  5, "d":  2, "l":  7, "f": 28, "a": 43, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
-		{"place":  6, "team": "NSCH", "w":  4, "d":  2, "l":  8, "f": 29, "a": 41, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division"},
+		{"place":  6, "team": "NSCH", "w":  4, "d":  2, "l":  8, "f": 29, "a": 41, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "playoff": "relegation"},
 		{"place":  7, "team": "SDUD", "w":  3, "d":  4, "l":  7, "f": 23, "a": 38, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "playoff": "relegation", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}},
-		{"place":  8, "team": "RBPF", "w":  2, "d":  5, "l":  7, "f": 16, "a": 30, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "playoff": "relegation", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}}
+		{"place":  8, "team": "RBPF", "w":  2, "d":  5, "l":  7, "f": 16, "a": 30, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "relegated": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}}
 	],
 	"champion": "RBDF",
 	"relegation": {
