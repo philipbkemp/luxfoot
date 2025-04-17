@@ -2,7 +2,7 @@
 	"level": 1,
 	"season": "1930-31",
 	"name": "1. Division",
-	"teams": ["RBDF","SPOR","PRON","FOLA","ULUX","NSCH","SDUD","RBPF"],
+	"teams": ["FOLA","NSCH","PRON","RBDF","RBPF","SPOR","SDUD","ULUX"],
 	"pts_win": 2,
 	"standings": [
 		{"place":  1, "team": "RBDF", "w": 12, "d":  1, "l":  1, "f": 54, "a": 12, "pts_win":  2, "season": "1930-31", "level": "1", "league": "1. Division", "champion": true, "title_count":  3},
