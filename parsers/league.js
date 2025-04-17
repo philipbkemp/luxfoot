@@ -233,7 +233,7 @@ function buildStandings(standings,ptsWin=3) {
 				for ( i=0 ; i!==targetKeys.length ; i++ ) {
 					targetKeys[i] = "standings.target." + targetKeys[i];
 				}
-				addKeys(subKeys);
+				addKeys(targetKeys);
 				removeKey("standings.target");
 
 				if ( ! s.playoff ) {
@@ -262,8 +262,6 @@ function buildStandings(standings,ptsWin=3) {
 		}
 
 		thisRow.append(thisRowNotes);
-
-		console.log(s.team,keys);
 
 		removeKey("standings.place");
 		removeKey("standings.team");

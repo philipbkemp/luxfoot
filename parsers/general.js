@@ -148,8 +148,5 @@ function addKeys(newKeys) {
 function removeKey(oldKey) {
 	if ( keys.indexOf(oldKey) !== -1 ) {
 		keys.splice(keys.indexOf(oldKey),1);
-		console.log("deleted",oldKey);
-	} else {
-		console.log("unknown",oldKey);
 	}
 }
