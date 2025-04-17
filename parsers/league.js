@@ -107,13 +107,17 @@ function parseLeague(league) {
 		if ( league.playoffs.relegation ) {
 			$("#leagueTabs").append(buildTabButton("po_relegation","Relegation play-off"));
 			poRelegation = buildTabPanel("po_relegation");
-			poRelegation.html("relegation play-off");
+			poRelegationMatches = $("<DIV></DIV>").addClass("list-group");
+			league.playoffs.relegation.forEach(m=>{
+				poRelegationMatches.append( drawMatch(m,true));
+			});
 			$("#leagueTabContent").append(poRelegation);
 		}
 	}
 
 	removeKey("level");
 	removeKey("champion");
+	removeKey("relegation");
 
 	if ( keys.length !== 0 ) {
 		console.log(league);
