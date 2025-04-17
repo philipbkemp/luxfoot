@@ -85,12 +85,15 @@ function parseLeague(league) {
 
 	setTitles(league.season,league.name);
     removeKey("season");
+	removeKey("name");
 
 	if ( league.standings ) {
 		$("#leagueTabs").append(buildTabButton("standings","Standings",true));
 		standingsPanel = buildTabPanel("standings",true);
-		standingsPanel.append( buildStandings(league.standings) );
+		standingsPanel.append( buildStandings(league.standings,league.pts_win?league.pts_win:3) );
 		$("#leagueTabContent").append(standingsPanel);
+		removeKey("pts_win");
+		removeKey("standings");
 	}
 	if ( league.matches ) {
 		$("#leagueTabs").append(buildTabButton("matches","Results Table"));
@@ -107,6 +110,8 @@ function parseLeague(league) {
 		}
 	}
 
+	removeKey("level");
+
 	if ( keys.length !== 0 ) {
 		console.log(league);
 		console.log(keys);
@@ -116,7 +121,7 @@ function parseLeague(league) {
 	$(".displayAfterLoad").removeClass("d-none");
 }
 
-function buildStandings(standings) {
+function buildStandings(standings,ptsWin=3) {
 	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover");
 
 	thead = $("<THEAD></THEAD>");
@@ -147,11 +152,26 @@ function buildStandings(standings) {
 
 		thisRow = $("<TR></TR>");
 		thisRow
-			.append( $("<TD></TD>").html( s.place) )
+			.append( $("<TD></TD>").html(s.place) )
 			.append( $("<TH></TH>").attr("scope","row").html(allTeams[s.team]) )
+			.append( $("<TD></TD>").html(s.w+s.d+s.l) )
+			.append( $("<TD></TD>").html(s.w) )
+			.append( $("<TD></TD>").html(s.d) )
+			.append( $("<TD></TD>").html(s.l) )
+			.append( $("<TD></TD>").html(s.f) )
+			.append( $("<TD></TD>").html(s.a) )
+			.append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
+			.append( $("<TD></TD>").html(s.f-s.a) )
+			.append( $("<TD></TD>") )
 			;
 		removeKey("standings.place");
 		removeKey("standings.team");
+		removeKey("standings.w");
+		removeKey("standings.d");
+		removeKey("standings.l");
+		removeKey("standings.f");
+		removeKey("standings.a");
+		removeKey("standings.pts_win");
 
 		tbody.append(thisRow);
 	});
