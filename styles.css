@@ -155,10 +155,22 @@ h1 a {
     font-style: italic;
     font-size: 0.8rem;
 }
+#standings-tab-pane table tbody tr td:last-child span.faux-link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+#standings-tab-pane table tbody tr td:last-child span.faux-link:hover {
+    color: black;
+}
 
 /* STANDINGS TABLE ROW STYLES ********************************************************************/
 .is-champion > * {
     background-color: #FEFBDC !important;
+}
+.is-playoff_relegation > * {
+	background-color: #F1F9F0 !important;
 }
 .is-champion td:nth-of-type(1) {
 	background-image: url("assets/trophy.png");
@@ -242,9 +254,6 @@ h1 a {
 
 .is_relegated > * {
     background-color: #DCB6B6 !important;
-}
-.go_playoff > * {
-    background-color: #F1F9F0 !important;
 }
 .is_promoted > * {
 	background-color: #DCF1DA !important;
