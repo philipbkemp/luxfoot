@@ -204,6 +204,8 @@ function buildStandings(standings,ptsWin=3) {
 		addKeys(subKeys);
 
 		thisRow = $("<TR></TR>");
+		thisRowNotes = $("<TD></TD>");
+
 		thisRow
 			.append( $("<TD></TD>").html(s.place) )
 			.append( $("<TH></TH>").attr("scope","row").html(allTeams[s.team]) )
@@ -215,13 +217,19 @@ function buildStandings(standings,ptsWin=3) {
 			.append( $("<TD></TD>").html(s.a) )
 			.append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
 			.append( $("<TD></TD>").html(s.f-s.a) )
-			.append( $("<TD></TD>") )
 			;
 		
 		if ( s.champion ) {
 			thisRow.addClass("is-champion");
 			removeKey("standings.champion");
 		}
+
+		if ( s.title_count ) {
+			thisRowNotes.append( $("<SPAN></SPAN>").html( getTitleCount(s.title_count)) );
+			removeKey("standings.title_count");
+		}
+
+		thisRow.append(thisRowNotes);
 
 		removeKey("standings.place");
 		removeKey("standings.team");
