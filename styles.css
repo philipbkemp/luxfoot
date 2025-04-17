@@ -113,6 +113,40 @@ h1 a {
     border-bottom-color: white;
 }
 
+#standings-tab-pane table {
+    border: none;
+}
+#standings-tab-pane table thead {
+    border: 1px solid #2b5873;
+}
+#standings-tab-pane table thead tr th {
+    background: #2b5873;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+#standings-tab-pane table thead tr th:nth-of-type(2) {
+    width: 350px;
+    text-align: left;
+}
+#standings-tab-pane table thead tr th:last-of-type {
+    width: calc( 100% - 350px - ( 50px * 9 ) );
+}
+#standings-tab-pane table tbody {
+    border: 1px solid #ccc;
+}
+#standings-tab-pane table tbody tr > * {
+    padding: 10px;
+}
+#standings-tab-pane table tbody tr td {
+    text-align: center;
+}
+#standings-tab-pane table tbody tr td:last-of-type {
+    text-align: left;
+    padding-left: 50px;
+}
+
 /*.badge.badge-titleCount {
 	color: #666;
 	font-style: italic;

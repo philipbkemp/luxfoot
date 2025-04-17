@@ -173,6 +173,10 @@ function buildStandings(standings,ptsWin=3) {
 		removeKey("standings.a");
 		removeKey("standings.pts_win");
 
+		removeKey("standings.season");
+		removeKey("standings.level");		
+		removeKey("standings.league");
+
 		tbody.append(thisRow);
 	});
 
