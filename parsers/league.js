@@ -104,7 +104,7 @@ function parseLeague(league) {
 		removeKey("matches");
 	}
 	if ( league.playoffs ) {
-		subKeys = Object.keys(s);
+		subKeys = Object.keys(league.playoffs);
 		for ( i=0 ; i!==subKeys.length ; i++ ) {
 			subKeys[i] = "playoffs." + subKeys[i];
 		}
