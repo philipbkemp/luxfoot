@@ -99,7 +99,10 @@ function parseLeague(league) {
 		$("#leagueTabs").append(buildTabButton("matches","Results Table"));
 		matchesPanel = buildTabPanel("matches");
 		matchesPanel.html("ergebniskasten");
+		matchesPanel.append( buildResultsTable(league.teams,league.matches) );
 		$("#leagueTabContent").append(matchesPanel);
+		removeKey("teams");
+		removeKey("matches");
 	}
 	if ( league.playoffs ) {
 		if ( league.playoffs.relegation ) {
@@ -119,6 +122,34 @@ function parseLeague(league) {
 
 	$(".placeholder-glow").addClass("d-none");
 	$(".displayAfterLoad").removeClass("d-none");
+}
+
+function buildResultsTable(teams,results) {
+	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover");
+	tblBody = $("<TBODY></TBODY>");
+
+	topRow = $("<TR></TR>").addClass("top-row");
+	topRow.append( $("<TD></TD>").html("") );
+	teams.forEach(t=>{
+		topRow.append( $("<TD></TD>").html(t) );
+	});
+	tblBody.append(topRow);
+
+	teams.forEach(t=>{
+		teamRow = $("<TR></TR>");
+		teamRow.append( $("<TH></TH>").attr("scope","row").html( allTeams[t] ) );
+		teams.forEach(tt=>{
+			if ( tt === t ) {
+				teamRow.append( $("<TD></TD>").html("") );
+			} else {
+				teamRow.append( $("<TD></TD>").html(t + " v " + tt) );
+			}
+		});
+		tblBody.append(teamRow);
+	});
+
+	tbl.append(tblBody);	
+	return tbl;
 }
 
 function buildStandings(standings,ptsWin=3) {
