@@ -30,9 +30,9 @@ function checkParams(required) {
 }
 
 function drawMatch(match,highlightWinner=false) {
-	subKeys = Object.keys(s);
+	subKeys = Object.keys(match);
 	for ( i=0 ; i!==subKeys.length ; i++ ) {
-		subKeys[i] = "standings." + subKeys[i];
+		subKeys[i] = "match." + subKeys[i];
 	}
 	addKeys(subKeys);
 

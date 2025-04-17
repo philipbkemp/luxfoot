@@ -104,6 +104,12 @@ function parseLeague(league) {
 		removeKey("matches");
 	}
 	if ( league.playoffs ) {
+		subKeys = Object.keys(s);
+		for ( i=0 ; i!==subKeys.length ; i++ ) {
+			subKeys[i] = "playoffs." + subKeys[i];
+		}
+		addKeys(subKeys);
+
 		if ( league.playoffs.relegation ) {
 			$("#leagueTabs").append(buildTabButton("po_relegation","Relegation play-off"));
 			poRelegation = buildTabPanel("po_relegation");
@@ -112,6 +118,7 @@ function parseLeague(league) {
 				poRelegationMatches.append( drawMatch(m,true));
 			});
 			$("#leagueTabContent").append(poRelegation);
+			removeKey("playoffs.relegation");
 		}
 	}
 
