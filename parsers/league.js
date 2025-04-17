@@ -141,7 +141,7 @@ function buildResultsTable(teams,results) {
 			if ( tt === t ) {
 				teamRow.append( $("<TD></TD>").html("") );
 			} else {
-				theMatch = matches.filter(m=>{return m.home===t && m.away===tt;});
+				theMatch = results.filter(m=>{return m.home===t && m.away===tt;});
 				if ( theMatch.length === 1 ) {
 					teamRow.append( $("<TD></TD>").html(theMatch[0].score) );
 				} else {
