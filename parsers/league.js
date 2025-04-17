@@ -121,6 +121,8 @@ function parseLeague(league) {
 			$("#leagueTabContent").append(poRelegation);
 			removeKey("playoffs.relegation");
 		}
+
+		removeKey("playoffs");
 	}
 
 	removeKey("level");
