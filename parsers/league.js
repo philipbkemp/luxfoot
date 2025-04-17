@@ -130,7 +130,7 @@ function buildResultsTable(teams,results) {
 	topRow = $("<TR></TR>").addClass("top-row");
 	topRow.append( $("<TD></TD>").html("") );
 	teams.forEach(t=>{
-		topRow.append( $("<TH></TH>").attr("scope","col").html(t) );
+		topRow.append( $("<TH></TH>").attr("scope","col").html("<abbr title='"+allTeams[t]+"'>"+t+"</abbr>") );
 	});
 	tblBody.append(topRow);
 
@@ -153,6 +153,8 @@ function buildResultsTable(teams,results) {
 		tblBody.append(teamRow);
 	});
 
+	addKeys(["+results_legend"]);
+
 	tbl.append(tblBody);	
 	return tbl;
 }
@@ -163,16 +165,16 @@ function buildStandings(standings,ptsWin=3) {
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
 	theadRow
-		.append( $("<TH></TH>").attr("scope","col").html("#") )
+		.append( $("<TH></TH>").attr("scope","col").html("") )
 		.append( $("<TH></TH>").attr("scope","col").html("Team") )
-		.append( $("<TH></TH>").attr("scope","col").html("P") )
-		.append( $("<TH></TH>").attr("scope","col").html("W") )
-		.append( $("<TH></TH>").attr("scope","col").html("D") )
-		.append( $("<TH></TH>").attr("scope","col").html("L") )
-		.append( $("<TH></TH>").attr("scope","col").html("F") )
-		.append( $("<TH></TH>").attr("scope","col").html("A") )
-		.append( $("<TH></TH>").attr("scope","col").html("Pts") )		
-		.append( $("<TH></TH>").attr("scope","col").html("GD") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Played'>P</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Won'>W</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Drawn'>D</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Lost'>L</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Goals For'>F</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Goals Against'>A</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Points'>Pts</abbr>") )		
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Goal Difference'>GD</abbr>") )
 		.append( $("<TH></TH>").attr("scope","col").html("") )
 		;
 	thead.append(theadRow);
@@ -216,40 +218,9 @@ function buildStandings(standings,ptsWin=3) {
 		tbody.append(thisRow);
 	});
 
+	addKeys(["+points_per_win_notice"]);
+
 	tbl.append(thead).append(tbody);
 
 	return tbl;
-
-	/*
-
-	<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>John</td>
-      <td>Doe</td>
-      <td>@social</td>
-    </tr>
-  </tbody>
-</table>*/
 }
