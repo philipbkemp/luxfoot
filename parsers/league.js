@@ -140,7 +140,7 @@ function parseLeague(league) {
 	
 	$("#menu-links").append(
 		$("<LI></LI>").append(
-			$("<A></A>").addClass("p-2").attr("league.html?season="+league.season).html("Season overview")
+			$("<A></A>").addClass("p-2").attr("href","league.html?season="+league.season).html("Season overview")
 		)
 	);
 	if ( league.links ) {
@@ -152,7 +152,7 @@ function parseLeague(league) {
 		if ( league.links.next ) {
 			$("#menu-links").append(
 				$("<LI></LI>").append(
-					$("<A></A>").addClass("p-2").attr("league.html?season="+league.links.next+"&level="+league.level).html("Next season")
+					$("<A></A>").addClass("p-2").attr("href","league.html?season="+league.links.next+"&level="+league.level).html("Next season")
 				)
 			);
 			removeKey("links.next");
@@ -160,7 +160,7 @@ function parseLeague(league) {
 		if ( league.links.prev ) {
 			$("#menu-links").append(
 				$("<LI></LI>").append(
-					$("<A></A>").addClass("p-2").attr("league.html?season="+league.links.prev+"&level="+league.level).html("Previous season")
+					$("<A></A>").addClass("p-2").attr("href","league.html?season="+league.links.prev+"&level="+league.level).html("Previous season")
 				)
 			);
 			removeKey("links.prev");
@@ -168,7 +168,7 @@ function parseLeague(league) {
 		if ( league.links.down ) {
 			$("#menu-links").append(
 				$("<LI></LI>").append(
-					$("<A></A>").addClass("p-2").attr("league.html?season="+league.season+"&level="+league.links.down).html("Down a level")
+					$("<A></A>").addClass("p-2").attr("href","league.html?season="+league.season+"&level="+league.links.down).html("Down a level")
 				)
 			);
 			removeKey("links.down");
@@ -227,8 +227,6 @@ function buildResultsTable(teams,results) {
 		});
 		tblBody.append(teamRow);
 	});
-
-	addKeys(["+links-season/next/prev"]);
 
 	tbl.append(tblBody);	
 	return tbl;
