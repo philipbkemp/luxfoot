@@ -1,6 +1,11 @@
 {
 	"level": 1,
 	"season": "1930-31",
+    "links": {
+        "next": "1931-32",
+        "prev": "1929-30",
+        "down": 2
+    },
 	"name": "1. Division",
 	"teams": ["FOLA","NSCH","PRON","RBDF","RBPF","SPOR","SDUD","ULUX"],
 	"pts_win": 2,

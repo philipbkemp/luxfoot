@@ -137,6 +137,45 @@ function parseLeague(league) {
 		removeKey("playoffs");
 	}
 
+	
+	$("#menu-links").append(
+		$("<LI></LI>").append(
+			$("<A></A>").addClass("p-2").attr("league.html?season="+league.season).html("Season overview")
+		)
+	);
+	if ( league.links ) {
+		linkKeys = Object.keys(league.links);
+		for ( i=0 ; i!==linkKeys.length ; i++ ) {
+			linkKeys[i] = "links." + linkKeys[i];
+		}
+		addKeys(linkKeys);
+		if ( league.links.next ) {
+			$("#menu-links").append(
+				$("<LI></LI>").append(
+					$("<A></A>").addClass("p-2").attr("league.html?season="+league.links.next+"&level="+league.level).html("Next season")
+				)
+			);
+			removeKey("links.next");
+		}
+		if ( league.links.prev ) {
+			$("#menu-links").append(
+				$("<LI></LI>").append(
+					$("<A></A>").addClass("p-2").attr("league.html?season="+league.links.prev+"&level="+league.level).html("Previous season")
+				)
+			);
+			removeKey("links.prev");
+		}
+		if ( league.links.down ) {
+			$("#menu-links").append(
+				$("<LI></LI>").append(
+					$("<A></A>").addClass("p-2").attr("league.html?season="+league.season+"&level="+league.links.down).html("Down a level")
+				)
+			);
+			removeKey("links.down");
+		}
+		removeKey("links");
+	}
+
 	removeKey("level");
 	removeKey("champion");
 	removeKey("relegation");
