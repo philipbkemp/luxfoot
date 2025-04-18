@@ -115,9 +115,12 @@ h1 a {
 
 /* ALERTS ****************************************************************************************/
 .alert-info {
+    background-color: #2b587317;
     border-color: #2b5873;
     color: #2b5873;
-    background-color: #2b587317;
+}
+.alert-info strong {
+    color: #2b5873;
 }
 
 /* STANDINGS TABLE *******************************************************************************/
@@ -235,6 +238,30 @@ h1 a {
     color: white;
     text-underline-offset: 5px;
 }
+#matches-tab-pane .homeWin {
+	background-color: #E8FBFF;
+}
+#matches-tab-pane .awayWin {
+	background-color: #FFE8E8;
+}
+#matches-tab-pane .draw {
+	background-color: #FFFFE8;
+}
+#matches-tab-pane .noMatch {
+	background-color: #FAFAFA;
+}
+#matches-tab-pane .homeWin:is(span),
+#matches-tab-pane .awayWin:is(span),
+#matches-tab-pane .draw:is(span){
+	border: 1px solid #2b5873;
+	display: inline-block;
+	height: 20px;
+    margin-left: 15px;
+	margin-right: 5px;
+	position: relative;
+	top: 4px;
+	width: 20px;
+}
 
 /* MATCH ITEMS ***********************************************************************************/
 .match-item * {
@@ -302,18 +329,6 @@ h1 a {
 #resultsTable tbody td {
 	text-align: center;
 	width: 60px;
-}
-#resultsTable .homeWin {
-	background-color: #E8FBFF;
-}
-#resultsTable .awayWin {
-	background-color: #FFE8E8;
-}
-#resultsTable .draw {
-	background-color: #FFFFE8;
-}
-#resultsTable .noMatch {
-	background-color: #FAFAFA;
 }
 #resultsTable * {
 	border-color: #666666;

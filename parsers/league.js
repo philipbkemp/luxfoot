@@ -91,21 +91,26 @@ function parseLeague(league) {
 		$("#leagueTabs").append(buildTabButton("standings","Standings",true));
 		standingsPanel = buildTabPanel("standings",true);
 		standingsPanel.append( buildStandings(league.standings,league.pts_win?league.pts_win:3) );
-		$("#leagueTabContent").append(standingsPanel);
 		if ( league.pts_win && league.pts_win !== 3) {
-			$("#leagueTabContent").append(
+			standingsPanel.append(
 				$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
 					league.pts_win + " points for a win"
 				)
 			);
 			removeKey("pts_win");
 		}
+		$("#leagueTabContent").append(standingsPanel);
 		removeKey("standings");
 	}
 	if ( league.matches ) {
 		$("#leagueTabs").append(buildTabButton("matches","Results Table"));
 		matchesPanel = buildTabPanel("matches");
 		matchesPanel.append( buildResultsTable(league.teams,league.matches) );
+		matchesPanel.append(
+			$("<DIV></DIV>").addClass("alert").addClass("alert-info").html(
+				"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
+			)
+		);
 		$("#leagueTabContent").append(matchesPanel);
 		removeKey("teams");
 		removeKey("matches");
@@ -161,13 +166,22 @@ function buildResultsTable(teams,results) {
 		teamRow.append( $("<TH></TH>").attr("scope","row").html( allTeams[t] ) );
 		teams.forEach(tt=>{
 			if ( tt === t ) {
-				teamRow.append( $("<TD></TD>").html("") );
+				teamRow.append( $("<TD></TD>").html("").addClass("noMatch") );
 			} else {
 				theMatch = results.filter(m=>{return m.home===t && m.away===tt;});
 				if ( theMatch.length === 1 ) {
-					teamRow.append( $("<TD></TD>").html(theMatch[0].score) );
+					scoreParts = score.split("-");
+					result = "";
+					if ( scoreParts[0] > scoreParts[1] ) {
+						result = "homeWin"
+					} else if ( scoreParts[0] < scoreParts[1] ) {
+						result = "awayWin";
+					} else if ( scoreParts[0] === scoreParts[1] ) {
+						result = "draw";
+					}
+					teamRow.append( $("<TD></TD>").html(theMatch[0].score).addClass(result) );
 				} else {
-					teamRow.append( $("<TD></TD>").html("--") );
+					teamRow.append( $("<TD></TD>").html("--").addClass("noMatch") );
 					console.error(t,tt,theMatch);
 				}
 			}
