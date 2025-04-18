@@ -229,7 +229,7 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.relegated");
 			if ( s.target ) {
 				
-				targetKeys = Object.keys(s);
+				targetKeys = Object.keys(s.relegated);
 				for ( i=0 ; i!==targetKeys.length ; i++ ) {
 					targetKeys[i] = "standings.target." + targetKeys[i];
 				}
