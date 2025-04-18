@@ -84,9 +84,16 @@ function pullResults(tbl) {
 }
 function pullStandings(tbl) {
     season = window.location.href.split("/").pop().split(".")[0].replace("-19","-").replace("-20","-").replace("Saison","");
-    level = parseInt(prompt("League level"));
-    comp = prompt("Competition");
+    level = parseInt(prompt("League level",1));
+    comp = prompt("Competition","Honour Division");
     ppw = parseInt(prompt("Points per win",3));
+    champion = prompt("Champion code");
+    relegated = prompt("Relegated codes").split(",");
+    if ( relegated.length !== 0 ) {
+        nextSeason = prompt("Next season",season);
+        relegateToLevel = parseInt(prompt("Relegate to which level?",level+1));
+        relegateToName = prompt("Relegate to which division?");
+    }
     if ( ppw === 3 ) {
         ppw = "";
     } else {
@@ -104,10 +111,20 @@ function pullStandings(tbl) {
             if ( allTeams[teamName] ) {
                 teams.push( allTeams[teamName] );
             } else {
-                teams.push( prompt("Unknown team",teamName) );
+                allTeams[teamName] = prompt("Unknown team",teamName);
+                teams.push( allTeams[teamName] );
+            }
+
+            champ = "";
+            if ( allTeams[teamName] === champion ) {
+                champ = ', "champion": true, "title_count": ' + parseInt(prompt("Title count for "+allTeams[teamName]));
+            }
+            rele = "";
+            if ( relegated.indexOf(allTeams[teamName]) !== -1 ) {
+                rele = ', "relegated": true, "target": {"season": "'+nextSeason+'", "level": '+relegateToLevel+', "name": "'+relegateToName+'"}';
             }
             
-            output.push('{"place": '+readNumber(cols[0])+', "team": "'+allTeams[teamName] +'", "w": '+readNumber(cols[3])+', "d": '+readNumber(cols[5])+', "l": '+readNumber(cols[6])+', "f": '+readNumber(cols[10])+', "a": '+readNumber(cols[11])+ppw+', "season": "'+season+'", "level": '+level+', "league": "'+comp+'"},');
+            output.push('{"place": '+readNumber(cols[0])+', "team": "'+allTeams[teamName] +'", "w": '+readNumber(cols[4])+', "d": '+readNumber(cols[5])+', "l": '+readNumber(cols[6])+', "f": '+readNumber(cols[10])+', "a": '+readNumber(cols[12])+ppw+', "season": "'+season+'", "level": '+level+', "league": "'+comp+'"'+champ+rele+'},');
         }
     }
     
