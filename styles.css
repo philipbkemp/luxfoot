@@ -113,6 +113,13 @@ h1 a {
     border-bottom-color: white;
 }
 
+/* ALERTS ****************************************************************************************/
+.alert-info {
+    border-color: #2b5873;
+    color: #2b5873;
+    background-color: #2b587317;
+}
+
 /* STANDINGS TABLE *******************************************************************************/
 #standings-tab-pane table {
     border: none;

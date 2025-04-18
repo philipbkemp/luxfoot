@@ -92,7 +92,14 @@ function parseLeague(league) {
 		standingsPanel = buildTabPanel("standings",true);
 		standingsPanel.append( buildStandings(league.standings,league.pts_win?league.pts_win:3) );
 		$("#leagueTabContent").append(standingsPanel);
-		removeKey("pts_win");
+		if ( league.pts_win && league.pts_win !== 3) {
+			$("#leagueTabContent").append(
+				$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+					league.pts_win + " points for a win"
+				)
+			);
+			removeKey("pts_win");
+		}
 		removeKey("standings");
 	}
 	if ( league.matches ) {
@@ -169,6 +176,7 @@ function buildResultsTable(teams,results) {
 	});
 
 	addKeys(["+results_legend"]);
+	addKeys(["+links-season/next/prev"]);
 
 	tbl.append(tblBody);	
 	return tbl;
@@ -278,8 +286,6 @@ function buildStandings(standings,ptsWin=3) {
 
 		tbody.append(thisRow);
 	});
-
-	addKeys(["+points_per_win_notice"]);
 
 	tbl.append(thead).append(tbody);
 
