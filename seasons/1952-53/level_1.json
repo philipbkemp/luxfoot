@@ -19,8 +19,8 @@
 		{"place": 7, "team": "RSML", "w": 10, "d": 1, "l": 11, "f": 41, "a": 51, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division"},
 		{"place": 8, "team": "NSCH", "w": 8, "d": 4, "l": 10, "f": 46, "a": 39, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division"},
 		{"place": 9, "team": "SPOR", "w": 9, "d": 0, "l": 13, "f": 44, "a": 42, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division"},
-		{"place": 10, "team": "STET", "w": 7, "d": 3, "l": 12, "f": 33, "a": 41, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division"},
-		{"place": 11, "team": "ADUD", "w": 7, "d": 3, "l": 12, "f": 39, "a": 47, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division", "relegated": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}},
+		{"place": 10, "team": "STET", "w": 7, "d": 3, "l": 12, "f": 33, "a": 41, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division", "playoff": "relegation"},
+		{"place": 11, "team": "ADUD", "w": 7, "d": 3, "l": 12, "f": 39, "a": 47, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division", "playoff": "relegation", "relegated": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}},
 		{"place": 12, "team": "RROD", "w": 5, "d": 6, "l": 11, "f": 32, "a": 54, "pts_win": 2, "season": "1952-53", "level": 1, "league": "Honour Division", "relegated": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}}
 	],
 	"champion": "PRON",
@@ -28,6 +28,11 @@
 		"teams": ["ADUD","RROD"],
 		"target": {"season": "1953-54", "level": 2, "name": "1. Division"}
 	},
+    "playoffs": {
+        "relegation": [
+            {"home":"STET", "away":"ADUD", "score":"3-2", "season":"1952-53", "competition": {"type":"league", "level":1, "name":"Honour Division", "playoff": "relegation"}, "outcome": "ADUD relegated to TARGET", "target": {"season": "1953-54", "level": 2, "name": "1. Division"}}
+        ]
+    },
 	"matches": [
         {"home":"RBDF","away":"ULUX","score":"3-2","season":"1952-53","competition":{"type":"league","level": 1,"name": "Honour Division"}},
 		{"home":"RBDF","away":"RSML","score":"3-1","season":"1952-53","competition":{"type":"league","level": 1,"name": "Honour Division"}},
