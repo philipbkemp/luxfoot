@@ -1138,7 +1138,7 @@
 	},{
 		"season": "1971-72",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1971-72", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 3},
+			"level_1": {"season": "1971-72", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 3},
 			"level_2": {"missing":true,"season": "1971-72", "level":  2, "name": "Division of Honour", "winner": "SCBT"},
 			"level_3": {"missing":true,"season": "1971-72", "level":  3, "name": "1. Division", "winner": "MDLB"},
 			"level_4": {"missing":true,"season": "1971-72", "level":  4, "name": "2. Division", "series": [
