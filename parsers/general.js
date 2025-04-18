@@ -77,7 +77,14 @@ function drawMatch(match,highlightWinner=false) {
 
 	if ( match.outcome ) {
 		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
-		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(match.outcome);
+
+		theOutcome = match.outcome
+			.replace(match.home,allTeams[match.home])
+			.replace(match.home,allTeams[match.home])
+			.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.name+"</a>")
+			;
+
+		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
 
 		matchNoteRow.append(matchNote);
 		matchObj.append(matchNoteRow);

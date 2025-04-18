@@ -270,6 +270,10 @@ a:hover {
 .match-item * {
 	color: black;
 }
+.match-item .match-note {
+    font-style: italic;
+    font-size: 0.8rem;
+}
 
 /*.badge.badge-titleCount {
 	color: #666;
