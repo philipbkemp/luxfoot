@@ -75,7 +75,7 @@ function drawMatch(match,highlightWinner=false) {
 
 	matchObj.append(matchRow);
 
-	if ( match.promotion ) {
+	if ( match.outcome ) {
 		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(match.outcome);
 
