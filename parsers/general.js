@@ -80,7 +80,7 @@ function drawMatch(match,highlightWinner=false) {
 
 		theOutcome = match.outcome
 			.replace(match.home,allTeams[match.home])
-			.replace(match.home,allTeams[match.home])
+			.replace(match.away,allTeams[match.away])
 			.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.name+"</a>")
 			;
 
