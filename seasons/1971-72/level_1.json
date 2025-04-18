@@ -22,7 +22,6 @@
 		{"place": 10, "team": "ULUX", "w":  8, "d":  2, "l": 12, "f": 29, "a": 35, "pts_win":  2, "season": "1971-72", "level": 1, "league": "National Division"},
 		{"place": 11, "team": "PRON", "w":  4, "d":  7, "l": 11, "f": 29, "a": 50, "pts_win":  2, "season": "1971-72", "level": 1, "league": "National Division", "relegated": true, "target": {"season": "1972-73", "level": 2, "name": "Division of Honour"}},
 		{"place": 12, "team": "ADUD", "w":  5, "d":  5, "l": 12, "f": 25, "a": 59, "pts_win":  2, "season": "1971-72", "level": 1, "league": "National Division", "relegated": true, "target": {"season": "1972-73", "level": 2, "name": "Division of Honour"}}
-
 	],
 	"champion": "ARIS",
 	"relegation": {
