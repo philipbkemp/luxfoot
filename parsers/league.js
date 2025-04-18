@@ -107,7 +107,7 @@ function parseLeague(league) {
 		matchesPanel = buildTabPanel("matches");
 		matchesPanel.append( buildResultsTable(league.teams,league.matches) );
 		matchesPanel.append(
-			$("<DIV></DIV>").addClass("alert").addClass("alert-info").html(
+			$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(
 				"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
 			)
 		);
