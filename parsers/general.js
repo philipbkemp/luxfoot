@@ -81,7 +81,7 @@ function drawMatch(match,highlightWinner=false) {
 		theOutcome = match.outcome
 			.replace(match.home,allTeams[match.home])
 			.replace(match.away,allTeams[match.away])
-			.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.name+"</a>")
+			.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.season+" "+match.target.name+"</a>")
 			;
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
@@ -89,6 +89,7 @@ function drawMatch(match,highlightWinner=false) {
 		matchNoteRow.append(matchNote);
 		matchObj.append(matchNoteRow);
 		removeKey("match.outcome");
+		removeKey("match.target");
 	}
 
 	removeKey("match.home");
