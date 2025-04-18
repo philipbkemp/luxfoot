@@ -26,7 +26,7 @@
 	},
     "playoffs": {
         "relegation": [
-            {"home":"NSCH", "away":"SDUD", "score":"2-1", "season":"1930-31", "competition": {"type":"league", "level":1, "name":"1. Division", "playoff": "relegation"}, "outcome": "SDUD relegated to The Promotion"}
+            {"home":"NSCH", "away":"SDUD", "score":"2-1", "season":"1930-31", "competition": {"type":"league", "level":1, "name":"1. Division", "playoff": "relegation"}, "outcome": "SDUD relegated to TARGET", "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}}
         ]
     },
 	"matches": [

@@ -77,13 +77,11 @@ function drawMatch(match,highlightWinner=false) {
 
 	if ( match.promotion ) {
 		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
-		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(winner + " promoted to ");
-
-		matchNoteLink = $("<A></A>").attr("href","league.html?season="+match.promotion.season+"&level="+match.promotion.level).html(match.promotion.name);
-		matchNote.append(matchNoteLink);
+		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(match.outcome);
 
 		matchNoteRow.append(matchNote);
 		matchObj.append(matchNoteRow);
+		removeKey("match.outcome");
 	}
 
 	removeKey("match.home");
