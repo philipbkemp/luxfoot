@@ -170,7 +170,7 @@ function buildResultsTable(teams,results) {
 			} else {
 				theMatch = results.filter(m=>{return m.home===t && m.away===tt;});
 				if ( theMatch.length === 1 ) {
-					scoreParts = score.split("-");
+					scoreParts = theMatch[0].score.split("-");
 					result = "";
 					if ( scoreParts[0] > scoreParts[1] ) {
 						result = "homeWin"
@@ -189,7 +189,6 @@ function buildResultsTable(teams,results) {
 		tblBody.append(teamRow);
 	});
 
-	addKeys(["+results_legend"]);
 	addKeys(["+links-season/next/prev"]);
 
 	tbl.append(tblBody);	
