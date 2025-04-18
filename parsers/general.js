@@ -86,6 +86,12 @@ function drawMatch(match,highlightWinner=false) {
 		matchObj.append(matchNoteRow);
 	}
 
+	removeKey("match.home");
+	removeKey("match.away");
+	removeKey("match.score");
+	removeKey("match.season");
+	removeKey("match.competition");
+
 	return matchObj;
 }
 

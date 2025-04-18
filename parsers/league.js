@@ -140,7 +140,7 @@ function parseLeague(league) {
 	
 	$("#menu-links").append(
 		$("<LI></LI>").append(
-			$("<A></A>").addClass("p-2").attr("href","league.html?season="+league.season).html("Season overview")
+			$("<A></A>").addClass("p-2").attr("href","season.html?season="+league.season).html("Season overview")
 		)
 	);
 	if ( league.links ) {
