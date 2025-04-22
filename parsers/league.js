@@ -123,8 +123,8 @@ function parseLeague(league) {
 				} else if ( note.note ) {
 					theNoteText += note.note;
 				}
-				theNoteText.replaceAll(note.home,allTeams[note.home]);
-				theNoteText.replaceAll(note.away,allTeams[note.away]);
+				theNoteText = theNoteText.replaceAll(note.home,allTeams[note.home]);
+				theNoteText = theNoteText.replaceAll(note.away,allTeams[note.away]);
 				thisNote.html(theNoteText);
 				noteWrapper.append(thisNote);
 			});

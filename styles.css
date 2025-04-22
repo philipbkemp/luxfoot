@@ -265,7 +265,13 @@ a:hover {
 	top: 4px;
 	width: 20px;
 }
-#matches-tab-pane table td abbr { color: black; text-underline-offset: 4px;}
+#matches-tab-pane table td abbr {
+    color: black;
+    text-underline-offset: 4px;
+}
+#matches-tab-pane ul.match-notes {
+    font-size: 0.8rem;
+}
 
 /* MATCH ITEMS ***********************************************************************************/
 .match-item * {
