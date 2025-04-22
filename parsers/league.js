@@ -159,6 +159,18 @@ function parseLeague(league) {
 			removeKey("playoffs.relegation");
 		}
 
+		if ( league.playoffs.downup ) {
+			$("#leagueTabs").append(buildTabButton("po_downup","Promotion/Relegation play-off"));
+			poDownUp = buildTabPanel("po_downup");
+			poDownUpMatches = $("<DIV></DIV>").addClass("list-group");
+			league.playoffs.relegation.forEach(m=>{
+				poDownUpMatches.append( drawMatch(m,true));
+			});
+			poDownUp.append(poDownUpMatches);
+			$("#leagueTabContent").append(poDownUp);
+			removeKey("playoffs.downup");
+		}
+
 		removeKey("playoffs");
 	}
 
@@ -363,8 +375,13 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.title_count");
 		}
 		if ( s.playoff ) {
-			if ( ["relegation"].indexOf(s.playoff) !== -1 ) {
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html("Relegation play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+			if ( ["relegation","downup"].indexOf(s.playoff) !== -1 ) {
+				theText = "";
+				switch ( s.playoff ) {
+					case "relegation": theText = "Relegation"; break;
+					case "downup":     theText = "Promotion/Relegation"; break;
+				}
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText+" play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 				thisRow.addClass("is-playoff_"+s.playoff);
 				removeKey("standings.playoff");
 			}
