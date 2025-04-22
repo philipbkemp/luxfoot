@@ -34,7 +34,7 @@ allTeams = {
     "Schifflange 95":"SCHF", "UN Käerjéng 97":"KAER","Rupensia Lusitanos Larochette":"RPLL","FC Differdange 03":"DIFF","Blo-Weiss Medernach":"BWMD",
     "Union 05 Kayl/Tétange": "U5KT","FF Norden 02":"NORD","Alliance Aischdall H/E":"AAHE","Union Remich/Bous":"UNRB","Racing Union":"RACE","RM Hamm Benfica":"BENF",
     "Red Boys Differdingen": "RBDF","Union Luxemburg":"ULUX", "Spora Luxemburg":"SPOR","Stade Düdelingen":"SDUD","The National Schifflingen":"NSCH",
-    "Alliance Düdelingen":"ADUD"
+    "Alliance Düdelingen":"ADUD", "F 91 Düdelingen": "F91D", "FC Monnerich": "MDCG", "Aris Bonneweg": "ARIS", "CS Petingen": "CPET"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
@@ -84,8 +84,8 @@ function pullResults(tbl) {
 }
 function pullStandings(tbl) {
     season = window.location.href.split("/").pop().split(".")[0].replace("-19","-").replace("-20","-").replace("Saison","");
-    level = parseInt(prompt("League level",1));
-    comp = prompt("Competition","Honour Division");
+    level = parseInt(prompt("League level"));
+    comp = prompt("Competition");
     ppw = parseInt(prompt("Points per win",3));
     champion = prompt("Champion code");
     relegated = prompt("Relegated codes").split(",");
