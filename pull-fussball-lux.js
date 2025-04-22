@@ -35,7 +35,7 @@ allTeams = {
     "Union 05 Kayl/Tétange": "U5KT","FF Norden 02":"NORD","Alliance Aischdall H/E":"AAHE","Union Remich/Bous":"UNRB","Racing Union":"RACE","RM Hamm Benfica":"BENF",
     "Red Boys Differdingen": "RBDF","Union Luxemburg":"ULUX", "Spora Luxemburg":"SPOR","Stade Düdelingen":"SDUD","The National Schifflingen":"NSCH",
     "Alliance Düdelingen":"ADUD", "F 91 Düdelingen": "F91D", "FC Monnerich": "MDCG", "Aris Bonneweg": "ARIS", "CS Petingen": "CPET", "US Rümelingen": "URUM",
-    "US Düdelingen": "USDD"
+    "US Düdelingen": "USDD", "Etzella Ettelbrück": "ETZE"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
