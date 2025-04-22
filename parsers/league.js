@@ -1,3 +1,5 @@
+resultNotes = [];
+
 $(document).ready(function(){
 
 	if ( checkParams(["season","level"]) ) {
@@ -111,6 +113,23 @@ function parseLeague(league) {
 				"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
 			)
 		);
+		if ( resultNotes.length !== 0 ) {
+			noteWrapper = $("<UL></UL>").addClass("list-group");
+			resultNotes.forEach(note=>{
+				thisNote = $("<LI></LI>").addClass("list-group-item");
+				theNoteText = note.home + " v " + note.away + ": "
+				if ( note.forfeit ) {
+					theNoteText += "Awarded to WINR by forfeit";
+				} else if ( note.note ) {
+					theNoteText += note.note;
+				}
+				theNoteText.replaceAll(note.home,allTeams[note.home]);
+				theNoteText.replaceAll(note.away,allTeams[note.away]);
+				thisNote.html(theNoteText);
+				noteWrapper.append(thisNote);
+			});
+			matchesPanel.append(noteWrapper);
+		}
 		$("#leagueTabContent").append(matchesPanel);
 		removeKey("teams");
 		removeKey("matches");
@@ -229,10 +248,12 @@ function buildResultsTable(teams,results) {
 					if ( theMatch[0].forfeit ) {
 						abbr = $("<ABBR></ABBR>").attr("title","Match awarded by forfeit").html(theMatch[0].score);
 						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
+						resultNotes.push(theMatch[0]);
 						removeKey("match.forfeit");
 					} else if ( theMatch[0].note ) {
 						abbr = $("<ABBR></ABBR>").attr("title",theMatch[0].note).html(theMatch[0].score);
 						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
+						resultNotes.push(theMatch[0]);
 						removeKey("match.note");
 					} else {
 						teamRow.append( $("<TD></TD>").html(theMatch[0].score).addClass(result) );
@@ -252,7 +273,7 @@ function buildResultsTable(teams,results) {
 		tblBody.append(teamRow);
 	});
 
-	tbl.append(tblBody);	
+	tbl.append(tblBody);
 	return tbl;
 }
 
