@@ -66,6 +66,7 @@ function buildTabPanel(code,active=false) {
 		.addClass("tab-pane")
 		.addClass("fade")
 		.addClass("pt-4")
+		.addClass("tab-pane__"+code);
 		.attr("id",code+"-tab-pane")
 		.attr("role","tabpanel")
 		.attr("aria-labelledby",code+"-tab")
@@ -150,7 +151,9 @@ function parseLeague(league) {
 			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1));
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			if ( ! series.missing ) {
-				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
+				stand = buildStandings(series.standings,league.pts_win?league.pts_win:3);
+				stand.addClass("tab-pane__standings");
+				seriesPanel.append(stand);
 			} else {
 				seriesPanel.append(
 					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
