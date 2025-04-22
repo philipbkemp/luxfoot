@@ -114,7 +114,7 @@ function parseLeague(league) {
 			)
 		);
 		if ( resultNotes.length !== 0 ) {
-			noteWrapper = $("<UL></UL>").addClass("list-group");
+			noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
 			resultNotes.forEach(note=>{
 				thisNote = $("<LI></LI>").addClass("list-group-item");
 				theNoteText = note.home + " v " + note.away + ": "
