@@ -939,7 +939,7 @@
 	},{
 		"season": "1964-65",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1964-65", "level":  1, "name": "National Division", "winner": "SDUD", "title_count": 9},
+			"level_1": {"season": "1964-65", "level":  1, "name": "National Division", "winner": "SDUD", "title_count": 9},
 			"level_2": {"missing":true,"season": "1964-65", "level":  2, "name": "Division of Honour", "winner": "CPET"},
 			"level_3": {"missing":true,"season": "1964-65", "level":  3, "name": "1. Division", "winner": "CROD"},
 			"level_4": {"missing":true,"season": "1964-65", "level":  4, "name": "2. Division", "series": [

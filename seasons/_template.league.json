@@ -15,7 +15,7 @@
 	"champion": "",
 	"relegation": {
 		"teams": [],
-		"target": {}
+		"target": {"season": "", "level": 0, "name": ""}
 	},
     "playoffs": {
         "relegation": [
