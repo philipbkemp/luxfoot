@@ -163,7 +163,7 @@ function parseLeague(league) {
 			$("#leagueTabs").append(buildTabButton("po_downup","Promotion/Relegation play-off"));
 			poDownUp = buildTabPanel("po_downup");
 			poDownUpMatches = $("<DIV></DIV>").addClass("list-group");
-			league.playoffs.relegation.forEach(m=>{
+			league.playoffs.downup.forEach(m=>{
 				poDownUpMatches.append( drawMatch(m,true));
 			});
 			poDownUp.append(poDownUpMatches);
