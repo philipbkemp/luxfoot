@@ -109,7 +109,7 @@ function pullStandings(tbl) {
     for ( r=1 ; r!==rows.length ; r++ ) {
         cols = rows[r].querySelectorAll("td");
         if ( cols.length !== 1 ) {
-            teamName = cols[1].textContent.trim().replace(" (P)","").replace(" (N)","").replace(" (M)","");
+            teamName = cols[1].textContent.trim().replace(" (P)","").replace(" (N)","").replace(" (M)","").replace(" (A)","");
             
             if ( allTeams[teamName] ) {
                 teams.push( allTeams[teamName] );

@@ -151,7 +151,12 @@ function parseLeague(league) {
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			if ( ! series.missing ) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
+			} else {
+				seriesPanel.append(
+					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
+				);
 			}
+			removeKey("pts_win");
 			$("#leagueTabContent").append(seriesPanel);
 			removeKey("series.series");
 			removeKey("series.name");
