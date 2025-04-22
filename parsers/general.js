@@ -56,7 +56,7 @@ function drawMatch(match,highlightWinner=false) {
 		winner = allTeams[match.home];
 	}
 	if ( match.homeDivision ) {
-		matchHome.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.homeDivision.name) );
+		matchHome.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fw-normal").addClass("text-black-50").addClass("p-0").addClass("m-0").html(match.homeDivision.name) );
 	}
 	matchRow.append(matchHome);
 
@@ -69,7 +69,7 @@ function drawMatch(match,highlightWinner=false) {
 		winner = allTeams[match.away];
 	}
 	if ( match.awayDivision ) {
-		matchAway.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("p-0").addClass("m-0").html(match.awayDivision.name) );
+		matchAway.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fw-normal").addClass("text-black-50").addClass("p-0").addClass("m-0").html(match.awayDivision.name) );
 	}
 	matchRow.append(matchAway);
 
