@@ -150,10 +150,9 @@ function parseLeague(league) {
 			addKeys(seriesKeys);
 			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1));
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
+			seriesPanel.addClass("tab-pane__standings");
 			if ( ! series.missing ) {
-				stand = buildStandings(series.standings,league.pts_win?league.pts_win:3);
-				stand.addClass("tab-pane__standings");
-				seriesPanel.append(stand);
+				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
 			} else {
 				seriesPanel.append(
 					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
