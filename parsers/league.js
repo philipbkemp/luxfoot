@@ -153,6 +153,7 @@ function parseLeague(league) {
 			seriesPanel.addClass("tab-pane__standings");
 			if ( ! series.missing ) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
+				removeKey("series.standings");
 			} else {
 				seriesPanel.append(
 					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
@@ -163,6 +164,7 @@ function parseLeague(league) {
 			removeKey("series.series");
 			removeKey("series.name");
 			removeKey("series.missing");
+			removeKey("series.teams");
 		});
 		removeKey("series");
 	}
@@ -352,6 +354,23 @@ function buildStandings(standings,ptsWin=3) {
 
 		thisRow = $("<TR></TR>");
 		thisRowNotes = $("<TD></TD>");
+
+		teamName = allTeams[s.team];
+		if ( ! teamName ) {
+			teamNameParts = s.team.split(":");
+			if ( teamNameParts.length === 2 ) {
+				teamName = allTeams[teamNameParts[0]] + " ";
+				switch ( teamNameParts[1] ) {
+					case "2":
+						teamName += "II";
+						break;
+					default:
+						teamName += teamNameParts[1];
+				}
+			} else {
+				teamName = "<span class='text-bg-danger'>"+s.team+"</span>";
+			}
+		}
 
 		thisRow
 			.append( $("<TD></TD>").html(s.place) )
