@@ -66,7 +66,7 @@ function buildTabPanel(code,active=false) {
 		.addClass("tab-pane")
 		.addClass("fade")
 		.addClass("pt-4")
-		.addClass("tab-pane__"+code);
+		.addClass("tab-pane__"+code)
 		.attr("id",code+"-tab-pane")
 		.attr("role","tabpanel")
 		.attr("aria-labelledby",code+"-tab")

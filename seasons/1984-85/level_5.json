@@ -26,8 +26,8 @@
         "name": "Series 4",
         "teams": ["CLMC","CPET:2","CROD:2","EHLR","FOLA:2","RBAS","RBDF:2","SBRT","UBSH","UESH","URUM:2","USDD:2"],
         "standings": [
-            {"place": 1, "team": "UBSH", "w": 16, "d": 2, "l": 4, "f": 58, "a": 22, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
-            {"place": 2, "team": "EHLR", "w": 13, "d": 5, "l": 4, "f": 53, "a": 29, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 1, "team": "UBSH", "w": 16, "d": 2, "l": 4, "f": 58, "a": 22, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1984-85", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "EHLR", "w": 13, "d": 5, "l": 4, "f": 53, "a": 29, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1984-85", "level": 4, "name": "2. Division"}},
             {"place": 3, "team": "SBRT", "w": 11, "d": 7, "l": 4, "f": 69, "a": 42, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
             {"place": 4, "team": "USDD:2", "w": 12, "d": 3, "l": 7, "f": 56, "a": 46, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
             {"place": 5, "team": "UESH", "w": 11, "d": 2, "l": 9, "f": 52, "a": 28, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
@@ -39,6 +39,10 @@
             {"place": 11, "team": "URUM:2", "w": 4, "d": 1, "l": 17, "f": 34, "a": 106, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
             {"place": 12, "team": "CROD:2", "w": 3, "d": 2, "l": 17, "f": 23, "a": 71, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true}
         ],
+        "promoted": {
+            "teams": ["EHLR","UBSH"],
+            "target": {"season": "1984-85", "level": 4, "name": "2. Division"}
+        },
         "note": "All 2nd teams were removed from the league for the following season"
     }]
 }
