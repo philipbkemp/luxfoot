@@ -209,6 +209,13 @@ function buildResultsTable(teams,results) {
 			} else {
 				theMatch = results.filter(m=>{return m.home===t && m.away===tt;});
 				if ( theMatch.length === 1 ) {
+					
+					matchKeys = Object.keys(theMatch[0]);
+					for ( i=0 ; i!==matchKeys.length ; i++ ) {
+						matchKeys[i] = "match." + matchKeys[i];
+					}
+					addKeys(matchKeys);
+
 					scoreParts = theMatch[0].score.split("-");
 					result = "";
 					if ( scoreParts[0] > scoreParts[1] ) {
@@ -219,6 +226,12 @@ function buildResultsTable(teams,results) {
 						result = "draw";
 					}
 					teamRow.append( $("<TD></TD>").html(theMatch[0].score).addClass(result) );
+
+					removeKey("match.score");
+					removeKey("match.home");
+					removeKey("match.away");
+					removeKey("match.season");
+					removeKey("match.competition");
 				} else {
 					teamRow.append( $("<TD></TD>").html("--").addClass("noMatch") );
 					console.error(t,tt,theMatch);
