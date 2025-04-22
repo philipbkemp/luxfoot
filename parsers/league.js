@@ -225,7 +225,18 @@ function buildResultsTable(teams,results) {
 					} else if ( scoreParts[0] === scoreParts[1] ) {
 						result = "draw";
 					}
-					teamRow.append( $("<TD></TD>").html(theMatch[0].score).addClass(result) );
+
+					if ( theMatch[0].forfeit ) {
+						abbr = $("<ABBR></ABBR>").attr("title","Match awarded by forfeit").html(theMatch[0].score);
+						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
+						removeKey("match.forfeit");
+					} else if ( theMatch[0].note ) {
+						abbr = $("<ABBR></ABBR>").attr("title",theMatch[0].note).html(theMatch[0].score);
+						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
+						removeKey("match.note");
+					} else {
+						teamRow.append( $("<TD></TD>").html(theMatch[0].score).addClass(result) );
+					}
 
 					removeKey("match.score");
 					removeKey("match.home");
