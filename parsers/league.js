@@ -119,12 +119,18 @@ function parseLeague(league) {
 				thisNote = $("<LI></LI>").addClass("list-group-item");
 				theNoteText = note.home + " v " + note.away + ": "
 				if ( note.forfeit ) {
-					theNoteText += "Awarded to WINR by forfeit";
+					theNoteText += "Awarded to WINNER by forfeit";
 				} else if ( note.note ) {
 					theNoteText += note.note;
 				}
 				theNoteText = theNoteText.replaceAll(note.home,allTeams[note.home]);
 				theNoteText = theNoteText.replaceAll(note.away,allTeams[note.away]);
+				scoreParts = note.score.split("-");
+				if ( scoreParts[0] > scoreParts[1] ) {
+					theNoteText = theNoteText.replaceAll("WINNER",allTeams[note.home]);
+				} else if ( scoreParts[0] < scoreParts[1] ) {
+					theNoteText = theNoteText.replaceAll("WINNER",allTeams[note.away]);
+				}
 				thisNote.html(theNoteText);
 				noteWrapper.append(thisNote);
 			});
