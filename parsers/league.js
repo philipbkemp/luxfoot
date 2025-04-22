@@ -163,6 +163,14 @@ function parseLeague(league) {
 					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
 				);
 			}
+			if ( series.note ) {
+				seriesPanel.append(
+					$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+						series.note
+					)
+				);
+				removeKey("series.note");
+			}
 			removeKey("pts_win");
 			$("#leagueTabContent").append(seriesPanel);
 			removeKey("series.series");
@@ -397,6 +405,7 @@ function buildStandings(standings,ptsWin=3) {
 		if ( s.promoted ) {
 			thisRow.addClass("is-promoted");
 			removeKey("standings.promoted");
+			removeKey("series.promoted");
 			if ( s.target ) {
 				
 				targetKeys = Object.keys(s.promoted);
