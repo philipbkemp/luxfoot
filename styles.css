@@ -192,6 +192,9 @@ a:hover {
 .is-relegated > * {
     background-color: #DCB6B6 !important;
 }
+.is-promoted > * {
+    background-color: #DCF1DA !important;
+}
 .is-champion td:nth-of-type(1),
 .is-relegated td:nth-of-type(1) {
     color: transparent;  
@@ -205,6 +208,9 @@ a:hover {
 }
 .is-relegated td:nth-of-type(1) {
 	background-image: url("assets/relegated.png");
+}
+.is-promoted td:nth-of-type(1) {
+	background-image: url("assets/promoted.png");
 }
 
 /* RESULTS TABLE *********************************************************************************/

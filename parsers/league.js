@@ -390,6 +390,31 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.champion");
 		}
 	
+		if ( s.promoted ) {
+			thisRow.addClass("is-promoted");
+			removeKey("standings.promoted");
+			if ( s.target ) {
+				
+				targetKeys = Object.keys(s.promoted);
+				for ( i=0 ; i!==targetKeys.length ; i++ ) {
+					targetKeys[i] = "standings.target." + targetKeys[i];
+				}
+				addKeys(targetKeys);
+				removeKey("standings.target");
+
+				if ( ! s.playoff ) {
+					thisRowNotes.append(
+						$("<A></A>")
+							.html(["Promoted to",s.target.season,s.target.name].join(" "))
+							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
+					);
+				}
+				removeKey("standings.target.season");
+				removeKey("standings.target.level");
+				removeKey("standings.target.name");
+			}
+		}
+	
 		if ( s.relegated ) {
 			thisRow.addClass("is-relegated");
 			removeKey("standings.relegated");
