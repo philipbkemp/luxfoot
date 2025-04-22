@@ -32,7 +32,7 @@ function doneParsingTeams() {
 	})
 }
 
-function buildTabButton(code,label,active=false) {
+function buildTabButton(code,label,active=false,missing=false) {
 	tabBtn = $("<LI></LI>")
 		.addClass("nav-item")
 		.attr("role","presentation")
@@ -48,6 +48,10 @@ function buildTabButton(code,label,active=false) {
 		.attr("aria-controls",code+"-tab-pane")
 		.html(label)
 		;
+
+	if ( missing ) {
+		tabBtnBtn.addClass("opacity-25");
+	}
 
 	if ( active ) {
 		tabBtnBtn
@@ -148,7 +152,7 @@ function parseLeague(league) {
 				seriesKeys[i] = "series." + seriesKeys[i];
 			}
 			addKeys(seriesKeys);
-			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1));
+			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,series.missing));
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			seriesPanel.addClass("tab-pane__standings");
 			if ( ! series.missing ) {

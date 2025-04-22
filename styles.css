@@ -196,7 +196,8 @@ a:hover {
     background-color: #DCF1DA !important;
 }
 .is-champion td:nth-of-type(1),
-.is-relegated td:nth-of-type(1) {
+.is-relegated td:nth-of-type(1),
+.is-promoted td:nth-of-type(1) {
     color: transparent;  
     background-size: 20px;
     background-repeat: no-repeat;
