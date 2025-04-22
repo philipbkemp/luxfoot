@@ -32,7 +32,7 @@ function doneParsingTeams() {
 	})
 }
 
-function buildTabButton(code,label,active=false) {
+function buildTabButton(code,label,active=false,disabled=true) {
 	tabBtn = $("<LI></LI>")
 		.addClass("nav-item")
 		.attr("role","presentation")
@@ -139,6 +139,20 @@ function parseLeague(league) {
 		$("#leagueTabContent").append(matchesPanel);
 		removeKey("teams");
 		removeKey("matches");
+	}
+	if ( league.series ) {
+		league.series.forEach(series=>{
+			seriesKeys = Object.keys(series);
+			for ( i=0 ; i!==seriesKeys.length ; i++ ) {
+				seriesKeys[i] = "series." + seriesKeys[i];
+			}
+			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,!series.missing?true:false));
+			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
+			$("#leagueTabContent").append(seriesPanel);
+			removeKey("series.series");
+			removeKey("series.name");
+			removeKey("series.missing");
+		});
 	}
 	if ( league.playoffs ) {
 		subKeys = Object.keys(league.playoffs);
