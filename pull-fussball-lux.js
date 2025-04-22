@@ -36,7 +36,7 @@ allTeams = {
     "Red Boys Differdingen": "RBDF","Union Luxemburg":"ULUX", "Spora Luxemburg":"SPOR","Stade Düdelingen":"SDUD","The National Schifflingen":"NSCH",
     "Alliance Düdelingen":"ADUD", "F 91 Düdelingen": "F91D", "FC Monnerich": "MDCG", "Aris Bonneweg": "ARIS", "CS Petingen": "CPET", "US Rümelingen": "URUM",
     "US Düdelingen": "USDD", "Etzella Ettelbrück": "ETZE", "US Hollerich/Bonneweg": "HLBN", "Sporting Club Luxemburg": "SCLX", "Racing Club Luxemburg": "RACL",
-    "FC Differdingen 03": "DIFF", "FC RM Hamm Benfica": "BENF", "RFCU Luxemburg": "RACE", "Swift Hesperingen", "SWFT"
+    "FC Differdingen 03": "DIFF", "FC RM Hamm Benfica": "BENF", "RFCU Luxemburg": "RACE", "Swift Hesperingen": "SWFT"
 
 }
 document.querySelectorAll("table table").forEach(t=>{
