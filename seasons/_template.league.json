@@ -1,0 +1,26 @@
+{
+    "level": 0,
+	"season": "",
+    "links": {
+        "next": "",
+        "prev": "",
+        "up": 0,
+        "down": 0
+    },
+	"name": "",
+	"teams": [],
+	"pts_win": 2,
+	"standings": [
+    ],
+	"champion": "",
+	"relegation": {
+		"teams": [],
+		"target": {}
+	},
+    "playoffs": {
+        "relegation": [
+        ]
+    },
+	"matches": [
+    ]
+}
