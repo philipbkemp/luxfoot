@@ -1,0 +1,50 @@
+{
+    "level": 5,
+	"season": "1976-77",
+    "links": {
+        "next": "1977-78",
+        "prev": "1975-76",
+        "up": 4,
+        "down": 6
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["ASCH","ASLX","EHLR","FOLA:II","ISKA","JESH:II","MDCG","PROG","RBDF:II","UBSH","URUM:II"],
+        "standings": [
+            {"place": 1, "team": "JESH:II", "w": 17, "d": 1, "l": 2, "f": 74, "a": 19, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "RBDF:II", "w": 14, "d": 3, "l": 3, "f": 68, "a": 35, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "ASLX", "w": 13, "d": 4, "l": 3, "f": 63, "a": 29, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 4, "team": "UBSH", "w": 12, "d": 1, "l": 7, "f": 50, "a": 37, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 5, "team": "EHLR", "w": 9, "d": 3, "l": 8, "f": 36, "a": 32, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 6, "team": "FOLA:II", "w": 8, "d": 4, "l": 8, "f": 53, "a": 41, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 7, "team": "ISKA", "w": 8, "d": 3, "l": 9, "f": 61, "a": 42, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 8, "team": "URUM:II", "w": 3, "d": 5, "l": 12, "f": 31, "a": 58, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 9, "team": "ASCH", "w": 4, "d": 3, "l": 13, "f": 37, "a": 68, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4"},
+            {"place": 10, "team": "MDCG", "w": 3, "d": 4, "l": 13, "f": 26, "a": 76, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4", "relegated": true, "target": {"season": "1977-78", "level": 6, "name": "4. Division"}},
+            {"place": 11, "team": "PROG", "w": 2, "d": 3, "l": 15, "f": 32, "a": 94, "pts_win": 2, "season": "1976-77", "level": 5, "series":4, "league": "3. Division Series 4", "relegated": true, "target": {"season": "1977-78", "level": 6, "name": "4. Division"}}
+        ],
+        "promoted": {
+            "teams": ["JESH:II","RBDF:II"],
+            "target": {"season": "1977-78", "level": 4, "name": "2. Division"}
+        },
+        "relegated": {
+            "teams": ["MDCG","PRON"],
+            "target": {"season": "1977-78", "level": 6, "name": "4. Division"}
+        }
+    }]
+}
