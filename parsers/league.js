@@ -105,6 +105,7 @@ function parseLeague(league) {
 				removeKey("series.standings");
 				if ( series.matches ) {
 					seriesPanel.append( buildResultsTable(series.teams,series.matches) );
+					removeKey("series.matches");
 				}
 			} else {
 				seriesPanel.append(
@@ -223,7 +224,7 @@ function parseLeague(league) {
 }
 
 function buildResultsTable(teams,results) {
-	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover");
+	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--results");
 	tblBody = $("<TBODY></TBODY>");
 
 	topRow = $("<TR></TR>").addClass("top-row");
@@ -292,7 +293,7 @@ function buildResultsTable(teams,results) {
 }
 
 function buildStandings(standings,ptsWin=3) {
-	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover");
+	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
 
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
