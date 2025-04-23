@@ -934,7 +934,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1963-64","name":"European Cup","teams":["JESH"]},
 			"fairs_cup": {"missing":true,"season":"1963-64","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
-			"cup_winners_cup": {"missing":true,"season":"1963-64","name":"Cup Winners Cup","teams":["ULUX"]}
+			"cup_winners_cup": {"season":"1963-64","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1964-65",
