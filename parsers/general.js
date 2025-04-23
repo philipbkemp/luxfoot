@@ -63,7 +63,6 @@ function drawMatch(match,highlightWinner=false) {
 	if ( ! match.isEurope ) {
 		matchHome.html( allTeams[match.home] );
 	} else {
-		console.log(match.home,allTeams[match.home],allTeams[match.home]?true:false)
 		if ( allTeams[match.home] ) {
 			matchHome.html( allTeams[match.home] );
 		} else if ( allEuropeTeams[match.home] ) {
