@@ -63,7 +63,7 @@ function drawMatch(match,highlightWinner=false) {
 	if ( ! match.isEurope ) {
 		matchHome.html( allTeams[match.home] );
 	} else {
-		matchAway.html( match.home ).addClass("bg-danger");
+		matchHome.html( match.home ).addClass("bg-danger");
 	}
 	if ( highlightWinner && scoreH > scoreA ) {
 		matchHome.addClass("fw-bold");
