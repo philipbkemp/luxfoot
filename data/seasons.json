@@ -1,6 +1,7 @@
 [
     {
 		"season": "1909-10",
+		"note": "No information exists for this season",
 		"leagues": {
 			"level_1": {"season": "1909-10","level":1,"name": "Klasse A", "winner": "RACL", "missing": true, "title_count":1}
 		}
