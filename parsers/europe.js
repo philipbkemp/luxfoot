@@ -1,17 +1,31 @@
+allEuropeTeams = {};
+
 $(document).ready(function(){
 
 	if ( checkParams(["season","comp"]) ) {
 	
 		$.ajax({
-			url: "data/teams.json",
+			url: "data/teams_europe.json",
 			success: function(data) {
-				parseTeams(data);
+                console.log(data);
+				doneParsingEuropeanTeams();
 			}
 		});
 
 	}
 
 });
+
+function doneParsingEuropeanTeams() {
+
+    $.ajax({
+        url: "data/teams.json",
+        success: function(data) {
+            parseTeams(data);
+        }
+    });
+
+}
 
 function doneParsingTeams() {
 	$.ajax({
