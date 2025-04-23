@@ -60,7 +60,7 @@ function drawMatch(match,highlightWinner=false) {
 	scoreA = parseInt(score[1]);
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end");
-	if ( ! match.isEurope ) {
+	if ( ! match.isEurope || allTeams[match.home]) {
 		matchHome.html( allTeams[match.home] );
 	} else {
 		matchHome.html( match.home ).addClass("bg-danger");
@@ -78,7 +78,7 @@ function drawMatch(match,highlightWinner=false) {
 	matchRow.append(matchScore);
 
 	matchAway = $("<DIV></DIV>").addClass("col-3");
-	if ( ! match.isEurope ) {
+	if ( ! match.isEurope || allTeams[match.away] ) {
 		matchAway.html( allTeams[match.away] );
 	} else {
 		matchAway.html( match.away ).addClass("bg-danger");
