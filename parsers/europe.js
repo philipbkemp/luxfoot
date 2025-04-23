@@ -7,9 +7,7 @@ $(document).ready(function(){
 		$.ajax({
 			url: "data/teams_europe.json",
 			success: function(data) {
-                console.log(data);
                 Object.keys(data).forEach(country=>{
-                    console.log(country);
                     Object.keys(data[country]).forEach(team=>{
                         if ( team !== "_country" ) {
                             allEuropeTeams[ country + ":" + team ] = data[country][team].name;
