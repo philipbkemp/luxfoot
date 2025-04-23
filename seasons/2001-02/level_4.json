@@ -19,7 +19,7 @@
     },{
         "series": 3,
         "name": "Series 3",
-        "teams": [],
+        "teams": ["AMRS","BRCH","CLMC","EHLR","ESHW","JKYL","JSKH","MLSV","OYMP","SBRT","SNEM","SPST","TLMD","UESH"],
         "standings": [
             {"place": 1, "team": "OYMP", "w": 18, "d": 6, "l": 2, "f": 69, "a": 19, "season": "2001-02", "level": 4, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "2002-03", "level": 3, "name": "1. Division"}},
             {"place": 2, "team": "SPST", "w": 17, "d": 5, "l": 4, "f": 75, "a": 29, "season": "2001-02", "level": 4, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "2002-03", "level": 3, "name": "1. Division"}},

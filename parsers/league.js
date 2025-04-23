@@ -103,6 +103,9 @@ function parseLeague(league) {
 			if ( ! series.missing ) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
 				removeKey("series.standings");
+				if ( series.matches ) {
+					seriesPanel.append( buildResultsTable(series.teams,series.matches) );
+				}
 			} else {
 				seriesPanel.append(
 					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
