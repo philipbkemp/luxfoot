@@ -60,6 +60,7 @@ function drawMatch(match,highlightWinner=false) {
 	scoreA = parseInt(score[1]);
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
+	console.log(match.isEurope,match.home,allTeams[match.home],! match.isEurope || allTeams[match.home]);
 	if ( ! match.isEurope || allTeams[match.home]) {
 		matchHome.html( allTeams[match.home] );
 	} else {
