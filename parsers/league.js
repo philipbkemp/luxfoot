@@ -105,6 +105,11 @@ function parseLeague(league) {
 				removeKey("series.standings");
 				if ( series.matches ) {
 					seriesPanel.append( buildResultsTable(series.teams,series.matches) );
+					seriesPanel.append(
+						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(
+							"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
+						)
+					);
 					removeKey("series.matches");
 				}
 			} else {
