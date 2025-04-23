@@ -79,7 +79,7 @@ function drawMatch(match,highlightWinner=false) {
 
 	matchAway = $("<DIV></DIV>").addClass("col-3").addClass("club-away");
 	if ( ! match.isEurope || allTeams[match.away] ) {
-		matchAway.html( allTeams[match.away] );
+		matchAway.html( allTeams[match.away] + "<<");
 	} else {
 		matchAway.html( allEuropeTeams[match.away] );
 	}
