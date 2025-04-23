@@ -1,6 +1,7 @@
 keys = [];
 urlParams = {};
 allTeams = {};
+months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
 function checkParams(required) {
 	paramsOk = true;
@@ -42,7 +43,15 @@ function drawMatch(match,highlightWinner=false) {
 
 	matchDate = $("<DIV></DIV>").addClass("col-2");
 	if ( match.date ) {
-		matchDate.html(match.date);
+		d = new Date(match.date);
+		matchDate.html(
+			(d.getDate()+"").padStart(2,"0")
+			+ " " +
+			months[d.getMonth()]
+			+ " " +
+			d.getFullYear()
+		);
+		removeKey("match.date");
 	}
 	matchRow.append(matchDate);
 
@@ -50,7 +59,12 @@ function drawMatch(match,highlightWinner=false) {
 	scoreH = parseInt(score[0]);
 	scoreA = parseInt(score[1]);
 
-	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").html( allTeams[match.home] );
+	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end");
+	if ( ! match.isEurope ) {
+		matchHome.html( allTeams[match.home] );
+	} else {
+		matchAway.html( match.home ).addClass("bg-danger");
+	}
 	if ( highlightWinner && scoreH > scoreA ) {
 		matchHome.addClass("fw-bold");
 		winner = allTeams[match.home];
@@ -63,7 +77,12 @@ function drawMatch(match,highlightWinner=false) {
 	matchScore = $("<DIV></DIV>").addClass("col-1").addClass("text-center").html( match.score );
 	matchRow.append(matchScore);
 
-	matchAway = $("<DIV></DIV>").addClass("col-3").html( allTeams[match.away] );
+	matchAway = $("<DIV></DIV>").addClass("col-3");
+	if ( ! match.isEurope ) {
+		matchAway.html( allTeams[match.away] );
+	} else {
+		matchAway.html( match.away ).addClass("bg-danger");
+	}
 	if ( highlightWinner && scoreH < scoreA ) {
 		matchAway.addClass("fw-bold");
 		winner = allTeams[match.away];
@@ -97,6 +116,7 @@ function drawMatch(match,highlightWinner=false) {
 	removeKey("match.score");
 	removeKey("match.season");
 	removeKey("match.competition");
+	removeKey("match.isEurope");
 
 	return matchObj;
 }
