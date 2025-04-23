@@ -184,6 +184,9 @@ a:hover {
 .tab-pane__standings table tbody tr td:last-child abbr.faux-link:hover {
 	text-decoration-style: solid
 }
+.tab-pane__standings table tbody tr td:last-child abbr.faux-link {
+    cursor: help;
+}
 
 /* STANDINGS TABLE ROW STYLES ********************************************************************/
 .is-champion > * {
