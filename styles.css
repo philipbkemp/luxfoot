@@ -100,19 +100,20 @@ a:hover {
     font-style: italic;
 }
 
-#leagueTabs .nav-item button {
+/* TABS ****************************************************************************************/
+.luxfoot-tablist .nav-item button {
     color: #2b5873;
     min-width: 150px;
 }
 
-#leagueTabs.nav-tabs,
-#leagueTabs.nav-tabs .nav-link.active,
-#leagueTabs.nav-tabs .nav-link:focus,
-#leagueTabs.nav-tabs .nav-link:hover {
+.luxfoot-tablist.nav-tabs,
+.luxfoot-tablist.nav-tabs .nav-link.active,
+.luxfoot-tablist.nav-tabs .nav-link:focus,
+.luxfoot-tablist.nav-tabs .nav-link:hover {
     border-color: #2b5873;
 }
 
-#leagueTabs.nav-tabs .nav-link.active{
+.luxfoot-tablist.nav-tabs .nav-link.active{
     border-bottom-color: white;
 }
 
