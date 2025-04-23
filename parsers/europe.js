@@ -71,7 +71,7 @@ function parseEuropeanCompetition(comp) {
 	}
 
 	if ( keys.length !== 0 ) {
-		console.log(league);
+		console.log(comp);
 		console.log(keys);
 	}
 
