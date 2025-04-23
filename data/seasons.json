@@ -2390,7 +2390,7 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2011-12", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
-			"cup_flf": {"missing":true, "season": "2011-12", "name": "Coupe FLF", "winner": "BLVL", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
+			"cup_flf": {"season": "2011-12", "name": "Coupe FLF", "winner": "BLVL", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"2011-12","teams":["F91D"]},
