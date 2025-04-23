@@ -384,6 +384,7 @@ function buildStandings(standings,ptsWin=3) {
 		if ( s.relegated ) {
 			thisRow.addClass("is-relegated");
 			removeKey("standings.relegated");
+			removeKey("series.relegated");
 			if ( s.target ) {
 				
 				targetKeys = Object.keys(s.relegated);
