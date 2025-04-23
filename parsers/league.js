@@ -242,6 +242,14 @@ function parseLeague(league) {
 			);
 			removeKey("links.prev");
 		}
+		if ( league.links.up ) {
+			$("#menu-links").append(
+				$("<LI></LI>").append(
+					$("<A></A>").addClass("p-2").attr("href","league.html?season="+league.season+"&level="+league.links.up).html("Up a level")
+				)
+			);
+			removeKey("links.up");
+		}
 		if ( league.links.down ) {
 			$("#menu-links").append(
 				$("<LI></LI>").append(

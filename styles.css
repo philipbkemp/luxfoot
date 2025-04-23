@@ -165,7 +165,8 @@ a:hover {
     text-underline-offset: 5px;
 }
 .tab-pane__standings table tbody tr td:last-child span,
-.tab-pane__standings table tbody tr td:last-child a {
+.tab-pane__standings table tbody tr td:last-child a,
+.tab-pane__standings table tbody tr td:last-child abbr {
     font-style: italic;
     font-size: 0.8rem;
 }
