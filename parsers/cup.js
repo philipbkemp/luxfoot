@@ -29,7 +29,7 @@ function doneParsingTeams() {
 	})
 }
 
-function parseLeague(cup) {
+function parseCup(cup) {
 	addKeys(Object.keys(cup));
 
 	setTitles(cup.season,cup.name);
