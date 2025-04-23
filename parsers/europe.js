@@ -91,8 +91,9 @@ function parseEuropeanCompetition(comp) {
             ul.append(head);
 
             round.matches[team].forEach(match=>{
-                console.log(match);
+                ul.append( drawMatch(match) );
             });
+            removeKey("round.matches");
 
             thisRoundPanel.append(ul);
             //<ul class="list-group"><li class="list-group-item list-group-item-primary">TEAM</li><li class="list-group-item">MATCH</li><li class="list-group-item">MATCH</li></ul>
