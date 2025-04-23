@@ -195,9 +195,13 @@ a:hover {
 .is-promoted > * {
     background-color: #DCF1DA !important;
 }
+.is-removed > * {
+    background-color: #CB8282 !important;
+}
 .is-champion td:nth-of-type(1),
 .is-relegated td:nth-of-type(1),
-.is-promoted td:nth-of-type(1) {
+.is-promoted td:nth-of-type(1),
+.is-removed td:nth-of-type(1) {
     color: transparent;  
     background-size: 20px;
     background-repeat: no-repeat;
@@ -212,6 +216,9 @@ a:hover {
 }
 .is-promoted td:nth-of-type(1) {
 	background-image: url("assets/promoted.png");
+}
+.is-removed td:nth-of-type(1) {
+	background-image: url("assets/removed.png");
 }
 
 /* RESULTS TABLE *********************************************************************************/

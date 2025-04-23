@@ -29,15 +29,15 @@
             {"place": 1, "team": "UBSH", "w": 16, "d": 2, "l": 4, "f": 58, "a": 22, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1984-85", "level": 4, "name": "2. Division"}},
             {"place": 2, "team": "EHLR", "w": 13, "d": 5, "l": 4, "f": 53, "a": 29, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1984-85", "level": 4, "name": "2. Division"}},
             {"place": 3, "team": "SBRT", "w": 11, "d": 7, "l": 4, "f": 69, "a": 42, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
-            {"place": 4, "team": "USDD:2", "w": 12, "d": 3, "l": 7, "f": 56, "a": 46, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
+            {"place": 4, "team": "USDD:2", "w": 12, "d": 3, "l": 7, "f": 56, "a": 46, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
             {"place": 5, "team": "UESH", "w": 11, "d": 2, "l": 9, "f": 52, "a": 28, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
-            {"place": 6, "team": "RBDF:2", "w": 8, "d": 6, "l": 8, "f": 61, "a": 51, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
+            {"place": 6, "team": "RBDF:2", "w": 8, "d": 6, "l": 8, "f": 61, "a": 51, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
             {"place": 7, "team": "RBAS", "w": 8, "d": 5, "l": 9, "f": 70, "a": 50, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
             {"place": 8, "team": "CLMC", "w": 9, "d": 3, "l": 10, "f": 37, "a": 47, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4"},
-            {"place": 9, "team": "FOLA:2", "w": 10, "d": 1, "l": 11, "f": 35, "a": 45, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
-            {"place": 10, "team": "CPET:2", "w": 7, "d": 3, "l": 12, "f": 48, "a": 59, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
-            {"place": 11, "team": "URUM:2", "w": 4, "d": 1, "l": 17, "f": 34, "a": 106, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true},
-            {"place": 12, "team": "CROD:2", "w": 3, "d": 2, "l": 17, "f": 23, "a": 71, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true}
+            {"place": 9, "team": "FOLA:2", "w": 10, "d": 1, "l": 11, "f": 35, "a": 45, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
+            {"place": 10, "team": "CPET:2", "w": 7, "d": 3, "l": 12, "f": 48, "a": 59, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
+            {"place": 11, "team": "URUM:2", "w": 4, "d": 1, "l": 17, "f": 34, "a": 106, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
+            {"place": 12, "team": "CROD:2", "w": 3, "d": 2, "l": 17, "f": 23, "a": 71, "pts_win": 2, "season": "1984-85", "level": 5, "series":4, "league": "3. Division Series 4","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"}
         ],
         "promoted": {
             "teams": ["EHLR","UBSH"],

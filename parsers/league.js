@@ -452,6 +452,19 @@ function buildStandings(standings,ptsWin=3) {
 				removeKey("standings.target.name");
 			}
 		}
+	
+		if ( s.removed ) {
+			thisRow.addClass("is-removed");
+			removeKey("standings.removed");
+			
+			thisRowNotes.append(
+				$("<ABBR></ABBR>")
+					.attr("title",s.removed_note)
+					.html("Removed")
+			);
+			removeKey("standings.removed");
+			removeKey("standings.removed_note");
+		}
 
 		if ( s.title_count ) {
 			thisRowNotes.append( $("<SPAN></SPAN>").html( getTitleCount(s.title_count)) );
