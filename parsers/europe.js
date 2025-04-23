@@ -33,10 +33,8 @@ function parseEurope(data) {
     }
 }
 
-thecomp = null;
 function parseEuropeanCompetition(comp) {
     addKeys(Object.keys(comp));
-    thecomp=comp;
 
     setTitles(comp.season,comp.name);
     removeKey("season");
@@ -83,9 +81,19 @@ function parseEuropeanCompetition(comp) {
         $("#europeTabs").append(buildTabButton(round.key,round.name,!hasFirstRound));
         thisRoundPanel = buildTabPanel(round.key,!hasFirstRound);
         thisRoundPanel.html(round.name + "<br /> hello");
+        thisRoundPanel.addClass("soft-list-groups");
 
         removeKey("round.key");
         removeKey("round.name");
+
+        Object.keys(thecomp.rounds[0].matches).forEach(team=>{
+            ul = $("<UL><UL>").addClass("mb-5").addClass("list-group");
+            head = $("<LI></LI>").addClass("list-group-item").addClass("list-group-item-primary").html( allTeams[team] )
+            ul.append(head);
+
+            thisRoundPanel.append(ul);
+            //<ul class="list-group"><li class="list-group-item list-group-item-primary">TEAM</li><li class="list-group-item">MATCH</li><li class="list-group-item">MATCH</li></ul>
+        });
 
         $("#europeTabContent").append(thisRoundPanel);
 

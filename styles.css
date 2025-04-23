@@ -74,22 +74,24 @@ a:hover {
     top: 10px;
 }
 
-#competitions .list-group-item {
+
+/* LIST GROUP ************************************************************************************/
+.soft-list-groups .list-group-item {
     border-bottom-color: #ccc;
     border-color: #2b5873;
 }
-#competitions .list-group-item-primary {
+.soft-list-groups .list-group-item-primary {
 	background-color: #2b587322;
     border-bottom-color: #2b5873;
     color: #2b5873;
     font-weight: bold;
 }
-#competitions .list-group-item:last-child {
+.soft-list-groups .list-group-item:last-child {
     border-bottom-color: #2b5873;
 }
 
-#competitions .list-group-item:not(a):not(.list-group-item-primary),
-#competitions .list-group-item:not(a):not(.list-group-item-primary) * {
+.soft-list-groups .list-group-item:not(a):not(.list-group-item-primary),
+.soft-list-groups .list-group-item:not(a):not(.list-group-item-primary) * {
 	color: #66666666;
 }
 
@@ -100,7 +102,7 @@ a:hover {
     font-style: italic;
 }
 
-/* TABS ****************************************************************************************/
+/* TABS ******************************************************************************************/
 .luxfoot-tablist .nav-item button {
     color: #2b5873;
     min-width: 150px;
