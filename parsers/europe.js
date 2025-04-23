@@ -70,12 +70,26 @@ function parseEuropeanCompetition(comp) {
 		removeKey("links");
 	}
 
+    hasFirstRound = false;
     comp.rounds.forEach(round=>{
         roundKeys = Object.keys(round);
         for ( i=0 ; i!==roundKeys.length ; i++ ) {
-            roundKeys[i] = "match." + roundKeys[i];
+            roundKeys[i] = "round." + roundKeys[i];
         }
         addKeys(roundKeys);
+
+        $("#europeTabs").append(buildTabButton(round.key,round.name,!hasFirstRound));
+        thisRoundPanel = buildTabPanel(round.key,!hasFirstRound);
+        thisRoundPanel.html(round.name + "<br /> hello");
+
+        removeKey("round.key");
+        removeKey("round.name");
+
+        $("#europeTabContent").append(thisRoundPanel);
+
+        hasFirstRound = true;
+
+        removeKey("rounds");
     });
 
     removeKey("teams");
