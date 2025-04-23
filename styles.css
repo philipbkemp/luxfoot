@@ -90,8 +90,8 @@ a:hover {
     border-bottom-color: #2b5873;
 }
 
-.soft-list-groups .list-group-item:not(a):not(.list-group-item-primary),
-.soft-list-groups .list-group-item:not(a):not(.list-group-item-primary) * {
+.soft-list-groups .list-group-item:not(a):not(.list-group-item-primary):not(.match-item),
+.soft-list-groups .list-group-item:not(a):not(.list-group-item-primary):not(.match-item) * {
 	color: #66666666;
 }
 
