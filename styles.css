@@ -128,6 +128,9 @@ a:hover {
 .alert-info strong {
     color: #2b5873;
 }
+.alert-danger {
+    border-color: #58151C;
+}
 
 /* STANDINGS TABLE *******************************************************************************/
 .tab-pane__standings table {
