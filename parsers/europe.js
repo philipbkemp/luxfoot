@@ -8,6 +8,11 @@ $(document).ready(function(){
 			url: "data/teams_europe.json",
 			success: function(data) {
                 console.log(data);
+                Object.keys(data).forEach(country=>{
+                    Object.keys(country).forEach(team=>{
+                        allEuropeTeams[ country + ":" + team ] = team.name;
+                    });
+                });
 				doneParsingEuropeanTeams();
 			}
 		});

@@ -59,11 +59,11 @@ function drawMatch(match,highlightWinner=false) {
 	scoreH = parseInt(score[0]);
 	scoreA = parseInt(score[1]);
 
-	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end");
+	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
 	if ( ! match.isEurope || allTeams[match.home]) {
 		matchHome.html( allTeams[match.home] );
 	} else {
-		matchHome.html( match.home ).addClass("bg-danger");
+		matchHome.html( allEuropeTeams[match.home] );
 	}
 	if ( highlightWinner && scoreH > scoreA ) {
 		matchHome.addClass("fw-bold");
@@ -77,11 +77,11 @@ function drawMatch(match,highlightWinner=false) {
 	matchScore = $("<DIV></DIV>").addClass("col-1").addClass("text-center").html( match.score );
 	matchRow.append(matchScore);
 
-	matchAway = $("<DIV></DIV>").addClass("col-3");
+	matchAway = $("<DIV></DIV>").addClass("col-3").addClass("club-away");
 	if ( ! match.isEurope || allTeams[match.away] ) {
 		matchAway.html( allTeams[match.away] );
 	} else {
-		matchAway.html( match.away ).addClass("bg-danger");
+		matchAway.html( allEuropeTeams[match.away] );
 	}
 	if ( highlightWinner && scoreH < scoreA ) {
 		matchAway.addClass("fw-bold");
