@@ -126,6 +126,30 @@ function drawMatch(match,highlightWinner=false) {
 		removeKey("match.outcome");
 		removeKey("match.target");
 	}
+	if ( match.agg ) {
+		aggKeys = Object.keys(match.agg);
+		for ( i=0 ; i!==aggKeys.length ; i++ ) {
+			aggKeys[i] = "match.agg." + aggKeys[i];
+		}
+		addKeys(aggKeys);
+
+		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
+
+		if ( match.agg.outcome === "W" ) {
+			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " on aggregate";
+		} else if ( match.agg.outcome === "L" ) {
+			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " on aggregate";
+		}
+
+		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
+
+		matchNoteRow.append(matchNote);
+		matchObj.append(matchNoteRow);
+		removeKey("match.agg.score");
+		removeKey("match.agg.outcome");
+		removeKey("match.agg.team");
+		removeKey("match.agg");
+	}
 
 	removeKey("match.home");
 	removeKey("match.away");

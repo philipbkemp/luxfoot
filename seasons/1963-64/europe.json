@@ -14,7 +14,7 @@
             "matches": {
                 "ULUX": [
                     {"isEurope":true,"date":"1963-09-25","leg":1,"home":"WDE:HAMB","away":"ULUX","score":"4-0","season":"1963-64","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
-                    {"isEurope":true,"date":"1963-10-03","leg":2,"home":"ULUX","away":"WDE:HAMB","score":"2-3","season":"1963-64","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":"2-7"}
+                    {"isEurope":true,"date":"1963-10-03","leg":2,"home":"ULUX","away":"WDE:HAMB","score":"2-3","season":"1963-64","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"2-7","outcome":"L","team":"ULUX"}}
                 ]
             }
         }]
