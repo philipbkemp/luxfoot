@@ -70,6 +70,16 @@ function parseEuropeanCompetition(comp) {
 		removeKey("links");
 	}
 
+    comp.rounds.forEach(round=>{
+        roundKeys = Object.keys(round);
+        for ( i=0 ; i!==roundKeys.length ; i++ ) {
+            roundKeys[i] = "match." + roundKeys[i];
+        }
+        addKeys(roundKeys);
+    });
+
+    removeKey("teams");
+
 	if ( keys.length !== 0 ) {
 		console.log(comp);
 		console.log(keys);
