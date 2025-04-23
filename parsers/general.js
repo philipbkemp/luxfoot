@@ -117,6 +117,7 @@ function drawMatch(match,highlightWinner=false) {
 	removeKey("match.season");
 	removeKey("match.competition");
 	removeKey("match.isEurope");
+	removeKey("match.leg");
 
 	return matchObj;
 }

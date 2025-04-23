@@ -9,8 +9,13 @@ $(document).ready(function(){
 			success: function(data) {
                 console.log(data);
                 Object.keys(data).forEach(country=>{
-                    Object.keys(country).forEach(team=>{
-                        allEuropeTeams[ country + ":" + team ] = team.name;
+                    console.log(country);
+                    Object.keys(data[country]).forEach(team=>{
+                        if ( team !== "_country" ) {
+                            allEuropeTeams[ country + ":" + team ] = data[country][team].name;
+                        } else {
+                            allEuropeTeams[ country ] = data[country]._country;
+                        }
                     });
                 });
 				doneParsingEuropeanTeams();
