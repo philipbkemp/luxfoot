@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 function doneParsingTeams() {
 	$.ajax({
-		url: "seasons/"+urlParams.season+"/europ.json",
+		url: "seasons/"+urlParams.season+"/europe.json",
 		success: function(data) {
 			parseEurope(data);
 		},
