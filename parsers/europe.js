@@ -86,7 +86,7 @@ function parseEuropeanCompetition(comp) {
         removeKey("round.key");
         removeKey("round.name");
 
-        Object.keys(thecomp.rounds[0].matches).forEach(team=>{
+        Object.keys(round.matches).forEach(team=>{
             ul = $("<UL><UL>").addClass("mb-5").addClass("list-group");
             head = $("<LI></LI>").addClass("list-group-item").addClass("list-group-item-primary").html( allTeams[team] )
             ul.append(head);
