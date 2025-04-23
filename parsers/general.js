@@ -67,6 +67,10 @@ function drawMatch(match,highlightWinner=false) {
 			matchHome.html( allTeams[match.home] );
 		} else if ( allEuropeTeams[match.home] ) {
 			matchHome.html( allEuropeTeams[match.home] );
+			country = match.home.split(":")[0];
+			matchHome.append(
+				$("<IMG/>").attr("src","assets/flags/"+country+".png").attr("alt",allEuropeTeams[country]).attr("title",allEuropeTeams[country]).addClass("europe-flag")
+			);
 		}
 	}
 	if ( highlightWinner && scoreH > scoreA ) {
@@ -89,6 +93,10 @@ function drawMatch(match,highlightWinner=false) {
 			matchAway.html( allTeams[match.away]);
 		} else if ( allEuropeTeams[match.away] ) {
 			matchAway.html( allEuropeTeams[match.away] );
+			country = match.away.split(":")[0];
+			matchAway.prepend(
+				$("<IMG/>").attr("src","assets/flags/"+country+".png").attr("alt",allEuropeTeams[country]).attr("title",allEuropeTeams[country]).addClass("europe-flag")
+			);
 		}
 	}
 	if ( highlightWinner && scoreH < scoreA ) {
