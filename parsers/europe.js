@@ -69,4 +69,12 @@ function parseEuropeanCompetition(comp) {
 		}
 		removeKey("links");
 	}
+
+	if ( keys.length !== 0 ) {
+		console.log(league);
+		console.log(keys);
+	}
+
+	$(".placeholder-glow").addClass("d-none");
+	$(".displayAfterLoad").removeClass("d-none");
 }
