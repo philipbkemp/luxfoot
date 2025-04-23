@@ -33,8 +33,10 @@ function parseEurope(data) {
     }
 }
 
+thecomp = null;
 function parseEuropeanCompetition(comp) {
     addKeys(Object.keys(comp));
+    thecomp=comp;
 
     setTitles(comp.season,comp.name);
     removeKey("season");
