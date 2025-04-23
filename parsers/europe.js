@@ -45,13 +45,13 @@ function parseEuropeanCompetition(comp) {
 			$("<A></A>").addClass("p-2").attr("href","season.html?season="+comp.season).html("Season overview")
 		)
 	);
-	if ( league.links ) {
-		linkKeys = Object.keys(league.links);
+	if ( comp.links ) {
+		linkKeys = Object.keys(comp.links);
 		for ( i=0 ; i!==linkKeys.length ; i++ ) {
 			linkKeys[i] = "links." + linkKeys[i];
 		}
 		addKeys(linkKeys);
-		if ( league.links.next ) {
+		if ( comp.links.next ) {
 			$("#menu-links").append(
 				$("<LI></LI>").append(
 					$("<A></A>").addClass("p-2").attr("href","europe.html?season="+comp.links.next+"&comp="+urlParams.comp).html("Next season")
@@ -59,7 +59,7 @@ function parseEuropeanCompetition(comp) {
 			);
 			removeKey("links.next");
 		}
-		if ( league.links.prev ) {
+		if ( comp.links.prev ) {
 			$("#menu-links").append(
 				$("<LI></LI>").append(
 					$("<A></A>").addClass("p-2").attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous season")
