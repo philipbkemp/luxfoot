@@ -170,7 +170,8 @@ a:hover {
     font-size: 0.8rem;
 }
 .tab-pane__standings table tbody tr td:last-child span.faux-link,
-.tab-pane__standings table tbody tr td:last-child a {
+.tab-pane__standings table tbody tr td:last-child a,
+.tab-pane__standings table tbody tr td:last-child abbr.faux-link {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-underline-offset: 2px;
@@ -178,7 +179,8 @@ a:hover {
     cursor: pointer;
 }
 .tab-pane__standings table tbody tr td:last-child span.faux-link:hover,
-.tab-pane__standings table tbody tr td:last-child a:hover {
+.tab-pane__standings table tbody tr td:last-child a:hover,
+.tab-pane__standings table tbody tr td:last-child abbr.faux-link:hover {
 	text-decoration-style: solid
 }
 

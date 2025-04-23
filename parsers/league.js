@@ -461,6 +461,7 @@ function buildStandings(standings,ptsWin=3) {
 				$("<ABBR></ABBR>")
 					.attr("title",s.removed_note)
 					.html("Removed")
+					.addClass("faux-link")
 			);
 			removeKey("standings.removed");
 			removeKey("standings.removed_note");
