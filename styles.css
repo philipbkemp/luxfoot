@@ -279,9 +279,9 @@ table.table--results .draw {
 table.table--results .noMatch {
 	background-color: #FAFAFA;
 }
-table.table--results .homeWin:is(span),
-table.table--results .awayWin:is(span),
-table.table--results .draw:is(span){
+.alert .homeWin:is(span),
+.alert .awayWin:is(span),
+.alert .draw:is(span){
 	border: 1px solid #2b5873;
 	display: inline-block;
 	height: 20px;
