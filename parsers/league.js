@@ -91,6 +91,9 @@ function parseLeague(league) {
 		removeKey("matches");
 	}
 	if ( league.series ) {
+
+		po_downup = null;
+
 		league.series.forEach(series=>{
 			seriesKeys = Object.keys(series);
 			for ( i=0 ; i!==seriesKeys.length ; i++ ) {
@@ -112,6 +115,30 @@ function parseLeague(league) {
 					);
 					removeKey("series.matches");
 				}
+
+				if ( series.playoffs ) {
+					subKeys = Object.keys(series.playoffs);
+					for ( i=0 ; i!==subKeys.length ; i++ ) {
+						subKeys[i] = "series.playoffs." + subKeys[i];
+					}
+					addKeys(subKeys);
+
+					if ( series.playoffs.downup ) {
+						$("#leagueTabs").append(buildTabButton("po_downup","Promotion/Relegation play-off"));
+						if ( ! po_downup ) {
+							po_downup = buildTabPanel("po_downup");
+						}
+						po_downup_matches = $("<DIV></DIV>").addClass("list-group");
+						series.playoffs.downup.forEach(m=>{
+							po_downup_matches.append( drawMatch(m,true));
+						});
+						po_downup.append(po_downup_matches);
+						removeKey("series.playoffs.downup");
+					}
+
+					removeKey("series.playoffs");
+				}
+
 			} else {
 				seriesPanel.append(
 					$("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load series")
@@ -132,6 +159,12 @@ function parseLeague(league) {
 			removeKey("series.missing");
 			removeKey("series.teams");
 		});
+
+		if ( po_downup ) {
+			$("#leagueTabContent").append(po_downup);
+
+		}
+
 		removeKey("series");
 	}
 	if ( league.playoffs ) {
