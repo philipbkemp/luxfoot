@@ -51,7 +51,7 @@ function parseCup(cup) {
         removeKey("round.name");
 
 		ul = $("<UL></UL>").addClass("mb-5").addClass("list-group");
-        Object.keys(round.matches).forEach(match=>{
+        round.matches.forEach(match=>{
 
             if ( ! match.bye ) {
 				ul.append( drawMatch(match) );
