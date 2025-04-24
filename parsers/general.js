@@ -59,6 +59,17 @@ function drawMatch(match,highlightWinner=false) {
 	scoreH = parseInt(score[0]);
 	scoreA = parseInt(score[1]);
 
+	winner = "";
+	if ( scoreH > scoreA ) { winner = "home"; }
+	else if ( scoreH < scoreA ) { winner = "away"; }
+	else if ( match.penalties ) {
+		scorePen = match.penalties.split("-");
+		scorePH = parseInt(scorePen[0]);
+		scorePA = parseInt(scorePen[1]);
+		if ( scorePH > scorePA ) { winner = "home"; }
+		else if ( scorePH < scorePA ) { winner = "away"; }
+	}
+
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
 	if ( ! match.isEurope ) {
 		matchHome.html( allTeams[match.home] );
@@ -73,7 +84,7 @@ function drawMatch(match,highlightWinner=false) {
 			);
 		}
 	}
-	if ( highlightWinner && scoreH > scoreA ) {
+	if ( highlightWinner && winner === "home" ) {
 		matchHome.addClass("fw-bold");
 		winner = allTeams[match.home];
 	}
@@ -88,6 +99,14 @@ function drawMatch(match,highlightWinner=false) {
 		matchScore.append( $("<BR />") );
 		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("aet") );
 		removeKey("match.aet");
+	}
+	if ( match.penalties ) {
+		matchScore.append( $("<BR />") );
+		matchScore.append( match.penalties );
+		matchScore.append( $("<BR />") );
+		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("aet") );
+		
+		removeKey("match.penalties");
 	}
 	matchRow.append(matchScore);
 
@@ -105,7 +124,7 @@ function drawMatch(match,highlightWinner=false) {
 			);
 		}
 	}
-	if ( highlightWinner && scoreH < scoreA ) {
+	if ( highlightWinner && winner === "away" ) {
 		matchAway.addClass("fw-bold");
 		winner = allTeams[match.away];
 	}
