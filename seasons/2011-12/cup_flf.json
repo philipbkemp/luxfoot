@@ -2,6 +2,10 @@
     "season": "2011-12",
     "cup": "flf",
     "name": "Coupe FLF",
+    "links": {
+        "next": "2012-13",
+        "prev": "2011-12"
+    },
     "rounds": [{
         "key": "R4",
         "name": "4th round",

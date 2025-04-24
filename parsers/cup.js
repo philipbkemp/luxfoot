@@ -32,6 +32,36 @@ function doneParsingTeams() {
 function parseCup(cup) {
 	addKeys(Object.keys(cup));
 
+	$("#menu-links").append(
+		$("<LI></LI>").append(
+			$("<A></A>").addClass("p-2").attr("href","season.html?season="+cup.season).html("Season overview")
+		)
+	);
+	if ( cup.links ) {
+		linkKeys = Object.keys(cup.links);
+		for ( i=0 ; i!==linkKeys.length ; i++ ) {
+			linkKeys[i] = "links." + linkKeys[i];
+		}
+		addKeys(linkKeys);
+		if ( cup.links.next ) {
+			$("#menu-links").append(
+				$("<LI></LI>").append(
+					$("<A></A>").addClass("p-2").attr("href","cup.html?season="+cup.links.next+"&comp="+urlParams.comp).html("Next season")
+				)
+			);
+			removeKey("links.next");
+		}
+		if ( cup.links.prev ) {
+			$("#menu-links").append(
+				$("<LI></LI>").append(
+					$("<A></A>").addClass("p-2").attr("href","cup.html?season="+cup.links.prev+"&level="+urlParams.comp).html("Previous season")
+				)
+			);
+			removeKey("links.prev");
+		}
+		removeKey("links");
+	}
+
 	setTitles(cup.season,cup.name);
     removeKey("season");
 	removeKey("name");
