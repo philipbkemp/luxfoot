@@ -37,6 +37,36 @@ function parseCup(cup) {
 	removeKey("name");
 
     // do stuff
+	hasFirstRound = false;
+	cup.rounds.forEach(round=>{		
+        roundKeys = Object.keys(round);
+        for ( i=0 ; i!==roundKeys.length ; i++ ) {
+            roundKeys[i] = "round." + roundKeys[i];
+        }
+        addKeys(roundKeys);
+
+		$("#cupTabs").append(buildTabButton(round.key,round.name,!hasFirstRound));
+        thisRoundPanel = buildTabPanel(round.key,!hasFirstRound);
+        removeKey("round.key");
+        removeKey("round.name");
+
+		ul = $("<UL></UL>").addClass("mb-5").addClass("list-group");
+        Object.keys(round.matches).forEach(match=>{
+
+            if ( ! match.bye ) {
+				ul.append( drawMatch(match) );
+			} else {
+				console.log("BYE",match);
+			}
+
+        });
+		thisRoundPanel.append(ul);
+		removeKey("round.matches");
+
+		$("#cupTabContent").append(thisRoundPanel);
+        hasFirstRound = true;
+	});
+	removeKey("rounds");
 
 	if ( keys.length !== 0 ) {
 		console.log(cup);

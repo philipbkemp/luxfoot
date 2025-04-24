@@ -118,16 +118,15 @@ function parseEuropeanCompetition(comp) {
             removeKey("round.matches");
 
             thisRoundPanel.append(ul);
-            //<ul class="list-group"><li class="list-group-item list-group-item-primary">TEAM</li><li class="list-group-item">MATCH</li><li class="list-group-item">MATCH</li></ul>
         });
 
         $("#europeTabContent").append(thisRoundPanel);
 
         hasFirstRound = true;
 
-        removeKey("rounds");
     });
-
+    
+    removeKey("rounds");
     removeKey("teams");
 
 	if ( keys.length !== 0 ) {
