@@ -55,8 +55,23 @@ function parseCup(cup) {
 
             if ( ! match.bye ) {
 				ul.append( drawMatch(match,true) );
-			} else {
-				console.log("BYE",match);
+			} else {	
+				matchKeys = Object.keys(match);
+				for ( i=0 ; i!==matchKeys.length ; i++ ) {
+					matchKeys[i] = "round." + matchKeys[i];
+				}
+				addKeys(matchKeys);
+				ul.append(
+					$("<LI></LI>").addClass("ist-group-item").addClass("match-item").append(
+						$("<DIV></DIV>").addClass("match-note").html(
+							allTeams[match.bye]
+							+ " (" + match.byeDivision.name + ") "
+							+ "received a bye to the next round"
+						)
+					)
+				);
+				removeKey("match.bye");
+				removeKey("match.byeDivision");
 			}
 
         });
