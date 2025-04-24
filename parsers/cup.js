@@ -58,7 +58,7 @@ function parseCup(cup) {
 			} else {	
 				matchKeys = Object.keys(match);
 				for ( i=0 ; i!==matchKeys.length ; i++ ) {
-					matchKeys[i] = "round." + matchKeys[i];
+					matchKeys[i] = "match." + matchKeys[i];
 				}
 				addKeys(matchKeys);
 				ul.append(
