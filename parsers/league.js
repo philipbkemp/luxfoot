@@ -146,7 +146,7 @@ function parseLeague(league) {
 							po_updown_matches.append( drawMatch(m,true));
 						});
 						po_updown.append(po_updown_matches);
-						removeKey("series.playoffs.downup");
+						removeKey("series.playoffs.updown");
 					}
 
 					removeKey("series.playoffs");

@@ -108,6 +108,12 @@ function drawMatch(match,highlightWinner=false) {
 		
 		removeKey("match.penalties");
 	}
+	if ( match.forfeit ) {
+		matchScore.append( $("<BR />") );
+		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("forfeit") );
+		removeKey("match.forfeit");
+	}
+	
 	matchRow.append(matchScore);
 
 	matchAway = $("<DIV></DIV>").addClass("col-3").addClass("club-away");
