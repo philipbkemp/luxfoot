@@ -55,6 +55,7 @@ function drawMatch(match,highlightWinner=false) {
 	}
 	matchRow.append(matchDate);
 
+	console.log(match);
 	score = match.score.split("-");
 	scoreH = parseInt(score[0]);
 	scoreA = parseInt(score[1]);
