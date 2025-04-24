@@ -33,5 +33,6 @@
     {"end_season": "2010-11", "new": "KOSM", "team1": "JSKH"},
     {"end_season": "2014-15", "new": "UNTP", "team1": "CPET", "team2": "TLMD"},
     {"end_season": "2019-20", "new": "BENF", "team1": "RMHM", "team2": "BBML"},
+    {"mid_season": "2022-23", "new": "CESS", "team1": "CBRA" },
     {"end_season": "2023-24", "new": "KOEP", "team1": "VINE", "team2": "KWRM"}
 ]
