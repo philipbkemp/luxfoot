@@ -55,7 +55,6 @@ function drawMatch(match,highlightWinner=false) {
 	}
 	matchRow.append(matchDate);
 
-	console.log(match);
 	score = match.score.split("-");
 	scoreH = parseInt(score[0]);
 	scoreA = parseInt(score[1]);
@@ -80,6 +79,7 @@ function drawMatch(match,highlightWinner=false) {
 	}
 	if ( match.homeDivision ) {
 		matchHome.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fw-normal").addClass("text-black-50").addClass("p-0").addClass("m-0").html(match.homeDivision.name) );
+		removeKey("match.homeDivision");
 	}
 	matchRow.append(matchHome);
 
@@ -106,6 +106,7 @@ function drawMatch(match,highlightWinner=false) {
 	}
 	if ( match.awayDivision ) {
 		matchAway.append( $("<BR/>") ).append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fw-normal").addClass("text-black-50").addClass("p-0").addClass("m-0").html(match.awayDivision.name) );
+		removeKey("match.awayDivision");
 	}
 	matchRow.append(matchAway);
 

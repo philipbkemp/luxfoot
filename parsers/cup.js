@@ -54,7 +54,7 @@ function parseCup(cup) {
         round.matches.forEach(match=>{
 
             if ( ! match.bye ) {
-				ul.append( drawMatch(match) );
+				ul.append( drawMatch(match,true) );
 			} else {
 				console.log("BYE",match);
 			}
