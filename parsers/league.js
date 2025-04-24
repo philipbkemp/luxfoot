@@ -487,8 +487,9 @@ function buildStandings(standings,ptsWin=3) {
 			if ( ["relegation","downup","updown"].indexOf(s.playoff) !== -1 ) {
 				theText = "";
 				switch ( s.playoff ) {
+					case "downup":     theText = "Relegation"; break;
 					case "relegation": theText = "Relegation"; break;
-					case "downup":     theText = "Promotion/Relegation"; break;
+					case "updown":     theText = "Promotion"; break;
 				}
 				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText+" play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 				thisRow.addClass("is-playoff_"+s.playoff);
