@@ -176,7 +176,7 @@ function parseLeague(league) {
 		if ( po_downup ) {
 			$("#leagueTabContent").append(po_downup);
 		}
-		if ( updown ) {
+		if ( po_updown ) {
 			$("#leagueTabContent").append(po_updown);
 		}
 
