@@ -137,7 +137,7 @@ function parseLeague(league) {
 						removeKey("series.playoffs.downup");
 					}
 					if ( series.playoffs.updown ) {
-						$("#leagueTabs").append(buildTabButton("po_downup","Promotion play-off"));
+						$("#leagueTabs").append(buildTabButton("po_updown","Promotion play-off"));
 						if ( ! po_updown ) {
 							po_updown = buildTabPanel("po_updown");
 						}
