@@ -84,6 +84,11 @@ function drawMatch(match,highlightWinner=false) {
 	matchRow.append(matchHome);
 
 	matchScore = $("<DIV></DIV>").addClass("col-1").addClass("text-center").html( match.score );
+	if ( match.aet ) {
+		matchScore.append( $("<BR />") );
+		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("aet") );
+		removeKey("match.aet");
+	}
 	matchRow.append(matchScore);
 
 	matchAway = $("<DIV></DIV>").addClass("col-3").addClass("club-away");
