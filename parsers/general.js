@@ -104,7 +104,7 @@ function drawMatch(match,highlightWinner=false) {
 		matchScore.append( $("<BR />") );
 		matchScore.append( match.penalties );
 		matchScore.append( $("<BR />") );
-		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("aet") );
+		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("penalties") );
 		
 		removeKey("match.penalties");
 	}
