@@ -62,7 +62,7 @@ function parseCup(cup) {
 				}
 				addKeys(matchKeys);
 				ul.append(
-					$("<LI></LI>").addClass("ist-group-item").addClass("match-item").append(
+					$("<LI></LI>").addClass("list-group-item").addClass("match-item").append(
 						$("<DIV></DIV>").addClass("match-note").html(
 							allTeams[match.bye]
 							+ " (" + match.byeDivision.name + ") "
@@ -82,6 +82,7 @@ function parseCup(cup) {
         hasFirstRound = true;
 	});
 	removeKey("rounds");
+	removeKey("cup");
 
 	if ( keys.length !== 0 ) {
 		console.log(cup);
