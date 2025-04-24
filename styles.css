@@ -267,13 +267,16 @@ table.table--results th abbr {
     color: white;
     text-underline-offset: 5px;
 }
-table.table--results .homeWin {
+table.table--results .homeWin,
+.alert .homeWin {
 	background-color: #E8FBFF;
 }
-table.table--results .awayWin {
+table.table--results .awayWin,
+.alert .awayWin {
 	background-color: #FFE8E8;
 }
-table.table--results .draw {
+table.table--results .draw,
+.alert .draw {
 	background-color: #FFFFE8;
 }
 table.table--results .noMatch {

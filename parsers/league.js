@@ -284,6 +284,7 @@ function buildResultsTable(teams,results) {
 					removeKey("match.away");
 					removeKey("match.season");
 					removeKey("match.competition");
+					removeKey("match.date");
 				} else {
 					teamRow.append( $("<TD></TD>").html("--").addClass("noMatch") );
 					console.error(t,tt,theMatch);
