@@ -2661,9 +2661,9 @@
 		"leagues": {
 			"level_1": {"missing":true, "season": "2022-23", "level": 1, "name": "National Division", "winner": "SWFT", "title_count": 1},
 			"level_2": {"missing":true, "season": "2022-23", "level": 2, "name": "Division of Honour", "winner": "SCHF"},
-			"level_3": {"missing":true, "season": "2022-23", "level": 3, "name": "1. Division","series":[
+			"level_3": {"season": "2022-23", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2022-23", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "LRNZ"},
-				{"missing":true, "season": "2022-23", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "WALF"}
+				{"season": "2022-23", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "WALF"}
 			]},
 			"level_4": {"missing":true, "season": "2022-23", "level": 4, "name": "2. Division","series":[
 				{"missing":true, "season": "2022-23", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "WINC"},
