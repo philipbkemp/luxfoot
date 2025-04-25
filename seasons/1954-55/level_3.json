@@ -35,8 +35,6 @@
             "teams": ["ASTN","GOLD"],
             "target": {"season": "1955-56", "level": 4, "name": "3. Division"}
         },
-        "matches": [
-        ]
     },{
         "series": 2,
         "name": "Series 2",
