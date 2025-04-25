@@ -114,6 +114,12 @@ function drawMatch(match,highlightWinner=false) {
 		removeKey("match.forfeit");
 	}
 	
+	if ( match.postponed ) {
+		matchScore.html( "Postponed" );
+		matchScore.addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").addClass("pt-3");
+		removeKey("match.postponed");
+	}
+	
 	matchRow.append(matchScore);
 
 	matchAway = $("<DIV></DIV>").addClass("col-3").addClass("club-away");
