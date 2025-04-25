@@ -87,7 +87,6 @@ function parseLeague(league) {
 			matchesPanel.append(noteWrapper);
 		}
 		$("#leagueTabContent").append(matchesPanel);
-		removeKey("teams");
 		removeKey("matches");
 	}
 	if ( league.series ) {
@@ -278,6 +277,8 @@ function parseLeague(league) {
 	removeKey("level");
 	removeKey("champion");
 	removeKey("relegation");
+	removeKey("promotion");
+	removeKey("teams");
 
 	if ( keys.length !== 0 ) {
 		console.log(league);
@@ -496,10 +497,11 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.title_count");
 		}
 		if ( s.playoff ) {
-			if ( ["relegation","downup","updown"].indexOf(s.playoff) !== -1 ) {
+			if ( ["relegation","downup","updown","promotion"].indexOf(s.playoff) !== -1 ) {
 				theText = "";
 				switch ( s.playoff ) {
 					case "downup":     theText = "Relegation"; break;
+					case "promotion":  theText = "Promotion"; break;
 					case "relegation": theText = "Relegation"; break;
 					case "updown":     theText = "Promotion"; break;
 				}

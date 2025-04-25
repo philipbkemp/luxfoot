@@ -34,7 +34,7 @@
 	},
     "playoffs": {
         "promotion": [
-            {"home":"RPDN","away":"CSOB","score":"1-0","season":"1963-64","competition": {"type":"league", "level":2, "name":"Division of Honour", "playoff": "promotion"},"outcome":"CROD promoted to TARGET","target": {"season": "1964-65", "level": 1, "name": "National Division"}}
+            {"home":"RPDN","away":"CSOB","score":"1-0","season":"1963-64","competition": {"type":"league", "level":2, "name":"Division of Honour", "playoff": "promotion"},"outcome":"RPDN promoted to TARGET","target": {"season": "1964-65", "level": 1, "name": "National Division"}}
         ]
     }
 }
