@@ -517,14 +517,17 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.title_count");
 		}
 		if ( s.playoff ) {
-			if ( ["relegation","downup","updown","promotion"].indexOf(s.playoff) !== -1 ) {
-				theText = "";
-				switch ( s.playoff ) {
-					case "downup":     theText = "Relegation"; break;
-					case "promotion":  theText = "Promotion"; break;
-					case "relegation": theText = "Relegation"; break;
-					case "updown":     theText = "Promotion"; break;
-				}
+			theText = "";
+			switch ( s.playoff ) {
+				case "downup":
+				case "relegation":
+					theText = "Relegation"; break;
+				case "league_promotionplayoff":
+				case "promotion":
+				case "updown":
+					theText = "Promotion"; break;
+			}
+			if ( theText !== "" ) {
 				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText+" play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 				thisRow.addClass("is-playoff_"+s.playoff);
 				removeKey("standings.playoff");
