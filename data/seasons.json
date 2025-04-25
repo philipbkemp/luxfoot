@@ -700,8 +700,8 @@
 			    {"missing":true,"season": "1954-55", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "SPOR"},
 				{"missing":true,"season": "1954-55", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "CROD"}
 			]},
-			"level_3": {"missing":true,"season": "1954-55", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1954-55", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "KOPS"},
+			"level_3": {"season": "1954-55", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1954-55", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "KOPS"},
 				{"missing":true,"season": "1954-55", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "AREM"}
 			]},
 			"level_4": {"missing":true,"season": "1954-55", "level":  4, "name": "2. Division", "series": [
