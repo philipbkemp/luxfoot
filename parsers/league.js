@@ -545,6 +545,7 @@ function buildStandings(standings,ptsWin=3) {
 		removeKey("standings.season");
 		removeKey("standings.level");
 		removeKey("standings.series");
+		removeKey("standings.round");
 		removeKey("standings.league");
 
 		tbody.append(thisRow);
