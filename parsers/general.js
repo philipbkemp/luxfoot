@@ -188,6 +188,13 @@ function drawMatch(match,highlightWinner=false) {
 		removeKey("match.agg.team");
 		removeKey("match.agg");
 	}
+	if ( match.note ) {
+		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
+		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(match.note);
+		matchNoteRow.append(matchNote);
+		matchObj.append(matchNoteRow);
+		removeKey("match.note");
+	}
 
 	removeKey("match.home");
 	removeKey("match.away");
