@@ -47,7 +47,7 @@
             "matches": [
                 {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "VICR", "homeDivision": {"level":5,"series":1,"name":"3. Division Series 1"},"away": "EGWM", "awayDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"score": "2-6"},
                 {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "EGWM", "homeDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"away": "UNAS", "awayDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"score": "5-2"},
-                {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "VICR", "homeDivision": {"level":5,"series":1,"name":"3. Division Series 1"},"away": "UNAS", "awayDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"score": "P-P","postponed":true,"note":"Not held"}
+                {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "VICR", "homeDivision": {"level":5,"series":1,"name":"3. Division Series 1"},"away": "UNAS", "awayDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"score": "P-P","postponed":true,"note":"Match not played as the result would not change the outcome of the 'league' and who would be promoted"}
             ]
         }
     }
