@@ -227,7 +227,7 @@ function parseLeague(league) {
 		if ( league.playoffs.league_promotion_playoff ) {
 			$("#leagueTabs").append(buildTabButton("po_league_promotionplayoff","Promotion play-off"));
 			poLeaguePromotionPlayoff = buildTabPanel("po_league_promotionplayoff");
-			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group");
+			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
 			league.playoffs.league_promotion_playoff.matches.forEach(m=>{
 				poLeaguePromotionPlayoffMatches.append( drawMatch(m,true));
 			});
