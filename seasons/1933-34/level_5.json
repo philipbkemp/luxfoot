@@ -1,0 +1,52 @@
+{
+    "level": 5,
+	"season": "1933-34",
+    "links": {
+        "next": "1934-35",
+        "prev": "1932-33",
+        "up": 4
+    },
+	"name": "3. Division",    
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["EGWM","ESHW","JHTC","MANC","OYMP","RROD"],
+        "standings": [
+            {"place": 1, "team": "MANC", "w": 8, "d": 1, "l": 1, "f": 30, "a": 16, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target":{"season":"1934-35","level":4,"name":"2. Division"}},
+            {"place": 2, "team": "EGWM", "w": 8, "d": 0, "l": 2, "f": 35, "a": 11, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3", "playoff": "league.promotion_playoff", "promoted": true, "target":{"season":"1934-35","level":4,"name":"2. Division"}},
+            {"place": 3, "team": "RROD", "w": 4, "d": 3, "l": 3, "f": 20, "a": 17, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "JHTC", "w": 4, "d": 2, "l": 4, "f": 19, "a": 17, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "ESHW", "w": 2, "d": 0, "l": 8, "f": 15, "a": 38, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "OYMP", "w": 1, "d": 0, "l": 9, "f": 9, "a": 29, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ],
+        "promoted": {
+            "teams": ["MANC","EGWM"],
+            "target": {"season":"1934-35","level":4,"name":"2. Division"}
+        }
+    }],
+    "promotion_playoff": {
+        "teams": ["EGWM","UNAS","VICR"],
+        "pts_win": 2,
+        "standings": [
+            {"place":1,"team":"EGWM","w":2,"d":0,"l":0,"f":11,"a":4,"pts_win":2,"season":"1933-34","level":5,"league":"3. Division","round":"Promotion Playoffs", "promoted": true, "target":{"season":"1934-35","level":4,"name":"2. Division"}},
+            {"place":2,"team":"UNAS","w":0,"d":0,"l":1,"f": 2,"a":5,"pts_win":2,"season":"1933-34","level":5,"league":"3. Division","round":"Promotion Playoffs"},
+            {"place":3,"team":"VICR","w":0,"d":0,"l":1,"f": 2,"a":6,"pts_win":2,"season":"1933-34","level":5,"league":"3. Division","round":"Promotion Playoffs"}
+        ],
+        "promoted": ["EGWM"],
+        "target": {"season":"1934-35","level":4,"name":"2. Division"},
+        "matches": [
+            {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "VICR", "homeDivision": {"level":5,"series":1,"name":"3. Division Series 1"},"away": "EGWM", "awayDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"score": "2-6"},
+            {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "EGWM", "homeDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"away": "UNAS", "awayDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"score": "5-2"},
+            {"season": "1933-34","competition": {"type":"league","level":5,"name":"3. Division","round":"Promotion Playoffs"},"home": "VICR", "homeDivision": {"level":5,"series":1,"name":"3. Division Series 1"},"away": "UNAS", "awayDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"score": "P-P","postponed":true,"note":"Not held"}
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "level": 0,
+	"season": "",
+    "links": {
+        "next": "",
+        "prev": "",
+        "up": 0,
+        "down": 0
+    },
+	"name": "",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": [],
+        "standings": [
+            
+        ],
+        "promoted": {
+            "teams": [],
+            "target": {"season": "", "level": 0, "name": ""}
+        },
+        "relegated": {
+            "teams": [],
+            "target": {"season": "", "level": 0, "name": ""}
+        },
+        "playoffs": {
+            "updown": [],
+            "downup": []
+        },
+        "matches": [
+        ]
+    }]
+}
