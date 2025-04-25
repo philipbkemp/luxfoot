@@ -1,0 +1,40 @@
+{
+    "level": 2,
+	"season": "1963-64",
+    "links": {
+        "next": "1964-65",
+        "prev": "1962-63",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["BLVL","CGRV","CPET","CROD","CSOB","FOLA","MARM","MDLB","RPDN","RSML","URUM","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "URUM", "w": 14, "d": 5, "l": 3, "f": 56, "a": 26, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1964-65", "level": 1, "name": "National Division"}},
+		{"place": 2, "team": "RPDN", "w": 13, "d": 2, "l": 7, "f": 57, "a": 44, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour", "playoff": "promotion", "promoted": true, "target": {"season": "1964-65", "level": 1, "name": "National Division"}},
+		{"place": 3, "team": "CSOB", "w": 11, "d": 6, "l": 5, "f": 56, "a": 31, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour", "playoff": "promotion"},
+		{"place": 4, "team": "YBDK", "w": 11, "d": 3, "l": 8, "f": 53, "a": 40, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 5, "team": "FOLA", "w": 10, "d": 3, "l": 9, "f": 43, "a": 41, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 6, "team": "MDLB", "w": 10, "d": 3, "l": 9, "f": 42, "a": 42, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 7, "team": "CPET", "w": 10, "d": 2, "l": 10, "f": 53, "a": 53, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 8, "team": "BLVL", "w": 9, "d": 3, "l": 10, "f": 44, "a": 48, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 9, "team": "CGRV", "w": 9, "d": 2, "l": 11, "f": 41, "a": 39, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "RSML", "w": 9, "d": 1, "l": 12, "f": 37, "a": 52, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "CROD", "w": 5, "d": 3, "l": 14, "f": 33, "a": 58, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1964-65", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "MARM", "w": 2, "d": 5, "l": 15, "f": 28, "a": 69, "pts_win": 2, "season": "1963-64", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1964-65", "level": 3, "name": "1. Division"}}
+    ],
+	"relegation": {
+		"teams": ["CROD","MARM"],
+		"target": {"season": "1964-65", "level": 3, "name": "1. Division"}
+	},
+	"promotion": {
+		"teams": ["URUM","RPDN"],
+		"target": {"season": "1964-65", "level": 1, "name": "National Division"}
+	},
+    "playoffs": {
+        "promotion": [
+            {"home":"RPDN","away":"CSOB","score":"1-0","season":"1963-64","competition": {"type":"league", "level":2, "name":"Division of Honour", "playoff": "promotion"},"outcome":"CROD promoted to TARGET","target": {"season": "1964-65", "level": 1, "name": "National Division"}}
+        ]
+    }
+}
