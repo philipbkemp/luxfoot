@@ -505,7 +505,7 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1946-47", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1946-47", "name": "Coupe FLF", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_flf": {"season": "1946-47", "name": "Coupe FLF", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1947-48",

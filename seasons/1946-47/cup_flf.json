@@ -1,0 +1,31 @@
+{
+    "season": "1946-47",
+    "cup": "flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1947-48",
+        "prev": "1945-46"
+    },
+    "rounds": [{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date": "1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Quarter final"},"home": "CROD", "homeDivision": {"level":1,"name":"Honour Division"}, "away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"}, "score": "2-4"},
+            {"date": "1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Quarter final"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"}, "away": "STET", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-1"},
+            {"date": "1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Quarter final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"}, "away": "KOPS", "awayDivision": {"level":2,"name":"1. Division"},"score":"11-0"},
+            {"date": "1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Quarter final"},"home": "JKYL", "homeDivision": {"level":3,"series":1,"name":"The Promotion Series 1"}, "away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"}, "score":"2-5"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date": "1947-03-09","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Semi final"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"}, "away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"}, "score":"6-4"},
+            {"date": "1947-03-09","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Semi final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"}, "away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"}, "score":"3-1"}        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date": "1947-06-01","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Final"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"}, "away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"}, "score":"1-2"}
+        ]
+    }]
+}
