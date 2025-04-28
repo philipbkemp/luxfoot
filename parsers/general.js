@@ -76,6 +76,8 @@ function drawMatch(match,highlightWinner=false) {
 	} else {
 		if ( allTeams[match.home] ) {
 			matchHome.html( allTeams[match.home] );
+		} else if ( allTeams[match.home.split(":")[0]] ) {
+			matchHome.html( allTeams[match.home.split(":")[0]] + " II" );
 		} else if ( allEuropeTeams[match.home] ) {
 			matchHome.html( allEuropeTeams[match.home] );
 			country = match.home.split(":")[0];
@@ -128,6 +130,8 @@ function drawMatch(match,highlightWinner=false) {
 	} else {
 		if ( allTeams[match.away] ) {
 			matchAway.html( allTeams[match.away]);
+		} else if ( allTeams[match.away.split(":")[0]] ) {
+			matchAway.html( allTeams[match.away.split(":")[0]] + " II" );
 		} else if ( allEuropeTeams[match.away] ) {
 			matchAway.html( allEuropeTeams[match.away] );
 			country = match.away.split(":")[0];
