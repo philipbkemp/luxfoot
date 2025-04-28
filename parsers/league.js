@@ -488,6 +488,7 @@ function buildStandings(standings,ptsWin=3) {
 				.addClass("text-black")
 				.addClass("text-start")
 				.html(s.teamDivision.name)
+				.prop("outerHTML")
 			removeKey("standings.teamDivision");
 		}
 
@@ -584,18 +585,18 @@ function buildStandings(standings,ptsWin=3) {
 			switch ( s.playoff ) {
 				case "downup":
 				case "relegation":
-					theText = "Relegation"; break;
+					theText = "Relegation play-off"; break;
 				case "league_promotionplayoff":
 				case "promotion":
 				case "updown":
-					theText = "Promotion"; break;
+					theText = "Promotion play-off"; break;
 				case "league_promotion_playoff_a":
 				case "league_promotion_playoff_b":
 					theText = "Play-off";
 					break;
 			}
 			if ( theText !== "" ) {
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText+" play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 				thisRow.addClass("is-playoff_"+s.playoff);
 				removeKey("standings.playoff");
 			}
