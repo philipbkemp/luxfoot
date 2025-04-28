@@ -478,6 +478,20 @@ function buildStandings(standings,ptsWin=3) {
 				teamName = "<span class='text-bg-danger'>"+s.team+"</span>";
 			}
 		}
+		if ( s.teamDivision ) {
+			teamName.append(
+				$("<SPAN></SPAN>")
+					.addClass("badge")
+					.addClass("badge-titleCount")
+					.addClass("d-block")
+					.addClass("fst-italic")
+					.addClass("fw-normal")
+					.addClass("text-black")
+					.addClass("text-start")
+					.html(s.teamDivision.name)
+			);
+			removeKey("standings.teamDivision");
+		}
 
 		thisRow
 			.append( $("<TD></TD>").html(s.place) )
@@ -605,7 +619,6 @@ function buildStandings(standings,ptsWin=3) {
 		removeKey("standings.series");
 		removeKey("standings.round");
 		removeKey("standings.league");
-		removeKey("standings.teamDivision");
 
 		tbody.append(thisRow);
 	});
