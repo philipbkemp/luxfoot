@@ -591,8 +591,8 @@ function buildStandings(standings,ptsWin=3) {
 				case "promotion":
 				case "updown":
 					theText = "Promotion"; break;
-				case "league_promotionplayoff_a":
-				case "league_promotionplayoff_b":
+				case "league_promotion_playoff_a":
+				case "league_promotion_playoff_b":
 					theText = "Play-off";
 					break;
 			}
