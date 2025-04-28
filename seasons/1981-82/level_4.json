@@ -49,8 +49,6 @@
         }
     }],
     "playoffs": {
-        "league_promotion_playoff_a": {
-        },
         "league_promotion_playoff_b": {
             "teams": ["JESH:II","AREM","OYCW"],
             "pts_win": 2,
