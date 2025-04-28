@@ -577,6 +577,10 @@ function buildStandings(standings,ptsWin=3) {
 				case "promotion":
 				case "updown":
 					theText = "Promotion"; break;
+				case "league_promotionplayoff_a":
+				case "league_promotionplayoff_b":
+					theText = "Play-off";
+					break;
 			}
 			if ( theText !== "" ) {
 				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText+" play-off").on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
@@ -601,6 +605,7 @@ function buildStandings(standings,ptsWin=3) {
 		removeKey("standings.series");
 		removeKey("standings.round");
 		removeKey("standings.league");
+		removeKey("standings.teamDivision");
 
 		tbody.append(thisRow);
 	});
