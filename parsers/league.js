@@ -479,17 +479,15 @@ function buildStandings(standings,ptsWin=3) {
 			}
 		}
 		if ( s.teamDivision ) {
-			teamName.append(
-				$("<SPAN></SPAN>")
-					.addClass("badge")
-					.addClass("badge-titleCount")
-					.addClass("d-block")
-					.addClass("fst-italic")
-					.addClass("fw-normal")
-					.addClass("text-black")
-					.addClass("text-start")
-					.html(s.teamDivision.name)
-			);
+			teamName += $("<SPAN></SPAN>")
+				.addClass("badge")
+				.addClass("badge-titleCount")
+				.addClass("d-block")
+				.addClass("fst-italic")
+				.addClass("fw-normal")
+				.addClass("text-black")
+				.addClass("text-start")
+				.html(s.teamDivision.name)
 			removeKey("standings.teamDivision");
 		}
 
