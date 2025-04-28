@@ -1,0 +1,67 @@
+{
+    "level": 0,
+	"season": "",
+    "links": {
+        "next": "",
+        "prev": "",
+        "up": 0,
+        "down": 0
+    },
+	"name": "",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": [],
+        "standings": [
+            {"place": 1, "team": "MDLB", "w": 15, "d": 6, "l": 1, "f": 63, "a": 31, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4", "promoted": true, "target": {"season": "1982-83", "level": 3, "name": "1. Division"}},
+            {"place": 2, "team": "JESH:II", "w": 13, "d": 4, "l": 5, "f": 48, "a": 28, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4", "playoff": "league_promotion_playoff_b", "promoted": true, "target": {"season": "1982-83", "level": 3, "name": "1. Division"}},
+            {"place": 3, "team": "MLSV", "w": 12, "d": 5, "l": 5, "f": 52, "a": 34, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 4, "team": "TLMD", "w": 9, "d": 6, "l": 7, "f": 34, "a": 43, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 5, "team": "BLVL", "w": 9, "d": 5, "l": 8, "f": 43, "a": 35, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 6, "team": "TRIG", "w": 7, "d": 8, "l": 7, "f": 35, "a": 35, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 7, "team": "UESH", "w": 6, "d": 7, "l": 9, "f": 38, "a": 39, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 8, "team": "UBSH", "w": 5, "d": 8, "l": 9, "f": 22, "a": 31, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 9, "team": "MDCG", "w": 7, "d": 3, "l": 12, "f": 37, "a": 51, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 10, "team": "CLMC", "w": 5, "d": 6, "l": 11, "f": 30, "a": 49, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4"},
+            {"place": 11, "team": "NSCH", "w": 4, "d": 7, "l": 11, "f": 23, "a": 35, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4", "relegated": true, "target": {"season": "1982-83", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "MAMR", "w": 4, "d": 7, "l": 11, "f": 29, "a": 43, "pts_win": 2, "season": "1981-82", "level": 4, "league": "2. Division Series 4", "relegated": true, "target": {"season": "1982-83", "level": 5, "name": "3. Division"}}
+        ],
+        "promoted": {
+            "teams": ["NSCH","MAMR"],
+            "target": {"season": "1982-83", "level": 5, "name": "3. Division"}
+        },
+        "relegated": {
+            "teams": ["MDLB","JESH:II"],
+            "target": {"season": "1982-83", "level": 3, "name": "1. Division"}
+        }
+    }],
+    "playoffs": {
+        "league_promotion_playoff_a": {
+        },
+        "league_promotion_playoff_b": {
+            "teams": ["JESH:II","AREM","OYCW"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"JESH:II","teamDivision": {"level":4,"series":4,"name":"2. Division Series 4"},"w":2,"d":0,"l":0,"f":11,"a":4,"pts_win":2,"season":"1933-34","level":5,"league":"2. Division","round":"1. / 2. Division  Playoffs", "promoted": true, "target":{"season":"1982-83","level":3,"name":"1. Division"}},
+                {"place":2,"team":"AREM","teamDivision": {"level":3,"series":2,"name":"1. Division Series 2"},"w":0,"d":0,"l":1,"f": 2,"a":5,"pts_win":2,"season":"1933-34","level":5,"league":"2. Division","round":"1. / 2. Division Playoffs", "relegated": true, "target": {"season":"1982-83","level":4,"name":"2. Division"}},
+                {"place":3,"team":"OYCW","teamDivision": {"level":4,"series":3,"name":"2. Division Series 3"},"w":0,"d":0,"l":1,"f": 2,"a":6,"pts_win":2,"season":"1933-34","level":5,"league":"2. Division","round":"1.  / 2. Division SPlayoffs"}
+            ],
+            "promoted": ["JESH:II"],
+            "relegated": ["AREM"],
+            "target": {"season":"1982-83","level":3,"name":"1. Division"}
+        }
+    }
+}
