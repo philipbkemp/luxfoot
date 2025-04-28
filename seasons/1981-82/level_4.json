@@ -61,7 +61,7 @@
             "relegated": ["AREM"],
             "target": {"season":"1982-83","level":3,"name":"1. Division"},
             "decider": [
-                {"season": "1982-83","competition": {"type":"league","level":4,"name":"2. Division","round":"1. / 2. Division Playoffs (2)"},"home": "JESH:II", "homeDivision": {"level":4,"series":4,"name":"2. Division Series 4"},"away": "AREM", "awayDivision": {"level":3,"series":2,"name":"1. Division Series 2"},"score": "3-0"}
+                {"season": "1982-83","competition": {"type":"league","level":4,"name":"2. Division","round":"1. / 2. Division Playoffs (2)"},"home": "JESH:II", "homeDivision": {"level":4,"series":4,"name":"2. Division Series 4"},"away": "AREM", "awayDivision": {"level":3,"series":2,"name":"1. Division Series 2"},"score": "3-0","note":"Play-off match after both teams tied on points/goals"}
             ]
         }
     }
