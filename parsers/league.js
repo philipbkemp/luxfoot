@@ -244,6 +244,50 @@ function parseLeague(league) {
 			removeKey("playoffs.league_promotion_playoff");
 		}
 
+		if ( league.playoffs.league_promotion_playoff_a ) {
+			$("#leagueTabs").append(buildTabButton("po_league_promotionplayoff_a","Play-off (2)"));
+			poLeaguePromotionPlayoff = buildTabPanel("po_league_promotionplayoff_a");
+			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
+			if ( league.playoffs.league_promotion_playoff_a.matches ) {
+				league.playoffs.league_promotion_playoff.matches.forEach(m=>{
+					poLeaguePromotionPlayoffMatches.append( drawMatch(m));
+				});
+				poLeaguePromotionPlayoff.append(poLeaguePromotionPlayoffMatches);
+			}
+			poLeaguePromotionPlayoff.append(
+				buildStandings(
+					league.playoffs.league_promotion_playoff_a.standings,
+					league.playoffs.league_promotion_playoff_a.pts_win
+						? league.playoffs.league_promotion_playoff_a.pts_win
+						: 3
+				)
+			);
+			$("#leagueTabContent").append(poLeaguePromotionPlayoff);
+			removeKey("playoffs.league_promotion_playoff_a");
+		}
+
+		if ( league.playoffs.league_promotion_playoff_b ) {
+			$("#leagueTabs").append(buildTabButton("po_league_promotionplayoff_b","Play-off (2)"));
+			poLeaguePromotionPlayoff = buildTabPanel("po_league_promotionplayoff_b");
+			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
+			if ( league.playoffs.league_promotion_playoff_b.matches ) {
+				league.playoffs.league_promotion_playoff.matches.forEach(m=>{
+					poLeaguePromotionPlayoffMatches.append( drawMatch(m));
+				});
+				poLeaguePromotionPlayoff.append(poLeaguePromotionPlayoffMatches);
+			}
+			poLeaguePromotionPlayoff.append(
+				buildStandings(
+					league.playoffs.league_promotion_playoff_b.standings,
+					league.playoffs.league_promotion_playoff_b.pts_win
+						? league.playoffs.league_promotion_playoff_b.pts_win
+						: 3
+				)
+			);
+			$("#leagueTabContent").append(poLeaguePromotionPlayoff);
+			removeKey("playoffs.league_promotion_playoff_b");
+		}
+
 		removeKey("playoffs");
 	}
 

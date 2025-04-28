@@ -1,13 +1,13 @@
 {
-    "level": 0,
-	"season": "",
+    "level": 4,
+	"season": "1981-82",
     "links": {
-        "next": "",
-        "prev": "",
-        "up": 0,
-        "down": 0
+        "next": "1982-83",
+        "prev": "1980-81",
+        "up": 3,
+        "down": 5
     },
-	"name": "",
+	"name": "3. Division",
 	"pts_win": 2,
     "series": [{
         "series": 1,
