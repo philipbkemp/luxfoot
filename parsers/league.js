@@ -587,11 +587,6 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.removed");
 			removeKey("standings.removed_note");
 		}
-
-		if ( s.title_count ) {
-			thisRowNotes.append( $("<SPAN></SPAN>").html( getTitleCount(s.title_count)) );
-			removeKey("standings.title_count");
-		}
 		if ( s.playoff ) {
 			theText = "";
 			switch ( s.playoff ) {
@@ -611,10 +606,15 @@ function buildStandings(standings,ptsWin=3) {
 					break;
 			}
 			if ( theText !== "" ) {
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 				thisRow.addClass("is-playoff_"+s.playoff);
 				removeKey("standings.playoff");
 			}
+		}
+
+		if ( s.title_count ) {
+			thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( getTitleCount(s.title_count)) );
+			removeKey("standings.title_count");
 		}
 
 		thisRow.append(thisRowNotes);
