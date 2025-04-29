@@ -27,7 +27,7 @@
         {"home":"SDIF","away":"SCLX","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
         {"home":"SDIF","away":"HLBN","score":"1-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
         {"home":"SDIF","away":"MANC","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
-        {"home":"HLBN","away":"SCLX","score":"2.2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"HLBN","away":"SCLX","score":"2-2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
         {"home":"HLBN","away":"SDIF","score":"1-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
         {"home":"HLBN","away":"MANC","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
         {"home":"MANC","away":"SCLX","score":"0-2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
