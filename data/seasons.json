@@ -8,7 +8,7 @@
     },{
 		"season": "1910-11",
 		"leagues": {
-			"level_1": {"season": "1910-11","level":1,"name": "Klasse A", "winner": "SCLX", "missing": true, "title_count":1}
+			"level_1": {"season": "1910-11","level":1,"name": "Klasse A", "winner": "SCLX", "title_count":1}
 		}
     },{
 		"season": "1911-12",

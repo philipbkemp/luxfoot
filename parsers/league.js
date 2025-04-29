@@ -295,6 +295,18 @@ function parseLeague(league) {
 			removeKey("playoffs.league_promotion_playoff_b");
 		}
 
+		if ( league.playoffs.title ) {
+			$("#leagueTabs").append(buildTabButton("po_title","Title Decider"));
+			poTitle = buildTabPanel("po_title");
+			poTitleMatches = $("<DIV></DIV>").addClass("list-group");
+			league.playoffs.title.forEach(m=>{
+				poTitleMatches.append( drawMatch(m,true));
+			});
+			poTitle.append(poTitleMatches);
+			$("#leagueTabContent").append(poTitle);
+			removeKey("playoffs.title");
+		}
+
 		removeKey("playoffs");
 	}
 
@@ -593,6 +605,9 @@ function buildStandings(standings,ptsWin=3) {
 				case "league_promotion_playoff_a":
 				case "league_promotion_playoff_b":
 					theText = "Play-off";
+					break;
+				case "title":
+					theText = "Title Decider";
 					break;
 			}
 			if ( theText !== "" ) {
