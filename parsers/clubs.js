@@ -89,9 +89,9 @@ function drawTrophies(trophies) {
         thisTrophy = $("<DIV></DIV>").addClass("col");
         thisTrophyLink = $("<A></A>").addClass("card");
         if ( t.cup ) {
-            thisTrophyLink.attr("href","cup.html?season"+t.season+"&comp="+t.cup)
+            thisTrophyLink.attr("href","cup.html?season="+t.season+"&comp="+t.cup)
         } else if ( t.league ) {
-            thisTrophyLink.attr("href","league.html?season"+t.season+"&level=1")
+            thisTrophyLink.attr("href","league.html?season="+t.season+"&level=1")
         }
         thisTrophyImg = $("<DIV></DIV>").addClass("card-img").html(t.title_count);
         thisTrophyBody = $("<DIV></DIV>").addClass("card-body");
