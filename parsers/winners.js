@@ -45,7 +45,7 @@ function parseSeasons(data) {
 
     winners = {};
     data.forEach(season=>{
-        if ( season.leagues && season.leagues.level_1 && season.leagues.level_1 ) {
+        if ( season.leagues && season.leagues.level_1 && season.leagues.level_1 && season.leagues.level_1.winner && season.leagues.level_1.winner !== "" ) {
             if ( ! winners[season.leagues.level_1.winner] ) {
                 winners[season.leagues.level_1.winner] = [];
             }
