@@ -266,7 +266,16 @@ function setTitles(pOne="",pTwo="") {
 	}
 
 	$("head title").html( titleParts.join(" / ") );
-	$("h1 span").html( titleParts.join(" / ") );
+	
+	if ( titleParts.length === 1 ) {
+		$("h1 span").html( titleParts[0] );
+	} else if ( titleParts.length === 2 ) {
+		$("h1 span").html( titleParts[1] );
+		$("h1").prepend( $("<SPAN></SPAN>").addClass("lf").html(titleParts[0]) );
+	} else if ( titleParts.length === 3 ) {
+		$("h1 span").html( titleParts[2] );
+		$("h1").prepend( $("<SPAN></SPAN>").addClass("lf").html(titleParts[0] + " / " + titleParts[1]) );
+	}
 }
 
 function addKeys(newKeys) {
