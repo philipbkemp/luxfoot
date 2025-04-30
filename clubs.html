@@ -19,7 +19,7 @@
 			</h1>
 			<div class="lf-nav displayAfterLoad d-none">
 				<a href="index.html" class="float-end">Home</a>
-				<a href="clubs.html" class="float-end isClubsLink d-none">Clubs</a>
+				<a href="clubs.html" class="float-end showIfClub d-none">Clubs</a>
 			</div>
             <div class="row d-none" id="show-empty">
                 <div class="col-12">
@@ -250,6 +250,10 @@
                         <div class="col"><a class="btn btn-outline-dark w-100 mb-2 opacity-50" href="clubs.html?club=yggc">Yougo Grund-Cessange</a></div>
                     </div>
                 </div>
+            </div>
+            <ul class="nav nav-tabs showIfClub d-none lf-tablist" id="theTabs" role="tablist">
+            </ul>
+            <div class="tab-content showIfClub d-none mb-5 pb-5" id="theTabContent">
             </div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

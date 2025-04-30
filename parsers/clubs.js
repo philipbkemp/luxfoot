@@ -80,5 +80,5 @@ function parseClub(data) {
 
     $(".placeholder-glow").addClass("d-none");
     $(".displayAfterLoad").removeClass("d-none");
-    $(".isClubsLink").removeClass("d-none");
+    $(".showIfClub").removeClass("d-none");
 }
