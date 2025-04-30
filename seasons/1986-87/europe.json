@@ -12,7 +12,7 @@
             "key": "R1",
             "name": "First round",
             "matches": {
-                "ULUX": [
+                "JESH": [
                     {"isEurope":true,"date":"1986-09-16","leg":1,"home":"JESH","away":"BEL:GENT","score":"1-2","season":"1986-87","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First Round","leg":1}},
                     {"isEurope":true,"date":"1986-10-01","leg":2,"home":"BEL:GENT","away":"JESH","score":"1-1","season":"1986-87","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First Round","leg":2},"agg":{"score":"2-3","outcome":"L","team":"JESH"}}
                 ]
