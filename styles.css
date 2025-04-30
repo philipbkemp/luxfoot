@@ -79,6 +79,19 @@ a:hover {
     top: 10px;
 }
 
+/* NAVBAR ****************************************************************************************/
+div.lf-nav {
+    border-bottom: 1px solid #2B6873;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+div.lf-nav a {
+    margin-right: 10px;
+    display: inline-block;
+}
+div.lf-nav a:last-child {
+    margin-right: 0;
+}
 
 /* LIST GROUP ************************************************************************************/
 .soft-list-groups .list-group-item {
