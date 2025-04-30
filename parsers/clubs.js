@@ -23,4 +23,7 @@ $(document).ready(function(){
 
 function parseClub(data) {
     console.log(data);
+
+    $("h1 span.lf").append(" / Clubs");
+    $("h1 span:not(.lf)").html(data.name);
 }
