@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     checkParams();
 
-	if ( urlParams["country"] ) {
+	if ( urlParams["club"] ) {
 
         console.log("TODO: NEED CLUB");
     
@@ -10,6 +10,7 @@ $(document).ready(function(){
 
         $(".placeholder-glow").addClass("d-none");
         $("#show-empty").removeClass("d-none");
+        $("h1 span:not(.lf)").html("Clubs");
 
     }
 	
