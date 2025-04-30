@@ -3,7 +3,7 @@ urlParams = {};
 allTeams = {};
 months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-function checkParams(required) {
+function checkParams(required=[]) {
 	paramsOk = true;
 
 	queryString = window.location.search.replace("?","");
