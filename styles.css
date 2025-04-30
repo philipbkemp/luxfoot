@@ -91,8 +91,7 @@ div.lf-nav a {
     margin-right: 10px;
     display: inline-block;
 }
-div.lf-nav a:last-child,
-div.lf-nav a.float-end {
+div.lf-nav a:first-child {
     margin-right: 0;
 }
 
