@@ -411,6 +411,49 @@ table.winners--table#winners--country tbody tr td:last-child {
     padding: 0;
 }
 
+/* TROPHY CABINET ********************************************************************************/
+.trophy-list .card {
+    align-items: center;
+    padding-top: 10px;
+    border-color: #2b5873;
+    text-decoration: none;
+}
+.trophy-list .card-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('assets/trophy.png');
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5; /* make only the background image semi-transparent */
+    z-index: 1;
+    top: 6px;
+}
+.trophy-list .card-img {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 0.9rem;
+    position: relative;
+    overflow: hidden;
+}
+.trophy-list strong {
+    color: #2b5873;
+}
+.trophy-list p {
+    text-align: center;
+    margin-bottom: 0;
+}
+.trophy-list .winner-box__count {
+    position: unset;
+    width: auto;
+}
+
 /*.badge.badge-titleCount {
 	color: #666;
 	font-style: italic;
