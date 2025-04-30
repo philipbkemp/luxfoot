@@ -4,7 +4,12 @@ $(document).ready(function(){
 
 	if ( urlParams["club"] ) {
 
-        console.log("TODO: NEED CLUB");
+        $.ajax({
+			url: "clubs/"+urlParams["club"]+".json",
+			success: function(data) {
+				parseClub(data);
+			}
+		});
     
     } else {
 
@@ -13,14 +18,9 @@ $(document).ready(function(){
         $("h1 span:not(.lf)").html("Clubs");
 
     }
-	
-	/*	$.ajax({
-			url: "data/teams.json",
-			success: function(data) {
-				parseTeams(data);
-			}
-		});
-
-	}*/
 
 });
+
+function parseClub(data) {
+    console.log(data);
+}
