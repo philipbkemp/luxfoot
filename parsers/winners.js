@@ -46,10 +46,10 @@ function parseSeasons(data) {
     winners = {};
     data.forEach(season=>{
         if ( season.leagues && season.leagues.level_1 && season.leagues.level_1 ) {
-            if ( ! winners[season.leagues.level_1] ) {
-                winners[season.leagues.level_1] = [];
+            if ( ! winners[season.leagues.level_1.winner] ) {
+                winners[season.leagues.level_1.winner] = [];
             }
-            winners[season.leagues.level_1].push( season.season );
+            winners[season.leagues.level_1.winner].push( season.season );
         }
     });
 
@@ -89,7 +89,7 @@ function parseSeasons(data) {
         rowNum++;
     });
     leagueTable.append(leagueBody);
-    clubPanel.append(leagueTable);
+    leaguePanel.append(leagueTable);
 
     $("#theTabContent").append(leaguePanel);
     $("#theTabContent").append(luxCupPanel);
