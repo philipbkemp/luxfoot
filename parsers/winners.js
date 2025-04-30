@@ -159,7 +159,7 @@ function parseSeasons(data) {
         thisYears = $("<TD></TD>").addClass("d-none").addClass("d-sm-table-cell");
         years.forEach(yr=>{
             thisYears.append(
-                $("<A></A>").attr("href","league.html?season="+yr+"&level=1").html(yr)
+                $("<A></A>").attr("href","cup.html?season="+yr+"&comp=cup_luxembourg").html(yr)
             ).append(" ");;
         });
         thisRow.append(thisYears);
@@ -193,7 +193,7 @@ function parseSeasons(data) {
         thisYears = $("<TD></TD>").addClass("d-none").addClass("d-sm-table-cell");
         years.forEach(yr=>{
             thisYears.append(
-                $("<A></A>").attr("href","league.html?season="+yr+"&level=1").html(yr)
+                $("<A></A>").attr("href","cup.html?season="+yr+"&comp=cup_flf").html(yr)
             ).append(" ");;
         });
         thisRow.append(thisYears);
