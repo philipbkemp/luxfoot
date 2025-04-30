@@ -10,7 +10,7 @@ $(document).ready(function(){
 				parseClub(data);
 			},
             error: function(data) {
-                $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load club").insertBefore(".lf-nav");
+                $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load club").insertAfter(".lf-nav");
                 $(".placeholder").hide();
                 $(".displayAfterLoad").removeClass("d-none");
             }
