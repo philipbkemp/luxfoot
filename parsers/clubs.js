@@ -8,7 +8,11 @@ $(document).ready(function(){
 			url: "clubs/"+urlParams["club"]+".json",
 			success: function(data) {
 				parseClub(data);
-			}
+			},
+            error: function(data) {
+                $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load club").insertBefore(".lf-nav");
+                $(".placeholder").hide();
+            }
 		});
     
     } else {
