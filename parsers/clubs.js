@@ -30,9 +30,11 @@ function parseClub(data) {
 
     $("h1 span.lf").append(" / Clubs");
     $("h1 span:not(.lf)").html(data.name);
+    $("title").append(" / " + data.name);
+
     
     // trophies
-    
+
     // standings
 
     // matches
