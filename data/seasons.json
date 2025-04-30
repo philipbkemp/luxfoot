@@ -1694,7 +1694,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1986-87","teams":["AVBG"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1986-87","teams":["JESH"]},
+			"europa_league": {"name":"UEFA Cup",		            	"season":"1986-87","teams":["JESH"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1986-87","teams":["ULUX"]}
 		}
 	},{
