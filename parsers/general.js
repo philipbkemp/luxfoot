@@ -270,8 +270,8 @@ function setTitles(pOne="",pTwo="") {
 	if ( titleParts.length === 1 ) {
 		$("h1 span").html( titleParts[0] );
 	} else if ( titleParts.length === 2 ) {
-		$("h1 span").html( titleParts[1] );
-		$("h1").prepend( $("<SPAN></SPAN>").addClass("lf").html(titleParts[0]) );
+		$("h1 span.lf").html( titleParts[1] );
+		$("h1 span:not(.lf)").html( titleParts[0] );
 	} else if ( titleParts.length === 3 ) {
 		$("h1 span").html( titleParts[2] );
 		$("h1").prepend( $("<SPAN></SPAN>").addClass("lf").html(titleParts[0] + " / " + titleParts[1]) );
