@@ -30,7 +30,7 @@ function parseSeasons(data) {
     luxCupPanel.html("luxembourg cup coming soon");
     flfCupPanel.html("coupe flf coming soon");
 
-    leagueTable = $("<TABLE></TABLE>").addClass("table").addClass("table-hover").addClass("table-sm").attr("id","winners--club").addClass("winners--table");;
+    leagueTable = $("<TABLE></TABLE>").addClass("table").addClass("table-hover").addClass("table-sm").attr("id","winners--league").addClass("winners--table");;
     leagueHead = $("<THEAD></THEAD>");
     leagueHeadRow = $("<TR></TR>")
         .append( $("<TH></TH>").attr("scope","col").addClass("d-none").addClass("d-sm-table-cell").html("") )
@@ -70,7 +70,7 @@ function parseSeasons(data) {
 
         thisClub = $("<TH></TH>").attr("scope","row");
         thisClub.append(
-            $("<A></A>").attr("href","clubs.html?club="+club.toLowerCase()).html(cname)
+            $("<A></A>").attr("href","clubs.html?club="+club[0].toLowerCase()).html(cname)
         );
         thisRow.append(thisClub);
 
