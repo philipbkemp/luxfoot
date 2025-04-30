@@ -344,6 +344,22 @@ table.table--results ul.match-notes {
     margin-right: 7px;
 }
 
+/* TABS ******************************************************************************************/
+.lf-tablist .nav-item button {
+    color: #2b5873;
+    min-width: 150px;
+}
+
+.lf-tablist.nav-tabs,
+.lf-tablist.nav-tabs .nav-link.active,
+.lf-tablist.nav-tabs .nav-link:focus,
+.lf-tablist.nav-tabs .nav-link:hover {
+    border-color: #2b5873;
+}
+
+.lf-tablist.nav-tabs .nav-link.active{
+    border-bottom-color: white;
+}
 /* WINNERS TABLE - CLUBS *************************************************************************/
 table.winners--table thead tr th {
     border-bottom: 3px solid #2b5873;
