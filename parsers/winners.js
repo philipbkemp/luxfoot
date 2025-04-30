@@ -80,7 +80,7 @@ function parseSeasons(data) {
         thisYears = $("<TD></TD>").addClass("d-none").addClass("d-sm-table-cell");
         years.forEach(yr=>{
             thisYears.append(
-                $("<A></A>").attr("href","season.html?season="+yr+"&level=1").html(yr)
+                $("<A></A>").attr("href","league.html?season="+yr+"&level=1").html(yr)
             ).append(" ");;
         });
         thisRow.append(thisYears);
