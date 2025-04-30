@@ -414,40 +414,40 @@ table.winners--table#winners--country tbody tr td:last-child {
 /* TROPHY CABINET ********************************************************************************/
 .trophy-list .card {
     align-items: center;
-    padding-top: 10px;
     border-color: #2b5873;
+    padding-top: 10px;
     text-decoration: none;
 }
 .trophy-list .card-img::before {
-    content: "";
-    position: absolute;
-    inset: 0;
     background: url('assets/trophy.png');
-    background-size: 40px;
-    background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.5; /* make only the background image semi-transparent */
-    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    content: "";
+    inset: 0;
+    opacity: 0.5;
+    position: absolute;
     top: 6px;
+    z-index: 1;
 }
 .trophy-list .card-img {
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    display: flex;
     align-items: center;
-    justify-content: center;
     color: black;
+    display: flex;
     font-size: 0.9rem;
-    position: relative;
+    height: 40px;
+    justify-content: center;
     overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 40px;
 }
 .trophy-list strong {
     color: #2b5873;
 }
 .trophy-list p {
-    text-align: center;
     margin-bottom: 0;
+    text-align: center;
 }
 .trophy-list .winner-box__count {
     position: unset;
