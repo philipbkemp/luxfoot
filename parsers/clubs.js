@@ -12,6 +12,7 @@ $(document).ready(function(){
             error: function(data) {
                 $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load club").insertBefore(".lf-nav");
                 $(".placeholder").hide();
+                $(".displayAfterLoad").removeClass("d-none");
             }
 		});
     
@@ -20,6 +21,7 @@ $(document).ready(function(){
         $(".placeholder-glow").addClass("d-none");
         $("#show-empty").removeClass("d-none");
         $("h1 span:not(.lf)").html("Clubs");
+        $(".displayAfterLoad").removeClass("d-none");
 
     }
 
@@ -40,4 +42,5 @@ function parseClub(data) {
     // matches
 
     $(".placeholder-glow").addClass("d-none");
+    $(".displayAfterLoad").removeClass("d-none");
 }
