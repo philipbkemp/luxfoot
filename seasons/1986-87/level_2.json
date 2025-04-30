@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1986-87",
+    "links": {
+        "next": "1987-88",
+        "prev": "1985-86",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ARIS","CROD","ETZE","FOLA","JWAS","KWRM","MRTZ","SDUD","SPST","UMRT","URUM","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "ARIS", "w": 15, "d": 4, "l": 3, "f": 49, "a": 22, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1987-88", "level": 1, "name" :"National Division"}},
+		{"place": 2, "team": "URUM", "w": 13, "d": 4, "l": 5, "f": 45, "a": 26, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1987-88", "level": 1, "name" :"National Division"}},
+		{"place": 3, "team": "ETZE", "w": 13, "d": 4, "l": 5, "f": 44, "a": 26, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 4, "team": "USDD", "w": 11, "d": 5, "l": 6, "f": 32, "a": 22, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 5, "team": "FOLA", "w": 11, "d": 4, "l": 7, "f": 38, "a": 27, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 6, "team": "MRTZ", "w": 8, "d": 4, "l": 10, "f": 42, "a": 46, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 7, "team": "KWRM", "w": 5, "d": 9, "l": 8, "f": 32, "a": 36, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 8, "team": "UMRT", "w": 8, "d": 3, "l": 11, "f": 42, "a": 54, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 9, "team": "JWAS", "w": 8, "d": 2, "l": 12, "f": 34, "a": 30, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "SPST", "w": 7, "d": 2, "l": 13, "f": 29, "a": 45, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "CROD", "w": 6, "d": 3, "l": 13, "f": 31, "a": 53, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1987-88", "level": 3, "name" :"1. Division"}},
+		{"place": 12, "team": "SDUD", "w": 3, "d": 4, "l": 15, "f": 24, "a": 55, "pts_win": 2, "season": "1986-87", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1987-88", "level": 3, "name" :"1. Division"}}
+    ],
+	"relegation": {
+		"teams": ["CROD","SDUD"],
+		"target": {"season": "1987-88", "level": 3, "name" :"1. Division"}
+	},
+	"promotion": {
+		"teams": ["ARIS","URUM"],
+		"target": {"season": "1987-88", "level": 1, "name" :"National Division"}        
+	}
+}
