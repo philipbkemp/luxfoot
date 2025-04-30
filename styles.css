@@ -84,6 +84,7 @@ div.lf-nav {
     border-bottom: 1px solid #2B6873;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
+    text-align: center;
 }
 div.lf-nav a {
     margin-right: 10px;
