@@ -57,7 +57,7 @@ function parseClub(data) {
     }
 
     // matches
-    /*if ( data.matches ) {
+    if ( data.matches ) {
         $("#theTabs").append(buildTabButton("matches","Head-to-Head",isFirstTab));
         matchesPanel = buildTabPanel("matches",isFirstTab);
 
@@ -65,7 +65,7 @@ function parseClub(data) {
 
         $("#theTabContent").append(matchesPanel);
         isFirstTab = false;
-    }*/
+    }
 
     // europe
     /*if ( data.europe ) {
