@@ -309,6 +309,14 @@ function parseLeague(league) {
 
 		removeKey("playoffs");
 	}
+	if ( league.note ) {
+		standingsPanel.append(
+			$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+				league.notes
+			)
+		);
+		removeKey("note");
+	}
 
 	
 	$("#menu-links").append(

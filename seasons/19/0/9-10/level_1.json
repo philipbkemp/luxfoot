@@ -6,6 +6,7 @@
     },
 	"name": "Klasse A",
 	"teams": ["CROD","GDUD","HLBN","JECT","JESH","NESH","RACL","SCLX","URUM"],
+    "note": "Full standings information missing",
 	"standings": [
         {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
         {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title"},
