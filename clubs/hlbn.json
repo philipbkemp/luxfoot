@@ -1,0 +1,10 @@
+{
+    "id": "HLBN",
+    "name": "US Hollerich/Bonnevoie",
+    "standings": [
+        {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title"}
+    ],
+    "matches": [
+        {"home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"league", "level":1, "name":"Klasse A", "playoff": "title"}, "outcome": "RACL champions"}
+    ]
+}
