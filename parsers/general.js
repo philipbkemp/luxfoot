@@ -168,7 +168,7 @@ function drawMatch(match,highlightWinner=false) {
 			.replace(match.away,allTeams[match.away])
 			;
 		if ( match.target ) {
-			theOutcome = match.outcome
+			theOutcome = theOutcome
 				.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.season+" "+match.target.name+"</a>")
 			;
 		}
