@@ -1,17 +1,7 @@
 {
     "id": "HLBN",
     "name": "US Hollerich/Bonnevoie",
-    "standings": [
-        {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title"},
-        {"place":  2, "team": "HLBN", "w": 2, "d":  2, "l": 2, "f": 10, "a":  7, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A"}
-    ],
-    "matches": [
-        {"home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"league", "level":1, "name":"Klasse A", "playoff": "title"}, "outcome": "RACL champions"},
-        {"home":"SCLX","away":"HLBN","score":"3-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SDIF","away":"HLBN","score":"1-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"HLBN","away":"SCLX","score":"2-2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"HLBN","away":"SDIF","score":"1-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"HLBN","away":"MANC","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"MANC","away":"HLBN","score":"0-3","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}}
+    "trophies": [
+        {"season":"1911-12","league":"level_1","name":"Klasse A","title_count":1}
     ]
 }
