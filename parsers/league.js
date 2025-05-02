@@ -512,18 +512,26 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.teamDivision");
 		}
 
-		thisRow
-			.append( $("<TD></TD>").html(s.place) )
-			.append( $("<TH></TH>").attr("scope","row").html(teamName) )
-			.append( $("<TD></TD>").html(s.w+s.d+s.l) )
-			.append( $("<TD></TD>").html(s.w) )
-			.append( $("<TD></TD>").html(s.d) )
-			.append( $("<TD></TD>").html(s.l) )
-			.append( $("<TD></TD>").html(s.f) )
-			.append( $("<TD></TD>").html(s.a) )
-			.append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
-			.append( $("<TD></TD>").html(s.f-s.a) )
-			;
+		if ( ! s.missing ) {
+			thisRow
+				.append( $("<TD></TD>").html(s.place) )
+				.append( $("<TH></TH>").attr("scope","row").html(teamName) )
+				.append( $("<TD></TD>").html(s.w+s.d+s.l) )
+				.append( $("<TD></TD>").html(s.w) )
+				.append( $("<TD></TD>").html(s.d) )
+				.append( $("<TD></TD>").html(s.l) )
+				.append( $("<TD></TD>").html(s.f) )
+				.append( $("<TD></TD>").html(s.a) )
+				.append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
+				.append( $("<TD></TD>").html(s.f-s.a) )
+				;
+		} else {
+			thisRow
+				.append( $("<TD></TD>").html(s.place) )
+				.append( $("<TH></TH>").attr("scope","row").html(teamName) )
+				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
+				;
+		}
 		
 		if ( s.champion ) {
 			thisRow.addClass("is-champion");
