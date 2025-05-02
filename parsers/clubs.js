@@ -5,27 +5,36 @@ $(document).ready(function(){
 	if ( urlParams["club"] ) {
 
         $.ajax({
-			url: "clubs/"+urlParams["club"]+".json",
-			success: function(data) {
-				parseClub(data);
-			},
-            error: function(data) {
-                $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load club").insertAfter(".lf-nav");
-                $(".placeholder").hide();
-                $(".displayAfterLoad").removeClass("d-none");
+            url: "data/teams.json",
+            success: function(data) {
+                parseTeams(data);
             }
-		});
+        })
     
     } else {
-
+    
         $(".placeholder-glow").addClass("d-none");
         $("#show-empty").removeClass("d-none");
         $("h1 span:not(.lf)").html("Clubs");
         $(".displayAfterLoad").removeClass("d-none");
-
+    
     }
 
 });
+
+function doneParsingTeams() {
+    $.ajax({
+        url: "clubs/"+urlParams["club"]+".json",
+        success: function(data) {
+            parseClub(data);
+        },
+        error: function(data) {
+            $("<DIV></DIV>").addClass("alert").addClass("alert-danger").html("Unable to load club").insertAfter(".lf-nav");
+            $(".placeholder").hide();
+            $(".displayAfterLoad").removeClass("d-none");
+        }
+    });
+}
 
 function parseClub(data) {
     $("h1 span.lf").append(" / Clubs");
@@ -239,6 +248,7 @@ function drawMatches(matches,thisClub) {
             // opp = home ; me = away
             if ( ! opps[m.home] ) {
                 opps[m.home] = {
+                    name: allTeams[m.home],
                     w: 0,
                     d: 0,
                     l: 0,
@@ -257,6 +267,7 @@ function drawMatches(matches,thisClub) {
             // opp = away ; me = home
             if ( ! opps[m.away] ) {
                 opps[m.away] = {
+                    name: allTeams[m.away],
                     w: 0,
                     d: 0,
                     l: 0,
