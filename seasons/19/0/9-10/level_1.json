@@ -1,0 +1,26 @@
+{
+    "level": 1,
+	"season": "1909-10",
+    "links": {
+        "next": "1910-11"
+    },
+	"name": "Klasse A",
+	"teams": ["CROD","GDUD","HLBN","JECT","JESH","NESH","RACL","SCLX","URUM"],
+	"standings": [
+        {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
+        {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title"},
+        {"place": 3, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"},
+        {"place": 4, "team": "JESH", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"},
+        {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"},
+        {"place": 6, "team": "JECT", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"},
+        {"place": 7, "team": "CROD", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"},
+        {"place": 8, "team": "NESH", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"},
+        {"place": 9, "team": "GDUD", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
+    ],
+	"champion": "RACL",
+    "playoffs": {
+        "title": [
+            {"home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"league", "level":1, "name":"Klasse A", "playoff": "title"}, "outcome": "RACL champions"}
+        ]
+    }
+}
