@@ -109,13 +109,14 @@ function drawTrophies(trophies) {
 }
 
 function drawStandings(standings) {
-    tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
+    tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings").addClass("table--standings-history");
 
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
 	theadRow
 		.append( $("<TH></TH>").attr("scope","col").html("") )
-		.append( $("<TH></TH>").attr("scope","col").html("Team") )
+		.append( $("<TH></TH>").attr("scope","col").html("Season") )
+		.append( $("<TH></TH>").attr("scope","col").html("League") )
 		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Played'>P</abbr>") )
 		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Won'>W</abbr>") )
 		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Drawn'>D</abbr>") )
@@ -140,6 +141,7 @@ function drawStandings(standings) {
         if ( ! s.missing ) {
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
+				.append( $("<TH></TH>").attr("scope","row").html(s.season) )
 				.append( $("<TH></TH>").attr("scope","row").html(s.league) )
 				.append( $("<TD></TD>").html(s.w+s.d+s.l) )
 				.append( $("<TD></TD>").html(s.w) )
@@ -153,6 +155,7 @@ function drawStandings(standings) {
 		} else {
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
+				.append( $("<TH></TH>").attr("scope","row").html(s.season) )
 				.append( $("<TH></TH>").attr("scope","row").html(s.league) )
 				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
 				;
@@ -233,7 +236,7 @@ function drawStandings(standings) {
 
 		thisRow.append(thisRowNotes);
         tbody.append(thisRow);
-        
+
     });
 
     tbl.append(thead).append(tbody);
