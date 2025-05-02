@@ -1,0 +1,10 @@
+{
+    "id": "SPOR",
+    "name": "Spora Luxembourg",
+    "trophies": [
+        {"season":"1924-25","league":"level_1","name":"1. Division","title_count":1},
+        {"season":"1927-28","league":"level_1","name":"1. Division","title_count":2},
+        {"season":"1927-28","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1928-29","league":"level_1","name":"1. Division","title_count":3}
+    ]
+}

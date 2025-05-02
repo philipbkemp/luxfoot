@@ -2,6 +2,10 @@
     "id": "HLBN",
     "name": "US Hollerich/Bonnevoie",
     "trophies": [
-        {"season":"1911-12","league":"level_1","name":"Klasse A","title_count":1}
+        {"season":"1911-12","league":"level_1","name":"Klasse A","title_count":1},
+        {"season":"1913-14","league":"level_1","name":"1. Division","title_count":2},
+        {"season":"1914-15","league":"level_1","name":"1. Division","title_count":3},
+        {"season":"1915-16","league":"level_1","name":"1. Division","title_count":4},
+        {"season":"1916-17","league":"level_1","name":"1. Division","title_count":5}
     ]
 }

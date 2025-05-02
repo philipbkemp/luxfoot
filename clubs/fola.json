@@ -1,0 +1,13 @@
+{
+    "id": "FOLA",
+    "name": "Fola Esch",
+    "trophies": [
+        {"season":"1917-18","league":"level_1","name":"1. Division","title_count":1},
+        {"season":"1919-20","league":"level_1","name":"1. Division","title_count":2},
+        {"season":"1921-22","league":"level_1","name":"1. Division","title_count":3},
+        {"season":"1922-23","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1923-24","league":"level_1","name":"1. Division","title_count":4},
+        {"season":"1923-24","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"1929-30","league":"level_1","name":"1. Division","title_count":5}
+    ]
+}

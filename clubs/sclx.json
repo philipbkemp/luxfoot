@@ -2,6 +2,7 @@
     "id": "SCLX",
     "name": "SC Luxembourg",
     "trophies": [
-        {"season":"1910-11","league":"level_1","name":"Klasse A","title_count":1}
+        {"season":"1910-11","league":"level_1","name":"Klasse A","title_count":1},
+        {"season":"1918-19","league":"level_1","name":"1. Division","title_count":2}
     ]
 }

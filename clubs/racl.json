@@ -2,6 +2,7 @@
     "id": "RACL",
     "name": "Racing Club Luxembourg",
     "trophies": [
-        {"season":"1909-10","league":"level_1","name":"Klasse A","title_count":1}
+        {"season":"1909-10","league":"level_1","name":"Klasse A","title_count":1},
+        {"season":"1921-22","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
     ]
 }

@@ -1,0 +1,13 @@
+{
+    "id": "RBDF",
+    "name": "Red Boys Differdange",
+    "trophies": [
+        {"season":"1922-23","league":"level_1","name":"1. Division","title_count":1},
+        {"season":"1924-25","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1925-26","league":"level_1","name":"1. Division","title_count":2},
+        {"season":"1925-26","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"1926-27","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"1928-29","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
+        {"season":"1929-30","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5}
+    ]
+}
