@@ -238,7 +238,7 @@
 			    {"missing":true,"season": "1929-30", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "EGWM"},
 				{"missing":true,"season": "1929-30", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "STET"}
 			]},
-			"level_4": {"season": "1929-30", "level":  4, "name": "3. Division", "series": [
+			"level_4": {"missing": true, "season": "1929-30", "level":  4, "name": "3. Division", "series": [
 				{"missing":true,"season": "1929-30", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "RSML"},
 				{"missing":true,"season": "1929-30", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
 			]}
