@@ -1,6 +1,6 @@
 {
     "id": "RACL",
-    "name": "Racing Luxembourg",
+    "name": "Racing Club Luxembourg",
     "standings": [
         {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1}
     ],
