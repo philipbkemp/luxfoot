@@ -227,7 +227,7 @@ function drawMatches(matches,thisClub) {
         result = "";
         if ( homeScore > awayScore ) {
             result = "h";
-        } else if ( homeScore < awayscore ) {
+        } else if ( homeScore < awayScore ) {
             result = "a";
         } else if ( homeScore === awayScore ) {
             result = "d";
