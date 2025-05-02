@@ -1,0 +1,15 @@
+{
+    "id": "MANC",
+    "name": "Mansfeldia Clausen",
+    "standings": [
+        {"place":  2, "team": "MANC", "w": 0, "d":  0, "l": 6, "f":  1, "a": 15, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klass A"}
+    ],
+    "matches": [
+        {"home":"SCLX","away":"MANC","score":"4-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"SDIF","away":"MANC","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"HLBN","away":"MANC","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"MANC","away":"SCLX","score":"0-2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"MANC","away":"SDIF","score":"0-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"MANC","away":"HLBN","score":"0-3","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}}
+    ]
+}

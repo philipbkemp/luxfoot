@@ -1,0 +1,16 @@
+{
+    "id": "SDIF",
+    "name": "SC Differdange",
+    "standings": [
+        {"place":  2, "team": "SDIF", "w": 4, "d":  1, "l": 1, "f":  8, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klass A", "playoff": "title"}
+    ],
+    "matches": [
+        {"home":"SCLX","away":"SDIF","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A", "playoff": "title"}},
+        {"home":"SCLX","away":"SDIF","score":"3-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"SDIF","away":"SCLX","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"SDIF","away":"HLBN","score":"1-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"SDIF","away":"MANC","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"HLBN","away":"SDIF","score":"1-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}},
+        {"home":"MANC","away":"SDIF","score":"0-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klass A"}}
+    ]
+}
