@@ -7,6 +7,6 @@
     "matches": [
     ],
     "trophies": [
-        {"season":"1909-10","cup":"league","name":"Klasse A","title_count":1}
+        {"season":"1909-10","league":"level_1","name":"Klasse A","title_count":1}
     ]
 }
