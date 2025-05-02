@@ -290,7 +290,6 @@ function drawMatches(matches,thisClub) {
 
     const sortedOpps = Object.entries(opps).sort(([, a], [, b]) => a.name.localeCompare(b.name));
 
-
     tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
 
 	thead = $("<THEAD></THEAD>");
@@ -312,10 +311,14 @@ function drawMatches(matches,thisClub) {
     
     tbody = $("<TBODY></TBODY>");
 
-    sortedOpps.forEach(opp=>{
+    sortedOpps.forEach(oppObj=>{
         thisRow = $("<TR></TR>");
         thisRowNotes = $("<TD></TD>");
 
+        oppKey = oppObj[0];
+        thisRow.attr("id",oppKey);
+
+        opp = oppObj[1];
         thisRow
             .append( $("<TD></TD>").html("") )
             .append( $("<TH></TH>").attr("scope","row").html(opp.name) )
