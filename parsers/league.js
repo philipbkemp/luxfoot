@@ -531,6 +531,7 @@ function buildStandings(standings,ptsWin=3) {
 				.append( $("<TH></TH>").attr("scope","row").html(teamName) )
 				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
 				;
+			removeKey("standings.missing");
 		}
 		
 		if ( s.champion ) {
