@@ -135,6 +135,8 @@ function drawStandings(standings) {
         thisRow = $("<TR></TR>");
         thisRowNotes = $("<TD></TD>");
 
+        ptsWin = s.pts_win ? s.pts_win : 3;
+
         if ( ! s.missing ) {
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
