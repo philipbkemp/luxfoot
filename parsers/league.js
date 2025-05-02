@@ -320,7 +320,7 @@ function parseLeague(league) {
 
 	
 	$("#menu-links").append(
-		$("<A></A>").attr("href","season.html?season="+league.season).html("Season")
+		$("<A></A>").attr("href","season.html?season="+league.season).html("Season").addClass("float-end")
 	);
 	if ( league.links ) {
 		linkKeys = Object.keys(league.links);
@@ -328,11 +328,11 @@ function parseLeague(league) {
 			linkKeys[i] = "links." + linkKeys[i];
 		}
 		addKeys(linkKeys);
-		if ( league.links.next ) {
+		if ( league.links.down ) {
 			$("#menu-links").append(
-				$("<A></A>").attr("href","league.html?season="+league.links.next+"&level="+league.level).html("Next")
+				$("<A></A>").attr("href","league.html?season="+league.season+"&level="+league.links.down).html("Down")
 			);
-			removeKey("links.next");
+			removeKey("links.down");
 		}
 		if ( league.links.prev ) {
 			$("#menu-links").append(
@@ -340,17 +340,17 @@ function parseLeague(league) {
 			);
 			removeKey("links.prev");
 		}
+		if ( league.links.next ) {
+			$("#menu-links").append(
+				$("<A></A>").attr("href","league.html?season="+league.links.next+"&level="+league.level).html("Next")
+			);
+			removeKey("links.next");
+		}
 		if ( league.links.up ) {
 			$("#menu-links").append(
 				$("<A></A>").attr("href","league.html?season="+league.season+"&level="+league.links.up).html("Up")
 			);
 			removeKey("links.up");
-		}
-		if ( league.links.down ) {
-			$("#menu-links").append(
-				$("<A></A>").attr("href","league.html?season="+league.season+"&level="+league.links.down).html("Down")
-			);
-			removeKey("links.down");
 		}
 		removeKey("links");
 	}
