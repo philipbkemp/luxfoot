@@ -217,9 +217,11 @@ table.table--standings tbody tr td:last-child abbr.faux-link {
     cursor: help;
 }
 
-table.table--standings.table--standings-history thead tr th:nth-of-type(2),
+table.table--standings.table--standings-history thead tr th:nth-of-type(2) {
+    width: 100px;
+}
 table.table--standings.table--standings-history thead tr th:nth-of-type(3) {
-    width: 175px;
+    width: 250px;
     text-align: start;
 }
 
