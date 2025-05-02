@@ -47,6 +47,11 @@ a:hover {
 		width: 10%;
 	}
 }
+table th a {
+    display: block;
+    padding: 0 5px;
+    text-decoration: none;
+}
 
 .btn-outline-dark {
 	border-color: #2b5873;

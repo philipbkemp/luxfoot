@@ -147,11 +147,16 @@ function drawStandings(standings) {
 
         ptsWin = s.pts_win ? s.pts_win : 3;
 
+        seasonLink = $("<A></A>")
+            .attr("href","league.html?season="+s.season+"&level="+s.level)
+            .html(s.league)
+            ;
+
         if ( ! s.missing ) {
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
 				.append( $("<TH></TH>").attr("scope","row").html(s.season) )
-				.append( $("<TH></TH>").attr("scope","row").html(s.league) )
+				.append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
 				.append( $("<TD></TD>").html(s.w+s.d+s.l) )
 				.append( $("<TD></TD>").html(s.w) )
 				.append( $("<TD></TD>").html(s.d) )
@@ -165,7 +170,7 @@ function drawStandings(standings) {
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
 				.append( $("<TH></TH>").attr("scope","row").html(s.season) )
-				.append( $("<TH></TH>").attr("scope","row").html(s.league) )
+				.append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
 				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
 				;
 			removeKey("standings.missing");
