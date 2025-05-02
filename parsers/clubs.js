@@ -218,7 +218,7 @@ function drawStandings(standings) {
     return tbl;
 }
 
-function drawMatches(matches,thisTeam) {
+function drawMatches(matches,thisClub) {
     opps = {};
     matches.forEach(m=>{
         scoreParts = m.score.split("-");
