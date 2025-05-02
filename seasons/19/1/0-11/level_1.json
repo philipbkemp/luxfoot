@@ -17,7 +17,7 @@
 	"champion": "SCLX",
     "playoffs": {
         "title": [
-            {"home":"SCLX","away":"SDIF","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A", "playoff": "title"}}
+            {"date": "1911-04-09","home":"SCLX","away":"SDIF","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A", "playoff": "title"}, "outcome": "SCLX champions"}
         ]
     },
 	"matches": [
