@@ -2,7 +2,8 @@
     "id": "RACL",
     "name": "Racing Club Luxembourg",
     "standings": [
-        {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1}
+        {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
+        {"place": 7, "team": "RACL", "w": 4, "d": 2, "l": 8, "f": 23, "a": 28, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1921-22", "level": 2, "name": "The Promotion"}}
     ],
     "matches": [
     ],
