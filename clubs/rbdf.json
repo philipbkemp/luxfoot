@@ -8,6 +8,14 @@
         {"season":"1925-26","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
         {"season":"1926-27","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
         {"season":"1928-29","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
-        {"season":"1929-30","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5}
+        {"season":"1929-30","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
+        {"season":"1930-31","league":"level_1","name":"1. Division","title_count":3},
+        {"season":"1930-31","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":6},
+        {"season":"1931-32","league":"level_1","name":"1. Division","title_count":4},
+        {"season":"1932-33","league":"level_1","name":"Honour Division","title_count":5},
+        {"season":"1933-34","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7},
+        {"season":"1935-36","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":8},
+        {"season":"1940-41","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":9},
+        {"season":"1945-46","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ]
 }

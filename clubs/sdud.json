@@ -1,0 +1,14 @@
+{
+    "id": "SDUD",
+    "name": "Stade Dudelange",
+    "trophies": [
+        {"season":"1937-38","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1938-39","league":"level_1","name":"Honour Division","title_count":1},
+        {"season":"1939-40","league":"level_1","name":"Honour Division","title_count":2},
+        {"season":"1944-45","cup":"cup_liberation","name":"Liberation Cup","title_count":1},
+        {"season":"1945-46","league":"level_1","name":"Honour Division","title_count":3},
+        {"season":"1946-47","league":"level_1","name":"Honour Division","title_count":4},
+        {"season":"1947-48","league":"level_1","name":"Honour Division","title_count":5},
+        {"season":"1947-48","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
+    ]
+}

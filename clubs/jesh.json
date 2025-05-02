@@ -2,6 +2,10 @@
     "id": "JESH",
     "name": "Jeunesse Esch",
     "trophies": [
-        {"season":"1920-21","league":"level_1","name":"1. Division","title_count":1}
+        {"season":"1920-21","league":"level_1","name":"1. Division","title_count":1},
+        {"season":"1934-35","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1936-37","league":"level_1","name":"Honour Division","title_count":2},
+        {"season":"1936-37","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"1945-46","league":"level_1","name":"1. Division","title_count":3}
     ]
 }

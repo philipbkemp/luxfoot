@@ -1,0 +1,9 @@
+{
+    "id": "PRON",
+    "name": "Progrès Niederkorn",
+    "trophies": [
+        {"season":"1932-33","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1944-45","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"1946-47","cup":"cup_flf","name":"Coupe FLF","title_count":1}
+    ]
+}

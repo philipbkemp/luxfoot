@@ -1,0 +1,8 @@
+{
+    "id": "USDD",
+    "name": "US Dudelange",
+    "trophies": [
+        {"season":"1938-39","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},        
+        {"season":"1939-40","cup":"cup_flf","name":"Coupe FLF","title_count":1}
+    ]
+}
