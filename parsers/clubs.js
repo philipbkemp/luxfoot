@@ -232,6 +232,8 @@ function drawStandings(standings) {
 		}
 
 		thisRow.append(thisRowNotes);
+        tbody.append(thisRow);
+        
     });
 
     tbl.append(thead).append(tbody);
