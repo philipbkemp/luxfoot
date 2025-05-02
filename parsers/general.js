@@ -344,3 +344,16 @@ function buildTabPanel(code,active=false) {
 
 	return panel;
 }
+
+function seasonPath(season) {
+	s = season.split("-");
+	s[0] = s[0].split("");
+
+	parts = [
+		s[0][0]+""+s[0][1],
+		s[0][2],
+		s[0][3]+"-"+s[1]
+	];
+
+	return parts.join("/");
+}

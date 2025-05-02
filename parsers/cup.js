@@ -19,7 +19,7 @@ function doneParsingTeams() {
 	comp = urlParams.comp;
 
 	$.ajax({
-		url: "seasons/"+urlParams.season+"/"+comp+".json",
+		url: "seasons/"+seasonPath(urlParams.season)+"/"+comp+".json",
 		success: function(data) {
 			parseCup(data);
 		},

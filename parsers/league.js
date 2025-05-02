@@ -22,7 +22,7 @@ function doneParsingTeams() {
 	}
 
 	$.ajax({
-		url: "seasons/"+urlParams.season+"/level_"+level+".json",
+		url: "seasons/"+seasonPath(urlParams.season)+"/level_"+level+".json",
 		success: function(data) {
 			parseLeague(data);
 		},
