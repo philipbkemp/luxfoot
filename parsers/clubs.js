@@ -173,9 +173,8 @@ function drawStandings(standings) {
 				
 				if ( ! s.playoff ) {
 					thisRowNotes.append(
-						$("<A></A>")
+						$("<SPAN></SPAN>")
 							.html(["Promoted to",s.target.season,s.target.name].join(" "))
-							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
 					);
 				}
 			}
@@ -187,9 +186,8 @@ function drawStandings(standings) {
 
 				if ( ! s.playoff ) {
 					thisRowNotes.append(
-						$("<A></A>")
+						$("<SPAN></SPAN>")
 							.html(["Relegated to",s.target.season,s.target.name].join(" "))
-							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
 					);
 				}
 			}
@@ -204,30 +202,6 @@ function drawStandings(standings) {
 					.html("Removed")
 					.addClass("faux-link")
 			);
-		}
-
-		if ( s.playoff ) {
-			theText = "";
-			switch ( s.playoff ) {
-				case "downup":
-				case "relegation":
-					theText = "Relegation play-off"; break;
-				case "league_promotionplayoff":
-				case "promotion":
-				case "updown":
-					theText = "Promotion play-off"; break;
-				case "league_promotion_playoff_a":
-				case "league_promotion_playoff_b":
-					theText = "Play-off";
-					break;
-				case "title":
-					theText = "Title Decider";
-					break;
-			}
-			if ( theText !== "" ) {
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
-				thisRow.addClass("is-playoff_"+s.playoff);
-			}
 		}
 
 		if ( s.title_count ) {
