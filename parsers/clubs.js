@@ -291,7 +291,7 @@ function drawMatches(matches,thisClub) {
     const sortedOpps = Object.entries(opps).sort(([, a], [, b]) => a.name.localeCompare(b.name));
 
 
-    tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings"));
+    tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
 
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
