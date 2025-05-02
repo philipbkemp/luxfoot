@@ -288,7 +288,52 @@ function drawMatches(matches,thisClub) {
         }
     });
 
-    console.log(opps);
+    const sortedOpps = Object.entries(opps).sort(([, a], [, b]) => a.name.localeCompare(b.name));
 
-    return "coming soon...";
+
+    tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings"));
+
+	thead = $("<THEAD></THEAD>");
+	theadRow = $("<TR></TR>");
+	theadRow
+		.append( $("<TH></TH>").attr("scope","col").html("") )
+		.append( $("<TH></TH>").attr("scope","col").html("Club") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Played'>P</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Won'>W</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Drawn'>D</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Lost'>L</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Goals For'>F</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Goals Against'>A</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Points'>Pts</abbr>") )		
+		.append( $("<TH></TH>").attr("scope","col").html("<abbr title='Goal Difference'>GD</abbr>") )
+		.append( $("<TH></TH>").attr("scope","col").html("") )
+		;
+	thead.append(theadRow);
+    
+    tbody = $("<TBODY></TBODY>");
+
+    sortedOpps.forEach(opp=>{
+        thisRow = $("<TR></TR>");
+        thisRowNotes = $("<TD></TD>");
+
+        thisRow
+            .append( $("<TD></TD>").html("") )
+            .append( $("<TH></TH>").attr("scope","row").html(opp.name) )
+            .append( $("<TD></TD>").html(opp.w+opp.d+opp.l) )
+            .append( $("<TD></TD>").html(opp.w) )
+            .append( $("<TD></TD>").html(opp.d) )
+            .append( $("<TD></TD>").html(opp.l) )
+            .append( $("<TD></TD>").html(opp.f) )
+            .append( $("<TD></TD>").html(opp.a) )
+            .append( $("<TD></TD>").html((opp.w*3)+opp.d) )
+            .append( $("<TD></TD>").html(opp.f-opp.a) )
+            ;
+
+        thisRow.append(thisRowNotes);
+        tbody.append(thisRow);
+    });
+
+    tbl.append(thead).append(tbody);
+
+    return tbl;
 }
