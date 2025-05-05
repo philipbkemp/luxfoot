@@ -49,7 +49,7 @@ function parseCup(cup) {
 		}
 		if ( cup.links.prev ) {
 			$("#menu-links").append(
-				$("<A></A>").attr("href","cup.html?season="+cup.links.prev+"&level="+urlParams.comp).html("Previous")
+				$("<A></A>").attr("href","cup.html?season="+cup.links.prev+"&comp="+urlParams.comp).html("Previous")
 			);
 			removeKey("links.prev");
 		}
