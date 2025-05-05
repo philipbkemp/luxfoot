@@ -127,9 +127,9 @@ function drawMatch(match,highlightWinner=false) {
 	}
 	if ( match.replay ) {
 		matchScore.append( $("<BR />") );
-		matchScore.append( match.replay );
+		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("Match replayed") );
 		matchScore.append( $("<BR />") );
-		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("replay") );
+		matchScore.append( match.replay );
 		
 		removeKey("match.replay");
 	}
