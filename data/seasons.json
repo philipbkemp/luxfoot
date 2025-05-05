@@ -1749,7 +1749,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1988-89", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"missing":true, "season": "1988-89", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1988-89","teams":["JESH"]},
@@ -1811,7 +1811,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1990-91", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"missing":true, "season": "1990-91", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 9, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1990-91","teams":["ULUX"]},
@@ -1942,7 +1942,7 @@
 	},{
 		"season": "1995-96",
 		"leagues": {
-			"level_1": {"missing":true, "season": "1995-96", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 24},
+			"level_1": {"missing":true, "season": "1995-96", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 23},
 			"level_2": {"missing":true, "season": "1995-96", "level": 2, "name": "Division of Honour", "winner": "HOBS"},
 			"level_3": {"missing":true, "season": "1995-96", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1995-96", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "TSVG"},
@@ -1962,7 +1962,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1995-96", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 11, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"missing":true, "season": "1995-96", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1995-96","teams":["JESH","AVBG"]},
@@ -1971,7 +1971,7 @@
 	},{
 		"season": "1996-97",
 		"leagues": {
-			"level_1": {"missing":true, "season": "1996-97", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 25, "double": true},
+			"level_1": {"missing":true, "season": "1996-97", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 24, "double": true},
 			"level_2": {"missing":true, "season": "1996-97", "level": 2, "name": "Division of Honour", "winner": "RBDF"},
 			"level_3": {"missing":true, "season": "1996-97", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1996-97", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "SWFT"},
@@ -1991,7 +1991,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1996-97", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 11, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"missing":true, "season": "1996-97", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1996-97","teams":["JESH","CGRV"]},
@@ -2000,7 +2000,7 @@
 	},{
 		"season": "1997-98",
 		"leagues": {
-			"level_1": {"missing":true, "season": "1997-98", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 26},
+			"level_1": {"missing":true, "season": "1997-98", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 25},
 			"level_2": {"missing":true, "season": "1997-98", "level": 2, "name": "Division of Honour", "winner": "ARIS"},
 			"level_3": {"missing":true, "season": "1997-98", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1997-98", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "KWRM"},
@@ -2030,7 +2030,7 @@
 	},{
 		"season": "1998-99",
 		"leagues": {
-			"level_1": {"season": "1998-99", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 27, "double": true},
+			"level_1": {"season": "1998-99", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 26, "double": true},
 			"level_2": {"missing":true, "season": "1998-99", "level": 2, "name": "Division of Honour", "winner": "URUM"},
 			"level_3": {"missing":true, "season": "1998-99", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1998-99", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "YBDK"},
@@ -2050,7 +2050,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1998-99", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 12, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"missing":true, "season": "1998-99", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 11, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1998-99","teams":["JESH"]},
@@ -2078,7 +2078,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1999-00", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 13, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"missing":true, "season": "1999-00", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 12, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1999-00","teams":["JESH"]},
@@ -2169,7 +2169,7 @@
 	},{
 		"season": "2003-04",
 		"leagues": {
-			"level_1": {"missing":true, "season": "2003-04", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 28},
+			"level_1": {"missing":true, "season": "2003-04", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 27},
 			"level_2": {"missing":true, "season": "2003-04", "level": 2, "name": "Division of Honour", "winner": "ALLX"},
 			"level_3": {"missing":true, "season": "2003-04", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2003-04", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "UNMW"},
@@ -2321,7 +2321,7 @@
 	},{
 		"season": "2009-10",
 		"leagues": {
-			"level_1": {"missing":true, "season": "2009-10", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 29},
+			"level_1": {"missing":true, "season": "2009-10", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 28},
 			"level_2": {"missing":true, "season": "2009-10", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
 			"level_3": {"missing":true, "season": "2009-10", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2009-10", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "GBHT"},
@@ -2414,7 +2414,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "2012-13", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_luxembourg": {"missing":true, "season": "2012-13", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 13, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2012-13", "name": "Coupe FLF", "winner": "OVND", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
 		},
 		"europe": {

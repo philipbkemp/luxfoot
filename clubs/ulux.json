@@ -11,6 +11,12 @@
         {"season":"1968-69","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
         {"season":"1969-70","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":6},
         {"season":"1970-71","league":"level_1","name":"National Division","title_count":3},
-        {"season":"1985-86","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7}
+        {"season":"1985-86","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7},
+        {"season":"1988-89","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":8},
+        {"season":"1989-90","league":"level_1","name":"National Division","title_count":4},
+        {"season":"1990-91","league":"level_1","name":"National Division","title_count":5},
+        {"season":"1990-91","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":9},
+        {"season":"1991-92","league":"level_1","name":"National Division","title_count":6},
+        {"season":"1995-96","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":10}
     ]
 }
