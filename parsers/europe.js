@@ -63,7 +63,7 @@ function parseEuropeanCompetition(comp) {
     removeKey("name");
 
     $("#menu-links").append(
-		$("<A></A>").addClass("p-2").attr("href","season.html?season="+comp.season).html("Season overview")
+		$("<A></A>").addClass("p-2").attr("href","season.html?season="+comp.season).html("Season").addClass("float-end")
 	);
 	if ( comp.links ) {
 		linkKeys = Object.keys(comp.links);
@@ -73,13 +73,13 @@ function parseEuropeanCompetition(comp) {
 		addKeys(linkKeys);
 		if ( comp.links.next ) {
 			$("#menu-links").append(
-				$("<A></A>").addClass("p-2").attr("href","europe.html?season="+comp.links.next+"&comp="+urlParams.comp).html("Next season")
+				$("<A></A>").addClass("p-2").attr("href","europe.html?season="+comp.links.next+"&comp="+urlParams.comp).html("Next")
 			);
 			removeKey("links.next");
 		}
 		if ( comp.links.prev ) {
 			$("#menu-links").append(
-				$("<A></A>").addClass("p-2").attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous season")
+				$("<A></A>").addClass("p-2").attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous")
 			);
 			removeKey("links.prev");
 		}
