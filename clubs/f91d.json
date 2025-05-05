@@ -2,6 +2,17 @@
     "id": "F91D",
     "name": "F91 Dudelange",
     "trophies": [
-        {"season":"1999-00","league":"level_1","name":"National Division","title_count":1}
+        {"season":"1999-00","league":"level_1","name":"National Division","title_count":1},
+        {"season":"2000-01","league":"level_1","name":"National Division","title_count":2},
+        {"season":"2001-02","league":"level_1","name":"National Division","title_count":3},
+        {"season":"2003-04","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"2004-05","league":"level_1","name":"National Division","title_count":4},
+        {"season":"2005-06","league":"level_1","name":"National Division","title_count":5},
+        {"season":"2005-06","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"2006-07","league":"level_1","name":"National Division","title_count":6},
+        {"season":"2006-07","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"2007-08","league":"level_1","name":"National Division","title_count":7},
+        {"season":"2008-09","league":"level_1","name":"National Division","title_count":8},
+        {"season":"2008-09","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4}
     ]
 }

@@ -39,6 +39,7 @@
         {"season":"1997-98","league":"level_1","name":"National Division","title_count":25},
         {"season":"1998-99","league":"level_1","name":"National Division","title_count":26},
         {"season":"1998-99","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":11},
-        {"season":"1999-00","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":12}
+        {"season":"1999-00","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":12},
+        {"season":"2003-04","league":"level_1","name":"National Division","title_count":27}
     ]
 }

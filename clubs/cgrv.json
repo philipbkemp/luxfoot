@@ -3,6 +3,9 @@
     "name": "CS Grevenmacher",
     "trophies": [
         {"season":"1994-95","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
-        {"season":"1997-98","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
+        {"season":"1997-98","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"2002-03","league":"level_1","name":"National Division","title_count":1},
+        {"season":"2002-03","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"2007-08","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4}
     ]
 }
