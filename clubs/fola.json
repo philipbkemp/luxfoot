@@ -9,6 +9,9 @@
         {"season":"1923-24","league":"level_1","name":"1. Division","title_count":4},
         {"season":"1923-24","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
         {"season":"1929-30","league":"level_1","name":"1. Division","title_count":5},
-        {"season":"1954-55","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3}
+        {"season":"1954-55","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"2012-13","league":"level_1","name":"National Division","title_count":6},
+        {"season":"2014-15","league":"level_1","name":"National Division","title_count":7},
+        {"season":"2020-21","league":"level_1","name":"National Division","title_count":8}
     ]
 }

@@ -16,6 +16,15 @@
         {"season":"2008-09","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
         {"season":"2010-11","league":"level_1","name":"National Division","title_count":9},
         {"season":"2011-12","league":"level_1","name":"National Division","title_count":10},
-        {"season":"2011-12","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5}
+        {"season":"2011-12","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
+        {"season":"2013-14","league":"level_1","name":"National Division","title_count":11},
+        {"season":"2015-16","league":"level_1","name":"National Division","title_count":12},
+        {"season":"2015-16","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":6},
+        {"season":"2016-17","league":"level_1","name":"National Division","title_count":13},
+        {"season":"2016-17","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7},
+        {"season":"2017-18","league":"level_1","name":"National Division","title_count":14},
+        {"season":"2018-19","league":"level_1","name":"National Division","title_count":15},
+        {"season":"2018-19","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":8},
+        {"season":"2021-22","league":"level_1","name":"National Division","title_count":16}
     ]
 }

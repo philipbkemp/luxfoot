@@ -3,6 +3,11 @@
     "name": "Differdange 03",
     "trophies": [
         {"season":"2009-10","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
-        {"season":"2010-11","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
+        {"season":"2010-11","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"2013-14","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"2014-15","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
+        {"season":"2022-23","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
+        {"season":"2023-24","league":"level_1","name":"National Division","title_count":1},
+        {"season":"2024-25","league":"level_1","name":"National Division","title_count":2}
     ]
 }

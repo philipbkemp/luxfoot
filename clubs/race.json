@@ -1,0 +1,8 @@
+{
+    "id": "RACE",
+    "name": "Racing Union",
+    "trophies": [
+        {"season":"2017-18","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"2021-22","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
+    ]
+}

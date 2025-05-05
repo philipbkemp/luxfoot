@@ -2,6 +2,7 @@
     "id": "SWFT",
     "name": "Swift Hesperange",
     "trophies": [
-        {"season":"1989-90","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+        {"season":"1989-90","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"2022-23","league":"level_1","name":"National Division","title_count":1}
     ]
 }
