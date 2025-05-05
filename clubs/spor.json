@@ -2,16 +2,24 @@
     "id": "SPOR",
     "name": "Spora Luxembourg",
     "trophies": [
-        {"season":"1924-25","league":"level_1","name":"1. Division","title_count":1},
-        {"season":"1927-28","league":"level_1","name":"1. Division","title_count":2},
+        {"season":"1924-25","league":"level_1","name":"1. Division","title_count": 1},
+        {"season":"1927-28","league":"level_1","name":"1. Division","title_count": 2},
         {"season":"1927-28","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
-        {"season":"1928-29","league":"level_1","name":"1. Division","title_count":3},
+        {"season":"1928-29","league":"level_1","name":"1. Division","title_count": 3},
         {"season":"1931-32","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
-        {"season":"1933-34","league":"level_1","name":"Honour Division","title_count":4},
-        {"season":"1934-35","league":"level_1","name":"Honour Division","title_count":5},
-        {"season":"1935-36","league":"level_1","name":"Honour Division","title_count":6},
-        {"season":"1937-38","league":"level_1","name":"Honour Division","title_count":7},
+        {"season":"1933-34","league":"level_1","name":"Honour Division","title_count": 4},
+        {"season":"1934-35","league":"level_1","name":"Honour Division","title_count": 5},
+        {"season":"1935-36","league":"level_1","name":"Honour Division","title_count": 6},
+        {"season":"1937-38","league":"level_1","name":"Honour Division","title_count": 7},
         {"season":"1938-39","cup":"cup_flf","name":"Coupe FLF","title_count":1},
-        {"season":"1939-40","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3}
+        {"season":"1939-40","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"1948-49","league":"level_1","name":"Honour Division","title_count": 8},
+        {"season":"1949-50","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
+        {"season":"1955-56","league":"level_1","name":"Honour Division","title_count": 9},
+        {"season":"1956-57","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
+        {"season":"1960-61","league":"level_1","name":"National Division","title_count":10},
+        {"season":"1964-65","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":6},
+        {"season":"1965-66","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7},
+        {"season":"1979-80","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":8}
     ]
 }

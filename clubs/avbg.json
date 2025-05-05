@@ -1,0 +1,13 @@
+{
+    "id": "AVBG",
+    "name": "Avenir Beggen",
+    "trophies": [
+        {"season":"1968-69","league":"level_1","name":"National Division","title_count":1},
+        {"season":"1981-82","league":"level_1","name":"National Division","title_count":2},
+        {"season":"1982-83","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1983-84","league":"level_1","name":"National Division","title_count":3},
+        {"season":"1983-84","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"1985-86","league":"level_1","name":"National Division","title_count":4},
+        {"season":"1986-87","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3}
+    ]
+}

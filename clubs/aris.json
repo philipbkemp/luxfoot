@@ -1,0 +1,10 @@
+{
+    "id": "ARIS",
+    "name": "Aris Bonnevoie",
+    "trophies": [
+        {"season":"1963-64","league":"level_1","name":"National Division","title_count":1},
+        {"season":"1965-66","league":"level_1","name":"National Division","title_count":2},
+        {"season":"1966-67","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1971-72","league":"level_1","name":"National Division","title_count":3}
+    ]
+}

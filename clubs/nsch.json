@@ -1,0 +1,8 @@
+{
+    "id": "NSCH",
+    "name": "National Schifflange",
+    "trophies": [
+        {"season":"1951-52","league":"level_1","name":"Honour Division","title_count":1},
+        {"season":"1959-60","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+    ]
+}

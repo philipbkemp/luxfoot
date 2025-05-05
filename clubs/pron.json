@@ -4,6 +4,11 @@
     "trophies": [
         {"season":"1932-33","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
         {"season":"1944-45","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
-        {"season":"1946-47","cup":"cup_flf","name":"Coupe FLF","title_count":1}
+        {"season":"1946-47","cup":"cup_flf","name":"Coupe FLF","title_count":1},
+        {"season":"1952-53","league":"level_1","name":"Honour Division","title_count":1},
+        {"season":"1976-77","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"1977-78","league":"level_1","name":"National Division","title_count":2},
+        {"season":"1977-78","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
+        {"season":"1980-81","league":"level_1","name":"National Division","title_count":3}
     ]
 }

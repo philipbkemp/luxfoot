@@ -3,6 +3,14 @@
     "name": "Union Luxembourg",
     "trophies": [
         {"season":"1926-27","league":"level_1","name":"1. Division","title_count":1},
-        {"season":"1946-47","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+        {"season":"1946-47","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
+        {"season":"1958-59","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2},
+        {"season":"1961-62","league":"level_1","name":"National Division","title_count":2},
+        {"season":"1962-63","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
+        {"season":"1963-64","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
+        {"season":"1968-69","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
+        {"season":"1969-70","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":6},
+        {"season":"1970-71","league":"level_1","name":"National Division","title_count":3},
+        {"season":"1985-86","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7}
     ]
 }
