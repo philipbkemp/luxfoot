@@ -79,7 +79,7 @@ function parseEuropeanCompetition(comp) {
 		}
 		if ( comp.links.prev ) {
 			$("#menu-links").append(
-				$("<A></A>")..attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous")
+				$("<A></A>").attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous")
 			);
 			removeKey("links.prev");
 		}
