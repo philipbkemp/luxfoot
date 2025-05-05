@@ -68,6 +68,12 @@ function drawMatch(match,highlightWinner=false) {
 		scorePA = parseInt(scorePen[1]);
 		if ( scorePH > scorePA ) { winner = "home"; }
 		else if ( scorePH < scorePA ) { winner = "away"; }
+	} else if ( match.replay) {
+		scoreRply = match.replay.split("-");
+		scoreRH = parseInt(scoreRply[0]);
+		scoreRA = parseInt(scoreRply[1]);
+		if ( scoreRH > scoreRA ) { winner = "home"; }
+		else if ( scoreRH < scoreRA ) { winner = "away"; }
 	}
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
