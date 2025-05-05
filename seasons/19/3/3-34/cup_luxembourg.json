@@ -1,0 +1,92 @@
+{
+    "season": "1933-34",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1934-35",
+        "prev": "1932-33"
+    },
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+			{"season": "1933-1934","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "STET", "awayDivision": {"level":4,"name":"2. Division"},"score": "9-0"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "USND", "homeDivision": {"level":4,"name":"2. Division"},"away": "MDLB", "awayDivision": {"level":5,"name":"3. Division"},"score": "4-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UBSH", "homeDivision": {"level":4,"name":"2. Division"},"away": "SDUD", "awayDivision": {"level":2,"name":"1. Division"},"score": "3-4"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JHTC", "homeDivision": {"level":5,"name":"3. Division"},"away": "SWFT", "awayDivision": {"level":3,"name":"The Promotion"},"score": "2-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score": "2-2", "replay": "1-5"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"The Promotion"},"away": "MINL", "awayDivision": {"level":5,"name":"3. Division"},"score": "3-0", "forfeit": true},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBAS", "homeDivision": {"level":5,"name":"3. Division"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score": "0-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SCBT", "homeDivision": {"level":3,"name":"The Promotion"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score": "4-3"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "UESH", "awayDivision": {"level":5,"name":"3. Division"},"score": "3-2"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ETZE", "homeDivision": {"level":4,"name":"2. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"The Promotion"},"score": "3-0"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSOB", "homeDivision": {"level":4,"name":"2. Division"},"away": "CPET", "awayDivision": {"level":3,"name":"The Promotion"},"score": "1-3"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RSML", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RROD", "awayDivision": {"level":5,"name":"3. Division"},"score": "1-0"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TRIM", "homeDivision": {"level":4,"name":"2. Division"},"away": "CROD", "awayDivision": {"level":2,"name":"1. Division"},"score": "2-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SPST", "homeDivision": {"level":4,"name":"2. Division"},"away": "JKYL", "awayDivision": {"level":4,"name":"2. Division"},"score": "3-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "EGWM", "awayDivision": {"level":5,"name":"3. Division"},"score": "5-3"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MANC", "homeDivision": {"level":5,"name":"3. Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score": "1-6"},
+			{"bye":"RPDN", "byeDivision": {"level":4,"name":"2. Division"}}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TRIM", "homeDivision": {"level":4,"name":"2. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score": "5-5", "replay": "0-5"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JHTC", "homeDivision": {"level":5,"name":"3. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score": "2-0"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RSML", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score": "1-0"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ETZE", "homeDivision": {"level":4,"name":"2. Division"},"away": "CPET", "awayDivision": {"level":3,"name":"The Promotion"},"score": "5-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"1. Division"},"score": "4-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SCBT", "awayDivision": {"level":3,"name":"The Promotion"},"score": "7-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "USND", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score": "3-2"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RPDN", "homeDivision": {"level":4,"name":"2. Division"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score": "0-2"},
+			{"bye":"SDUD", "byeDivision": {"level":2,"name":"1. Division"}}
+        ]
+    },{
+        "key": "RI",
+        "name": "Intermediate Round",
+        "matches": [
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ASDF", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score": "1-2"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "JHTC", "homeDivision": {"level":5,"name":"3. Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"The Promotion"},"score": "2-3"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "USND", "awayDivision": {"level":4,"name":"2. Division"},"score": "4-1"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":2,"name":"1. Division"},"score": "5-0"},
+			{"bye":"ETZE", "byeDivision": {"level":4,"name":"2. Division"}},
+			{"bye":"RSML", "byeDivision": {"level":3,"name":"The Promotion"}}
+        ]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ETZE", "awayDivision": {"level":4,"name":"2. Division"},"score": "5-1"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"1. Division"},"score": "0-4"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RSML", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score": "0-9"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"The Promotion"},"score": "5-1"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score": "5-2"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JHTC", "awayDivision": {"level":5,"name":"3. Division"},"score": "12-0"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score": "4-2"},
+			{"date":"1934-02-04","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":2,"name":"1. Division"},"score": "2-0"}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"1. Division"},"score": "1-3"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score": "1-0"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score": "4-3"},
+			{"season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score": "4-1"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1934-04-08","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"1. Division"},"score": "4-1"},
+			{"date":"1934-04-08","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score": "0-2"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1934-06-24","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score": "5-2"}
+        ]
+    }]
+}

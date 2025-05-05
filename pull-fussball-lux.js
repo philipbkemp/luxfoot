@@ -39,7 +39,7 @@ allTeams = {
     "FC Differdingen 03": "DIFF", "FC RM Hamm Benfica": "BENF", "RFCU Luxemburg": "RACE", "Swift Hesperingen": "SWFT", "AS Luxemburg": "ASLX", "AS Schifflingen": "ASCH",
     "Olympique Eischen": "OYMP", "Etoile Sportive Schouweiler": "ESHW", "Etoile Sportive Clemency": "CLMC", "Blo-Weiss Itzig": "BWIT", "Cessange FC": "CESS",
     "K. Wormeldange": "KWRM", "Remich/Bous": "UNRB", "U. Kayl/Tétange": "U5KT", "Mertert/Wasserb.": "UNMW", "Rés. Walferdange": "WALF", "Red Black/Egalité": "RBE7",
-    "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW"
+    "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
@@ -47,14 +47,16 @@ document.querySelectorAll("table table").forEach(t=>{
         while ( source.nodeName !== "TABLE" ) {
             source = source.parentNode;
         }
-        type = prompt("[R]esults or [S]tandings?").toUpperCase();
-        while ( ["R","S"].indexOf(type) === -1 ) {
-            type = prompt("[R]esults or [S]tandings?").toUpperCase();
+        type = prompt("[R]esults or [S]tandings or [C]up?").toUpperCase();
+        while ( ["R","S","C"].indexOf(type) === -1 ) {
+            type = prompt("[R]esults or [S]tandings or [C]up?").toUpperCase();
         }
         if ( type === "R" ) {
             pullResults(source);
         } else if ( type === "S" ) {
             pullStandings(source);
+        } else if ( type === "C" ) {
+            pullCup(source);
         }
     });
 });
@@ -139,4 +141,90 @@ function pullStandings(tbl) {
 }
 function readNumber(i) {
     return parseInt(i.textContent.trim());
+}
+theTable = null;
+function pullCup(tbl) {
+    theTable = tbl;
+
+    divisions = {};
+    thisRound = "";
+    thisRoundLines = [];
+    season = window.location.href.split("/").pop().split(".")[0].replace("Saison","").replace("-19","-").replace("-20","-");
+    whichCup = prompt("Which cup? cup_flf / cup_luxembourg");
+    whichCupName = prompt("Name of cup " + whichCup,whichCup);
+
+    theTable.querySelectorAll("tr").forEach(row=>{
+        cols = row.querySelectorAll("td");
+        if ( cols.length === 1 ) {
+            // new round
+            txt = cols[0].innerText.trim();
+            if ( txt === "" || txt.startsWith("Aufstellung ") || txt.startsWith("Erklärung") ) {
+                thisRound = "";
+                // padding row
+            } else if ( txt.startsWith("1 Runde ") ) {
+                thisRound = "1st Round";
+            } else if ( txt.startsWith("2 Runde ") ) {
+                thisRound = "2nd Round";
+            } else if ( txt.startsWith("3 Runde ") ) {
+                thisRound = "3rd Round";
+            } else if ( txt.startsWith("Viertelfinale ") ) {
+                thisRound = "Quarter Final";
+            } else if ( txt.startsWith("Halbfinale ") ) {
+                thisRound = "Semi Final";
+            } else if ( txt.startsWith("Endspiel ") ) {
+                thisRound = "Final";
+            } else if ( txt.startsWith("Zwischenrunde ") ) {
+                thisRound = "Intermediate Round";
+            } else if ( txt.startsWith("Freilos:") ) {
+                thisRound = "";
+                byes = txt.replace("Freilos: ","").split(",");
+                byes.forEach(b=>{
+                    c = getCupClub(b.trim());
+                    thisRoundLines.push('\t\t\t{"bye":"'+c[0]+'", "byeDivision": {"level":'+c[2].split(":")[0]+',"name":"'+c[2].split(":")[1]+'"}},\n');
+                });
+            } else {
+                thisRound = cols[0].innerText;
+            }
+            if ( thisRound !== "" ) {
+                thisRoundLines.push('\t\t"name": "'+thisRound+'",\n\t\t"matches":[\n');
+            }
+        } else {
+            // match
+            home = getCupClub(cols[0].innerText.trim());
+            away = getCupClub(cols[2].innerText.trim());
+            score = cols[3].innerText.trim().replaceAll("- ","-");
+    
+            extraBits = "";
+            scoreParts = score.split("-");
+            if ( parseInt(scoreParts[0]) + "-" + parseInt(scoreParts[1]) !== score ) {
+                if ( score.indexOf(" ff.") !== -1 ) {
+                    score = score.replace(" ff.","")
+                    extraBits = ', "forfeit": true';
+                } else if ( score.indexOf(" / ") !== -1 ) {
+                    score2 = score.split(" / ")[1];
+                    score = score.split(" / ")[0];
+                    extraBits = ', "replay": "'+score2+'"';
+                } else {
+                    console.error("Unknown Score",score);
+                }
+            }
+            
+            thisRoundLines.push('\t\t\t{"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},"score": "'+score+'"'+extraBits+'},\n');
+        }
+    });
+    console.log(thisRoundLines.join(""));
+}
+function getCupClub(c) {
+    club = c.split(" (")[0];
+    division = c.split(" (")[1].replace(")","");
+    if ( ! divisions[division] ) {
+        divisionName = prompt("DIVISION '"+division+"'")
+        divisions[division] = prompt("LEVEL '"+divisionName+"'") + ":" + divisionName;
+    }
+    if ( allTeams[club] ) {
+        club = allTeams[club];
+    } else {
+        console.error("Unknown club",club);
+    }
+    return [club,division,divisions[division]];
 }

@@ -318,7 +318,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1933-34", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 7, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1933-34", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 7, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1934-35",
