@@ -107,7 +107,7 @@ function parseLeague(league) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
 				removeKey("series.standings");
 				if ( series.matches ) {
-					seriesPanel.append( $("<H2></H2>").html("Results") );
+					seriesPanel.append( $("<H2></H2>").html("Results table") );
 					seriesPanel.append( buildResultsTable(series.teams,series.matches) );
 					seriesPanel.append(
 						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(

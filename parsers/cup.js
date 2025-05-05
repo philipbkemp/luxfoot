@@ -33,9 +33,7 @@ function parseCup(cup) {
 	addKeys(Object.keys(cup));
 
 	$("#menu-links").append(
-		$("<LI></LI>").append(
-			$("<A></A>").addClass("p-2").attr("href","season.html?season="+cup.season).html("Season overview")
-		)
+		$("<A></A>").attr("href","season.html?season="+cup.season).html("Season").addClass("float-end")
 	);
 	if ( cup.links ) {
 		linkKeys = Object.keys(cup.links);
@@ -45,17 +43,13 @@ function parseCup(cup) {
 		addKeys(linkKeys);
 		if ( cup.links.next ) {
 			$("#menu-links").append(
-				$("<LI></LI>").append(
-					$("<A></A>").addClass("p-2").attr("href","cup.html?season="+cup.links.next+"&comp="+urlParams.comp).html("Next season")
-				)
+				$("<A></A>").attr("href","cup.html?season="+cup.links.next+"&comp="+urlParams.comp).html("Next")
 			);
 			removeKey("links.next");
 		}
 		if ( cup.links.prev ) {
 			$("#menu-links").append(
-				$("<LI></LI>").append(
-					$("<A></A>").addClass("p-2").attr("href","cup.html?season="+cup.links.prev+"&level="+urlParams.comp).html("Previous season")
-				)
+				$("<A></A>").attr("href","cup.html?season="+cup.links.prev+"&level="+urlParams.comp).html("Previous")
 			);
 			removeKey("links.prev");
 		}

@@ -13,6 +13,9 @@
         {"season":"2006-07","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":3},
         {"season":"2007-08","league":"level_1","name":"National Division","title_count":7},
         {"season":"2008-09","league":"level_1","name":"National Division","title_count":8},
-        {"season":"2008-09","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4}
+        {"season":"2008-09","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":4},
+        {"season":"2010-11","league":"level_1","name":"National Division","title_count":9},
+        {"season":"2011-12","league":"level_1","name":"National Division","title_count":10},
+        {"season":"2011-12","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5}
     ]
 }
