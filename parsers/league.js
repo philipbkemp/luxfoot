@@ -106,7 +106,7 @@ function parseLeague(league) {
 			if ( ! series.missing ) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
 				if ( league.pts_win && league.pts_win !== 3) {
-					standingsPanel.append(
+					seriesPanel.append(
 						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
 							league.pts_win + " points for a win"
 						)
