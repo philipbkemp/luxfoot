@@ -908,7 +908,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1962-63","name":"European Cup","teams":["ULUX"]},
-			"fairs_cup": {"missing":true,"season":"1962-63","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
+			"fairs_cup": {"season":"1962-63","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
 			"cup_winners_cup": {"missing":true,"season":"1962-63","name":"Cup Winners Cup","teams":["ADUD"]}
 		}
 	},{

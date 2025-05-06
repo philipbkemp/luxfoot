@@ -1,0 +1,21 @@
+{
+    "season": "1962-63",
+    "fairs_cup": {
+        "name": "Inter-Cities Fairs Cup",
+        "season": "1962-63",
+        "links": {
+            "next": "1963-64"
+        },
+        "teams": ["ARIS"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ARIS": [
+                    {"isEurope":true,"date":"1962-09-26","leg":1,"home":"ITA:SAMP","away":"ARIS","score":"1-0","season":"1962-63","competition":{"type":"europe","cup":"fairs_cup","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1962-10-03","leg":2,"home":"ARIS","away":"ITA:SAMP","score":"0-2","season":"1963-64","competition":{"type":"europe","cup":"fairs_cup","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-3","outcome":"L","team":"ARIS"}}
+                ]
+            }
+        }]
+    }
+}

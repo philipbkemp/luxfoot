@@ -3,6 +3,10 @@
         "_country": "Belgium",
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"}
     },
+    "ITA": {
+        "_country": "Italy",
+        "SAMP": {"id": "UC_Sampdoria", "name": "Sampdoria"}
+    },
     "WDE": {
         "_country": "West Germany",
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}
