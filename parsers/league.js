@@ -327,8 +327,8 @@ function parseLeague(league) {
 		}
 
 		if ( league.playoffs.updown_league_multi ) {
-			$("#leagueTabs").append(buildTabButton("po_leaguePromotion_multi","Promotion Play-offs"));
-			poLeagueUpDown = buildTabPanel("po_leaguePromotion_multi");
+			$("#leagueTabs").append(buildTabButton("po_updown_league_multi","Promotion Play-offs"));
+			poLeagueUpDown = buildTabPanel("po_updown_league_multi");
 			league.playoffs.updown_league_multi.forEach(po=>{
 				poLeagueUpDown.append(
 					buildStandings(
@@ -640,6 +640,7 @@ function buildStandings(standings,ptsWin=3) {
 				case "promotion":
 				case "updown":
 				case "updown_league":
+				case "updown_league_multi":
 					theText = "Promotion play-off"; break;
 				case "league_promotion_playoff_a":
 				case "league_promotion_playoff_b":
