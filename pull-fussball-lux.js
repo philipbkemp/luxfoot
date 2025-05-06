@@ -39,7 +39,8 @@ allTeams = {
     "FC Differdingen 03": "DIFF", "FC RM Hamm Benfica": "BENF", "RFCU Luxemburg": "RACE", "Swift Hesperingen": "SWFT", "AS Luxemburg": "ASLX", "AS Schifflingen": "ASCH",
     "Olympique Eischen": "OYMP", "Etoile Sportive Schouweiler": "ESHW", "Etoile Sportive Clemency": "CLMC", "Blo-Weiss Itzig": "BWIT", "Cessange FC": "CESS",
     "K. Wormeldange": "KWRM", "Remich/Bous": "UNRB", "U. Kayl/Tétange": "U5KT", "Mertert/Wasserb.": "UNMW", "Rés. Walferdange": "WALF", "Red Black/Egalité": "RBE7",
-    "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF"
+    "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF",
+    "Diables Rouges Zolver": "DRZV", "Una Strassen": "UNAS","FC Mamer 32": "MAMR"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
@@ -101,6 +102,12 @@ function pullStandings(tbl) {
         relegateToLevel = parseInt(prompt("Relegate to which level?",level+1));
         relegateToName = prompt("Relegate to which division?");
     }
+    promoted = prompt("Promoted codes").split(",");
+    if ( promoted.length !== 0 ) {
+        nextSeason = prompt("Next season",season);
+        promoteToLevel = parseInt(prompt("Promote to which level?",level-1));
+        promoteToName = prompt("Promote to which division?");
+    }
     if ( ppw === 3 ) {
         ppw = "";
     } else {
@@ -129,6 +136,9 @@ function pullStandings(tbl) {
             rele = "";
             if ( relegated.indexOf(allTeams[teamName]) !== -1 ) {
                 rele = ', "relegated": true, "target": {"season": "'+nextSeason+'", "level": '+relegateToLevel+', "name": "'+relegateToName+'"}';
+            }
+            if ( promoted.indexOf(allTeams[teamName]) !== -1 ) {
+                rele = ', "promoted": true, "target": {"season": "'+nextSeason+'", "level": '+promoteToLevel+', "name": "'+promoteToName+'"}';
             }
             
             output.push('{"place": '+readNumber(cols[0])+', "team": "'+allTeams[teamName] +'", "w": '+readNumber(cols[4])+', "d": '+readNumber(cols[5])+', "l": '+readNumber(cols[6])+', "f": '+readNumber(cols[10])+', "a": '+readNumber(cols[12])+ppw+', "season": "'+season+'", "level": '+level+', "league": "'+comp+'"'+champ+rele+'},');
