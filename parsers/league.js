@@ -156,6 +156,13 @@ function parseLeague(league) {
 						po_updown.append(po_updown_matches);
 						removeKey("series.playoffs.updown");
 					}
+					if ( series.playoffs.updown_league ) {
+						$("#leagueTabs").append(buildTabButton("po_updown_league","Promotion play-off"));
+						if ( ! po_updownLeague ) {
+							po_updownLeague = buildTabPanel("po_updown_league");
+						}po_updownLeague.append( buildStandings(series.playoffs.updown_league) );
+						removeKey("series.playoffs.updown_league");
+					}
 
 					removeKey("series.playoffs");
 				}
@@ -612,6 +619,7 @@ function buildStandings(standings,ptsWin=3) {
 				case "league_promotionplayoff":
 				case "promotion":
 				case "updown":
+				case "updown_league":
 					theText = "Promotion play-off"; break;
 				case "league_promotion_playoff_a":
 				case "league_promotion_playoff_b":
