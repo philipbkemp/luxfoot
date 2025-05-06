@@ -1,0 +1,68 @@
+{
+    "level": 6,
+	"season": "1982-83",
+    "links": {
+        "next": "1983-84",
+        "prev": "1971-82",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "shortTabs": true,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing": true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["AFLX:2","ARBD:2","BDBB","BWIT:2","DARE:2","HOST:2","JBIW:2","JCNC:2","OBCN:2","REIS:2","SYRA:2","UMRT:2"],
+        "standings": [
+            {"place": 1, "team": "DARE:2", "w": 19, "d": 2, "l": 1, "f": 138, "a": 13, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4", "promotion": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
+            {"place": 2, "team": "JBIW:2", "w": 18, "d": 1, "l": 3, "f": 91, "a": 16, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4", "playoff": "updown_league_multi", "promotion": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
+            {"place": 3, "team": "HOST:2", "w": 15, "d": 3, "l": 4, "f": 84, "a": 33, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 4, "team": "BDBB", "w": 13, "d": 2, "l": 7, "f": 74, "a": 46, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 5, "team": "UMRT:2", "w": 12, "d": 3, "l": 7, "f": 63, "a": 34, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 6, "team": "JCNC:2", "w": 10, "d": 6, "l": 6, "f": 49, "a": 32, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 7, "team": "BWIT:2", "w": 9, "d": 3, "l": 10, "f": 53, "a": 48, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 8, "team": "ARBD:2", "w": 9, "d": 1, "l": 12, "f": 51, "a": 75, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 9, "team": "REIS:2", "w": 5, "d": 3, "l": 14, "f": 33, "a": 73, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 10, "team": "SYRA:2", "w": 5, "d": 0, "l": 17, "f": 34, "a": 94, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 11, "team": "OBCN:2", "w": 3, "d": 0, "l": 19, "f": 20, "a": 137, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 12, "team": "AFLX:2", "w": 2, "d": 0, "l": 20, "f": 18, "a": 107, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"}
+        ]
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "missing" :true
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "missing" :true
+    },{
+        "series": 7,
+        "name": "Series 7",
+        "missing": true
+    },{
+        "series": 8,
+        "name": "Series 8",
+        "missing" :true
+    }],
+    "playoffs": {
+        "updown_league_multi": [
+            [
+                {"place": 1, "team": "JBIW:2", "teamDivision": {"level": 6, "series": 4, "name": "4. Division Series 4"}, "w": 2, "d": 0, "l": 0, "f": 8, "a": 1, "pts_win": 2, "season": "1982-83", "level": 6, "round": "updown_league", "league": "3. / 4. Division playoffs", "promoted": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
+                {"place": 2, "team": "BRCH:2", "teamDivision": {"level": 5, "series": 2, "name": "3. Division Series 2"}, "w": 1, "d": 0, "l": 1, "f": 2, "a": 4, "pts_win": 2, "season": "1982-83", "level": 6, "round": "updown_league", "league": "3. / 4. Division playoffs", "relegated": true, "target": {"season": "1983-84", "level": 6, "name": "4. Division"}},
+                {"place": 3, "team": "JUNG:2", "teamDivision": {"level": 6, "series": 3, "name": "4. Division Series 3"}, "w": 0, "d": 0, "l": 2, "f": 0, "a": 5, "pts_win": 2, "season": "1982-83", "level": 6, "round": "updown_league", "league": "3. / 4. Division playoffs"}
+            ]
+        ]
+    }
+}

@@ -71,7 +71,7 @@ function pullResults(tbl) {
     for ( r=1 ; r!==rows.length ; r++ ) {
         cols = rows[r].querySelectorAll("td");
         theTeam = cols[0].textContent.trim();
-        if ( theTeam.indexOf(" II") === -1 ) {
+        if ( theTeam.indexOf(" II") !== -1 ) {
             theTeam = theTeam.replace(" II","");
         }
         if ( allTeams[theTeam] ) {

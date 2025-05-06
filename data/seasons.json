@@ -1539,11 +1539,11 @@
 				{"missing":true, "season": "1982-83", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "USMM"},
 				{"missing":true, "season": "1982-83", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "MAMR"}
 			]},
-			"level_6": {"missing":true, "season": "1982-83", "level": 6, "name": "4. Division","series":[
+			"level_6": {"season": "1982-83", "level": 6, "name": "4. Division","series":[
 				{"missing":true, "season": "1982-83", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "AHOS:2"},
 				{"missing":true, "season": "1982-83", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "BAST"},
 				{"missing":true, "season": "1982-83", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "EXGV"},
-				{"missing":true, "season": "1982-83", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "DARE:2"},
+				{"season": "1982-83", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "DARE:2"},
 				{"missing":true, "season": "1982-83", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "AMRS"},
 				{"missing":true, "season": "1982-83", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "RPDN:2"},
 				{"missing":true, "season": "1982-83", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "CPET:2"},
