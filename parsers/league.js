@@ -186,7 +186,7 @@ function parseLeague(league) {
 			removeKey("series.name");
 			removeKey("series.missing");
 			removeKey("series.teams");
-			removeKey("league.shortTabs");
+			removeKey("shortTabs");
 		});
 
 		if ( po_downup ) {
