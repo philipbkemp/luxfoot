@@ -194,6 +194,9 @@ function parseLeague(league) {
 		if ( po_updown ) {
 			$("#leagueTabContent").append(po_updown);
 		}
+		if ( po_updown_league ) {
+			$("#leagueTabContent").append(po_updown_league);
+		}
 
 		removeKey("series");
 	}
