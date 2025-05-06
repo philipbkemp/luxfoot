@@ -1,0 +1,64 @@
+{
+    "level": 6,
+	"season": "1980-81",
+    "links": {
+        "next": "1981-82",
+        "prev": "1979-80",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2"
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "missing" :true
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "missing" :true
+    },{
+        "series": 7,
+        "name": "Series 7",
+        "teams": ["CLMC:2","JKYL:2","MDCG:2","NORZ","NSCH:2","SCBT:2","SDUD:2","STET:2","TRIG:2","UESH:2","USDD:2","YGCC:2"],
+        "standings": [
+            {"place": 1, "team": "NORZ", "w": 16, "d": 4, "l": 2, "f": 73, "a": 23, "pts_win": 2, "season": "1980-81", "level": 6, "series":7, "league": "4. Division Series 7", "promoted": true, "target": {"season": "1980-81", "level": 5, "name": "3. Division"}},
+            {"place": 2, "team": "TRIG:2", "w": 15, "d": 4, "l": 3, "f": 102, "a": 31, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7", "playoff": "updown_league_a"},
+            {"place": 3, "team": "SDUD:2", "w": 14, "d": 4, "l": 4, "f": 89, "a": 28, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 4, "team": "SCBT:2", "w": 13, "d": 3, "l": 6, "f": 71, "a": 44, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 5, "team": "STET:2", "w": 10, "d": 5, "l": 7, "f": 62, "a": 44, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 6, "team": "NSCH:2", "w": 10, "d": 4, "l": 8, "f": 62, "a": 55, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 7, "team": "USDD:2", "w": 9, "d": 2, "l": 11, "f": 62, "a": 49, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 8, "team": "CLMC:2", "w": 7, "d": 5, "l": 10, "f": 49, "a": 67, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 9, "team": "UESH:2", "w": 8, "d": 2, "l": 12, "f": 33, "a": 61, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 10, "team": "MDCG:2", "w": 7, "d": 2, "l": 13, "f": 41, "a": 85, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 11, "team": "YGCC:2", "w": 3, "d": 2, "l": 17, "f": 37, "a": 104, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"},
+            {"place": 12, "team": "JKYL:2", "w": 1, "d": 1, "l": 20, "f": 15, "a": 105, "pts_win": 2, "season": "1980-81", "level": 6, "series":7,  "league": "4. Division Series 7"}
+        ]
+    },{
+        "series": 8,
+        "name": "Series 8",
+        "missing" :true
+    }],
+    "playoffs": {
+        "updown_league_a": [
+            {"place": 1, "team": "PRON:2", "teamDivision": {"level": 6, "series": 8, "name": "4. Division Series 8"}, "w": 1, "d": 1, "l": 0, "f": 3, "a": 2, "pts_win": 2, "season": "1980-81", "level": 6, "round": "updown_league", "league": "3. / 4. Division playoffs", "promoted": true, "target": {"season": "1980-81", "level": 5, "name": "3. Division"}},
+            {"place": 2, "team": "TRIG:2", "teamDivision": {"level": 6, "series": 7, "name": "4. Division Series 7"}, "w": 1, "d": 0, "l": 1, "f": 5, "a": 2, "pts_win": 2, "season": "1980-81", "level": 6, "round": "updown_league", "league": "3. / 4. Division playoffs"},
+            {"place": 3, "team": "CROD:2", "teamDivision": {"level": 5, "series": 4, "name": "3. Division Series 4"}, "w": 0, "d": 1, "l": 1, "f": 1, "a": 5, "pts_win": 2, "season": "1980-81", "level": 6, "round": "updown_league", "league": "3. / 4. Division playoffs", "relegated": true, "target": {"season": "1980-81", "level": 6, "name": "4. Division"}}
+        ]
+    }
+}

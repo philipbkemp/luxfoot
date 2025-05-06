@@ -70,10 +70,14 @@ function pullResults(tbl) {
     output = [];
     for ( r=1 ; r!==rows.length ; r++ ) {
         cols = rows[r].querySelectorAll("td");
-        if ( allTeams[cols[0].textContent.trim()] ) {
-            teams.push( allTeams[cols[0].textContent.trim()] );
+        theTeam = cols[0].textContent.trim();
+        if ( theTeam.indexOf(" II") === -1 ) {
+            theTeam = theTeam.replace(" II","");
+        }
+        if ( allTeams[theTeam] ) {
+            teams.push( theTeam );
         } else {
-            teams.push( prompt("Unknown team",cols[0].textContent.trim()) );
+            teams.push( prompt("Unknown team",theTeam) );
         }
     }
 
