@@ -342,6 +342,28 @@ function parseLeague(league) {
 				$("#leagueTabContent").append(poLeagueUpDown);
 			});
 			removeKey("playoffs.updown_league_multi");
+		}		
+
+		if ( league.playoffs.final_round ) {
+			$("#leagueTabs").append(buildTabButton("po_final_round","Final Round"));
+			poFinalRound = buildTabPanel("po_final_round");
+			poFinalRoundMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
+			if ( league.playoffs.final_round.matches ) {
+				league.playoffs.league_promotion_playoff.matches.forEach(m=>{
+					poFinalRoundMatches.append( drawMatch(m));
+				});
+				poFinalRound.append(poFinalRoundMatches);
+			}
+			poFinalRound.append(
+				buildStandings(
+					league.playoffs.final_round.standings,
+					league.playoffs.final_round.pts_win
+						? league.playoffs.final_round.pts_win
+						: 3
+				)
+			);
+			$("#leagueTabContent").append(poFinalRound);
+			removeKey("playoffs.final_round");
 		}
 
 		removeKey("playoffs");
@@ -649,6 +671,9 @@ function buildStandings(standings,ptsWin=3) {
 					break;
 				case "title":
 					theText = "Title Decider";
+					break;
+				case "final_round":
+					theText = "Final Round";
 					break;
 			}
 			if ( theText !== "" ) {
