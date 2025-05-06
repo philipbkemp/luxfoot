@@ -349,7 +349,7 @@ function parseLeague(league) {
 			poFinalRound = buildTabPanel("po_final_round");
 			poFinalRoundMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
 			if ( league.playoffs.final_round.matches ) {
-				league.playoffs.league_promotion_playoff.matches.forEach(m=>{
+				league.playoffs.final_round.matches.forEach(m=>{
 					poFinalRoundMatches.append( drawMatch(m));
 				});
 				poFinalRound.append(poFinalRoundMatches);
