@@ -91,8 +91,7 @@ function parseLeague(league) {
 	}
 	if ( league.series ) {
 
-		po_downup = null;
-		po_updown = null;
+		po_downup = po_updown = po_updownLeague = null;
 
 		league.series.forEach(series=>{
 			seriesKeys = Object.keys(series);
@@ -160,7 +159,8 @@ function parseLeague(league) {
 						$("#leagueTabs").append(buildTabButton("po_updown_league","Promotion play-off"));
 						if ( ! po_updownLeague ) {
 							po_updownLeague = buildTabPanel("po_updown_league");
-						}po_updownLeague.append( buildStandings(series.playoffs.updown_league) );
+						}
+						po_updownLeague.append( buildStandings(series.playoffs.updown_league) );
 						removeKey("series.playoffs.updown_league");
 					}
 
