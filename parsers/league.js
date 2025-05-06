@@ -332,9 +332,9 @@ function parseLeague(league) {
 			league.playoffs.updown_league_multi.forEach(po=>{
 				poLeagueUpDown.append(
 					buildStandings(
-						po.standings,
-						po.pts_win
-							? po.pts_win
+						po,
+						league.pts_win
+							? league.pts_win
 							: 3
 					)
 				);
