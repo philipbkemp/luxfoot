@@ -14,7 +14,8 @@
         "missing" :true
     },{
         "series": 2,
-        "name": "Series 2"
+        "name": "Series 2",
+        "missing": true
     },{
         "series": 3,
         "name": "Series 3",
