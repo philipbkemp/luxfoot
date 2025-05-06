@@ -75,7 +75,7 @@ function pullResults(tbl) {
             theTeam = theTeam.replace(" II","");
         }
         if ( allTeams[theTeam] ) {
-            teams.push( theTeam );
+            teams.push( allTeams[theTeam] );
         } else {
             teams.push( prompt("Unknown team",theTeam) );
         }

@@ -1883,7 +1883,7 @@
 	},{
 		"season": "1993-94",
 		"leagues": {
-			"level_1": {"missing":true, "season": "1993-94", "level": 1, "name": "National Division", "winner": "AVBG", "title_count": 6, "double": true},
+			"level_1": {"season": "1993-94", "level": 1, "name": "National Division", "winner": "AVBG", "title_count": 6, "double": true},
 			"level_2": {"missing":true, "season": "1993-94", "level": 2, "name": "Division of Honour","series":[
 				{"missing":true, "season": "1993-94", "level": 2,"series":1, "name": "Division of Honour Series 1", "winner": "WLTZ"},
 				{"missing":true, "season": "1993-94", "level": 2,"series":2, "name": "Division of Honour Series 2", "winner": "KWRM"}
