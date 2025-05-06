@@ -41,9 +41,9 @@
         },
         "playoffs": {
             "updown_league": [
-                {"place": 1, "team": "JWAS", "teamDivision": {"level": 3, "series": 1, "name": "1. Division Series 1"}, "w": 1, "d": 1, "l": 0, "f": 6, "a": 3, "pts_win": 2, "season": "1978-79", "level": 3, "playoff": "updown_league", "league": "Division of Honour / 1. Division playoffs", "promoted": true, "target": {"season": "1979-80", "level": 2, "name": "Division of Honour"}},
-                {"place": 2, "team": "CSOB", "teamDivision": {"level": 3, "series": 2, "name": "1. Division Series 2"}, "w": 1, "d": 1, "l": 0, "f": 4, "a": 2, "pts_win": 2, "season": "1978-79", "level": 3, "playoff": "updown_league", "league": "Division of Honour / 1. Division playoffs"},
-                {"place": 3, "team": "MDLB", "teamDivision": {"level": 2, "name": "Division of Honour"}, "w": 0, "d": 0, "l": 2, "f": 3, "a": 8, "pts_win": 2, "season": "1978-79", "level": 3, "playoff": "updown_league", "league": "Division of Honour / 1. Division playoffs", "relegated": true, "target": {"season": "1979-80", "level": 3, "name": "1. Division"}}
+                {"place": 1, "team": "JWAS", "teamDivision": {"level": 3, "series": 1, "name": "1. Division Series 1"}, "w": 1, "d": 1, "l": 0, "f": 6, "a": 3, "pts_win": 2, "season": "1978-79", "level": 3, "round": "updown_league", "league": "Division of Honour / 1. Division playoffs", "promoted": true, "target": {"season": "1979-80", "level": 2, "name": "Division of Honour"}},
+                {"place": 2, "team": "CSOB", "teamDivision": {"level": 3, "series": 2, "name": "1. Division Series 2"}, "w": 1, "d": 1, "l": 0, "f": 4, "a": 2, "pts_win": 2, "season": "1978-79", "level": 3, "round": "updown_league", "league": "Division of Honour / 1. Division playoffs"},
+                {"place": 3, "team": "MDLB", "teamDivision": {"level": 2, "name": "Division of Honour"}, "w": 0, "d": 0, "l": 2, "f": 3, "a": 8, "pts_win": 2, "season": "1978-79", "level": 3, "round": "updown_league", "league": "Division of Honour / 1. Division playoffs", "relegated": true, "target": {"season": "1979-80", "level": 3, "name": "1. Division"}}
             ]
         }
     }]
