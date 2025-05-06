@@ -1,0 +1,50 @@
+{
+    "level": 3,
+	"season": "1978-79",
+    "links": {
+        "next": "1979-80",
+        "prev": "1977-78",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","CPET","CSHL","CSOB","JSKH","KWRM","MAMR","MLSV","OYMP","RBPF","RPDN","RSMB"],
+        "standings": [
+            {"place": 1, "team": "OYMP", "w": 15, "d": 6, "l": 1, "f": 52, "a": 19, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2", "promoted": true, "target": {"season": "1979-80", "level": 2, "name": "Division of Honour"}},
+            {"place": 2, "team": "CSOB", "w": 12, "d": 8, "l": 2, "f": 47, "a": 24, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "updown_league"},
+            {"place": 3, "team": "JSKH", "w": 9, "d": 6, "l": 7, "f": 47, "a": 37, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 4, "team": "CPET", "w": 6, "d": 10, "l": 6, "f": 35, "a": 31, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 5, "team": "RPDN", "w": 7, "d": 8, "l": 7, "f": 41, "a": 43, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 6, "team": "AREM", "w": 7, "d": 7, "l": 8, "f": 39, "a": 35, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 7, "team": "KWRM", "w": 5, "d": 11, "l": 6, "f": 30, "a": 35, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 8, "team": "RSMB", "w": 7, "d": 6, "l": 9, "f": 28, "a": 33, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 9, "team": "MAMR", "w": 7, "d": 6, "l": 9, "f": 28, "a": 33, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 10, "team": "RBPF", "w": 8, "d": 4, "l": 10, "f": 37, "a": 52, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 11, "team": "CSHL", "w": 5, "d": 6, "l": 11, "f": 40, "a": 51, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1979-80", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "MLSV", "w": 3, "d": 4, "l": 15, "f": 23, "a": 54, "pts_win": 2, "season": "1978-79", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1979-80", "level": 4, "name": "2. Division"}}
+        ],
+        "promoted": {
+            "teams": ["OYMP"],
+            "target": {"season": "1979-80", "level": 2, "name": "Division of Honour"}
+        },
+        "relegated": {
+            "teams": ["CSHL","MLSV"],
+            "target": {"season": "1979-80", "level": 4, "name": "2. Division"}
+        },
+        "playoffs": {
+            "updown_league": [
+                {"place": 1, "team": "JWAS", "teamDivision": {"level": 3, "series": 1, "name": "1. Division Series 1"}, "w": 1, "d": 1, "l": 0, "f": 6, "a": 3, "pts_win": 2, "season": "1978-79", "level": 3, "playoff": "updown_league", "league": "Division of Honour / 1. Division playoffs", "promoted": true, "target": {"season": "1979-80", "level": 2, "name": "Division of Honour"}},
+                {"place": 2, "team": "CSOB", "teamDivision": {"level": 3, "series": 2, "name": "1. Division Series 2"}, "w": 1, "d": 1, "l": 0, "f": 4, "a": 2, "pts_win": 2, "season": "1978-79", "level": 3, "playoff": "updown_league", "league": "Division of Honour / 1. Division playoffs"},
+                {"place": 3, "team": "MDLB", "teamDivision": {"level": 2, "name": "Division of Honour"}, "w": 0, "d": 0, "l": 2, "f": 3, "a": 8, "pts_win": 2, "season": "1978-79", "level": 3, "playoff": "updown_league", "league": "Division of Honour / 1. Division playoffs", "relegated": true, "target": {"season": "1979-80", "level": 3, "name": "1. Division"}}
+            ]
+        }
+    }]
+}
