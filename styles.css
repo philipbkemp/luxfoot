@@ -135,6 +135,9 @@ div.lf-nav a:first-child {
     color: #2b5873;
     min-width: 150px;
 }
+.luxfoot-tablist .nav-item.nav-item--small button {
+    min-width: 100px;
+}
 
 .luxfoot-tablist.nav-tabs,
 .luxfoot-tablist.nav-tabs .nav-link.active,

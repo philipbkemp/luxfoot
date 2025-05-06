@@ -99,7 +99,7 @@ function parseLeague(league) {
 				seriesKeys[i] = "series." + seriesKeys[i];
 			}
 			addKeys(seriesKeys);
-			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,series.missing));
+			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,series.missing,league.smallTabs?true:false));
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			seriesPanel.addClass("tab-pane__standings");
 			if ( ! series.missing ) {

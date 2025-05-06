@@ -8,6 +8,7 @@
     },
 	"name": "4. Division",
 	"pts_win": 2,
+    "shortTabs": true,
     "series": [{
         "series": 1,
         "name": "Series 1",

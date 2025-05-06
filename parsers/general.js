@@ -308,7 +308,7 @@ function removeKey(oldKey) {
 	}
 }
 
-function buildTabButton(code,label,active=false,missing=false) {
+function buildTabButton(code,label,active=false,missing=false,smallTabs=false) {
 	tabBtn = $("<LI></LI>")
 		.addClass("nav-item")
 		.attr("role","presentation")
@@ -334,6 +334,10 @@ function buildTabButton(code,label,active=false,missing=false) {
 			.addClass("active")
 			.attr("aria-selected","true")
 			;
+	}
+
+	if ( smallTabs ) {
+		tabBtn.addClass("nav-item--small");
 	}
 
 	tabBtn.append(tabBtnBtn);
