@@ -99,7 +99,7 @@ function parseLeague(league) {
 				seriesKeys[i] = "series." + seriesKeys[i];
 			}
 			addKeys(seriesKeys);
-			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,series.missing,league.smallTabs?true:false));
+			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,series.missing,league.shortTabs?true:false));
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			seriesPanel.addClass("tab-pane__standings");
 			if ( ! series.missing ) {
@@ -186,6 +186,7 @@ function parseLeague(league) {
 			removeKey("series.name");
 			removeKey("series.missing");
 			removeKey("series.teams");
+			removeKey("league.shortTabs");
 		});
 
 		if ( po_downup ) {

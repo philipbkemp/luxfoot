@@ -26,8 +26,8 @@
         "name": "Series 4",
         "teams": ["AFLX:2","ARBD:2","BDBB","BWIT:2","DARE:2","HOST:2","JBIW:2","JCNC:2","OBCN:2","REIS:2","SYRA:2","UMRT:2"],
         "standings": [
-            {"place": 1, "team": "DARE:2", "w": 19, "d": 2, "l": 1, "f": 138, "a": 13, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4", "promotion": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
-            {"place": 2, "team": "JBIW:2", "w": 18, "d": 1, "l": 3, "f": 91, "a": 16, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4", "playoff": "updown_league_multi", "promotion": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
+            {"place": 1, "team": "DARE:2", "w": 19, "d": 2, "l": 1, "f": 138, "a": 13, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4", "promoted": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
+            {"place": 2, "team": "JBIW:2", "w": 18, "d": 1, "l": 3, "f": 91, "a": 16, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4", "playoff": "updown_league_multi", "promoted": true, "target": {"season": "1983-84", "level": 5, "name": "3. Division"}},
             {"place": 3, "team": "HOST:2", "w": 15, "d": 3, "l": 4, "f": 84, "a": 33, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
             {"place": 4, "team": "BDBB", "w": 13, "d": 2, "l": 7, "f": 74, "a": 46, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
             {"place": 5, "team": "UMRT:2", "w": 12, "d": 3, "l": 7, "f": 63, "a": 34, "pts_win": 2, "season": "1982-83", "level": 6, "series": 4, "league": "4. Division Series 4"},
