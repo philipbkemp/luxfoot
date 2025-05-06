@@ -326,6 +326,23 @@ function parseLeague(league) {
 			removeKey("playoffs.title");
 		}
 
+		if ( league.playoffs.updown_league_multi ) {
+			$("#leagueTabs").append(buildTabButton("po_leaguePromotion_multi","Promotion Play-offs"));
+			poLeagueUpDown = buildTabPanel("po_leaguePromotion_multi");
+			league.playoffs.updown_league_multi.forEach(po=>{
+				poLeagueUpDown.append(
+					buildStandings(
+						po.standings,
+						po.pts_win
+							? po.pts_win
+							: 3
+					)
+				);
+				$("#leagueTabContent").append(poLeagueUpDown);
+			});
+			removeKey("playoffs.updown_league_multi");
+		}
+
 		removeKey("playoffs");
 	}
 	if ( league.note ) {
