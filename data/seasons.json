@@ -41,7 +41,7 @@
 		"season": "1916-17",
 		"leagues": {
 			"level_1": {"missing":true,"season": "1916-17", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 5},
-			"level_2": {"missing":true,"season": "1916-17", "level":  2, "name": "2. Division", "winner": "CPET"},
+			"level_2": {"season": "1916-17", "level":  2, "name": "2. Division", "winner": "CPET"},
 			"level_3": {"missing":true,"season": "1916-17", "level":  3, "name": "3. Division", "series": [
 			    {"missing":true,"season": "1916-17", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
 			    {"missing":true,"season": "1916-17", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "URUM"}
