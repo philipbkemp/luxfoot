@@ -589,7 +589,7 @@ function buildStandings(standings,ptsWin=3) {
 				.append( $("<TD></TD>").html(s.l) )
 				.append( $("<TD></TD>").html(s.f) )
 				.append( $("<TD></TD>").html(s.a) )
-				.append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
+				.append( $("<TD></TD>").html(points)
 				.append( $("<TD></TD>").html(s.f-s.a) )
 				;
 		} else {
