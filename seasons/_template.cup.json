@@ -1,0 +1,41 @@
+{
+    "season": "",
+    "cup": "cup_",
+    "name": "",
+    "links": {
+        "next": "",
+        "prev": ""
+    },
+    "rounds": [{
+        "key": "R4",
+        "name": "4th round",
+        "matches": [
+        ]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+            
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+
+        ]
+    }],
+    "winner": "",
+    "title_count": 0
+}

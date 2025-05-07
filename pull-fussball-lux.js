@@ -41,7 +41,9 @@ allTeams = {
     "K. Wormeldange": "KWRM", "Remich/Bous": "UNRB", "U. Kayl/Tétange": "U5KT", "Mertert/Wasserb.": "UNMW", "Rés. Walferdange": "WALF", "Red Black/Egalité": "RBE7",
     "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF",
     "Diables Rouges Zolver": "DRZV", "Una Strassen": "UNAS","FC Mamer 32": "MAMR", "Kischpelt Wilwerwiltz": "KPWW", "Rac. Heiderscheid/Eschdorf": "RHSE",
-    "FC Pratzerthal/Redange": "PRTZ", "SC Differdingen": "SDIF"
+    "FC Pratzerthal/Redange": "PRTZ", "SC Differdingen": "SDIF", "FC Cebra 01": "CBRA", "FC Flaxweiler/Beyren": "FBU1", "Les Amis de la Moselle Remerschen": "AMRS",
+    "FC 72 Erpeldingen": "ERPL", "Blue-Boys Muhlenbach": "BBML", "US Berdorf/Consdorf": "USBC", "FC Schifflingen 95": "SCHF", "Alliance 01 Luxemburg": "ALLX",
+    "RM 86 Luxemburg": "RMLX"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
@@ -215,6 +217,14 @@ function pullCup(tbl) {
                 if ( score.indexOf(" ff.") !== -1 ) {
                     score = score.replace(" ff.","")
                     extraBits = ', "forfeit": true';
+                } else if ( score.indexOf(" n.E.") ) {
+                    score = score.replace(" n.V","").replace(" n.E.","")
+                    score = score.split(" / ")[0];
+                    score2 = score.split(" / ")[1];
+                    extraBits = ', "aet": true, "penalties": "'+score2+'"';
+                } else if ( score.indexOf(" n.V.") ) {
+                    score = score.split(" n.V.")[0];
+                    extraBits = ', "aet": true';
                 } else if ( score.indexOf(" / ") !== -1 ) {
                     score2 = score.split(" / ")[1];
                     score = score.split(" / ")[0];
