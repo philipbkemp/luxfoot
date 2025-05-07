@@ -356,19 +356,22 @@ function parseLeague(league) {
 						: 3
 				)
 			);
+			hasNotes = false;
 			if ( league.playoffs.final_round.note ) {
 				poFinalRound.append(
-					$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+					$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-5").html(
 						league.playoffs.final_round.note
 					)
 				);
+				hasNotes = true;
 			}
 			if ( league.playoffs.final_round.pts_win && league.playoffs.final_round.pts_win !== 3 ) {
 				poFinalRound.append(
-					$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+					$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-5").html(
 						league.playoffs.final_round.pts_win + " points for a win"
 					)
 				);
+				hasNotes = true;
 			}
 			poFinalRound.append( $("<H2></H2>").html("Results table") );
 			poFinalRound.append( buildResultsTable(league.playoffs.final_round.teams, league.playoffs.final_round.matches) );
@@ -589,7 +592,7 @@ function buildStandings(standings,ptsWin=3) {
 				.append( $("<TD></TD>").html(s.l) )
 				.append( $("<TD></TD>").html(s.f) )
 				.append( $("<TD></TD>").html(s.a) )
-				.append( $("<TD></TD>").html(points)
+				.append( $("<TD></TD>").html(points) )
 				.append( $("<TD></TD>").html(s.f-s.a) )
 				;
 		} else {
