@@ -72,7 +72,7 @@ function parseCup(cup) {
         }
         addKeys(roundKeys);
 
-		$("#cupTabs").append(buildTabButton(round.key,round.name,!hasFirstRound,cup.shortTabs?true:false));
+		$("#cupTabs").append(buildTabButton(round.key,round.name,!hasFirstRound,false,cup.shortTabs?true:false));
         thisRoundPanel = buildTabPanel(round.key,!hasFirstRound);
         removeKey("round.key");
         removeKey("round.name");
