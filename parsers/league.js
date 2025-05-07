@@ -348,7 +348,6 @@ function parseLeague(league) {
 			$("#leagueTabs").append(buildTabButton("po_final_round","Final Round"));
 			poFinalRound = buildTabPanel("po_final_round");
 			poFinalRoundMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
-			poFinalRound.append( buildResultsTable(league.playoffs.final_round.teams, league.playoffs.final_round.matches) );
 			poFinalRound.append(
 				buildStandings(
 					league.playoffs.final_round.standings,
@@ -357,6 +356,8 @@ function parseLeague(league) {
 						: 3
 				)
 			);
+			poFinalRound.append( $("<H2></H2>").html("Results table") );
+			poFinalRound.append( buildResultsTable(league.playoffs.final_round.teams, league.playoffs.final_round.matches) );
 			$("#leagueTabContent").append(poFinalRound);
 			removeKey("playoffs.final_round");
 		}
