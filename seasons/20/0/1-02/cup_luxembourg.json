@@ -6,6 +6,7 @@
         "next": "2002-03",
         "prev": "2000-01"
     },
+    "shortTabs": true,
     "rounds": [{
         "key": "R1",
         "name": "1st round",
