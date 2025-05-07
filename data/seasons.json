@@ -2081,9 +2081,9 @@
 			"cup_luxembourg": {"missing":true, "season": "1999-00", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 12, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"Champions League",	"season":"1999-00","teams":["JESH"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1999-00","teams":["F91D","MDCG"]},
-			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"1999-00","teams":["ULUX"]}
+			"champions_league": {"name":"Champions League",			"season":"1999-00","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",		"season":"1999-00","teams":["F91D","MDCG"]},
+			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",	"season":"1999-00","teams":["ULUX"]}
 		}
 	},{
 		"season": "2000-01",

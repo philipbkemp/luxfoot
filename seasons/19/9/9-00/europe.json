@@ -1,0 +1,22 @@
+{
+    "season": "1999-00",
+    "champions_league": {
+        "name": "Champions League",
+        "season": "1999-00",
+        "links": {
+            "next": "2000-01",
+            "prev": "1998-99"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1999-07-14","leg":1,"home":"JESH","away":"LVA:SKNT","score":"0-2","season":"1999-00","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1999-07-03","leg":2,"home":"LVA:SKNT","away":"JESH","score":"8-0","season":"1999-00","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"First Round","leg":2},"agg":{"score":"0-10","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}

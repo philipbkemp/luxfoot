@@ -7,6 +7,10 @@
         "_country": "Italy",
         "SAMP": {"id": "UC_Sampdoria", "name": "Sampdoria"}
     },
+    "LVA": {
+        "_country": "Latvia",
+        "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
+    },
     "WDE": {
         "_country": "West Germany",
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}
