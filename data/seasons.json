@@ -2253,8 +2253,8 @@
 				{"missing":true, "season": "2006-07", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ATBS"},
 				{"missing":true, "season": "2006-07", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MINL"}
 			]},
-			"level_4": {"missing":true, "season": "2006-07", "level": 4, "name": "2. Division","series":[
-				{"missing":true, "season": "2006-07", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BVAT"},
+			"level_4": {"season": "2006-07", "level": 4, "name": "2. Division","series":[
+				{"season": "2006-07", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "BVAT"},
 				{"missing":true, "season": "2006-07", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "FBU1"},
 				{"missing":true, "season": "2006-07", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "EHLR"}
 			]},

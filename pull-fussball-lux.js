@@ -40,7 +40,8 @@ allTeams = {
     "Olympique Eischen": "OYMP", "Etoile Sportive Schouweiler": "ESHW", "Etoile Sportive Clemency": "CLMC", "Blo-Weiss Itzig": "BWIT", "Cessange FC": "CESS",
     "K. Wormeldange": "KWRM", "Remich/Bous": "UNRB", "U. Kayl/Tétange": "U5KT", "Mertert/Wasserb.": "UNMW", "Rés. Walferdange": "WALF", "Red Black/Egalité": "RBE7",
     "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF",
-    "Diables Rouges Zolver": "DRZV", "Una Strassen": "UNAS","FC Mamer 32": "MAMR", "Kischpelt Wilwerwiltz": "KPWW", "Rac. Heiderscheid/Eschdorf": "RHSE"
+    "Diables Rouges Zolver": "DRZV", "Una Strassen": "UNAS","FC Mamer 32": "MAMR", "Kischpelt Wilwerwiltz": "KPWW", "Rac. Heiderscheid/Eschdorf": "RHSE",
+    "FC Pratzerthal/Redange": "PRTZ"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
