@@ -36,11 +36,6 @@
             "teams": ["OYCW"],
             "target": {"season": "2006-07", "level": 5, "name": "3. Division"}
         },
-        "playoffs": {
-            "downup": [
-                {"home":"KOPS","homeDivision":{"level":5,"name":"3. Division"},"away":"JUSE","awayDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"score":"2-3","season":"2006-07","competition":{"type":"league","level": 4,"series":1,"round":"downup","name": "2. / 3. Division Playoff"},"outcome":"JUSE remain in 2. Division"}
-            ]
-        },
         "matches": [
             {"home":"BVAT","away":"CBSH","score":"2-0","season":"2006-07","competition":{"type":"league","level": 4,"series":1,"name": "2. Division Series 1"}},
             {"home":"BVAT","away":"OYCW","score":"2-0","season":"2006-07","competition":{"type":"league","level": 4,"series":1,"name": "2. Division Series 1"}},
@@ -229,5 +224,11 @@
         "series": 2,
         "name": "Series 2",
         "missing" :true
-    }]
+    }],
+    "playoffs": {
+        "downup": [
+            {"home":"KOPS","homeDivision":{"level":5,"name":"3. Division"},"away":"JUSE","awayDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"score":"2-3","season":"2006-07","competition":{"type":"league","level": 4,"series":1,"round":"downup","name": "2. / 3. Division Playoff"},"outcome":"JUSE remain in 2. Division"}
+        ]
+    }
+    
 }
