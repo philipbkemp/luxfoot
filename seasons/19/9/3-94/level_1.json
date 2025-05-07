@@ -26,6 +26,7 @@
         "final_round": {
             "teams": ["ARIS","AVBG","CGRV","F91D","JESH","ULUX"],
 			"note": "Half the points earned in the regular season were carried forward to the Final Round",
+			"pts_win": 2,
             "standings": [
                 {"place": 1, "team": "AVBG", "w": 7, "d": 1, "l": 2, "f": 28, "a": 12, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 13.5, "league": "National Division Final Round", "champion": true, "title_count": 6},
                 {"place": 2, "team": "CGRV", "w": 5, "d": 1, "l": 4, "f": 12, "a": 13, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 13, "league": "National Division Final Round"},
