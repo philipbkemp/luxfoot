@@ -25,13 +25,14 @@
     "playoffs": {
         "final_round": {
             "teams": ["ARIS","AVBG","CGRV","F91D","JESH","ULUX"],
+			"note": "Half the points earned in the regular season were carried forward to the Final Round",
             "standings": [
-                {"place": 1, "team": "AVBG", "w": 7, "d": 1, "l": 2, "f": 28, "a": 12, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry-forward": 13.5, "league": "National Division Final Round", "champion": true, "title_count": 6},
-                {"place": 2, "team": "CGRV", "w": 5, "d": 1, "l": 4, "f": 12, "a": 13, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry-forward": 13, "league": "National Division Final Round"},
-                {"place": 3, "team": "ULUX", "w": 5, "d": 2, "l": 3, "f": 12, "a": 12, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry-forward": 11, "league": "National Division Final Round"},
-                {"place": 4, "team": "JESH", "w": 2, "d": 2, "l": 6, "f": 13, "a": 15, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry-forward": 12, "league": "National Division Final Round"},
-                {"place": 5, "team": "ARIS", "w": 4, "d": 1, "l": 5, "f": 16, "a": 21, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry-forward": 7.5, "league": "National Division Final Round"},
-                {"place": 6, "team": "F91D", "w": 3, "d": 1, "l": 6, "f": 14, "a": 22, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry-forward": 9.5, "league": "National Division Final Round"}
+                {"place": 1, "team": "AVBG", "w": 7, "d": 1, "l": 2, "f": 28, "a": 12, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 13.5, "league": "National Division Final Round", "champion": true, "title_count": 6},
+                {"place": 2, "team": "CGRV", "w": 5, "d": 1, "l": 4, "f": 12, "a": 13, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 13, "league": "National Division Final Round"},
+                {"place": 3, "team": "ULUX", "w": 5, "d": 2, "l": 3, "f": 12, "a": 12, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 11, "league": "National Division Final Round"},
+                {"place": 4, "team": "JESH", "w": 2, "d": 2, "l": 6, "f": 13, "a": 15, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 12, "league": "National Division Final Round"},
+                {"place": 5, "team": "ARIS", "w": 4, "d": 1, "l": 5, "f": 16, "a": 21, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 7.5, "league": "National Division Final Round"},
+                {"place": 6, "team": "F91D", "w": 3, "d": 1, "l": 6, "f": 14, "a": 22, "pts_win": 2, "season": "1993-94", "level": 1, "round": "final_round", "carry_forward": 9.5, "league": "National Division Final Round"}
             ],
             "matches": [
                 {"home":"AVBG","away":"F91D","score":"3-1","season":"1993-94","competition":{"type":"league","level": 1, "round": "final_round", "name": "National Division Final Round"}},
