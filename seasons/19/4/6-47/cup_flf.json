@@ -27,5 +27,7 @@
         "matches": [
             {"date": "1947-06-01","season": "1946-47","competition": {"type":"cup","cup":"flf","name":"Coupe FLF","round":"Final"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"}, "away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"}, "score":"1-2"}
         ]
-    }]
+    }],
+    "winner": "PRON",
+    "title_count": 1
 }

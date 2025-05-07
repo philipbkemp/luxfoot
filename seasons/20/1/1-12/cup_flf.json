@@ -62,5 +62,7 @@
         "matches": [
             {"date": "2012-06-10","season": "2011-12","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "BLVL", "homeDivision": {"level":3,"name":"1. Division"},"away": "CLMC", "awayDivision": {"level":3,"name":"1. Division"},"score": "1-0"}
         ]
-    }]
+    }],
+    "winner": "BLVL",
+    "title_count": 1
 }

@@ -60,6 +60,9 @@ function parseCup(cup) {
     removeKey("season");
 	removeKey("name");
 
+	removeKey("winner");
+	removeKey("title_count");
+
     // do stuff
 	hasFirstRound = false;
 	cup.rounds.forEach(round=>{		

@@ -88,5 +88,7 @@
         "matches": [
             {"date":"1934-06-24","season": "1933-34","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score": "5-2"}
         ]
-    }]
+    }],
+    "winner": "RBDF",
+    "title_count": 7
 }
