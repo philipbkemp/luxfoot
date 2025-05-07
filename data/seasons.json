@@ -2234,7 +2234,7 @@
 				{"missing":true, "season": "2005-06", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MDLB"},
 				{"missing":true, "season": "2005-06", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "HOBS"}
 			]},
-			"level_5": {"missing":true, "season": "2005-06", "level": 5, "name": "3. Division", "winner": "JUSE"}
+			"level_5": {"season": "2005-06", "level": 5, "name": "3. Division", "winner": "JUSE"}
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2005-06", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
