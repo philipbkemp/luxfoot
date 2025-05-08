@@ -438,7 +438,14 @@ function parseLeague(league) {
 	if ( league.in_progress && league.possible ) {
 		$("#leagueTabs").append(buildTabButton("possible_finish","Possible Finishes"));
 		possibleFinish = buildTabPanel("possible_finish");
-		possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length,league.pts_win?league.pts_win:3) );
+		if ( ! league.series ) {
+			possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length,league.pts_win?league.pts_win:3) );
+		} else {
+			league.series.forEach(serie=>{
+				possibleFinish.append( $("<H2></H2>").html(serie.name) );
+				possibleFinish.append( buildPossibleTable(serie.standings,league.possible,serie.teams.length,league.pts_win?league.pts_win:3) );
+			});
+		}
 		$("#leagueTabContent").append(possibleFinish);
 		removeKey("possible");
 	}

@@ -2708,9 +2708,9 @@
 		"leagues": {
 			"level_1": {"season": "2024-25", "level": 1, "name": "National Division", "ongoing": true, "winner": "DIFF", "title_count": 2},
 			"level_2": {"season": "2024-25", "level": 2, "name": "Division of Honour", "ongoing": true},
-			"level_3": {"missing":true, "season": "2024-25", "level": 3, "name": "1. Division","series":[
-				{"missing":true, "season": "2024-25", "level": 3,"series":1, "name": "1. Division Series 1", "ongoing": true},
-				{"missing":true, "season": "2024-25", "level": 3,"series":2, "name": "1. Division Series 2", "ongoing": true}
+			"level_3": {"season": "2024-25", "level": 3, "name": "1. Division","series":[
+				{"season": "2024-25", "level": 3,"series":1, "name": "1. Division Series 1", "ongoing": true},
+				{"season": "2024-25", "level": 3,"series":2, "name": "1. Division Series 2", "ongoing": true}
 			]},
 			"level_4": {"missing":true, "season": "2024-25", "level": 4, "name": "2. Division","series":[
 				{"missing":true, "season": "2024-25", "level": 4,"series":1, "name": "2. Division Series 1", "ongoing": true},

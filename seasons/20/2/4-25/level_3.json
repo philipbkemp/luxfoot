@@ -1,0 +1,64 @@
+{
+    "level": 3,
+	"season": "2024-25",
+    "links": {
+        "prev": "2023-24",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+    "in_progress": true,
+    "possible": {
+        "promotion": [1],
+        "updown": [2],
+        "downup": [13,14],
+        "relegation": [15,16]
+    },
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "in_progress": true,
+        "teams": ["AAHE","AHOS","BAST","BWMD","ERPL","JGIL","JSCH","JUSE","KHLN","KOSM","LRNZ","MRTZ","NORD","OVND","STNG","YBDK"],
+        "standings": [
+            {"in_progress":true, "place": 1, "team": "LRNZ", "w": 20, "d": 5, "l": 2, "f": 81, "a": 28, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 2, "team": "MRTZ", "w": 18, "d": 5, "l": 4, "f": 65, "a": 37, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 3, "team": "JSCH", "w": 15, "d": 5, "l": 7, "f": 60, "a": 39, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 4, "team": "YBDK", "w": 13, "d": 9, "l": 5, "f": 60, "a": 47, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 5, "team": "BWMD", "w": 14, "d": 4, "l": 9, "f": 60, "a": 43, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 6, "team": "KHLN", "w": 11, "d": 5, "l": 11, "f": 55, "a": 47, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 7, "team": "BAST", "w": 9, "d": 9, "l": 9, "f": 48, "a": 46, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 8, "team": "JUSE", "w": 11, "d": 3, "l": 13, "f": 50, "a": 52, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 9, "team": "NORD", "w": 9, "d": 9, "l": 9, "f": 43, "a": 52, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 10, "team": "KOSM", "w": 9, "d": 8, "l": 10, "f": 46, "a": 39, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 11, "team": "JGIL", "w": 9, "d": 7, "l": 11, "f": 39, "a": 49, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 12, "team": "ERPL", "w": 9, "d": 7, "l": 11, "f": 36, "a": 48, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 13, "team": "AHOS", "w": 8, "d": 6, "l": 13, "f": 49, "a": 51, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 14, "team": "AAHE", "w": 9, "d": 2, "l": 16, "f": 38, "a": 61, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 15, "team": "STNG", "w": 4, "d": 6, "l": 17, "f": 25, "a": 55, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true, "place": 16, "team": "OVND", "w": 0, "d": 6, "l": 21, "f": 20, "a": 81, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "in_progress": true,
+        "teams": ["BLVL","BWIT","CGRV","DARE","EHLR","JUNG","MUNS","RBPF","RSMB","SHGN","SNEM","SYRA","U5KT","UNRB","USBC","YBWT"],
+        "standings": [
+            {"in_progress": true, "place": 1, "team": "BLVL", "w": 20, "d": 4, "l": 3, "f": 75, "a": 23, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 2, "team": "SHGN", "w": 17, "d": 7, "l": 3, "f": 64, "a": 33, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 3, "team": "CGRV", "w": 17, "d": 5, "l": 5, "f": 58, "a": 33, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 4, "team": "SYRA", "w": 17, "d": 3, "l": 7, "f": 69, "a": 33, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 5, "team": "DARE", "w": 14, "d": 5, "l": 8, "f": 62, "a": 45, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 6, "team": "SNEM", "w": 14, "d": 5, "l": 8, "f": 53, "a": 41, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 7, "team": "UNRB", "w": 12, "d": 7, "l": 8, "f": 55, "a": 43, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 8, "team": "JUNG", "w": 11, "d": 8, "l": 8, "f": 66, "a": 49, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 9, "team": "YBWT", "w": 11, "d": 7, "l": 9, "f": 51, "a": 48, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 10, "team": "BWIT", "w": 8, "d": 7, "l": 12, "f": 45, "a": 46, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 11, "team": "MUNS", "w": 8, "d": 4, "l": 15, "f": 36, "a": 50, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 12, "team": "RBPF", "w": 8, "d": 2, "l": 17, "f": 34, "a": 64, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 13, "team": "RSMB", "w": 6, "d": 5, "l": 16, "f": 33, "a": 63, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 14, "team": "EHLR", "w": 7, "d": 1, "l": 19, "f": 38, "a": 66, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 15, "team": "U5KT", "w": 5, "d": 3, "l": 19, "f": 36, "a": 78, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"in_progress": true, "place": 16, "team": "USBC", "w": 4, "d": 1, "l": 22, "f": 23, "a": 83, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"}
+        ]
+    }]
+}
