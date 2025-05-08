@@ -438,7 +438,7 @@ function parseLeague(league) {
 	if ( league.in_progress && league.possible ) {
 		$("#leagueTabs").append(buildTabButton("possible_finish","Possible Finishes"));
 		possibleFinish = buildTabPanel("possible_finish");
-		possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length) );
+		possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length,league.pts_win?league.pts_win:3) );
 		$("#leagueTabContent").append(possibleFinish);
 	}
 
@@ -457,7 +457,7 @@ function parseLeague(league) {
 	$(".displayAfterLoad").removeClass("d-none");
 }
 
-function buildPossibleTable(standings,possible,teamCount) {
+function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
@@ -470,6 +470,12 @@ function buildPossibleTable(standings,possible,teamCount) {
 	}
 	theadRow.append( $("<TH></TH>").attr("scope","col").html("") );
 	thead.append(theadRow);
+
+	pointsArray = [];
+	standings.forEach(s=>{
+		pointsArray[s.place] = (s.w*ptsWin) + s.d;
+	});
+	console.log(pointsArray);
 
 	tbody = $("<TBODY></TBODY>");
 	standings.forEach(s=>{
