@@ -482,7 +482,7 @@ function buildPossibleTable(standings,possible,teamCount) {
 			.append( $("<TH></TH>").attr("scope","row").html(teamName) )
 			;
 		for ( i=0 ; i!==teamCount ; i++ ) {
-			theadRow.append( $("<TH></TH>").attr("scope","col").html(i+1) );
+			thisRow.append( $("<TD></TD>").html("?") );
 		}
 		thisRow.append(thisRowNotes);
 
