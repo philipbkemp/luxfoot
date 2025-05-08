@@ -480,7 +480,6 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 			(s.w*ptsWin) + s.d + ((gamesToPlay-s.w-s.d-s.l)*ptsWin)
 		];
 	});
-	console.log(pointsArray);
 
 	tbody = $("<TBODY></TBODY>");
 	standings.forEach(s=>{
