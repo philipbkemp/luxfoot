@@ -102,6 +102,14 @@ function parseLeague(league) {
 			$("#leagueTabs").append(buildTabButton("series_"+series.series,series.name,series.series===1,series.missing,league.shortTabs?true:false));
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			seriesPanel.addClass("tab-pane__standings");
+			if ( league.in_progress ) {
+				standingsPanel.append(
+					$("<DIV></DIV>").addClass("alert").addClass("alert-info").html(
+						"League is still running"
+					)
+				);
+				removeKey("in_progress");
+			}
 			if ( ! series.missing ) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
 				if ( league.pts_win && league.pts_win !== 3) {
@@ -389,7 +397,7 @@ function parseLeague(league) {
 		);
 		removeKey("note");
 	}
-	if ( league.in_progress ) {
+	if ( league.in_progress && ! league.series ) {
 		standingsPanel.prepend(
 			$("<DIV></DIV>").addClass("alert").addClass("alert-info").html(
 				"League is still running"
