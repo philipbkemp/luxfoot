@@ -2716,7 +2716,7 @@
 				{"season": "2024-25", "level": 4,"series":1, "name": "2. Division Series 1", "ongoing": true},
 				{"season": "2024-25", "level": 4,"series":2, "name": "2. Division Series 2", "ongoing": true}
 			]},
-			"level_5": {"missing":true, "season": "2024-25", "level": 5, "name": "3. Division", "ongoing": true}
+			"level_5": {"season": "2024-25", "level": 5, "name": "3. Division", "ongoing": true}
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true, "season": "2024-25", "name": "Luxembourg Cup", "ongoing": true},
