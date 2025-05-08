@@ -717,6 +717,15 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.title_count");
 		}
 
+		if ( s.in_progress ) {
+			removeKey("standings.in_progress");
+			if ( ! s.champion && ! s.removed && ! s.relegated && ! s.promoted ) {
+				thisRow.addClass("opacity-25");
+			} else {
+				thisRow.addClass("opacity-50");
+			}
+		}
+
 		thisRow.append(thisRowNotes);
 
 		removeKey("standings.place");
