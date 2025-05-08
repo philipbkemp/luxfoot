@@ -520,7 +520,7 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 				thisCell.addClass("possible-promotion");
 			} else if ( possible.playoff_updown && possible.playoff_updown.includes(targetPlace) ) {
 				thisCell.addClass("possible-playoff_updown");
-			
+			}			
 
 			thisRow.append(thisCell);
 
