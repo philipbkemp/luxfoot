@@ -519,6 +519,8 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 				thisCell.addClass("possible-playoff_downup");
 			}
 
+			thisRow.append(thisCell);
+
 		}
 		thisRow.append(thisRowNotes);
 
