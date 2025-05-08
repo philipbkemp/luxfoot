@@ -103,7 +103,7 @@ function parseLeague(league) {
 			seriesPanel = buildTabPanel("series_"+series.series,series.series===1);
 			seriesPanel.addClass("tab-pane__standings");
 			if ( league.in_progress ) {
-				standingsPanel.append(
+				seriesPanel.append(
 					$("<DIV></DIV>").addClass("alert").addClass("alert-info").html(
 						"League is still running"
 					)
