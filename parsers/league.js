@@ -503,7 +503,11 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 					thisRow.append( $("<TD></TD>") );
 				}
 			} else {
-				thisRow.append( $("<TD></TD>").html("B") );
+				if ( pointsArray[s.place][1] >= pointsArray[i-1][0] ) {
+					thisRow.append( $("<TD></TD>").html("B") );
+				} else {
+					thisRow.append( $("<TD></TD>") );
+				}
 			}			
 		}
 		thisRow.append(thisRowNotes);
