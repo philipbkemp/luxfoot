@@ -497,7 +497,7 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 
 			targetPlace = i+1;
 
-			if ( targetPlace = s.place ) {
+			if ( targetPlace === s.place ) {
 				thisRow.append( $("<TD></TD>").addClass("possible-yes") );
 			} else if ( targetPlace > s.place ) {
 				if ( pointsArray[targetPlace][1] >= pointsArray[s.place][0] ) {
