@@ -435,6 +435,13 @@ function parseLeague(league) {
 		removeKey("links");
 	}
 
+	if ( league.in_progress && league.possible ) {
+		$("#leagueTabs").append(buildTabButton("possible_finish","Possible Finishes"));
+		possibleFinish = buildTabPanel("possible_finish");
+		possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length) );
+		$("#leagueTabContent").append(poFinalRound);
+	}
+
 	removeKey("level");
 	removeKey("champion");
 	removeKey("relegation");
@@ -448,6 +455,25 @@ function parseLeague(league) {
 
 	$(".placeholder-glow").addClass("d-none");
 	$(".displayAfterLoad").removeClass("d-none");
+}
+
+function buildPossibleTable(standings,possible,teamCount) {
+	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
+	thead = $("<THEAD></THEAD>");
+	theadRow = $("<TR></TR>");
+	theadRow
+		.append( $("<TH></TH>").attr("scope","col").html("") )
+		.append( $("<TH></TH>").attr("scope","col").html("Team") )
+		;
+	for ( i=0 ; i!==teamCount ; i++ ) {
+		theadRow.append( $("<TH></TH>").attr("scope","col").html(i+1) );
+	}
+
+	thead.append(theadRow);
+
+	tbl.append(thead);
+
+	return tbl;
 }
 
 function buildResultsTable(teams,results) {
