@@ -25,12 +25,16 @@
 		{"in_progress":true,"place": 13, "team": "SCHF", "w": 8, "d": 5, "l": 14, "f": 38, "a": 43, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"in_progress":true,"place": 14, "team": "KOEP", "w": 6, "d": 11, "l": 10, "f": 41, "a": 47, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"in_progress":true,"place": 15, "team": "AVBG", "w": 6, "d": 6, "l": 15, "f": 30, "a": 50, "season": "2024-25", "level": 2, "league": "Division of Honour"},
-		{"in_progress":true,"place": 16, "team": "SAND", "w": 2, "d": 6, "l": 19, "f": 23, "a": 78, "season": "2024-25", "level": 2, "league": "Division of Honour"}
+		{"in_progress":true,"place": 16, "team": "SAND", "w": 2, "d": 6, "l": 19, "f": 23, "a": 78, "season": "2024-25", "level": 2, "league": "Division of Honour","relegated": true, "target": {"season":"2025-26","level":3,"name":"1. Division"}}
     ],
     "possible": {
         "promotion": [1,2],
         "playoff_updown": [3,4],
         "relegation": [15,16],
         "playoff_downup": [13,14]
+    },
+    "relegation": {
+        "teams": ["SAND"],
+        "target": {"season":"2025-26","level":3,"name":"1. Division"}
     }
 }
