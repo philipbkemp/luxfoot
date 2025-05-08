@@ -486,6 +486,15 @@ td.possible-yes:before {
     top: 3px;
     width: 15px;
 }
+td.possible-champion {
+    background: #FEFBDC;
+}
+td.possible-relegation {
+    background: #dcb6b6;
+}
+td.possible-playoff_downup {
+    background: #dcb6b6aa;
+}
 
 /*.badge.badge-titleCount {
 	color: #666;

@@ -29,7 +29,7 @@
     "possible": {
         "champion": [1],
         "relegation": [15,16],
-        "playoff.downup": [13,14]
+        "playoff_downup": [13,14]
     },
 	"champion": "DIFF",
 	"relegation": {

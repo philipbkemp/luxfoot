@@ -497,21 +497,28 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 
 			targetPlace = i+1;
 
+			thisCell = $("<TD></TD>");
+
 			if ( targetPlace === s.place ) {
-				thisRow.append( $("<TD></TD>").addClass("possible-yes") );
+				thisCell.addClass("possible-yes")
 			} else if ( targetPlace > s.place ) {
 				if ( pointsArray[targetPlace][1] >= pointsArray[s.place][0] ) {
-					thisRow.append( $("<TD></TD>").addClass("possible-yes") );
-				} else {
-					thisRow.append( $("<TD></TD>") );
+					thisCell.addClass("possible-yes")
 				}
 			} else if ( targetPlace < s.place ) {
 				if ( pointsArray[s.place][1] >= pointsArray[targetPlace][0] ) {
-					thisRow.append( $("<TD></TD>").addClass("possible-yes") );
-				} else {
-					thisRow.append( $("<TD></TD>") );
+					thisCell.addClass("possible-yes")
 				}
 			}
+
+			if ( league.possible.champion && league.possible.champion.includes(targetPlace) ) {
+				thisCell.addClass("possible-champion");
+			} else if ( league.possible.relegation && league.possible.relegation.includes(targetPlace) ) {
+				thisCell.addClass("possible-relegation");
+			} else if ( league.possible.playoff_downup && league.possible.playoff_downup.includes(targetPlace) ) {
+				thisCell.addClass("possible-playoff_downup");
+			}
+
 		}
 		thisRow.append(thisRowNotes);
 
