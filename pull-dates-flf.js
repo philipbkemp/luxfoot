@@ -43,7 +43,7 @@ allTeams = {
     "Union Mertert-Wasserbillig": "UNMW"
 }
 matches = JSON.parse(prompt("give me a matches array"));
-document.querySelectorAll(".jss200").forEach(match=>{
+document.querySelectorAll(".jss474").forEach(match=>{
     home = match.querySelectorAll("b")[0].textContent;
     if ( ! allTeams[home] ) {
         allTeams[home] = prompt("CODE",home);
@@ -58,7 +58,7 @@ document.querySelectorAll(".jss200").forEach(match=>{
     date = match.querySelectorAll("p")[1].textContent.split(".").reverse().join("-");
     target = matches.filter(m=>{return m.home === home && m.away === away});
     if ( target.length === 0 ) {
-        console.error(home,away,score,date);
+        console.error(home,away,date);
     } else {
         target[0].date = date;
     }
