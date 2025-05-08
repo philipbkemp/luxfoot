@@ -516,7 +516,11 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 				thisCell.addClass("possible-relegation");
 			} else if ( possible.playoff_downup && possible.playoff_downup.includes(targetPlace) ) {
 				thisCell.addClass("possible-playoff_downup");
-			}
+			} else if ( possible.promotion && possible.promotion.includes(targetPlace) ) {
+				thisCell.addClass("possible-promotion");
+			} else if ( possible.playoff_updown && possible.playoff_updown.includes(targetPlace) ) {
+				thisCell.addClass("possible-playoff_updown");
+			
 
 			thisRow.append(thisCell);
 
