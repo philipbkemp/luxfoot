@@ -440,6 +440,7 @@ function parseLeague(league) {
 		possibleFinish = buildTabPanel("possible_finish");
 		possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length,league.pts_win?league.pts_win:3) );
 		$("#leagueTabContent").append(possibleFinish);
+		removeKey("possible");
 	}
 
 	removeKey("level");
@@ -472,8 +473,12 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 	thead.append(theadRow);
 
 	pointsArray = [];
+	gamesToPlay = (teamCount-1)*2;
 	standings.forEach(s=>{
-		pointsArray[s.place] = (s.w*ptsWin) + s.d;
+		pointsArray[s.place] = [
+			(s.w*ptsWin) + s.d,
+			(s.w*ptsWin) + s.d + ((gamesToPlay-s.w-s.d-s.l)*ptsWin)
+		];
 	});
 	console.log(pointsArray);
 
@@ -487,6 +492,7 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 			.append( $("<TD></TD>").html(s.place) )
 			.append( $("<TH></TH>").attr("scope","row").html(teamName) )
 			;
+
 		for ( i=0 ; i!==teamCount ; i++ ) {
 			thisRow.append( $("<TD></TD>").html("?") );
 		}
