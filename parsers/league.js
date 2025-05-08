@@ -448,11 +448,11 @@ function parseLeague(league) {
 		$("#leagueTabs").append(buildTabButton("possible_finish","Possible Finishes"));
 		possibleFinish = buildTabPanel("possible_finish");
 		if ( ! league.series ) {
-			possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length,league.pts_win?league.pts_win:3) );
+			possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length,league.pts_win?league.pts_win:3,league.play_each?league.play_each:2) );
 		} else {
 			league.series.forEach(serie=>{
 				possibleFinish.append( $("<H2></H2>").html(serie.name) );
-				possibleFinish.append( buildPossibleTable(serie.standings,league.possible,serie.teams.length,league.pts_win?league.pts_win:3) );
+				possibleFinish.append( buildPossibleTable(serie.standings,league.possible,serie.teams.length,league.pts_win?league.pts_win:3,league.play_each?league.play_each:2) );
 			});
 		}
 		$("#leagueTabContent").append(possibleFinish);
@@ -474,7 +474,7 @@ function parseLeague(league) {
 	$(".displayAfterLoad").removeClass("d-none");
 }
 
-function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
+function buildPossibleTable(standings,possible,teamCount,ptsWin=3,playEach=2) {
 	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
 	thead = $("<THEAD></THEAD>");
 	theadRow = $("<TR></TR>");
@@ -489,7 +489,7 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 	thead.append(theadRow);
 
 	pointsArray = [];
-	gamesToPlay = (teamCount-1)*2;
+	gamesToPlay = (teamCount-1)*playEach;
 	standings.forEach(s=>{
 		pointsArray[s.place] = [
 			(s.w*ptsWin) + s.d,

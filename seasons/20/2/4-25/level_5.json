@@ -8,6 +8,7 @@
 	"name": "3. Division",
 	"teams": ["BIEK","BRCH","CBSH","CLVX","EXGV","KPWW","LARD","RBAS","UESH"],
     "in_progress": true,
+    "play_each": 3,
 	"standings": [
         {"in_progress": true, "place": 1, "team": "CBSH", "w": 17, "d": 1, "l": 3, "f": 79, "a": 18, "season": "2024-25", "level": 5, "league": "3. Division"},
 		{"in_progress": true, "place": 2, "team": "UESH", "w": 15, "d": 4, "l": 2, "f": 50, "a": 19, "season": "2024-25", "level": 5, "league": "3. Division"},
