@@ -439,7 +439,7 @@ function parseLeague(league) {
 		$("#leagueTabs").append(buildTabButton("possible_finish","Possible Finishes"));
 		possibleFinish = buildTabPanel("possible_finish");
 		possibleFinish.append( buildPossibleTable(league.standings,league.possible,league.teams.length) );
-		$("#leagueTabContent").append(poFinalRound);
+		$("#leagueTabContent").append(possibleFinish);
 	}
 
 	removeKey("level");
@@ -468,10 +468,29 @@ function buildPossibleTable(standings,possible,teamCount) {
 	for ( i=0 ; i!==teamCount ; i++ ) {
 		theadRow.append( $("<TH></TH>").attr("scope","col").html(i+1) );
 	}
-
+	theadRow.append( $("<TH></TH>").attr("scope","col").html("") );
 	thead.append(theadRow);
 
-	tbl.append(thead);
+	tbody = $("<TBODY></TBODY>");
+	standings.forEach(s=>{
+		thisRow = $("<TR></TR>");
+		thisRowNotes = $("<TD></TD>");
+		teamName = allTeams[s.team];
+		
+		thisRow
+			.append( $("<TD></TD>").html(s.place) )
+			.append( $("<TH></TH>").attr("scope","row").html(teamName) )
+			;
+		for ( i=0 ; i!==teamCount ; i++ ) {
+			theadRow.append( $("<TH></TH>").attr("scope","col").html(i+1) );
+		}
+		thisRow.append(thisRowNotes);
+
+		tbody.append(thisRow);
+	});
+
+
+	tbl.append(thead).append(tbody);
 
 	return tbl;
 }
