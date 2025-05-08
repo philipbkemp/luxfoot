@@ -390,7 +390,7 @@ function parseLeague(league) {
 		removeKey("note");
 	}
 	if ( league.in_progress ) {
-		standingsPanel.append(
+		standingsPanel.prepend(
 			$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
 				"League is still running"
 			)
