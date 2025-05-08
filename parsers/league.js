@@ -511,11 +511,11 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 				}
 			}
 
-			if ( league.possible.champion && league.possible.champion.includes(targetPlace) ) {
+			if ( possible.champion && possible.champion.includes(targetPlace) ) {
 				thisCell.addClass("possible-champion");
-			} else if ( league.possible.relegation && league.possible.relegation.includes(targetPlace) ) {
+			} else if ( possible.relegation && possible.relegation.includes(targetPlace) ) {
 				thisCell.addClass("possible-relegation");
-			} else if ( league.possible.playoff_downup && league.possible.playoff_downup.includes(targetPlace) ) {
+			} else if ( possible.playoff_downup && possible.playoff_downup.includes(targetPlace) ) {
 				thisCell.addClass("possible-playoff_downup");
 			}
 
