@@ -473,6 +473,20 @@ table.winners--table#winners--country tbody tr td:last-child {
     width: auto;
 }
 
+/* POSSIBLE FINAL POSITION TABLE *****************************************************************/
+td.possible-yes:before {
+    background-color: #5cc737;
+    border: 1px solid #5cc737;
+    border-radius: 50%;
+    color: transparent;
+    content: "o";
+    display: inline-block;
+    height: 15px;
+    position: relative;
+    top: 3px;
+    width: 15px;
+}
+
 /*.badge.badge-titleCount {
 	color: #666;
 	font-style: italic;
