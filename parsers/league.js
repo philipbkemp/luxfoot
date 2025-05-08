@@ -109,6 +109,7 @@ function parseLeague(league) {
 					)
 				);
 				removeKey("in_progress");
+				removeKey("series.in_progress");
 			}
 			if ( ! series.missing ) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );

@@ -34,9 +34,13 @@
             {"in_progress":true, "place": 12, "team": "ERPL", "w": 9, "d": 7, "l": 11, "f": 36, "a": 48, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
             {"in_progress":true, "place": 13, "team": "AHOS", "w": 8, "d": 6, "l": 13, "f": 49, "a": 51, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
             {"in_progress":true, "place": 14, "team": "AAHE", "w": 9, "d": 2, "l": 16, "f": 38, "a": 61, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
-            {"in_progress":true, "place": 15, "team": "STNG", "w": 4, "d": 6, "l": 17, "f": 25, "a": 55, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
-            {"in_progress":true, "place": 16, "team": "OVND", "w": 0, "d": 6, "l": 21, "f": 20, "a": 81, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"}
-        ]
+            {"in_progress":true, "place": 15, "team": "STNG", "w": 4, "d": 6, "l": 17, "f": 25, "a": 55, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
+            {"in_progress":true, "place": 16, "team": "OVND", "w": 0, "d": 6, "l": 21, "f": 20, "a": 81, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}}
+        ],
+        "relegation": {
+            "teams": ["STNG","OVND"],
+            "target": {"season": "2025-26", "level": 4, "name":"2. Division"}
+        }
     },{
         "series": 2,
         "name": "Series 2",
