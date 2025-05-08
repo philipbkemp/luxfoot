@@ -10,8 +10,8 @@
     "in_progress": true,
     "possible": {
         "promotion": [1],
-        "updown": [2],
-        "downup": [13,14],
+        "playoff_updown": [2],
+        "playoff_downup": [13,14],
         "relegation": [15,16]
     },
     "series": [{
