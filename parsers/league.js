@@ -497,6 +497,8 @@ function buildResultsTable(teams,results) {
 						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
 						resultNotes.push(theMatch[0]);
 						removeKey("match.note");
+					} else if ( theMatch[0].score === "" ) {
+						teamRow.append( $("<TD></TD>").html("-").addClass("opcaity-25").addClass(result) );
 					} else {
 						teamRow.append( $("<TD></TD>").html(theMatch[0].score).addClass(result) );
 					}
