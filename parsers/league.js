@@ -496,8 +496,14 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3) {
 		for ( i=0 ; i!==teamCount ; i++ ) {
 			if ( i+1 === s.place ) {
 				thisRow.append( $("<TD></TD>").addClass("possible-yes") );
+			} else if ( i+1 > s.place ) {
+				if ( pointsArray[i+1][1] >= pointsArray[s.place][0] ) {
+					thisRow.append( $("<TD></TD>").addClass("possible-yes") );
+				} else {
+					thisRow.append( $("<TD></TD>") );
+				}
 			} else {
-				thisRow.append( $("<TD></TD>").html("?") );
+				thisRow.append( $("<TD></TD>").html("B") );
 			}			
 		}
 		thisRow.append(thisRowNotes);
