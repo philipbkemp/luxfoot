@@ -174,7 +174,7 @@
         "key": "F",
         "name": "Final",
         "matches": [
-            {"Date":"1989-06-10","season": "1988-89","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "AVBG", "awayDivision": {"level":1,"name":"National Division"},"score": "2-0"}
+            {"date":"1989-06-10","season": "1988-89","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "AVBG", "awayDivision": {"level":1,"name":"National Division"},"score": "2-0"}
         ]
     }],
     "winner": "ULUX",
