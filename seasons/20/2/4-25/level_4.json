@@ -46,7 +46,7 @@
         "teams": ["ASLX","CLMC","CSOB","ESHW","JBIW","KOPS","LADH","LUNA","MLSV","NORZ","SBRT","TRIG","UNMW","USMM"],
         "standings": [
             {"in_progress": true, "place": 1, "team": "KOPS", "w": 18, "d": 2, "l": 4, "f": 44, "a": 20, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target":{"season":"2025-26","level":3,"name":"1. Division"}},
-            {"in_progress": true, "place": 2, "team": "CSOB", "w": 16, "d": 4, "l": 4, "f": 43, "a": 18, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"in_progress": true, "place": 2, "team": "CSOB", "w": 16, "d": 4, "l": 4, "f": 43, "a": 18, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target":{"season":"2025-26","level":3,"name":"1. Division"}},
             {"in_progress": true, "place": 3, "team": "UNMW", "w": 12, "d": 7, "l": 5, "f": 72, "a": 39, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"in_progress": true, "place": 4, "team": "SBRT", "w": 12, "d": 6, "l": 6, "f": 57, "a": 29, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"in_progress": true, "place": 5, "team": "JBIW", "w": 11, "d": 4, "l": 9, "f": 53, "a": 40, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
@@ -61,7 +61,7 @@
             {"in_progress": true, "place": 14, "team": "LUNA", "w": 2, "d": 7, "l": 15, "f": 31, "a": 74, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"}
         ],
         "promoted": {
-            "teams": ["KOPS"],
+            "teams": ["KOPS","CSOB"],
             "target":{"season":"2025-26","level":3,"name":"1. Division"}
         }
     }]

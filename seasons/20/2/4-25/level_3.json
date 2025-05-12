@@ -62,7 +62,11 @@
             {"in_progress": true, "place": 13, "team": "RSMB", "w": 7, "d": 5, "l": 16, "f": 35, "a": 64, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
             {"in_progress": true, "place": 14, "team": "EHLR", "w": 7, "d": 1, "l": 20, "f": 39, "a": 68, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
             {"in_progress": true, "place": 15, "team": "U5KT", "w": 6, "d": 3, "l": 19, "f": 38, "a": 78, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
-            {"in_progress": true, "place": 16, "team": "USBC", "w": 4, "d": 1, "l": 23, "f": 23, "a": 87, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"}
-        ]
+            {"place": 16, "team": "USBC", "w": 4, "d": 1, "l": 23, "f": 23, "a": 87, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}}
+        ],
+        "relegated": {
+            "teams": ["USBC"],
+            "target": {"season": "2025-26", "level": 4, "name":"2. Division"}
+        }
     }]
 }

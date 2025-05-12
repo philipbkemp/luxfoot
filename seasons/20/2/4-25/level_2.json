@@ -10,7 +10,7 @@
 	"teams": ["ASTN","ATBS","AVBG","BDBB","ETZE","JCNC","KAER","KOEP","LUXC","MAMR","MARM","SAND","SCHF","UFLN","URUM","WALF"],
     "in_progress": true,
 	"standings": [
-        {"in_progress":true,"place": 1, "team": "MAMR", "w": 19, "d": 7, "l": 2, "f": 67, "a": 26, "season": "2024-25", "level": 2, "league": "Division of Honour"},
+        {"place": 1, "team": "MAMR", "w": 19, "d": 7, "l": 2, "f": 67, "a": 26, "season": "2024-25", "level": 2, "league": "Division of Honour","promoted":true,"target": {"season":"2025-26","level":2,"name":"National Division"}},
 		{"in_progress":true,"place": 2, "team": "KAER", "w": 16, "d": 8, "l": 4, "f": 59, "a": 30, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"in_progress":true,"place": 3, "team": "ATBS", "w": 16, "d": 7, "l": 5, "f": 56, "a": 30, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"in_progress":true,"place": 4, "team": "JCNC", "w": 13, "d": 4, "l": 11, "f": 47, "a": 45, "season": "2024-25", "level": 2, "league": "Division of Honour"},
@@ -25,7 +25,7 @@
 		{"in_progress":true,"place": 13, "team": "KOEP", "w": 6, "d": 12, "l": 10, "f": 42, "a": 48, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"in_progress":true,"place": 14, "team": "SCHF", "w": 8, "d": 5, "l": 15, "f": 39, "a": 45, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"in_progress":true,"place": 15, "team": "AVBG", "w": 6, "d": 6, "l": 16, "f": 30, "a": 54, "season": "2024-25", "level": 2, "league": "Division of Honour"},
-		{"in_progress":true,"place": 16, "team": "SAND", "w": 2, "d": 6, "l": 20, "f": 25, "a": 84, "season": "2024-25", "level": 2, "league": "Division of Honour","relegated": true, "target": {"season":"2025-26","level":3,"name":"1. Division"}}
+		{"place": 16, "team": "SAND", "w": 2, "d": 6, "l": 20, "f": 25, "a": 84, "season": "2024-25", "level": 2, "league": "Division of Honour","relegated": true, "target": {"season":"2025-26","level":3,"name":"1. Division"}}
     ],
     "possible": {
         "promotion": [1,2],
@@ -36,5 +36,9 @@
     "relegation": {
         "teams": ["SAND"],
         "target": {"season":"2025-26","level":3,"name":"1. Division"}
+    },
+    "promotion": {
+        "teams": ["MAMR"],
+        "target": {"season":"2025-26","level":2,"name":"National Division"}
     }
 }

@@ -9,7 +9,7 @@
 	"teams": ["DIFF","F91D","FOLA","HOST","JESH","MDCG","MDLB","PRON","RACE","RODG","SCBT","SWFT","UNAS","UNTP","VICR","WLTZ"],
     "in_progress": true,
 	"standings": [
-        {"in_progress":true,"place": 1, "team": "DIFF", "w": 25, "d": 2, "l": 1, "f": 68, "a": 5, "season": "2024-25", "level": 1, "league": "National Division","champion":true,"title_count":2},
+        {"place": 1, "team": "DIFF", "w": 25, "d": 2, "l": 1, "f": 68, "a": 5, "season": "2024-25", "level": 1, "league": "National Division","champion":true,"title_count":2},
 		{"in_progress":true,"place": 2, "team": "UNAS", "w": 16, "d": 6, "l": 6, "f": 58, "a": 23, "season": "2024-25", "level": 1, "league": "National Division"},
 		{"in_progress":true,"place": 3, "team": "F91D", "w": 16, "d": 6, "l": 6, "f": 62, "a": 32, "season": "2024-25", "level": 1, "league": "National Division"},
 		{"in_progress":true,"place": 4, "team": "RACE", "w": 16, "d": 5, "l": 7, "f": 47, "a": 21, "season": "2024-25", "level": 1, "league": "National Division"},
