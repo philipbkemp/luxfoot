@@ -2327,8 +2327,8 @@
 				{"missing":true, "season": "2009-10", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "GBHT"},
 				{"missing":true, "season": "2009-10", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MDLB"}
 			]},
-			"level_4": {"missing":true, "season": "2009-10", "level": 4, "name": "2. Division","series":[
-				{"missing":true, "season": "2009-10", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "AHOS"},
+			"level_4": {"season": "2009-10", "level": 4, "name": "2. Division","series":[
+				{"season": "2009-10", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "AHOS"},
 				{"missing":true, "season": "2009-10", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "SCHF"}
 			]},
 			"level_5": {"missing":true, "season": "2009-10", "level": 5, "name": "3. Division","series":[

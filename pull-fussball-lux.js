@@ -41,10 +41,11 @@ allTeams = {
     "K. Wormeldange": "KWRM", "Remich/Bous": "UNRB", "U. Kayl/Tétange": "U5KT", "Mertert/Wasserb.": "UNMW", "Rés. Walferdange": "WALF", "Red Black/Egalité": "RBE7",
     "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF",
     "Diables Rouges Zolver": "DRZV", "Una Strassen": "UNAS","FC Mamer 32": "MAMR", "Kischpelt Wilwerwiltz": "KPWW", "Rac. Heiderscheid/Eschdorf": "RHSE",
-    "FC Pratzerthal/Redange": "PRTZ", "SC Differdingen": "SDIF", "FC Cebra 01": "CBRA", "FC Flaxweiler/Beyren": "FBU1", "Les Amis de la Moselle Remerschen": "AMRS",
+    "FC Pratzerthal/Redange": "FCPR", "SC Differdingen": "SDIF", "FC Cebra 01": "CBRA", "FC Flaxweiler/Beyren": "FBU1", "Les Amis de la Moselle Remerschen": "AMRS",
     "FC 72 Erpeldingen": "ERPL", "Blue-Boys Muhlenbach": "BBML", "US Berdorf/Consdorf": "USBC", "FC Schifflingen 95": "SCHF", "Alliance 01 Luxemburg": "ALLX",
     "RM 86 Luxemburg": "RMLX", "SC Bettembourg": "SCBT", "Titus Petingen": "UNTP", "Vistoria Rosport": "VICR", "US Mondorf": "MDLB", "FC Luxemburg City": "LUXC",
-    "FC Koeppchen": "KOEP", "Rupensia Lusit. Larochette": "RPLL", "R. Heiderscheid/Eschdorf": "RHSE", "Ol. Christnach/Waldbillig": "OYCW", "FC Biekerech": "BIEK"
+    "FC Koeppchen": "KOEP", "Rupensia Lusit. Larochette": "RPLL", "R. Heiderscheid/Eschdorf": "RHSE", "Ol. Christnach/Waldbillig": "OYCW", "FC Biekerech": "BIEK",
+    "Pratzerthal/Rédange": "FCPR", "JS Koerich": "KOSM"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
