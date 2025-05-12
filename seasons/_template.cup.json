@@ -6,6 +6,7 @@
         "next": "",
         "prev": ""
     },
+    "shortTabs": true,
     "rounds": [{
         "key": "R4",
         "name": "4th round",

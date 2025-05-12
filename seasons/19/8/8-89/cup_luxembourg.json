@@ -6,6 +6,7 @@
         "next": "1989-90",
         "prev": "1987-88"
     },
+    "shortTabs": true,
     "rounds": [{
         "key": "PR",
         "name": "Preliminary round",
