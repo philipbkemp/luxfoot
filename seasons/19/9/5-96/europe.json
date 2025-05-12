@@ -18,7 +18,7 @@
                 ],                
                 "AVBG": [
                     {"isEurope":true,"date":"1995-08-08","leg":1,"home":"SWE:OREB","away":"AVBG","score":"0-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":1}},
-                    {"isEurope":true,"date":"1995-08-22","leg":2,"home":"AVBG","away":"SWE:OREB","score":"3-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":2},"agg":{"score":"3-0","outcome":"W","team":"AVBG"},"forfeit":true,"note":"Match awarded to AVBG after SWE:OREB fielded an ineligible player"}
+                    {"isEurope":true,"date":"1995-08-22","leg":2,"home":"AVBG","away":"SWE:OREB","score":"3-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":2},"agg":{"score":"3-0","outcome":"W","team":"AVBG"},"forfeit":true,"note":"Forfeited due to fielding an ineligible player, after initial 1-1 draw"}
                 ]
             }
         },{
