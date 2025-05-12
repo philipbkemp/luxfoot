@@ -1,7 +1,15 @@
 {
+    "CHE": {
+        "_country": "Switzerland",
+        "LGNO": {"id": "FC_Lugano", "name": "Lugano"}
+    },
     "BEL": {
         "_country": "Belgium",
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"}
+    },
+    "FRA": {
+        "_country": "France",
+        "LENS": {"id": "RC_Lens", "name": "Lens"}
     },
     "ITA": {
         "_country": "Italy",
@@ -10,6 +18,10 @@
     "LVA": {
         "_country": "Latvia",
         "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
+    },
+    "SWE": {
+        "_country": "Sweden",
+        "OREB": {"id": "Örebro_SK", "name": "Örebro"}
     },
     "WDE": {
         "_country": "West Germany",

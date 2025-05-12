@@ -1965,8 +1965,8 @@
 			"cup_luxembourg": {"missing":true, "season": "1995-96", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 10, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1995-96","teams":["JESH","AVBG"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1995-96","teams":["CGRV"]}
+			"europa_league": {"name":"UEFA Cup",						"season":"1995-96","teams":["JESH","AVBG"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1995-96","teams":["CGRV"]}
 		}
 	},{
 		"season": "1996-97",

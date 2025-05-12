@@ -1,0 +1,35 @@
+{
+    "season": "1995-96",
+    "europa_league": {
+        "name": "UEFA Cup",
+        "season": "1995-96",
+        "links": {
+            "next": "1996-97",
+            "prev": "1994-95"
+        },
+        "teams": ["JESH","AVBG"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1995-08-08","leg":1,"home":"JESH","away":"CHE:LGNO","score":"0-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1995-08-23","leg":2,"home":"CHE:LGNO","away":"JESH","score":"4-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":2},"agg":{"score":"0-4","outcome":"L","team":"JESH"}}
+                ],                
+                "AVBG": [
+                    {"isEurope":true,"date":"1995-08-08","leg":1,"home":"SWE:OREB","away":"AVBG","score":"0-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1995-08-22","leg":2,"home":"AVBG","away":"SWE:OREB","score":"3-0","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Preliminary Round","leg":2},"agg":{"score":"3-0","outcome":"W","team":"AVBG"},"forfeit":true,"note":"Match awarded to AVBG after SWE:OREB fielded an ineligible player"}
+                ]
+            }
+        },{
+            "key": "R1",
+            "name": "First round",
+            "matches": {               
+                "AVBG": [
+                    {"isEurope":true,"date":"1995-09-14","leg":1,"home":"FRA:LENS","away":"AVBG","score":"0-6","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1995-09-27","leg":2,"home":"AVBG","away":"FRA:LENS","score":"0-7","season":"1995-96","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First Round","leg":2},"agg":{"score":"0-13","outcome":"L","team":"AVBG"}}
+                ]
+            }
+        }]
+    }
+}
