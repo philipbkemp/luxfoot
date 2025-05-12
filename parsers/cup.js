@@ -110,7 +110,7 @@ function parseCup(cup) {
 	});
 	removeKey("rounds");
 	removeKey("cup");
-	removeKey("cup.shortTabs");
+	removeKey("shortTabs");
 
 	if ( keys.length !== 0 ) {
 		console.log(cup);
