@@ -1749,7 +1749,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1988-89", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"season": "1988-89", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1988-89","teams":["JESH"]},
