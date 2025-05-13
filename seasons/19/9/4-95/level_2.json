@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1994-95",
+    "links": {
+        "next": "1995-96",
+        "prev": "1993-94",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["AREM","ASCH","ASDF","ETZE","FOLA","HAMM","HOBS","MDCG","MRTZ","PRON","RODG","TSVG","URUM","YBDK"],
+	"standings": [
+        {"place": 1, "team": "RODG", "w": 18, "d": 6, "l": 2, "f": 65, "a": 27, "season": "1994-95", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1995-96", "level": 1, "name": "National Division"}},
+		{"place": 2, "team": "MRTZ", "w": 14, "d": 8, "l": 4, "f": 42, "a": 25, "season": "1994-95", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1995-96", "level": 1, "name": "National Division"}},
+		{"place": 3, "team": "YBDK", "w": 13, "d": 7, "l": 6, "f": 56, "a": 33, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 4, "team": "HOBS", "w": 12, "d": 9, "l": 5, "f": 59, "a": 41, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 5, "team": "FOLA", "w": 14, "d": 3, "l": 9, "f": 64, "a": 49, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 6, "team": "PRON", "w": 11, "d": 7, "l": 8, "f": 45, "a": 41, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 7, "team": "MDCG", "w": 10, "d": 8, "l": 8, "f": 42, "a": 40, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 8, "team": "URUM", "w": 9, "d": 8, "l": 9, "f": 50, "a": 41, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 9, "team": "HAMM", "w": 10, "d": 5, "l": 11, "f": 42, "a": 51, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "ETZE", "w": 8, "d": 8, "l": 10, "f": 44, "a": 44, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "ASDF", "w": 7, "d": 7, "l": 12, "f": 42, "a": 44, "season": "1994-95", "level": 2, "league": "Division of Honour"},
+		{"place": 12, "team": "ASCH", "w": 3, "d": 10, "l": 13, "f": 32, "a": 56, "season": "1994-95", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1995-96", "level": 3, "name": "1. Division"},"merge":{"with":["NSCH"],"to":"SCHF"}},
+		{"place": 13, "team": "AREM", "w": 3, "d": 6, "l": 17, "f": 39, "a": 77, "season": "1994-95", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1995-96", "level": 3, "name": "1. Division"}},
+		{"place": 14, "team": "TSVG", "w": 2, "d": 4, "l": 20, "f": 21, "a": 74, "season": "1994-95", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1995-96", "level": 3, "name": "1. Division"}}
+    ],
+	"relegation": {
+		"teams": ["ASCH","AREM","TSVG"],
+		"target": {"season": "1995-96", "level": 3, "name": "1. Division"}
+	},
+	"promotion": {
+		"teams": ["RODG","MRTZ"],
+		"target": {"season": "1995-96", "level": 1, "name": "National Division"}
+	}
+}

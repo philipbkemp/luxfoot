@@ -815,6 +815,21 @@ function buildStandings(standings,ptsWin=3) {
 				removeKey("standings.playoff");
 			}
 		}
+		if ( s.merge ) {
+			withTeams = [s.team];
+			s.merge.with.forEach(w=>{
+				withTeams.push(allTeams[w]);
+			});
+			withTeams = withTeams.join(" + ");
+			newTeam = allTeams[s.merge];
+			thisRowNotes.append(
+				$("<ABBR></ABBR>")
+					.attr("title",withTeams + " => " +newTeam)
+					.html("Merged into "+newTeam)
+					.addClass("faux-link")
+			);
+			removeKey("standings.merge");
+		}
 
 		if ( s.title_count ) {
 			thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( getTitleCount(s.title_count)) );

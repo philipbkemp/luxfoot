@@ -1915,7 +1915,7 @@
 		"season": "1994-95",
 		"leagues": {
 			"level_1": {"missing":true, "season": "1994-95", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 22},
-			"level_2": {"missing":true, "season": "1994-95", "level": 2, "name": "Division of Honour", "winner": "RODG"},
+			"level_2": {"season": "1994-95", "level": 2, "name": "Division of Honour", "winner": "RODG"},
 			"level_3": {"missing":true, "season": "1994-95", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1994-95", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "VICR"},
 				{"missing":true, "season": "1994-95", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CSHL"}
