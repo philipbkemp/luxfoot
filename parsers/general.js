@@ -77,7 +77,9 @@ function drawMatch(match,highlightWinner=false) {
 	}
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
-	if ( ! match.isEurope ) {
+	if ( match.home === "?" ) {
+		matchHome.html = "TBC";
+	} else if ( ! match.isEurope ) {
 		if ( allTeams[match.home] ) {
 			matchHome.html( allTeams[match.home] );
 		} else if ( allTeams[match.home.split(":")[0]] ) {
@@ -143,7 +145,9 @@ function drawMatch(match,highlightWinner=false) {
 	matchRow.append(matchScore);
 
 	matchAway = $("<DIV></DIV>").addClass("col-3").addClass("club-away");
-	if ( ! match.isEurope || allTeams[match.away] ) {
+	if ( match.away === "?" ) {
+		matchAway.html = "TBC";
+	} else if ( ! match.isEurope || allTeams[match.away] ) {
 		if ( allTeams[match.away] ) {
 			matchAway.html( allTeams[match.away]);
 		} else if ( allTeams[match.away.split(":")[0]] ) {

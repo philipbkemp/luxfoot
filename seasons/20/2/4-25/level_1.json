@@ -38,7 +38,7 @@
 	},
     "playoffs": {
         "downup": [
-            {"home":"SCBT","homeDivision": {"level":1,"name":"National Division"},"away":"?","score":"","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}}
+            {"home":"SCBT","homeDivision": {"level":1,"name":"National Division"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}}
         ]
     },
 	"matches": [
