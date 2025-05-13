@@ -830,7 +830,7 @@ function buildStandings(standings,ptsWin=3) {
 				withTeams.push(allTeams[w]);
 			});
 			withTeams = withTeams.join(" + ");
-			newTeam = allTeams[s.merge];
+			newTeam = allTeams[s.merge.to];
 			thisRowNotes.append(
 				$("<ABBR></ABBR>")
 					.attr("title",withTeams + " => " +newTeam)
