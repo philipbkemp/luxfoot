@@ -655,6 +655,7 @@ function buildStandings(standings,ptsWin=3) {
 
 		thisRow = $("<TR></TR>");
 		thisRowNotes = $("<TD></TD>");
+		thisRowHasNotes = false;
 
 		teamName = allTeams[s.team];
 		if ( ! teamName ) {
@@ -691,7 +692,8 @@ function buildStandings(standings,ptsWin=3) {
 			points = (s.w * ptsWin) + s.d;
 			if ( s.carry_forward ) {
 				points += s.carry_forward;
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( "+"+s.carry_forward+" pts" ) );
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').html( "+"+s.carry_forward+" pts" ) );
+				thisRowHasNotes = true;
 				removeKey("standings.carry_forward");
 			}
 
@@ -739,7 +741,9 @@ function buildStandings(standings,ptsWin=3) {
 						$("<A></A>")
 							.html(["Promoted to",s.target.season,s.target.name].join(" "))
 							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
+							.addClass(thisRowHasNotes?'ms-3':'ms-0')
 					);
+					thisRowHasNotes = true;
 				}
 				removeKey("standings.target.season");
 				removeKey("standings.target.level");
@@ -765,7 +769,9 @@ function buildStandings(standings,ptsWin=3) {
 						$("<A></A>")
 							.html(["Relegated to",s.target.season,s.target.name].join(" "))
 							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
+							.addClass(thisRowHasNotes?'ms-3':'ms-0')
 					);
+					thisRowHasNotes = true;
 				}
 				removeKey("standings.target.season");
 				removeKey("standings.target.level");
@@ -782,7 +788,9 @@ function buildStandings(standings,ptsWin=3) {
 					.attr("title",s.removed_note)
 					.html("Removed")
 					.addClass("faux-link")
+					.addClass(thisRowHasNotes?'ms-3':'ms-0')
 			);
+			thisRowHasNotes = true;
 			removeKey("standings.removed");
 			removeKey("standings.removed_note");
 		}
@@ -810,13 +818,14 @@ function buildStandings(standings,ptsWin=3) {
 					break;
 			}
 			if ( theText !== "" ) {
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+				thisRowHasNotes = true;
 				thisRow.addClass("is-playoff_"+s.playoff);
 				removeKey("standings.playoff");
 			}
 		}
 		if ( s.merge ) {
-			withTeams = [s.team];
+			withTeams = [ allTeams[s.team] ];
 			s.merge.with.forEach(w=>{
 				withTeams.push(allTeams[w]);
 			});
@@ -827,12 +836,15 @@ function buildStandings(standings,ptsWin=3) {
 					.attr("title",withTeams + " => " +newTeam)
 					.html("Merged into "+newTeam)
 					.addClass("faux-link")
+					.addClass(thisRowHasNotes?'ms-3':'ms-0')
 			);
+			thisRowHasNotes = true;
 			removeKey("standings.merge");
 		}
 
 		if ( s.title_count ) {
-			thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( getTitleCount(s.title_count)) );
+			thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').html( getTitleCount(s.title_count)) );
+			thisRowHasNotes = true;
 			removeKey("standings.title_count");
 		}
 
