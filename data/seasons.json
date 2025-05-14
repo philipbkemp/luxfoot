@@ -2348,9 +2348,9 @@
 		"leagues": {
 			"level_1": {"missing":true, "season": "2010-11", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 9},
 			"level_2": {"missing":true, "season": "2010-11", "level": 2, "name": "Division of Honour", "winner": "U5KT"},
-			"level_3": {"missing":true, "season": "2010-11", "level": 3, "name": "1. Division","series":[
+			"level_3": {"season": "2010-11", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2010-11", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "NORD"},
-				{"missing":true, "season": "2010-11", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "UNAS"}
+				{"season": "2010-11", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "UNAS"}
 			]},
 			"level_4": {"missing":true, "season": "2010-11", "level": 4, "name": "2. Division","series":[
 				{"missing":true, "season": "2010-11", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "LRNZ"},
