@@ -71,18 +71,18 @@ function parseEuropeanCompetition(comp) {
 			linkKeys[i] = "links." + linkKeys[i];
 		}
 		addKeys(linkKeys);
-		if ( comp.links.next ) {
-			$("#menu-links").append(
-				$("<A></A>").attr("href","europe.html?season="+comp.links.next+"&comp="+urlParams.comp).html("Next")
-			);
-			removeKey("links.next");
-		}
 		if ( comp.links.prev ) {
-			$("#menu-links").append(
-				$("<A></A>").attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous")
+            $("#menu-links").append(
+                $("<A></A>").attr("href","europe.html?season="+comp.links.prev+"&comp="+urlParams.comp).html("Previous")
 			);
 			removeKey("links.prev");
 		}
+        if ( comp.links.next ) {
+            $("#menu-links").append(
+                $("<A></A>").attr("href","europe.html?season="+comp.links.next+"&comp="+urlParams.comp).html("Next")
+            );
+            removeKey("links.next");
+        }
 		removeKey("links");
 	}
 
