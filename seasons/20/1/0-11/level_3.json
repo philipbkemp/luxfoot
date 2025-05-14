@@ -28,7 +28,7 @@
             {"place": 9, "team": "UNMW", "w": 9, "d": 7, "l": 10, "f": 44, "a": 35, "season": "2010-11", "level": 3, "league": "1. Division Series 2"},
             {"place": 10, "team": "SCHF", "w": 9, "d": 3, "l": 14, "f": 42, "a": 63, "season": "2010-11", "level": 3, "league": "1. Division Series 2"},
             {"place": 11, "team": "MUNS", "w": 7, "d": 5, "l": 14, "f": 31, "a": 48, "season": "2010-11", "level": 3, "league": "1. Division Series 2"},
-            {"place": 12, "team": "TRIG", "w": 6, "d": 7, "l": 13, "f": 39, "a": 58, "season": "2010-11", "level": 3, "league": "1. Division Series 2", "relegated": true, "target": {"season": "2011-12", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "TRIG", "w": 6, "d": 7, "l": 13, "f": 39, "a": 58, "season": "2010-11", "level": 3, "league": "1. Division Series 2", "playoff":"downup","relegated": true, "target": {"season": "2011-12", "level": 4, "name": "2. Division"}},
             {"place": 13, "team": "SCBT", "w": 5, "d": 6, "l": 15, "f": 38, "a": 52, "season": "2010-11", "level": 3, "league": "1. Division Series 2", "relegated": true, "target": {"season": "2011-12", "level": 4, "name": "2. Division"}},
             {"place": 14, "team": "SBRT", "w": 6, "d": 2, "l": 18, "f": 33, "a": 77, "season": "2010-11", "level": 3, "league": "1. Division Series 2", "relegated": true, "target": {"season": "2011-12", "level": 4, "name": "2. Division"}}
         ],
