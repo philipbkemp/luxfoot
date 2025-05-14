@@ -2023,9 +2023,9 @@
 			"cup_luxembourg": {"missing":true, "season": "1997-98", "name": "Luxembourg Cup", "winner": "CGRV", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"Champions League",	"season":"1997-98","teams":["JESH"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1997-98","teams":["CGRV"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1997-98","teams":["ULUX"]}
+			"champions_league": {"name":"Champions League",				"season":"1997-98","teams":["JESH"]},
+			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1997-98","teams":["CGRV"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1997-98","teams":["ULUX"]}
 		}
 	},{
 		"season": "1998-99",

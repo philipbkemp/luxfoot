@@ -1,7 +1,8 @@
 {
     "CHE": {
         "_country": "Switzerland",
-        "LGNO": {"id": "FC_Lugano", "name": "Lugano"}
+        "LGNO": {"id": "FC_Lugano", "name": "Lugano"},
+        "SION": {"id": "FC_Sion", "name": "Sion"}
     },
     "BEL": {
         "_country": "Belgium",

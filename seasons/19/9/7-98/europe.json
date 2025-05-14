@@ -1,0 +1,22 @@
+{
+    "season": "1997-98",
+    "champions_league": {
+        "name": "Champions League",
+        "season": "1997-98",
+        "links": {
+            "next": "1998-99",
+            "prev": "1994-95"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1997-07-23","leg":1,"home":"CHE:SION","away":"JESH","score":"0-4","season":"1997-98","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1997-07-30","leg":2,"home":"JESH","away":"CHE:SION","score":"0-1","season":"1997-98","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"First Round","leg":2},"agg":{"score":"0-5","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}
