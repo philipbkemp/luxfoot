@@ -242,7 +242,7 @@ function parseLeague(league) {
 		}
 
 		if ( league.playoffs.downup ) {
-			$("#leagueTabs").append(buildTabButton("po_downup","Promotion/Relegation play-off"));
+			$("#leagueTabs").append(buildTabButton("po_downup","Relegation play-off"));
 			poDownUp = buildTabPanel("po_downup");
 			poDownUpMatches = $("<DIV></DIV>").addClass("list-group");
 			league.playoffs.downup.forEach(m=>{
@@ -254,7 +254,7 @@ function parseLeague(league) {
 		}
 
 		if ( league.playoffs.updown ) {
-			$("#leagueTabs").append(buildTabButton("po_updown","Promotion/Relegation play-off"));
+			$("#leagueTabs").append(buildTabButton("po_updown","Promotion play-off"));
 			poUpDown = buildTabPanel("po_updown");
 			poUpDownMatches = $("<DIV></DIV>").addClass("list-group");
 			league.playoffs.updown.forEach(m=>{
