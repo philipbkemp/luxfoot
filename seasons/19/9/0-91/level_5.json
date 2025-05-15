@@ -1,0 +1,42 @@
+{
+    "level": 5,
+	"season": "1990-91",
+    "links": {
+        "next": "1991-92",
+        "prev": "1989-90",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASCB","BAST","BGHP","CBSH","EXGV","FOLS","ISKA","KPWW","LARD","RHSE","SELL","UFLN"],
+        "standings": [
+            {"place": 1, "team": "ASCB", "w": 20, "d": 2, "l": 0, "f": 69, "a": 9, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1991-92", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "FOLS", "w": 16, "d": 4, "l": 2, "f": 51, "a": 22, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1991-92", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "SELL", "w": 14, "d": 4, "l": 4, "f": 81, "a": 36, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 4, "team": "BAST", "w": 11, "d": 6, "l": 5, "f": 56, "a": 35, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 5, "team": "ISKA", "w": 11, "d": 3, "l": 8, "f": 49, "a": 39, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 6, "team": "RHSE", "w": 6, "d": 5, "l": 11, "f": 38, "a": 39, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 7, "team": "CBSH", "w": 6, "d": 4, "l": 12, "f": 43, "a": 52, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 8, "team": "UFLN", "w": 6, "d": 4, "l": 12, "f": 30, "a": 52, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 9, "team": "BGHP", "w": 7, "d": 2, "l": 13, "f": 31, "a": 61, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 10, "team": "EXGV", "w": 2, "d": 9, "l": 11, "f": 17, "a": 30, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 11, "team": "LARD", "w": 4, "d": 5, "l": 13, "f": 36, "a": 85, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"},
+            {"place": 12, "team": "KPWW", "w": 3, "d": 4, "l": 15, "f": 23, "a": 64, "pts_win": 2, "season": "1990-91", "level": 5, "series": 2, "league": "3. Division Series 1"}
+        ],
+        "promoted": {
+            "teams": ["ASCB","FOLS"],
+            "target": {"season": "1991-92", "level": 4, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    }]
+}
