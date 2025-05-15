@@ -51,7 +51,7 @@
 		"season": "1917-18",
 		"leagues": {
 			"level_1": {"missing":true,"season": "1917-18", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 1},
-			"level_2": {"missing":true,"season": "1917-18", "level":  2, "name": "2. Division", "winner": "JESH"},
+			"level_2": {"season": "1917-18", "level":  2, "name": "2. Division", "winner": "JESH"},
 			"level_3": {"missing":true,"season": "1917-18", "level":  3, "name": "3. Division", "series": [
 			    {"missing":true,"season": "1917-18", "level":  3, "series":  1, "name": "3. Division Series Luxemburg", "winner": "AVBG"},
 			    {"missing":true,"season": "1917-18", "level":  3, "series":  2, "name": "3. Division Series Esch", "winner": "STET"}
