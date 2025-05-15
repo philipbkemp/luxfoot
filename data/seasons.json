@@ -2090,8 +2090,8 @@
 		"leagues": {
 			"level_1": {"missing":true, "season": "2000-01", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 2},
 			"level_2": {"missing":true, "season": "2000-01", "level": 2, "name": "Division of Honour", "winner": "SWFT"},
-			"level_3": {"missing":true, "season": "2000-01", "level": 3, "name": "1. Division","series":[
-				{"missing":true, "season": "2000-01", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "DARE"},
+			"level_3": {"season": "2000-01", "level": 3, "name": "1. Division","series":[
+				{"season": "2000-01", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "DARE"},
 				{"missing":true, "season": "2000-01", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "ASDF"}
 			]},
 			"level_4": {"missing":true, "season": "2000-01", "level": 4, "name": "2. Division","series":[
