@@ -694,7 +694,7 @@
 	},{
 		"season": "1954-55",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1954-55", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 7},
+			"level_1": {"season": "1954-55", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 7},
 			"level_2": {"missing":true,"season": "1954-55", "level":  2, "name": "1. Division", "series": [
 			    {"missing":true,"season": "1954-55", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "SPOR"},
 				{"missing":true,"season": "1954-55", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "CROD"}
