@@ -1,0 +1,43 @@
+{
+    "level": 3,
+	"season": "1987-88",
+    "links": {
+        "next": "1988-89",
+        "prev": "1986-87",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["BRCH","BWMD","CLVX","DARE","HOBS","MARM","OVND","SPST","SRED","TSVG","WALF","YBDK"],
+        "standings": [
+            {"place": 1, "team": "YBDK", "w": 16, "d": 2, "l": 4, "f": 71, "a": 25, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1988-89", "level": 2, "name": "Division of Honour"}},
+            {"place": 2, "team": "OVND", "w": 13, "d": 3, "l": 6, "f": 60, "a": 34, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1988-89", "level": 2, "name": "Division of Honour"}},
+            {"place": 3, "team": "SPST", "w": 10, "d": 6, "l": 6, "f": 38, "a": 21, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1988-89", "level": 2, "name": "Division of Honour"}},
+            {"place": 4, "team": "HOBS", "w": 9, "d": 7, "l": 6, "f": 39, "a": 28, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 5, "team": "TSVG", "w": 11, "d": 2, "l": 9, "f": 33, "a": 32, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 6, "team": "BWMD", "w": 8, "d": 5, "l": 9, "f": 30, "a": 40, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 7, "team": "WALF", "w": 8, "d": 5, "l": 9, "f": 28, "a": 42, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 8, "team": "MARM", "w": 7, "d": 5, "l": 10, "f": 21, "a": 38, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 9, "team": "SRED", "w": 5, "d": 7, "l": 10, "f": 37, "a": 43, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 10, "team": "CLVX", "w": 3, "d": 11, "l": 8, "f": 28, "a": 38, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 11, "team": "BRCH", "w": 4, "d": 9, "l": 9, "f": 15, "a": 32, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1"},
+            {"place": 12, "team": "DARE", "w": 5, "d": 4, "l": 13, "f": 23, "a": 50, "pts_win": 2, "season": "1987-88", "level": 3, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1988-89", "level": 4, "name": "2. Division"}}
+        ],
+        "promoted": {
+            "teams": ["YBDK","OVND","SPST"],
+            "target": {"season": "1988-89", "level": 2, "name": "Division of Honour"}
+        },
+        "relegated": {
+            "teams": ["DARE"],
+            "target": {"season": "1988-89", "level": 4, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }]
+}
