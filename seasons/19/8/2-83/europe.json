@@ -1,0 +1,22 @@
+{
+    "season": "1982-83",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1982-83",
+        "links": {
+            "next": "1983-84",
+            "prev": "1981-82"
+        },
+        "teams": ["AVBG"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "AVBG": [
+                    {"isEurope":true,"date":"1982-09-15","leg":1,"home":"AVBG","away":"AUT:RAPW","score":"0-5","season":"1982-83","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1982-09-29","leg":2,"home":"AUT:RAPW","away":"AVBG","score":"8-0","season":"1982-83","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":2},"agg":{"score":"0-13","outcome":"L","team":"AVBG"}}
+                ]
+            }
+        }]
+    }
+}

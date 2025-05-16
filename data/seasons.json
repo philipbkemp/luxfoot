@@ -1554,7 +1554,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1982-83", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1982-83","teams":["AVBG"]},
+			"champions_league": {"name":"European Cup",					"season":"1982-83","teams":["AVBG"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1982-83","teams":["PRON"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1972-83","teams":["RBDF"]}
 		}

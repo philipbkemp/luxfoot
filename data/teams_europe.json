@@ -1,4 +1,8 @@
 {
+    "AUT": {
+        "_country": "Austria",
+        "RAPW": {"id": "SK_Rapid_Wien", "name": "Rapid Wien"}
+    },
     "CHE": {
         "_country": "Switzerland",
         "LGNO": {"id": "FC_Lugano", "name": "Lugano"},
