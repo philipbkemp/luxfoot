@@ -12,7 +12,7 @@
     },{
 		"season": "1911-12",
 		"leagues": {
-			"level_1": {"season": "1911-12","level":1,"name": "Klasse A", "winner": "HLBN", "missing": true, "title_count":1}
+			"level_1": {"season": "1911-12","level":1,"name": "Klasse A", "winner": "HLBN", "title_count":1}
 		}
     },{
 		"season": "1912-13",
