@@ -469,6 +469,7 @@ function parseLeague(league) {
 		}
 		$("#leagueTabContent").append(possibleFinish);
 		removeKey("possible");
+		removeKey("play_each");
 	}
 
 	removeKey("level");

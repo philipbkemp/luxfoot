@@ -33,7 +33,7 @@
             {"in_progress":true,"place": 11, "team": "AHOS", "w": 10, "d": 6, "l": 13, "f": 52, "a": 52, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
             {"in_progress":true,"place": 12, "team": "NORD", "w":  9, "d": 9, "l": 11, "f": 44, "a": 56, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
             {"in_progress":true,"place": 13, "team": "ERPL", "w":  9, "d": 7, "l": 13, "f": 38, "a": 52, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
-            {"in_progress":true,"place": 14, "team": "AAHE", "w": 10, "d": 2, "l": 17, "f": 41, "a": 64, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
+            {"in_progress":true,"place": 14, "team": "AAHE", "w": 10, "d": 2, "l": 17, "f": 41, "a": 64, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1","playoff":"downup"},
             {                   "place": 15, "team": "STNG", "w":  5, "d": 6, "l": 18, "f": 29, "a": 59, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
             {                   "place": 16, "team": "OVND", "w":  0, "d": 6, "l": 23, "f": 23, "a": 88, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}}
         ],
@@ -80,6 +80,9 @@
     "playoffs": {
         "updown": [
             {"home":"MRTZ","homeDivision": {"level":3,"series":1,"name":"1. Division Series 1"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":3,"name":"1. Division", "playoff": "updown"}}
+        ],
+        "downup": [
+            {"home":"AAHE","homeDivision": {"level":3,"series":1,"name":"1. Division Series 1"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":3,"name":"1. Division", "playoff": "updown"}}
         ]
     }
 }
