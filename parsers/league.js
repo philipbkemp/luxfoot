@@ -933,19 +933,19 @@ function validateLeague(data) {
 				}
 			});
 			if ( myW !== s.w ) {
-				console.error("Wins: Standings != Matches","Standings : "+s.w,"Matches: "+myW);
+				console.error(s.team,"Wins: Standings != Matches","Standings : "+s.w,"Matches: "+myW);
 			}
 			if ( myD !== s.d ) {
-				console.error("Draws: Standings != Matches","Standings : "+s.d,"Matches: "+myD);
+				console.error(s.team,"Draws: Standings != Matches","Standings : "+s.d,"Matches: "+myD);
 			}
 			if ( myL !== s.l ) {
-				console.error("Losses: Standings != Matches","Standings : "+s.l,"Matches: "+myL);
+				console.error(s.team,"Losses: Standings != Matches","Standings : "+s.l,"Matches: "+myL);
 			}
 			if ( myF !== s.f ) {
-				console.error("For: Standings != Matches","Standings : "+s.f,"Matches: "+myF);
+				console.error(s.team,"For: Standings != Matches","Standings : "+s.f,"Matches: "+myF);
 			}
 			if ( myA !== s.a ) {
-				console.error("Against: Standings != Matches","Standings : "+s.a,"Matches: "+myA);
+				console.error(s.team,"Against: Standings != Matches","Standings : "+s.a,"Matches: "+myA);
 			}        
 		}
 	});
