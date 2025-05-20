@@ -45,7 +45,8 @@ allTeams = {
     "FC 72 Erpeldingen": "ERPL", "Blue-Boys Muhlenbach": "BBML", "US Berdorf/Consdorf": "USBC", "FC Schifflingen 95": "SCHF", "Alliance 01 Luxemburg": "ALLX",
     "RM 86 Luxemburg": "RMLX", "SC Bettembourg": "SCBT", "Titus Petingen": "UNTP", "Vistoria Rosport": "VICR", "US Mondorf": "MDLB", "FC Luxemburg City": "LUXC",
     "FC Koeppchen": "KOEP", "Rupensia Lusit. Larochette": "RPLL", "R. Heiderscheid/Eschdorf": "RHSE", "Ol. Christnach/Waldbillig": "OYCW", "FC Biekerech": "BIEK",
-    "Pratzerthal/Rédange": "FCPR", "JS Koerich": "KOSM", "Union Mertert/Wasser.": "UNMW", "Flaxweiler/Beyren": "FBU1", "Green Boys Harlange/Tarchamps": "GBHT"
+    "Pratzerthal/Rédange": "FCPR", "JS Koerich": "KOSM", "Union Mertert/Wasser.": "UNMW", "Flaxweiler/Beyren": "FBU1", "Green Boys Harlange/Tarchamps": "GBHT",
+    "AS Luxemburg/Porto": "ASLX", "FC Koerich": "KOSM","FC Stengefort":"STNG","AS Colmar/Berg":"ASCB","Jeunesse Junglinstert":"JUNG","Union Titus Petingen":"UNTP"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){

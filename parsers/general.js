@@ -141,6 +141,12 @@ function drawMatch(match,highlightWinner=false) {
 		matchScore.addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").addClass("pt-3");
 		removeKey("match.postponed");
 	}
+
+	if ( match.covid ) {
+		matchScore.html( "Cancelled" );
+		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("COVID-19") );
+		removeKey("match.covid");
+	}
 	
 	matchRow.append(matchScore);
 

@@ -2599,7 +2599,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
+			"cup_luxembourg": {"season": "2019-20", "name": "Luxembourg Cup", "winner": "", "covid":true},
 			"cup_flf": {"missing":true, "season": "2019-20", "name": "Coupe FLF", "winner": "", "covid":true}
 		},
 		"europe": {
