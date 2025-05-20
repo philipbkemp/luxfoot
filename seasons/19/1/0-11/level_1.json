@@ -11,8 +11,8 @@
 	"standings": [
         {"place":  1, "team": "SCLX", "w": 4, "d":  1, "l": 1, "f": 15, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
         {"place":  2, "team": "SDIF", "w": 4, "d":  1, "l": 1, "f":  8, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A", "playoff": "title"},
-        {"place":  2, "team": "HLBN", "w": 2, "d":  2, "l": 2, "f": 10, "a":  7, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A"},
-        {"place":  2, "team": "MANC", "w": 0, "d":  0, "l": 6, "f":  1, "a": 15, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A"}
+        {"place":  3, "team": "HLBN", "w": 2, "d":  2, "l": 2, "f": 10, "a":  7, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A"},
+        {"place":  4, "team": "MANC", "w": 0, "d":  0, "l": 6, "f":  1, "a": 15, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A"}
     ],
 	"champion": "SCLX",
     "playoffs": {
