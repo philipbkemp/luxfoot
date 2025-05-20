@@ -35,6 +35,8 @@ function doneParsingTeams() {
 function parseLeague(league) {
 	addKeys(Object.keys(league));
 
+	validateLeague(league);
+
 	setTitles(league.season,league.name);
     removeKey("season");
 	removeKey("name");
@@ -893,4 +895,67 @@ function buildStandings(standings,ptsWin=3) {
 	tbl.append(thead).append(tbody);
 
 	return tbl;
+}
+
+function validateLeague(data) {
+	totalW = totalD = totalL = totalF = totalA = 0;
+	data.standings.forEach(s=>{
+		totalW += s.w;
+		totalD += s.d;
+		totalL += s.l;
+		totalF += s.f;
+		totalA += s.a;
+		if ( data.matches ) {
+			myW = myD = myL = myF = myA = 0;
+			myMatches = data.matches.filter(m=>{return m.home === s.team || m.away === s.team});
+			if ( myMatches.length !== (s.w+s.d+s.l) ) {
+				console.error(s.team,"Matches array does not include the right number of matches","Expected: "+(s.w+s.d+s.l),"Got: "+myMatches.length);
+			}
+			myMatches.forEach(m=>{
+				thisScore = m.score.split("-");
+				if ( m.home === s.team ) {
+					myScore = thisScore[0];
+					theirScore = thisScore[1];
+				} else {
+					myScore = thisScore[1];
+					theirScore = thisScore[0];
+				}
+				myScore = parseInt(myScore);
+				theirScore = parseInt(theirScore);
+				myF += myScore;
+				myA += theirScore;
+				if ( myScore > theirScore ) {
+					myW++;
+				} else if ( myScore < theirScore ) {
+					myL++;
+				} else {
+					myD++;
+				}
+			});
+			if ( myW !== s.w ) {
+				console.error("Wins: Standings != Matches","Standings : "+s.w,"Matches: "+myW);
+			}
+			if ( myD !== s.d ) {
+				console.error("Draws: Standings != Matches","Standings : "+s.d,"Matches: "+myD);
+			}
+			if ( myL !== s.l ) {
+				console.error("Losses: Standings != Matches","Standings : "+s.l,"Matches: "+myL);
+			}
+			if ( myF !== s.f ) {
+				console.error("For: Standings != Matches","Standings : "+s.f,"Matches: "+myF);
+			}
+			if ( myA !== s.a ) {
+				console.error("Against: Standings != Matches","Standings : "+s.a,"Matches: "+myA);
+			}        
+		}
+	});
+	if ( totalW !== totalL ) {
+		console.error("Wins != Losses","Wins: "+totalW,"Losses: "+totalL);
+	}
+	if ( totalF !== totalA ) {
+		console.error("For != Against","For: "+totalF,"Against: "+totalA);
+	}
+	if ( totalD % 2 !== 0 ) {
+		console.error("Uneven number of draws","Draws: "+totalD,);
+	}
 }
