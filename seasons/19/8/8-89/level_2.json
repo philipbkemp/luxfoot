@@ -1,0 +1,33 @@
+{
+    "level": 2,
+	"season": "1988-89",
+    "links": {
+        "next": "1989-90",
+        "prev": "1987-88",
+        "up": 1,
+        "down": 2
+    },
+	"name": "Division of Honour",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARIS","ETZE","HOBS","JWAS","MRTZ","OVND","SPST","VICR","WLTZ","YBDK"],
+        "standings": [
+            {"place": 1, "team": "ARIS", "w": 10, "d": 6, "l": 2, "f": 38, "a": 17, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 2, "team": "MRTZ", "w": 9, "d": 5, "l": 4, "f": 41, "a": 22, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 3, "team": "YBDK", "w": 8, "d": 7, "l": 3, "f": 42, "a": 27, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 4, "team": "WLTZ", "w": 10, "d": 3, "l": 5, "f": 27, "a": 16, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 5, "team": "ETZE", "w": 9, "d": 2, "l": 7, "f": 28, "a": 24, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 6, "team": "HOBS", "w": 9, "d": 2, "l": 7, "f": 28, "a": 27, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 7, "team": "VICR", "w": 8, "d": 2, "l": 8, "f": 33, "a": 30, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 8, "team": "JWAS", "w": 5, "d": 5, "l": 8, "f": 25, "a": 34, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 9, "team": "OVND", "w": 3, "d": 2, "l": 13, "f": 27, "a": 59, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"},
+            {"place": 10, "team": "SPST", "w": 1, "d": 2, "l": 15, "f": 17, "a": 50, "pts_win": 2, "season": "1988-89", "level": 2,"series":1, "league": "Division of Honour Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }]
+}

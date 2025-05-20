@@ -1729,8 +1729,8 @@
 		"season": "1988-89",
 		"leagues": {
 			"level_1": {"missing":true, "season": "1988-89", "level": 1, "name": "National Division", "winner": "SPOR", "title_count": 11},
-			"level_2": {"missing":true,"season": "1988-89", "level": 2, "name":"Division of Honour", "series":[
-				{"missing":true, "season": "1988-89", "level": 2, "series": 1, "name":"Division of Honour Series 1", "winner":"ARIS"},
+			"level_2": {"season": "1988-89", "level": 2, "name":"Division of Honour", "series":[
+				{"season": "1988-89", "level": 2, "series": 1, "name":"Division of Honour Series 1", "winner":"ARIS"},
 				{"missing":true, "season": "1988-89", "level": 2, "series": 2, "name":"Division of Honour Series 2", "winner":"KWRM"}
 			]},
 			"level_3": {"missing":true, "season": "1988-89", "level": 3, "name": "1. Division","series":[
