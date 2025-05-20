@@ -1,0 +1,31 @@
+{
+    "level": 2,
+	"season": "1924-25",
+    "links": {
+        "next": "1925-26",
+        "prev": "1923-24",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["CROD","ECBT","PRON","RBPF","STET","UESH","URUM","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "RBPF", "w": 11, "d": 1, "l": 2, "f": 54, "a": 13, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1925-26", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "UESH", "w": 10, "d": 1, "l": 3, "f": 41, "a": 19, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1925-26", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "ECBT", "w": 7, "d": 1, "l": 6, "f": 31, "a": 43, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion"},
+		{"place": 4, "team": "YBDK", "w": 7, "d": 1, "l": 6, "f": 30, "a": 39, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "CROD", "w": 6, "d": 1, "l": 7, "f": 37, "a": 36, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "PRON", "w": 5, "d": 2, "l": 7, "f": 29, "a": 34, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "URUM", "w": 2, "d": 3, "l": 9, "f": 21, "a": 33, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1925-26", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "STET", "w": 3, "d": 0, "l": 11, "f": 24, "a": 50, "pts_win": 2, "season": "1924-25", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1925-26", "level": 3, "name": "2. Division"}}
+    ],
+	"relegation": {
+		"teams": ["RBPF","UESH"],
+		"target": {"season": "1925-26", "level": 1, "name": "1. Division"}
+	},
+	"promotion": {
+		"teams": ["URUM","STET"],
+		"target": {"season": "1925-26", "level": 3, "name": "2. Division"}
+	}
+}
