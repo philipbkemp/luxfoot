@@ -68,12 +68,33 @@ function drawMatch(match,highlightWinner=false) {
 		scorePA = parseInt(scorePen[1]);
 		if ( scorePH > scorePA ) { winner = "home"; }
 		else if ( scorePH < scorePA ) { winner = "away"; }
-	} else if ( match.replay) {
-		scoreRply = match.replay.split("-");
-		scoreRH = parseInt(scoreRply[0]);
-		scoreRA = parseInt(scoreRply[1]);
-		if ( scoreRH > scoreRA ) { winner = "home"; }
-		else if ( scoreRH < scoreRA ) { winner = "away"; }
+	} else if ( match.replay ) {
+		if ( typeof match.replay === 'string' || match.replay instanceof String) {
+			scoreRply = match.replay.split("-");
+			scoreRH = parseInt(scoreRply[0]);
+			scoreRA = parseInt(scoreRply[1]);
+			if ( scoreRH > scoreRA ) { winner = "home"; }
+			else if ( scoreRH < scoreRA ) { winner = "away"; }
+		} else {
+			replayKeys = Object.keys(match.replay);
+			for ( i=0 ; i!==replayKeys.length ; i++ ) {
+				replayKeys[i] = "match.replay." + replayKeys[i];
+			}
+			addKeys(replayKeys);
+			if ( match.replays.penalties ) {
+				scorePen = match.replay.penalties.split("-");
+				scorePH = parseInt(scorePen[0]);
+				scorePA = parseInt(scorePen[1]);
+				if ( scorePH > scorePA ) { winner = "home"; }
+				else if ( scorePH < scorePA ) { winner = "away"; }
+			} else {
+				scoreRply = match.replay.score.split("-");
+				scoreRH = parseInt(scoreRply[0]);
+				scoreRA = parseInt(scoreRply[1]);
+				if ( scoreRH > scoreRA ) { winner = "home"; }
+				else if ( scoreRH < scoreRA ) { winner = "away"; }
+			}
+		}
 	}
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
@@ -131,8 +152,24 @@ function drawMatch(match,highlightWinner=false) {
 		matchScore.append( $("<BR />") );
 		matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("Match replayed") );
 		matchScore.append( $("<BR />") );
-		matchScore.append( match.replay );
-		
+		if ( typeof match.replay === 'string' || match.replay instanceof String) {
+			matchScore.append( match.replay );
+		} else {
+			matchScore.append( match.replay.score );
+			removeKey("match.replay.score");
+			if ( match.replay.aet ) {
+				matchScore.append( $("<BR />") );
+				matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("aet") );
+				removeKey("match.replay.aet");
+			}
+			if ( match.penalties ) {
+				matchScore.append( $("<BR />") );
+				matchScore.append( match.replays.penalties );
+				matchScore.append( $("<BR />") );
+				matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("penalties") );
+				removeKey("match.replay.penalties");
+			}
+		}
 		removeKey("match.replay");
 	}
 	
