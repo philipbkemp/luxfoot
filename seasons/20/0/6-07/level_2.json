@@ -39,7 +39,7 @@
         ],
         "downup": [
             {"home":"BBML","away":"KWRM","homeDivision":{"level":3,"series":2,"name":"1. Division Series 2"},"awayDivision":{"level":2,"name":"Division of Honour"},"score":"2-0","aet":true,"season":"2006-07","competition":{"type":"league","level": 2,"name": "Division of Honour","playoff":"downup"},"outcome":"KWRM relegated to TARGET","target":{"season":"2007-08","level":3,"name":"1. Division"}},
-            {"home":"KHLN","away":"CBRA","homeDivision":{"level":3,"series":1,"name":"1. Division Series 1"},"awayDivision":{"level":2,"name":"Division of Honour"},"score":"0-2","aet":true,"season":"2006-07","competition":{"type":"league","level": 2,"name": "Division of Honour","playoff":"downup"},"outcome":"CBRA remain in TARGET","target":{"season":"2007-08","level":2,"name":"Division of Honour"}}
+            {"home":"KHLN","away":"CBRA","homeDivision":{"level":3,"series":1,"name":"1. Division Series 1"},"awayDivision":{"level":2,"name":"Division of Honour"},"score":"0-2","season":"2006-07","competition":{"type":"league","level": 2,"name": "Division of Honour","playoff":"downup"},"outcome":"CBRA remain in TARGET","target":{"season":"2007-08","level":2,"name":"Division of Honour"}}
         ]
     },
 	"matches": [
