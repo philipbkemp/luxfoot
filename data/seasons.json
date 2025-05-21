@@ -1283,7 +1283,7 @@
 		"season": "1976-77",
 		"leagues": {
 			"level_1": {"missing":true, "season": "1976-77", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 16},
-			"level_2": {"missing":true, "season": "1976-77", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
+			"level_2": {"season": "1976-77", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
 			"level_3": {"missing":true,"season": "1976-77", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1976-77", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "YBDK"},
 				{"missing":true, "season": "1976-77", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "RROD"}

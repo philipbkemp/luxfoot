@@ -17,6 +17,10 @@
 		"teams": [],
 		"target": {"season": "", "level": 0, "name": ""}
 	},
+	"promotion": {
+		"teams": [],
+		"target": {"season": "", "level": 0, "name": ""}
+	},
     "playoffs": {
         "relegation": [
         ]

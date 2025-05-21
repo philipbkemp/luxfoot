@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1976-77",
+    "links": {
+        "next": "1977-78",
+        "prev": "1975-76",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["BBML","BWMD","CPET","DARE","FOLA","JHTC","MDLB","OVND","RSMB","SPOR","SWFT","ULUX"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "SPOR", "w": 17, "d": 4, "l": 1, "f": 60, "a": 10, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour", "promoted": true, "target": {"season": "1977-78", "level": 1, "name": "National Division"}},
+		{"place": 2, "team": "ULUX", "w": 13, "d": 6, "l": 3, "f": 60, "a": 28, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour", "promoted": true, "target": {"season": "1977-78", "level": 1, "name": "National Division"}},
+		{"place": 3, "team": "BWMD", "w": 9, "d": 8, "l": 5, "f": 29, "a": 37, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 4, "team": "FOLA", "w": 10, "d": 5, "l": 7, "f": 37, "a": 23, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 5, "team": "MDLB", "w": 9, "d": 5, "l": 8, "f": 40, "a": 27, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 6, "team": "DARE", "w": 8, "d": 7, "l": 7, "f": 39, "a": 37, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 7, "team": "OVND", "w": 8, "d": 3, "l": 11, "f": 34, "a": 42, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 8, "team": "JHTC", "w": 6, "d": 4, "l": 12, "f": 32, "a": 47, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 9, "team": "BBML", "w": 5, "d": 6, "l": 11, "f": 28, "a": 43, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 10, "team": "RSMB", "w": 3, "d": 10, "l": 9, "f": 20, "a": 40, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour"},
+		{"place": 11, "team": "SWFT", "w": 7, "d": 2, "l": 13, "f": 29, "a": 52, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour", "relegated": true, "target": {"season": "1977-78", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "CPET", "w": 5, "d": 4, "l": 13, "f": 26, "a": 48, "pts_win": 2, "season": "1976-77", "level": 2, "league": "Divison of Honour", "relegated": true, "target": {"season": "1977-78", "level": 3, "name": "1. Division"}}
+    ],
+	"relegation": {
+		"teams": ["SWFT","CPET"],
+		"target": {"season": "1977-78", "level": 3, "name": "1. Division"}
+	},
+	"promotion": {
+		"teams": ["SPOR","ULUX"],
+		"target": {"season": "1977-78", "level": 1, "name": "National Division"}
+	}
+}
