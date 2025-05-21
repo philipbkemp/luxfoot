@@ -1,0 +1,62 @@
+{
+    "level": 6,
+	"season": "1976-77",
+    "links": {
+        "next": "1977-78",
+        "prev": "1975-76",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASCB:2","ATBS:2","AVBG:2","FOLS:2","JSCH:2","JUSE:2","LARD:2","MRTZ:2","PRTZ:2","RAMB:2","SELL:2","SRED:2"],
+        "standings": [
+            {"place": 1, "team": "AVBG:2", "w": 21, "d": 0, "l": 1, "f": 162, "a": 11, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
+            {"place": 2, "team": "JSCH:2", "w": 16, "d": 4, "l": 2, "f": 118, "a": 29, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 3, "team": "MRTZ:2", "w": 15, "d": 2, "l": 5, "f": 101, "a": 35, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 4, "team": "SRED:2", "w": 12, "d": 4, "l": 6, "f": 65, "a": 59, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 5, "team": "ASCB:2", "w": 9, "d": 3, "l": 10, "f": 72, "a": 53, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 6, "team": "ATBS:2", "w": 7, "d": 5, "l": 10, "f": 66, "a": 92, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 7, "team": "JUSE:2", "w": 8, "d": 2, "l": 12, "f": 51, "a": 69, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 8, "team": "SELL:2", "w": 9, "d": 0, "l": 13, "f": 37, "a": 71, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 9, "team": "FOLS:2", "w": 7, "d": 2, "l": 13, "f": 38, "a": 78, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 10, "team": "RAMB:2", "w": 7, "d": 2, "l": 13, "f": 44, "a": 94, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 11, "team": "PRTZ:2", "w": 4, "d": 4, "l": 14, "f": 41, "a": 90, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"},
+            {"place": 12, "team": "LARD:2", "w": 2, "d": 2, "l": 18, "f": 22, "a": 136, "pts_win": 2, "season": "1976-77", "level": 6, "league": "4. Division Series 2"}
+        ],
+        "promoted": {
+            "teams": ["AVBG:2"],
+            "target": {"season": "1977-78", "level": 5, "name": "3. Division"}
+        }
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "missing" :true
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "missing" :true
+    },{
+        "series": 7,
+        "name": "Series 7",
+        "missing" :true
+    },{
+        "series": 8,
+        "name": "Series 8",
+        "missing" :true
+    }]
+}
