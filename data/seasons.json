@@ -1408,8 +1408,8 @@
 				{"missing":true, "season": "1979-80", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "BWMD"},
 				{"missing":true, "season": "1979-80", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "CSOB"}
 			]},
-			"level_4": {"missing":true, "season": "1979-80", "level": 4, "name": "2. Division","series":[
-				{"missing":true, "season": "1979-80", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "CLVX"},
+			"level_4": {"season": "1979-80", "level": 4, "name": "2. Division","series":[
+				{"season": "1979-80", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "CLVX"},
 				{"missing":true, "season": "1979-80", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "ASLX"},
 				{"missing":true, "season": "1979-80", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "UMRT"},
 				{"missing":true, "season": "1979-80", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "SNEM"}
