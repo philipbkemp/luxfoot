@@ -8,8 +8,33 @@
     },
     "shortTabs": true,
     "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+        ]
+    },{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        ]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        ]
+    },{
         "key": "R4",
         "name": "4th round",
+        "matches": [
+        ]
+    },{
+        "key": "R32",
+        "name": "Round of 32",
         "matches": [
         ]
     },{

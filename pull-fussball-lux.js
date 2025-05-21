@@ -47,7 +47,7 @@ allTeams = {
     "FC Koeppchen": "KOEP", "Rupensia Lusit. Larochette": "RPLL", "R. Heiderscheid/Eschdorf": "RHSE", "Ol. Christnach/Waldbillig": "OYCW", "FC Biekerech": "BIEK",
     "Pratzerthal/Rédange": "FCPR", "JS Koerich": "KOSM", "Union Mertert/Wasser.": "UNMW", "Flaxweiler/Beyren": "FBU1", "Green Boys Harlange/Tarchamps": "GBHT",
     "AS Luxemburg/Porto": "ASLX", "FC Koerich": "KOSM","FC Stengefort":"STNG","AS Colmar/Berg":"ASCB","Jeunesse Junglinstert":"JUNG","Union Titus Petingen":"UNTP",
-    "FC Beyren": "BYUD"
+    "FC Beyren": "BYUD", "US Eschdorf": "UEDF", "Mansfeldia Clausen-Cents": "MANC"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
@@ -216,29 +216,22 @@ function pullCup(tbl) {
             score = cols[3].innerText.trim().replaceAll("- ","-");
     
             extraBits = "";
-            scoreParts = score.split("-");
-            if ( parseInt(scoreParts[0]) + "-" + parseInt(scoreParts[1]) !== score ) {
-                if ( score.indexOf(" ff.") !== -1 ) {
-                    score = score.replace(" ff.","")
-                    extraBits = ', "forfeit": true';
-                } else if ( score.indexOf(" n.E.") ) {
-                    score = score.replace(" n.V","").replace(" n.E.","")
-                    score = score.split(" / ")[0];
-                    score2 = score.split(" / ")[1];
-                    extraBits = ', "aet": true, "penalties": "'+score2+'"';
-                } else if ( score.indexOf(" n.V.") ) {
-                    score = score.split(" n.V.")[0];
-                    extraBits = ', "aet": true';
-                } else if ( score.indexOf(" / ") !== -1 ) {
-                    score2 = score.split(" / ")[1];
-                    score = score.split(" / ")[0];
-                    extraBits = ', "replay": "'+score2+'"';
-                } else {
-                    console.error("Unknown Score",score);
-                }
+
+            scoreParts = score.replaceAll("- ","-");
+            scoreParts = scoreParts.split(" ");
+            if ( scoreParts.length === 1 ) {
+                scoreBit = JSON.stringify( {score:scoreParts[0]} );
+            } else if ( scoreParts.length === 2 && scoreParts[1] === "n.V." ) {
+                scoreBit = JSON.stringify( {score:scoreParts[0],aet:true} );
+            } else if ( scoreParts.length === 5 && scoreParts[1] === "n.V." && scoreParts[4] === "n.E." ) {
+                scoreBit = JSON.stringify( {score:scoreParts[0],aet:true,penalties:scoreParts[3]} );
+            } else {
+                console.error(score);
+                scoreBit = JSON.stringify( {score:"UNKNOWN"} );
             }
+            scoreBit = scoreBit.replace("{","").replace("}","");
             
-            thisRoundLines.push('\t\t\t{"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},"score": "'+score+'"'+extraBits+'},\n');
+            thisRoundLines.push('\t\t\t{"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},'+scoreBit+'},\n');
         }
     });
     console.log(thisRoundLines.join(""));

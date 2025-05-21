@@ -1552,7 +1552,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1982-83", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"season": "1982-83", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 1, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",					"season":"1982-83","teams":["AVBG"]},
