@@ -81,7 +81,7 @@ function drawMatch(match,highlightWinner=false) {
 				replayKeys[i] = "match.replay." + replayKeys[i];
 			}
 			addKeys(replayKeys);
-			if ( match.replays.penalties ) {
+			if ( match.replay.penalties ) {
 				scorePen = match.replay.penalties.split("-");
 				scorePH = parseInt(scorePen[0]);
 				scorePA = parseInt(scorePen[1]);
@@ -162,9 +162,9 @@ function drawMatch(match,highlightWinner=false) {
 				matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("aet") );
 				removeKey("match.replay.aet");
 			}
-			if ( match.penalties ) {
+			if ( match.replay.penalties ) {
 				matchScore.append( $("<BR />") );
-				matchScore.append( match.replays.penalties );
+				matchScore.append( match.replay.penalties );
 				matchScore.append( $("<BR />") );
 				matchScore.append( $("<SPAN></SPAN>").addClass("badge").addClass("badge-titleCount").addClass("fst-italic").addClass("fw-normal").addClass("text-black-50").html("penalties") );
 				removeKey("match.replay.penalties");
