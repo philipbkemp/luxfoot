@@ -897,12 +897,9 @@ function buildStandings(standings,ptsWin=3) {
 	return tbl;
 }
 
-myValidation = null;
 function validateLeague(data) {
-	myValidation = data;
-	console.log("Checking...",myValidation);
 	if ( ! data.standings ) {
-		if ( data.series ) {
+		if ( data.series && Array.isArray(data.series) ) {
 			data.series.forEach(s=>{
 				validateLeague(s);
 			});
