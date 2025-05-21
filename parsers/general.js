@@ -101,7 +101,7 @@ function drawMatch(match,highlightWinner=false) {
 		}
 	}
 	if ( match.leg && match.leg === 2 && match.winner ) {
-		winner = match.winner;
+		winner = match.winner == match.home ? "home" : "away";
 		removeKey("match.winner");
 	}
 
