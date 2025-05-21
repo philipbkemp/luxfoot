@@ -2249,7 +2249,7 @@
 		"season": "2006-07",
 		"leagues": {
 			"level_1": {"missing":true, "season": "2006-07", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 6, "double": true},
-			"level_2": {"missing":true, "season": "2006-07", "level": 2, "name": "Division of Honour", "winner": "RMHM"},
+			"level_2": {"season": "2006-07", "level": 2, "name": "Division of Honour", "winner": "RMHM"},
 			"level_3": {"missing":true, "season": "2006-07", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2006-07", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "ATBS"},
 				{"missing":true, "season": "2006-07", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MINL"}
