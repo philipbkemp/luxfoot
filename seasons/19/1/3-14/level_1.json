@@ -1,0 +1,20 @@
+{
+    "level": 1,
+	"season": "1913-14",
+    "links": {
+        "next": "1914-15",
+        "prev": "1911-12"
+    },
+	"name": "1. Division",
+	"teams": ["CPET","HLBN","JESH","RACL","SCLX","SDIF"],
+    "note": "Full standings information missing",
+	"standings": [
+        {"place": 1, "team": "HLBN", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division", "champion": true, "title_count": 2},
+        {"place": 2, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"},
+        {"place": 3, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"},
+        {"place": 4, "team": "SDIF", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"},
+        {"place": 5, "team": "JESH", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"},
+        {"place": 6, "team": "CPET", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"}
+    ],
+	"champion": "HLBN"
+}

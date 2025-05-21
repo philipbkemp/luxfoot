@@ -20,7 +20,7 @@
     },{
 		"season": "1913-14",
 		"leagues": {
-			"level_1": {"season": "1913-14","level":1,"name": "1. Division", "winner": "HLBN", "missing": true, "title_count":2}
+			"level_1": {"season": "1913-14","level":1,"name": "1. Division", "winner": "HLBN", "title_count":2}
 		}
     },{
 		"season": "1914-15",
