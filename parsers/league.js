@@ -898,6 +898,14 @@ function buildStandings(standings,ptsWin=3) {
 }
 
 function validateLeague(data) {
+	if ( ! data.standings ) {
+		if ( data.series ) {
+			data.series.forEach(s=>{
+				validateLeague(s);
+			});
+		}
+		return;
+	}
 	totalW = totalD = totalL = totalF = totalA = 0;
 	data.standings.forEach(s=>{
 		totalW += s.w;
