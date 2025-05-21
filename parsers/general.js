@@ -37,6 +37,10 @@ function drawMatch(match,highlightWinner=false) {
 	}
 	addKeys(subKeys);
 
+	if ( match.leg && match.leg === 1) {
+		highlightWinner = false;
+	}
+
 	matchObj = $("<DIV></DIV>").addClass("list-group-item").addClass("match-item");
 
 	matchRow = $("<DIV></DIV>").addClass("row");
@@ -95,6 +99,10 @@ function drawMatch(match,highlightWinner=false) {
 				else if ( scoreRH < scoreRA ) { winner = "away"; }
 			}
 		}
+	}
+	if ( match.leg && match.leg === 2 && match.winner ) {
+		winner = match.winner;
+		removeKey("match.winner");
 	}
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
