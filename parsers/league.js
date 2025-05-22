@@ -343,7 +343,7 @@ function parseLeague(league) {
 			poPlayoff = buildTabPanel("po_playoff");
 			poPlayoffMatches = $("<DIV></DIV>").addClass("list-group");
 			league.playoffs.playoff.forEach(m=>{
-				poPlayoff.Matches.append( drawMatch(m,true));
+				poPlayoffMatches.append( drawMatch(m,true));
 			});
 			poPlayoff.append(poPlayoffMatches);
 			$("#leagueTabContent").append(poPlayoff);
