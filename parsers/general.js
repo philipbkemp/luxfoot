@@ -243,9 +243,10 @@ function drawMatch(match,highlightWinner=false) {
 				;
 				removeKey("match.target");
 			} else if ( match.target.playoff ) {
-				onClickFunction = 'function(){$("#po_'+match.target.playoff+'-tab").click();';
 				theOutcome = theOutcome
-					.replace("TARGET","<span class='faux-link' onclick='"+onClickFunction+"'>"+getPlayoffName(match.target.playoff)+"</span>")
+					.replace("TARGET","<span class='faux-link' onclick='"+
+						"$('#po_"+match.target.playoff+"-tab').click();"
+						+"'>"+getPlayoffName(match.target.playoff)+"</span>")
 				;
 				removeKey("match.target");
 			}
