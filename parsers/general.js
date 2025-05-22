@@ -245,7 +245,7 @@ function drawMatch(match,highlightWinner=false) {
 			} else if ( match.target.playoff ) {
 				theOutcome = theOutcome
 					.replace("TARGET","<span class='faux-link' onclick='"+
-						"$('#po_"+match.target.playoff+"-tab').click();"
+						'$("#po_'+match.target.playoff+'-tab").click();'
 						+"'>"+getPlayoffName(match.target.playoff)+"</span>")
 				;
 				removeKey("match.target");

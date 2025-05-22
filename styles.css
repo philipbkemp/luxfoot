@@ -353,6 +353,17 @@ table.table--results ul.match-notes {
     font-size: 0.8rem;
 }
 
+.match-item span.faux-link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+	color: black;
+    cursor: pointer;
+}
+.match-item span.faux-link:hover {
+	text-decoration-style: solid
+}
+
 /* MATCH FLAGS ***********************************************************************************/
 .europe-flag {
     height: 20px;
