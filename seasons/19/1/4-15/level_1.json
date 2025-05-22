@@ -1,0 +1,87 @@
+{
+    "level": 1,
+	"season": "1914-15",
+    "links": {
+        "next": "1915-16",
+        "prev": "1913-14"
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["HLBN","RACL","SCLX"],
+        "standings": [
+            {"place":  1, "team": "SCLX", "w": 3, "d":  0, "l": 1, "f": 10, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1"},
+            {"place":  2, "team": "RACL", "w": 2, "d":  1, "l": 1, "f": 13, "a": 10, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1"},
+            {"place":  3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff": "playoff"}
+        ],
+        "matches": [
+            {"home":"SCLX","away":"RACL","score":"6-5","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}},
+            {"home":"RACL","away":"HLBN","score":"4-2","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}},
+            {"home":"HLBN","away":"SCLX","score":"0-2","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}},
+            {"home":"RACL","away":"SCLX","score":"3-1","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}},
+            {"home":"HLBN","away":"RACL","score":"1-1","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}},
+            {"home":"SCLX","away":"HLBN","score":"1-0","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}}
+        ],
+        "note": "After fielding an ineligible player, SCLX were disqualified for the playoff finals and HLBN qualified instead"
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["FOLA","JESH"],        
+        "standings": [
+            {"place":  1, "team": "JESH", "w": 1, "d":  1, "l": 0, "f": 5, "a": 4, "pts_win":  2, "season": "1914-15", "level": 1, "series": 2, "league": "1. Division Series 2","playoff": "playoff"},
+            {"place":  2, "team": "FOLA", "w": 0, "d":  1, "l": 1, "f": 4, "a": 5, "pts_win":  2, "season": "1914-15", "level": 1, "series": 2, "league": "1. Division Series 2"}
+        ],
+        "matches": [
+            {"home":"JESH","away":"FOLA","score":"3-2","season":"1914-15","competition":{"type":"league","level":1,"series":2,"name":"1. Division Series 2"}},
+            {"home":"FOLA","away":"JESH","score":"2-2","season":"1914-15","competition":{"type":"league","level":1,"series":2,"name":"1. Division Series 2"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["SDUD","USDD"],
+        "standings": [
+            {"place":  1, "team": "SDUD", "w": 2, "d": 0, "l": 0, "f": 12, "a":  2, "pts_win":  2, "season": "1914-15", "level": 1, "series": 3, "league": "1. Division Series 3","playoff": "playoff"},
+            {"place":  2, "team": "USDD", "w": 0, "d": 0, "l": 2, "f":  2, "a": 12, "pts_win":  2, "season": "1914-15", "level": 1, "series": 3, "league": "1. Division Series 3"}
+        ],
+        "matches": [
+            {"home":"SDUD","away":"USDD","score":"6-1","season":"1914-15","competition":{"type":"league","level":1,"series":3,"name":"1. Division Series 3"}},
+            {"home":"USDD","away":"SDUD","score":"1-6","season":"1914-15","competition":{"type":"league","level":1,"series":3,"name":"1. Division Series 3"}}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["CPET","SDIF"],
+        "standings": [
+            {"place":  1, "team": "CPET", "w": 2, "d": 0, "l": 0, "f": 6, "a": 4, "pts_win":  2, "season": "1914-15", "level": 1, "series": 4, "league": "1. Division Series 4","playoff": "playoff"},
+            {"place":  2, "team": "SDIF", "w": 0, "d": 0, "l": 2, "f": 4, "a": 6, "pts_win":  2, "season": "1914-15", "level": 1, "series": 4, "league": "1. Division Series 4"}
+        ],
+        "matches": [
+            {"home":"CPET","away":"SDIF","score":"4-3","season":"1914-15","competition":{"type":"league","level":1,"series":4,"name":"1. Division Series 4"}},
+            {"home":"SDIF","away":"CPET","score":"1-2","season":"1914-15","competition":{"type":"league","level":1,"series":4,"name":"1. Division Series 4"}}
+        ]
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "teams": ["CECH","YBDK"],
+        "standings": [
+            {"place":  1, "team": "YBDK", "w": 2, "d": 0, "l": 0, "f": 10, "a":  0, "pts_win":  2, "season": "1914-15", "level": 1, "series": 5, "league": "1. Division Series 5","playoff": "playoff"},
+            {"place":  2, "team": "CECH", "w": 0, "d": 0, "l": 2, "f":  0, "a": 10, "pts_win":  2, "season": "1914-15", "level": 1, "series": 5, "league": "1. Division Series 5"}
+        ],
+        "matches": [
+            {"home":"YBDK","away":"CECH","score":"7-0","season":"1914-15","competition":{"type":"league","level":1,"series":5,"name":"1. Division Series 5"}},
+            {"home":"CECH","away":"YBDK","score":"0-3","season":"1914-15","competition":{"type":"league","level":1,"series":5,"name":"1. Division Series 5"}}
+        ]
+    }],
+    "playoffs": {
+        "playoff": [
+            {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"SDUD","awayDivision":{"level":1,"series":3,"name":"1. Division Series 3"},"score":"4-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"}},
+            {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"CPET","awayDivision":{"level":1,"series":4,"name":"1. Division Series 4"},"score":"4-0","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"JESH qualify for TARGET","target":{"playoff":"playoff_final"}},
+            {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"YBDK","awayDivision":{"level":1,"series":5,"name":"1. Division Series 5"},"score":"3-0","forfeit":true,"season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"HLBN qualify for TARGET","target":{"playoff":"playoff_final"}}
+        ],
+        "playoff_final": [
+            {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"JESH","awayDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"score":"8-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff_final"}}
+        ]
+    }
+}

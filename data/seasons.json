@@ -25,7 +25,13 @@
     },{
 		"season": "1914-15",
 		"leagues": {
-			"level_1": {"season": "1914-15","level":1,"name": "1. Division", "winner": "HLBN", "missing": true, "title_count":3}
+			"level_1": {"season": "1914-15","level":1,"name": "1. Division", "winner": "HLBN","title_count":3,"series":[
+				{"season": "1914-15", "level":  1, "series":  1, "name": "1. Division Series 1", "winner": "SCLX"},
+				{"season": "1914-15", "level":  1, "series":  2, "name": "1. Division Series 2", "winner": "JESH"},
+				{"season": "1914-15", "level":  1, "series":  3, "name": "1. Division Series 3", "winner": "SDUD"},
+				{"season": "1914-15", "level":  1, "series":  4, "name": "1. Division Series 4", "winner": "CPET"},
+				{"season": "1914-15", "level":  1, "series":  5, "name": "1. Division Series 5", "winner": "YBDK"}
+			]}
 		}
     },{
 		"season": "1915-16",
