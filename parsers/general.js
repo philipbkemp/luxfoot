@@ -237,9 +237,18 @@ function drawMatch(match,highlightWinner=false) {
 			.replace(match.away,allTeams[match.away])
 			;
 		if ( match.target ) {
-			theOutcome = theOutcome
-				.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.season+" "+match.target.name+"</a>")
-			;
+			if ( match.target.level && match.target.season && match.target.season ) {
+				theOutcome = theOutcome
+					.replace("TARGET","<a href='league.html?season="+match.target.season+"&level="+match.target.level+"'>"+match.target.season+" "+match.target.name+"</a>")
+				;
+				removeKey("match.target");
+			} else if ( match.target.playoff ) {
+				onClickFunction = 'function(){$("#po_'+match.target.playoff+'-tab").click();';
+				theOutcome = theOutcome
+					.replace("TARGET","<span class='faux-link' onclick='"+onClickFunction+"'>"+getPlayoffName(match.target.playoff)+"</span>")
+				;
+				removeKey("match.target");
+			}
 		}
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
@@ -247,7 +256,6 @@ function drawMatch(match,highlightWinner=false) {
 		matchNoteRow.append(matchNote);
 		matchObj.append(matchNoteRow);
 		removeKey("match.outcome");
-		removeKey("match.target");
 	}
 	if ( match.agg ) {
 		aggKeys = Object.keys(match.agg);
@@ -292,6 +300,35 @@ function drawMatch(match,highlightWinner=false) {
 	return matchObj;
 }
 
+function getPlayoffName(code) {	
+	theText = "";
+	switch ( code ) {
+		case "downup":
+		case "relegation":
+			theText = "Relegation play-off"; break;
+		case "league_promotionplayoff":
+		case "promotion":
+		case "updown":
+		case "updown_league":
+		case "updown_league_multi":
+			theText = "Promotion play-off"; break;
+		case "league_promotion_playoff_a":
+		case "league_promotion_playoff_b":
+		case "playoff":
+			theText = "Play-off";
+			break;
+		case "title":
+			theText = "Title Decider";
+			break;
+		case "final_round":
+			theText = "Final Round";
+			break;
+	}
+	if ( theText === "" ) {
+		console.error("Uknown playoff",code);
+	}
+	return theText;
+}
 function getTitleCount(number) {
 	ordinal = number + "th";
 

@@ -822,29 +822,7 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.removed_note");
 		}
 		if ( s.playoff ) {
-			theText = "";
-			switch ( s.playoff ) {
-				case "downup":
-				case "relegation":
-					theText = "Relegation play-off"; break;
-				case "league_promotionplayoff":
-				case "promotion":
-				case "updown":
-				case "updown_league":
-				case "updown_league_multi":
-					theText = "Promotion play-off"; break;
-				case "league_promotion_playoff_a":
-				case "league_promotion_playoff_b":
-				case "playoff":
-					theText = "Play-off";
-					break;
-				case "title":
-					theText = "Title Decider";
-					break;
-				case "final_round":
-					theText = "Final Round";
-					break;
-			}
+			theText = getPlayoffName(s.playoff);
 			if ( theText !== "" ) {
 				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 				thisRowHasNotes = true;
