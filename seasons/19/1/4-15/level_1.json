@@ -77,11 +77,11 @@
     "playoffs": {
         "playoff": [
             {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"SDUD","awayDivision":{"level":1,"series":3,"name":"1. Division Series 3"},"score":"4-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"}},
-            {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"CPET","awayDivision":{"level":1,"series":4,"name":"1. Division Series 4"},"score":"4-0","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"JESH qualify for TARGET","target":{"playoff":"playoff_final"}},
-            {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"YBDK","awayDivision":{"level":1,"series":5,"name":"1. Division Series 5"},"score":"3-0","forfeit":true,"season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"HLBN qualify for TARGET","target":{"playoff":"playoff_final"}}
+            {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"CPET","awayDivision":{"level":1,"series":4,"name":"1. Division Series 4"},"score":"4-0","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"JESH qualify for TARGET","target":{"playoff":"title"}},
+            {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"YBDK","awayDivision":{"level":1,"series":5,"name":"1. Division Series 5"},"score":"3-0","forfeit":true,"season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"HLBN qualify for TARGET","target":{"playoff":"title"}}
         ],
-        "playoff_final": [
-            {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"JESH","awayDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"score":"8-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff_final"}}
+        "title": [
+            {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"JESH","awayDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"score":"8-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"title"}}
         ]
     }
 }
