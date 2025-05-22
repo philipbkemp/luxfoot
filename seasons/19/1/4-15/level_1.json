@@ -12,7 +12,7 @@
         "name": "Series 1",
         "teams": ["HLBN","RACL","SCLX"],
         "standings": [
-            {"place":  1, "team": "SCLX", "w": 3, "d":  0, "l": 1, "f": 10, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1"},
+            {"place":  1, "team": "SCLX", "w": 3, "d":  0, "l": 1, "f": 10, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff":"playoff"},
             {"place":  2, "team": "RACL", "w": 2, "d":  1, "l": 1, "f": 13, "a": 10, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1"},
             {"place":  3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff": "playoff"}
         ],
@@ -78,6 +78,7 @@
         "playoff": [
             {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"SDUD","awayDivision":{"level":1,"series":3,"name":"1. Division Series 3"},"score":"4-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"}},
             {"home":"JESH","homeDivision":{"level":1,"series":2,"name":"1. Division Series 2"},"away":"CPET","awayDivision":{"level":1,"series":4,"name":"1. Division Series 4"},"score":"4-0","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"JESH qualify for TARGET","target":{"playoff":"title"}},
+            {"home":"SCLX","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"YBDK","awayDivision":{"level":1,"series":5,"name":"1. Division Series 5"},"score":"4-1","season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"SCLX disqualified for fielding ineligible player during Series 1 matches, replaced by HLBN"},
             {"home":"HLBN","homeDivision":{"level":1,"series":1,"name":"1. Division Series 1"},"away":"YBDK","awayDivision":{"level":1,"series":5,"name":"1. Division Series 5"},"score":"3-0","forfeit":true,"season":"1914-15","competition":{"type":"league","level":1,"name":"1. Division","playoff":"playoff"},"outcome":"HLBN qualify for TARGET","target":{"playoff":"title"}}
         ],
         "title": [
