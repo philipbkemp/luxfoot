@@ -43,7 +43,7 @@
     }],
     "playoffs": {
         "updown": [
-            {"home":"SBRT","away":"UNMW","homeDivision":{"level":3,"series":3,"name":"1. Division Series 2"},"awayDivision":{"level":3,"series":1,"name":"1. Division Series 1"},"score":"1-0","season":"1997-98","competition":{"type":"league","level": 3,"name": "1. Division","playoff":"updown"},"outcome":"SBRT promoted to TARGET","target":{"season":"1997-98","level":2,"name":"Division of Honour"}}
+            {"home":"SBRT","away":"UNMW","homeDivision":{"level":3,"series":3,"name":"1. Division Series 2"},"awayDivision":{"level":3,"series":1,"name":"1. Division Series 1"},"score":"1-0","season":"1997-98","competition":{"type":"league","level": 3,"name": "1. Division","playoff":"updown"},"outcome":"SBRT promoted to TARGET","target":{"season":"1998-99","level":2,"name":"Division of Honour"}}
         ]
     }
 }
