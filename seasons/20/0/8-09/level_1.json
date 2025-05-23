@@ -9,7 +9,7 @@
 	"name": "National Division",
 	"teams": ["AVBG","CGRV","DIFF","ETZE","F91D","FOLA","JESH","KAER","PRON","RACE","RMHM","SPST","SWFT","URUM"],
 	"standings": [
-        {"place": 1, "team": "F91D", "w": 19, "d": 5, "l": 2, "f": 71, "a": 18, "season": "2008-09", "level": 1, "league": "National Division", "champion": true, "title_count": 8},
+        {"place": 1, "team": "F91D", "w": 19, "d": 5, "l": 2, "f": 70, "a": 18, "season": "2008-09", "level": 1, "league": "National Division", "champion": true, "title_count": 8},
 		{"place": 2, "team": "DIFF", "w": 15, "d": 6, "l": 5, "f": 51, "a": 37, "season": "2008-09", "level": 1, "league": "National Division"},
 		{"place": 3, "team": "CGRV", "w": 12, "d": 10, "l": 4, "f": 55, "a": 29, "season": "2008-09", "level": 1, "league": "National Division"},
 		{"place": 4, "team": "JESH", "w": 12, "d": 10, "l": 4, "f": 45, "a": 27, "season": "2008-09", "level": 1, "league": "National Division"},
@@ -22,7 +22,7 @@
 		{"place": 11, "team": "SWFT", "w": 8, "d": 5, "l": 13, "f": 29, "a": 41, "season": "2008-09", "level": 1, "league": "National Division"},
 		{"place": 12, "team": "URUM", "w": 7, "d": 6, "l": 13, "f": 34, "a": 48, "season": "2008-09", "level": 1, "league": "National Division","playoff":"downup"},
 		{"place": 13, "team": "SPST", "w": 5, "d": 6, "l": 15, "f": 21, "a": 54, "season": "2008-09", "level": 1, "league": "National Division", "relegated": true, "target": {"season": "", "level": 2, "name": "Division of Honour"}},
-		{"place": 14, "team": "AVBG", "w": 3, "d": 4, "l": 19, "f": 19, "a": 76, "season": "2008-09", "level": 1, "league": "National Division", "relegated": true, "target": {"season": "", "level": 2, "name": "Division of Honour"}}
+		{"place": 14, "team": "AVBG", "w": 3, "d": 4, "l": 19, "f": 16, "a": 75, "season": "2008-09", "level": 1, "league": "National Division", "relegated": true, "target": {"season": "", "level": 2, "name": "Division of Honour"}}
     ],
 	"champion": "F91D",
 	"relegation": {
