@@ -43,5 +43,8 @@
         {"season":"2003-04","league":"level_1","name":"National Division","title_count":27},
         {"season":"2009-10","league":"level_1","name":"National Division","title_count":28},
         {"season":"2012-13","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":13}
+    ],
+    "standings": [
+        {"place": 4, "team": "JESH", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
     ]
 }

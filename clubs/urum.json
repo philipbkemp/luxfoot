@@ -4,5 +4,8 @@
     "trophies": [
         {"season":"1967-68","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
         {"season":"1974-75","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
+    ],
+    "standings": [
+        {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
     ]
 }

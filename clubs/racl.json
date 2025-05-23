@@ -4,5 +4,11 @@
     "trophies": [
         {"season":"1909-10","league":"level_1","name":"Klasse A","title_count":1},
         {"season":"1921-22","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+    ],
+    "standings": [
+        {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1}
+    ],
+    "matches": [
+        {"date": "1910-05-06", "home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"league", "level":1, "name":"Klasse A", "playoff": "title"}, "outcome": "RACL champions"}
     ]
 }

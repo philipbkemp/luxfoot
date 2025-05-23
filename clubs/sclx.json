@@ -4,5 +4,8 @@
     "trophies": [
         {"season":"1910-11","league":"level_1","name":"Klasse A","title_count":1},
         {"season":"1918-19","league":"level_1","name":"1. Division","title_count":2}
+    ],
+    "standings": [
+        {"place": 3, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
     ]
 }

@@ -7,5 +7,11 @@
         {"season":"1914-15","league":"level_1","name":"1. Division","title_count":3},
         {"season":"1915-16","league":"level_1","name":"1. Division","title_count":4},
         {"season":"1916-17","league":"level_1","name":"1. Division","title_count":5}
+    ],
+    "standings": [
+        {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A", "playoff": "title"}
+    ],
+    "matches": [
+        {"date": "1910-05-06", "home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"league", "level":1, "name":"Klasse A", "playoff": "title"}, "outcome": "RACL champions"}
     ]
 }
