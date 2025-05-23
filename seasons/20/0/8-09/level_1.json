@@ -31,7 +31,7 @@
 	},
     "playoffs": {
         "downup": [
-            {"home":"URUM","away":"ERPL","homeDivision":{"level":1,"name":"National Division"},"awayDivision":{"level":2,"name":"Division of Honour"},"score":"2-0","season":"2008-09","competition":{"type":"league","level": 1,"name": "National Division","playoff":"downup"},"outcome":"URUM remain in TARGET","target":{"season":"2008-09","level":1,"name":"National Division"}}
+            {"home":"URUM","away":"ERPL","homeDivision":{"level":1,"name":"National Division"},"awayDivision":{"level":2,"name":"Division of Honour"},"score":"2-0","season":"2008-09","competition":{"type":"league","level": 1,"name": "National Division","playoff":"downup"},"outcome":"URUM remain in TARGET","target":{"season":"2009-10","level":1,"name":"National Division"}}
         ]
     },
 	"matches": [
