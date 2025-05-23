@@ -372,8 +372,8 @@
 			"level_1": {"missing":true,"season": "1936-37", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 2, "double": true},
 			"level_2": {"missing":true,"season": "1936-37", "level":  2, "name": "1. Division", "winner": "ASDF"},
 			"level_3": {"missing":true,"season": "1936-37", "level":  3, "name": "The Promotion", "winner": "ADUD"},
-			"level_4": {"missing":true,"season": "1936-37", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1936-37", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SCBT"},
+			"level_4": {"season": "1936-37", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1936-37", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SCBT"},
 				{"missing":true,"season": "1936-37", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "BBML"}
 			]},
 			"level_5": {"missing":true,"season": "1936-37", "level":  5, "name": "3. Division", "series": [
