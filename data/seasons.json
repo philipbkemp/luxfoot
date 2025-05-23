@@ -1603,7 +1603,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1983-84","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1983-84","teams":["ARIS"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1983-84","teams":["AVBG"]}
+			"cup_winners_cup": {"name":"Cup Winners' Cup",				"season":"1983-84","teams":["AVBG"]}
 		}
 	},{
 		"season": "1984-85",

@@ -1,0 +1,22 @@
+{
+    "season": "1983-84",
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1983-84",
+        "links": {
+            "next": "1984-85",
+            "prev": "1982-83"
+        },
+        "teams": ["AVBG"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "AVBG": [
+                    {"isEurope":true,"date":"1983-09-23","leg":1,"home":"CHE:SVTE","away":"AVBG","score":"4-0","season":"1983-84","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1983-09-27","leg":2,"home":"AVBG","away":"CHE:SVTE","score":"1-5","season":"1983-84","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"1-9","outcome":"L","team":"AVBG"}}
+                ]
+            }
+        }]
+    }
+}
