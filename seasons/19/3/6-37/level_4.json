@@ -16,7 +16,7 @@
         "standings": [
             {"place": 1, "team": "SCBT", "w": 16, "d": 1, "l": 1, "f": 94, "a": 26, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
             {"place": 2, "team": "CSHL", "w": 11, "d": 2, "l": 5, "f": 48, "a": 28, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "playoff":"updown","promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
-            {"place": 3, "team": "RROD", "w": 11, "d": 2, "l": 5, "f": 48, "a": 29, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "RROD", "w": 11, "d": 2, "l": 5, "f": 48, "a": 29, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "playoff":"updown"},
             {"place": 4, "team": "MAMR", "w": 9, "d": 2, "l": 7, "f": 50, "a": 44, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
             {"place": 5, "team": "UBSH", "w": 9, "d": 2, "l": 7, "f": 41, "a": 43, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
             {"place": 6, "team": "SPST", "w": 8, "d": 2, "l": 8, "f": 56, "a": 46, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
