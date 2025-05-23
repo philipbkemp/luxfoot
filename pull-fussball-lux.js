@@ -221,6 +221,8 @@ function pullCup(tbl) {
             scoreParts = scoreParts.split(" ");
             if ( scoreParts.length === 1 ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0]} );
+            } else if ( scoreParts.length === 2 && scoreParts[0] === "3-0" && scoreParts[1] === "ff." ) {
+                scoreBit = JSON.stringify( {score:scoreParts[1],forfeit:true} );
             } else if ( scoreParts.length === 2 && scoreParts[1] === "n.V." ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0],aet:true} );
             } else if ( scoreParts.length === 5 && scoreParts[1] === "n.V." && scoreParts[4] === "n.E." ) {

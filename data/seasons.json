@@ -2579,7 +2579,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "2018-19", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
+			"cup_luxembourg": {"season": "2018-19", "name": "Luxembourg Cup", "winner": "F91D", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}, "double": true},
 			"cup_flf": {"missing":true, "season": "2018-19", "name": "Coupe FLF", "winner": "YBWT", "title_count": 1, "winner_division": { "level": 3,"series":2, "name": "1. Division Series 2"}}
 		},
 		"europe": {

@@ -1,0 +1,156 @@
+{
+    "season": "2018-19",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "2019-20",
+        "prev": "2017-18"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+            {"date":"2018-09-05","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "SHGN", "homeDivision": {"level":5,"name":"3. Division"},"away": "CSOB", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2","aet":true},
+			{"date":"2018-09-05","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "LADH", "homeDivision": {"level":5,"name":"3. Division"},"away": "JGIL", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-3","aet":true,"penalties":"9-10"},
+			{"date":"2018-09-05","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "OYCW", "homeDivision": {"level":5,"name":"3. Division"},"away": "VINE", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"2018-09-05","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "KPWW", "homeDivision": {"level":5,"name":"3. Division"},"away": "JBIW", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-9"}
+        ]
+    },{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "AAHE", "homeDivision": {"level":3,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-1"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "LUNA", "homeDivision": {"level":4,"name":"2. Division"},"away": "U5KT", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "ASCB", "homeDivision": {"level":5,"name":"3. Division"},"away": "RPLL", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "SELL", "homeDivision": {"level":4,"name":"2. Division"},"away": "JBIW", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-5"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "TRIG", "homeDivision": {"level":5,"name":"3. Division"},"away": "USMM", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "BRCH", "homeDivision": {"level":5,"name":"3. Division"},"away": "BAST", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-9"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "CBSH", "homeDivision": {"level":5,"name":"3. Division"},"away": "NORZ", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-2","aet":true,"penalties":"7-6"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "RSMB", "homeDivision": {"level":4,"name":"2. Division"},"away": "MDCG", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-4"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "WALF", "homeDivision": {"level":4,"name":"2. Division"},"away": "JUSE", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-4"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "BIEK", "homeDivision": {"level":5,"name":"3. Division"},"away": "BWMD", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-11"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "MLSV", "homeDivision": {"level":5,"name":"3. Division"},"away": "ESHW", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "CLVX", "homeDivision": {"level":5,"name":"3. Division"},"away": "BDBB", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-6"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "MUNS", "homeDivision": {"level":5,"name":"3. Division"},"away": "CBRA", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-6"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "AHOS", "homeDivision": {"level":4,"name":"2. Division"},"away": "KOSM", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-3","aet":true},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "RHSE", "homeDivision": {"level":5,"name":"3. Division"},"away": "OVND", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-4"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "TSVG", "homeDivision": {"level":5,"name":"3. Division"},"away": "WINC", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-2"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "KOPS", "homeDivision": {"level":5,"name":"3. Division"},"away": "SBRT", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-7"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "CSOB", "homeDivision": {"level":4,"name":"2. Division"},"away": "USBC", "awayDivision": {"level":3,"name":"1. Division"},"score":"5-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "BWIT", "homeDivision": {"level":4,"name":"2. Division"},"away": "BVAT", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-0","forfeit":true},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "REIS", "homeDivision": {"level":5,"name":"3. Division"},"away": "EXGV", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-4"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "BLVL", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASTN", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-4"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "FOLS", "homeDivision": {"level":5,"name":"3. Division"},"away": "YBDK", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "LARD", "homeDivision": {"level":4,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-0"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "MINL", "homeDivision": {"level":3,"name":"1. Division"},"away": "MRTZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"5-1"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "CLMC", "homeDivision": {"level":5,"name":"3. Division"},"away": "SCBT", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-5"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "EHLR", "homeDivision": {"level":4,"name":"2. Division"},"away": "UNRB", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-2"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "SNEM", "homeDivision": {"level":3,"name":"1. Division"},"away": "MARM", "awayDivision": {"level":3,"name":"1. Division"},"score":"6-4","aet":true},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "RBAS", "homeDivision": {"level":3,"name":"1. Division"},"away": "SYRA", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "DARE", "homeDivision": {"level":4,"name":"2. Division"},"away": "FCPR", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "ASLX", "homeDivision": {"level":3,"name":"1. Division"},"away": "SPST", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-1"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "GBHT", "homeDivision": {"level":4,"name":"2. Division"},"away": "NORD", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-3"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "UFLN", "homeDivision": {"level":4,"name":"2. Division"},"away": "RAMB", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-0"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "SCHF", "homeDivision": {"level":3,"name":"1. Division"},"away": "LRNZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-1"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "RBE7", "homeDivision": {"level":3,"name":"1. Division"},"away": "JSCH", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "OYCW", "homeDivision": {"level":5,"name":"3. Division"},"away": "YBWT", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-9"},
+			{"date":"2018-09-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st round"},"home": "JGIL", "homeDivision": {"level":4,"name":"2. Division"},"away": "KHLN", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-4"}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+            {"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "SYRA", "homeDivision": {"level":3,"name":"1. Division"},"away": "ERPL", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-3"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "SPST", "homeDivision": {"level":3,"name":"1. Division"},"away": "VICR", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "BDBB", "homeDivision": {"level":3,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-3","aet":true},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "KOSM", "homeDivision": {"level":4,"name":"2. Division"},"away": "ATBS", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-7"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "JBIW", "homeDivision": {"level":4,"name":"2. Division"},"away": "BBML", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "ASCB", "homeDivision": {"level":5,"name":"3. Division"},"away": "UNTP", "awayDivision": {"level":1,"name":"National Division"},"score":"0-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "KHLN", "homeDivision": {"level":3,"name":"1. Division"},"away": "F91D", "awayDivision": {"level":1,"name":"National Division"},"score":"1-7"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "MINL", "homeDivision": {"level":3,"name":"1. Division"},"away": "HOST", "awayDivision": {"level":1,"name":"National Division"},"score":"0-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "JUSE", "homeDivision": {"level":3,"name":"1. Division"},"away": "UNAS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-6"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "BWMD", "homeDivision": {"level":3,"name":"1. Division"},"away": "KWRM", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-4","aet":true},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "CSOB", "homeDivision": {"level":4,"name":"2. Division"},"away": "UNMW", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-5"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "ESHW", "homeDivision": {"level":4,"name":"2. Division"},"away": "WLTZ", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-6"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "JSCH", "homeDivision": {"level":3,"name":"1. Division"},"away": "SWFT", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"3-6"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "MDCG", "homeDivision": {"level":3,"name":"1. Division"},"away": "UESH", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-1"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "WINC", "homeDivision": {"level":4,"name":"2. Division"},"away": "KAER", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-6"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "BAST", "homeDivision": {"level":3,"name":"1. Division"},"away": "ETZE", "awayDivision": {"level":1,"name":"National Division"},"score":"1-10"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "BWIT", "homeDivision": {"level":4,"name":"2. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"National Division"},"score":"1-7"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "SCHF", "homeDivision": {"level":3,"name":"1. Division"},"away": "MAMR", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-4","aet":true},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "NORD", "homeDivision": {"level":3,"name":"1. Division"},"away": "DIFF", "awayDivision": {"level":1,"name":"National Division"},"score":"1-2"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "YBDK", "homeDivision": {"level":4,"name":"2. Division"},"away": "JCNC", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "LARD", "homeDivision": {"level":4,"name":"2. Division"},"away": "SAND", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-3","aet":true},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "OVND", "homeDivision": {"level":4,"name":"2. Division"},"away": "MDLB", "awayDivision": {"level":1,"name":"National Division"},"score":"0-7"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "SCBT", "homeDivision": {"level":3,"name":"1. Division"},"away": "RACE", "awayDivision": {"level":1,"name":"National Division"},"score":"0-7"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "UFLN", "homeDivision": {"level":4,"name":"2. Division"},"away": "PRON", "awayDivision": {"level":1,"name":"National Division"},"score":"1-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "AAHE", "homeDivision": {"level":3,"name":"1. Division"},"away": "JUNG", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"4-3"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "UNRB", "homeDivision": {"level":3,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "ASTN", "homeDivision": {"level":3,"name":"1. Division"},"away": "RODG", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-1"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "DARE", "homeDivision": {"level":4,"name":"2. Division"},"away": "RMHM", "awayDivision": {"level":1,"name":"National Division"},"score":"0-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "USMM", "homeDivision": {"level":5,"name":"3. Division"},"away": "SBRT", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "SNEM", "homeDivision": {"level":3,"name":"1. Division"},"away": "U5KT", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-3"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "CBRA", "homeDivision": {"level":4,"name":"2. Division"},"away": "YBWT", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-0"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd round"},"home": "CBSH", "homeDivision": {"level":5,"name":"3. Division"},"away": "EXGV", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-0"}
+        ]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+            {"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "CBSH", "homeDivision": {"level":5,"name":"3. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"National Division"},"score":"1-16"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "KAER", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-5"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "UNMW", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "KWRM", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"5-1"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "PRON", "homeDivision": {"level":1,"name":"National Division"},"away": "HOST", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "SAND", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "F91D", "awayDivision": {"level":1,"name":"National Division"},"score":"0-6"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "URUM", "homeDivision": {"level":1,"name":"National Division"},"away": "UNAS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-4"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "UESH", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "UNTP", "awayDivision": {"level":1,"name":"National Division"},"score":"2-1","aet":true},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "ERPL", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "RMHM", "awayDivision": {"level":1,"name":"National Division"},"score":"2-6","aet":true},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "JCNC", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ATBS", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-2"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "MAMR", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "BBML", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-1"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "CBRA", "homeDivision": {"level":4,"name":"2. Division"},"away": "ETZE", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "SBRT", "homeDivision": {"level":3,"name":"1. Division"},"away": "AAHE", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-2"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "SWFT", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "MDLB", "awayDivision": {"level":1,"name":"National Division"},"score":"1-3"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "RACE", "homeDivision": {"level":1,"name":"National Division"},"away": "DIFF", "awayDivision": {"level":1,"name":"National Division"},"score":"2-2","aet":true,"penalties":"6-7"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "RODG", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "VICR", "awayDivision": {"level":1,"name":"National Division"},"score":"1-1","aet":true,"penalties":"8-9"},
+			{"season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd round"},"home": "U5KT", "homeDivision": {"level":3,"name":"1. Division"},"away": "WLTZ", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-1","aet":true,"penalties":"3-4"}
+        ]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+            {"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "UESH", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "UNAS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-2","aet":true},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "BBML", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ATBS", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-0"},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "MDLB", "homeDivision": {"level":1,"name":"National Division"},"away": "DIFF", "awayDivision": {"level":1,"name":"National Division"},"score":"2-1","aet":true},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "F91D", "homeDivision": {"level":1,"name":"National Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"National Division"},"score":"2-1"},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "SBRT", "homeDivision": {"level":3,"name":"1. Division"},"away": "UNMW", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-3","aet":true},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "WLTZ", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "VICR", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "RMHM", "homeDivision": {"level":1,"name":"National Division"},"away": "PRON", "awayDivision": {"level":1,"name":"National Division"},"score":"2-4"},
+			{"date":"2018-12-09","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "ETZE", "homeDivision": {"level":1,"name":"National Division"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0"}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"2019-04-03","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ETZE", "homeDivision": {"level":1,"name":"National Division"},"away": "UNAS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-1","aet":true,"penalties":"8-7"},
+			{"date":"2019-04-03","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "F91D", "homeDivision": {"level":1,"name":"National Division"},"away": "MDLB", "awayDivision": {"level":1,"name":"National Division"},"score":"3-2","aet":true},
+			{"date":"2019-04-03","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "BBML", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "PRON", "awayDivision": {"level":1,"name":"National Division"},"score":"0-3"},
+			{"date":"2019-04-03","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "UNMW", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "VICR", "awayDivision": {"level":1,"name":"National Division"},"score":"2-0"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"2019-04-24","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "F91D", "homeDivision": {"level":1,"name":"National Division"},"away": "PRON", "awayDivision": {"level":1,"name":"National Division"},"score":"3-1"},
+			{"date":"2019-04-24","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "UNMW", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ETZE", "awayDivision": {"level":1,"name":"National Division"},"score":"0-3"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"2019-05-26","season": "2018-19","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "F91D", "homeDivision": {"level":1,"name":"National Division"},"away": "ETZE", "awayDivision": {"level":1,"name":"National Division"},"score":"5-0"}
+        ]
+    }],
+    "winner": "F91D",
+    "title_count": 8
+}
