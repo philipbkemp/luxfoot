@@ -1,0 +1,43 @@
+{
+    "level": 5,
+	"season": "1964-65",
+    "links": {
+        "next": "1965-66",
+        "prev": "1963-64",
+        "up": 4,
+        "down": 6
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["BGNV","BRCH","FOLS","GOLD","JGIL","LARD","MINL","OBCN","OYCW","REIS","RUPL","VICR"],
+        "standings": [
+            {"place": 1, "team": "OBCN", "w": 18, "d": 3, "l": 1, "f": 105, "a": 23, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1965-66", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "MINL", "w": 14, "d": 5, "l": 3, "f": 76, "a": 28, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1965-66", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "BRCH", "w": 12, "d": 7, "l": 3, "f": 79, "a": 21, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "OYCW", "w": 12, "d": 3, "l": 7, "f": 43, "a": 29, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "RUPL", "w": 10, "d": 5, "l": 7, "f": 52, "a": 49, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "GOLD", "w": 9, "d": 6, "l": 7, "f": 54, "a": 53, "pts_win": 2, "season": "1964-65", "level": 5,  "series":1,"league": "3. Division Series 1"},
+            {"place": 7, "team": "REIS", "w": 10, "d": 3, "l": 9, "f": 51, "a": 37, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 8, "team": "VICR", "w": 7, "d": 2, "l": 13, "f": 36, "a": 47, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 9, "team": "LARD", "w": 5, "d": 3, "l": 14, "f": 46, "a": 82, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "FOLS", "w": 4, "d": 4, "l": 14, "f": 38, "a": 93, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1"},
+            {"place": 11, "team": "JGIL", "w": 4, "d": 3, "l": 15, "f": 50, "a": 85, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1965-66", "level": 6, "name": "4. Division"}},
+            {"place": 12, "team": "BGNV", "w": 5, "d": 0, "l": 17, "f": 35, "a": 118, "pts_win": 2, "season": "1964-65", "level": 5, "series":1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1965-66", "level": 6, "name": "4. Division"}}
+        ],
+        "promoted": {
+            "teams": ["OBCN","MINL"],
+            "target": {"season": "1965-66", "level": 4, "name": "2. Division"}
+        },
+        "relegated": {
+            "teams": ["JGIL","BGNV"],
+            "target": {"season": "1965-66", "level": 6, "name": "4. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }]
+}
