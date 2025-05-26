@@ -281,5 +281,7 @@ function buildGraph() {
 }
 
 $(document).ready(function(){
-    buildGraph();
+	if ( urlParams["club"] ) {
+    	buildGraph();
+	}
 });
