@@ -825,7 +825,7 @@
 		"season": "1959-60",
 		"leagues": {
 			"level_1": {"missing":true,"season": "1959-60", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 7},
-			"level_2": {"missing":true,"season": "1959-60", "level":  2, "name": "Division of Honour", "winner": "CROD"},
+			"level_2": {"season": "1959-60", "level":  2, "name": "Division of Honour", "winner": "CROD"},
 			"level_3": {"missing":true,"season": "1959-60", "level":  3, "name": "1. Division", "winner": "AVBG"},
 			"level_4": {"missing":true,"season": "1959-60", "level":  4, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1959-60", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
