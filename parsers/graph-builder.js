@@ -32,7 +32,8 @@ teams={AAHE:"Alliance Aischdall Hobscheid/Eischen",ADUD:"Alliance Dudelange",AFL
     USND:"US Niederwiltz",VICR:"Victoria Rosport",VINE:"Vinesca Ehnen",WALF:"Résidence Walferdange",WINC:"AS Wincrange",WLTZ:"FC Wiltz 71",WWMP:"FC Weiswampach",
     YBDK:"Young Boys Diekirch",YBWT:"Yellow Boys Weiler-la-Tour",YGGC:"Yougo Grund-Cessange"};
 
-leagueSizes = [];
+function buildGraph() {
+    leagueSizes = [];
 	clubs = {};
 	seasons = 0;
 
@@ -277,3 +278,8 @@ leagueSizes = [];
 	}
 	document.getElementById("POS").setAttribute("d",line);
 	document.getElementById("title").innerHTML = teamName + " league history 1909-2025";
+}
+
+$(document).ready(function(){
+    buildGraph();
+}
