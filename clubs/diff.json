@@ -9,17 +9,5 @@
         {"season":"2022-23","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5},
         {"season":"2023-24","league":"level_1","name":"National Division","title_count":1},
         {"season":"2024-25","league":"level_1","name":"National Division","title_count":2}
-    ],
-    "standings": [
-        {"place":  2, "team": "SDIF", "w": 4, "d":  1, "l": 1, "f":  8, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A", "playoff": "title"}
-    ],
-    "matches": [
-        {"home":"SCLX","away":"SDIF","score":"3-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SDIF","away":"SCLX","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SDIF","away":"HLBN","score":"1-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SDIF","away":"MANC","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"HLBN","away":"SDIF","score":"1-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"MANC","away":"SDIF","score":"0-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"date": "1911-04-09","home":"SCLX","away":"SDIF","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A", "playoff": "title"}, "outcome": "SCLX champions"}
     ]
 }
