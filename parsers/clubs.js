@@ -240,61 +240,63 @@ function drawStandings(standings) {
 function drawMatches(matches,thisClub) {
     opps = {};
     matches.forEach(m=>{
-        scoreParts = m.score.split("-");
-        homeScore = parseInt(scoreParts[0]);
-        awayScore = parseInt(scoreParts[1]);
-        result = "";
-        if ( homeScore > awayScore ) {
-            result = "h";
-        } else if ( homeScore < awayScore ) {
-            result = "a";
-        } else if ( homeScore === awayScore ) {
-            result = "d";
-        }
-        if ( m.penalties ) {
-            console.warn("not handled: penalties");
-        }
-        if ( thisClub !== m.home && thisClub === m.away ) {
-            // opp = home ; me = away
-            if ( ! opps[m.home] ) {
-                opps[m.home] = {
-                    name: allTeams[m.home],
-                    w: 0,
-                    d: 0,
-                    l: 0,
-                    f: 0,
-                    a: 0
-                };
+        if ( m.score !== "-" ) {
+            scoreParts = m.score.split("-");
+            homeScore = parseInt(scoreParts[0]);
+            awayScore = parseInt(scoreParts[1]);
+            result = "";
+            if ( homeScore > awayScore ) {
+                result = "h";
+            } else if ( homeScore < awayScore ) {
+                result = "a";
+            } else if ( homeScore === awayScore ) {
+                result = "d";
             }
-            switch ( result ) {
-                case "h": opps[m.home].l++; break;
-                case "a": opps[m.home].w++; break;
-                case "d": opps[m.home].d++; break;
+            if ( m.penalties ) {
+                console.warn("not handled: penalties");
             }
-            opps[m.home].f += awayScore;
-            opps[m.home].a += homeScore;
-        } else if ( thisClub === m.home && thisClub !== m.away ) {
-            // opp = away ; me = home
-            if ( ! opps[m.away] ) {
-                opps[m.away] = {
-                    name: allTeams[m.away],
-                    w: 0,
-                    d: 0,
-                    l: 0,
-                    f: 0,
-                    a: 0
-                };
+            if ( thisClub !== m.home && thisClub === m.away ) {
+                // opp = home ; me = away
+                if ( ! opps[m.home] ) {
+                    opps[m.home] = {
+                        name: allTeams[m.home],
+                        w: 0,
+                        d: 0,
+                        l: 0,
+                        f: 0,
+                        a: 0
+                    };
+                }
+                switch ( result ) {
+                    case "h": opps[m.home].l++; break;
+                    case "a": opps[m.home].w++; break;
+                    case "d": opps[m.home].d++; break;
+                }
+                opps[m.home].f += awayScore;
+                opps[m.home].a += homeScore;
+            } else if ( thisClub === m.home && thisClub !== m.away ) {
+                // opp = away ; me = home
+                if ( ! opps[m.away] ) {
+                    opps[m.away] = {
+                        name: allTeams[m.away],
+                        w: 0,
+                        d: 0,
+                        l: 0,
+                        f: 0,
+                        a: 0
+                    };
+                }
+                switch ( result ) {
+                    case "h": opps[m.away].w++; break;
+                    case "a": opps[m.away].l++; break;
+                    case "d": opps[m.away].d++; break;
+                }
+                opps[m.away].f += homeScore;
+                opps[m.away].a += awayScore;
+            } else {
+                // who?
+                console.error(m);
             }
-            switch ( result ) {
-                case "h": opps[m.away].w++; break;
-                case "a": opps[m.away].l++; break;
-                case "d": opps[m.away].d++; break;
-            }
-            opps[m.away].f += homeScore;
-            opps[m.away].a += awayScore;
-        } else {
-            // who?
-            console.error(m);
         }
     });
 
