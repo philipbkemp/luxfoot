@@ -1,0 +1,40 @@
+{
+    "level": 3,
+	"season": "1922-23",
+    "links": {
+        "next": "1923-24",
+        "prev": "1921-22",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ADUD","AVBG","MANC","MARM","USDD"],
+        "standings": [
+            {"place": 1, "team": "USDD", "w": 7, "d": 1, "l": 0, "f": 37, "a": 9, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "MANC", "w": 4, "d": 1, "l": 3, "f": 22, "a": 20, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "ADUD", "w": 4, "d": 0, "l": 4, "f": 19, "a": 17, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "MARM", "w": 2, "d": 1, "l": 5, "f": 13, "a": 24, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "AVBG", "w": 1, "d": 1, "l": 6, "f": 11, "a": 32, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1923-24", "level": 4, "name": "3. Division"}}
+        ],
+        "promoted": {
+            "teams": ["USDD"],
+            "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}
+        },
+        "relegated": {
+            "teams": ["AVBG"],
+            "target": {"season": "1923-24", "level": 4, "name": "3. Division"}
+        }
+    },{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    }]
+}
