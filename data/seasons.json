@@ -1880,7 +1880,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1992-93", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"season": "1992-93", "name": "Luxembourg Cup", "winner": "AVBG", "title_count": 5, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1992-93","teams":["ULUX"]},
