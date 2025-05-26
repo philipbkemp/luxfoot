@@ -36,11 +36,11 @@
     },{
 		"season": "1915-16",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1915-16", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 4},
-			"level_2": {"missing":true,"season": "1915-16", "level":  2, "name": "2. Division", "winner": "YBDK"},
-			"level_3": {"missing":true,"season": "1915-16", "level":  3, "name": "3. Division", "series": [
-			    {"missing":true,"season": "1915-16", "level":  3, "series":  1, "name": "3. Division Series 1", "winner": "CSHL"},
-			    {"missing":true,"season": "1915-16", "level":  3, "series":  2, "name": "3. Division Series 2", "winner": "JBET"}
+			"level_1": {"season": "1915-16", "level":  1, "name": "1. Division", "winner": "HLBN", "title_count": 4},
+			"level_2": {"season": "1915-16", "level":  2, "name": "2. Division", "winner": "YBDK"},
+			"level_3": {"season": "1915-16", "level":  3, "name": "3. Division", "series": [
+			    {"season": "1915-16", "level":  3, "series":  1, "name": "3. Division Series 1", "winner": "CSHL"},
+			    {"season": "1915-16", "level":  3, "series":  2, "name": "3. Division Series 2", "winner": "JBET"}
 			]}
 		}
     },{

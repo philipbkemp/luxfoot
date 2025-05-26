@@ -1,0 +1,43 @@
+{
+    "level": 3,
+	"season": "1915-16",
+    "links": {
+        "next": "1916-17",
+        "up": 2
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["CSHL","JSTF","ROLG"],
+        "standings": [
+            {"place": 1, "team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a": 9, "pts_win": 2, "season": "1915-16", "level": 3, "series": 1, "league": "3. Division Series 1", "playoff":"title", "promoted": true, "target": {"season": "1916-17", "level": 2, "name": "2. Division"}},
+            {"place": 2, "team": "JSTF", "w": 2, "d": 1, "l": 1, "f": 6, "a": 6, "pts_win": 2, "season": "1915-16", "level": 3, "series": 1, "league": "3. Division Series 1", "playoff":"title"},
+            {"place": 3, "team": "ROLG", "w": 1, "d": 0, "l": 3, "f": 8, "a": 13, "pts_win": 2, "season": "1915-16", "level": 3, "series": 1, "league": "3. Division Series 1"}
+        ],
+        "promoted": {
+            "teams": ["CSHL"],
+            "target": {"season": "1916-17", "level": 2, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ERDU","JBET","NSCH"],
+        "standings": [
+            {"place": 1, "team": "JBET", "w": 3, "d": 0, "l": 1, "f": 15, "a": 10, "pts_win": 2, "season": "1915-16", "level": 3, "league": "3. Division Series 2", "playoff":"title", "promoted": true, "target": {"season": "1916-17", "level": 2, "name": "2. Division"}},
+		    {"place": 2, "team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "pts_win": 2, "season": "1915-16", "level": 3, "league": "3. Division Series 2", "playoff":"title"},
+		    {"place": 3, "team": "ERDU", "w": 0, "d": 0, "l": 4, "f": 2, "a": 7, "pts_win": 2, "season": "1915-16", "level": 3, "league": "3. Division Series 2"}
+        ],
+        "promoted": {
+            "teams": ["JBET"],
+            "target": {"season": "1916-17", "level": 2, "name": "2. Division"}
+        }
+    }],
+    "playoffs": {
+        "title": [
+            {"home":"CSHL","away":"JSTF","homeDivision":{"level":3,"series":1,"name":"3. Division Series 1"},"awayDivision":{"level":3,"series":1,"name":"3. Division Series 1"},"score":"5-0","season":"1915-16","competition":{"type":"league","level": 3, "series": 1,"name": "3. Division Series 1","playoff":"title"},"outcome":"CSHL declared winner and promoted to TARGET","target":{"season":"1916-17","level":2,"name":"2. Division"}},
+            {"home":"JBET","away":"NSCH","homeDivision":{"level":3,"series":2,"name":"3. Division Series 2"},"awayDivision":{"level":3,"series":2,"name":"3. Division Series 2"},"score":"4-0","season":"1915-16","competition":{"type":"league","level": 3, "series": 2,"name": "3. Division Series 2","playoff":"title"},"outcome":"JBET declared winner and promoted to TARGET","target":{"season":"1916-17","level":2,"name":"2. Division"}}
+        ]
+    }
+}
