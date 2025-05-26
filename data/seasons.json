@@ -1368,7 +1368,7 @@
 	},{
 		"season": "1978-79",
 		"leagues": {
-			"level_1": {"missing":true, "season": "1978-79", "level": 1, "name": "National Division", "winner": "RBDF", "title_count": 6, "double": true},
+			"level_1": {"season": "1978-79", "level": 1, "name": "National Division", "winner": "RBDF", "title_count": 6, "double": true},
 			"level_2": {"missing":true, "season": "1978-79", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
 			"level_3": {"season": "1978-79", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1978-79", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "WLTZ"},
