@@ -282,4 +282,4 @@ function buildGraph() {
 
 $(document).ready(function(){
     buildGraph();
-}
+});
