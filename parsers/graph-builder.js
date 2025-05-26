@@ -229,7 +229,7 @@ leagueSizes = [];
 	document.getElementById("t4").setAttribute("d",t4d);
 	document.getElementById("t5").setAttribute("d",t5d);
 
-	focus = "JESH";
+	focus = urlParams["club"].toUpperCase();
 	team = clubs[focus];
 	teamName = teams[focus];
 	start = 50;
