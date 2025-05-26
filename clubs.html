@@ -259,11 +259,106 @@
             <ul class="nav nav-tabs showIfClub d-none lf-tablist" id="theTabs" role="tablist">
             </ul>
             <div class="tab-content showIfClub d-none mb-5 pb-5" id="theTabContent">
+                <div class="tab-pane fade pt-4 tab-pane__graph" id="graph-tab-pane" role="tabpanel" aria-labelledby="graph-tab" tabindex="0">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1300" height="500">
+                        <!-- background -->
+                        <path d="M0,0h1097v500H0z" fill="#fff"/>
+                        <!-- null space -->
+                        <defs>
+                            <pattern id="pattern1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" >
+                            <path d="M20,0l-20,20  M10,0l-10,10  M20,10l-10,10  M1,-1l-2,2  M21,19l-2,2" fill="none" stroke="#e4e4e4" stroke-width="3.3" stroke-linecap="square"/>
+                            </pattern>
+                        </defs>
+                        <path d="M45,69h1160v380H45z" style="stroke:none;fill:url(#pattern1);"/>
+                        
+                        <!-- next colours: 4d4d4d - 333 - 1a1a1a - 000 -->
+                        <!-- lux tier 5 -->
+                        <path id="t5" fill="#666" />
+                        <!-- lux tier 4 -->
+                        <path id="t4" fill="#808080" />
+                        <!-- lux tier 3 -->
+                        <path id="t3" fill="#999" />
+                        <!-- lux tier 2 -->
+                        <path id="t2" fill="#b3b3b3" />
+                        <!-- lux tier 1 -->
+                        <path id="t1" fill="#ccc" />
+
+                        <!-- 1912-13 no competitions -->
+                        <path xmlns="http://www.w3.org/2000/svg" d="M75,69h10v200h-10z" fill="#dc351b"/>
+
+                        <!-- german occupation -->
+                        <!--<path xmlns="http://www.w3.org/2000/svg" d="M295,69h40v264h-40z" fill="#dc351b"/>-->
+
+                        <!-- decade separator (tier 1) -->
+                        <path d="M50,69v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200m50,0v200m50,0v-200" fill="none" stroke="#000" stroke-width="1" stroke-opacity=".15"/>
+                        
+                        <!-- bounding box -->
+                        <path d="M45,69h1160v380H45zM38,71h7m-7,40h7m-7,40h7m-7,40h7m-7,40h7m-7,40h7m-7,40h7m-7,40h7m-7,40h7m-7,40h7m-7,40M50,449.5v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7m10-7v7" fill="none" stroke="#b3b3b3" stroke-width="1"/>
+                        
+                        <!-- horizontal axis -->
+                        <text transform="rotate(-90 64,485)" font-family="sans-serif" font-size="11">
+                            <tspan x="64" y="475">1910</tspan>
+                            <tspan x="64" y="525">1915</tspan>
+                            <tspan x="64" y="575">1920</tspan>
+                            <tspan x="64" y="625">1925</tspan>
+                            <tspan x="64" y="675">1930</tspan>
+                            <tspan x="64" y="725">1935</tspan>
+                            <tspan x="64" y="775">1940</tspan>
+                            <tspan x="64" y="825">1945</tspan>
+                            <tspan x="64" y="875">1950</tspan>
+                            <tspan x="64" y="925">1955</tspan>
+                            <tspan x="64" y="975">1960</tspan>
+                            <tspan x="64" y="1025">1965</tspan>
+                            <tspan x="64" y="1075">1970</tspan>
+                            <tspan x="64" y="1125">1975</tspan>
+                            <tspan x="64" y="1175">1980</tspan>
+                            <tspan x="64" y="1225">1985</tspan>
+                            <tspan x="64" y="1275">1990</tspan>
+                            <tspan x="64" y="1325">1995</tspan>
+                            <tspan x="64" y="1375">2000</tspan>
+                            <tspan x="64" y="1425">2005</tspan>
+                            <tspan x="64" y="1475">2010</tspan>
+                            <tspan x="64" y="1525">2015</tspan>
+                            <tspan x="64" y="1575">2020</tspan>
+                            <tspan x="64" y="1625">2025</tspan>
+                            <!--<tspan x="64" y="1675">2030</tspan>-->
+                        </text>
+                        <!-- title -->
+                        <text x="548" y="38" font-family="sans-serif" font-size="30px" text-anchor="middle" id="title">League Performance 1909–2025</text>
+                        <!-- vertical axis label -->
+                        <text transform="rotate(-90 30,259)" x="30" y="29" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="15px">Position</text>
+                        <!-- 1912-13 label -->
+                            <text transform="rotate(-90 318,79)" font-family="sans-serif" font-weight="normal" text-anchor="end" font-size="10px" fill="#ddd">
+                            <tspan x="325" y="-156">No competitions held</tspan>
+                        </text>
+                        <!-- world war 2 label -->
+                        <!--<text transform="rotate(-90 318,79)" font-family="sans-serif" font-weight="bold" text-anchor="end" font-size="16px" fill="#ddd">
+                            <tspan x="288" y="79">German Occupation / WW2</tspan>
+                        </text>-->
+                        <!-- tier labels -->
+                        <text font-family="sans-serif" font-weight="bold" font-size="20px" text-anchor="end" fill="#fff">
+                            <tspan x="1186" y="136">Tier 1</tspan>
+                            <tspan x="1186" y="232">Tier 2</tspan>
+                            <tspan x="1186" y="328">Tier 3</tspan>
+                            <tspan x="1186" y="424">Tier 4&nbsp;</tspan>
+                        </text>
+                        <!-- position history -->
+                        <!-- years are 10px wide, positions are 4px high in svg -->
+                        <g fill="none" stroke-linejoin="round">
+                            <path d="" id="POS" />
+                            <use xlink:href="#POS" stroke-width="4" stroke="red" stroke-linecap="round"/>
+                            <use xlink:href="#POS" stroke-width="3" stroke="red" stroke-dasharray="8,8"/>
+                        </g>
+                    </svg>
+
+                </div>
             </div>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 		<script src="parsers/general.js" type="text/javascript"></script>
 		<script src="parsers/clubs.js" type="text/javascript"></script>
+        <script src="parsers/graph-builder.js" type="text/javascript"></script>
 	</body>
 </html>

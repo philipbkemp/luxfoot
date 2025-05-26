@@ -65,6 +65,11 @@ function parseClub(data) {
         isFirstTab = false;
     }
 
+    // performance graph
+    if ( data.standings ) {
+        $("#theTabs").append(buildTabButton("graph","Position Graph",false));
+    }
+
     // matches
     if ( data.matches ) {
         $("#theTabs").append(buildTabButton("matches","Head-to-Head",isFirstTab));
