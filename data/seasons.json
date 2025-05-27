@@ -1950,7 +1950,7 @@
 		"season": "1995-96",
 		"leagues": {
 			"level_1": {"season": "1995-96", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 23},
-			"level_2": {"missing":true, "season": "1995-96", "level": 2, "name": "Division of Honour", "winner": "HOBS"},
+			"level_2": {"season": "1995-96", "level": 2, "name": "Division of Honour", "winner": "HOBS"},
 			"level_3": {"missing":true, "season": "1995-96", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1995-96", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "TSVG"},
 				{"missing":true, "season": "1995-96", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SCHF"}

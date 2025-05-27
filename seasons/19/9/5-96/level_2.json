@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1995-96",
+    "links": {
+        "next": "1996-97",
+        "prev": "1994-95",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ASDF","CSHL","ETZE","FOLA","HAMM","HOBS","KWRM","MDCG","PRON","SWFT","TRIG","URUM","VICR","YBDK"],
+	"standings": [
+        {"place": 1, "team": "HOBS", "w": 18, "d": 3, "l": 5, "f": 71, "a": 31, "season": "1995-96", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1996-97", "level": 1, "name": "National Division"}},
+		{"place": 2, "team": "URUM", "w": 13, "d": 7, "l": 6, "f": 46, "a": 26, "season": "1995-96", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1996-97", "level": 1, "name": "National Division"}},
+		{"place": 3, "team": "ETZE", "w": 12, "d": 9, "l": 5, "f": 39, "a": 23, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 4, "team": "MDCG", "w": 11, "d": 10, "l": 5, "f": 48, "a": 32, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 5, "team": "VICR", "w": 9, "d": 12, "l": 5, "f": 35, "a": 31, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 6, "team": "HAMM", "w": 11, "d": 5, "l": 10, "f": 45, "a": 39, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 7, "team": "ASDF", "w": 11, "d": 4, "l": 11, "f": 52, "a": 49, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 8, "team": "PRON", "w": 8, "d": 11, "l": 7, "f": 45, "a": 48, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 9, "team": "YBDK", "w": 10, "d": 3, "l": 13, "f": 29, "a": 39, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "FOLA", "w": 9, "d": 5, "l": 12, "f": 42, "a": 49, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "CSHL", "w": 8, "d": 7, "l": 11, "f": 34, "a": 43, "season": "1995-96", "level": 2, "league": "Division of Honour"},
+		{"place": 12, "team": "KWRM", "w": 6, "d": 11, "l": 9, "f": 34, "a": 35, "season": "1995-96", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1996-97", "level": 3, "name": "1. Division"}},
+		{"place": 13, "team": "SWFT", "w": 5, "d": 6, "l": 15, "f": 29, "a": 48, "season": "1995-96", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1996-97", "level": 3, "name": "1. Division"}},
+		{"place": 14, "team": "TRIG", "w": 3, "d": 3, "l": 20, "f": 28, "a": 84, "season": "1995-96", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1996-97", "level": 3, "name": "1. Division"}}
+    ],
+	"relegation": {
+		"teams": ["KWRM","SWFT","TRIG"],
+		"target": {"season": "1996-97", "level": 3, "name": "1. Division"}
+	},
+	"promotion": {
+		"teams": ["HOBS","URUM"],
+		"target": {"season": "1996-97", "level": 1, "name": "National Division"}
+	}
+}
