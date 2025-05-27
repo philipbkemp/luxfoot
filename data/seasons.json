@@ -2330,9 +2330,9 @@
 		"leagues": {
 			"level_1": {"missing":true, "season": "2009-10", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 28},
 			"level_2": {"missing":true, "season": "2009-10", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
-			"level_3": {"missing":true, "season": "2009-10", "level": 3, "name": "1. Division","series":[
+			"level_3": {"season": "2009-10", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2009-10", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "GBHT"},
-				{"missing":true, "season": "2009-10", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MDLB"}
+				{"season": "2009-10", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "MDLB"}
 			]},
 			"level_4": {"season": "2009-10", "level": 4, "name": "2. Division","series":[
 				{"season": "2009-10", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "AHOS"},

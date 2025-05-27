@@ -85,13 +85,13 @@ function pullResults(tbl) {
         checkTeamName = theTeam;
         teamCode = "";
 
-        if ( teamName.endsWith(" II") ) {
+        if ( checkTeamName.endsWith(" II") ) {
             checkTeamName = checkTeamName.replace(" II","");
         }
         if ( ! allTeams[checkTeamName] ) {
             allTeams[checkTeamName] = prompt("Unknown team",checkTeamName);
         }
-        if ( ! teamName.endsWith(" II") ) {
+        if ( ! theTeam.endsWith(" II") ) {
             teams.push( allTeams[checkTeamName] );
         } else {
             teams.push( allTeams[checkTeamName] + ":2" );
