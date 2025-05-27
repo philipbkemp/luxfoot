@@ -30,7 +30,7 @@ teams={AAHE:"Alliance Aischdall Hobscheid/Eischen",ADUD:"Alliance Dudelange",AFL
     UEDF:"US Eschdorf",UESH:"US Esch",UFLN:"US Feulen",ULUX:"Union Luxembourg",UMRT:"US Mertert",UNAS:"UNA Strassen",UNMW:"Union Mertert/Wasserbillig",
     UNRB:"Union Remich/Bous",UNTP:"Union Titus Petange",URUM:"US Rumelange",USBC:"US Berdorf/Consdorf",USDD:"US Dudelange",USMM:"US Moutfort/Medingen",
     USND:"US Niederwiltz",VICR:"Victoria Rosport",VINE:"Vinesca Ehnen",WALF:"Résidence Walferdange",WINC:"AS Wincrange",WLTZ:"FC Wiltz 71",WWMP:"FC Weiswampach",
-    YBDK:"Young Boys Diekirch",YBWT:"Yellow Boys Weiler-la-Tour",YGGC:"Yougo Grund-Cessange"};
+    YBDK:"Young Boys Diekirch",YBWT:"Yellow Boys Weiler-la-Tour",YGGC:"Yougo Grund-Cessange",YBSW:"Young Boys Schweicherthal"};
 
 function buildGraph() {
     leagueSizes = [];

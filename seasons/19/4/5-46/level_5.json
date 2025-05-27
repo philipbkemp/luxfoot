@@ -1,0 +1,41 @@
+{
+    "level": 5,
+	"season": "1945-46",
+    "links": {
+        "next": "1946-47",
+        "prev": "1939-40",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["HOBS","JSKH","OYMP","SBRT","SPST","UNAS","YBSW"],
+        "standings": [
+            {"place": 1, "team": "SBRT", "w": 12, "d": 0, "l": 0, "f": 42, "a": 6, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "UNAS", "w": 8, "d": 0, "l": 4, "f": 49, "a": 16, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "SPST", "w": 6, "d": 1, "l": 5, "f": 26, "a": 25, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 4, "team": "OYMP", "w": 5, "d": 1, "l": 6, "f": 30, "a": 32, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "JSKH", "w": 3, "d": 4, "l": 5, "f": 20, "a": 37, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "HOBS", "w": 2, "d": 2, "l": 8, "f": 25, "a": 37, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 7, "team": "YBSW", "w": 1, "d": 2, "l": 9, "f": 12, "a": 51, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ],
+        "promoted": {
+            "teams": ["SBRT","UNAS","SPST"],
+            "target": {"season": "1946-47", "level": 4, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    }]
+}
