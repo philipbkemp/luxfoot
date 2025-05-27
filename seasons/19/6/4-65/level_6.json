@@ -1,0 +1,39 @@
+{
+    "level": 6,
+	"season": "1964-65",
+    "links": {
+        "next": "1965-66",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASLX","ASTN","BWIT","EHLR","ESHW","HAMM","ISKA","KHLN","MDCG","NORZ"],
+        "standings": [
+            {"place":  1, "team": "EHLR", "w": 13, "d": 3, "l":  2, "f": 68, "a": 20, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1965-66", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "ISKA", "w": 13, "d": 2, "l":  3, "f": 73, "a": 19, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  3, "team": "BWIT", "w": 12, "d": 3, "l":  3, "f": 50, "a": 20, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  4, "team": "KHLN", "w": 11, "d": 1, "l":  6, "f": 54, "a": 36, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  5, "team": "ASLX", "w":  9, "d": 2, "l":  7, "f": 44, "a": 35, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  6, "team": "HAMM", "w":  8, "d": 1, "l":  9, "f": 34, "a": 53, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  7, "team": "ESHW", "w":  6, "d": 3, "l":  9, "f": 45, "a": 48, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  8, "team": "MDCG", "w":  6, "d": 0, "l": 12, "f": 23, "a": 58, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  9, "team": "ASTN", "w":  3, "d": 1, "l": 14, "f": 24, "a": 68, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 10, "team": "NORZ", "w":  0, "d": 2, "l": 16, "f":  9, "a": 67, "pts_win": 2, "season": "1964-65", "level": 6, "series": 3, "league": "4. Division Series 3"}
+        ],
+        "promoted": {
+            "teams": ["EHLR"],
+            "target": {"season": "1965-66", "level": 5, "name": "3. Division"}
+        }
+    }]
+}
