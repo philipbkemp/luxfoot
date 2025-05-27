@@ -1,0 +1,51 @@
+{
+    "level": 5,
+	"season": "1982-83",
+    "links": {
+        "next": "1983-84",
+        "prev": "1981-82",
+        "up": 4,
+        "down": 6
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","BGHP","CGRV:2","FOLS","GBHT","JWAS:2","LARD","OVND:2","UFLN","VICR:2","WINC","YBDK:2"],
+        "standings": [
+            {"place":  1, "team": "WINC",   "w": 18, "d": 3, "l":  1, "f": 94, "a": 27, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1983-84", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "AHOS",   "w": 15, "d": 4, "l":  3, "f": 81, "a": 30, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1983-84", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "UFLN",   "w": 14, "d": 3, "l":  5, "f": 72, "a": 31, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  4, "team": "JWAS:2", "w": 12, "d": 3, "l":  7, "f": 61, "a": 56, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  5, "team": "BGHP",   "w": 10, "d": 3, "l":  9, "f": 67, "a": 45, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  6, "team": "CGRV:2", "w":  9, "d": 3, "l": 10, "f": 61, "a": 63, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  7, "team": "VICR:2", "w": 10, "d": 1, "l": 11, "f": 49, "a": 70, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  8, "team": "OVND:2", "w":  7, "d": 2, "l": 13, "f": 56, "a": 79, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  9, "team": "GBHT",   "w":  6, "d": 3, "l": 13, "f": 39, "a": 56, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "FOLS",   "w":  6, "d": 3, "l": 13, "f": 39, "a": 76, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 11, "team": "YBDK:2", "w":  5, "d": 4, "l": 13, "f": 31, "a": 59, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1983-84", "level": 6, "name": "4. Division"}},
+            {"place": 12, "team": "LARD",   "w":  2, "d": 4, "l": 16, "f": 31, "a": 89, "pts_win": 2, "season": "1982-83", "level": 5, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1983-84", "level": 6, "name": "4. Division"}}
+        ],
+        "promoted": {
+            "teams": ["WINC","AHOS"],
+            "target": {"season": "1983-84", "level": 4, "name": "2. Division"}
+        },
+        "relegated": {
+            "teams": ["YBDK:2","LARD"],
+            "target": {"season": "1983-84", "level": 6, "name": "4. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing": true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    }]
+}

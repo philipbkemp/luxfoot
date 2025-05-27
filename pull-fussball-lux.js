@@ -81,10 +81,20 @@ function pullResults(tbl) {
         if ( theTeam.indexOf(" II") !== -1 ) {
             theTeam = theTeam.replace(" II","");
         }
-        if ( allTeams[theTeam] ) {
-            teams.push( allTeams[theTeam] );
+
+        checkTeamName = theTeam;
+        teamCode = "";
+
+        if ( teamName.endsWith(" II") ) {
+            checkTeamName = checkTeamName.replace(" II","");
+        }
+        if ( ! allTeams[checkTeamName] ) {
+            allTeams[checkTeamName] = prompt("Unknown team",checkTeamName);
+        }
+        if ( ! teamName.endsWith(" II") ) {
+            teams.push( allTeams[checkTeamName] );
         } else {
-            teams.push( prompt("Unknown team",theTeam) );
+            teams.push( allTeams[checkTeamName] + ":2" );
         }
     }
 
@@ -132,12 +142,19 @@ function pullStandings(tbl) {
         cols = rows[r].querySelectorAll("td");
         if ( cols.length !== 1 ) {
             teamName = cols[1].textContent.trim().replace(" (P)","").replace(" (N)","").replace(" (M)","").replace(" (A)","");
-            
-            if ( allTeams[teamName] ) {
-                teams.push( allTeams[teamName] );
+            checkTeamName = teamName;
+            teamCode = "";
+
+            if ( teamName.endsWith(" II") ) {
+                checkTeamName = checkTeamName.replace(" II","");
+            }
+            if ( ! allTeams[checkTeamName] ) {
+                allTeams[checkTeamName] = prompt("Unknown team",checkTeamName);
+            }
+            if ( ! teamName.endsWith(" II") ) {
+                teams.push( allTeams[checkTeamName] );
             } else {
-                allTeams[teamName] = prompt("Unknown team",teamName);
-                teams.push( allTeams[teamName] );
+                teams.push( allTeams[checkTeamName] + ":2" );
             }
 
             champ = "";
