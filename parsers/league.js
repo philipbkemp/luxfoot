@@ -134,7 +134,14 @@ function parseLeague(league) {
 				removeKey("series.standings");
 				if ( series.matches ) {
 					seriesPanel.append( $("<H2></H2>").html("Results table").addClass("pt-3") );
-					seriesPanel.append( buildResultsTable(series.teams,series.matches) );
+					hasTwo = false || (series.play_each && series.play_each === 3);
+					if ( ! hasTwo ) {
+						seriesPanel.append( buildResultsTable(series.teams,series.matches) );
+					} else {
+						resultsPanels = buildResultsTable(series.teams,series.matches,hasTwo);
+						seriesPanel.append( resultsPanels[0] );
+						seriesPanel.append( resultsPanels[1] );
+					}
 					seriesPanel.append(
 						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(
 							"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
@@ -579,23 +586,32 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3,playEach=2) {
 	return tbl;
 }
 
-function buildResultsTable(teams,results) {
+function buildResultsTable(teams,results,hasTwo=false) {
 	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--results");
+	if ( hasTwo ) { tbl2 = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--results"); }
 	tblBody = $("<TBODY></TBODY>");
+	if ( hasTwo ) { tblBody2 = $("<TBODY></TBODY>"); }
 
 	topRow = $("<TR></TR>").addClass("top-row");
+	if ( hasTwo ) { topRow2 = $("<TR></TR>").addClass("top-row"); }
 	topRow.append( $("<TD></TD>").html("") );
+	if ( hasTwo ) { topRow2.append( $("<TD></TD>").html("") );}
 	teams.forEach(t=>{
 		topRow.append( $("<TH></TH>").attr("scope","col").html("<abbr title='"+allTeams[t]+"'>"+t+"</abbr>") );
+		if ( hasTwo ) { topRow2.append( $("<TH></TH>").attr("scope","col").html("<abbr title='"+allTeams[t]+"'>"+t+"</abbr>") ); }
 	});
 	tblBody.append(topRow);
+	if ( hasTwo ) { tblBody2.append(topRow2); }
 
 	teams.forEach(t=>{
 		teamRow = $("<TR></TR>");
+		if ( hasTwo ) { teamRow2 = $("<TR></TR>"); }
 		teamRow.append( $("<TH></TH>").attr("scope","row").html( allTeams[t] ) );
+		if ( hasTwo ) { teamRow2.append( $("<TH></TH>").attr("scope","row").html( allTeams[t] ) ); }
 		teams.forEach(tt=>{
 			if ( tt === t ) {
 				teamRow.append( $("<TD></TD>").html("").addClass("noMatch") );
+				if ( hasTwo ) { teamRow2.append( $("<TD></TD>").html("").addClass("noMatch") ); }
 			} else {
 				theMatch = results.filter(m=>{return m.home===t && m.away===tt;});
 				if ( theMatch.length >= 1 ) {
@@ -643,15 +659,56 @@ function buildResultsTable(teams,results) {
 					console.error(t,tt,theMatch);
 				}
 				if ( theMatch.length === 2 ) {
-					// second results table
-					console.log("SECOND RESULT",theMatch[1]);
+					// second results table					
+					matchKeys = Object.keys(theMatch[1]);
+					for ( i=0 ; i!==matchKeys.length ; i++ ) {
+						matchKeys[i] = "match." + matchKeys[i];
+					}
+					addKeys(matchKeys);
+
+					scoreParts = theMatch[1].score.split("-");
+					result = "";
+					if ( scoreParts[0] > scoreParts[1] ) {
+						result = "homeWin"
+					} else if ( scoreParts[0] < scoreParts[1] ) {
+						result = "awayWin";
+					} else if ( scoreParts[0] === scoreParts[1] ) {
+						result = "draw";
+					}
+
+					if ( theMatch[1].forfeit ) {
+						abbr = $("<ABBR></ABBR>").attr("title","Match awarded by forfeit").html(theMatch[1].score);
+						teamRow2.append( $("<TD></TD>").addClass(result).append(abbr) );
+						resultNotes.push(theMatch[1]);
+						removeKey("match.forfeit");
+					} else if ( theMatch[1].note ) {
+						abbr = $("<ABBR></ABBR>").attr("title",theMatch[1].note).html(theMatch[1].score);
+						teamRow2.append( $("<TD></TD>").addClass(result).append(abbr) );
+						resultNotes.push(theMatch[1]);
+						removeKey("match.note");
+					} else if ( theMatch[1].score === "" ) {
+						teamRow2.append( $("<TD></TD>").html("-").addClass("opcaity-25").addClass(result) );
+					} else {
+						teamRow2.append( $("<TD></TD>").html(theMatch[1].score).addClass(result) );
+					}
+
+					removeKey("match.score");
+					removeKey("match.home");
+					removeKey("match.away");
+					removeKey("match.season");
+					removeKey("match.competition");
+					removeKey("match.date");
 				}
 			}
 		});
 		tblBody.append(teamRow);
+		if ( hasTwo ) { tblBody.append(teamRow); }
 	});
 
 	tbl.append(tblBody);
+	if ( hasTwo ) { tbl2.append(tblBody2); }
+	
+	if ( hasTwo ) { return [tbl,tbl2]; }
 	return tbl;
 }
 
