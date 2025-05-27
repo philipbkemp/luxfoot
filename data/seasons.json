@@ -973,7 +973,7 @@
 	},{
 		"season": "1965-66",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1965-66", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 2},
+			"level_1": {"season": "1965-66", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 2},
 			"level_2": {"missing":true,"season": "1965-66", "level":  2, "name": "Division of Honour", "winner": "MDLB"},
 			"level_3": {"missing":true,"season": "1965-66", "level":  3, "name": "1. Division", "winner": "CSOB"},
 			"level_4": {"missing":true,"season": "1965-66", "level":  4, "name": "2. Division", "series": [
