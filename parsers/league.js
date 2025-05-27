@@ -721,6 +721,7 @@ function buildStandings(standings,ptsWin=3) {
 		if ( ! s.missing ) {
 
 			points = (s.w * ptsWin) + s.d;
+			console.log(s.w,s.d,ptsWin,(s.w * ptsWin),points);
 			if ( s.carry_forward ) {
 				points += s.carry_forward;
 				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').html( "+"+s.carry_forward+" pts" ) );
