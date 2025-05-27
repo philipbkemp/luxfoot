@@ -2214,8 +2214,8 @@
 				{"missing":true, "season": "2004-05", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "TRIG"},
 				{"missing":true, "season": "2004-05", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "RSMB"}
 			]},
-			"level_5": {"missing":true, "season": "2004-05", "level": 5, "name": "3. Division","series":[
-				{"missing":true, "season": "2004-05", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JGIL"},
+			"level_5": {"season": "2004-05", "level": 5, "name": "3. Division","series":[
+				{"season": "2004-05", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JGIL"},
 				{"missing":true, "season": "2004-05", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "JKYL"}
 			]}
 		},
