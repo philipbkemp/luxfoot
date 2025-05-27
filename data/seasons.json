@@ -562,7 +562,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1948-49", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_luxembourg": {"season": "1948-49", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"missing":true,"season": "1948-49", "name": "Coupe FLF", "winner": "RBAS", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":1,"series_name":"2. Division Series 1"}}
 		}
 	},{
