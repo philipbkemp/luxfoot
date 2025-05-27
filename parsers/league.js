@@ -598,7 +598,7 @@ function buildResultsTable(teams,results) {
 				teamRow.append( $("<TD></TD>").html("").addClass("noMatch") );
 			} else {
 				theMatch = results.filter(m=>{return m.home===t && m.away===tt;});
-				if ( theMatch.length === 1 ) {
+				if ( theMatch.length >= 1 ) {
 					
 					matchKeys = Object.keys(theMatch[0]);
 					for ( i=0 ; i!==matchKeys.length ; i++ ) {
@@ -641,6 +641,10 @@ function buildResultsTable(teams,results) {
 				} else {
 					teamRow.append( $("<TD></TD>").html("--").addClass("noMatch") );
 					console.error(t,tt,theMatch);
+				}
+				if ( theMatch.length === 2 ) {
+					// second results table
+					console.log("SECOND RESULT",theMatch[1]);
 				}
 			}
 		});
