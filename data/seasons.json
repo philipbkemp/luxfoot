@@ -543,8 +543,8 @@
 		"leagues": {
 			"level_1": {"missing":true,"season": "1948-49", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 8},
 			"level_2": {"missing":true,"season": "1948-49", "level":  2, "name": "1. Division", "winner": "JESH"},
-			"level_3": {"missing":true,"season": "1948-49", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1948-49", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "AVBG"},
+			"level_3": {"season": "1948-49", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1948-49", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "AVBG"},
 				{"missing":true,"season": "1948-49", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "PROG"}
 			]},
 			"level_4": {"missing":true,"season": "1948-49", "level":  4, "name": "2. Division", "series": [

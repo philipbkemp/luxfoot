@@ -1,0 +1,41 @@
+{
+    "level": 3,
+	"season": "1948-49",
+    "links": {
+        "next": "1949-50",
+        "prev": "1947-48",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARIS","AVBG","AWDG","BBML","ETZE","MARM","TRIG","USND","WALF","YBDK"],
+        "standings": [
+            {"place":  1, "team": "AVBG", "w": 13, "d": 3, "l":  2, "f": 83, "a": 22, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "YBDK", "w": 11, "d": 2, "l":  5, "f": 45, "a": 36, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "ARIS", "w":  8, "d": 4, "l":  6, "f": 62, "a": 42, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  4, "team": "USND", "w":  7, "d": 6, "l":  5, "f": 35, "a": 40, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  5, "team": "TRIG", "w":  7, "d": 3, "l":  8, "f": 46, "a": 42, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "MARM", "w":  6, "d": 4, "l":  8, "f": 36, "a": 50, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "BBML", "w":  7, "d": 2, "l":  9, "f": 31, "a": 46, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "ETZE", "w":  7, "d": 1, "l": 10, "f": 47, "a": 39, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1949-50", "level": 4, "name": "2. Division"}},
+            {"place":  9, "team": "WALF", "w":  6, "d": 2, "l": 10, "f": 31, "a": 58, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1949-50", "level": 4, "name": "2. Division"}},
+            {"place": 10, "team": "AWDG", "w":  3, "d": 3, "l": 12, "f": 32, "a": 73, "pts_win": 2, "season": "1948-49", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1949-50", "level": 4, "name": "2. Division"}}
+        ],
+        "promoted": {
+            "teams": ["AVBG","YBDK"],
+            "target": {"season": "1949-50", "level": 2, "name": "1. Division"}
+        },
+        "relegated": {
+            "teams": ["ETZE","WALF","AWDG"],
+            "target": {"season": "1949-50", "level": 4, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }]
+}
