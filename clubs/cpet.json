@@ -3,5 +3,8 @@
     "name": "CS Petange",
     "trophies": [
         {"season":"2004-05","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+    ],
+    "standings": [
+        {"place": 6, "team": "CPET", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"}
     ]
 }
