@@ -1374,8 +1374,8 @@
 				{"missing":true, "season": "1978-79", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "WLTZ"},
 				{"season": "1978-79", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "OYMP"}
 			]},
-			"level_4": {"missing":true, "season": "1978-79", "level": 4, "name": "2. Division","series":[
-				{"missing":true, "season": "1978-79", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ASCB"},
+			"level_4": {"season": "1978-79", "level": 4, "name": "2. Division","series":[
+				{"season": "1978-79", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ASCB"},
 				{"missing":true, "season": "1978-79", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOBS"},
 				{"missing":true, "season": "1978-79", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "VICR"},
 				{"missing":true, "season": "1978-79", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "BLVL"}

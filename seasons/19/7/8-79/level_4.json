@@ -1,0 +1,43 @@
+{
+    "level": 4,
+	"season": "1978-79",
+    "links": {
+        "next": "1979-80",
+        "prev": "1977-78",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASCB","BGHP","CBSH","CLVX","ERPL","JGIL","MGWW","PRTZ","RAMB","REIS","SRED","TSVG"],
+        "standings": [
+            {"place": 1, "team": "ASCB", "w": 15, "d": 4, "l": 3, "f": 63, "a": 23, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1979-80", "level": 3, "name": "1. Division"}},
+            {"place": 2, "team": "CLVX", "w": 15, "d": 3, "l": 4, "f": 53, "a": 27, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 3, "team": "CBSH", "w": 13, "d": 1, "l": 8, "f": 50, "a": 34, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 4, "team": "PRTZ", "w": 8, "d": 8, "l": 6, "f": 38, "a": 34, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 5, "team": "ERPL", "w": 8, "d": 5, "l": 9, "f": 40, "a": 45, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 6, "team": "RAMB", "w": 8, "d": 4, "l": 10, "f": 44, "a": 42, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 7, "team": "MGWW", "w": 8, "d": 4, "l": 10, "f": 42, "a": 45, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 8, "team": "TSVG", "w": 7, "d": 6, "l": 9, "f": 32, "a": 36, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 9, "team": "JGIL", "w": 7, "d": 5, "l": 10, "f": 39, "a": 51, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 10, "team": "SRED", "w": 7, "d": 5, "l": 10, "f": 35, "a": 48, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1"},
+            {"place": 11, "team": "BGHP", "w": 5, "d": 5, "l": 12, "f": 22, "a": 46, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1979-80", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "REIS", "w": 4, "d": 4, "l": 14, "f": 24, "a": 51, "pts_win": 2, "season": "1978-79", "level": 4, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1979-80", "level": 5, "name": "3. Division"}}
+        ],
+        "promoted": {
+            "teams": ["ASCB"],
+            "target": {"season": "1979-80", "level": 3, "name": "1. Division"}
+        },
+        "relegated": {
+            "teams": ["BGHP","REIS"],
+            "target": {"season": "1979-80", "level": 5, "name": "3. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing": true
+    }]
+}
