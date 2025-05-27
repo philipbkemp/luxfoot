@@ -1,0 +1,48 @@
+{
+    "level": 5,
+	"season": "1962-63",
+    "links": {
+        "next": "1963-64",
+        "prev": "1961-62",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARBD","BDBB","BWMD","BYUD","HOST","JBIW","JUNG","MUNS","OBCN","OYCW","REIS","RUPL","SYRA","UMRT"],
+        "standings": [
+            {"place": 1, "team": "JBIW", "w": 25, "d": 1, "l": 0, "f": 146, "a": 16, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1963-64", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "OYCW", "w": 16, "d": 5, "l": 5, "f": 82, "a": 40, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 3, "team": "ARBD", "w": 14, "d": 7, "l": 5, "f": 86, "a": 43, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 4, "team": "HOST", "w": 14, "d": 6, "l": 6, "f": 78, "a": 50, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 5, "team": "REIS", "w": 12, "d": 5, "l": 9, "f": 76, "a": 48, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 6, "team": "OBCN", "w": 13, "d": 3, "l": 10, "f": 70, "a": 55, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 7, "team": "BWMD", "w": 13, "d": 3, "l": 10, "f": 71, "a": 69, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 8, "team": "UMRT", "w": 11, "d": 2, "l": 13, "f": 75, "a": 71, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 9, "team": "JUNG", "w": 8, "d": 5, "l": 13, "f": 55, "a": 75, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 10, "team": "RUPL", "w": 9, "d": 3, "l": 14, "f": 54, "a": 76, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 11, "team": "MUNS", "w": 9, "d": 3, "l": 14, "f": 46, "a": 82, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 12, "team": "BYUD", "w": 5, "d": 8, "l": 13, "f": 39, "a": 76, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 13, "team": "SYRA", "w": 2, "d": 5, "l": 19, "f": 28, "a": 101, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"},
+            {"place": 14, "team": "BDBB", "w": 1, "d": 4, "l": 21, "f": 21, "a": 125, "pts_win": 2, "season": "1962-63", "level": 5, "league": "3. Division Series 1"}
+        ],
+        "promoted": {
+            "teams": ["JBIW"],
+            "target": {"season": "1963-64", "level": 4, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    }]
+}
