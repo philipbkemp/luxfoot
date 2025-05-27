@@ -702,7 +702,7 @@ function buildResultsTable(teams,results,hasTwo=false) {
 			}
 		});
 		tblBody.append(teamRow);
-		if ( hasTwo ) { tblBody.append(teamRow); }
+		if ( hasTwo ) { tblBody2.append(teamRow2); }
 	});
 
 	tbl.append(tblBody);
