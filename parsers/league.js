@@ -698,6 +698,8 @@ function buildResultsTable(teams,results,hasTwo=false) {
 					removeKey("match.season");
 					removeKey("match.competition");
 					removeKey("match.date");
+				} else if ( theMatch.length === 1 && hasTwo ) {					
+					teamRow2.append( $("<TD></TD>").html("--").addClass("noMatch") );
 				}
 			}
 		});
