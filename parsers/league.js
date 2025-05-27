@@ -148,6 +148,7 @@ function parseLeague(league) {
 						)
 					);
 					removeKey("series.matches");
+					removeKey("series.play_each");
 				}
 
 				if ( series.playoffs ) {
