@@ -45,7 +45,7 @@
         {"season":"2012-13","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":13}
     ],
     "standings": [
-        {"place": 5, "team": "JESH", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"},
+        {"place": 5, "team": "JESH", "missing": true, "season": "1913-14", "level": 1, "league": "1. Division"},
         {"place": 4, "team": "JESH", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
     ]
 }

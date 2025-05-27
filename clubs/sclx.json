@@ -6,7 +6,7 @@
         {"season":"1918-19","league":"level_1","name":"1. Division","title_count":2}
     ],
     "standings": [
-        {"place":  2, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "1. Division"},
+        {"place":  2, "team": "SCLX", "missing": true, "season": "1913-14", "level": 1, "league": "1. Division"},
         {"place":  2, "team": "SCLX", "w": 3, "d":  2, "l": 1, "f": 24, "a":  9, "pts_win":  2, "season": "1911-12", "level": 1, "league": "Klasse A", "playoff": "title"},
         {"place":  1, "team": "SCLX", "w": 4, "d":  1, "l": 1, "f": 15, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
         {"place":  3, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
