@@ -13,6 +13,14 @@
         "_country": "Belgium",
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"}
     },
+    "ESP": {
+        "_country": "Spain",
+        "BARC": {"id": "FC_Barcelona", "name": "Barcelona"}
+    },
+    "FIN": {
+        "_country": "Finland",
+        "LHTI": {"id": "FC_Lahti", "name": "Reipas Lahti"}
+    },
     "FRA": {
         "_country": "France",
         "LENS": {"id": "RC_Lens", "name": "Lens"}

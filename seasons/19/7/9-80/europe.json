@@ -1,0 +1,32 @@
+{
+    "season": "1979-80",
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1979-80",
+        "links": {
+            "next": "1980-81",
+            "prev": "1978-79"
+        },
+        "teams": ["ARIS"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ARIS": [
+                    {"isEurope":true,"date":"1979-09-19","leg":1,"home":"FIN:LHTI","away":"ARIS","score":"0-1","season":"1979-80","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1979-10-03","leg":2,"home":"ARIS","away":"FIN:LHTI","score":"1-0","season":"1979-80","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"2-0","outcome":"W","team":"ARIS"}}
+                ]
+            }
+        },{
+            "key": "R2",
+            "name": "Second round",
+            "matches": {
+                "ARIS": [
+                    {"isEurope":true,"date":"1979-10-24","leg":1,"home":"ARIS","away":"ESP:BARC","score":"1-4","season":"1979-80","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"Second Round","leg":1}},
+                    {"isEurope":true,"date":"1979-11-07","leg":2,"home":"ESP:BARC","away":"ARIS","score":"7-2","season":"1979-80","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"Second Round","leg":2},"agg":{"score":"2-11","outcome":"L","team":"ARIS"}}
+                ]
+            }
+        }
+        ]
+    }
+}
