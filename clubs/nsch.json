@@ -4,5 +4,8 @@
     "trophies": [
         {"season":"1951-52","league":"level_1","name":"Honour Division","title_count":1},
         {"season":"1959-60","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+    ],
+    "standings": [
+        {"place": 2, "team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "pts_win": 2, "season": "1915-16", "level": 3, "league": "3. Division Series 2", "playoff":"title"}
     ]
 }
