@@ -40,5 +40,9 @@
     "WDE": {
         "_country": "West Germany",
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}
+    },
+    "YUG": {
+        "_country": "Yugoslavia",
+        "REDS": {"id":"Red_Star_Belgrade", "name": "Red Star Belgrade"}
     }
 }

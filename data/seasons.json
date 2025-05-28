@@ -796,7 +796,7 @@
 			"cup_luxembourg": {"missing":true,"season": "1957-58", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 12, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1957-58","name":"European Cup","teams":["SDUD"]}
+			"champions_league": {"season":"1957-58","name":"European Cup","teams":["SDUD"]}
 		}
 	},{
 		"season": "1958-59",

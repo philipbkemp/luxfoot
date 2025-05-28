@@ -1,0 +1,22 @@
+{
+    "season": "1957-58",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1957-58",
+        "links": {
+            "next": "1958-59",
+            "prev": "1956-57"
+        },
+        "teams": ["SDUD"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "SDUD": [
+                    {"isEurope":true,"date":"1957-09-05","leg":1,"home":"SDUD","away":"YUG:REDS","score":"0-5","season":"1957-58","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1957-10-02","leg":2,"home":"YUG:REDS","away":"SDUD","score":"9-1","season":"1957-58","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":2},"agg":{"score":"1-14","outcome":"L","team":"SDUD"}}
+                ]
+            }
+        }]
+    }
+}
