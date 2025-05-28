@@ -1,0 +1,49 @@
+{
+    "level": 3,
+	"season": "1998-99",
+    "links": {
+        "next": "1999-00",
+        "prev": "1997-98",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","BBML","BLVL","BWIT","CLMC","JESH:2","MAMR","RMLX","RSMB","SAND","SCBT","STET","TRIG","UESH"],
+        "standings": [
+            {"place":  1, "team": "STET",   "w": 12, "d":  7, "l":  7, "f": 36, "a": 28, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "promoted": true, "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}},
+		    {"place":  2, "team": "RMLX",   "w": 11, "d":  9, "l":  6, "f": 36, "a": 25, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "promotion", "promoted": true, "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}},
+		    {"place":  3, "team": "AREM",   "w": 11, "d":  8, "l":  7, "f": 40, "a": 30, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place":  4, "team": "SCBT",   "w": 11, "d":  6, "l":  9, "f": 40, "a": 42, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place":  5, "team": "BBML",   "w": 10, "d":  8, "l":  8, "f": 36, "a": 39, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place":  6, "team": "MAMR",   "w": 11, "d":  4, "l": 11, "f": 59, "a": 42, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place":  7, "team": "JESH:2", "w":  9, "d":  9, "l":  8, "f": 42, "a": 35, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
+		    {"place":  8, "team": "BWIT",   "w":  9, "d":  9, "l":  8, "f": 39, "a": 40, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place":  9, "team": "SAND",   "w":  9, "d":  6, "l": 11, "f": 41, "a": 42, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place": 10, "team": "RSMB",   "w":  9, "d":  6, "l": 11, "f": 33, "a": 43, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place": 11, "team": "TRIG",   "w":  7, "d": 10, "l":  9, "f": 36, "a": 31, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2"},
+		    {"place": 12, "team": "BLVL",   "w":  7, "d":  8, "l": 11, "f": 30, "a": 39, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}},
+		    {"place": 13, "team": "CLMC",   "w":  7, "d":  7, "l": 12, "f": 65, "a": 80, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}},
+		    {"place": 14, "team": "UESH",   "w":  7, "d":  7, "l": 12, "f": 39, "a": 56, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}}           
+        ],
+        "promoted": {
+            "teams": ["STET","RMLX"],
+            "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}
+        },
+        "relegated": {
+            "teams": ["BLVL","CLMC","UESH"],
+            "target": {"season": "1999-00", "level": 4, "name": "2. Division"}
+        }
+    }],
+    "playoffs": {
+        "promotion": [
+            {"home":"RMLX","homeDivision":{"level":3,"series":2,"name":"1. Division Series 2"},"away":"JSCH","awayDivision":{"level":3,"series":1,"name":"1. Division Series 1"},"score":"2-1","outcome":"RMLX promoted to TARGET","target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}}
+        ]
+    }
+}
