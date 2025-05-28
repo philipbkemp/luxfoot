@@ -1283,7 +1283,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1975-76","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1975-76","teams":["AVBG"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1975-76","teams":["URUM"]}
+			"cup_winners_cup": {"name":"Cup Winners' Cup",				"season":"1975-76","teams":["URUM"]}
 		}
 	},{
 		"season": "1976-77",

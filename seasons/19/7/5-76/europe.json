@@ -1,0 +1,22 @@
+{
+    "season": "1975-76",
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1975-76",
+        "links": {
+            "next": "1976-77",
+            "prev": "1974-75"
+        },
+        "teams": ["URUM"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "URUM": [
+                    {"isEurope":true,"date":"1975-09-17","leg":1,"home":"YUG:BBLK","away":"URUM","score":"9-0","season":"1975-76","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1975-10-02","leg":2,"home":"URUM","away":"YUG:BBLK","score":"1-5","season":"1975-76","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"1-14","outcome":"L","team":"URUM"}}
+                ]
+            }
+        }]
+    }
+}

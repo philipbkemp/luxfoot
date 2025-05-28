@@ -43,6 +43,7 @@
     },
     "YUG": {
         "_country": "Yugoslavia",
+        "BBLK": {"id":"FK_Borac_Banja_Luka", "name": "Borac Banja Luka"},
         "REDS": {"id":"Red_Star_Belgrade", "name": "Red Star Belgrade"}
     }
 }
