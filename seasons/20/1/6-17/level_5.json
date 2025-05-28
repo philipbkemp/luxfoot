@@ -126,7 +126,7 @@
     }],
     "playoffs": {
         "updown": [
-            {"home":"TSVG","homeDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"away":"MLSV","awayDivision":{"level":5,"series":2,"name":"3. Division Series 2"},"score":"2-2","aet":true,"penalties":"4-6","outcome":"MSLV take the place of TSVG in TARGET","target": {"season": "2017-18", "level": 4, "name": "2. Division"}}
+            {"home":"TSVG","homeDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"away":"MLSV","awayDivision":{"level":5,"series":2,"name":"3. Division Series 2"},"score":"2-2","aet":true,"penalties":"4-6","outcome":"MLSV take the place of TSVG in TARGET","target": {"season": "2017-18", "level": 4, "name": "2. Division"}}
         ]
     }
 }
