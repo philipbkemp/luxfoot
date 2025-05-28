@@ -2421,7 +2421,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "2012-13", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 13, "winner_division": { "level": 1, "name": "National Division"}},
+			"cup_luxembourg": {"season": "2012-13", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 13, "winner_division": { "level": 1, "name": "National Division"}},
 			"cup_flf": {"missing":true, "season": "2012-13", "name": "Coupe FLF", "winner": "OVND", "title_count": 1, "winner_division": { "level": 3,"series":1, "name": "1. Division Series 1"}}
 		},
 		"europe": {
