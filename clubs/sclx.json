@@ -10,22 +10,5 @@
         {"place":  2, "team": "SCLX", "w": 3, "d":  2, "l": 1, "f": 24, "a":  9, "pts_win":  2, "season": "1911-12", "level": 1, "league": "Klasse A", "playoff": "title"},
         {"place":  1, "team": "SCLX", "w": 4, "d":  1, "l": 1, "f": 15, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
         {"place":  3, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
-    ],
-    "matches": [
-        {"home":"SCLX","away":"SDIF","score":"3-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SCLX","away":"HLBN","score":"3-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SCLX","away":"MANC","score":"4-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SDIF","away":"SCLX","score":"2-1","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"HLBN","away":"SCLX","score":"2-2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"MANC","away":"SCLX","score":"0-2","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"date": "1911-04-09","home":"SCLX","away":"SDIF","score":"3-0","season":"1910-11","competition":{"type":"league","level": 1,"name": "Klasse A", "playoff": "title"}, "outcome": "SCLX champions"},
-
-        {"home":"HLBN","away":"SCLX","score":"1-1","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SCLX","away":"HLBN","score":"3-2","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SCLX","away":"RACL","score":"2-2","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"SCLX","away":"DEIC","score":"12-0","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"RACL","away":"SCLX","score":"3-1","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"DEIC","away":"SCLX","score":"1-5","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A"}},
-        {"home":"HLBN","away":"SCLX","score":"-","season":"1911-12","competition":{"type":"league","level": 1,"name": "Klasse A", "playoff": "title"}, "outcome": "SCLX did not attend (thinking they won the league on goal difference) - HLBN declared champions"}
     ]
 }
