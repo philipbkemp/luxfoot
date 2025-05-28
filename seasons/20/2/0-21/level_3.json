@@ -8,9 +8,9 @@
         "down": 4
     },
 	"name": "1. Division",
-    "note": "League Suspended in October due to COVID-19",
     "series": [{
         "series": 1,
+        "note": "League Suspended in October due to COVID-19",
         "name": "Series 1",
         "teams": ["AAHE","AHOS","BAST","BVAT","DARE","ERPL","JSCH","JUSE","KHLN","LRNZ","MINL","MRTZ","NORD","UFLN","USBC","YBDK"],
         "standings": [
