@@ -2521,8 +2521,8 @@
 				{"missing":true, "season": "2016-17", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "SPST"},
 				{"missing":true, "season": "2016-17", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "RBAS"}
 			]},
-			"level_5": {"missing":true, "season": "2016-17", "level": 5, "name": "3. Division","series":[
-				{"missing":true, "season": "2016-17", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "REIS"},
+			"level_5": {"season": "2016-17", "level": 5, "name": "3. Division","series":[
+				{"season": "2016-17", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "REIS"},
 				{"missing":true, "season": "2016-17", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "CBRA"}
 			]}
 		},
