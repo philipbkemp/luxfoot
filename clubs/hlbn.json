@@ -9,6 +9,7 @@
         {"season":"1916-17","league":"level_1","name":"1. Division","title_count":5}
     ],
     "standings": [
+        {"place": 1, "team": "HLBN", "w": 10, "d": 0, "l": 0, "f": 33, "a": 10, "pts_win": 2, "season": "1916-17", "level": 1, "league": "1. Division", "champion": true, "title_count": 5},
         {"place": 1, "team": "HLBN", "w": 7, "d": 2, "l": 1, "f": 35, "a": 13, "pts_win": 2, "season": "1915-16", "level": 1, "league": "1. Division", "champion": true, "title_count": 4},
         {"place":  3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff": "playoff","champion":true,"title_count":3},
         {"place":  1, "team": "HLBN", "missing": true, "season": "1913-14", "level": 1, "league": "1. Division", "champion": true, "title_count": 2},

@@ -3,5 +3,8 @@
     "name": "SC Tétange",
     "trophies": [
         {"season":"1950-51","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+    ],
+    "standings": [
+        {"place": 3, "team": "STET", "w": 1, "d": 1, "l": 4, "f":  9, "a": 18, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"}
     ]
 }

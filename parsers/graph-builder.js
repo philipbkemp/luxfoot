@@ -115,6 +115,7 @@ function buildGraph() {
 	/*1913-14*/ loadSeason(["HLBN","SCLX","RACL","SDIF","JESH","CPET"]);
 	/*1914-15*/ loadSeason191415("HLBN",["HLBN|SCLX|JESH|SDUD|CPET|YBDK","RACL|FOLA|USDD|SDIF|CECH"]);
 	/*1915-16*/ loadSeason(["HLBN","SCLX","FOLA","RACL","JESH","SDUD"],["YBDK","SDIF","CPET"],["CSHL|JBET","JSTF|NSCH","ROLG|ERDU"]);
+	/*1916-17*/ loadSeason(["HLBN","FOLA","RACL","SCLX","YBDK","JESH"],["CPET","SDIF","SDUD","CSHL","UESH"],["AVBG|URUM","JWMK|NSCH","WALF|STET","ROLG|BLVL"]);
 
 	t1d = "M45,69";
 	t2d = "M105,69";
