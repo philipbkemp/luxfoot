@@ -810,7 +810,7 @@
 			]},
 			"level_5": {"season": "1958-59", "level":  5, "name": "3. Division", "series": [
 				{"season": "1958-59", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "RHDS"},
-				{"missing":true,"season": "1958-59", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UMRT"},
+				{"season": "1958-59", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UMRT"},
 				{"missing":true,"season": "1958-59", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "KHLN"},
 				{"missing":true,"season": "1958-59", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "UESH"}
 			]}
