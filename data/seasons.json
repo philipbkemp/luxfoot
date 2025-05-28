@@ -1706,7 +1706,7 @@
 	},{
 		"season": "1987-88",
 		"leagues": {
-			"level_1": {"missing":true, "season": "1987-88", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 21, "double": true},
+			"level_1": {"season": "1987-88", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 21, "double": true},
 			"level_2": {"missing":true, "season": "1987-88", "level": 2, "name": "Division of Honour", "winner": "CPET"},
 			"level_3": {"season": "1987-88", "level": 3, "name": "1. Division","series":[
 				{"season": "1987-88", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "YBDK"},
