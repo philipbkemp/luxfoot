@@ -33,8 +33,8 @@
 	},
     "playoffs": {
         "downup": [
-            {"home":"SCBT","homeDivision": {"level":1,"name":"National Division"},"away":"ATBS","awayDivision": {"level":2,"name":"Division of Honour"},"score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}},
-            {"home":"WLTZ","homeDivision": {"level":1,"name":"National Division"},"away":"JCNC","awayDivision": {"level":2,"name":"Division of Honour"},"score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}}
+            {"date":"2025-05-29","home":"SCBT","homeDivision": {"level":1,"name":"National Division"},"away":"ATBS","awayDivision": {"level":2,"name":"Division of Honour"},"score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}},
+            {"date":"2025-06-01","home":"WLTZ","homeDivision": {"level":1,"name":"National Division"},"away":"JCNC","awayDivision": {"level":2,"name":"Division of Honour"},"score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}}
         ]
     },
 	"matches": [
