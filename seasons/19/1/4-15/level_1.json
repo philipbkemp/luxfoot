@@ -7,6 +7,7 @@
     },
 	"name": "1. Division",
 	"pts_win": 2,
+    "champion": "HLBN",
     "series": [{
         "series": 1,
         "name": "Series 1",
@@ -14,7 +15,7 @@
         "standings": [
             {"place":  1, "team": "SCLX", "w": 3, "d":  0, "l": 1, "f": 10, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff":"playoff"},
             {"place":  2, "team": "RACL", "w": 2, "d":  1, "l": 1, "f": 13, "a": 10, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1"},
-            {"place":  3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff": "playoff"}
+            {"place":  3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff": "playoff","champion":true,"title_count":3}
         ],
         "matches": [
             {"home":"SCLX","away":"RACL","score":"6-5","season":"1914-15","competition":{"type":"league","level":1,"series":1,"name":"1. Division Series 1"}},
