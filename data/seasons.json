@@ -2615,11 +2615,12 @@
 		}
 	},{
 		"season": "2020-21",
+		"note": "Competitions (except National Division) ended prematurely due to the COVID-19 Pandemic",
 		"leagues": {
 			"level_1": {"missing":true, "season": "2020-21", "level": 1, "name": "National Division", "winner": "FOLA", "title_count": 8},
 			"level_2": {"missing":true, "season": "2020-21", "level": 2, "name": "Division of Honour", "winner": "", "covid":true},
-			"level_3": {"missing":true, "season": "2020-21", "level": 3, "name": "1. Division","series":[
-				{"missing":true, "season": "2020-21", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "", "covid":true},
+			"level_3": {"season": "2020-21", "level": 3, "name": "1. Division","series":[
+				{"season": "2020-21", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "", "covid":true},
 				{"missing":true, "season": "2020-21", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "", "covid":true}
 			]},
 			"level_4": {"missing":true, "season": "2020-21", "level": 4, "name": "2. Division","series":[
