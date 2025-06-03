@@ -2407,8 +2407,8 @@
 		"leagues": {
 			"level_1": {"missing":true, "season": "2012-13", "level": 1, "name": "National Division", "winner": "FOLA", "title_count": 6},
 			"level_2": {"missing":true, "season": "2012-13", "level": 2, "name": "Division of Honour", "winner": "SWFT"},
-			"level_3": {"missing":true, "season": "2012-13", "level": 3, "name": "1. Division","series":[
-				{"missing":true, "season": "2012-13", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MARM"},
+			"level_3": {"season": "2012-13", "level": 3, "name": "1. Division","series":[
+				{"season": "2012-13", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MARM"},
 				{"missing":true, "season": "2012-13", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "JUNG"}
 			]},
 			"level_4": {"missing":true, "season": "2012-13", "level": 4, "name": "2. Division","series":[
