@@ -1,0 +1,40 @@
+{
+    "level": 3,
+	"season": "1917-18",
+    "links": {
+        "next": "1918-19",
+        "prev": "1916-17",
+        "up": 2
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series Luxembourg",
+        "teams": ["AVBG","CMLB","JWMK"],
+        "standings": [
+            {"place": 1, "team": "AVBG", "w": 3, "d": 0, "l": 1, "f": 19, "a":  6, "pts_win": 2, "season": "1917-18", "level": 3, "series": 1, "league": "3. Division Series Luxembourg", "playoff": "promotion", "promoted": true, "target": {"season": "1918-19", "level": 2, "name": "2. Division"}},
+		    {"place": 2, "team": "CMLB", "w": 1, "d": 2, "l": 1, "f":  6, "a": 10, "pts_win": 2, "season": "1917-18", "level": 3, "series": 1, "league": "3. Division Series Luxembourg"} ,
+		    {"place": 3, "team": "JWMK", "w": 0, "d": 2, "l": 2, "f":  4, "a": 13, "pts_win": 2, "season": "1917-18", "level": 3, "series": 1, "league": "3. Division Series Luxembourg"}
+        ],
+        "promoted": {
+            "teams": ["AVBG"],
+            "target": {"season": "1918-19", "level": 2, "name": "2. Division"}
+        }
+    },{
+        "series": 2,
+        "name": "Series Esch",
+        "teams": ["ADUD","ECBT","NSCH","STET"],
+        "standings": [
+            {"place": 1, "team": "STET", "w": 5, "d": 0, "l": 1, "f": 26, "a": 12, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch", "playoff": "promotion"},
+		    {"place": 2, "team": "ECBT", "w": 3, "d": 0, "l": 3, "f": 17, "a": 17, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch"},
+		    {"place": 3, "team": "NSCH", "w": 3, "d": 0, "l": 3, "f": 17, "a": 17, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch"},
+		    {"place": 4, "team": "ADUD", "w": 1, "d": 0, "l": 5, "f":  7, "a": 21, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch"}
+        ]
+    }],
+    "playoffs": {
+        "promotion": [
+            {"home":"AVBG","away":"STET","homeDivision":{"level":3,"series":1,"name":"3. Division Series Luxembourg"},"awayDivision":{"level":3,"series":2,"name":"3. Division Series Esch"},"score":"3-1","outcome":"AVBG promoted to TARGET","target":{"season": "1918-19", "level": 2, "name": "2. Division"}}
+        ]
+    }
+}
