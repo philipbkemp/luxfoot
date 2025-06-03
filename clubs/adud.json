@@ -4,5 +4,8 @@
     "trophies": [
         {"season":"1960-61","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
         {"season":"1961-62","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
+    ],
+    "standings": [
+        {"place": 4, "team": "ADUD", "w": 1, "d": 0, "l": 5, "f":  7, "a": 21, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch"}
     ]
 }

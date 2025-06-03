@@ -6,6 +6,7 @@
         {"season":"1974-75","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
     ],
     "standings": [
+        {"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f":  7, "a": 31, "pts_win": 2, "season": "1917-18", "level": 2, "league": "2. Division"},
         {"place": 1, "team": "URUM", "w": 5, "d": 1, "l": 0, "f": 20, "a":  7, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch", "playoff":"promotion", "promoted":true, "target":{"season":"1917-18","level":2,"name":"2. Division"}},
         {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
     ]

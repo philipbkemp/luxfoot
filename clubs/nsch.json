@@ -6,6 +6,7 @@
         {"season":"1959-60","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
     ],
     "standings": [
+        {"place": 3, "team": "NSCH", "w": 3, "d": 0, "l": 3, "f": 17, "a": 17, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch"},
         {"place": 2, "team": "NSCH", "w": 3, "d": 2, "l": 1, "f": 20, "a": 16, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"},
         {"place": 2, "team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "pts_win": 2, "season": "1915-16", "level": 3, "league": "3. Division Series 2", "playoff":"title"}
     ]
