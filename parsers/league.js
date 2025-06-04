@@ -972,7 +972,7 @@ function validateLeague(data) {
 			if ( data.matches ) {
 				myW = myD = myL = myF = myA = 0;
 				myMatches = data.matches.filter(m=>{return m.home === s.team || m.away === s.team});
-				if ( myMatches.length !== (s.w+s.d+s.l) ) {
+				if ( ! data.covid && myMatches.length !== (s.w+s.d+s.l) ) {
 					console.error(s.team,"Matches array does not include the right number of matches","Expected: "+(s.w+s.d+s.l),"Got: "+myMatches.length);
 				}
 				myMatches.forEach(m=>{
