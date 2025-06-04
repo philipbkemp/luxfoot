@@ -499,6 +499,7 @@ function parseLeague(league) {
 	removeKey("relegation");
 	removeKey("promotion");
 	removeKey("teams");
+	removeKey("covid");
 
 	if ( keys.length !== 0 ) {
 		console.log(league);
