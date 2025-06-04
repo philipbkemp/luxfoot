@@ -143,7 +143,6 @@
     },{
         "series": 2,
         "name": "Series 2",
-        "note": "League Suspended due to COVID-19",
         "missing" :true
     }],
     "covid": true
