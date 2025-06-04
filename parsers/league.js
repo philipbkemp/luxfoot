@@ -136,7 +136,7 @@ function parseLeague(league) {
 					seriesPanel.append( $("<H2></H2>").html("Results table").addClass("pt-3") );
 					hasTwo = false || (series.play_each && series.play_each === 3);
 					if ( ! hasTwo ) {
-						seriesPanel.append( buildResultsTable(series.teams,series.matches) );
+						seriesPanel.append( buildResultsTable(series.teams,series.matches,false,league.covid?true:false) );
 					} else {
 						resultsPanels = buildResultsTable(series.teams,series.matches,hasTwo,league.covid?true:false);
 						seriesPanel.append( resultsPanels[0] );
