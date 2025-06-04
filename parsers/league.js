@@ -59,7 +59,7 @@ function parseLeague(league) {
 	if ( league.matches ) {
 		$("#leagueTabs").append(buildTabButton("matches","Results Table"));
 		matchesPanel = buildTabPanel("matches");
-		matchesPanel.append( buildResultsTable(league.teams,league.matches) );
+		matchesPanel.append( buildResultsTable(league.teams,league.matches,false,league.covid?true:false) );
 		matchesPanel.append(
 			$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(
 				"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
@@ -138,7 +138,7 @@ function parseLeague(league) {
 					if ( ! hasTwo ) {
 						seriesPanel.append( buildResultsTable(series.teams,series.matches) );
 					} else {
-						resultsPanels = buildResultsTable(series.teams,series.matches,hasTwo);
+						resultsPanels = buildResultsTable(series.teams,series.matches,hasTwo,league.covid?true:false);
 						seriesPanel.append( resultsPanels[0] );
 						seriesPanel.append( resultsPanels[1] );
 					}
@@ -587,7 +587,7 @@ function buildPossibleTable(standings,possible,teamCount,ptsWin=3,playEach=2) {
 	return tbl;
 }
 
-function buildResultsTable(teams,results,hasTwo=false) {
+function buildResultsTable(teams,results,hasTwo=false,hasCovid=false) {
 	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--results");
 	if ( hasTwo ) { tbl2 = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--results"); }
 	tblBody = $("<TBODY></TBODY>");
@@ -657,7 +657,9 @@ function buildResultsTable(teams,results,hasTwo=false) {
 					removeKey("match.date");
 				} else {
 					teamRow.append( $("<TD></TD>").html("--").addClass("noMatch") );
-					console.error(t,tt,theMatch);
+					if ( ! hasCovid ) {
+						console.error(t,tt,theMatch);
+					}
 				}
 				if ( theMatch.length === 2 ) {
 					// second results table					
