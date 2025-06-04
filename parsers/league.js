@@ -790,6 +790,12 @@ function buildStandings(standings,ptsWin=3) {
 				thisRowHasNotes = true;
 				removeKey("standings.carry_forward");
 			}
+			if ( s.adjust ) {
+				points += s.adjust;
+				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').html( "Points adjusted by FLF (+"+s.adjust+")" ));
+				thisRowHasNotes = true;
+				removeKey("standings.adjust");
+			}
 
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
