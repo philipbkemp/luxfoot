@@ -14,7 +14,7 @@
         "teams": ["AHOS","BVAT","EXGV","FCPR","GBHT","JGIL","LARD","OVND","RAMB","RPLL","SELL","UFLN","WINC","YBDK"],
         "standings": [
             {"place":  1, "team": "UFLN", "w": 18, "d": 5, "l":  3, "f": 95, "a": 38, "season": "2018-19", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "2019-20", "level": 3, "name": "1. Division"}},
-            {"place":  2, "team": "AHOS", "w": 16, "d": 6, "l":  5, "f": 57, "a": 31, "season": "2018-19", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "2019-20", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "AHOS", "w": 16, "d": 6, "l":  4, "f": 57, "a": 31, "season": "2018-19", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "2019-20", "level": 3, "name": "1. Division"}},
             {"place":  3, "team": "YBDK", "w": 16, "d": 5, "l":  5, "f": 77, "a": 42, "season": "2018-19", "level": 4, "series": 1, "league": "2. Division Series 1", "playoff": "updown", "promoted": true, "target": {"season": "2019-20", "level": 3, "name": "1. Division"}},
             {"place":  4, "team": "WINC", "w": 13, "d": 6, "l":  7, "f": 59, "a": 40, "season": "2018-19", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place":  5, "team": "SELL", "w": 11, "d": 6, "l":  9, "f": 47, "a": 37, "season": "2018-19", "level": 4, "series": 1, "league": "2. Division Series 1"},
