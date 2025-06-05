@@ -513,6 +513,14 @@ td.possible-playoff_updown {
     background: #DCF1DAAA;
 }
 
+/* STANDINGS TABLE LEVEL *************************************************************************/
+.table--standings-history th a img {
+    height: 22px;
+    margin-right: 10px;
+    position: relative;
+    top: -1px;
+}
+
 /*.badge.badge-titleCount {
 	color: #666;
 	font-style: italic;
