@@ -155,6 +155,9 @@ function drawStandings(standings) {
         seasonLink = $("<A></A>")
             .attr("href","league.html?season="+s.season+"&level="+s.level)
             .html(s.league)
+            .prepend(
+                $("<IMG />").attr("src","assets/levels/l"+s.level+".png").attr("title","Level " +s.level)
+            )
             ;
 
         if ( ! s.missing ) {
