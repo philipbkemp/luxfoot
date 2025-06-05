@@ -17,7 +17,8 @@
         {"season":"2001-02","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":7}
     ],
     "standings": [
-        {"place": 1, "team": "AVBG", "w": 3, "d": 0, "l": 1, "f": 19, "a":  6, "pts_win": 2, "season": "1917-18", "level": 3, "series": 1, "league": "3. Division Series Luxembourg", "playoff": "promotion", "promoted": true, "target": {"season": "1918-19", "level": 2, "name": "2. Division"}},
+        {"place": 3, "team": "AVBG", "w": 3, "d": 1, "l": 4, "f": 20, "a": 23, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division"},
+		{"place": 1, "team": "AVBG", "w": 3, "d": 0, "l": 1, "f": 19, "a":  6, "pts_win": 2, "season": "1917-18", "level": 3, "series": 1, "league": "3. Division Series Luxembourg", "playoff": "promotion", "promoted": true, "target": {"season": "1918-19", "level": 2, "name": "2. Division"}},
         {"place": 1, "team": "AVBG", "w": 6, "d": 0, "l": 0, "f": 51, "a":  5, "pts_win": 2, "season": "1916-17", "level": 3, "series": 1, "league": "3. Division Series Lux.", "playoff":"promotion"}
     ]
 }

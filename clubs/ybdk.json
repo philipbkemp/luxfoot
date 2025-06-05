@@ -5,6 +5,7 @@
         {"season":"1955-56","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 6, "team": "YBDK", "w": 0, "d": 3, "l": 7, "f":  4, "a": 25, "pts_win": 2, "season": "1918-19", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1919-20", "level": 2, "name": "2. Division"}},
         {"place": 4, "team": "YBDK", "w": 4, "d": 1, "l": 5, "f": 25, "a": 18, "pts_win": 2, "season": "1917-18", "level": 1, "league": "1. Division"},
         {"place": 5, "team": "YBDK", "w":  2, "d": 2, "l": 6, "f": 14, "a": 28, "pts_win": 2, "season": "1916-17", "level": 1, "league": "1. Division"},
         {"place": 1, "team": "YBDK", "w": 3, "d": 1, "l": 0, "f": 7, "a": 2, "pts_win": 2, "season": "1915-16", "level": 2, "league": "2. Division", "promoted": true, "target": {"season": "1916-17", "level": 1, "name": "1. Division"}},

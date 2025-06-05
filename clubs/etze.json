@@ -3,5 +3,8 @@
     "name": "Etzella Ettelbréck",
     "trophies": [
         {"season":"2000-01","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
+    ],
+    "standings": [
+        {"place": 2, "team": "ETZE", "w": 4, "d": 0, "l": 2, "f": 15, "a": 14, "pts_win": 2, "season": "1918-19", "level": 3, "series": 1, "league": "3. Division Series Luxembourg"}
     ]
 }

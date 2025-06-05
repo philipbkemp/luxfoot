@@ -1,0 +1,29 @@
+{
+    "level": 2,
+	"season": "1918-19",
+    "links": {
+        "next": "1919-20",
+        "prev": "1917-18",
+        "up": 1,
+        "down": 3
+    },
+	"name": "2. Division",
+	"teams": ["AVBG","CPET","SDIF","SDUD","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "SDUD", "w": 6, "d": 1, "l": 1, "f": 32, "a": 11, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division", "playoff":"promotion", "promoted": true, "target": {"season": "1919-20", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "SDIF", "w": 6, "d": 1, "l": 1, "f": 31, "a":  6, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division", "playoff":"promotion"},
+		{"place": 3, "team": "AVBG", "w": 3, "d": 1, "l": 4, "f": 20, "a": 23, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division"},
+		{"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f": 12, "a": 39, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division"},
+		{"place": 5, "team": "CPET", "w": 1, "d": 1, "l": 6, "f": 20, "a": 36, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division"}
+    ],
+	"promotion": {
+		"teams": ["SDUD"],
+		"target": {"season": "1919-20", "level": 1, "name": "1. Division"}
+	},
+    "playoffs": {
+        "promotion": [
+            {"home":"SDUD","away":"SDIF","score":"4-0","outcome":"SDUD promoted to TARGET","target":{"season": "1919-20", "level": 1, "name": "1. Division"}}
+        ]
+    }
+}

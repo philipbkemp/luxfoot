@@ -4,5 +4,8 @@
     "trophies": [
         {"season":"1989-90","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1},
         {"season":"2022-23","league":"level_1","name":"National Division","title_count":1}
+    ],
+    "standings": [
+        {"place": 3, "team": "SWFT", "w": 2, "d": 0, "l": 4, "f":  8, "a": 10, "pts_win": 2, "season": "1918-19", "level": 3, "series": 1, "league": "3. Division Series Luxembourg"}
     ]
 }

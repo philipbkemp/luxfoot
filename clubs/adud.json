@@ -6,6 +6,7 @@
         {"season":"1961-62","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
     ],
     "standings": [
+        {"place": 5, "team": "ADUD", "w": 2, "d": 0, "l": 6, "f":  9, "a": 28, "pts_win": 2, "season": "1918-19", "level": 3, "series": 2, "league": "3. Division Series Esch"},
         {"place": 4, "team": "ADUD", "w": 1, "d": 0, "l": 5, "f":  7, "a": 21, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch"}
     ]
 }
