@@ -74,6 +74,18 @@ function buildGraph() {
 			});
 			p++;
 		});
+		t4.forEach(c4=>{
+			c4.split("|").forEach(cc4=>{
+				if ( !clubs[cc4] ) {
+					clubs[cc4] = [];
+					for ( i=1 ; i<=seasons ; i++ ) {
+						clubs[cc4].push( null );
+					}
+				}
+				clubs[cc4].push(p);
+			});
+			p++;
+		});
 		seasons ++;
 		Object.keys(clubs).forEach(c=>{
 			if ( clubs[c].length !== seasons ) {
