@@ -12,6 +12,12 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
+        "teams": [],
+        "standings": [
+            
+        ],
+        "matches": [
+        ],
         "missing" :true
     },{
         "series": 2,
@@ -20,19 +26,20 @@
         "standings": [
             
         ],
-        "promoted": {
-            "teams": [],
-            "target": {"season": "", "level": 0, "name": ""}
-        },
-        "relegated": {
-            "teams": [],
-            "target": {"season": "", "level": 0, "name": ""}
-        },
-        "playoffs": {
-            "updown": [],
-            "downup": []
-        },
         "matches": [
-        ]
-    }]
+        ],
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": [],
+        "target": {"season": "", "level": 0, "name": ""}
+    },
+    "relegation": {
+        "teams": [],
+        "target": {"season": "", "level": 0, "name": ""}
+    },
+    "playoffs": {
+        "updown": [],
+        "downup": []
+    }
 }

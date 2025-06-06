@@ -430,9 +430,9 @@
 			"level_1": {"missing":true,"season": "1939-40", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 2},
 			"level_2": {"missing":true,"season": "1939-40", "level":  2, "name": "1. Division", "winner": "CPET"},
 			"level_3": {"missing":true,"season": "1939-40", "level":  3, "name": "The Promotion", "winner": "ADUD"},
-			"level_4": {"missing":true,"season": "1939-40", "level":  4, "name": "2. Division", "series": [
+			"level_4": {"season": "1939-40", "level":  4, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1939-40", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
-				{"missing":true,"season": "1939-40", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JKYL"}
+				{"season": "1939-40", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JKYL"}
 			]},
 			"level_5": {"missing":true,"season": "1939-40", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1939-40", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JGIL"},

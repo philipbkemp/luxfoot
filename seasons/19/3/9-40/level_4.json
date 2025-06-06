@@ -1,0 +1,41 @@
+{
+    "level": 4,
+	"season": "1939-40",
+    "links": {
+        "next": "1945-46",
+        "prev": "1938-39",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["CSHL","HESH","JKYL","KOPS","MAMR","MANC","SBRT","SPST","SWFT","UBSH"],
+        "standings": [
+            {"place":  1, "team": "JKYL", "w": 13, "d": 2, "l":  3, "f": 56, "a": 17, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1945-46", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "UBSH", "w": 13, "d": 0, "l":  5, "f": 71, "a": 36, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1945-46", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "MANC", "w": 11, "d": 2, "l":  5, "f": 69, "a": 38, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "KOPS", "w":  8, "d": 3, "l":  7, "f": 49, "a": 48, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "CSHL", "w":  7, "d": 4, "l":  7, "f": 37, "a": 36, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "MAMR", "w":  7, "d": 2, "l":  9, "f": 51, "a": 58, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "SWFT", "w":  5, "d": 5, "l":  8, "f": 48, "a": 57, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "HESH", "w":  5, "d": 2, "l": 11, "f": 30, "a": 62, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1945-46", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "SPST", "w":  5, "d": 1, "l": 12, "f": 30, "a": 73, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1945-46", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "SBRT", "w":  5, "d": 1, "l": 12, "f": 30, "a": 46, "pts_win": 2, "season": "1939-40", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1945-46", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["JYKL","UBSH"],
+        "target": {"season": "1945-46", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["HESH","SPST","SBRT"],
+        "target": {"season": "1945-46", "level": 5, "name": "3. Division"}
+    }
+}
