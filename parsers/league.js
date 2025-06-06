@@ -260,14 +260,22 @@ function parseLeague(league) {
 			});
 			if ( league.playoffs.promotion_note ) {
 				pNote = league.playoffs.promotion_note
-					.replace(league.playoffs.promotion.home,allTeams[league.playoffs.promotion.home])
-					.replace(league.playoffs.promotion.away,allTeams[league.playoffs.promotion.away])
-					;
+				if ( league.teams ) {
+					league.teams.forEach(t=>{
+						pNote = pNote.replace(t,allTeams[t]);
+					});
+				} else if ( league.series ) {
+					league.series.forEach(ser=>{
+						ser.teams.forEach(t=>{
+							pNote = pNote.replace(t,allTeams[t]);
+						});
+					});
+				}
 				if ( league.promotion && league.promotion.target ) {
 					pNote = pNote.replace("TARGET","<a href='league.html?season="+league.promotion.target.season+"&level="+league.promotion.target.level+"'>"+league.promotion.target.season+" "+league.promotion.target.name+"</a>");
 				}
 				poPromotionMatches.append(
-					$("<DIV></DIV>").addClass("list-group-item").append(
+					$("<DIV></DIV>").addClass("list-group-item").addClass("match-note").append(
 						$("<DIV></DIV>").addClass("row").append(
 							$("<DIV></DIV>").addClass("col-12").html(pNote)
 						)
