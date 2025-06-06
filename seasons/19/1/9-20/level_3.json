@@ -20,15 +20,7 @@
             {"place": 5, "team": "JVRL", "w": 2, "d": 6, "l":  4, "f": 16, "a": 23, "pts_win": 2, "season": "1919-20", "level": 3, "series":1,"league": "3. Division Series Luxembourg", "relegated": true, "target": {"season": "1920-21", "level": 4, "name": "3. Division"}},
             {"place": 6, "team": "WALF", "w": 1, "d": 3, "l":  8, "f": 12, "a": 31, "pts_win": 2, "season": "1919-20", "level": 3, "series":1,"league": "3. Division Series Luxembourg"},
             {"place": 7, "team": "CMLB", "w": 1, "d": 0, "l": 11, "f":  4, "a": 32, "pts_win": 2, "season": "1919-20", "level": 3, "series":1,"league": "3. Division Series Luxembourg"}
-        ],
-        "promoted": {
-            "teams": ["PROG","TRIM"],
-            "target": {"season": "1920-21", "level": 2, "name": "The Promotion"}
-        },
-        "relegated": {
-            "teams": ["JVRL"],
-            "target": {"season": "1920-21", "level": 4, "name": "3. Division"}
-        }
+        ]
     },{
         "series": 2,
         "name": "Series South",
@@ -39,15 +31,7 @@
             {"place": 3, "team": "ADUD", "w": 4, "d": 1, "l": 3, "f": 22, "a": 25, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South"},
             {"place": 4, "team": "UESH", "w": 2, "d": 0, "l": 6, "f": 18, "a": 38, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South"},
             {"place": 5, "team": "ECBT", "w": 1, "d": 1, "l": 6, "f": 15, "a": 23, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South", "relegated": true, "target": {"season": "1920-21", "level": 4, "name": "3. Division"}}
-        ],
-        "promoted": {
-            "teams": ["BLVL"],
-            "target": {"season": "1920-21", "level": 2, "name": "The Promotion"}
-        },
-        "relegated": {
-            "teams": ["ECBT"],
-            "target": {"season": "1920-21", "level": 4, "name": "3. Division"}
-        }
+        ]
     },{
         "series": 3,
         "name": "Series West",
@@ -75,5 +59,13 @@
 
         ],
         "promotion_note": "TRIM promoted to TARGET"
+    },
+    "promotion": {
+        "teams": ["PROG","TRIM","BLVL","JSTF"],
+        "target": {"season": "1920-21", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["JVRL","ECBT"],
+        "target": {"season": "1920-21", "level": 4, "name": "3. Division"}
     }
 }

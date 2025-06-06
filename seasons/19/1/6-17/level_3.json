@@ -27,15 +27,15 @@
             {"place": 2, "team": "NSCH", "w": 3, "d": 2, "l": 1, "f": 20, "a": 16, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"},
             {"place": 3, "team": "STET", "w": 1, "d": 1, "l": 4, "f":  9, "a": 18, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"},
             {"place": 4, "team": "BLVL", "w": 1, "d": 0, "l": 5, "f": 15, "a": 23, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"}
-        ],
-        "promoted": {
-            "teams": ["URUM"],
-            "target": {"season":"1917-18","level":2,"name":"2. Division"}
-        }
+        ]
     }],
     "playoffs": {
         "promotion": [
             {"home":"URUM","away":"AVBG","homeDivision":{"level":3,"series":2,"name":"3. Division Series Esch"},"awayDivision":{"level":3,"series":1,"name":"3. Division Series Luxembourg"},"score":"6-2","outcome":"URUM promoted to TARGET","target":{"season":"1917-18","level":2,"name":"2. Division"}}
         ]
+    },
+    "promotion": {
+        "teams": ["URUM"],
+        "target": {"season":"1917-18","level":2,"name":"2. Division"}
     }
 }

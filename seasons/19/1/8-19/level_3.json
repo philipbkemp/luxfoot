@@ -28,15 +28,15 @@
             {"place": 3, "team": "ECBT", "w": 2, "d": 1, "l": 5, "f": 13, "a": 24, "pts_win": 2, "season": "1918-19", "level": 3, "series": 2, "league": "3. Division Series Esch"},
             {"place": 4, "team": "STET", "w": 2, "d": 0, "l": 6, "f": 26, "a": 25, "pts_win": 2, "season": "1918-19", "level": 3, "series": 2, "league": "3. Division Series Esch"},
             {"place": 5, "team": "ADUD", "w": 2, "d": 0, "l": 6, "f":  9, "a": 28, "pts_win": 2, "season": "1918-19", "level": 3, "series": 2, "league": "3. Division Series Esch"}
-        ],
-        "promoted": {
-            "teams": ["CROD","NSCH"],
-            "target": {"season":"1919-20","level":2, "name":"2. Division"}
-        }
+        ]
     }],
     "playoffs": {
         "promotion": [
             {"home":"NSCH","away":"CMLB","homeDivision":{"level":3,"series":2,"name":"3. Division Series Esch"},"awayDivision":{"level":3,"series":1,"name":"3. Division Series Luxembourg"},"score":"7-2","outcome":"NSCH promoted to TARGET","target":{"season": "1919-20", "level": 2, "name": "2. Division"}}
         ]
+    },
+    "promotion": {
+        "teams": ["CROD","NSCH"],
+        "target": {"season":"1919-20","level":2, "name":"2. Division"}
     }
 }
