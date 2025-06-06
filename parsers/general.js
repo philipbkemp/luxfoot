@@ -251,6 +251,24 @@ function drawMatch(match,highlightWinner=false) {
 				removeKey("match.target");
 			}
 		}
+		
+		if ( match.target2 ) {
+			if ( match.target2.level && match.target2.season && match.target2.season ) {
+				theOutcome = theOutcome
+					.replace("TARGET2","<a href='league.html?season="+match.target2.season+"&level="+match.target2.level+"'>"+match.target2.season+" "+match.target2.name+"</a>")
+				;
+				removeKey("match.target2");
+			} else if ( match.target2.playoff ) {
+				theOutcome = theOutcome
+					.replace("TARGET2","<span class='faux-link' onclick='"+
+						'$("#po_'+match.target2.playoff+'-tab").click();'
+						+"'>"+getPlayoffName(match.target2.playoff)+"</span>")
+				;
+				removeKey("match.target2");
+			}
+		}
+
+		theOutcome = theOutcome.replace("|","<br />");
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
 

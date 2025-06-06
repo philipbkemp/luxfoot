@@ -6,13 +6,14 @@
         {"season":"1918-19","league":"level_1","name":"1. Division","title_count":2}
     ],
     "standings": [
-        {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"},
+        {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
 		{"place": 1, "team": "SCLX", "w": 7, "d": 2, "l": 1, "f": 18, "a": 12, "pts_win": 2, "season": "1918-19", "level": 1, "league": "1. Division", "champion": true, "title_count": 2},
 		{"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 19, "a": 17, "pts_win": 2, "season": "1917-18", "level": 1, "league": "1. Division"},
         {"place": 4, "team": "SCLX", "w":  3, "d": 2, "l": 5, "f": 24, "a": 29, "pts_win": 2, "season": "1916-17", "level": 1, "league": "1. Division"},
         {"place": 2, "team": "SCLX", "w": 5, "d": 2, "l": 3, "f": 21, "a": 16, "pts_win": 2, "season": "1915-16", "level": 1, "league": "1. Division"},
 		{"place":  1, "team": "SCLX", "w": 3, "d":  0, "l": 1, "f": 10, "a":  8, "pts_win":  2, "season": "1914-15", "level": 1, "series": 1, "league": "1. Division Series 1","playoff":"playoff"},
         {"place":  2, "team": "SCLX", "missing": true, "season": "1913-14", "level": 1, "league": "1. Division"},
+        {"gap":true},
         {"place":  2, "team": "SCLX", "w": 3, "d":  2, "l": 1, "f": 24, "a":  9, "pts_win":  2, "season": "1911-12", "level": 1, "league": "Klasse A", "playoff": "title"},
         {"place":  1, "team": "SCLX", "w": 4, "d":  1, "l": 1, "f": 15, "a":  6, "pts_win":  2, "season": "1910-11", "level": 1, "league": "Klasse A", "playoff": "title", "champion": true, "title_count": 1},
         {"place":  3, "team": "SCLX", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}

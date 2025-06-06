@@ -227,6 +227,18 @@ function parseLeague(league) {
 		}
 		addKeys(subKeys);
 
+		if ( league.playoffs.title ) {
+			$("#leagueTabs").append(buildTabButton("po_title","Title Decider"));
+			poTitle = buildTabPanel("po_title");
+			poTitleMatches = $("<DIV></DIV>").addClass("list-group");
+			league.playoffs.title.forEach(m=>{
+				poTitleMatches.append( drawMatch(m,true));
+			});
+			poTitle.append(poTitleMatches);
+			$("#leagueTabContent").append(poTitle);
+			removeKey("playoffs.title");
+		}
+
 		if ( league.playoffs.relegation ) {
 			$("#leagueTabs").append(buildTabButton("po_relegation","Relegation play-off"));
 			poRelegation = buildTabPanel("po_relegation");
@@ -246,6 +258,16 @@ function parseLeague(league) {
 			league.playoffs.promotion.forEach(m=>{
 				poPromotionMatches.append( drawMatch(m,true));
 			});
+			if ( league.playoffs.promotion_note ) {
+				poPromotionMatches.append(
+					$("<DIV></DIV>").addClass("list-group-item").append(
+						$("<DIV></DIV>").addClass("row").append(
+							$("<DIV></DIV>").addClass("col-12").html(league.playoffs.promotion_note)
+						)
+					)
+				);
+				removeKey("playoffs.promotion_note");
+			}
 			poPromotion.append(poPromotionMatches);
 			$("#leagueTabContent").append(poPromotion);
 			removeKey("playoffs.promotion");
@@ -356,18 +378,6 @@ function parseLeague(league) {
 			poPlayoff.append(poPlayoffMatches);
 			$("#leagueTabContent").append(poPlayoff);
 			removeKey("playoffs.playoff");
-		}
-
-		if ( league.playoffs.title ) {
-			$("#leagueTabs").append(buildTabButton("po_title","Title Decider"));
-			poTitle = buildTabPanel("po_title");
-			poTitleMatches = $("<DIV></DIV>").addClass("list-group");
-			league.playoffs.title.forEach(m=>{
-				poTitleMatches.append( drawMatch(m,true));
-			});
-			poTitle.append(poTitleMatches);
-			$("#leagueTabContent").append(poTitle);
-			removeKey("playoffs.title");
 		}
 
 		if ( league.playoffs.updown_league_multi ) {

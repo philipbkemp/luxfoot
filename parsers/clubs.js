@@ -150,87 +150,95 @@ function drawStandings(standings) {
         thisRow = $("<TR></TR>");
         thisRowNotes = $("<TD></TD>");
 
-        ptsWin = s.pts_win ? s.pts_win : 3;
+        if ( s.gap ) {
 
-        seasonLink = $("<A></A>")
-            .attr("href","league.html?season="+s.season+"&level="+s.level)
-            .html(s.league)
-            .prepend(
-                $("<IMG />").attr("src","assets/levels/l"+s.level+".png").attr("title","Level " +s.level)
-            )
-            ;
+            thisRow.append("<TD></TD>").attr("colspan",12).html("");
 
-        if ( ! s.missing ) {
-			thisRow
-				.append( $("<TD></TD>").html(s.place) )
-				.append( $("<TH></TH>").attr("scope","row").html(s.season) )
-				.append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
-				.append( $("<TD></TD>").html(s.w+s.d+s.l) )
-				.append( $("<TD></TD>").html(s.w) )
-				.append( $("<TD></TD>").html(s.d) )
-				.append( $("<TD></TD>").html(s.l) )
-				.append( $("<TD></TD>").html(s.f) )
-				.append( $("<TD></TD>").html(s.a) )
-				.append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
-				.append( $("<TD></TD>").html(s.f-s.a) )
-				;
-		} else {
-			thisRow
-				.append( $("<TD></TD>").html(s.place) )
-				.append( $("<TH></TH>").attr("scope","row").html(s.season) )
-				.append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
-				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
-				;
-			removeKey("standings.missing");
-		}
+        } else {
+
+            ptsWin = s.pts_win ? s.pts_win : 3;
+
+            seasonLink = $("<A></A>")
+                .attr("href","league.html?season="+s.season+"&level="+s.level)
+                .html(s.league)
+                .prepend(
+                    $("<IMG />").attr("src","assets/levels/l"+s.level+".png").attr("title","Level " +s.level)
+                )
+                ;
+
+            if ( ! s.missing ) {
+                thisRow
+                    .append( $("<TD></TD>").html(s.place) )
+                    .append( $("<TH></TH>").attr("scope","row").html(s.season) )
+                    .append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
+                    .append( $("<TD></TD>").html(s.w+s.d+s.l) )
+                    .append( $("<TD></TD>").html(s.w) )
+                    .append( $("<TD></TD>").html(s.d) )
+                    .append( $("<TD></TD>").html(s.l) )
+                    .append( $("<TD></TD>").html(s.f) )
+                    .append( $("<TD></TD>").html(s.a) )
+                    .append( $("<TD></TD>").html((s.w*ptsWin)+s.d) )
+                    .append( $("<TD></TD>").html(s.f-s.a) )
+                    ;
+            } else {
+                thisRow
+                    .append( $("<TD></TD>").html(s.place) )
+                    .append( $("<TH></TH>").attr("scope","row").html(s.season) )
+                    .append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
+                    .append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
+                    ;
+                removeKey("standings.missing");
+            }
+            
+            
+            if ( s.champion ) {
+                thisRow.addClass("is-champion");
+            }
         
-		
-		if ( s.champion ) {
-			thisRow.addClass("is-champion");
-		}
-	
-		if ( s.promoted ) {
-			thisRow.addClass("is-promoted");
-			if ( s.target ) {
-				
-				if ( ! s.playoff ) {
-					thisRowNotes.append(
-						$("<SPAN></SPAN>")
-							.html(["Promoted to",s.target.season,s.target.name].join(" "))
-					);
-				}
-			}
-		}
-	
-		if ( s.relegated ) {
-			thisRow.addClass("is-relegated");
-			if ( s.target ) {
+            if ( s.promoted ) {
+                thisRow.addClass("is-promoted");
+                if ( s.target ) {
+                    
+                    if ( ! s.playoff ) {
+                        thisRowNotes.append(
+                            $("<SPAN></SPAN>")
+                                .html(["Promoted to",s.target.season,s.target.name].join(" "))
+                        );
+                    }
+                }
+            }
+        
+            if ( s.relegated ) {
+                thisRow.addClass("is-relegated");
+                if ( s.target ) {
 
-				if ( ! s.playoff ) {
-					thisRowNotes.append(
-						$("<SPAN></SPAN>")
-							.html(["Relegated to",s.target.season,s.target.name].join(" "))
-					);
-				}
-			}
-		}
-	
-		if ( s.removed ) {
-			thisRow.addClass("is-removed");
-			
-			thisRowNotes.append(
-				$("<ABBR></ABBR>")
-					.attr("title",s.removed_note)
-					.html("Removed")
-					.addClass("faux-link")
-			);
-		}
+                    if ( ! s.playoff ) {
+                        thisRowNotes.append(
+                            $("<SPAN></SPAN>")
+                                .html(["Relegated to",s.target.season,s.target.name].join(" "))
+                        );
+                    }
+                }
+            }
+        
+            if ( s.removed ) {
+                thisRow.addClass("is-removed");
+                
+                thisRowNotes.append(
+                    $("<ABBR></ABBR>")
+                        .attr("title",s.removed_note)
+                        .html("Removed")
+                        .addClass("faux-link")
+                );
+            }
 
-		if ( s.title_count ) {
-			thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( getTitleCount(s.title_count)) );
-		}
+            if ( s.title_count ) {
+                thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( getTitleCount(s.title_count)) );
+            }
 
-		thisRow.append(thisRowNotes);
+            thisRow.append(thisRowNotes);
+        }
+
         tbody.append(thisRow);
 
     });

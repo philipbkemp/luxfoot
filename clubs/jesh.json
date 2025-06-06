@@ -45,13 +45,14 @@
         {"season":"2012-13","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":13}
     ],
     "standings": [
-        {"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"},
+        {"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
 		{"place": 3, "team": "JESH", "w": 4, "d": 4, "l": 2, "f": 24, "a": 12, "pts_win": 2, "season": "1918-19", "level": 1, "league": "1. Division"},
 		{"place": 1, "team": "JESH", "w": 7, "d": 0, "l": 1, "f": 31, "a":  8, "pts_win": 2, "season": "1917-18", "level": 2, "league": "2. Division", "promoted": true, "target": {"season": "1918-19", "level": 1, "name": "1. Division"}},
         {"place": 6, "team": "JESH", "w":  3, "d": 0, "l": 7, "f": 18, "a": 26, "pts_win": 2, "season": "1916-17", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1916-17", "level": 2, "name": "2. Division"}},
         {"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 15, "a": 34, "pts_win": 2, "season": "1915-16", "level": 1, "league": "1. Division"},
 		{"place":  1, "team": "JESH", "w": 1, "d":  1, "l": 0, "f": 5, "a": 4, "pts_win":  2, "season": "1914-15", "level": 1, "series": 2, "league": "1. Division Series 2","playoff": "playoff"},
         {"place": 5, "team": "JESH", "missing": true, "season": "1913-14", "level": 1, "league": "1. Division"},
+        {"gap":true},
         {"place": 4, "team": "JESH", "missing": true, "season": "1909-10", "level": 1, "league": "Klasse A"}
     ]
 }

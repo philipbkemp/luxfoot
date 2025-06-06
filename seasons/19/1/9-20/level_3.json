@@ -71,9 +71,9 @@
         "promotion": [
             {"home":"TRIM","away":"STET","homeDivision":{"level":3,"series":1,"name":"3. Division Series Luxembourg"},"awayDivision":{"level":3,"series":2,"name":"3. Division Series South"},"score":"1-0","season":"1919-20","competition":{"type":"league","level": 3,"name": "3. Division","playoff":"promotion"}},
             {"home":"TRIM","away":"PRON","homeDivision":{"level":3,"series":1,"name":"3. Division Series Luxembourg"},"awayDivision":{"level":3,"series":3,"name":"3. Division Series West"},"score":"6-1","season":"1919-20","competition":{"type":"league","level": 3,"name": "3. Division","playoff":"promotion"}},
-            {"home":"PRON","away":"STET","homeDivision":{"level":3,"series":3,"name":"3. Division Series West"},"awayDivision":{"level":3,"series":2,"name":"3. Division Series South"},"score":"","season":"1919-20","competition":{"type":"league","level": 3,"name": "3. Division","playoff":"promotion"},"outcome":"TRIM promoted to TARGET","target": {"season": "1920-21", "level": 2, "name": "The Promotion"}}
+            {"home":"PRON","away":"STET","homeDivision":{"level":3,"series":3,"name":"3. Division Series West"},"awayDivision":{"level":3,"series":2,"name":"3. Division Series South"},"score":"","season":"1919-20","competition":{"type":"league","level": 3,"name": "3. Division","playoff":"promotion"}}
 
         ],
-        "promotion_note": "RDBF and URUM promoted to TARGET"
+        "promotion_note": "TRIM promoted to TARGET"
     }
 }

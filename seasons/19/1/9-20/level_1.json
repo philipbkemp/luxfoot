@@ -10,12 +10,12 @@
 	"teams": ["FOLA","HLBN","JESH","RACL","SCLX","SDUD"],
 	"pts_win": 2,
 	"standings": [
-        {"place": 1, "team": "FOLA", "w": 8, "d": 1, "l": 1, "f": 32, "a": 14, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division", "champion": true, "title_count": 2},
-		{"place": 2, "team": "SDUD", "w": 6, "d": 1, "l": 3, "f": 24, "a": 23, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"},
-		{"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"},
-		{"place": 4, "team": "HLBN", "w": 4, "d": 1, "l": 5, "f": 17, "a": 18, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"},
-		{"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"},
-		{"place": 6, "team": "RACL", "w": 2, "d": 0, "l": 8, "f": 17, "a": 36, "pts_win": 2, "season": "1919-", "level": 1, "league": "1. Division"}
+        {"place": 1, "team": "FOLA", "w": 8, "d": 1, "l": 1, "f": 32, "a": 14, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division", "champion": true, "title_count": 2},
+		{"place": 2, "team": "SDUD", "w": 6, "d": 1, "l": 3, "f": 24, "a": 23, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
+		{"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
+		{"place": 4, "team": "HLBN", "w": 4, "d": 1, "l": 5, "f": 17, "a": 18, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
+		{"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
+		{"place": 6, "team": "RACL", "w": 2, "d": 0, "l": 8, "f": 17, "a": 36, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"}
     ],
 	"champion": "FOLA",
 	"matches": [

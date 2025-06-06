@@ -6,6 +6,7 @@
     ],
     "standings": [
         {"place": 1, "team": "BLVL", "w": 6, "d": 0, "l": 2, "f": 22, "a": 15, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South", "playoff":"title", "promoted": true, "target": {"season": "1920-21", "level": 2, "name": "The Promotion"}},
+        {"gap":true},
         {"place": 4, "team": "BLVL", "w": 1, "d": 0, "l": 5, "f": 15, "a": 23, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"}
     ]
 }

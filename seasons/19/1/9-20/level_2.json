@@ -24,10 +24,10 @@
 	},
     "playoffs": {
         "promotion": [
-            {"home":"RDBF","away":"URUM","score":"2-0","season":"1919-20","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}},
+            {"home":"RBDF","away":"URUM","score":"2-0","season":"1919-20","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}},
             {"home":"URUM","away":"NSCH","score":"2-0","season":"1919-20","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}},
             {"home":"RBDF","away":"NSCH","score":"1-0","season":"1919-20","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}}
         ],
-        "promotion_note": "RDBF and URUM promoted to TARGET"
+        "promotion_note": "RBDF and URUM promoted to TARGET"
     }
 }
