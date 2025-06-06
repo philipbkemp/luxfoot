@@ -37,8 +37,8 @@ function buildGraph() {
 	clubs = {};
 	seasons = 0;
 
-	function loadSeason(t1=[],t2=[],t3=[]) {
-		leagueSizes.push( [t1.length,t2.length,t3.length] );
+	function loadSeason(t1=[],t2=[],t3=[],t4=[]) {
+		leagueSizes.push( [t1.length,t2.length,t3.length,t4.length] );
 		p = 1;
 		t1.forEach(c1=>{
 			if ( !clubs[c1] ) {
