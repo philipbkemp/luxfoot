@@ -209,7 +209,7 @@
             {"home":"SCBT","away":"SBRT","score":"1-1","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},
             {"home":"SCBT","away":"MDCG","score":"2-2","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},
             {"home":"SCBT","away":"UNRB","score":"2-1","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},
-            {"home":"SCBT","away":"U5KT","score":"2-7","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},
+            {"home":"SCBT","away":"U5KT","score":"F-F","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"},"forfeit":true,"double_forfeit":true,"note":"Both teams forfeited the match"},
             {"home":"SCBT","away":"RBAS","score":"4-1","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},
             {"home":"SCBT","away":"SYRA","score":"3-0","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},
             {"home":"SCBT","away":"ASLX","score":"3-2","season":"2018-19","competition":{"type":"league","level": 3, "series": 2,"name": "1. Division Series 1"}},

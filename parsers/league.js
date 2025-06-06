@@ -1010,24 +1010,28 @@ function validateLeague(data) {
 					console.error(s.team,"Matches array does not include the right number of matches","Expected: "+(s.w+s.d+s.l),"Got: "+myMatches.length);
 				}
 				myMatches.forEach(m=>{
-					thisScore = m.score.split("-");
-					if ( m.home === s.team ) {
-						myScore = thisScore[0];
-						theirScore = thisScore[1];
+					if ( m.score !== "F-F" ) {
+						thisScore = m.score.split("-");
+						if ( m.home === s.team ) {
+							myScore = thisScore[0];
+							theirScore = thisScore[1];
+						} else {
+							myScore = thisScore[1];
+							theirScore = thisScore[0];
+						}
+						myScore = parseInt(myScore);
+						theirScore = parseInt(theirScore);
+						myF += myScore;
+						myA += theirScore;
+						if ( myScore > theirScore ) {
+							myW++;
+						} else if ( myScore < theirScore ) {
+							myL++;
+						} else {
+							myD++;
+						}
 					} else {
-						myScore = thisScore[1];
-						theirScore = thisScore[0];
-					}
-					myScore = parseInt(myScore);
-					theirScore = parseInt(theirScore);
-					myF += myScore;
-					myA += theirScore;
-					if ( myScore > theirScore ) {
-						myW++;
-					} else if ( myScore < theirScore ) {
 						myL++;
-					} else {
-						myD++;
 					}
 				});
 				if ( myW !== s.w ) {
