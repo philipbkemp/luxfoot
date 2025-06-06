@@ -250,7 +250,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1929-30", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 5, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1929-30", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 5, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1930-31",
