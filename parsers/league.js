@@ -67,26 +67,7 @@ function parseLeague(league) {
 		);
 		if ( resultNotes.length !== 0 ) {
 			noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
-			resultNotes.forEach(note=>{
-				thisNote = $("<LI></LI>").addClass("list-group-item");
-				theNoteText = note.home + " v " + note.away + ": "
-				if ( note.forfeit ) {
-					theNoteText += "Awarded to WINNER by forfeit";
-				} else if ( note.note ) {
-					theNoteText += note.note;
-				}
-				theNoteText = theNoteText.replaceAll(note.home,allTeams[note.home]);
-				theNoteText = theNoteText.replaceAll(note.away,allTeams[note.away]);
-				scoreParts = note.score.split("-");
-				if ( scoreParts[0] > scoreParts[1] ) {
-					theNoteText = theNoteText.replaceAll("WINNER",allTeams[note.home]);
-				} else if ( scoreParts[0] < scoreParts[1] ) {
-					theNoteText = theNoteText.replaceAll("WINNER",allTeams[note.away]);
-				}
-				thisNote.html(theNoteText);
-				noteWrapper.append(thisNote);
-			});
-			matchesPanel.append(noteWrapper);
+			matchesPanel.append( buildNotes(resultNotes,noteWrapper) );
 		}
 		$("#leagueTabContent").append(matchesPanel);
 		removeKey("matches");
@@ -147,6 +128,12 @@ function parseLeague(league) {
 							"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
 						)
 					);
+					
+					if ( resultNotes.length !== 0 ) {
+						noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
+						seriesPanel.append( buildNotes(resultNotes,noteWrapper) );
+					}
+
 					removeKey("series.matches");
 					removeKey("series.play_each");
 				}
@@ -659,7 +646,13 @@ function buildResultsTable(teams,results,hasTwo=false,hasCovid=false) {
 						result = "draw";
 					}
 
-					if ( theMatch[0].forfeit ) {
+					if ( theMatch[0].double_forfeit ) {
+						abbr = $("<ABBR></ABBR>").attr("title","Match forfeited by both teams").html(theMatch[0].score);
+						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
+						resultNotes.push(theMatch[0]);
+						removeKey("match.forfeit");
+						removeKey("match.double_forfeit");
+					} else if ( theMatch[0].forfeit ) {
 						abbr = $("<ABBR></ABBR>").attr("title","Match awarded by forfeit").html(theMatch[0].score);
 						teamRow.append( $("<TD></TD>").addClass(result).append(abbr) );
 						resultNotes.push(theMatch[0]);
@@ -1031,6 +1024,7 @@ function validateLeague(data) {
 							myD++;
 						}
 					} else {
+						totalL = totalL-2;
 						myL++;
 					}
 				});
@@ -1061,4 +1055,29 @@ function validateLeague(data) {
 	if ( totalD % 2 !== 0 ) {
 		console.error("Uneven number of draws","Draws: "+totalD,);
 	}
+}
+
+function buildNotes(notes,wrapper) {	
+	notes.forEach(note=>{
+		thisNote = $("<LI></LI>").addClass("list-group-item");
+		theNoteText = note.home + " v " + note.away + ": "
+		if ( note.double_forfeit ) {
+			theNoteText += "Forfeited by both teams";
+		} else if ( note.forfeit ) {
+			theNoteText += "Awarded to WINNER by forfeit";
+		} else if ( note.note ) {
+			theNoteText += note.note;
+		}
+		theNoteText = theNoteText.replaceAll(note.home,allTeams[note.home]);
+		theNoteText = theNoteText.replaceAll(note.away,allTeams[note.away]);
+		scoreParts = note.score.split("-");
+		if ( scoreParts[0] > scoreParts[1] ) {
+			theNoteText = theNoteText.replaceAll("WINNER",allTeams[note.home]);
+		} else if ( scoreParts[0] < scoreParts[1] ) {
+			theNoteText = theNoteText.replaceAll("WINNER",allTeams[note.away]);
+		}
+		thisNote.html(theNoteText);
+		wrapper.append(thisNote);
+	});
+	return wrapper;
 }
