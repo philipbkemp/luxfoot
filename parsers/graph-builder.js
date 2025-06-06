@@ -136,8 +136,8 @@ function buildGraph() {
 	t1d = "M45,69";
 	t2d = "M105,69";
 	t3d = "M105,69";
-	t4d = "M105,69"; // adjust 105
-	t5d = "M105,69"; // adjust 105
+	t4d = "M155,69";
+	t5d = "M155,69"; // adjust 155
 	t1s = 0;
 	t2s = 0;
 	t3s = 0;
