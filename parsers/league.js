@@ -1025,6 +1025,7 @@ function validateLeague(data) {
 						}
 					} else {
 						myL++;
+						totalL--;
 					}
 				});
 				if ( myW !== s.w ) {
