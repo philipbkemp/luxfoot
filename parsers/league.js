@@ -1024,7 +1024,6 @@ function validateLeague(data) {
 							myD++;
 						}
 					} else {
-						totalL = totalL-2;
 						myL++;
 					}
 				});
