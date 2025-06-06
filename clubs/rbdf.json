@@ -25,5 +25,8 @@
         {"season":"1978-79","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":14},
         {"season":"1981-82","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":15},
         {"season":"1984-85","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":16}
+    ],
+    "standings": [
+        {"place": 1, "team": "RBDF", "w": 4, "d": 5, "l": 1, "f": 20, "a": 13, "pts_win": 2, "season": "1919-20", "level": 2, "league": "2. Division", "playoff": "promotion", "promoted": true, "target": {"season": "1920-21", "level": 1, "name": "1. Division"}}
     ]
 }

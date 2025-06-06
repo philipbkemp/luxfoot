@@ -5,6 +5,7 @@
         {"season":"1947-48","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 4, "team": "UESH", "w": 2, "d": 0, "l": 6, "f": 18, "a": 38, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South"},
         {"place": 5, "team": "UESH", "w": 1, "d": 0, "l": 7, "f": 6, "a": 41, "pts_win": 2, "season": "1916-17", "level": 2, "league": "2. Division"}
     ]
 }
