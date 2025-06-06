@@ -152,7 +152,7 @@ function drawStandings(standings) {
 
         if ( s.gap ) {
 
-            thisRow.append("<TD></TD>").attr("colspan",12).html("");
+            thisRow.append( $("<TD></TD>").attr("colspan",12).html("") );
 
         } else {
 
@@ -168,7 +168,7 @@ function drawStandings(standings) {
 
             if ( ! s.missing ) {
                 thisRow
-                    .append( $("<TD></TD>").html(s.place) )
+                    .append( $("<TD></TD>").html(getTitleCount(s.place,"")) )
                     .append( $("<TH></TH>").attr("scope","row").html(s.season) )
                     .append( $("<TH></TH>").attr("scope","row").append(seasonLink) )
                     .append( $("<TD></TD>").html(s.w+s.d+s.l) )

@@ -348,7 +348,7 @@ function getPlayoffName(code) {
 	}
 	return theText;
 }
-function getTitleCount(number) {
+function getTitleCount(number,suffix=" title") {
 	ordinal = number + "th";
 
 	j = number % 10,
@@ -363,7 +363,7 @@ function getTitleCount(number) {
 		ordinal = number + "rd";
 	}
 
-	return ordinal + " title";
+	return ordinal + suffix;
 }
 
 function invalid() {
