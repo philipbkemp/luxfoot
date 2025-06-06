@@ -9,6 +9,7 @@
         {"season":"1916-17","league":"level_1","name":"1. Division","title_count":5}
     ],
     "standings": [
+        {"place": 3, "team": "HLBN", "w": 8, "d": 2, "l": 4, "f": 26, "a": 16, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division"},
         {"place": 4, "team": "HLBN", "w": 4, "d": 1, "l": 5, "f": 17, "a": 18, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
 		{"place": 4, "team": "HLBN", "w": 3, "d": 3, "l": 4, "f": 18, "a": 17, "pts_win": 2, "season": "1918-19", "level": 1, "league": "1. Division"},
 		{"place": 2, "team": "HLBN", "w": 6, "d": 1, "l": 3, "f": 34, "a": 22, "pts_win": 2, "season": "1917-18", "level": 1, "league": "1. Division"},

@@ -18,6 +18,7 @@
         {"season":"1964-65","league":"level_1","name":"National Division","title_count":9}
     ],
     "standings": [
+        {"place": 4, "team": "SDUD", "w": 8, "d": 1, "l": 5, "f": 28, "a": 24, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division"},
         {"place": 2, "team": "SDUD", "w": 6, "d": 1, "l": 3, "f": 24, "a": 23, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
 		{"place": 1, "team": "SDUD", "w": 6, "d": 1, "l": 1, "f": 32, "a": 11, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division", "playoff":"promotion", "promoted": true, "target": {"season": "1919-20", "level": 1, "name": "1. Division"}},
 		{"place": 3, "team": "SDUD", "w": 3, "d": 0, "l": 5, "f": 17, "a": 14, "pts_win": 2, "season": "1917-18", "level": 2, "league": "2. Division"},

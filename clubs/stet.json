@@ -5,7 +5,8 @@
         {"season":"1950-51","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
     ],
     "standings": [
-        {"place": 2, "team": "STET", "w": 6, "d": 0, "l": 2, "f": 34, "a": 10, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South", "playoff":"title"},
+        {"place": 1, "team": "STET", "w": 12, "d": 1, "l":  1, "f": 56, "a": 12, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "promoted": true, "target": {"season": "1921-22", "level": 2, "name": "1. Division"}},
+		{"place": 2, "team": "STET", "w": 6, "d": 0, "l": 2, "f": 34, "a": 10, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South", "playoff":"title"},
         {"place": 4, "team": "STET", "w": 2, "d": 0, "l": 6, "f": 26, "a": 25, "pts_win": 2, "season": "1918-19", "level": 3, "series": 2, "league": "3. Division Series Esch"},
         {"place": 1, "team": "STET", "w": 5, "d": 0, "l": 1, "f": 26, "a": 12, "pts_win": 2, "season": "1917-18", "level": 3, "series": 2, "league": "3. Division Series Esch", "playoff": "promotion"},
         {"place": 3, "team": "STET", "w": 1, "d": 1, "l": 4, "f":  9, "a": 18, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"}

@@ -13,6 +13,7 @@
         {"season":"2023-24","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":5}
     ],
     "standings": [
-        {"place": 2, "team": "PRON", "w": 4, "d": 3, "l": 1, "f": 19, "a":  9, "pts_win": 2, "season": "1919-20", "level": 3, "series": 3, "league": "3. Division Series West"}
+        {"place": 3, "team": "PRON", "w":  9, "d": 1, "l":  4, "f": 42, "a": 20, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division"},
+		{"place": 2, "team": "PRON", "w": 4, "d": 3, "l": 1, "f": 19, "a":  9, "pts_win": 2, "season": "1919-20", "level": 3, "series": 3, "league": "3. Division Series West"}
     ]
 }

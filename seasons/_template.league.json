@@ -13,11 +13,11 @@
 	"standings": [
     ],
 	"champion": "",
-	"relegation": {
+	"promotion": {
 		"teams": [],
 		"target": {"season": "", "level": 0, "name": ""}
 	},
-	"promotion": {
+	"relegation": {
 		"teams": [],
 		"target": {"season": "", "level": 0, "name": ""}
 	},

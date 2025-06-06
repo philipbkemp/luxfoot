@@ -47,7 +47,9 @@ allTeams = {
     "FC Koeppchen": "KOEP", "Rupensia Lusit. Larochette": "RPLL", "R. Heiderscheid/Eschdorf": "RHSE", "Ol. Christnach/Waldbillig": "OYCW", "FC Biekerech": "BIEK",
     "Pratzerthal/Rédange": "FCPR", "JS Koerich": "KOSM", "Union Mertert/Wasser.": "UNMW", "Flaxweiler/Beyren": "FBU1", "Green Boys Harlange/Tarchamps": "GBHT",
     "AS Luxemburg/Porto": "ASLX", "FC Koerich": "KOSM","FC Stengefort":"STNG","AS Colmar/Berg":"ASCB","Jeunesse Junglinstert":"JUNG","Union Titus Petingen":"UNTP",
-    "FC Beyren": "BYUD", "US Eschdorf": "UEDF", "Mansfeldia Clausen-Cents": "MANC","Sporting Club Steinfort":"SPST","Young Boys Schweicherthal":"YBSW"
+    "FC Beyren": "BYUD", "US Eschdorf": "UEDF", "Mansfeldia Clausen-Cents": "MANC","Sporting Club Steinfort":"SPST","Young Boys Schweicherthal":"YBSW",
+    "Black Boys Bascharage": "BBOY", "FC Obercorn": "FCOB","Jeunesse Sportive Sanem":"JSNM", "US Hagen": "HAGN", "Young Boys Zolver": "YBSL",
+    "The International Esch": "IESH", "Enfants de la Source Mondorf": "ENFM", "Jeunesse Monnerich":"JMON","Jeunesse Mondercange":"JMON","US Merl":"MERL"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){

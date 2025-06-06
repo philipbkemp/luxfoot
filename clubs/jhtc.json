@@ -5,6 +5,7 @@
         {"season":"1970-71","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
     ],
     "standings": [
+        {"place": 8, "team": "JHTC", "w":  2, "d": 0, "l": 12, "f": 10, "a": 42, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "relegated": true, "target": {"season": "1921-22", "level": 4, "name": "3. Division"}},
         {"place": 3, "team": "JHTC", "w": 3, "d": 3, "l": 2, "f": 13, "a":  9, "pts_win": 2, "season": "1919-20", "level": 3, "series": 3, "league": "3. Division Series West"}
     ]
 }

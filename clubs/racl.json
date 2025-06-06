@@ -6,6 +6,7 @@
         {"season":"1921-22","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":1}
     ],
     "standings": [
+        {"place": 7, "team": "RACL", "w": 4, "d": 2, "l": 8, "f": 23, "a": 28, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1921-22", "level": 2, "name": "The Promotion"}},
         {"place": 6, "team": "RACL", "w": 2, "d": 0, "l": 8, "f": 17, "a": 36, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
         {"place": 5, "team": "RACL", "w": 2, "d": 3, "l": 5, "f": 14, "a": 26, "pts_win": 2, "season": "1918-19", "level": 1, "league": "1. Division"},
 		{"place": 5, "team": "RACL", "w": 4, "d": 1, "l": 5, "f": 20, "a": 21, "pts_win": 2, "season": "1917-18", "level": 1, "league": "1. Division"},

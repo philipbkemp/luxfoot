@@ -1,0 +1,31 @@
+{
+    "level": 3,
+	"season": "1920-21",
+    "links": {
+        "next": "1921-22",
+        "prev": "1919-20",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"teams": ["ADUD","CSHL","ETZE","JHTC","MANC","PRON","STET","UESH"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "STET", "w": 12, "d": 1, "l":  1, "f": 56, "a": 12, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "promoted": true, "target": {"season": "1921-22", "level": 2, "name": "1. Division"}},
+		{"place": 2, "team": "UESH", "w": 10, "d": 0, "l":  4, "f": 53, "a": 27, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "promoted": true, "target": {"season": "1921-22", "level": 2, "name": "1. Division"}},
+		{"place": 3, "team": "PRON", "w":  9, "d": 1, "l":  4, "f": 42, "a": 20, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division"},
+		{"place": 4, "team": "CSHL", "w":  7, "d": 1, "l":  6, "f": 45, "a": 28, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division"},
+		{"place": 5, "team": "ADUD", "w":  6, "d": 2, "l":  6, "f": 25, "a": 48, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division"},
+		{"place": 6, "team": "MANC", "w":  4, "d": 2, "l":  8, "f": 29, "a": 44, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division"},
+		{"place": 7, "team": "ETZE", "w":  1, "d": 3, "l": 10, "f": 12, "a": 51, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "relegated": true, "target": {"season": "1921-22", "level": 4, "name": "3. Division"}},
+		{"place": 8, "team": "JHTC", "w":  2, "d": 0, "l": 12, "f": 10, "a": 42, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "relegated": true, "target": {"season": "1921-22", "level": 4, "name": "3. Division"}}
+    ],
+	"promotion": {
+		"teams": ["STET","UESH"],
+		"target": {"season": "1921-22", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["ETZE","JHTC"],
+		"target": {"season": "1921-22", "level": 4, "name": "3. Division"}
+	}
+}

@@ -1,0 +1,58 @@
+{
+    "level": 4,
+	"season": "1920-21",
+    "links": {
+        "next": "1921-22",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series Luxembourg",
+        "teams": ["ASLX","JVRL","JWAS","MERL","RBPF","SWFT"],
+        "standings": [
+            {"place": 1, "team": "RBPF", "w": 8, "d": 0, "l": 2, "f": 37, "a": 16, "pts_win": 2, "season": "1920-21", "level": 4, "series": 1, "league": "3. Division Series Luxembourg", "playoff":"promotion","promoted": true, "target": {"season": "1921-22", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "ASLX", "w": 6, "d": 2, "l": 2, "f": 20, "a": 11, "pts_win": 2, "season": "1920-21", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 3, "team": "JWAS", "w": 5, "d": 2, "l": 3, "f": 19, "a": 18, "pts_win": 2, "season": "1920-21", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 4, "team": "JVRL", "w": 5, "d": 1, "l": 4, "f": 26, "a": 17, "pts_win": 2, "season": "1920-21", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 5, "team": "MERL", "w": 2, "d": 1, "l": 7, "f": 13, "a": 37, "pts_win": 2, "season": "1920-21", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 6, "team": "SWFT", "w": 0, "d": 2, "l": 8, "f": 11, "a": 27, "pts_win": 2, "season": "1920-21", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series South",
+        "teams": ["ECBT","ENFM","IESH","JMON","USDD"],
+        "standings": [
+            {"place": 1, "team": "ECBT", "w": 6, "d": 2, "l": 0, "f": 27, "a":  2, "pts_win": 2, "season": "1920-21", "level": 4, "series": 2, "league": "3. Division Series South", "playoff":"promotion","promoted": true, "target": {"season": "1921-22", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "USDD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  7, "pts_win": 2, "season": "1920-21", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 3, "team": "IESH", "w": 4, "d": 1, "l": 3, "f": 11, "a":  8, "pts_win": 2, "season": "1920-21", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 4, "team": "ENFM", "w": 1, "d": 0, "l": 7, "f":  7, "a": 24, "pts_win": 2, "season": "1920-21", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 5, "team": "JMON", "w": 1, "d": 0, "l": 7, "f":  6, "a": 32, "pts_win": 2, "season": "1920-21", "level": 4, "series": 2, "league": "3. Division Series South"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series South West",
+        "teams": ["BBOY","FCOB","HAGN","JSNM","OYMP","YBSL"],
+        "standings": [
+            {"place": 1, "team": "FCOB", "w": 9, "d": 1, "l": 0, "f": 32, "a":  5, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West","playoff":"promotion"},
+            {"place": 2, "team": "OYMP", "w": 5, "d": 2, "l": 3, "f": 18, "a": 13, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 3, "team": "BBOY", "w": 3, "d": 4, "l": 3, "f": 20, "a": 21, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 4, "team": "HAGN", "w": 3, "d": 3, "l": 4, "f": 25, "a": 21, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 5, "team": "YBSL", "w": 2, "d": 2, "l": 6, "f": 13, "a": 26, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 6, "team": "JSNM", "w": 1, "d": 2, "l": 7, "f": 12, "a": 34, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["RBPF","ECBT"],
+        "target": {"season": "1921-22", "level": 3, "name": "2. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"home":"RBPF","away":"ECBT","homeDivision":{"level":4,"series":1,"name":"3. Division Series Luxembourg"},"awayDivision":{"level":4,"series":2,"name":"3. Division Series South"},"score":"3-0","season":"1920-21","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}},
+            {"home":"RBPF","away":"FCOB","homeDivision":{"level":4,"series":1,"name":"3. Division Series Luxembourg"},"awayDivision":{"level":4,"series":3,"name":"3. Division Series South West"},"score":"3-1","season":"1920-21","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}},
+            {"home":"ECBT","away":"FCOB","homeDivision":{"level":4,"series":2,"name":"3. Division Series South"},"awayDivision":{"level":4,"series":3,"name":"3. Division Series South West"},"score":"9-0","season":"1920-21","competition":{"type":"league","level": 2,"name": "2. Division","playoff":"promotion"}}
+        ],
+        "promotion_note": "RBPF and ECBT promoted to TARGET"
+    }
+}

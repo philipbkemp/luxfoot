@@ -6,6 +6,7 @@
         {"season":"1974-75","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":2}
     ],
     "standings": [
+        {"place": 8, "team": "URUM", "w": 0, "d": 0, "l": 14, "f": 11, "a": 86, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1921-22", "level": 2, "name": "The Promotion"}},
         {"place": 2, "team": "URUM", "w": 5, "d": 3, "l": 2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "level": 2, "league": "2. Division", "playoff": "promotion", "promoted": true, "target": {"season": "1920-21", "level": 1, "name": "1. Division"}},
         {"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f": 12, "a": 39, "pts_win": 2, "season": "1918-19", "level": 2, "league": "2. Division"},
 		{"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f":  7, "a": 31, "pts_win": 2, "season": "1917-18", "level": 2, "league": "2. Division"},
