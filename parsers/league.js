@@ -275,9 +275,9 @@ function parseLeague(league) {
 					pNote = pNote.replace("TARGET","<a href='league.html?season="+league.promotion.target.season+"&level="+league.promotion.target.level+"'>"+league.promotion.target.season+" "+league.promotion.target.name+"</a>");
 				}
 				poPromotionMatches.append(
-					$("<DIV></DIV>").addClass("list-group-item").addClass("match-note").append(
+					$("<DIV></DIV>").addClass("list-group-item").addClass("match-item").append(
 						$("<DIV></DIV>").addClass("row").append(
-							$("<DIV></DIV>").addClass("col-12").html(pNote)
+							$("<DIV></DIV>").addClass("col-12").addClass("match-note").html(pNote)
 						)
 					)
 				);
