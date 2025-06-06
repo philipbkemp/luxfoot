@@ -260,8 +260,8 @@ function parseLeague(league) {
 			});
 			if ( league.playoffs.promotion_note ) {
 				pNote = league.playoffs.promotion_note
-					.replace(league.playoffs.promotion.home,allTeams[match.home])
-					.replace(league.playoffs.promotion.away,allTeams[match.away])
+					.replace(league.playoffs.promotion.home,allTeams[league.playoffs.promotion.home])
+					.replace(league.playoffs.promotion.away,allTeams[league.playoffs.promotion.away])
 					;
 				if ( league.promotion && league.promotion.target ) {
 					pNote = pNote.replace("TARGET","<a href='league.html?season="+league.promotion.target.season+"&level="+league.promotion.target.level+"'>"+league.promotion.target.season+" "+league.promotion.target.name+"</a>");
