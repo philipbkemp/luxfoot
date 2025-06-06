@@ -1,0 +1,25 @@
+{
+    "season": "1950-51",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1951-52",
+        "prev": "1949-50"
+    },
+    "rounds": [{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1951-04-15","season": "1950-51","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "BBML", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ASCH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-3"},
+			{"date":"1951-04-15","season": "1950-51","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "RBAS", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ETZE", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-1","replay":{"score":"5-1","date":"1951-04-29"}}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1951-05-06","season": "1950-51","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "ASCH", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RBAS", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-1"}
+        ]
+    }],
+    "winner": "RBAS",
+    "title_count": 2
+}

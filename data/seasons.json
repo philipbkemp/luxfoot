@@ -616,7 +616,7 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1950-51", "name": "Luxembourg Cup", "winner": "STET", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1950-51", "name": "Coupe FLF", "winner": "RBAS", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
+			"cup_flf": {"season": "1950-51", "name": "Coupe FLF", "winner": "RBAS", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
 		}
 	},{
 		"season": "1951-52",
