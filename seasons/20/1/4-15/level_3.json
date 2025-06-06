@@ -230,7 +230,7 @@
             {"home":"MDCG","homeDivision":{"level":2,"name":"Division of Honour"},"away":"UESH","awayDivision":{"level":3,"series":2,"name":"1. Division Series 2"},"score":"2-2","aet":true,"penalties":"6-5","outcome":"UESH remain in TARGET","target": {"season": "2015-16", "level": 2, "name": "1. Division"}}
         ],
         "downup": [
-            {"home":"BDBB","homeDivision":{"level":3,"series":2,"name":"1. Division Series 2"},"away":"RBE7","awayDivision":{"level":4,"series":2,"name":"2. Division Series 2"},"score":"1-00","outcome":"BDBB remain in TARGET","target": {"season": "2015-16", "level": 2, "name": "1. Division"}}
+            {"home":"BDBB","homeDivision":{"level":3,"series":2,"name":"1. Division Series 2"},"away":"RBE7","awayDivision":{"level":4,"series":2,"name":"2. Division Series 2"},"score":"1-0","outcome":"BDBB remain in TARGET","target": {"season": "2015-16", "level": 2, "name": "1. Division"}}
         ]
     }
 }
