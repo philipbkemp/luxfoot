@@ -11,7 +11,23 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "missing" :true
+        "teams": ["AHOS","BAST","DARE","GBHT","JSCH","JSKH","JUNG","MINL","OVND","SRED","TSVG","UNMW","WLTZ:2","YBDK"],
+        "standings": [
+            {"place":  1, "team": "YBDK",   "w": 19, "d":  5, "l":  2, "f": 66, "a": 18, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}},
+            {"place":  2, "team": "JSCH",   "w": 19, "d":  5, "l":  2, "f": 45, "a": 16, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1", "playoff": "promotion"},
+            {"place":  3, "team": "GBHT",   "w": 13, "d":  3, "l": 10, "f": 58, "a": 44, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  4, "team": "UNMW",   "w": 11, "d":  9, "l":  6, "f": 43, "a": 29, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  5, "team": "TSVG",   "w": 11, "d":  7, "l":  8, "f": 56, "a": 50, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  6, "team": "JUNG",   "w": 11, "d":  4, "l": 11, "f": 46, "a": 36, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  7, "team": "OVND",   "w":  9, "d": 10, "l":  7, "f": 34, "a": 28, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  8, "team": "DARE",   "w":  9, "d":  9, "l":  8, "f": 32, "a": 30, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  9, "team": "JSKH",   "w":  9, "d":  7, "l": 10, "f": 40, "a": 34, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 10, "team": "MINL",   "w":  8, "d":  9, "l":  9, "f": 31, "a": 31, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 11, "team": "SRED",   "w":  7, "d":  7, "l": 12, "f": 32, "a": 44, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 12, "team": "WLTZ:2", "w":  6, "d":  3, "l": 17, "f": 37, "a": 77, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1","removed":true,"removed_note":"All 2nd teams were removed from the league for the following season"},
+            {"place": 13, "team": "BAST",   "w":  5, "d":  4, "l": 17, "f": 24, "a": 57, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}},
+            {"place": 14, "team": "AHOS",   "w":  1, "d":  6, "l": 19, "f": 23, "a": 73, "season": "1998-99", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
@@ -31,16 +47,16 @@
 		    {"place": 12, "team": "BLVL",   "w":  7, "d":  8, "l": 11, "f": 30, "a": 39, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}},
 		    {"place": 13, "team": "CLMC",   "w":  7, "d":  7, "l": 12, "f": 65, "a": 80, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}},
 		    {"place": 14, "team": "UESH",   "w":  7, "d":  7, "l": 12, "f": 39, "a": 56, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}}           
-        ],
-        "promoted": {
-            "teams": ["STET","RMLX"],
-            "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}
-        },
-        "relegated": {
-            "teams": ["BLVL","CLMC","UESH"],
-            "target": {"season": "1999-00", "level": 4, "name": "2. Division"}
-        }
+        ]
     }],
+    "promoted": {
+        "teams": ["STET","RMLX","YBDK"],
+        "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}
+    },
+    "relegated": {
+        "teams": ["BLVL","CLMC","UESH","BAST","AHOS"],
+        "target": {"season": "1999-00", "level": 4, "name": "2. Division"}
+    },
     "playoffs": {
         "promotion": [
             {"home":"RMLX","homeDivision":{"level":3,"series":2,"name":"1. Division Series 2"},"away":"JSCH","awayDivision":{"level":3,"series":1,"name":"1. Division Series 1"},"score":"2-1","outcome":"RMLX promoted to TARGET","target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}}
