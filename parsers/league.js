@@ -407,9 +407,9 @@ function parseLeague(league) {
 		["final_round","relegation_a","relegation_b"].forEach(po=>{
 			if ( league.playoffs[po] ) {
 				$("#leagueTabs").append(buildTabButton("po_"+po,labels[po]));
-				poFinalRound = buildTabPanel("po_"+po);
-				poFinalRoundMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
-				poFinalRound.append(
+				poThisRound = buildTabPanel("po_"+po);
+				poThisRounddMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
+				poThisRound.append(
 					buildStandings(
 						league.playoffs[po].standings,
 						league.playoffs[po].pts_win
@@ -419,24 +419,25 @@ function parseLeague(league) {
 				);
 				hasNotes = false;
 				if ( league.playoffs[po].note ) {
-					poFinalRound.append(
+					poThisRound.append(
 						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-5").html(
 							league.playoffs[po].note
 						)
 					);
 					hasNotes = true;
+					console.log("note added",po,poThisRound);
 				}
 				if ( league.playoffs[po].pts_win && league.playoffs[po].pts_win !== 3 ) {
-					poFinalRound.append(
+					poThisRound.append(
 						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-5").html(
 							league.playoffs[po].pts_win + " points for a win"
 						)
 					);
 					hasNotes = true;
 				}
-				poFinalRound.append( $("<H2></H2>").html("Results table") );
-				poFinalRound.append( buildResultsTable(league.playoffs[po].teams, league.playoffs[po].matches) );
-				$("#leagueTabContent").append(poFinalRound);
+				poThisRound.append( $("<H2></H2>").html("Results table") );
+				poThisRound.append( buildResultsTable(league.playoffs[po].teams, league.playoffs[po].matches) );
+				$("#leagueTabContent").append(poThisRound);
 				removeKey("playoffs."+po);
 			}
 		});
