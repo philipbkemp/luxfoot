@@ -26,6 +26,10 @@
         "_country": "France",
         "LENS": {"id": "RC_Lens", "name": "Lens"}
     },
+    "GEO": {
+        "_country": "Georgia",
+        "LOCO": {"id": "FC_Locomotive_Tbilisi", "name": "Locomotive Tbilisi"}
+    },
     "ITA": {
         "_country": "Italy",
         "SAMP": {"id": "UC_Sampdoria", "name": "Sampdoria"}
@@ -33,6 +37,10 @@
     "LVA": {
         "_country": "Latvia",
         "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
+    },
+    "RUS": {
+        "_country": "Russia",
+        "STRN": {"id": "FC_Saturn_Ramenskoye", "name": "Saturn Moscow Oblast"}
     },
     "SWE": {
         "_country": "Sweden",

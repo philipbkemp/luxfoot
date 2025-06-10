@@ -1,0 +1,30 @@
+{
+    "season": "2008-09",
+    "intertoto_cup": {
+        "name": "Intertoto Cup",
+        "season": "2008-09",
+        "links": {
+            "prev": "2007-08"
+        },
+        "teams": ["ETZE"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ETZE": [
+                    {"isEurope":true,"date":"2008-06-21","leg":1,"home":"ETZE","away":"GEO:LOCO","score":"0-0","season":"2008-09","competition":{"type":"europe","cup":"intertoto_cup","name":"Intertoto Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"2008-06-28","leg":2,"home":"GEO:LOCO","away":"ETZE","score":"2-2","season":"2008-09","competition":{"type":"europe","cup":"intertoto_cup","name":"Intertoto Cup","round":"First Round","leg":2},"agg":{"score":"2-2","outcome":"WA","team":"ETZE"}}
+                ]
+            }
+        },{
+            "key": "R2",
+            "name": "Second round",
+            "matches": {
+                "ETZE": [
+                    {"isEurope":true,"date":"2008-07-05","leg":1,"home":"RUS:STRN","away":"ETZE","score":"7-0","season":"2008-09","competition":{"type":"europe","cup":"intertoto_cup","name":"Intertoto Cup","round":"Second Round","leg":1}},
+                    {"isEurope":true,"date":"2008-07-13","leg":2,"home":"ETZE","away":"RUS:STRN","score":"1-1","season":"2008-09","competition":{"type":"europe","cup":"intertoto_cup","name":"Intertoto Cup","round":"Second Round","leg":2},"agg":{"score":"1-8","outcome":"L","team":"ETZE"}}
+                ]
+            }
+        }]
+    }
+}

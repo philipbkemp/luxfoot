@@ -2323,7 +2323,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"2008-09","teams":["F91D"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2008-09","teams":["CGRV","RACE"]},
-			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2008-09","teams":["ETZE"]}
+			"intertoto_cup":{"name":"Intertoto Cup",						"season":"2008-09","teams":["ETZE"]}
 		}
 	},{
 		"season": "2009-10",
