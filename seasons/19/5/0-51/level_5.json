@@ -1,0 +1,56 @@
+{
+    "level": 5,
+	"season": "1950-51",
+    "links": {
+        "next": "1951-52",
+        "prev": "1949-50",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["BDBB","BOUS","FCNC","GRAU","HOST","JFLX","JUNG","MUNS","SYRA","USMM"],
+        "standings": [
+            {"place":  1, "team": "USMM", "w": 15, "d": 1, "l":  2, "f": 72, "a": 30, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  2, "team": "JFLX", "w": 15, "d": 0, "l":  3, "f": 61, "a": 26, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  3, "team": "SYRA", "w": 11, "d": 3, "l":  4, "f": 74, "a": 38, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  4, "team": "FCNC", "w": 11, "d": 0, "l":  7, "f": 55, "a": 38, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  5, "team": "JUNG", "w":  7, "d": 3, "l":  8, "f": 40, "a": 39, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  6, "team": "HOST", "w":  5, "d": 4, "l":  9, "f": 43, "a": 61, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  7, "team": "BOUS", "w":  5, "d": 2, "l": 11, "f": 34, "a": 47, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  8, "team": "GRAU", "w":  6, "d": 0, "l": 12, "f": 35, "a": 67, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  9, "team": "BDBB", "w":  5, "d": 0, "l": 13, "f": 40, "a": 71, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 10, "team": "MUNS", "w":  2, "d": 3, "l": 13, "f": 18, "a": 55, "pts_win": 2, "season": "1950-51", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": [],
+        "target": {"season": "", "level": 0, "name": ""}
+    },
+    "relegation": {
+        "teams": [],
+        "target": {"season": "", "level": 0, "name": ""}
+    },
+    "playoffs": {
+        "updown": [],
+        "downup": []
+    }
+}

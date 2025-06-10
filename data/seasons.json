@@ -606,10 +606,10 @@
 				{"missing":true,"season": "1950-51", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "WALF"},
 				{"missing":true,"season": "1950-51", "level":  4, "series":  3, "name": "2. Division Series 3", "winner": "OVND"}
 			]},
-			"level_5": {"missing":true,"season": "1950-51", "level":  5, "name": "3. Division", "series": [
+			"level_5": {"season": "1950-51", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1950-51", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "KNAP"},
 				{"missing":true,"season": "1950-51", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "VICR"},
-				{"missing":true,"season": "1950-51", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "USMM"},
+				{"season": "1950-51", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "USMM"},
 				{"missing":true,"season": "1950-51", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "JHTC"},
 				{"missing":true,"season": "1950-51", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "ATBS"}
 			]}
