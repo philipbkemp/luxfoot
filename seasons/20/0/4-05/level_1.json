@@ -50,10 +50,10 @@
         "relegation_a": {
             "teams": ["ALLX","CGRV","ULUX","WLTZ"],
             "standings": [
-                {"place": 1, "team": "ALLX", "w": 12, "d": 5, "l": 11, "f": 45, "a": 54, "season": "2004-05", "level": 1, "carry_forward": 28, "league": "National Division Relegation Group A"},
-                {"place": 2, "team": "CGRV", "w": 11, "d": 7, "l": 10, "f": 57, "a": 40, "season": "2004-05", "level": 1, "carry_forward": 32, "league": "National Division Relegation Group A"},
-                {"place": 3, "team": "WLTZ", "w":  8, "d": 2, "l": 18, "f": 30, "a": 56, "season": "2004-05", "level": 1, "carry_forward": 25, "league": "National Division Relegation Group A"},
-                {"place": 4, "team": "ULUX", "w":  6, "d": 7, "l": 15, "f": 26, "a": 53, "season": "2004-05", "level": 1, "carry_forward": 14, "league": "National Division Relegation Group A"}
+                {"place": 5, "team": "ALLX", "w": 12, "d": 5, "l": 11, "f": 45, "a": 54, "season": "2004-05", "level": 1, "league": "National Division Relegation Group A"},
+                {"place": 6, "team": "CGRV", "w": 11, "d": 7, "l": 10, "f": 57, "a": 40, "season": "2004-05", "level": 1, "league": "National Division Relegation Group A"},
+                {"place": 7, "team": "WLTZ", "w":  8, "d": 2, "l": 18, "f": 30, "a": 56, "season": "2004-05", "level": 1, "league": "National Division Relegation Group A"},
+                {"place": 8, "team": "ULUX", "w":  6, "d": 7, "l": 15, "f": 26, "a": 53, "season": "2004-05", "level": 1, "league": "National Division Relegation Group A"}
             ],
             "matches": [
                 {"home":"WLTZ","away":"ULUX","score":"0-0","season":"2004-05","competition":{"type":"league","level": 1,"name": "National Division Relegation Group A"}},
@@ -74,10 +74,10 @@
         "relegation_b": {
             "teams": ["AVBG","CPET","SPOR","SWFT"],
             "standings": [
-                {"place": 1, "team": "SWFT", "w": 11, "d": 6, "l": 11, "f": 39, "a": 46, "season": "2004-05", "level": 1, "carry_forward": 29, "league": "National Division Relegation Group B"},
-                {"place": 2, "team": "CPET", "w": 10, "d": 5, "l": 13, "f": 50, "a": 45, "season": "2004-05", "level": 1, "carry_forward": 27, "league": "National Division Relegation Group B"},
-                {"place": 3, "team": "AVBG", "w":  6, "d": 6, "l": 16, "f": 37, "a": 60, "season": "2004-05", "level": 1, "carry_forward": 11, "league": "National Division Relegation Group B"},
-                {"place": 4, "team": "SPOR", "w":  5, "d": 5, "l": 18, "f": 29, "a": 68, "season": "2004-05", "level": 1, "carry_forward": 18, "league": "National Division Relegation Group B"}
+                {"place":  9, "team": "SWFT", "w": 11, "d": 6, "l": 11, "f": 39, "a": 46, "season": "2004-05", "level": 1, "league": "National Division Relegation Group B"},
+                {"place": 10, "team": "CPET", "w": 10, "d": 5, "l": 13, "f": 50, "a": 45, "season": "2004-05", "level": 1, "league": "National Division Relegation Group B"},
+                {"place": 11, "team": "AVBG", "w":  6, "d": 6, "l": 16, "f": 37, "a": 60, "season": "2004-05", "level": 1, "league": "National Division Relegation Group B"},
+                {"place": 12, "team": "SPOR", "w":  5, "d": 5, "l": 18, "f": 29, "a": 68, "season": "2004-05", "level": 1, "league": "National Division Relegation Group B"}
             ],
             "matches": [
                 {"home":"CPET","away":"SPOR","score":"1-1","season":"2004-05","competition":{"type":"league","level": 1,"name": "National Division Relegation Group B"}},
