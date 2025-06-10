@@ -420,7 +420,7 @@ function parseLeague(league) {
 				hasNotes = false;
 				if ( league.playoffs[po].note ) {
 					poThisRound.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-5").html(
+						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-4").html(
 							league.playoffs[po].note
 						)
 					);
@@ -428,13 +428,13 @@ function parseLeague(league) {
 				}
 				if ( league.playoffs[po].pts_win && league.playoffs[po].pts_win !== 3 ) {
 					poThisRound.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-5").html(
+						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass(hasNotes?"mt-1":"mt-4").html(
 							league.playoffs[po].pts_win + " points for a win"
 						)
 					);
 					hasNotes = true;
 				}
-				poThisRound.append( $("<H2></H2>").html("Results table") );
+				poThisRound.append( $("<H2></H2>").html("Results table").addClass(hasNotes?"mt-4":"mt-1") );
 				poThisRound.append( buildResultsTable(league.playoffs[po].teams, league.playoffs[po].matches) );
 				$("#leagueTabContent").append(poThisRound);
 				removeKey("playoffs."+po);
