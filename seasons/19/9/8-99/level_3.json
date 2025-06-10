@@ -49,11 +49,11 @@
 		    {"place": 14, "team": "UESH",   "w":  7, "d":  7, "l": 12, "f": 39, "a": 56, "season": "1998-99", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1999-00", "level": 4, "name": "2. Division"}}           
         ]
     }],
-    "promoted": {
+    "promotion": {
         "teams": ["STET","RMLX","YBDK"],
         "target": {"season": "1999-00", "level": 2, "name": "Division of Honour"}
     },
-    "relegated": {
+    "relegation": {
         "teams": ["BLVL","CLMC","UESH","BAST","AHOS"],
         "target": {"season": "1999-00", "level": 4, "name": "2. Division"}
     },
