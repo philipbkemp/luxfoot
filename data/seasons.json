@@ -2203,7 +2203,7 @@
 	},{
 		"season": "2004-05",
 		"leagues": {
-			"level_1": {"missing":true, "season": "2004-05", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 4},
+			"level_1": {"season": "2004-05", "level": 1, "name": "National Division", "winner": "F91D", "title_count": 4},
 			"level_2": {"missing":true, "season": "2004-05", "level": 2, "name": "Division of Honour", "winner": "KAER"},
 			"level_3": {"missing":true, "season": "2004-05", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "2004-05", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "MINL"},
