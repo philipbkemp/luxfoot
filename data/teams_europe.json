@@ -6,6 +6,7 @@
     "CHE": {
         "_country": "Switzerland",
         "LGNO": {"id": "FC_Lugano", "name": "Lugano"},
+        "LASP": {"id": "FC_Lausanne-Sport", "name": "Lausanne-Sport"},
         "SION": {"id": "FC_Sion", "name": "Sion"},
         "SVTE": {"id": "Servette_FC", "name": "Servette"}
     },

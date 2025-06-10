@@ -1,0 +1,22 @@
+{
+    "season": "1978-79",
+    "europa_league": {
+        "name": "UEFA Cup",
+        "season": "1978-79",
+        "links": {
+            "next": "1979-80",
+            "prev": "1977-78"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1978-09-13","leg":1,"home":"JESH","away":"CHE:LASP","score":"0-0","season":"1978-79","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1978-09-26","leg":2,"home":"CHE:LASP","away":"JESH","score":"2-0","season":"1978-79","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First Round","leg":2},"agg":{"score":"2-0","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}
