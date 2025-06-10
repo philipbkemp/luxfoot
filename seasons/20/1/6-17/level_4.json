@@ -21,7 +21,7 @@
             {"place":  6, "team": "YBDK", "w": 12, "d": 4, "l": 10, "f": 59, "a":  53, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place":  7, "team": "AHOS", "w": 11, "d": 6, "l":  9, "f": 68, "a":  48, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place":  8, "team": "JUSE", "w": 11, "d": 5, "l": 10, "f": 43, "a":  38, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
-            {"place":  9, "team": "RPLL", "w": 10, "d": 7, "l":  9, "f": 51, "a":  59, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "RUPL", "w": 10, "d": 7, "l":  9, "f": 51, "a":  59, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place": 10, "team": "ASCB", "w": 11, "d": 3, "l": 12, "f": 49, "a":  49, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place": 11, "team": "JGIL", "w":  8, "d": 6, "l": 12, "f": 49, "a":  55, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place": 12, "team": "TSVG", "w":  9, "d": 1, "l": 16, "f": 48, "a":  78, "season": "2016-17", "level": 4, "series": 1, "league": "2. Division Series 1", "playoff": "downup", "relegated": true, "target": {"season": "2017-18", "level": 5, "name": "3. Division"}},
