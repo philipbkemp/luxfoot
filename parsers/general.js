@@ -342,9 +342,15 @@ function getPlayoffName(code) {
 		case "final_round":
 			theText = "Final Round";
 			break;
+		case "relegation_a":
+			theText = "Relegation Group A";
+			break;
+		case "relegation_b":
+			theText = "Relegation Group B";
+			break;
 	}
 	if ( theText === "" ) {
-		console.error("Uknown playoff",code);
+		console.error("Unknown playoff",code);
 	}
 	return theText;
 }
