@@ -425,7 +425,6 @@ function parseLeague(league) {
 						)
 					);
 					hasNotes = true;
-					console.log("note added",po,poThisRound);
 				}
 				if ( league.playoffs[po].pts_win && league.playoffs[po].pts_win !== 3 ) {
 					poThisRound.append(

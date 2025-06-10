@@ -69,7 +69,7 @@
                 {"home":"CGRV","away":"ULUX","score":"2-3","season":"2004-05","competition":{"type":"league","level": 1,"name": "National Division Relegation Group A"}},
                 {"home":"CGRV","away":"ALLX","score":"2-3","season":"2004-05","competition":{"type":"league","level": 1,"name": "National Division Relegation Group A"}}
             ],
-            "note`": "No relegation due to merger of multiple clubs"
+            "note": "No relegation due to merger of multiple clubs"
         },
         "relegation_b": {
             "teams": ["AVBG","CPET","SPOR","SWFT"],
@@ -93,7 +93,7 @@
                 {"home":"AVBG","away":"SPOR","score":"1-0","season":"2004-05","competition":{"type":"league","level": 1,"name": "National Division Relegation Group B"}},
                 {"home":"AVBG","away":"SWFT","score":"2-3","season":"2004-05","competition":{"type":"league","level": 1,"name": "National Division Relegation Group B"}}
             ],
-            "note`": "No relegation due to merger of multiple clubs"
+            "note": "No relegation due to merger of multiple clubs"
         }
     },
 	"matches": [
