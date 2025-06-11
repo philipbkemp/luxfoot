@@ -6,7 +6,8 @@
         {"season":"1918-19","league":"level_1","name":"1. Division","title_count":2}
     ],
     "standings": [
-        {"place": 6, "team": "SCLX", "w": 6, "d": 2, "l": 6, "f": 35, "a": 29, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division"},
+        {"place": 4, "team": "SCLX", "w":  7, "d": 2, "l":  5, "f": 43, "a": 26, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
+		{"place": 6, "team": "SCLX", "w": 6, "d": 2, "l": 6, "f": 35, "a": 29, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division"},
         {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "level": 1, "league": "1. Division"},
 		{"place": 1, "team": "SCLX", "w": 7, "d": 2, "l": 1, "f": 18, "a": 12, "pts_win": 2, "season": "1918-19", "level": 1, "league": "1. Division", "champion": true, "title_count": 2},
 		{"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 19, "a": 17, "pts_win": 2, "season": "1917-18", "level": 1, "league": "1. Division"},

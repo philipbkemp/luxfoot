@@ -99,14 +99,14 @@
 	},{
 		"season": "1921-22",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1921-22", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 3},
-			"level_2": {"missing":true,"season": "1921-22", "level":  2, "name": "The Promotion", "winner": "RACL"},
-			"level_3": {"missing":true,"season": "1921-22", "level":  3, "name": "2. Division", "winner": "RBPF"},
-			"level_4": {"missing":true,"season": "1921-22", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1921-22", "level":  4, "series":  1, "name": "3. Division Series Luxemburg", "winner": "JWAS"},
-				{"missing":true,"season": "1921-22", "level":  4, "series":  2, "name": "3. Division Series South", "winner": "USDD"},
-				{"missing":true,"season": "1921-22", "level":  4, "series":  3, "name": "3. Division Series South West", "winner": "JHTC"},
-				{"missing":true,"season": "1921-22", "level":  4, "series":  4, "name": "3. Division Series North", "winner": "YBDK"}
+			"level_1": {"season": "1921-22", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 3},
+			"level_2": {"season": "1921-22", "level":  2, "name": "The Promotion", "winner": "RACL"},
+			"level_3": {"season": "1921-22", "level":  3, "name": "2. Division", "winner": "RBPF"},
+			"level_4": {"season": "1921-22", "level":  4, "name": "3. Division", "series": [
+				{"season": "1921-22", "level":  4, "series":  1, "name": "3. Division Series Luxemburg", "winner": "JWAS"},
+				{"season": "1921-22", "level":  4, "series":  2, "name": "3. Division Series South", "winner": "USDD"},
+				{"season": "1921-22", "level":  4, "series":  3, "name": "3. Division Series South West", "winner": "JHTC"},
+				{"season": "1921-22", "level":  4, "series":  4, "name": "3. Division Series North", "winner": "YBDK"}
 			]}
 		},
 		"cups": {

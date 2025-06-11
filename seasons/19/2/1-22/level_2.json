@@ -1,0 +1,31 @@
+{
+    "level": 2,
+	"season": "1921-22",
+    "links": {
+        "next": "1922-23",
+        "prev": "1920-21",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["CPET","CROD","JSTF","PROG","RACL","STET","UESH","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "RACL", "w": 14, "d": 0, "l":  0, "f": 75, "a":  9, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1922-23", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "STET", "w":  9, "d": 0, "l":  5, "f": 37, "a": 29, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1922-23", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "URUM", "w":  7, "d": 1, "l":  6, "f": 33, "a": 28, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion"},
+		{"place": 4, "team": "CROD", "w":  7, "d": 1, "l":  6, "f": 23, "a": 33, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "CPET", "w":  7, "d": 0, "l":  7, "f": 30, "a": 40, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "PROG", "w":  6, "d": 0, "l":  8, "f": 36, "a": 33, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "UESH", "w":  5, "d": 0, "l":  9, "f": 32, "a": 48, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "JSTF", "w":  0, "d": 0, "l": 14, "f":  2, "a": 48, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["RACL","STET"],
+		"target": {"season": "1922-23", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["UESH","JSTF"],
+		"target": {"season": "1922-23", "level": 3, "name": "2. Division"}
+	}
+}

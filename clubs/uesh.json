@@ -5,7 +5,8 @@
         {"season":"1947-48","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
-        {"place": 2, "team": "UESH", "w": 10, "d": 0, "l":  4, "f": 53, "a": 27, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "promoted": true, "target": {"season": "1921-22", "level": 2, "name": "1. Division"}},
+        {"place": 7, "team": "UESH", "w":  5, "d": 0, "l":  9, "f": 32, "a": 48, "pts_win": 2, "season": "1921-22", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+		{"place": 2, "team": "UESH", "w": 10, "d": 0, "l":  4, "f": 53, "a": 27, "pts_win": 2, "season": "1920-21", "level": 3, "league": "2. Division", "promoted": true, "target": {"season": "1921-22", "level": 2, "name": "1. Division"}},
 		{"place": 4, "team": "UESH", "w": 2, "d": 0, "l": 6, "f": 18, "a": 38, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South"},
         {"gap":true},
         {"place": 5, "team": "UESH", "w": 1, "d": 0, "l": 7, "f": 6, "a": 41, "pts_win": 2, "season": "1916-17", "level": 2, "league": "2. Division"}

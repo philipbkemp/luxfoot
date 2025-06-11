@@ -1,0 +1,68 @@
+{
+    "level": 4,
+	"season": "1921-22",
+    "links": {
+        "next": "1922-23",
+        "prev": "1920-21",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series Luxembourg",
+        "teams": ["ASLX","JVRL","JWAS","MERL","RPDN","SGRV","SWFT","WALF"],
+        "standings": [
+            {"place": 1, "team": "JWAS", "w": 11, "d": 1, "l":  2, "f": 51, "a": 12, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "RPDN", "w": 10, "d": 2, "l":  2, "f": 40, "a": 18, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "ASLX", "w": 10, "d": 1, "l":  3, "f": 45, "a": 22, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 4, "team": "WALF", "w":  8, "d": 4, "l":  2, "f": 30, "a": 13, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 5, "team": "JVRL", "w":  7, "d": 0, "l":  7, "f": 26, "a": 30, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 6, "team": "MERL", "w":  3, "d": 0, "l": 11, "f":  9, "a": 28, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 7, "team": "SWFT", "w":  2, "d": 0, "l": 12, "f":  4, "a": 46, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
+            {"place": 8, "team": "SGRV", "w":  1, "d": 0, "l": 13, "f":  1, "a": 37, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series South",
+        "teams": ["ASDF","ENFM","FCOB","IESH","JKYL","JMON","USDD","YBSL"],
+        "standings": [
+            {"place": 1, "team": "USDD", "w": 12, "d": 1, "l":  1, "f": 58, "a":  6, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "FCOB", "w": 11, "d": 0, "l":  3, "f": 45, "a": 20, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "JKYL", "w": 10, "d": 1, "l":  3, "f": 47, "a": 19, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 4, "team": "ASDF", "w":  8, "d": 3, "l":  3, "f": 33, "a": 19, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 5, "team": "YBSL", "w":  4, "d": 3, "l":  7, "f": 18, "a": 41, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 6, "team": "IESH", "w":  4, "d": 1, "l":  9, "f": 12, "a": 34, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 7, "team": "JMON", "w":  1, "d": 3, "l": 10, "f": 10, "a": 38, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"},
+            {"place": 8, "team": "ENFM", "w":  0, "d": 0, "l": 14, "f":  2, "a": 48, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series South West",
+        "teams": ["BBOY","HAGN","JHTC","OYMP","PHLK","UBEK"],
+        "standings": [
+            {"place": 1, "team": "JHTC", "w": 9, "d": 1, "l": 0, "f": 32, "a":  7, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "HAGN", "w": 7, "d": 0, "l": 3, "f": 27, "a": 10, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "BBOY", "w": 5, "d": 1, "l": 4, "f": 20, "a": 17, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 4, "team": "PHLK", "w": 4, "d": 1, "l": 5, "f": 12, "a": 19, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 5, "team": "OYMP", "w": 3, "d": 0, "l": 7, "f":  8, "a": 24, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West"},
+            {"place": 6, "team": "UBEK", "w": 0, "d": 1, "l": 9, "f":  4, "a": 26, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series North",
+        "teams": ["ETZE","GOLD","MARM","MINL","USND","YBDK"],
+        "standings": [
+            {"place": 1, "team": "YBDK", "w": 8, "d": 1, "l": 1, "f": 33, "a": 13, "pts_win": 2, "season": "1921-22", "level": 4, "series": 4, "league": "3. Division Series North", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "MARM", "w": 6, "d": 0, "l": 4, "f": 28, "a": 18, "pts_win": 2, "season": "1921-22", "level": 4, "series": 4, "league": "3. Division Series North", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "MINL", "w": 5, "d": 1, "l": 4, "f": 26, "a": 14, "pts_win": 2, "season": "1921-22", "level": 4, "series": 4, "league": "3. Division Series North"},
+            {"place": 4, "team": "ETZE", "w": 5, "d": 1, "l": 4, "f": 17, "a": 13, "pts_win": 2, "season": "1921-22", "level": 4, "series": 4, "league": "3. Division Series North"},
+            {"place": 5, "team": "GOLD", "w": 3, "d": 2, "l": 5, "f":  9, "a": 18, "pts_win": 2, "season": "1921-22", "level": 4, "series": 4, "league": "3. Division Series North"},
+            {"place": 6, "team": "USND", "w": 0, "d": 1, "l": 9, "f":  4, "a": 41, "pts_win": 2, "season": "1921-22", "level": 4, "series": 4, "league": "3. Division Series North"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["JWAS","RPDN","YBDK","MARM","USDD","FCOB","JHTC","HAGN"],
+        "target": {"season": "1922-23", "level": 3, "name": "2. Division"}
+    }
+}

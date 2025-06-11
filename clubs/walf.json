@@ -5,6 +5,7 @@
         {"season":"2022-23","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 4, "team": "WALF", "w":  8, "d": 4, "l":  2, "f": 30, "a": 13, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg"},
         {"place": 6, "team": "WALF", "w": 1, "d": 3, "l":  8, "f": 12, "a": 31, "pts_win": 2, "season": "1919-20", "level": 3, "series":1,"league": "3. Division Series Luxembourg"},
         {"gap":true},
         {"place": 3, "team": "WALF", "w": 2, "d": 0, "l": 4, "f":  4, "a": 39, "pts_win": 2, "season": "1916-17", "level": 3, "series": 1, "league": "3. Division Series Lux."}

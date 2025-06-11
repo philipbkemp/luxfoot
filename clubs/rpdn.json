@@ -3,5 +3,8 @@
     "name": "Rapid Neudorf",
     "trophies": [
         {"season":"1949-50","cup":"cup_flf","name":"Coupe FLF","title_count":1}
+    ],
+    "standings": [
+        {"place": 2, "team": "RPDN", "w": 10, "d": 2, "l":  2, "f": 40, "a": 18, "pts_win": 2, "season": "1921-22", "level": 4, "series": 1, "league": "3. Division Series Luxembourg", "promoted": true, "target": {"season": "1922-23", "level": 3, "name": "2. Division"}}
     ]
 }

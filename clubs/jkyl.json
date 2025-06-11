@@ -3,5 +3,8 @@
     "name": "Jeunesse 07 Kayl",
     "trophies": [
         {"season":"1951-52","cup":"cup_flf","name":"Coupe FLF","title_count":1}
+    ],
+    "standings": [
+        {"place": 3, "team": "JKYL", "w": 10, "d": 1, "l":  3, "f": 47, "a": 19, "pts_win": 2, "season": "1921-22", "level": 4, "series": 2, "league": "3. Division Series South"}
     ]
 }
