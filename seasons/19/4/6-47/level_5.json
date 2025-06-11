@@ -36,7 +36,7 @@
             {"place": 5, "team": "OYCW", "w":  6, "d": 1, "l":  7, "f": 32, "a": 34, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
             {"place": 6, "team": "SYRA", "w":  6, "d": 0, "l":  8, "f": 27, "a": 22, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
             {"place": 7, "team": "HOST", "w":  2, "d": 0, "l": 12, "f": 13, "a": 57, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
-            {"place": 8, "team": "JFLX", "w":  1, "d": 1, "l": 12, "f": 14, "a": 54, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"} 
+            {"place": 8, "team": "JFLX", "w":  1, "d": 1, "l": 12, "f": 14, "a": 54, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"}
         ]
     },{
         "series": 6,
@@ -46,5 +46,5 @@
     "promotion": {
         "teams": ["FRTA"],
         "target": {"season": "1947-48", "level": 4, "name": "2. Division"}
-    },
+    }
 }
