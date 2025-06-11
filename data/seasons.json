@@ -499,12 +499,12 @@
 			    {"missing":true,"season": "1946-47", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "CLVX"},
 				{"missing":true,"season": "1946-47", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "BWIT"}
 			]},
-			"level_5": {"missing":true,"season": "1946-47", "level":  5, "name": "3. Division", "series": [
+			"level_5": {"season": "1946-47", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1946-47", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JWIL"},
 				{"missing":true,"season": "1946-47", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "AWDG"},
 				{"missing":true,"season": "1946-47", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ATBS"},
 				{"missing":true,"season": "1946-47", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "OYMP"},
-				{"missing":true,"season": "1946-47", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "FRTA"},
+				{"season": "1946-47", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "FRTA"},
 				{"missing":true,"season": "1946-47", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "KWRM"}
 			]}
 		},

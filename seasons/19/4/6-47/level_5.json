@@ -1,0 +1,50 @@
+{
+    "level": 5,
+	"season": "1946-47",
+    "links": {
+        "next": "1947-48",
+        "prev": "1945-46",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "teams": ["ARBD","FRTA","HOST","JFLX","LRNZ","OBCN","OYCW","SYRA"],
+        "standings": [
+            {"place": 1, "team": "FRTA", "w": 12, "d": 1, "l":  1, "f": 58, "a": 19, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5", "promoted": true, "target": {"season": "1947-48", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "LRNZ", "w": 12, "d": 0, "l":  2, "f": 43, "a": 13, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 3, "team": "ARBD", "w":  9, "d": 0, "l":  5, "f": 32, "a": 27, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 4, "team": "OBCN", "w":  5, "d": 3, "l":  6, "f": 35, "a": 28, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 5, "team": "OYCW", "w":  6, "d": 1, "l":  7, "f": 32, "a": 34, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 6, "team": "SYRA", "w":  6, "d": 0, "l":  8, "f": 27, "a": 22, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 7, "team": "HOST", "w":  2, "d": 0, "l": 12, "f": 13, "a": 57, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 8, "team": "JFLX", "w":  1, "d": 1, "l": 12, "f": 14, "a": 54, "pts_win": 2, "season": "1946-47", "level": 5, "series": 5, "league": "3. Division Series 5"} 
+        ]
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["FRTA"],
+        "target": {"season": "1947-48", "level": 4, "name": "2. Division"}
+    },
+}
