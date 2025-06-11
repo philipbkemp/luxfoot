@@ -7,7 +7,6 @@
     },
 	"name": "National Division",
 	"teams": ["DIFF","F91D","FOLA","HOST","JESH","MDCG","MDLB","PRON","RACE","RODG","SCBT","SWFT","UNAS","UNTP","VICR","WLTZ"],
-    "in_progress": true,
 	"standings": [
         {"place":  1, "team": "DIFF", "w": 25, "d":  3, "l":  2, "f": 69, "a":  7, "season": "2024-25", "level": 1, "league": "National Division","champion":true,"title_count":2},
 		{"place":  2, "team": "UNAS", "w": 18, "d":  6, "l":  6, "f": 62, "a": 23, "season": "2024-25", "level": 1, "league": "National Division"},
