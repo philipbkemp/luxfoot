@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1997-98",
+    "links": {
+        "next": "1998-99",
+        "prev": "1996-97",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ARIS","CSHL","ETZE","FOLA","HAMM","MDCG","PRON","RODG","SCBT","SCHF","SWFT","TRIG","TSVG","VICR"],
+	"standings": [
+        {"place":  1, "team": "ARIS", "w": 17, "d":  3, "l":  6, "f": 76, "a": 38, "season": "1997-98", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1998-99", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "MDCG", "w": 16, "d":  5, "l":  5, "f": 78, "a": 33, "season": "1997-98", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1998-99", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "ETZE", "w": 15, "d":  5, "l":  6, "f": 53, "a": 27, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "SCHF", "w": 15, "d":  5, "l":  6, "f": 41, "a": 28, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "VICR", "w": 12, "d":  8, "l":  6, "f": 38, "a": 23, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "SWFT", "w": 11, "d":  8, "l":  7, "f": 45, "a": 32, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "RODG", "w": 10, "d":  7, "l":  9, "f": 56, "a": 48, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "FOLA", "w":  8, "d":  8, "l": 10, "f": 48, "a": 53, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "PRON", "w":  9, "d":  5, "l": 12, "f": 35, "a": 42, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "CSHL", "w":  9, "d":  3, "l": 14, "f": 36, "a": 65, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "HAMM", "w":  5, "d": 11, "l": 10, "f": 29, "a": 42, "season": "1997-98", "level": 2, "league": "Division of Honour"},
+		{"place": 12, "team": "TRIG", "w":  4, "d":  7, "l": 15, "f": 29, "a": 53, "season": "1997-98", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1998-99", "level": 3, "name": "1. Division"}},
+		{"place": 13, "team": "SCBT", "w":  5, "d":  4, "l": 17, "f": 32, "a": 82, "season": "1997-98", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1998-99", "level": 3, "name": "1. Division"}},
+		{"place": 14, "team": "TSVG", "w":  3, "d":  7, "l": 16, "f": 35, "a": 65, "season": "1997-98", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1998-99", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ARIS","MDCG"],
+		"target": {"season": "1998-99", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["RIG","SCBT","TSVG"],
+		"target": {"season": "1998-99", "level": 3, "name": "1. Division"}
+	}
+}

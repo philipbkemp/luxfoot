@@ -2008,7 +2008,7 @@
 		"season": "1997-98",
 		"leagues": {
 			"level_1": {"missing":true, "season": "1997-98", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 25},
-			"level_2": {"missing":true, "season": "1997-98", "level": 2, "name": "Division of Honour", "winner": "ARIS"},
+			"level_2": {"season": "1997-98", "level": 2, "name": "Division of Honour", "winner": "ARIS"},
 			"level_3": {"season": "1997-98", "level": 3, "name": "1. Division","series":[
 				{"missing":true, "season": "1997-98", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "KWRM"},
 				{"season": "1997-98", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "KAER"}
