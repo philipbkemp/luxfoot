@@ -1,0 +1,43 @@
+{
+    "level": 3,
+	"season": "1989-90",
+    "links": {
+        "next": "1990-91",
+        "prev": "1988-89",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ATBS","BRCH","BVAT","CLVX","JSCH","JWAS","OVND","RMLX","SRED","TSVG","WALF","WINC"],
+        "standings": [
+            {"place":  1, "team": "JWAS", "w": 13, "d": 6, "l":  3, "f": 51, "a": 20, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1990-91", "level": 2, "name": "Division of Honour"}},
+            {"place":  2, "team": "RMLX", "w": 14, "d": 4, "l":  4, "f": 50, "a": 29, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1990-91", "level": 2, "name": "Division of Honour"}},
+            {"place":  3, "team": "CLVX", "w": 11, "d": 6, "l":  5, "f": 51, "a": 34, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  4, "team": "TSVG", "w":  9, "d": 8, "l":  5, "f": 51, "a": 25, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  5, "team": "OVND", "w":  9, "d": 7, "l":  6, "f": 52, "a": 41, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  6, "team": "JSCH", "w": 10, "d": 2, "l": 10, "f": 37, "a": 40, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  7, "team": "BRCH", "w":  6, "d": 8, "l":  8, "f": 34, "a": 35, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  8, "team": "ATBS", "w":  6, "d": 8, "l":  8, "f": 31, "a": 32, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  9, "team": "SRED", "w":  7, "d": 4, "l": 11, "f": 28, "a": 42, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 10, "team": "BVAT", "w":  6, "d": 6, "l": 10, "f": 29, "a": 45, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1990-91", "level": 4, "name": "2. Division"}},
+            {"place": 11, "team": "WALF", "w":  5, "d": 5, "l": 12, "f": 28, "a": 57, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1990-91", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "WINC", "w":  2, "d": 4, "l": 16, "f": 19, "a": 61, "pts_win": 2, "season": "1989-90", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1990-91", "level": 4, "name": "2. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["JWAS","RMLX"],
+        "target": {"season": "1990-91", "level": 2, "name": "Division of Honour"}
+    },
+    "relegation": {
+        "teams": ["BVAT","WALF","WINC"],
+        "target": {"season": "1990-91", "level": 4, "name": "2. Division"}
+    }
+}
