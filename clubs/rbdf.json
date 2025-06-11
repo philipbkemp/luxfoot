@@ -27,7 +27,7 @@
         {"season":"1984-85","cup":"cup_luxembourg","name":"Luxembourg Cup","title_count":16}
     ],
     "standings": [
-        {"place": 6, "team": "RBDF", "w":  6, "d": 1, "l":  7, "f": 31, "a": 28, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
+        {"place": 6, "team": "RBDF", "w":  6, "d": 1, "l":  7, "f": 31, "a": 30, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
 		{"place": 5, "team": "RBDF", "w": 6, "d": 2, "l": 6, "f": 42, "a": 31, "pts_win": 2, "season": "1920-21", "level": 1, "league": "1. Division"},
         {"place": 1, "team": "RBDF", "w": 4, "d": 5, "l": 1, "f": 20, "a": 13, "pts_win": 2, "season": "1919-20", "level": 2, "league": "2. Division", "playoff": "promotion", "promoted": true, "target": {"season": "1920-21", "level": 1, "name": "1. Division"}}
     ]

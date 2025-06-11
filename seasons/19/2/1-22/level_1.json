@@ -15,8 +15,8 @@
 		{"place": 3, "team": "JESH", "w":  8, "d": 0, "l":  6, "f": 50, "a": 30, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
 		{"place": 4, "team": "SCLX", "w":  7, "d": 2, "l":  5, "f": 43, "a": 26, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
 		{"place": 5, "team": "SDUD", "w":  6, "d": 4, "l":  4, "f": 26, "a": 24, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
-		{"place": 6, "team": "RBDF", "w":  6, "d": 1, "l":  7, "f": 31, "a": 28, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
-		{"place": 7, "team": "TRIM", "w":  2, "d": 1, "l": 11, "f": 17, "a": 65, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1922-23", "level": 2, "name": "The Promotion"}},
+		{"place": 6, "team": "RBDF", "w":  6, "d": 1, "l":  7, "f": 31, "a": 30, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division"},
+		{"place": 7, "team": "TRIM", "w":  2, "d": 1, "l": 11, "f": 17, "a": 63, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1922-23", "level": 2, "name": "The Promotion"}},
 		{"place": 8, "team": "NSCH", "w":  1, "d": 2, "l": 11, "f": 10, "a": 53, "pts_win": 2, "season": "1921-22", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1922-23", "level": 2, "name": "The Promotion"}}
     ],
 	"champion": "FOLA",
