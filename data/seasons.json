@@ -2712,23 +2712,22 @@
 		}
 	},{
 		"season": "2024-25",
-		"note": "Season ongoing",
 		"leagues": {
-			"level_1": {"season": "2024-25", "level": 1, "name": "National Division", "ongoing": true, "winner": "DIFF", "title_count": 2},
-			"level_2": {"season": "2024-25", "level": 2, "name": "Division of Honour", "ongoing": true},
+			"level_1": {"season": "2024-25", "level": 1, "name": "National Division", "winner": "DIFF", "title_count": 2},
+			"level_2": {"season": "2024-25", "level": 2, "name": "Division of Honour"},
 			"level_3": {"season": "2024-25", "level": 3, "name": "1. Division","series":[
-				{"season": "2024-25", "level": 3,"series":1, "name": "1. Division Series 1", "ongoing": true},
-				{"season": "2024-25", "level": 3,"series":2, "name": "1. Division Series 2", "ongoing": true}
+				{"season": "2024-25", "level": 3,"series":1, "name": "1. Division Series 1"},
+				{"season": "2024-25", "level": 3,"series":2, "name": "1. Division Series 2"}
 			]},
 			"level_4": {"season": "2024-25", "level": 4, "name": "2. Division","series":[
-				{"season": "2024-25", "level": 4,"series":1, "name": "2. Division Series 1", "ongoing": true},
-				{"season": "2024-25", "level": 4,"series":2, "name": "2. Division Series 2", "ongoing": true}
+				{"season": "2024-25", "level": 4,"series":1, "name": "2. Division Series 1"},
+				{"season": "2024-25", "level": 4,"series":2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"season": "2024-25", "level": 5, "name": "3. Division", "ongoing": true}
+			"level_5": {"season": "2024-25", "level": 5, "name": "3. Division"}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "2024-25", "name": "Luxembourg Cup", "ongoing": true},
-			"cup_flf": {"missing":true, "season": "2024-25", "name": "Coupe FLF", "ongoing": true}
+			"cup_luxembourg": {"season": "2024-25", "name": "Luxembourg Cup","winner":"DIFF","title_count":6},
+			"cup_flf": {"season": "2024-25", "name": "Coupe FLF","winner":"LRNZ","title_count":1}
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"2024-25","teams":["DIFF"]},

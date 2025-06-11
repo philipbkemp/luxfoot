@@ -1,0 +1,115 @@
+{
+    "season": "2024-25",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "prev": "2023-24"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+        	{"date":"2024-09-25","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Preliminary round"},"home": "NORD", "homeDivision": {"level":3,"name":"1. Division"},"away": "LUNA", "awayDivision": {"level":4,"name":"2. Division"},"score":"7-1"},
+			{"date":"2024-09-25","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Preliminary round"},"home": "SBRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "MLSV", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-2","aet":true,"penalties":"6-4"},
+			{"date":"2024-09-25","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Preliminary round"},"home": "MINL", "homeDivision": {"level":4,"name":"2. Division"},"away": "CGRV", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-1","aet":true},
+			{"date":"2024-09-25","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Preliminary round"},"home": "TSVG", "homeDivision": {"level":4,"name":"2. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-5"},
+			{"date":"2024-09-25","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Preliminary round"},"home": "TRIG", "homeDivision": {"level":4,"name":"2. Division"},"away": "RPLL", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-3"}
+		]
+    },{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "WINC", "homeDivision": {"level":4,"name":"2. Division"},"away": "LARD", "awayDivision": {"level":5,"name":"3. Division"},"score":"9-0"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "CLVX", "homeDivision": {"level":5,"name":"3. Division"},"away": "YBWT", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-9"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "AAHE", "homeDivision": {"level":3,"name":"1. Division"},"away": "BAST", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "UESH", "homeDivision": {"level":5,"name":"3. Division"},"away": "BWIT", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "RBPF", "homeDivision": {"level":3,"name":"1. Division"},"away": "KPWW", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-0"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "RHSE", "homeDivision": {"level":4,"name":"2. Division"},"away": "LADH", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-3"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "RPLL", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASCB", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "FCPR", "homeDivision": {"level":4,"name":"2. Division"},"away": "STNG", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-5"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "BIEK", "homeDivision": {"level":5,"name":"3. Division"},"away": "JSCH", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "BRCH", "homeDivision": {"level":5,"name":"3. Division"},"away": "DARE", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-7"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "NORD", "homeDivision": {"level":3,"name":"1. Division"},"away": "NORZ", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "UNMW", "homeDivision": {"level":4,"name":"2. Division"},"away": "BWMD", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "GBHT", "homeDivision": {"level":4,"name":"2. Division"},"away": "UNRB", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-5"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "OVND", "homeDivision": {"level":3,"name":"1. Division"},"away": "MINL", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-5","aet":true,"penalties":"10-11"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "EHLR", "homeDivision": {"level":3,"name":"1. Division"},"away": "JUNG", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "SBRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "KOPS", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "CLMC", "homeDivision": {"level":4,"name":"2. Division"},"away": "OYCW", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "SELL", "homeDivision": {"level":4,"name":"2. Division"},"away": "ESHW", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "ASLX", "homeDivision": {"level":4,"name":"2. Division"},"away": "CBSH", "awayDivision": {"level":5,"name":"3. Division"},"score":"7-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "U5KT", "homeDivision": {"level":3,"name":"1. Division"},"away": "SNEM", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-2"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "EXGV", "homeDivision": {"level":5,"name":"3. Division"},"away": "KOSM", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-8"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "SYRA", "homeDivision": {"level":3,"name":"1. Division"},"away": "JUSE", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "USBC", "homeDivision": {"level":3,"name":"1. Division"},"away": "SHGN", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "YBDK", "homeDivision": {"level":3,"name":"1. Division"},"away": "REIS", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-0"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "BVAT", "homeDivision": {"level":4,"name":"2. Division"},"away": "KHLN", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "AHOS", "homeDivision": {"level":3,"name":"1. Division"},"away": "ERPL", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-0"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "JGIL", "homeDivision": {"level":3,"name":"1. Division"},"away": "FOLS", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-0"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "LRNZ", "homeDivision": {"level":3,"name":"1. Division"},"away": "RSMB", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-2","aet":true},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "MUNS", "homeDivision": {"level":3,"name":"1. Division"},"away": "USMM", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "RBAS", "homeDivision": {"level":5,"name":"3. Division"},"away": "CSOB", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "RAMB", "homeDivision": {"level":4,"name":"2. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-4"},
+			{"date":"2024-10-16","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"1st round"},"home": "JBIW", "homeDivision": {"level":4,"name":"2. Division"},"away": "MRTZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2"}
+		]
+    },{
+        "key": "R32",
+        "name": "Round of 32",
+        "matches": [
+        	{"date":"2024-11-08","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "KHLN", "homeDivision": {"level":3,"name":"1. Division"},"away": "KOSM", "awayDivision": {"level":3,"name":"1. Division"},"score":"5-0"},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "ASLX", "homeDivision": {"level":4,"name":"2. Division"},"away": "STNG", "awayDivision": {"level":3,"name":"1. Division"},"score":"6-5"},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "BWIT", "homeDivision": {"level":3,"name":"1. Division"},"away": "MRTZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-4"},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "SBRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "AHOS", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-4","aet":true},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "JGIL", "homeDivision": {"level":3,"name":"1. Division"},"away": "LRNZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-3"},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "NORD", "homeDivision": {"level":3,"name":"1. Division"},"away": "ESHW", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "JUSE", "homeDivision": {"level":3,"name":"1. Division"},"away": "CLMC", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-2","aet":true},
+			{"date":"2024-11-10","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "MUNS", "homeDivision": {"level":3,"name":"1. Division"},"away": "RPLL", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-1","aet":true},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "LADH", "homeDivision": {"level":4,"name":"2. Division"},"away": "CSOB", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2","aet":true},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "JSCH", "homeDivision": {"level":3,"name":"1. Division"},"away": "JUNG", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-1"},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "U5KT", "homeDivision": {"level":3,"name":"1. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3"},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "MINL", "homeDivision": {"level":4,"name":"2. Division"},"away": "DARE", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2"},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "BWMD", "homeDivision": {"level":3,"name":"1. Division"},"away": "UNRB", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-4"},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "RBPF", "homeDivision": {"level":3,"name":"1. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"1. Division"},"score":"5-2"},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "SHGN", "homeDivision": {"level":3,"name":"1. Division"},"away": "BAST", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2"},
+			{"date":"2024-11-20","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 32"},"home": "WINC", "homeDivision": {"level":4,"name":"2. Division"},"away": "YBWT", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2"}
+		]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+            {"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "NORD", "homeDivision": {"level":3,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-2","aet":true},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "JUSE", "homeDivision": {"level":3,"name":"1. Division"},"away": "BAST", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-0"},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "YBWT", "homeDivision": {"level":3,"name":"1. Division"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2"},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "AHOS", "homeDivision": {"level":3,"name":"1. Division"},"away": "LADH", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-2"},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "UNRB", "homeDivision": {"level":3,"name":"1. Division"},"away": "JSCH", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-1"},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "RPLL", "homeDivision": {"level":4,"name":"2. Division"},"away": "DARE", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3","aet":true},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "MRTZ", "homeDivision": {"level":3,"name":"1. Division"},"away": "LRNZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2","aet":true},
+			{"date":"2025-03-19","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Round of 16"},"home": "KHLN", "homeDivision": {"level":3,"name":"1. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2","aet":true}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"2025-04-02","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "ASLX", "homeDivision": {"level":4,"name":"2. Division"},"away": "LRNZ", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-2"},
+			{"date":"2025-04-02","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "DARE", "homeDivision": {"level":3,"name":"1. Division"},"away": "UNRB", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-0"},
+			{"date":"2025-04-02","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "YBDK", "homeDivision": {"level":3,"name":"1. Division"},"away": "NORD", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-2","aet":true},
+			{"date":"2025-04-02","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "JUSE", "homeDivision": {"level":3,"name":"1. Division"},"away": "AHOS", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-2"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"2025-04-30","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "LRNZ", "homeDivision": {"level":3,"name":"1. Division"},"away": "DARE", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-0"},
+			{"date":"2025-04-30","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "JUSE", "homeDivision": {"level":3,"name":"1. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-1"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"2025-06-07","season": "2024-25","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "LRNZ", "homeDivision": {"level":3,"name":"1. Division"},"away": "JUSE", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-2"}
+        ]
+    }],
+    "winner": "LRNZ",
+    "title_count": 1
+}

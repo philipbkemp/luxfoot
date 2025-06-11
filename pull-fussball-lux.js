@@ -50,7 +50,8 @@ allTeams = {
     "FC Beyren": "BYUD", "US Eschdorf": "UEDF", "Mansfeldia Clausen-Cents": "MANC","Sporting Club Steinfort":"SPST","Young Boys Schweicherthal":"YBSW",
     "Black Boys Bascharage": "BBOY", "FC Obercorn": "FCOB","Jeunesse Sportive Sanem":"JSNM", "US Hagen": "HAGN", "Young Boys Zolver": "YBSL",
     "The International Esch": "IESH", "Enfants de la Source Mondorf": "ENFM", "Jeunesse Monnerich":"JMON","Jeunesse Mondercange":"JMON","US Merl":"MERL",
-    "Stade Mosellan Grevenmacher":"SGRV","Union Beckerich":"UBEK","Alzetta Cruchten":"ALCR"
+    "Stade Mosellan Grevenmacher":"SGRV","Union Beckerich":"UBEK","Alzetta Cruchten":"ALCR","FC Käerch":"KOSM","Alliance Aischdall Hobscheid/Eischen":"AAHE",
+    "Daring Echternach":"DARE","FC Red Black Pfaffenthal":"RBPF","Racing FC Union Luxemburg":"RACE"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
