@@ -484,7 +484,7 @@
 		},
 		"cups": {
 			"cup_luxembourg": {"missing":true,"season": "1945-46", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 3, "winner_division": {"level": 2,"name": "1. Division"}},
-			"cup_flf": {"missing":true,"season": "1945-46", "name": "Coupe FLF", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_flf": {"season": "1945-46", "name": "Coupe FLF", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1946-47",

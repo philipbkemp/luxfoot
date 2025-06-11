@@ -1,0 +1,34 @@
+{
+    "season": "1945-46",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1946-47",
+        "prev": "1944-15"
+    },
+    "rounds": [{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASCH", "awayDivision": {"level":4,"name":"2. Division"},"score":"12-2"},
+			{"season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "BBML", "homeDivision": {"level":4,"name":"2. Division"},"away": "BWIT", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-3","aet":true},
+			{"season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASLX", "awayDivision": {"level":2,"name":"1. Division"},"score":"7-0"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1946-02-03","season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-5"},
+			{"date":"1946-02-03","season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "BBML", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0","forfeit":true}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1946-04-07","season": "1945-46","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-0"}
+        ]
+    }],
+    "winner": "RBDF",
+    "title_count": 1
+}
