@@ -1,0 +1,32 @@
+{
+    "level": 4,
+	"season": "1929-30",
+    "links": {
+        "next": "1930-31",
+        "prev": "1928-29",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["CSHL","DARE","JWAS","MANC","RPDN","RSML"],
+        "standings": [
+            {"place": 1, "team": "RSML", "w": 9, "d": 0, "l": 1, "f": 53, "a":  9, "pts_win": 2, "season": "1929-30", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season":"1930-31","level":3,"name":"2. Division"}},
+            {"place": 2, "team": "DARE", "w": 6, "d": 2, "l": 2, "f": 27, "a":  9, "pts_win": 2, "season": "1929-30", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "RPDN", "w": 5, "d": 0, "l": 5, "f": 19, "a": 24, "pts_win": 2, "season": "1929-30", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "JWAS", "w": 3, "d": 1, "l": 6, "f": 21, "a": 26, "pts_win": 2, "season": "1929-30", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "CSHL", "w": 3, "d": 0, "l": 7, "f": 13, "a": 39, "pts_win": 2, "season": "1929-30", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "MANC", "w": 2, "d": 1, "l": 7, "f":  9, "a": 35, "pts_win": 2, "season": "1929-30", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["RSML"],
+        "target": {"season":"1930-31","level":3,"name":"2. Division"}
+    }
+}
