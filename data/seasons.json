@@ -984,10 +984,10 @@
 				{"missing":true,"season": "1965-66", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "VICR"},
 				{"missing":true,"season": "1965-66", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "OYMP"}
 			]},
-			"level_6": {"missing":true,"season": "1965-66", "level":  6, "name": "4. Division", "series": [
+			"level_6": {"season": "1965-66", "level":  6, "name": "4. Division", "series": [
 				{"missing":true,"season": "1965-66", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "KPWW"},
 				{"missing":true,"season": "1965-66", "level":  6, "series":  2, "name": "4. Division Series 4", "winner": "ARBD"},
-				{"missing":true,"season": "1965-66", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "ATBS"}
+				{"season": "1965-66", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "ATBS"}
 			]}
 		},
 		"cups": {
