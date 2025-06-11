@@ -1097,9 +1097,9 @@
 				{"missing":true,"season": "1969-70", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "KOPS"},
 				{"missing":true,"season": "1969-70", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UBSH"}
 			]},
-			"level_6": {"missing":true,"season": "1969-70", "level":  6, "name": "4. Division", "series": [
+			"level_6": {"season": "1969-70", "level":  6, "name": "4. Division", "series": [
 				{"missing":true,"season": "1969-70", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "UFLN"},
-				{"missing":true,"season": "1969-70", "level":  6, "series":  2, "name": "4. Division Series 4", "winner": "BWMD"},
+				{"season": "1969-70", "level":  6, "series":  2, "name": "4. Division Series 4", "winner": "BWMD"},
 				{"missing":true,"season": "1969-70", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "BOUS"},
 				{"missing":true,"season": "1969-70", "level":  6, "series":  4, "name": "4. Division Series 4", "winner": "JSKH"}
 			]}

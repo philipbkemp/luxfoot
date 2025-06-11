@@ -1,0 +1,43 @@
+{
+    "level": 6,
+	"season": "1969-70",
+    "links": {
+        "next": "1970-71",
+        "prev": "1968-69",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ALCR","ASCB","BAST","BDBB","BWMD","JGIL","OBCN","OYCW","RUPL"],
+        "standings": [
+            {"place": 1, "team": "BWMD", "w": 15, "d": 0, "l":  1, "f": 76, "a": 16, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2", "promoted": true, "target": {"season": "1970-71", "level": 5, "name": "3. Division"}},
+            {"place": 2, "team": "BDBB", "w":  9, "d": 3, "l":  4, "f": 61, "a": 32, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 3, "team": "RUPL", "w":  9, "d": 3, "l":  4, "f": 58, "a": 31, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 4, "team": "OYCW", "w":  8, "d": 4, "l":  4, "f": 56, "a": 41, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 5, "team": "OBCN", "w":  9, "d": 1, "l":  6, "f": 54, "a": 30, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 6, "team": "ASCB", "w":  7, "d": 2, "l":  7, "f": 40, "a": 36, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 7, "team": "ALCR", "w":  4, "d": 2, "l": 10, "f": 34, "a": 61, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 8, "team": "JGIL", "w":  3, "d": 1, "l": 12, "f": 27, "a": 86, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 9, "team": "BAST", "w":  0, "d": 0, "l": 16, "f": 14, "a": 87, "pts_win": 2, "season": "1969-70", "level": 6, "series": 2, "league": "4. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["BWMD"],
+        "target": {"season": "1970-71", "level": 5, "name": "3. Division"}
+    }
+}
