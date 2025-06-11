@@ -47,7 +47,7 @@ function parseLeague(league) {
 		standingsPanel.append( buildStandings(league.standings,league.pts_win?league.pts_win:3) );
 		if ( league.pts_win && league.pts_win !== 3) {
 			standingsPanel.append(
-				$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+				$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
 					league.pts_win + " points for a win"
 				)
 			);
@@ -98,7 +98,7 @@ function parseLeague(league) {
 				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
 				if ( league.pts_win && league.pts_win !== 3) {
 					seriesPanel.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
 							league.pts_win + " points for a win"
 						)
 					);
@@ -106,7 +106,7 @@ function parseLeague(league) {
 				}
 				if ( series.note ) {
 					seriesPanel.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
 							series.note
 						)
 					);
@@ -445,7 +445,7 @@ function parseLeague(league) {
 	}
 	if ( league.note ) {
 		standingsPanel.append(
-			$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-5").html(
+			$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
 				league.note
 			)
 		);
