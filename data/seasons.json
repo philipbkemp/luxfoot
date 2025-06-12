@@ -1454,9 +1454,9 @@
 				{"missing":true, "season": "1980-81", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "OVND"},
 				{"missing":true, "season": "1980-81", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SWFT"}
 			]},
-			"level_4": {"missing":true, "season": "1980-81", "level": 4, "name": "2. Division","series":[
+			"level_4": {"season": "1980-81", "level": 4, "name": "2. Division","series":[
 				{"missing":true, "season": "1980-81", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JSCH"},
-				{"missing":true, "season": "1980-81", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOST"},
+				{"season": "1980-81", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOST"},
 				{"missing":true, "season": "1980-81", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "ULUX:2"},
 				{"missing":true, "season": "1980-81", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "SCBT"}
 			]},

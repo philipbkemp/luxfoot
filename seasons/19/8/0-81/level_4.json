@@ -1,0 +1,51 @@
+{
+    "level": 4,
+	"season": "1980-81",
+    "links": {
+        "next": "1981-82",
+        "prev": "1979-80",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AFLX","BOUS","HOST","JBIW","JCNC","MUNS","OYCW","RBAS","SAND","USMM","VINE","YBWT"],
+        "standings": [
+            {"place":  1, "team": "HOST", "w": 15, "d": 2, "l":  5, "f": 54, "a": 32, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1981-82", "level": 3, "name": "1. Division"}},
+		    {"place":  2, "team": "OYCW", "w": 12, "d": 3, "l":  7, "f": 44, "a": 32, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  3, "team": "JBIW", "w":  9, "d": 7, "l":  6, "f": 50, "a": 34, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  4, "team": "JCNC", "w": 10, "d": 5, "l":  7, "f": 37, "a": 36, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  5, "team": "VINE", "w": 11, "d": 2, "l":  9, "f": 55, "a": 39, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  6, "team": "RBAS", "w":  9, "d": 6, "l":  7, "f": 34, "a": 33, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  7, "team": "USMM", "w":  8, "d": 6, "l":  8, "f": 43, "a": 41, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  8, "team": "SAND", "w":  8, "d": 5, "l":  9, "f": 44, "a": 45, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place":  9, "team": "BOUS", "w":  8, "d": 4, "l": 10, "f": 36, "a": 38, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place": 10, "team": "AFLX", "w":  6, "d": 7, "l":  9, "f": 43, "a": 51, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2"},
+		    {"place": 11, "team": "YBWT", "w":  3, "d": 8, "l": 11, "f": 38, "a": 52, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1981-82", "level": 5, "name": "3. Division"}},
+		    {"place": 12, "team": "MUNS", "w":  3, "d": 5, "l": 14, "f": 37, "a": 82, "pts_win": 2, "season": "1980-81", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1981-82", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["HOST"],
+        "target": {"season": "1981-82", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["YBWT","MUNS"],
+        "target": {"season": "1981-82", "level": 5, "name": "3. Division"}
+    }
+}
