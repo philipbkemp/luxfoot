@@ -1,0 +1,26 @@
+{
+    "season": "2006-07",
+    "europa_league": {
+        "name": "UEFA Cup",
+        "season": "2006-07",
+        "links": {
+            "next": "2007-08",
+            "prev": "2005-06"
+        },
+        "teams": ["JESH","ETZE"],
+        "rounds": [{
+            "key": "Q1",
+            "name": "Qualifying R1",
+            "matches": {
+                "ETZE": [
+                    {"isEurope":true,"date":"2006-07-13","leg":1,"home":"SWE:ATVD","away":"ULUX","score":"4-0","season":"2006-07","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Qualifying R1","leg":1}},
+                    {"isEurope":true,"date":"2006-07-27","leg":2,"home":"ETZE","away":"SWE:ATVD","score":"0-3","season":"2006-07","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Qualifying R1","leg":2},"agg":{"score":"0-7","outcome":"L","team":"ETZE"}}
+                ],
+                "JESH": [
+                    {"isEurope":true,"date":"2006-07-13","leg":1,"home":"JESH","away":"LVA:SKNT","score":"0-2","season":"2006-07","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Qualifying R1","leg":1}},
+                    {"isEurope":true,"date":"2006-07-27","leg":2,"home":"LVA:SKNT","away":"JESH","score":"3-0","season":"2006-07","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"Qualifying R1","leg":2},"agg":{"score":"5-0","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}

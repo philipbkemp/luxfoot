@@ -2272,7 +2272,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"2006-07","teams":["F91D"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"2006-07","teams":["JESH","ETZE"]},
+			"europa_league": {"name":"UEFA Cup",							"season":"2006-07","teams":["JESH","ETZE"]},
 			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"2006-07","teams":["CGRV"]}
 		}
 	},{
