@@ -2236,8 +2236,8 @@
 				{"missing":true, "season": "2005-06", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "SPST"},
 				{"missing":true, "season": "2005-06", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "HOST"}
 			]},
-			"level_4": {"missing":true, "season": "2005-06", "level": 4, "name": "2. Division","series":[
-				{"missing":true, "season": "2005-06", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ATBS"},
+			"level_4": {"season": "2005-06", "level": 4, "name": "2. Division","series":[
+				{"season": "2005-06", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ATBS"},
 				{"missing":true, "season": "2005-06", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "MDLB"},
 				{"missing":true, "season": "2005-06", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "HOBS"}
 			]},
