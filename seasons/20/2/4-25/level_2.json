@@ -26,12 +26,6 @@
 		{"place": 15, "team": "AVBG", "w":  6, "d":  6, "l": 18, "f": 31, "a": 57, "season": "2024-25", "level": 2, "league": "Division of Honour","relegated": true, "target": {"season":"2025-26","level":3,"name":"1. Division"}},
 		{"place": 16, "team": "SAND", "w":  2, "d":  7, "l": 21, "f": 28, "a": 89, "season": "2024-25", "level": 2, "league": "Division of Honour","relegated": true, "target": {"season":"2025-26","level":3,"name":"1. Division"}}
     ],
-    "possible": {
-        "promotion": [1,2],
-        "playoff_updown": [3,4],
-        "relegation": [15,16],
-        "playoff_downup": [13,14]
-    },
     "relegation": {
         "teams": ["SAND,AVBG"],
         "target": {"season":"2025-26","level":3,"name":"1. Division"}
