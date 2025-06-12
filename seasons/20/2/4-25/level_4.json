@@ -226,7 +226,7 @@
             {"place":  7, "team": "ASLX", "w": 10, "d": 8, "l":  8, "f": 51, "a": 51, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"place":  9, "team": "CLMC", "w": 10, "d": 4, "l": 12, "f": 35, "a": 46, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"place": 11, "team": "LADH", "w":  9, "d": 1, "l": 16, "f": 42, "a": 61, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
-            {"place": 12, "team": "MLSV", "w":  6, "d": 8, "l": 12, "f": 35, "a": 45, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 12, "team": "MLSV", "w":  6, "d": 8, "l": 12, "f": 33, "a": 45, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"place": 10, "team": "ESHW", "w":  7, "d": 5, "l": 14, "f": 37, "a": 56, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"place": 13, "team": "NORZ", "w":  5, "d": 3, "l": 18, "f": 25, "a": 66, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2","playoff":"downup"},
             {"place": 14, "team": "LUNA", "w":  2, "d": 8, "l": 16, "f": 33, "a": 83, "season": "2024-25", "level": 4, "series": 2, "league": "2. Division Series 2","relegated":true,"target":{"season":"2025-26","level":5,"name":"3. Division"}}
