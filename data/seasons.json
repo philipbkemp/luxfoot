@@ -525,12 +525,12 @@
 			    {"missing":true,"season": "1947-48", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "UESH"},
 				{"missing":true,"season": "1947-48", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "ETZE"}
 			]},
-			"level_5": {"missing":true,"season": "1947-48", "level":  5, "name": "3. Division", "series": [
+			"level_5": {"season": "1947-48", "level":  5, "name": "3. Division", "series": [
 				{"missing":true,"season": "1947-48", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "WWMP"},
 				{"missing":true,"season": "1947-48", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "GOLD"},
 				{"missing":true,"season": "1947-48", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ASTN"},
 				{"missing":true,"season": "1947-48", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "ESHW"},
-				{"missing":true,"season": "1947-48", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "RBAS"},
+				{"season": "1947-48", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "RBAS"},
 				{"missing":true,"season": "1947-48", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "JUSE"}
 			]}
 		},

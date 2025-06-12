@@ -1,0 +1,52 @@
+{
+    "level": 5,
+	"season": "1947-48",
+    "links": {
+        "next": "1948-49",
+        "prev": "1946-47",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "teams": ["BOUS","FCNC","GRIV","HOST","JFLX","MUNS","RBAS","RLND","SAND","SYRA"],
+        "standings": [
+            {"place":  1, "team": "RBAS", "w": 17, "d": 1, "l":  0, "f": 113, "a": 18, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "SAND", "w": 13, "d": 2, "l":  3, "f":  52, "a": 19, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  3, "team": "RLND", "w":  9, "d": 2, "l":  7, "f":  43, "a": 39, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  4, "team": "BOUS", "w":  7, "d": 4, "l":  7, "f":  38, "a": 39, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  5, "team": "GRIV", "w":  8, "d": 1, "l":  9, "f":  45, "a": 51, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  6, "team": "MUNS", "w":  7, "d": 3, "l":  8, "f":  30, "a": 40, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  7, "team": "FCNC", "w":  8, "d": 1, "l":  9, "f":  29, "a": 54, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  8, "team": "HOST", "w":  4, "d": 3, "l": 11, "f":  27, "a": 59, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  9, "team": "JFLX", "w":  4, "d": 3, "l": 11, "f":  18, "a": 45, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 10, "team": "SYRA", "w":  0, "d": 6, "l": 12, "f":  22, "a": 53, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"}
+        ]
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["RBAS"],
+        "target": {"season": "1948-49", "level": 4, "name": "2. Division"}
+    }
+}
