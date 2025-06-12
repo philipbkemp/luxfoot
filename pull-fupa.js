@@ -60,7 +60,11 @@ allTeams = {
     "FC Sporting Mertzig":"MRTZ","FF Norden 02 Weiswampach-Hüpperdingen":"NORD","FC Alliance Äischdall Hobscheid-Eischen":"AAHE","FCM Young Boys Diekirch":"YBDK",
     "FC Jeunesse Schieren":"JSCH","FC Jeunesse Useldingen":"JUSE","FC Syra Mensdorf":"SYRA","FC Ehleringen":"EHLR","Union 05 Kayl-Tetingen":"U5KT",
     "FC Yellow Boys Weiler-zum-Turm":"YBWT","US Berdorf-Consdorf 01":"USBC","FC Red Star Merl-Belair":"RSMB","FC Jeunesse Junglinster":"JUNG",
-    "Union Remich-Bous":"UNRB","FC Blo-Wäiss Itzig":"BWIT","FC The Belval Beles":"BLVL"
+    "Union Remich-Bous":"UNRB","FC Blo-Wäiss Itzig":"BWIT","FC The Belval Beles":"BLVL","US Reisdorf 47":"REIS","FC Racing Heiderscheid-Eschdorf":"RHSE",
+    "AS Rupensia Lusitanos Fels":"RPLL","FC Pratzerthal-Redingen":"FCPR","FC Olympia Christnach-Waldbillig":"OYCW","FC Green Boys 77 Harlingen-Ischpelt":"GBHT",
+    "FC Racing Ulflingen":"TSVG","FC Minerva Lintgen":"MINL","US Böwingen/Attert":"BVAT","AS Wintger":"WINC","FC Minière Lasauvage":"MLSV","FC Nörtzingen H.F.":"NORZ",
+    "Étoile Sportive Schouweiler":"ESHW","AS Lëtzebuerg-Fëschmaart":"ASLX","US Moutfort-Medingen":"USMM","Sporting Bartringen":"SBRT",
+    "Union Mertert-Wasserbillig":"UNMW","FC Les Aiglons Dalheim":"LADH","FC Tricolore Gasperich":"TRIG","Étoile Sportive Küntzig":"CLMC"
 };
 matches = [];
 ids = [];
