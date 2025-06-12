@@ -38,7 +38,7 @@ allTeams = {
     "Red Boys Differdingen": "RBDF","Union Luxemburg":"ULUX", "Spora Luxemburg":"SPOR","Stade Düdelingen":"SDUD","The National Schifflingen":"NSCH",
     "Alliance Düdelingen":"ADUD", "F 91 Düdelingen": "F91D", "FC Monnerich": "MDCG", "Aris Bonneweg": "ARIS", "CS Petingen": "CPET", "US Rümelingen": "URUM",
     "US Düdelingen": "USDD", "Etzella Ettelbrück": "ETZE", "US Hollerich/Bonneweg": "HLBN", "Sporting Club Luxemburg": "SCLX", "Racing Club Luxemburg": "RACL",
-    "FC Differdingen 03": "DIFF", "FC RM Hamm Benfica": "RMHM", "RFCU Luxemburg": "RACE", "Swift Hesperingen": "SWFT", "AS Luxemburg": "ASLX", "AS Schifflingen": "ASCH",
+    "FC Differdingen 03": "DIFF", "FC RM Hamm Benfica": "RMHM", "RFCU Luxemburg": "RACE", "Swift Hesperingen": "SWFT", "AS Luxemburg": "ASLX","AS Schifflingen": "ASCH",
     "Olympique Eischen": "OYMP", "Etoile Sportive Schouweiler": "ESHW", "Etoile Sportive Clemency": "CLMC", "Blo-Weiss Itzig": "BWIT", "Cessange FC": "CESS",
     "K. Wormeldange": "KWRM", "Remich/Bous": "UNRB", "U. Kayl/Tétange": "U5KT", "Mertert/Wasserb.": "UNMW", "Rés. Walferdange": "WALF", "Red Black/Egalité": "RBE7",
     "FC Schengen": "SHGN", "RS Merl/Belair": "RSMB", "FC Red Black/Egalité 07": "RBE7", "Sporting Schouweiler": "ESHW", "AS Differdingen": "ASDF",
@@ -56,9 +56,14 @@ allTeams = {
     "Daring Echternach":"DARE","FC Red Black Pfaffenthal":"RBPF","Racing FC Union Luxemburg":"RACE","Ro'de Le'w Niederdonven":"RLND","CS Greiveldange":"GRIV",
     "Fortuna Canach":"FCNC","Jeunesse Flaxweiler":"JFLX","FC Marisca Mersch":"MARM","UN Käerjeng 97":"KAER","FC Jeunesse Canach":"JCNC","FC Alisontia Steinsel":"ASTN",
     "FC Atert Bissen":"ATBS","FC Résidence Walferdingen":"WALF","Fc Berdenia Berbourg":"BDBB","FC Etzella Ettelbrück":"ETZE","FC Avenir Beggen":"AVBG",
-    "FC Luxembourg City":"LUXC"
+    "FC Luxembourg City":"LUXC","FC Blo-Wäiss Medernach":"BWMD","FC Orania Vianden":"OVND","FC AS Hosingen":"AHOS","FC Jeunesse Gilsdorf":"JGIL",
+    "FC Sporting Mertzig":"MRTZ","FF Norden 02 Weiswampach-Hüpperdingen":"NORD","FC Alliance Äischdall Hobscheid-Eischen":"AAHE","FCM Young Boys Diekirch":"YBDK",
+    "FC Jeunesse Schieren":"JSCH","FC Jeunesse Useldingen":"JUSE","FC Syra Mensdorf":"SYRA","FC Ehleringen":"EHLR","Union 05 Kayl-Tetingen":"U5KT",
+    "FC Yellow Boys Weiler-zum-Turm":"YBWT","US Berdorf-Consdorf 01":"USBC","FC Red Star Merl-Belair":"RSMB","FC Jeunesse Junglinster":"JUNG",
+    "Union Remich-Bous":"UNRB","FC Blo-Wäiss Itzig":"BWIT","FC The Belval Beles":"BLVL"
 };
 matches = [];
+ids = [];
 season = prompt("Which season?");
 competition = {
     type: "league",
@@ -69,9 +74,10 @@ series = prompt("League Series");
 if ( series !== "" ) {
     competition.series = series;
 }
-one.forEach(m=>{matches.push(buildMatch(m));});
-two.forEach(m=>{matches.push(buildMatch(m));});
-three.forEach(m=>{matches.push(buildMatch(m));});
+console.clear();
+one.forEach(m=>{    if ( ! ids.includes(m.id ) ) { ids.push(m.id); matches.push(buildMatch(m)); } });
+two.forEach(m=>{    if ( ! ids.includes(m.id ) ) { ids.push(m.id); matches.push(buildMatch(m)); } });
+three.forEach(m=>{  if ( ! ids.includes(m.id ) ) { ids.push(m.id); matches.push(buildMatch(m)); } });
 function buildMatch(m) {
     home = m.homeTeam.club.name;
     if ( ! allTeams[home] ) { console.error(home); } else { home = allTeams[home]; }
