@@ -1,0 +1,22 @@
+{
+    "season": "2016-17",
+    "champions_league": {
+        "name": "Champions League",
+        "season": "2016-17",
+        "links": {
+            "next": "2017-18",
+            "prev": "2015-16"
+        },
+        "teams": ["F91D"],
+        "rounds": [{
+            "key": "Q1",
+            "name": "Qualifying R1",
+            "matches": {
+                "F91D": [
+                    {"isEurope":true,"date":"2016-07-12","leg":1,"home":"AZE:QRBG","away":"F91D","score":"2-0","season":"2016-17","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":1}},
+                    {"isEurope":true,"date":"2016-07-20","leg":2,"home":"F91D","away":"AZE:QRBG","score":"1-1","season":"2016-17","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":2},"agg":{"score":"2-3","outcome":"L","team":"F91D"}}
+                ]
+            }
+        }]
+    }
+}

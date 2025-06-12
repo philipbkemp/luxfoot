@@ -3,6 +3,10 @@
         "_country": "Austria",
         "RAPW": {"id": "SK_Rapid_Wien", "name": "Rapid Wien"}
     },
+    "AZE": {
+        "_country": "Azerbaijan",
+        "QRBG": {"id": "Qarabağ_FK", "name":"Qarabağ"}
+    },
     "CHE": {
         "_country": "Switzerland",
         "LGNO": {"id": "FC_Lugano", "name": "Lugano"},

@@ -2531,8 +2531,8 @@
 			"cup_flf": {"missing":true, "season": "2016-17", "name": "Coupe FLF", "winner": "RSMB", "title_count": 1, "winner_division": { "level": 4,"series":2, "name": "2. Division Series 2"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"Champions League",	"season":"2016-17","teams":["F91D"]},
-			"europa_league": {"missing":true,"name":"Europa League",		"season":"2016-17","teams":["FOLA","DIFF","JESH"]}
+			"champions_league": {"name":"Champions League",			"season":"2016-17","teams":["F91D"]},
+			"europa_league": {"missing":true,"name":"Europa League","season":"2016-17","teams":["FOLA","DIFF","JESH"]}
 		}
 	},{
 		"season": "2017-18",
