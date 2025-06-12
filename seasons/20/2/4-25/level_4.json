@@ -10,7 +10,7 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "teams": ["ASCB","BVAT","FOLS","GBHT","MINL","OYCW","PRTZ","RAMB","REIS","RHSE","RPLL","SELL","TSVG","WINC"],
+        "teams": ["ASCB","BVAT","FOLS","GBHT","MINL","OYCW","FCPR","RAMB","REIS","RHSE","RPLL","SELL","TSVG","WINC"],
         "standings": [
             {"place":  1, "team": "MINL", "w": 24, "d": 1, "l":  1, "f": 91, "a": 24, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1","promoted":true,"target":{"season":"2025-26","level":3,"name":"1. Division"}},
 		    {"place":  2, "team": "RPLL", "w": 17, "d": 6, "l":  3, "f": 84, "a": 28, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1","promoted":true,"target":{"season":"2025-26","level":3,"name":"1. Division"}},
@@ -19,7 +19,7 @@
 		    {"place":  5, "team": "RHSE", "w": 11, "d": 6, "l":  9, "f": 55, "a": 60, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
 		    {"place":  6, "team": "TSVG", "w": 10, "d": 4, "l": 12, "f": 41, "a": 44, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
 		    {"place":  7, "team": "FOLS", "w":  9, "d": 6, "l": 11, "f": 53, "a": 80, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
-		    {"place":  8, "team": "PRTZ", "w":  9, "d": 5, "l": 12, "f": 52, "a": 60, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
+		    {"place":  8, "team": "FCPR", "w":  9, "d": 5, "l": 12, "f": 52, "a": 60, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
 		    {"place":  9, "team": "RAMB", "w":  9, "d": 3, "l": 14, "f": 39, "a": 48, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
 		    {"place": 10, "team": "OYCW", "w":  9, "d": 2, "l": 15, "f": 50, "a": 59, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
 		    {"place": 11, "team": "BVAT", "w":  8, "d": 5, "l": 13, "f": 36, "a": 58, "season": "2024-25", "level": 4, "series": 1, "league": "2. Division Series 1"},
