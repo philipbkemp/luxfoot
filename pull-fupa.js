@@ -64,7 +64,7 @@ allTeams = {
     "AS Rupensia Lusitanos Fels":"RPLL","FC Pratzerthal-Redingen":"FCPR","FC Olympia Christnach-Waldbillig":"OYCW","FC Green Boys 77 Harlingen-Ischpelt":"GBHT",
     "FC Racing Ulflingen":"TSVG","FC Minerva Lintgen":"MINL","US Böwingen/Attert":"BVAT","AS Wintger":"WINC","FC Minière Lasauvage":"MLSV","FC Nörtzingen H.F.":"NORZ",
     "Étoile Sportive Schouweiler":"ESHW","AS Lëtzebuerg-Fëschmaart":"ASLX","US Moutfort-Medingen":"USMM","Sporting Bartringen":"SBRT",
-    "Union Mertert-Wasserbillig":"UNMW","FC Les Aiglons Dalheim":"LADH","FC Tricolore Gasperich":"TRIG","Étoile Sportive Küntzig":"CLMC","FC Beckerich":"SBCK",
+    "Union Mertert-Wasserbillig":"UNMW","FC Les Aiglons Dalheim":"LADH","FC Tricolore Gasperich":"TRIG","Étoile Sportive Küntzig":"CLMC","FC Beckerich":"BIEK",
     "FC Les Ardoisiers Perlé":"LARD","Claravallis Clerf":"CLVX","FC Excelsior Grevels":"EXGV","FC Red Boys Uespelt":"RBAS","FC Kiischpelt Wilwerwiltz":"KPWW"
 };
 matches = [];
