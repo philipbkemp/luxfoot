@@ -274,7 +274,6 @@
     },{
         "series": 2,
         "name": "Series 2",
-        "in_progress": true,
         "teams": ["BLVL","BWIT","CGRV","DARE","EHLR","JUNG","MUNS","RBPF","RSMB","SHGN","SNEM","SYRA","U5KT","UNRB","USBC","YBWT"],
         "standings": [
             {"place":  1, "team": "BLVL", "w": 21, "d": 5, "l":  4, "f": 80, "a":  27, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2","promoted":true,"target":{"season":"2025-26","level":3,"name":"Division of Honour"}},
