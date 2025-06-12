@@ -890,7 +890,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1961-62","name":"European Cup","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"season":"1961-62","name":"Cup Winners Cup","teams":["ADUD"]}
+			"cup_winners_cup": {"missing":true,"season":"1961-62","name":"Cup Winners' Cup","teams":["ADUD"]}
 		}
 	},{
 		"season": "1962-63",
@@ -915,7 +915,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1962-63","name":"European Cup","teams":["ULUX"]},
 			"fairs_cup": {"season":"1962-63","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
-			"cup_winners_cup": {"missing":true,"season":"1962-63","name":"Cup Winners Cup","teams":["ADUD"]}
+			"cup_winners_cup": {"missing":true,"season":"1962-63","name":"Cup Winners' Cup","teams":["ADUD"]}
 		}
 	},{
 		"season": "1963-64",
@@ -968,7 +968,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1964-65","name":"European Cup","teams":["ARIS"]},
 			"fairs_cup": {"missing":true,"season":"1964-65","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"season":"1964-65","name":"Cup Winners Cup","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"season":"1964-65","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1965-66",
@@ -996,7 +996,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1965-66","name":"European Cup","teams":["SDUD"]},
 			"fairs_cup": {"missing":true,"season":"1965-66","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"season":"1965-66","name":"Cup Winners Cup","teams":["SPOR"]}
+			"cup_winners_cup": {"missing":true,"season":"1965-66","name":"Cup Winners' Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1966-67",
@@ -1024,7 +1024,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1966-67","name":"European Cup","teams":["ARIS"]},
 			"fairs_cup": {"missing":true,"season":"1966-67","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"season":"1966-67","name":"Cup Winners Cup","teams":["SPOR"]}
+			"cup_winners_cup": {"missing":true,"season":"1966-67","name":"Cup Winners' Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1967-68",
@@ -1052,7 +1052,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1967-68","name":"European Cup","teams":["JESH"]},
 			"fairs_cup": {"missing":true,"season":"1967-68","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"season":"1967-68","name":"Cup Winners Cup","teams":["ARIS"]}
+			"cup_winners_cup": {"missing":true,"season":"1967-68","name":"Cup Winners' Cup","teams":["ARIS"]}
 		}
 	},{
 		"season": "1968-69",
@@ -1081,7 +1081,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1968-69","name":"European Cup","teams":["JESH"]},
 			"fairs_cup": {"missing":true,"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"season":"1968-69","name":"Cup Winners Cup","teams":["URUM"]}
+			"cup_winners_cup": {"missing":true,"season":"1968-69","name":"Cup Winners' Cup","teams":["URUM"]}
 		}
 	},{
 		"season": "1969-70",
@@ -1110,7 +1110,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1969-70","name":"European Cup","teams":["AVBG"]},
 			"fairs_cup": {"missing":true,"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
-			"cup_winners_cup": {"missing":true,"season":"1969-70","name":"Cup Winners Cup","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"season":"1969-70","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1970-71",
@@ -1139,7 +1139,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"season":"1970-71","name":"European Cup","teams":["JESH"]},
 			"fairs_cup": {"missing":true,"season":"1970-71","name":"Inter-Cities Fairs Cup","teams":["URUM"]},
-			"cup_winners_cup": {"missing":true,"season":"1970-71","name":"Cup Winners Cup","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"season":"1970-71","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1971-72",
@@ -1167,7 +1167,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1971-72","teams":["ULUX"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1971-72","teams":["ARIS"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1971-72","teams":["JHTC"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1971-72","teams":["JHTC"]}
 		}
 	},{
 		"season": "1972-73",
@@ -1196,7 +1196,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1972-73","teams":["ARIS"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1972-73","teams":["URUM"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1972-73","teams":["RBDF"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1972-73","teams":["RBDF"]}
 		}
 	},{
 		"season": "1973-74",
@@ -1225,7 +1225,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1973-74","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1973-74","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1973-74","teams":["FOLA"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1973-74","teams":["FOLA"]}
 		}
 	},{
 		"season": "1974-75",
@@ -1254,7 +1254,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1974-75","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1974-75","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1974-75","teams":["AVBG"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1974-75","teams":["AVBG"]}
 		}
 	},{
 		"season": "1975-76",
@@ -1323,7 +1323,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1976-77","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1976-77","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1976-77","teams":["ARIS"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1976-77","teams":["ARIS"]}
 		}
 	},{
 		"season": "1977-78",
@@ -1363,7 +1363,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1977-78","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1977-78","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1977-78","teams":["PRON"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1977-78","teams":["PRON"]}
 		}
 	},{
 		"season": "1978-79",
@@ -1403,7 +1403,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1978-79","teams":["PRON"]},
 			"europa_league": {"name":"UEFA Cup",						"season":"1978-79","teams":["JESH"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1978-79","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1978-79","teams":["ULUX"]}
 		}
 	},{
 		"season": "1979-80",
@@ -1483,7 +1483,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1980-81","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1980-81","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1980-81","teams":["SPOR"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1980-81","teams":["SPOR"]}
 		}
 	},{
 		"season": "1981-82",
@@ -1523,7 +1523,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1981-82","teams":["PRON"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1981-82","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1981-82","teams":["JESH"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1981-82","teams":["JESH"]}
 		}
 	},{
 		"season": "1982-83",
@@ -1563,7 +1563,7 @@
 		"europe": {
 			"champions_league": {"name":"European Cup",					"season":"1982-83","teams":["AVBG"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1982-83","teams":["PRON"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1972-83","teams":["RBDF"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1972-83","teams":["RBDF"]}
 		}
 	},{
 		"season": "1983-84",
@@ -1643,7 +1643,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1984-85","teams":["AVBG"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1984-85","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1984-85","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1984-85","teams":["ULUX"]}
 		}
 	},{
 		"season": "1985-86",
@@ -1672,7 +1672,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1985-86","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1985-86","teams":["AVBG"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1985-86","teams":["RBDF"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1985-86","teams":["RBDF"]}
 		}
 	},{
 		"season": "1986-87",
@@ -1701,7 +1701,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1986-87","teams":["AVBG"]},
 			"europa_league": {"name":"UEFA Cup",		            	"season":"1986-87","teams":["JESH"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1986-87","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1986-87","teams":["ULUX"]}
 		}
 	},{
 		"season": "1987-88",
@@ -1730,7 +1730,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1987-88","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1987-88","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1987-88","teams":["AVBG"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1987-88","teams":["AVBG"]}
 		}
 	},{
 		"season": "1988-89",
@@ -1761,7 +1761,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1988-89","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1988-89","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1988-89","teams":["AVBG"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1988-89","teams":["AVBG"]}
 		}
 	},{
 		"season": "1989-90",
@@ -1792,7 +1792,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1989-90","teams":["SPOR"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1989-90","teams":["JESH"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1989-90","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1989-90","teams":["ULUX"]}
 		}
 	},{
 		"season": "1990-91",
@@ -1823,7 +1823,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1990-91","teams":["ULUX"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1990-91","teams":["AVBG"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1990-91","teams":["SWFT"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1990-91","teams":["SWFT"]}
 		}
 	},{
 		"season": "1991-92",
@@ -1854,7 +1854,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"European Cup",	"season":"1991-92","teams":["ULUX"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1991-92","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1991-92","teams":["JESH"]}
+			"cup_winners_cup": {"name":"Cup Winners' Cup",				"season":"1991-92","teams":["JESH"]}
 		}
 	},{
 		"season": "1992-93",
@@ -1885,7 +1885,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1992-93","teams":["ULUX"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1992-93","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1992-93","teams":["AVBG"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup",	"season":"1992-93","teams":["AVBG"]}
 		}
 	},{
 		"season": "1993-94",
@@ -1916,7 +1916,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1993-94","teams":["AVBG"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1993-94","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1993-94","teams":["F91D"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup",	"season":"1993-94","teams":["F91D"]}
 		}
 	},{
 		"season": "1994-95",
@@ -1944,7 +1944,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1994-95","teams":["AVBG"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1994-95","teams":["CGRV"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1994-95","teams":["F91D"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup",	"season":"1994-95","teams":["F91D"]}
 		}
 	},{
 		"season": "1995-96",
@@ -1973,7 +1973,7 @@
 		},
 		"europe": {
 			"europa_league": {"name":"UEFA Cup",						"season":"1995-96","teams":["JESH","AVBG"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1995-96","teams":["CGRV"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1995-96","teams":["CGRV"]}
 		}
 	},{
 		"season": "1996-97",
@@ -2002,7 +2002,7 @@
 		},
 		"europe": {
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1996-97","teams":["JESH","CGRV"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1996-97","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup",	"season":"1996-97","teams":["ULUX"]}
 		}
 	},{
 		"season": "1997-98",
@@ -2032,7 +2032,7 @@
 		"europe": {
 			"champions_league": {"name":"Champions League",				"season":"1997-98","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1997-98","teams":["CGRV"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup","season":"1997-98","teams":["ULUX"]}
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1997-98","teams":["ULUX"]}
 		}
 	},{
 		"season": "1998-99",
@@ -2062,7 +2062,7 @@
 		"europe": {
 			"champions_league": {"missing":true,"name":"Champions League",	"season":"1998-99","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",				"season":"1998-99","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners Cup",	"season":"1998-99","teams":["CGRV"]},
+			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup",	"season":"1998-99","teams":["CGRV"]},
 			"intertoto_cup":{"missing":true,"name":"Intertoto Cup",			"season":"1998-99","teams":["HOBS"]}
 		}
 	},{

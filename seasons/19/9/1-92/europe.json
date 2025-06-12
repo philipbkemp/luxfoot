@@ -1,0 +1,22 @@
+{
+    "season": "1991-92",
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1991-92",
+        "links": {
+            "next": "1992-93",
+            "prev": "1990-91"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1991-09-18","leg":1,"home":"SWE:IFKN","away":"JESH","score":"4-0","season":"1991-92","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1991-10-02","leg":2,"home":"JESH","away":"SWE:IFKN","score":"1-2","season":"1991-92","competition":{"type":"europe","cup":"cup_winner_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"1-6","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}
