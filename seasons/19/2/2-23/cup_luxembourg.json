@@ -1,0 +1,73 @@
+{
+    "season": "1922-23",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1923-24",
+        "prev": "1921-22"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "NSCH", "homeDivision": {"level":2,"name":"The Promotion"},"away": "MARM", "awayDivision": {"level":3,"name":"2. Division"},"score":"7-1"},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RPDN", "awayDivision": {"level":3,"name":"2. Division"},"score":"4-0"},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":3,"name":"2. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-0","forfeit":true},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ECBT", "homeDivision": {"level":2,"name":"The Promotion"},"away": "ADUD", "awayDivision": {"level":3,"name":"2. Division"},"score":"0-3","forfeit":true},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UESH", "homeDivision": {"level":3,"name":"2. Division"},"away": "TRIM", "awayDivision": {"level":2,"name":"The Promotion"},"score":"4-2"},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"3. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-1"},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"The Promotion"},"away": "ROLG", "awayDivision": {"level":4,"name":"3. Division"},"score":"0-3","forfeit":true},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HOPB", "homeDivision": {"level":4,"name":"3. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-14"},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JKYL", "homeDivision": {"level":4,"name":"3. Division"},"away": "ASDF", "awayDivision": {"level":4,"name":"3. Division"},"score":"2-4"},
+			{"date":"1922-09-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSHL", "homeDivision": {"level":3,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"2. Division"},"score":"1-4"}
+        ]
+    },{
+        "key": "RI",
+        "name": "Intermediate Round",
+        "matches": [
+            {"date":"1922-10-01","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ROLG", "homeDivision": {"level":4,"name":"3. Division"},"away": "NSCH", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-2"},
+			{"date":"1922-10-01","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "UESH", "homeDivision": {"level":3,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"2. Division"},"score":"4-0"},
+			{"date":"1922-10-01","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ASDF", "homeDivision": {"level":4,"name":"3. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"2-3"},
+			{"date":"1922-10-01","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ADUD", "homeDivision": {"level":3,"name":"2. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-0"},
+			{"date":"1922-10-01","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"3. Division"},"away": "PRON", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-4"}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+            {"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RACL", "homeDivision": {"level":1,"name":"1. Division"},"away": "HLBN", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-3","forfeit":true},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"3. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-14"},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "PRON", "homeDivision": {"level":3,"name":"2. Division"},"away": "STET", "awayDivision": {"level":1,"name":"1. Division"},"score":"4-2"},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SCLX", "homeDivision": {"level":1,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-2"},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ROLG", "homeDivision": {"level":4,"name":"3. Division"},"away": "UESH", "awayDivision": {"level":3,"name":"2. Division"},"score":"1-7"},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"1. Division"},"away": "NSCH", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-0","forfeit":true},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-2"},
+			{"date":"1922-12-03","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ADUD", "homeDivision": {"level":3,"name":"2. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-3","forfeit":true}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"1923-01-07","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"4-1"},
+			{"date":"1923-01-07","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "UESH", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-2","replay":{"score":"3-1"}},
+			{"date":"1923-01-07","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":3,"name":"2. Division"},"away": "HLBN", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-2"},
+			{"date":"1923-01-07","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SCLX", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-1"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1922-04-15","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-0"},
+			{"date":"1922-04-15","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "HLBN", "homeDivision": {"level":1,"name":"1. Division"},"away": "SCLX", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-0"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1922-04-22","season": "1922-23","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"1. Division"},"away": "HLBN", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-0"}
+        ]
+    }],
+    "winner": "FOLA",
+    "title_count": 1
+}

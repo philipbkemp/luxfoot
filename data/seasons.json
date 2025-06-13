@@ -130,7 +130,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1922-23", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1922-23", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1923-24",
