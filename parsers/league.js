@@ -72,6 +72,7 @@ function parseLeague(league) {
 		}
 		$("#leagueTabContent").append(matchesPanel);
 		removeKey("matches");
+		removeKey("play_each");
 	}
 	if ( league.series ) {
 
