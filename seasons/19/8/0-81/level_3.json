@@ -1,0 +1,43 @@
+{
+    "level": 3,
+	"season": "1980-81",
+    "links": {
+        "next": "1981-82",
+        "prev": "1979-80",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ATBS","CLVX","DARE","HOBS","JSKH","JUNG","JWAS","MARM","MRTZ","OVND","UMRT","VICR"],
+        "standings": [
+            {"place":  1, "team": "OVND", "w": 15, "d": 4, "l":  3, "f": 65, "a": 31, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1981-82", "level": 2, "name": "Division of Honour"}},
+            {"place":  2, "team": "DARE", "w": 13, "d": 4, "l":  5, "f": 60, "a": 34, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  3, "team": "HOBS", "w":  8, "d": 9, "l":  5, "f": 43, "a": 28, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  4, "team": "ATBS", "w":  9, "d": 7, "l":  6, "f": 46, "a": 37, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  5, "team": "JUNG", "w":  8, "d": 8, "l":  6, "f": 39, "a": 38, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  6, "team": "JWAS", "w": 10, "d": 3, "l":  9, "f": 40, "a": 42, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  7, "team": "VICR", "w":  9, "d": 4, "l":  9, "f": 41, "a": 41, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  8, "team": "UMRT", "w":  9, "d": 4, "l":  9, "f": 40, "a": 58, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  9, "team": "MARM", "w":  6, "d": 6, "l": 10, "f": 39, "a": 40, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 10, "team": "MRTZ", "w":  6, "d": 4, "l": 12, "f": 23, "a": 45, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 11, "team": "JSKH", "w":  6, "d": 3, "l": 13, "f": 35, "a": 54, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1981-82", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "CLVX", "w":  2, "d": 6, "l": 14, "f": 26, "a": 49, "pts_win": 2, "season": "1980-81", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1981-82", "level": 4, "name": "2. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["OVND"],
+        "target": {"season": "1981-82", "level": 2, "name": "Division of Honour"}
+    },
+    "relegation": {
+        "teams": ["JSKH","CLVX"],
+        "target": {"season": "1981-82", "level": 4, "name": "2. Division"}
+    }
+}

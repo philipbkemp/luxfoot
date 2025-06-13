@@ -1450,8 +1450,8 @@
 		"leagues": {
 			"level_1": {"missing":true, "season": "1980-81", "level": 1, "name": "National Division", "winner": "PRON", "title_count": 3},
 			"level_2": {"missing":true, "season": "1980-81", "level": 2, "name": "Division of Honour", "winner": "WLTZ"},
-			"level_3": {"missing":true, "season": "1980-81", "level": 3, "name": "1. Division","series":[
-				{"missing":true, "season": "1980-81", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "OVND"},
+			"level_3": {"season": "1980-81", "level": 3, "name": "1. Division","series":[
+				{"season": "1980-81", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "OVND"},
 				{"missing":true, "season": "1980-81", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "SWFT"}
 			]},
 			"level_4": {"season": "1980-81", "level": 4, "name": "2. Division","series":[
