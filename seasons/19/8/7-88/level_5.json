@@ -1,0 +1,45 @@
+{
+    "level": 5,
+	"season": "1987-88",
+    "links": {
+        "next": "1988-89",
+        "prev": "1986-87",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["BGHP","EXGV","FOLS","GBHT","KPWW","LARD","PRTZ","RAMB","RHDS","SELL","UEDF"],
+        "standings": [
+            {"place":  1, "team": "RAMB", "w": 14, "d": 3, "l":  3, "f": 70, "a":  21, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1988-89", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "GBHT", "w": 13, "d": 3, "l":  4, "f": 59, "a":  16, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1988-89", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "PRTZ", "w": 13, "d": 1, "l":  6, "f": 36, "a":  25, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  4, "team": "RHDS", "w": 11, "d": 1, "l":  8, "f": 68, "a":  39, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  5, "team": "BGHP", "w":  8, "d": 7, "l":  5, "f": 37, "a":  31, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  6, "team": "SELL", "w": 10, "d": 2, "l":  8, "f": 45, "a":  33, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  7, "team": "KPWW", "w":  9, "d": 2, "l":  9, "f": 48, "a":  42, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  8, "team": "FOLS", "w":  8, "d": 2, "l": 10, "f": 35, "a":  42, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  9, "team": "EXGV", "w":  6, "d": 4, "l": 10, "f": 32, "a":  33, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "LARD", "w":  4, "d": 2, "l": 14, "f": 31, "a":  58, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 11, "team": "UEDF", "w":  0, "d": 1, "l": 19, "f":  9, "a": 130, "pts_win": 2, "season": "1987-88", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "missing" :true
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "missing" :true
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["RAMB","GBHT"],
+        "target": {"season": "1988-89", "level": 4, "name": "2. Division"}
+    }
+}
