@@ -90,7 +90,7 @@ function buildMatch(m) {
     if ( ! allTeams[away] ) { console.error(away); } else { away = allTeams[away]; }
     score = m.homeGoal + "-" + m.awayGoal;
     d = new Date(m.kickoff);
-    date = d.getFullYear() + "-" + (d.getMonth()+"").padStart(2,"0") + "-" + (d.getDate()+"").padStart(2,"0")
+    date = d.getFullYear() + "-" + ((d.getMonth()+1)+"").padStart(2,"0") + "-" + (d.getDate()+"").padStart(2,"0")
     return {
         home: home,
         away: away,
