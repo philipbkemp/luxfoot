@@ -30,8 +30,6 @@
             {"place": 10, "team": "ASDF", "w":  8, "d": 2, "l": 12, "f": 41, "a":  60, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
             {"place": 11, "team": "SCBT", "w":  7, "d": 3, "l": 12, "f": 42, "a":  60, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
             {"place": 12, "team": "UESH", "w":  0, "d": 0, "l": 22, "f": 17, "a": 137, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}}
-        ],
-        "matches": [
         ]
     }],
     "promotion": {
