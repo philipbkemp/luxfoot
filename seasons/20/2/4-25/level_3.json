@@ -24,7 +24,7 @@
             {"place": 10, "team": "JGIL", "w": 11, "d":  7, "l": 12, "f": 42, "a": 51, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
             {"place": 11, "team": "AHOS", "w": 11, "d":  6, "l": 13, "f": 53, "a": 52, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
             {"place": 12, "team": "NORD", "w":  9, "d":  9, "l": 12, "f": 46, "a": 59, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1"},
-            {"place": 13, "team": "ERPL", "w":  9, "d":  7, "l": 14, "f": 38, "a": 57, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1","playoff":"downup", "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
+            {"place": 13, "team": "ERPL", "w":  9, "d":  7, "l": 14, "f": 38, "a": 57, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1","playoff":"downup", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
             {"place": 14, "team": "AAHE", "w": 10, "d":  2, "l": 18, "f": 44, "a": 68, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1","playoff":"downup"},
             {"place": 15, "team": "STNG", "w":  5, "d":  6, "l": 19, "f": 29, "a": 64, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
             {"place": 16, "team": "OVND", "w":  0, "d":  6, "l": 24, "f": 24, "a": 96, "season": "2024-25", "level": 3, "series":1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}}
@@ -288,8 +288,8 @@
             {"place": 10, "team": "BWIT", "w":  9, "d": 8, "l": 13, "f": 50, "a":  52, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
             {"place": 11, "team": "MUNS", "w":  9, "d": 5, "l": 16, "f": 43, "a":  54, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
             {"place": 12, "team": "RSMB", "w":  9, "d": 5, "l": 16, "f": 45, "a":  66, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2"},
-            {"place": 13, "team": "RBPF", "w":  9, "d": 3, "l": 18, "f": 42, "a":  72, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "downup", "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
-            {"place": 14, "team": "EHLR", "w":  8, "d": 1, "l": 21, "f": 44, "a":  73, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "downup", "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
+            {"place": 13, "team": "RBPF", "w":  9, "d": 3, "l": 18, "f": 42, "a":  72, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "downup", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
+            {"place": 14, "team": "EHLR", "w":  8, "d": 1, "l": 21, "f": 44, "a":  73, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "downup", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
             {"place": 15, "team": "U5KT", "w":  6, "d": 3, "l": 21, "f": 41, "a":  84, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}},
             {"place": 16, "team": "USBC", "w":  4, "d": 1, "l": 25, "f": 24, "a": 102, "season": "2024-25", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "2025-26", "level": 4, "name":"2. Division"}}
         ],
