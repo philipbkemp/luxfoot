@@ -1,0 +1,45 @@
+{
+    "level": 2,
+	"season": "1952-53",
+    "links": {
+        "next": "1953-54",
+        "prev": "1951-52",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "missing" :true
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASCH","ASDF","BLVL","CPET","CROD","CSOB","JKYL","SCBT","TLMD","UESH","URUM","USDD"],
+        "standings": [
+            {"place":  1, "team": "USDD", "w": 18, "d": 2, "l":  2, "f": 99, "a":  25, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2", "promoted": true, "target": {"season": "1953-54", "level": 1, "name": "Honour Division"}},
+            {"place":  2, "team": "URUM", "w": 15, "d": 3, "l":  4, "f": 75, "a":  27, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  3, "team": "BLVL", "w": 11, "d": 4, "l":  7, "f": 52, "a":  47, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  4, "team": "CPET", "w": 12, "d": 1, "l":  9, "f": 55, "a":  39, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  5, "team": "CSOB", "w":  9, "d": 5, "l":  8, "f": 63, "a":  45, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  6, "team": "CROD", "w": 11, "d": 1, "l": 10, "f": 41, "a":  38, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  7, "team": "ASCH", "w":  9, "d": 4, "l":  9, "f": 47, "a":  45, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  8, "team": "TLMD", "w":  9, "d": 2, "l": 11, "f": 42, "a":  53, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place":  9, "team": "JKYL", "w":  9, "d": 1, "l": 12, "f": 59, "a":  57, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place": 10, "team": "ASDF", "w":  8, "d": 2, "l": 12, "f": 41, "a":  60, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2"},
+            {"place": 11, "team": "SCBT", "w":  7, "d": 3, "l": 12, "f": 42, "a":  60, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
+            {"place": 12, "team": "UESH", "w":  0, "d": 0, "l": 22, "f": 17, "a": 137, "pts_win": 2, "season": "1952-53", "level": 2, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}}
+        ],
+        "matches": [
+        ]
+    }],
+    "promotion": {
+        "teams": ["USDD"],
+        "target": {"season": "1953-54", "level": 1, "name": "Honour Division"}
+    },
+    "relegation": {
+        "teams": ["SCBT","UESH"],
+        "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}
+    }
+}

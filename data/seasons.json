@@ -651,9 +651,9 @@
 		"season": "1952-53",
 		"leagues": {
 			"level_1": {"season": "1952-53", "level":  1, "name": "Honour Division", "winner": "PRON", "title_count": 1},
-			"level_2": {"missing":true,"season": "1952-53", "level":  2, "name": "1. Division", "series": [
+			"level_2": {"season": "1952-53", "level":  2, "name": "1. Division", "series": [
 			    {"missing":true,"season": "1952-53", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "CGRV"},
-				{"missing":true,"season": "1952-53", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "USDD"}
+				{"season": "1952-53", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "USDD"}
 			]},
 			"level_3": {"missing":true,"season": "1952-53", "level":  3, "name": "The Promotion", "series": [
 			    {"missing":true,"season": "1952-53", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "KOPS"},
