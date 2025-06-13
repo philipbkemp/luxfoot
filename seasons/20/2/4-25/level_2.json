@@ -56,7 +56,7 @@
         {
             "home":"KOEP","homeDivision": {"level":2,"name":"Division of Honour"},
             "away":"MRTZ","awayDivision": {"level":3,"series":1,"name":"1. Division Series 1"},
-            "date":"2025-03-31","score":"v","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "downup"},
+            "date":"2025-03-31","score":"1-0","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "downup"},
             "outcome": "KOEP remain in TARGET", "target": {"season": "2025-26", "level": 2, "name":"Division of Honour"}
         }]
     },
