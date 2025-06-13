@@ -11,8 +11,8 @@
 	"standings": [
         {"place":  1, "team": "MAMR", "w": 19, "d":  8, "l":  3, "f": 69, "a": 29, "season": "2024-25", "level": 2, "league": "Division of Honour","promoted":true,"target": {"season":"2025-26","level":2,"name":"National Division"}},
 		{"place":  2, "team": "KAER", "w": 18, "d":  8, "l":  4, "f": 66, "a": 31, "season": "2024-25", "level": 2, "league": "Division of Honour","promoted":true,"target": {"season":"2025-26","level":2,"name":"National Division"}},
-		{"place":  3, "team": "ATBS", "w": 17, "d":  8, "l":  5, "f": 60, "a": 32, "season": "2024-25", "level": 2, "league": "Division of Honour","playoff":"updown"},
-		{"place":  4, "team": "JCNC", "w": 15, "d":  4, "l": 11, "f": 52, "a": 45, "season": "2024-25", "level": 2, "league": "Division of Honour","playoff":"updown"},
+		{"place":  3, "team": "ATBS", "w": 17, "d":  8, "l":  5, "f": 60, "a": 32, "season": "2024-25", "level": 2, "league": "Division of Honour","playoff":"updown","promoted":true,"target": {"season":"2025-26","level":2,"name":"National Division"}},
+		{"place":  4, "team": "JCNC", "w": 15, "d":  4, "l": 11, "f": 52, "a": 45, "season": "2024-25", "level": 2, "league": "Division of Honour","playoff":"updown","promoted":true,"target": {"season":"2025-26","level":2,"name":"National Division"}},
 		{"place":  5, "team": "LUXC", "w": 14, "d":  5, "l": 11, "f": 40, "a": 38, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"place":  6, "team": "MARM", "w": 13, "d":  5, "l": 12, "f": 49, "a": 49, "season": "2024-25", "level": 2, "league": "Division of Honour"},
 		{"place":  7, "team": "WALF", "w": 11, "d":  9, "l": 10, "f": 50, "a": 51, "season": "2024-25", "level": 2, "league": "Division of Honour"},
@@ -31,18 +31,34 @@
         "target": {"season":"2025-26","level":3,"name":"1. Division"}
     },
     "promotion": {
-        "teams": ["MAMR","KAER"],
+        "teams": ["MAMR","KAER","ATBS","JCNC"],
         "target": {"season":"2025-26","level":2,"name":"National Division"}
     },
     "playoffs": {
-        "updown": [
-            {"home":"ATBS","homeDivision": {"level":2,"name":"Division of Honour"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"}},
-            {"home":"JCNC","homeDivision": {"level":2,"name":"Division of Honour"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"}}
-        ],
-        "downup": [
-            {"home":"SCHF","homeDivision": {"level":2,"name":"Division of Honour"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "downup"}},
-            {"home":"KOEP","homeDivision": {"level":2,"name":"Division of Honour"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "downup"}}
-        ]
+        "updown": [{
+            "away":"ATBS","awayDivision": {"level":2,"name":"Division of Honour"},
+            "home":"SCBT","homeDivision": {"level":1,"name":"National Division"},
+            "date":"2025-05-29","score":"0-1","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"},
+            "outcome": "ATBS promoted to TARGET","target": {"season":"2025-26","level":2,"name":"National Division"}
+        },
+        {
+            "home":"WLTZ","homeDivision": {"level":1,"name":"National Division"},
+            "away":"JCNC","awayDivision": {"level":2,"name":"Division of Honour"},
+            "date":"2025-06-01","score":"1-1","aet":true,"penalties":"4-5","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"},
+            "outcome": "JCNC promoted to TARGET","target": {"season":"2025-26","level":2,"name":"National Division"}
+        }],
+        "downup": [{
+            "home":"SCHF","homeDivision": {"level":2,"name":"Division of Honour"},
+            "away":"SYRA","awayDivision": {"level":3,"series":2,"name":"1. Division Series 2"},
+            "date":"2025-06-02","score":"2-0","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "downup"},
+            "outcome": "SCHF remain in TARGET", "target": {"season": "2025-26", "level": 2, "name":"Division of Honour"}
+        },
+        {
+            "home":"KOEP","homeDivision": {"level":2,"name":"Division of Honour"},
+            "away":"MRTZ","awayDivision": {"level":3,"series":1,"name":"1. Division Series 1"},
+            "date":"2025-03-31","score":"v","season":"2024-25","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "downup"},
+            "outcome": "KOEP remain in TARGET", "target": {"season": "2025-26", "level": 2, "name":"Division of Honour"}
+        }]
     },
     "matches": [
         {"home":"ETZE","away":"KOEP","score":"5-1","season":"2024-25","competition":{"type":"league","level":"1","name":"Division of Honour"},"date":"2025-05-25"},

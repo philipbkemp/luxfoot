@@ -20,21 +20,29 @@
 		{"place": 10, "team": "HOST", "w": 11, "d":  5, "l": 14, "f": 50, "a": 69, "season": "2024-25", "level": 1, "league": "National Division"},
 		{"place": 11, "team": "VICR", "w":  8, "d": 10, "l": 12, "f": 29, "a": 45, "season": "2024-25", "level": 1, "league": "National Division"},
 		{"place": 12, "team": "RODG", "w":  7, "d":  8, "l": 15, "f": 40, "a": 62, "season": "2024-25", "level": 1, "league": "National Division"},
-		{"place": 13, "team": "WLTZ", "w":  8, "d":  5, "l": 17, "f": 37, "a": 61, "season": "2024-25", "level": 1, "league": "National Division","playoff":"downup"},
-		{"place": 14, "team": "SCBT", "w":  7, "d":  2, "l": 21, "f": 29, "a": 59, "season": "2024-25", "level": 1, "league": "National Division","playoff":"downup"},
+		{"place": 13, "team": "WLTZ", "w":  8, "d":  5, "l": 17, "f": 37, "a": 61, "season": "2024-25", "level": 1, "league": "National Division","playoff":"downup","relegated":true,"target":{"season":"2025-26","level":2,"name":"Division of Honour"}},
+		{"place": 14, "team": "SCBT", "w":  7, "d":  2, "l": 21, "f": 29, "a": 59, "season": "2024-25", "level": 1, "league": "National Division","playoff":"downup","relegated":true,"target":{"season":"2025-26","level":2,"name":"Division of Honour"}},
 		{"place": 15, "team": "FOLA", "w":  4, "d":  1, "l": 25, "f": 18, "a": 78, "season": "2024-25", "level": 1, "league": "National Division","relegated":true,"target":{"season":"2025-26","level":2,"name":"Division of Honour"}},
 		{"place": 16, "team": "MDCG", "w":  3, "d":  3, "l": 24, "f": 21, "a": 74, "season": "2024-25", "level": 1, "league": "National Division","relegated":true,"target":{"season":"2025-26","level":2,"name":"Division of Honour"}}
     ],
 	"champion": "DIFF",
 	"relegation": {
-		"teams": ["MDCG","FOLA"],
+		"teams": ["MDCG","FOLA","SCBT","WLTZ"],
 		"target": {"season":"2025-26","level":2,"name":"Division of Honour"}
 	},
     "playoffs": {
-        "downup": [
-            {"date":"2025-05-29","home":"SCBT","homeDivision": {"level":1,"name":"National Division"},"away":"ATBS","awayDivision": {"level":2,"name":"Division of Honour"},"score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}},
-            {"date":"2025-06-01","home":"WLTZ","homeDivision": {"level":1,"name":"National Division"},"away":"JCNC","awayDivision": {"level":2,"name":"Division of Honour"},"score":"v","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"}}
-        ]
+        "downup": [{
+            "home":"SCBT","homeDivision": {"level":1,"name":"National Division"},
+            "away":"ATBS","awayDivision": {"level":2,"name":"Division of Honour"},
+            "date":"2025-05-29","score":"0-1","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"},
+            "outcome":"SCBT relegated to TARGET","target": {"season":"2025-26","level":2,"name":"Division of Honour"}
+        },
+        {
+            "home":"WLTZ","homeDivision": {"level":1,"name":"National Division"},
+            "away":"JCNC","awayDivision": {"level":2,"name":"Division of Honour"},
+            "date":"2025-06-01","score":"1-1","aet":true,"penalties":"4-5","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division", "playoff": "downup"},
+            "outcome":"WLTZ relegated to TARGET","target": {"season":"2025-26","level":2,"name":"Division of Honour"}
+        }]
     },
 	"matches": [
         {"home":"F91D","away":"DIFF","score":"0-1","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division"},"date":"2025-02-15"},

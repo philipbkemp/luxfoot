@@ -13,20 +13,28 @@
 		{"place": 2, "team": "UESH", "w": 17, "d": 4, "l":  3, "f": 57, "a": 22, "season": "2024-25", "level": 5, "league": "3. Division", "promoted":true, "target": {"season": "2025-26","level":4,"name":"2. Division"}},
 		{"place": 3, "team": "RBAS", "w": 12, "d": 5, "l":  7, "f": 64, "a": 44, "season": "2024-25", "level": 5, "league": "3. Division", "promoted":true, "target": {"season": "2025-26","level":4,"name":"2. Division"}},
 		{"place": 4, "team": "BIEK", "w": 12, "d": 1, "l": 11, "f": 65, "a": 65, "season": "2024-25", "level": 5, "league": "3. Division", "playoff": "updown"},
-		{"place": 5, "team": "CLVX", "w": 11, "d": 4, "l":  9, "f": 46, "a": 47, "season": "2024-25", "level": 5, "league": "3. Division", "playoff": "updown"},
+		{"place": 5, "team": "CLVX", "w": 11, "d": 4, "l":  9, "f": 46, "a": 47, "season": "2024-25", "level": 5, "league": "3. Division", "playoff": "updown", "promoted":true, "target": {"season": "2025-26","level":4,"name":"2. Division"}},
 		{"place": 6, "team": "BRCH", "w":  9, "d": 5, "l": 10, "f": 45, "a": 47, "season": "2024-25", "level": 5, "league": "3. Division"},
 		{"place": 7, "team": "LARD", "w":  4, "d": 6, "l": 14, "f": 22, "a": 58, "season": "2024-25", "level": 5, "league": "3. Division"},
 		{"place": 8, "team": "EXGV", "w":  5, "d": 1, "l": 18, "f": 32, "a": 78, "season": "2024-25", "level": 5, "league": "3. Division"},
 		{"place": 9, "team": "KPWW", "w":  3, "d": 4, "l": 17, "f": 44, "a": 80, "season": "2024-25", "level": 5, "league": "3. Division"}
     ],
     "promotion": {
-        "teams": ["CBSH","UESH"],
+        "teams": ["CBSH","UESH","CLVX"],
         "target": {"season": "2025-26","level":4,"name":"2. Division"}
     },
     "playoffs": {
-        "updown": [
-            {"home":"RBAS","homeDivision": {"level":5,"name":"3. Division"},"away":"?","score":"v","season":"2024-25","competition":{"type":"league","level":5,"name":"3. Division", "playoff": "updown"}}
-        ]
+        "updown": [{
+            "away":"BIEK","awayDivision": {"level":5,"name":"3. Division"},
+            "home":"NORZ","homeDivision": {"level":4,"series":2,"name":"2. Division Series 2"},
+            "date":"2025-05-31","score":"1-0","season":"2024-25","competition":{"type":"league","level":5,"name":"3. Division", "playoff": "updown"},
+            "outcome":"BIEK remain in TARGET","target":{"season":"2025-26","level":5,"name":"3. Division"}
+        },{
+            "away":"CLVX","awayDivision": {"level":5,"name":"3. Division"},
+            "home":"REIS","homeDivision": {"level":4,"series":1,"name":"2. Division Series 1"},
+            "date":"2025-05-29","score":"0-1","season":"2024-25","competition":{"type":"league","level":5,"name":"3. Division", "playoff": "updown"},
+            "outcome":"CLVX promoted to TARGET","target": {"season": "2025-26","level":4,"name":"2. Division"}
+        }]
     },
     "matches": [
         {"home":"BIEK","away":"LARD","score":"9-0","season":"2024-25","competition":{"type":"league","level":"5","name":"3. Division"},"date":"2025-05-25"},
