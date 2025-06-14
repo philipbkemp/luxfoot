@@ -74,6 +74,13 @@ function parseLeague(league) {
 		removeKey("matches");
 		removeKey("play_each");
 	}
+	if ( league.scorers ) {
+		$("#leagueTabs").append(buildTabButton("scorers","Top Scorers"));
+		scorersPanel = buildTabPanel("scorers");
+		scorersPanel.append( buildTopScorers(league.scorers) );
+		$("#leagueTabContent").append(scorersPanel);
+		removeKey("scorers");
+	}
 	if ( league.series ) {
 
 		po_downup = po_updown = po_updownLeague = null;
@@ -1089,4 +1096,48 @@ function buildNotes(notes,wrapper) {
 		wrapper.append(thisNote);
 	});
 	return wrapper;
+}
+
+function buildTopScorers(scorers) {
+	table = $("<TABLE></TABLE>").addClass("table").addClass("table--scorers").addClass("table-hover").addClass("table-sm");
+
+	header = $("<THEAD></THEAD>");
+	headerRow = $("<TR></TR>");
+	headerRow.append( $("<TH></TH>").html("") );
+	headerRow.append( $("<TH></TH>").html("Goals") );
+	headerRow.append( $("<TH></TH>").html("Player") );
+	headerRow.append( $("<TH></TH>").html("Club") );
+	header.append(headerRow);
+
+	body = $("<TBODY></TBODY>");
+	index = 0;
+	scorers.forEach(scorer=>{
+		
+		scorerKeys = Object.keys(scorer);
+		for ( i=0 ; i!==scorerKeys.length ; i++ ) {
+			scorerKeys[i] = "scorer." + scorerKeys[i];
+		}
+
+		index++;
+		row = $("<TR></TR>");
+		row.append( $("<TD></TD>").html(index).attr("rowspan",scorer.players.length) );
+		row.append( $("<TD></TD>").html(scorer.goals).attr("rowspan",scorer.players.length) );
+		row.append( $("<TD></TD>").html(formatPlayer(scorer.players[0])) );
+		if ( scorer.players.length > 1 ) {
+			for ( i=1 ; i<=scorer.players.length ; i++ ) {
+				body.append(row);
+				row = $("<TR></TR>");
+				row.append( $("<TD></TD>").html(formatPlayer(scorer.players[i])) );
+			}
+		}
+		body.append(row);		
+	});
+
+	table.append(head).append(body);
+
+	return table;
+}
+
+function formatPlayer(parts) {
+	return (parts[0] + " " + part[1].toUpperCase() + " ("+allTeams[parts[1]]+")").trim();
 }
