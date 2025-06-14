@@ -1120,9 +1120,12 @@ function buildTopScorers(scorers) {
 
 		index++;
 		row = $("<TR></TR>");
+		if ( scorer.players.length === 1 ) {
+			row.addClass("solo");
+		}
 		row.append( $("<TD></TD>").html(index).attr("rowspan",scorer.players.length) );
 		row.append( $("<TD></TD>").html(scorer.goals).attr("rowspan",scorer.players.length) );
-		player = scorer.player[0].split("|");
+		player = scorer.players[0].split("|");
 		playerName = player[0] + " " + player[1].toUpperCase();
 		row.append( $("<TD></TD>").html( playerName ) );
 		row.append( $("<TD></TD>").html( allTeams[player[2]] ) );
@@ -1130,7 +1133,7 @@ function buildTopScorers(scorers) {
 			for ( i=1 ; i!==scorer.players.length ; i++ ) {
 				body.append(row);
 				row = $("<TR></TR>");
-				player = scorer.player[i].split("|");
+				player = scorer.players[i].split("|");
 				playerName = player[0] + " " + player[1].toUpperCase();
 				row.append( $("<TD></TD>").html(playerName) );
 				row.append( $("<TD></TD>").html( allTeams[player[2]] ) );
