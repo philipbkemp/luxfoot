@@ -1122,12 +1122,18 @@ function buildTopScorers(scorers) {
 		row = $("<TR></TR>");
 		row.append( $("<TD></TD>").html(index).attr("rowspan",scorer.players.length) );
 		row.append( $("<TD></TD>").html(scorer.goals).attr("rowspan",scorer.players.length) );
-		row.append( $("<TD></TD>").html(formatPlayer(scorer.players[0])) );
+		player = scorer.player[0].split("|");
+		playerName = player[0] + " " + player[1].toUpperCase();
+		row.append( $("<TD></TD>").html( playerName ) );
+		row.append( $("<TD></TD>").html( allTeams[player[2]] ) );
 		if ( scorer.players.length > 1 ) {
 			for ( i=1 ; i!==scorer.players.length ; i++ ) {
 				body.append(row);
 				row = $("<TR></TR>");
-				row.append( $("<TD></TD>").html(formatPlayer(scorer.players[i])) );
+				player = scorer.player[i].split("|");
+				playerName = player[0] + " " + player[1].toUpperCase();
+				row.append( $("<TD></TD>").html(playerName) );
+				row.append( $("<TD></TD>").html( allTeams[player[2]] ) );
 			}
 		}
 		body.append(row);		
@@ -1136,11 +1142,4 @@ function buildTopScorers(scorers) {
 	table.append(header).append(body);
 
 	return table;
-}
-
-function formatPlayer(playerParts) {
-	thePlayerParts = playerParts;
-	console.log(playerParts);
-	playerParts = playerParts.split("|");
-	return (playerParts[0] + " " + playerParts[1].toUpperCase() + " ("+allTeams[playerParts[2]]+")").trim();
 }
