@@ -1120,9 +1120,7 @@ function buildTopScorers(scorers) {
 
 		index++;
 		row = $("<TR></TR>");
-		if ( scorer.players.length === 1 ) {
-			row.addClass("solo");
-		}
+		row.addClass("solo");
 		row.append( $("<TD></TD>").html(index).attr("rowspan",scorer.players.length) );
 		row.append( $("<TD></TD>").html(scorer.goals).attr("rowspan",scorer.players.length) );
 		player = scorer.players[0].split("|");
