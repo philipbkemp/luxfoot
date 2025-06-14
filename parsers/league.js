@@ -1124,7 +1124,7 @@ function buildTopScorers(scorers) {
 		row.append( $("<TD></TD>").html(scorer.goals).attr("rowspan",scorer.players.length) );
 		row.append( $("<TD></TD>").html(formatPlayer(scorer.players[0])) );
 		if ( scorer.players.length > 1 ) {
-			for ( i=1 ; i<=scorer.players.length ; i++ ) {
+			for ( i=1 ; i!==scorer.players.length ; i++ ) {
 				body.append(row);
 				row = $("<TR></TR>");
 				row.append( $("<TD></TD>").html(formatPlayer(scorer.players[i])) );
