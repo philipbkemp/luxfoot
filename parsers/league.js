@@ -1133,12 +1133,11 @@ function buildTopScorers(scorers) {
 		body.append(row);		
 	});
 
-	table.append(head).append(body);
+	table.append(header).append(body);
 
 	return table;
 }
 
-thePlayerParts = "??";
 function formatPlayer(playerParts) {
 	thePlayerParts = playerParts;
 	console.log(playerParts);
