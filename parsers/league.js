@@ -1138,7 +1138,10 @@ function buildTopScorers(scorers) {
 	return table;
 }
 
+thePlayerParts = "??";
 function formatPlayer(playerParts) {
+	thePlayerParts = playerParts;
+	console.log(playerParts);
 	playerParts = playerParts.split("|");
 	return (playerParts[0] + " " + playerParts[1].toUpperCase() + " ("+allTeams[playerParts[2]]+")").trim();
 }
