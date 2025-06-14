@@ -285,5 +285,21 @@
 		{"home":"MDLB","away":"JESH","score":"4-1","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division"},"date":"2025-05-25"},
 		{"home":"UNAS","away":"DIFF","score":"1-0","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division"},"date":"2025-05-25"},
 		{"home":"WLTZ","away":"HOST","score":"2-2","season":"2024-25","competition":{"type":"league","level":1,"name":"National Division"},"date":"2025-05-25"}
+    ],
+    "scorers": [
+        {"goals":23,"players":["Matheus|Souza|UNAS"]},
+        {"goals":22,"players":["Yann|Mabella|RACE"]},
+        {"goals":19,"players":["Samir|Hadji|F91D"]},
+        {"goals":18,"players":["Junior|Burban|PRON"]},
+        {"goals":17,"players":["Dominik|Stolz|SWFT"]},
+        {"goals":16,"players":["Kenan|Avdusinovic|HOST"]},
+        {"goals":14,"players":["Guillaume|Trani|DIFF",
+                                "Sylvain|Atieda|RODG"]},
+        {"goals":13,"players":["Valentin|Fuss|UNTP"]},
+        {"goals":12,"players":["Benjamin|Romeyns|WLTZ"]},
+        {"goals":11,"players":["|Jorginho|DIFF",
+                                "Zachary|Hadji|UNAS"]},
+        {"goals":10,"players":["Diogo|Fernandes Lopes|HOST",
+                                "Mirza|Hasanbegovic|MDLB"]}
     ]
 }
