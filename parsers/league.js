@@ -1103,7 +1103,6 @@ function buildTopScorers(scorers) {
 
 	header = $("<THEAD></THEAD>");
 	headerRow = $("<TR></TR>");
-	headerRow.append( $("<TH></TH>").html("") );
 	headerRow.append( $("<TH></TH>").html("Goals") );
 	headerRow.append( $("<TH></TH>").html("Player") );
 	headerRow.append( $("<TH></TH>").html("Club") );
@@ -1121,7 +1120,6 @@ function buildTopScorers(scorers) {
 		index++;
 		row = $("<TR></TR>");
 		row.addClass("solo");
-		row.append( $("<TD></TD>").html(index).attr("rowspan",scorer.players.length) );
 		row.append( $("<TD></TD>").html(scorer.goals).attr("rowspan",scorer.players.length) );
 		player = scorer.players[0].split("|");
 		playerName = player[0] + " " + player[1].toUpperCase();
