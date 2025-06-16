@@ -135,7 +135,7 @@
 	},{
 		"season": "1923-24",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1923-24", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 4, "double": true},
+			"level_1": {"season": "1923-24", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 4, "double": true},
 			"level_2": {"missing":true,"season": "1923-24", "level":  2, "name": "The Promotion", "winner": "PROG"},
 			"level_3": {"missing":true,"season": "1923-24", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1923-24", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "YBDK"},
