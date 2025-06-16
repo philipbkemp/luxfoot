@@ -44,7 +44,7 @@
             "matches": {
                 "DIFF": [
                     {"isEurope":true,"date":"2024-07-23","leg":1,"home":"DIFF","away":"KAZ:ORBS","score":"1-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},
-                    {"isEurope":true,"date":"2024-08-01","leg":2,"home":"KAZ:ORBS","away":"DIFF","score":"4-3","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2},"aet":true,"pens":"4-3","agg":{"score":"4-4","outcome":"LP","team":"DIFF"}}
+                    {"isEurope":true,"date":"2024-08-01","leg":2,"home":"KAZ:ORBS","away":"DIFF","score":"4-3","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2},"aet":true,"penalties":"4-3","agg":{"score":"4-4","outcome":"LP","team":"DIFF"}}
                 ],
                 "PRON": [
                     {"isEurope":true,"date":"2024-07-25","leg":1,"home":"SWE:DJUR","away":"PRON","score":"3-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},

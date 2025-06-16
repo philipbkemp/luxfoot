@@ -294,9 +294,9 @@ function drawMatch(match,highlightWinner=false) {
 		} else if ( match.agg.outcome === "LA" ) {
 			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " on aggregate via the 'away goals' rule";
 		} else if ( match.agg.outcome === "WP" ) {
-			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " after penalty shootout ended " + match.agg.pens;
+			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " after penalty shootout";
 		} else if ( match.agg.outcome === "LP" ) {
-			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " after penalty shootout ended " + match.agg.pens;
+			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " after penalty shootout";
 		}
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
@@ -307,7 +307,6 @@ function drawMatch(match,highlightWinner=false) {
 		removeKey("match.agg.outcome");
 		removeKey("match.agg.team");
 		removeKey("match.agg");
-		removeKey("match.agg.pens");
 	}
 
 	if ( match.transfer ) {
