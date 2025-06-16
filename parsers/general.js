@@ -300,6 +300,9 @@ function drawMatch(match,highlightWinner=false) {
 		}
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
+		if ( match.agg.outcome === "W" || match.agg.outcome === "PW" ) {
+			matchNote.addClass("fw-bold");
+		}
 
 		matchNoteRow.append(matchNote);
 		matchObj.append(matchNoteRow);
