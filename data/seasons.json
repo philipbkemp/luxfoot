@@ -190,7 +190,7 @@
 	},{
 		"season": "1926-27",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1926-27", "level":  1, "name": "1. Division", "winner": "ULUX", "title_count": 1},
+			"level_1": {"season": "1926-27", "level":  1, "name": "1. Division", "winner": "ULUX", "title_count": 1},
 			"level_2": {"missing":true,"season": "1926-27", "level":  2, "name": "The Promotion", "winner": "SDUD"},
 			"level_3": {"missing":true,"season": "1926-27", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1926-27", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "NSCH"},
