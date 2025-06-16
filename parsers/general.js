@@ -309,6 +309,21 @@ function drawMatch(match,highlightWinner=false) {
 		removeKey("match.agg");
 		removeKey("match.agg.pens");
 	}
+
+	if ( match.transfer ) {
+		if ( match.transfer.mode === "europe" ) {
+			matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
+			matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(
+				allTeams[match.transfer.team] + " transferred to "
+			);
+			matchNote.append( $("<A></a>").attr("href","europe.html?season="+match.transfer.season+"&comp="+match.transfer.comp) );
+			matchObj.append(matchNoteRow);
+			removeKey("match.transfer");
+		} else {
+			console.error(match.transfer);
+		}
+	}
+
 	if ( match.note ) {
 		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(match.note);
