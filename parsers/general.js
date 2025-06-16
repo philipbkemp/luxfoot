@@ -311,7 +311,7 @@ function drawMatch(match,highlightWinner=false) {
 	}
 
 	if ( match.transfer ) {
-		if ( match.transfer.mode === "europe" ) {
+		if ( match.transfer.type === "europe" ) {
 			matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
 			matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(
 				allTeams[match.transfer.team] + " transferred to "
