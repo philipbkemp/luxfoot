@@ -273,7 +273,7 @@
 	},{
 		"season": "1931-32",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1931-32", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 4},
+			"level_1": {"season": "1931-32", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 4},
 			"level_2": {"missing":true,"season": "1931-32", "level":  2, "name": "The Promotion", "winner": "SDUD"},
 			"level_3": {"missing":true,"season": "1931-32", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1931-32", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SCBT"},

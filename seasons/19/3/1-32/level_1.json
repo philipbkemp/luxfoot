@@ -1,0 +1,93 @@
+{
+    "level": 1,
+	"season": "1931-32",
+    "links": {
+        "next": "1932-33",
+        "prev": "1930-31",
+        "down": 2
+    },
+	"name": "1. Division",
+	"teams": ["ARIS","FOLA","NSCH","PRON","RBDF","SPOR","ULUX","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "RBDF", "w":  9, "d": 3, "l": 2, "f": 39, "a": 19, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division", "playoff":"title","champion": true, "title_count": 4},
+		{"place": 2, "team": "PRON", "w": 10, "d": 1, "l": 3, "f": 34, "a": 22, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division", "playoff":"title"},
+		{"place": 3, "team": "SPOR", "w":  5, "d": 4, "l": 5, "f": 42, "a": 33, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division"},
+		{"place": 4, "team": "ULUX", "w":  6, "d": 2, "l": 6, "f": 31, "a": 34, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division"},
+		{"place": 5, "team": "NSCH", "w":  5, "d": 3, "l": 6, "f": 30, "a": 32, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division"},
+		{"place": 6, "team": "FOLA", "w":  4, "d": 3, "l": 7, "f": 25, "a": 28, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division", "playoff":"relegation"},
+		{"place": 7, "team": "USDD", "w":  4, "d": 3, "l": 7, "f": 28, "a": 33, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division", "playoff":"relegation", "relegated": true, "target": {"season": "1932-33", "level": 2, "name": "1. Division"}},
+		{"place": 8, "team": "ARIS", "w":  2, "d": 3, "l": 9, "f": 19, "a": 47, "pts_win": 2, "season": "1931-32", "level": 1, "league": "1. Division", "relegated": true, "target": {"season": "1932-33", "level": 2, "name": "1. Division"}}
+    ],
+	"champion": "RBDF",
+	"relegation": {
+		"teams": ["USDD","ARIS"],
+		"target": {"season": "1932-33", "level": 2, "name": "1. Division"}
+	},
+    "playoffs": {
+        "title": [
+            {"home":"RBDF","away":"PRON","score":"4-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division","playoff":"title"},"outcome":"RBDF declared champion"}
+        ],
+        "relegation": [
+            {"home":"FOLA","away":"USDD","score":"4-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division","playoff":"relegation"},"outcome":"USDD relegated to TARGET","target": {"season": "1932-33", "level": 2, "name": "1. Division"}}
+        ]
+    },
+	"matches": [
+        {"home":"RBDF","away":"PRON","score":"6-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"RBDF","away":"SPOR","score":"2-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"RBDF","away":"ULUX","score":"5-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"RBDF","away":"NSCH","score":"4-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"RBDF","away":"FOLA","score":"2-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"RBDF","away":"USDD","score":"1-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"RBDF","away":"ARIS","score":"7-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"RBDF","score":"4-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"SPOR","score":"4-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"ULUX","score":"1-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"NSCH","score":"1-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"FOLA","score":"3-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"USDD","score":"3-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"PRON","away":"ARIS","score":"1-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"RBDF","score":"3-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"PRON","score":"2-4","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"ULUX","score":"3-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"NSCH","score":"3-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"FOLA","score":"4-4","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"USDD","score":"2-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"SPOR","away":"ARIS","score":"7-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"RBDF","score":"2-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"PRON","score":"1-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"SPOR","score":"2-5","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"NSCH","score":"2-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"FOLA","score":"2-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"USDD","score":"1-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ULUX","away":"ARIS","score":"4-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"RBDF","score":"1-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"PRON","score":"1-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"SPOR","score":"5-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"ULUX","score":"2-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"FOLA","score":"2-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"USDD","score":"1-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"NSCH","away":"ARIS","score":"1-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"RBDF","score":"1-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"PRON","score":"0-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"SPOR","score":"2-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"ULUX","score":"3-4","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"NSCH","score":"1-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"USDD","score":"5-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"ARIS","score":"1-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"RBDF","score":"2-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"PRON","score":"1-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"SPOR","score":"2-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"ULUX","score":"0-4","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"NSCH","score":"6-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"FOLA","score":"2-4","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"USDD","away":"ARIS","score":"3-0","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"RBDF","score":"1-1","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"PRON","score":"2-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"SPOR","score":"1-5","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"ULUX","score":"4-3","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"NSCH","score":"2-5","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"FOLA","score":"0-2","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"ARIS","away":"USDD","score":"2-5","season":"1931-32","competition":{"type":"league","level": 1,"name": "1. Division"}}
+    ]
+}
