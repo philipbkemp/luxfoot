@@ -115,7 +115,7 @@
 	},{
 		"season": "1922-23",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1922-23", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 1},
+			"level_1": {"season": "1922-23", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 1},
 			"level_2": {"missing":true,"season": "1922-23", "level":  2, "name": "The Promotion", "winner": "RBPF"},
 			"level_3": {"season": "1922-23", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1922-23", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "RPDN"},
