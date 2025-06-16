@@ -318,7 +318,11 @@ function drawMatch(match,highlightWinner=false) {
 			matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(
 				allTeams[match.transfer.team] + " transferred to "
 			);
-			matchNote.append( $("<A></a>").attr("href","europe.html?season="+match.transfer.season+"&comp="+match.transfer.comp) );
+			matchNote.append(
+				$("<A></a>")
+				.attr("href","europe.html?season="+match.transfer.season+"&comp="+match.transfer.comp)
+				.html(match.transfer.season + " " + match.transfer.name)
+			);
 			matchNoteRow.append(matchNote);
 			matchObj.append(matchNoteRow);
 			removeKey("match.transfer");
