@@ -172,7 +172,7 @@
 	},{
 		"season": "1925-26",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1925-26", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 2, "double": true},
+			"level_1": {"season": "1925-26", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 2, "double": true},
 			"level_2": {"missing":true,"season": "1925-26", "level":  2, "name": "The Promotion", "winner": "ARIS"},
 			"level_3": {"missing":true,"season": "1925-26", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1925-26", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "JKYL"},
