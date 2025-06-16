@@ -13,7 +13,7 @@
             "matches": {
                 "DIFF": [
                     {"isEurope":true,"date":"2024-07-10","leg":1,"home":"FRO:KLAK","away":"DIFF","score":"2-0","season":"2024-25","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":1}},
-                    {"isEurope":true,"date":"2024-07-17","leg":2,"home":"DIFF","away":"FRO:KLAK","score":"0-0","season":"2024-25","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":2},"agg":{"score":"0-2","outcome":"L","team":"DIFF"},"transfer":{"type":"europe","season":"2024-25","comp":"conference_league","team":"DIFF"}
+                    {"isEurope":true,"date":"2024-07-17","leg":2,"home":"DIFF","away":"FRO:KLAK","score":"0-0","season":"2024-25","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":2},"agg":{"score":"0-2","outcome":"L","team":"DIFF"},"transfer":{"type":"europe","season":"2024-25","comp":"conference_league","team":"DIFF"}}
                 ]
             }
         }]
