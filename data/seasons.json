@@ -224,7 +224,7 @@
 	},{
 		"season": "1928-29",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1928-29", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 3},
+			"level_1": {"season": "1928-29", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 3},
 			"level_2": {"missing":true,"season": "1928-29", "level":  2, "name": "The Promotion", "winner": "ULUX"},
 			"level_3": {"missing":true,"season": "1928-29", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1928-29", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
