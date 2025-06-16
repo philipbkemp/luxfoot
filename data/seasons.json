@@ -110,7 +110,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1921-22", "name": "Luxembourg Cup", "winner": "RACL", "title_count": 1, "winner_division": {"level": 2,"name": "The Promotion"}}
+			"cup_luxembourg": {"season": "1921-22", "name": "Luxembourg Cup", "winner": "RACL", "title_count": 1, "winner_division": {"level": 2,"name": "The Promotion"}}
 		}
 	},{
 		"season": "1922-23",

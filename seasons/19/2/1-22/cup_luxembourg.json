@@ -1,0 +1,78 @@
+{
+    "season": "1921-22",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1922-23"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RBPF", "awayDivision": {"level":3,"name":"2. Division"},"score":"0-2"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":3,"name":"2. Division"},"away": "MANC", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-0","forfeit":true},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MARM", "homeDivision": {"level":4,"name":"3. Division"},"away": "GOLD", "awayDivision": {"level":4,"name":"3. Division"},"score":"3-2"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CROD", "homeDivision": {"level":2,"name":"The Promotion"},"away": "ASDF", "awayDivision": {"level":4,"name":"3. Division"},"score":"4-3"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RPDN", "homeDivision": {"level":4,"name":"3. Division"},"away": "JVRL", "awayDivision": {"level":4,"name":"3. Division"},"score":"3-0","forfeit":true},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"2. Division"},"away": "JHTC", "awayDivision": {"level":4,"name":"3. Division"},"score":"7-1"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"3. Division"},"away": "YBDK", "awayDivision": {"level":4,"name":"3. Division"},"score":"5-2"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ECBT", "homeDivision": {"level":3,"name":"2. Division"},"away": "MERL", "awayDivision": {"level":4,"name":"3. Division"},"score":"2-0"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BLVL", "homeDivision": {"level":3,"name":"2. Division"},"away": "CSHL", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-0"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"The Promotion"},"away": "JSTF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-0","forfeit":true},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":3,"name":"2. Division"},"away": "SGRV", "awayDivision": {"level":4,"name":"3. Division"},"score":"3-2"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RACL", "homeDivision": {"level":2,"name":"The Promotion"},"away": "USND", "awayDivision": {"level":4,"name":"3. Division"},"score":"11-1"},
+			{"date":"1921-09-04","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UBEK", "homeDivision": {"level":4,"name":"3. Division"},"away": "STET", "awayDivision": {"level":2,"name":"The Promotion"},"score":"0-3","forfeit":true}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+            {"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"1. Division"},"score":"4-2"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ECBT", "homeDivision": {"level":3,"name":"2. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"The Promotion"},"score":"2-3"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"3. Division"},"away": "USDD", "awayDivision": {"level":4,"name":"3. Division"},"score":"0-8"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RACL", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RBPF", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-0"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "MARM", "homeDivision": {"level":4,"name":"3. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"2. Division"},"score":"1-4"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TRIM", "homeDivision": {"level":1,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-4"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RPDN", "homeDivision": {"level":4,"name":"3. Division"},"away": "PRON", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-3"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CROD", "homeDivision": {"level":2,"name":"The Promotion"},"away": "AVBG", "awayDivision": {"level":3,"name":"2. Division"},"score":"0-3","forfeit":true},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":2,"name":"The Promotion"},"away": "HLBN", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-2"},
+			{"date":"1921-10-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SCLX", "homeDivision": {"level":1,"name":"1. Division"},"away": "ADUD", "awayDivision": {"level":3,"name":"2. Division"},"score":"ff.","forfeit":true},
+			{"bye":"SDUD", "byeDivision": {"level":1,"name":"1. Division"}}
+        ]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"date":"1921-11-06","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SCLX", "homeDivision": {"level":1,"name":"1. Division"},"away": "RACL", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-6"},
+			{"date":"1921-11-06","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-1"},
+			{"date":"1921-11-06","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"2. Division"},"score":"6-0"},
+			{"date":"1921-11-06","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "PRON", "homeDivision": {"level":3,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-0","forfeit":true},
+			{"date":"1921-11-06","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "HLBN", "homeDivision": {"level":1,"name":"1. Division"},"away": "USDD", "awayDivision": {"level":4,"name":"3. Division"},"score":"2-1"},
+			{"bye":"URUM", "byeDivision": {"level":2,"name":"The Promotion"}}
+		]
+    },{
+        "key": "R4",
+        "name": "4th round",
+        "matches": [
+        	{"date":"1922-02-05","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "RACL", "homeDivision": {"level":2,"name":"The Promotion"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"4-0"},
+			{"date":"1922-02-05","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "HLBN", "homeDivision": {"level":1,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-1"},
+			{"date":"1922-02-05","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-1"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1922-04-02","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "HLBN", "awayDivision": {"level":1,"name":"1. Division"},"score":"8-1"},
+			{"bye":"RACL", "byeDivision": {"level":2,"name":"The Promotion"}}    
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1922-05-21","season": "1921-22","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RACL", "homeDivision": {"level":2,"name":"The Promotion"},"away": "JESH", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-0"}
+        ]
+    }],
+    "winner": "RACL",
+    "title_count": 1
+}
