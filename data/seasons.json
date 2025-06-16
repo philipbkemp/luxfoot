@@ -207,7 +207,7 @@
 	},{
 		"season": "1927-28",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1927-28", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 2, "double": true},
+			"level_1": {"season": "1927-28", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 2, "double": true},
 			"level_2": {"missing":true,"season": "1927-28", "level":  2, "name": "The Promotion", "winner": "ASDF"},
 			"level_3": {"missing":true,"season": "1927-28", "level":  3, "name": "2. Division", "series": [
 			    {"missing":true,"season": "1927-28", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SWFT"},
