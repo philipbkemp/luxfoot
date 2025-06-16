@@ -690,6 +690,7 @@ function buildResultsTable(teams,results,hasTwo=false,hasCovid=false) {
 					removeKey("match.season");
 					removeKey("match.competition");
 					removeKey("match.date");
+					removeKey("match.declare");
 				} else {
 					teamRow.append( $("<TD></TD>").html("--").addClass("noMatch") );
 					if ( ! hasCovid ) {
