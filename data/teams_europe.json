@@ -1,4 +1,8 @@
 {
+    "AND": {
+        "_country": "Andorra",
+        "ESCD": {"id": "Atlètic_Club_d%27Escaldes", "name":"Atlètic Club d'Escaldes"}
+    },
     "AUT": {
         "_country": "Austria",
         "RAPW": {"id": "SK_Rapid_Wien", "name": "Rapid Wien"}
@@ -24,11 +28,16 @@
     },
     "FIN": {
         "_country": "Finland",
+        "KUPS": {"id": "Kuopion_Palloseura", "name": "KuPS"},
         "LHTI": {"id": "FC_Lahti", "name": "Reipas Lahti"}
     },
     "FRA": {
         "_country": "France",
         "LENS": {"id": "RC_Lens", "name": "Lens"}
+    },
+    "FRO": {
+        "_country": "Faroe Islands",
+        "KLAK": {"id": "Klaksvíkar_Ítróttarfelag", "name": "KÍ"}
     },
     "GEO": {
         "_country": "Georgia",
@@ -37,6 +46,10 @@
     "ITA": {
         "_country": "Italy",
         "SAMP": {"id": "UC_Sampdoria", "name": "Sampdoria"}
+    },
+    "KAZ": {
+        "_country": "Kazakhstan",
+        "ORBS": {"id": "FC_Ordabasy", "name": "Ordabasy"}
     },
     "LVA": {
         "_country": "Latvia",
@@ -49,6 +62,8 @@
     "SWE": {
         "_country": "Sweden",
         "ATVD": {"id": "Åtvidabergs_FF", "name": "Åtvidabergs FF"},
+        "DJUR": {"id": "Djurgårdens_IF_Fotboll", "name": "Djurgårdens IF"},
+        "HCKN": {"id": "BK_Häcken","name":"BK Häcken"},
         "IFKN": {"id": "IFK_Norrköping", "name": "Norrköping"},
         "OREB": {"id": "Örebro_SK", "name": "Örebro"}
     },

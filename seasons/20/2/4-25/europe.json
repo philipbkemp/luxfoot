@@ -1,0 +1,60 @@
+{
+    "season": "2024-25",
+    "champions_league": {
+        "name": "Champions League",
+        "season": "2024-25",
+        "links": {
+            "prev": "2023-24"
+        },
+        "teams": ["DIFF"],
+        "rounds": [{
+            "key": "Q1",
+            "name": "Qualifying R1",
+            "matches": {
+                "DIFF": [
+                    {"isEurope":true,"date":"2024-07-10","leg":1,"home":"FRO:KLAK","away":"DIFF","score":"2-0","season":"2024-25","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":1}},
+                    {"isEurope":true,"date":"2024-07-17","leg":2,"home":"DIFF","away":"FRO:KLAK","score":"0-0","season":"2024-25","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":2},"agg":{"score":"0-2","outcome":"L","team":"DIFF"},"transfer":"conference_league"}
+                ]
+            }
+        }]
+    },
+    "conference_league": {
+        "name": "Conference League",
+        "season": "2024-25",
+        "links": {
+            "prev": "2023-24"
+        },
+        "teams": ["DIFF","PRON","F91D","UNAS"],
+        "rounds": [{
+            "key": "Q1",
+            "name": "Qualifying R1",
+            "matches": {
+                "F91D": [
+                    {"isEurope":true,"date":"2024-07-11","leg":1,"home":"AND:ESCD","away":"F91D","score":"0-1","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":1}},
+                    {"isEurope":true,"date":"2024-07-18","leg":2,"home":"F91D","away":"AND:ESCD","score":"2-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":2},"agg":{"score":"3-0","outcome":"W","team":"F91D"}}
+                ],
+                "UNAS": [
+                    {"isEurope":true,"date":"2024-07-11","leg":1,"home":"UNAS","away":"FIN:KUPS","score":"0-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":1}},
+                    {"isEurope":true,"date":"2024-07-18","leg":2,"home":"FIN:KUPS","away":"UNAS","score":"5-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":2},"agg":{"score":"0-5","outcome":"L","team":"UNAS"}}
+                ]
+            }
+        },{
+            "key": "Q2",
+            "name": "Qualifying R2",
+            "matches": {
+                "DIFF": [
+                    {"isEurope":true,"date":"2024-07-23","leg":1,"home":"DIFF","away":"KAZ:ORBS","score":"1-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},
+                    {"isEurope":true,"date":"2024-08-01","leg":2,"home":"KAZ:ORBS","away":"DIFF","score":"4-3","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2},"aet":true,"pens":"4-3","agg":{"score":"4-4","outcome":"LP","team":"DIFF"}}
+                ],
+                "PRON": [
+                    {"isEurope":true,"date":"2024-07-25","leg":1,"home":"SWE:DJUR","away":"PRON","score":"3-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},
+                    {"isEurope":true,"date":"2024-08-01","leg":2,"home":"PRON","away":"SWE:DJUR","score":"1-0","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2},"agg":{"score":"1-3","outcome":"L","team":"PRON"}}
+                ],
+                "F91D": [
+                    {"isEurope":true,"date":"2024-07-25","leg":1,"home":"F91D","away":"SWE:HCKN","score":"2-6","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},
+                    {"isEurope":true,"date":"2024-07-31","leg":2,"home":"SWE:HCKN","away":"F91D","score":"6-1","season":"2024-25","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2},"agg":{"score":"3-12","outcome":"L","team":"F91D"}}
+                ]
+            }
+        }]
+    }
+}

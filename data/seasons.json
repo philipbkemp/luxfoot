@@ -2730,8 +2730,8 @@
 			"cup_flf": {"season": "2024-25", "name": "Coupe FLF","winner":"LRNZ","title_count":1}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"Champions League",	"season":"2024-25","teams":["DIFF"]},
-			"conference_league": {"missing":true,"name":"Conference League","season":"2024-25","teams":["DIFF","PRON","F91D","UNAS"]}
+			"champions_league": {"name":"Champions League",	"season":"2024-25","teams":["DIFF"]},
+			"conference_league": {"name":"Conference League","season":"2024-25","teams":["DIFF","PRON","F91D","UNAS"]}
 		}
 	}
 ]
