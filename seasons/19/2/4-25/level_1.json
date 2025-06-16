@@ -52,7 +52,7 @@
 		{"home":"FOLA","away":"RBDF","score":"3-3","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
 		{"home":"FOLA","away":"HLBN","score":"1-1","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
 		{"home":"FOLA","away":"PROG","score":"7-2","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
-		{"home":"FOLA","away":"USDD","score":"3-0","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
+		{"home":"FOLA","away":"USDD","score":"3-0","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"},"forfeit": true},
 		{"home":"RBDF","away":"SPOR","score":"2-2","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
 		{"home":"RBDF","away":"SDUD","score":"1-2","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
 		{"home":"RBDF","away":"JESH","score":"2-1","season":"1924-25","competition":{"type":"league","level": 1,"name": "1. Division"}},
