@@ -1032,12 +1032,20 @@ function validateLeague(data) {
 						theirScore = parseInt(theirScore);
 						myF += myScore;
 						myA += theirScore;
-						if ( myScore > theirScore ) {
-							myW++;
-						} else if ( myScore < theirScore ) {
-							myL++;
+						if ( ! m.declare ) {
+							if ( myScore > theirScore ) {
+								myW++;
+							} else if ( myScore < theirScore ) {
+								myL++;
+							} else {
+								myD++;
+							}
 						} else {
-							myD++;
+							if ( m.declare === s.team ) {
+								myW++;
+							} else {
+								myL++;
+							}
 						}
 					} else {
 						myL++;
