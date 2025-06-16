@@ -38,5 +38,6 @@
     {"mid_season": "2014-15", "new": "BIEK", "team1": "SBCK" },
     {"end_season": "2019-20", "new": "BENF", "team1": "RMHM", "team2": "BBML"},
     {"mid_season": "2022-23", "new": "CESS", "team1": "CBRA" },
-    {"end_season": "2023-24", "new": "KOEP", "team1": "VINE", "team2": "KWRM"}
+    {"end_season": "2023-24", "new": "KOEP", "team1": "VINE", "team2": "KWRM"},
+    {"end_season": "2024-25", "new": "ASRB", "team1": "RBPF", "team2": "ASLX"}
 ]
