@@ -316,6 +316,7 @@ function drawMatch(match,highlightWinner=false) {
 				allTeams[match.transfer.team] + " transferred to "
 			);
 			matchNote.append( $("<A></a>").attr("href","europe.html?season="+match.transfer.season+"&comp="+match.transfer.comp) );
+			matchNoteRow.append(matchNote);
 			matchObj.append(matchNoteRow);
 			removeKey("match.transfer");
 		} else {
