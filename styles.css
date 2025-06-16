@@ -246,10 +246,11 @@ table.table--standings-history tr > td:first-of-type {
 }
 .is-playoff_relegation > *,
 .is-playoff_downup > * {
-	background-color: #f9f0f0 !important;
+	background-color: #ead3d3 !important;
 }
+.is-playoff_promotion > *,
 .is-playoff_updown > * {
-    background-color: #f4faf3 !important;
+    background-color: #eaf7e9 !important;
 }
 .is-relegated > * {
     background-color: #DCB6B6 !important;
