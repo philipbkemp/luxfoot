@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1923-24",
+    "links": {
+        "next": "1924-25",
+        "prev": "1922-23",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["CROD","PROG","PRON","RPDN","STET","TRIM","URUM","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "PROG", "w": 9, "d": 2, "l":  3, "f": 32, "a": 16, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1924-25", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "USDD", "w": 8, "d": 3, "l":  3, "f": 27, "a": 16, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion", "playoff":"promotion", "promoted": true, "target": {"season": "1924-25", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "STET", "w": 7, "d": 5, "l":  2, "f": 23, "a": 17, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion", "playoff":"promotion"},
+		{"place": 4, "team": "URUM", "w": 7, "d": 3, "l":  4, "f": 29, "a": 15, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "PRON", "w": 6, "d": 3, "l":  5, "f": 20, "a": 17, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "CROD", "w": 5, "d": 4, "l":  5, "f": 24, "a": 27, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "RPDN", "w": 1, "d": 3, "l": 10, "f": 12, "a": 32, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1924-25", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "TRIM", "w": 1, "d": 1, "l": 12, "f":  8, "a": 35, "pts_win": 2, "season": "1923-24", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1924-25", "level": 3, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["PROG","USDD"],
+		"target": {"season": "1924-25", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["RPDN","TRIM"],
+		"target": {"season": "1924-25", "level": 3, "name": "2. Division"}
+	},
+    "playoffs": {
+        "promotion": [
+            {"home":"USDD","away":"STET","score":"1-1","aet":true,"replay":"1-0","season":"1923-24","competition":{"type":"league","level": 1,"name": "1. Division","playoff":"promotion"},"outcome":"USDD promoted to TARGET","target": {"season": "1924-25", "level": 1, "name": "1. Division"}}
+        ]
+    }
+}

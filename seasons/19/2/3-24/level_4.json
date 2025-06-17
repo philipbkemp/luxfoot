@@ -1,0 +1,60 @@
+{
+    "level": 4,
+	"season": "1923-24",
+    "links": {
+        "next": "1924-25",
+        "prev": "1922-23",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["GOLD","JWAS","MINL","RIEF"],
+        "standings": [
+            {"place": 1, "team": "MINL", "w": 6, "d": 0, "l": 0, "f": 23, "a":  1, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 2, "team": "RIEF", "w": 3, "d": 1, "l": 2, "f": 10, "a": 14, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
+            {"place": 3, "team": "GOLD", "w": 2, "d": 1, "l": 3, "f": 12, "a": 20, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1", "playoff":"league_promotion_playoff"},
+            {"place": 4, "team": "JWAS", "w": 0, "d": 0, "l": 6, "f":  7, "a": 17, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AVBG","JHTC","OYMP","SPST","UNAS"],
+        "standings": [
+            {"place": 1, "team": "AVBG", "w": 5, "d": 1, "l": 2, "f": 26, "a": 14, "pts_win": 2, "season": "1923-24", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
+            {"place": 2, "team": "JHTC", "w": 4, "d": 2, "l": 2, "f": 20, "a": 12, "pts_win": 2, "season": "1923-24", "level": 4, "series": 2, "league": "3. Division Series 2", "playoff":"league_promotion_playoff"},
+            {"place": 3, "team": "UNAS", "w": 4, "d": 1, "l": 3, "f": 11, "a": 11, "pts_win": 2, "season": "1923-24", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "OYMP", "w": 4, "d": 0, "l": 4, "f": 10, "a": 18, "pts_win": 2, "season": "1923-24", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "SPST", "w": 1, "d": 0, "l": 7, "f":  8, "a": 20, "pts_win": 2, "season": "1923-24", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ARIS","AZST","DARE","ESLX","RSSW","SWFT"],
+        "standings": [
+            {"place": 1, "team": "ARIS", "w": 8, "d": 1, "l": 1, "f": 67, "a": 15, "pts_win": 2, "season": "1923-24", "level": 4, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
+            {"place": 2, "team": "SWFT", "w": 7, "d": 2, "l": 1, "f": 55, "a": 20, "pts_win": 2, "season": "1923-24", "level": 4, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
+            {"place": 3, "team": "AZST", "w": 6, "d": 1, "l": 3, "f": 40, "a": 22, "pts_win": 2, "season": "1923-24", "level": 4, "series": 3, "league": "3. Division Series 3", "playoff":"league_promotion_playoff"},
+            {"place": 4, "team": "RSSW", "w": 2, "d": 1, "l": 7, "f": 15, "a": 37, "pts_win": 2, "season": "1923-24", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "ESLX", "w": 1, "d": 3, "l": 6, "f": 12, "a": 40, "pts_win": 2, "season": "1923-24", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "DARE", "w": 2, "d": 0, "l": 8, "f":  9, "a": 64, "pts_win": 2, "season": "1923-24", "level": 4, "series": 3, "league": "3. Division Series 3"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["RIEF"],
+        "target": {"season":"1924-25", "level":3, "name":"2. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["AZST","GOLA","JHTC"],
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "GOLD","teamDivision": {"level":4,"series":1,"name":"3. Division Series 1"}, "w": 1, "d": 1, "l": 0, "f": 4, "a": 2, "pts_win": 2, "season": "1923-24", "level": 4, "league": "3. Division", "playoff":"league_promotion_playoff", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
+		        {"place": 2, "team": "JHTC","teamDivision": {"level":4,"series":2,"name":"3. Division Series 2"}, "w": 1, "d": 0, "l": 1, "f": 3, "a": 3, "pts_win": 2, "season": "1923-24", "level": 4, "league": "3. Division", "playoff":"league_promotion_playoff"},
+		        {"place": 3, "team": "AZST","teamDivision": {"level":4,"series":3,"name":"3. Division Series 3"}, "w": 0, "d": 1, "l": 1, "f": 2, "a": 4, "pts_win": 2, "season": "1923-24", "level": 4, "league": "3. Division", "playoff":"league_promotion_playoff"}
+            ]
+        }
+    }
+}

@@ -122,15 +122,17 @@ function pullStandings(tbl) {
     comp = prompt("Competition");
     ppw = parseInt(prompt("Points per win",3));
     champion = prompt("Champion code");
-    relegated = prompt("Relegated codes").split(",");
-    if ( relegated.length !== 0 ) {
-        nextSeason = prompt("Next season",season);
+    relegated = prompt("Relegated codes");
+    if ( relegated !== "" ) {
+        relegated = relegated.split(",");
+        nextSeasonDown = prompt("Next season",season);
         relegateToLevel = parseInt(prompt("Relegate to which level?",level+1));
         relegateToName = prompt("Relegate to which division?");
     }
-    promoted = prompt("Promoted codes").split(",");
-    if ( promoted.length !== 0 ) {
-        nextSeason = prompt("Next season",season);
+    promoted = prompt("Promoted codes");
+    if ( promoted !== "" ) {
+        promoted = promoted.split(",");
+        nextSeasonUp = prompt("Next season",season);
         promoteToLevel = parseInt(prompt("Promote to which level?",level-1));
         promoteToName = prompt("Promote to which division?");
     }
@@ -168,10 +170,10 @@ function pullStandings(tbl) {
             }
             rele = "";
             if ( relegated.indexOf(allTeams[teamName]) !== -1 ) {
-                rele = ', "relegated": true, "target": {"season": "'+nextSeason+'", "level": '+relegateToLevel+', "name": "'+relegateToName+'"}';
+                rele = ', "relegated": true, "target": {"season": "'+nextSeasonDown+'", "level": '+relegateToLevel+', "name": "'+relegateToName+'"}';
             }
             if ( promoted.indexOf(allTeams[teamName]) !== -1 ) {
-                rele = ', "promoted": true, "target": {"season": "'+nextSeason+'", "level": '+promoteToLevel+', "name": "'+promoteToName+'"}';
+                rele = ', "promoted": true, "target": {"season": "'+nextSeasonUp+'", "level": '+promoteToLevel+', "name": "'+promoteToName+'"}';
             }
             
             output.push('{"place": '+readNumber(cols[0])+', "team": "'+allTeams[teamName] +'", "w": '+readNumber(cols[4])+', "d": '+readNumber(cols[5])+', "l": '+readNumber(cols[6])+', "f": '+readNumber(cols[10])+', "a": '+readNumber(cols[12])+ppw+', "season": "'+season+'", "level": '+level+', "league": "'+comp+'"'+champ+rele+'},');
@@ -244,7 +246,7 @@ function pullCup(tbl) {
             if ( scoreParts.length === 1 ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0]} );
             } else if ( scoreParts.length === 2 && scoreParts[0] === "3-0" && scoreParts[1] === "ff." ) {
-                scoreBit = JSON.stringify( {score:scoreParts[1],forfeit:true} );
+                scoreBit = JSON.stringify( {score:scoreParts[0],forfeit:true} );
             } else if ( scoreParts.length === 2 && scoreParts[1] === "n.V." ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0],aet:true} );
             } else if ( scoreParts.length === 5 && scoreParts[1] === "n.V." && scoreParts[4] === "n.E." ) {

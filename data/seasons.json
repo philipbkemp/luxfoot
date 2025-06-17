@@ -136,20 +136,20 @@
 		"season": "1923-24",
 		"leagues": {
 			"level_1": {"season": "1923-24", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 4, "double": true},
-			"level_2": {"missing":true,"season": "1923-24", "level":  2, "name": "The Promotion", "winner": "PROG"},
-			"level_3": {"missing":true,"season": "1923-24", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1923-24", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "YBDK"},
-				{"missing":true,"season": "1923-24", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "MANC"},
-				{"missing":true,"season": "1923-24", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "UESH"}
+			"level_2": {"season": "1923-24", "level":  2, "name": "The Promotion", "winner": "PROG"},
+			"level_3": {"season": "1923-24", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1923-24", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "YBDK"},
+				{"season": "1923-24", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "MANC"},
+				{"season": "1923-24", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "UESH"}
 			]},
-			"level_4": {"missing":true,"season": "1923-24", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1923-24", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "MINL"},
-				{"missing":true,"season": "1923-24", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "AVBG"},
-				{"missing":true,"season": "1923-24", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "ARIS"}
+			"level_4": {"season": "1923-24", "level":  4, "name": "3. Division", "series": [
+				{"season": "1923-24", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "MINL"},
+				{"season": "1923-24", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "AVBG"},
+				{"season": "1923-24", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "ARIS"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1923-24", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1923-24", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1924-25",

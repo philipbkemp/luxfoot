@@ -1,0 +1,83 @@
+{
+    "level": 3,
+	"season": "1923-24",
+    "links": {
+        "next": "1924-25",
+        "prev": "1922-23",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASLX","CSHL","ETZE","SGRV","YBDK"],
+        "standings": [
+            {"place": 1, "team": "YBDK", "w": 7, "d": 1, "l": 0, "f": 32, "a": 10, "pts_win": 2, "season": "1923-24", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"league_promotion_playoff","promoted":true,"target":{"season": "1924-25", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "ETZE", "w": 3, "d": 2, "l": 3, "f": 13, "a": 15, "pts_win": 2, "season": "1923-24", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "ASLX", "w": 3, "d": 2, "l": 3, "f": 11, "a": 20, "pts_win": 2, "season": "1923-24", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "SGRV", "w": 3, "d": 1, "l": 4, "f": 14, "a": 16, "pts_win": 2, "season": "1923-24", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"league_relegation_playoff", "relegated": true, "target": {"season": "1924-25", "level": 4, "name": "3. Division"}},
+            {"place": 5, "team": "CSHL", "w": 1, "d": 0, "l": 7, "f": 11, "a": 20, "pts_win": 2, "season": "1923-24", "level": 3, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ADUD","JKYL","JVRL","MANC","NSCH"],
+        "standings": [
+            {"place": 1, "team": "MANC", "w": 6, "d": 1, "l": 1, "f": 20, "a": 11, "pts_win": 2, "season": "1923-24", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"title"},
+            {"place": 2, "team": "ADUD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  9, "pts_win": 2, "season": "1923-24", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"title"},
+            {"place": 3, "team": "NSCH", "w": 3, "d": 1, "l": 4, "f": 10, "a": 12, "pts_win": 2, "season": "1923-24", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "JKYL", "w": 2, "d": 1, "l": 5, "f": 12, "a": 21, "pts_win": 2, "season": "1923-24", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"league_relegation_playoff"},
+            {"place": 5, "team": "JVRL", "w": 1, "d": 0, "l": 7, "f": 10, "a": 21, "pts_win": 2, "season": "1923-24", "level": 3, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASDF","BLVL","CPET","FCPB","UESH"],
+        "standings": [
+            {"place": 1, "team": "UESH", "w": 5, "d": 0, "l": 1, "f": 14, "a":  3, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"league_promotion_playoff","promoted":true,"target":{"season": "1924-25", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "BLVL", "w": 3, "d": 0, "l": 3, "f":  8, "a": 10, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 3, "team": "CPET", "w": 2, "d": 0, "l": 4, "f":  8, "a": 18, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 4, "team": "ASDF", "w": 2, "d": 0, "l": 4, "f": 12, "a": 11, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"relegation"},
+            {"place": 5, "team": "FCOB", "missing": true, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"relegation", "relegated": true, "target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+        ],
+        "matches": [
+        ],
+        "missing" :true
+    }],
+    "promotion": {
+        "teams": ["YBDK","UESH"],
+        "target": {"season": "1924-25", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["CSHL","JVRL","FCOB"],
+        "target": {"season": "1924-25", "level": 4, "name": "3. Division"}
+    },
+    "playoffs": {
+        "title": [
+            {"home":"MANC","away":"ADUD","score":"6-4","season":"1923-24","competition":{"type":"league","level": 3,"name": "2. Division","playoff":"title"},"outcome":"MANC qualified for TARGET","target":{"season": "1924-25", "level": 4, "name": "3. Division","playoff":"league_promotion_playoff"}}
+        ],
+        "relegation": [
+        {"home":"CPET","away":"ASDF","score":"6-3","season":"1923-24","competition":{"type":"league","level": 3,"name": "2. Division","playoff":"relegation"},"outcome":"ADUD qualified for TARGET","target":{"season": "1924-25", "level": 4, "name": "3. Division","playoff":"league_relegation_playoff"}}
+        ],
+        "league_promotion_playoff": {
+            "teams": ["MANC","UESH","YBDK"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"YBDK","teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"},"w":1,"d":1,"l":0,"f": 5,"a":2,"pts_win":2,"season":"1923-24","level":3,"league":"2. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1924-25", "level": 2, "name": "The Promotion"}},
+                {"place":2,"team":"UESH","teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"},"w":1,"d":0,"l":1,"f": 4,"a":4,"pts_win":2,"season":"1923-24","level":3,"league":"2. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1924-25", "level": 2, "name": "The Promotion"}},
+                {"place":3,"team":"MANC","teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"},"w":0,"d":1,"l":1,"f": 3,"a":6,"pts_win":2,"season":"1923-24","level":3,"league":"2. Division","playoff":"league_promotion_playoff"}
+            ]
+        },
+        "league_relegation_playoff": {
+            "teams": ["ASDF","JKYL","SGRV"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"ASDF","teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"},"w":1,"d":1,"l":0,"f": 5,"a":3,"pts_win":2,"season":"1923-24","level":3,"league":"2. Division","playoff":"league_relegation_playoff"},
+                {"place":2,"team":"JKYL","teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"},"w":1,"d":0,"l":1,"f": 7,"a":5,"pts_win":2,"season":"1923-24","level":3,"league":"2. Division","playoff":"league_relegation_playoff"},
+                {"place":3,"team":"SGRV","teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"},"w":0,"d":1,"l":1,"f": 4,"a":8,"pts_win":2,"season":"1923-24","level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+            ]
+        }
+    }
+}
