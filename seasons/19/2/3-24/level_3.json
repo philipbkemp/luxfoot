@@ -41,10 +41,7 @@
             {"place": 3, "team": "CPET", "w": 2, "d": 0, "l": 4, "f":  8, "a": 18, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3"},
             {"place": 4, "team": "ASDF", "w": 2, "d": 0, "l": 4, "f": 12, "a": 11, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"relegation"},
             {"place": 5, "team": "FCOB", "missing": true, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"relegation", "relegated": true, "target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
-        ],
-        "matches": [
-        ],
-        "missing" :true
+        ]
     }],
     "promotion": {
         "teams": ["YBDK","UESH"],
