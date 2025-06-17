@@ -12,13 +12,20 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "missing" :true
+        "teams": ["CSHL","JVRL","JWAS","RPDN","YBDK"],
+        "standings": [
+            {"place": 1, "team": "RPDN", "w": 7, "d": 0, "l": 1, "f": 21, "a":  8, "pts_win": 2, "season": "1922-23", "level": 3, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "JVRL", "w": 4, "d": 1, "l": 3, "f": 16, "a": 14, "pts_win": 2, "season": "1922-23", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "YBDK", "w": 3, "d": 0, "l": 5, "f": 20, "a": 14, "pts_win": 2, "season": "1922-23", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "CSHL", "w": 3, "d": 0, "l": 5, "f": 12, "a": 24, "pts_win": 2, "season": "1922-23", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "JWAS", "w": 2, "d": 1, "l": 5, "f": 12, "a": 21, "pts_win": 2, "season": "1922-23", "level": 3, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1923-24", "level": 4, "name": "3. Division"}}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
         "teams": ["ADUD","AVBG","MANC","MARM","USDD"],
         "standings": [
-            {"place": 1, "team": "USDD", "w": 7, "d": 1, "l": 0, "f": 37, "a": 9, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}},
+            {"place": 1, "team": "USDD", "w": 7, "d": 1, "l": 0, "f": 37, "a":  9, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}},
             {"place": 2, "team": "MANC", "w": 4, "d": 1, "l": 3, "f": 22, "a": 20, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2"},
             {"place": 3, "team": "ADUD", "w": 4, "d": 0, "l": 4, "f": 19, "a": 17, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2"},
             {"place": 4, "team": "MARM", "w": 2, "d": 1, "l": 5, "f": 13, "a": 24, "pts_win": 2, "season": "1922-23", "level": 3, "series": 2, "league": "2. Division Series 2"},
@@ -27,14 +34,21 @@
     },{
         "series": 3,
         "name": "Series 3",
-        "missing" :true
+        "teams": ["BLVL","FCOB","JHTC","PRON","UESH"],
+        "standings": [
+            {"place": 1, "team": "PRON", "w": 5, "d": 2, "l": 1, "f": 37, "a":  6, "pts_win": 2, "season": "1922-23", "level": 3, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "FCOB", "w": 3, "d": 3, "l": 2, "f": 17, "a": 15, "pts_win": 2, "season": "1922-23", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 3, "team": "UESH", "w": 3, "d": 2, "l": 3, "f": 29, "a": 11, "pts_win": 2, "season": "1922-23", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 4, "team": "BLVL", "w": 3, "d": 0, "l": 5, "f": 14, "a": 20, "pts_win": 2, "season": "1922-23", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 5, "team": "JHTC", "w": 2, "d": 1, "l": 5, "f": 12, "a": 57, "pts_win": 2, "season": "1922-23", "level": 3, "series": 3, "league": "2. Division Series 3", "relegated": true, "target": {"season": "1923-24", "level": 4, "name": "3. Division"}}
+        ]
     }],
     "promotion": {
-        "teams": ["USDD"],
+        "teams": ["RPDN","USDD","PRON"],
         "target": {"season": "1923-24", "level": 2, "name": "The Promotion"}
     },
     "relegation": {
-        "teams": ["AVBG"],
+        "teams": ["JWAS","AVBG","JHTC"],
         "target": {"season": "1923-24", "level": 4, "name": "3. Division"}
     }
 }

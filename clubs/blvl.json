@@ -5,10 +5,11 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 4, "team": "BLVL", "w":  3, "d": 0, "l":  5, "f": 14, "a": 20, "pts_win": 2, "season": "1922-23", "level": 3, "series": 3, "league": "2. Division Series 3"},
         {"place": 5, "team": "BLVL", "w":  6, "d": 1, "l":  7, "f": 35, "a": 27, "pts_win": 2, "season": "1921-22", "level": 3, "league": "2. Division"},
 		{"place": 8, "team": "BLVL", "w":  1, "d": 2, "l": 11, "f": 14, "a": 39, "pts_win": 2, "season": "1920-21", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1921-22", "level": 3, "name": "2. Division"}},
-        {"place": 1, "team": "BLVL", "w": 6, "d": 0, "l": 2, "f": 22, "a": 15, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South", "playoff":"title", "promoted": true, "target": {"season": "1920-21", "level": 2, "name": "The Promotion"}},
+        {"place": 1, "team": "BLVL", "w":  6, "d": 0, "l":  2, "f": 22, "a": 15, "pts_win": 2, "season": "1919-20", "level": 3, "series": 2, "league": "3. Division Series South", "playoff":"title", "promoted": true, "target": {"season": "1920-21", "level": 2, "name": "The Promotion"}},
         {"gap":true},
-        {"place": 4, "team": "BLVL", "w": 1, "d": 0, "l": 5, "f": 15, "a": 23, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"}
+        {"place": 4, "team": "BLVL", "w":  1, "d": 0, "l":  5, "f": 15, "a": 23, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch"}
     ]
 }

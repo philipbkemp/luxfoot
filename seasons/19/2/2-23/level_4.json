@@ -1,0 +1,55 @@
+{
+    "level": 4,
+	"season": "1922-23",
+    "links": {
+        "next": "1923-24",
+        "prev": "1921-22",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASLX","RIEF","SGRV","SWFT"],
+        "standings": [
+            {"place": 1, "team": "ASLX", "w": 5, "d": 0, "l": 1, "f": 20, "a": 10, "pts_win": 2, "season": "1922-23", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1923-24", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "SGRV", "w": 3, "d": 2, "l": 1, "f": 19, "a": 13, "pts_win": 2, "season": "1922-23", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1923-24", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "RIEF", "w": 2, "d": 1, "l": 3, "f": 14, "a": 13, "pts_win": 2, "season": "1922-23", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "SWFT", "w": 0, "d": 1, "l": 5, "f":  8, "a": 25, "pts_win": 2, "season": "1922-23", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ETZE","GOLD","MINL"],
+        "standings": [
+            {"place": 1, "team": "ETZE", "w": 2, "d": 1, "l": 1, "f": 8, "a": 6, "pts_win": 2, "season": "1922-23", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1923-24", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "GOLD", "w": 1, "d": 2, "l": 1, "f": 3, "a": 4, "pts_win": 2, "season": "1922-23", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "MINL", "w": 0, "d": 3, "l": 1, "f": 3, "a": 4, "pts_win": 2, "season": "1922-23", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASDF","BBOY","IESH","OYMP"],
+        "standings": [
+            {"place": 1, "team": "ASDF", "w": 6, "d": 0, "l": 0, "f": 32, "a":  5, "pts_win": 2, "season": "1922-23", "level": 4, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1923-24", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "IESH", "w": 3, "d": 0, "l": 3, "f": 14, "a": 19, "pts_win": 2, "season": "1922-23", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 3, "team": "OYMP", "w": 3, "d": 0, "l": 3, "f": 10, "a": 14, "pts_win": 2, "season": "1922-23", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "BBOY", "w": 0, "d": 0, "l": 6, "f":  1, "a": 19, "pts_win": 2, "season": "1922-23", "level": 4, "series": 3, "league": "3. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["HOPB","JKYL","ROLG","WALF"],
+        "standings": [
+            {"place": 1, "team": "JKYL", "w": 4, "d": 2, "l": 0, "f": 25, "a": 10, "pts_win": 2, "season": "1922-23", "level": 4, "series" :4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1923-24", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "ROLG", "w": 2, "d": 2, "l": 2, "f": 14, "a": 21, "pts_win": 2, "season": "1922-23", "level": 4, "series" :4, "league": "3. Division Series 4"},
+            {"place": 3, "team": "HOPB", "w": 2, "d": 2, "l": 2, "f": 13, "a": 14, "pts_win": 2, "season": "1922-23", "level": 4, "series" :4, "league": "3. Division Series 4"},
+            {"place": 4, "team": "WALF", "w": 0, "d": 2, "l": 4, "f":  6, "a": 13, "pts_win": 2, "season": "1922-23", "level": 4, "series" :4, "league": "3. Division Series 4"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["ASLX","SGRV","ETZE","ASDF","JKYL"],
+        "target": {"season": "1923-24", "level": 3, "name": "2. Division"}
+    }
+}
