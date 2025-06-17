@@ -15,7 +15,7 @@
         "standings": [
             {"place": 1, "team": "MINL", "w": 6, "d": 0, "l": 0, "f": 23, "a":  1, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1"},
             {"place": 2, "team": "RIEF", "w": 3, "d": 1, "l": 2, "f": 10, "a": 14, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
-            {"place": 3, "team": "GOLD", "w": 2, "d": 1, "l": 3, "f": 12, "a": 20, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1", "playoff":"league_promotion_playoff"},
+            {"place": 3, "team": "GOLD", "w": 2, "d": 1, "l": 3, "f": 12, "a": 20, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1", "playoff":"league_promotion_playoff", "promoted": true, "target": {"season":"1924-25", "level":3, "name":"2. Division"}},
             {"place": 4, "team": "JWAS", "w": 0, "d": 0, "l": 6, "f":  7, "a": 17, "pts_win": 2, "season": "1923-24", "level": 4, "series": 1, "league": "3. Division Series 1"}
         ]
     },{
