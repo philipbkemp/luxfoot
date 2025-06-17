@@ -833,7 +833,7 @@ function buildStandings(standings,ptsWin=3) {
 			}
 
 			thisRow
-				.append( $("<TD></TD>").html(s.place) )
+				.append( $("<TD></TD>").html(getTitleCount(s.place,"")) )
 				.append( $("<TH></TH>").attr("scope","row").html(teamName) )
 				.append( $("<TD></TD>").html(s.w+s.d+s.l) )
 				.append( $("<TD></TD>").html(s.w) )

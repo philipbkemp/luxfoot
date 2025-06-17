@@ -193,6 +193,10 @@ table.table--standings tbody tr > * {
 table.table--standings tbody tr td {
     text-align: center;
 }
+table.table--standings tbody tr > td:first-of-type {
+    font-size: 0.7rem;
+    line-height: 22px;
+}
 table.table--standings tbody tr td:last-of-type {
     text-align: left;
     padding-left: 50px;
