@@ -312,10 +312,12 @@ function parseLeague(league) {
 			$("#leagueTabs").append(buildTabButton("po_league_promotionplayoff","Promotion play-off"));
 			poLeaguePromotionPlayoff = buildTabPanel("po_league_promotionplayoff");
 			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
-			league.playoffs.league_promotion_playoff.matches.forEach(m=>{
-				poLeaguePromotionPlayoffMatches.append( drawMatch(m));
-			});
-			poLeaguePromotionPlayoff.append(poLeaguePromotionPlayoffMatches);
+			if ( league.playoffs.league_promotion_playoff.matches ) {
+				league.playoffs.league_promotion_playoff.matches.forEach(m=>{
+					poLeaguePromotionPlayoffMatches.append( drawMatch(m));
+				});
+				poLeaguePromotionPlayoff.append(poLeaguePromotionPlayoffMatches);
+			}
 			poLeaguePromotionPlayoff.append(
 				buildStandings(
 					league.playoffs.league_promotion_playoff.standings,
