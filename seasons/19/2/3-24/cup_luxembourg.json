@@ -1,10 +1,10 @@
 {
-    "season": "",
-    "cup": "cup_",
-    "name": "",
+    "season": "1923-24",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
     "links": {
-        "next": "",
-        "prev": ""
+        "next": "1924-25",
+        "prev": "1922-23"
     },
     "shortTabs": true,
     "rounds": [{
