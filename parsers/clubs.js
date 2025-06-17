@@ -204,6 +204,11 @@ function drawStandings(standings) {
                             $("<SPAN></SPAN>")
                                 .html(["Promoted to",s.target.season,s.target.name].join(" "))
                         );
+                    } else {
+                        thisRowNotes.append(
+                            $("<SPAN></SPAN>")
+                                .html(["Promoted to",s.target.season,s.target.name,"via Playoffs"].join(" "))
+                        );
                     }
                 }
             }
@@ -216,6 +221,11 @@ function drawStandings(standings) {
                         thisRowNotes.append(
                             $("<SPAN></SPAN>")
                                 .html(["Relegated to",s.target.season,s.target.name].join(" "))
+                        );
+                    } else {
+                        thisRowNotes.append(
+                            $("<SPAN></SPAN>")
+                                .html(["Relegated to",s.target.season,s.target.name,"via Playoffs"].join(" "))
                         );
                     }
                 }
