@@ -41,6 +41,7 @@
     },
     "GEO": {
         "_country": "Georgia",
+        "DILA": {"id": "FC_Dila_Gori","name":"Dila Gori"},
         "LOCO": {"id": "FC_Locomotive_Tbilisi", "name": "Locomotive Tbilisi"}
     },
     "ITA": {
@@ -51,6 +52,10 @@
         "_country": "Kazakhstan",
         "ORBS": {"id": "FC_Ordabasy", "name": "Ordabasy"}
     },
+    "KOS": {
+        "_country": "Kosovo",
+        "DRTA": {"id":"FC_Drita","name":"Drita"}
+    },
     "LVA": {
         "_country": "Latvia",
         "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
@@ -58,6 +63,10 @@
     "RUS": {
         "_country": "Russia",
         "STRN": {"id": "FC_Saturn_Ramenskoye", "name": "Saturn Moscow Oblast"}
+    },
+    "SCO": {
+        "_country": "Scotland",
+        "DNDU": {"id":"Dundee_United_F.C.","name":"Dundee United"}
     },
     "SWE": {
         "_country": "Sweden",

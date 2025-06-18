@@ -4,7 +4,8 @@
         "name": "Champions League",
         "season": "2024-25",
         "links": {
-            "prev": "2023-24"
+            "prev": "2023-24",
+            "next": "2025-26"
         },
         "teams": ["DIFF"],
         "rounds": [{
@@ -22,7 +23,8 @@
         "name": "Conference League",
         "season": "2024-25",
         "links": {
-            "prev": "2023-24"
+            "prev": "2023-24",
+            "next": "2025-26"
         },
         "teams": ["DIFF","PRON","F91D","UNAS"],
         "rounds": [{
