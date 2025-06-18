@@ -323,7 +323,8 @@ function parseLeague(league) {
 					league.playoffs.league_promotion_playoff.standings,
 					league.playoffs.league_promotion_playoff.pts_win
 						? league.playoffs.league_promotion_playoff.pts_win
-						: 3
+						: 3,
+					true
 				)
 			);
 			$("#leagueTabContent").append(poLeaguePromotionPlayoff);
@@ -345,7 +346,8 @@ function parseLeague(league) {
 					league.playoffs.league_relegation_playoff.standings,
 					league.playoffs.league_relegation_playoff.pts_win
 						? league.playoffs.league_relegation_playoff.pts_win
-						: 3
+						: 3,
+					true
 				)
 			);
 			$("#leagueTabContent").append(poLeaguePromotionPlayoff);
@@ -777,7 +779,7 @@ function buildResultsTable(teams,results,hasTwo=false,hasCovid=false) {
 	return tbl;
 }
 
-function buildStandings(standings,ptsWin=3) {
+function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 	tbl = $("<TABLE></TABLE>").addClass("table").addClass("table-sm").addClass("table-hover").addClass("table--standings");
 
 	thead = $("<THEAD></THEAD>");
@@ -895,7 +897,7 @@ function buildStandings(standings,ptsWin=3) {
 				addKeys(targetKeys);
 				removeKey("standings.target");
 
-				if ( ! s.playoff ) {
+				if ( ! s.playoff || isPlayoffTable ) {
 					thisRowNotes.append(
 						$("<A></A>")
 							.html(["Promoted to",s.target.season,s.target.name].join(" "))
@@ -923,7 +925,7 @@ function buildStandings(standings,ptsWin=3) {
 				addKeys(targetKeys);
 				removeKey("standings.target");
 
-				if ( ! s.playoff ) {
+				if ( ! s.playoff || isPlayoffTable ) {
 					thisRowNotes.append(
 						$("<A></A>")
 							.html(["Relegated to",s.target.season,s.target.name].join(" "))
@@ -953,7 +955,7 @@ function buildStandings(standings,ptsWin=3) {
 			removeKey("standings.removed");
 			removeKey("standings.removed_note");
 		}
-		if ( s.playoff ) {
+		if ( s.playoff && ! isPlayoffTable) {
 			theText = getPlayoffName(s.playoff);
 			if ( theText !== "" ) {
 				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
