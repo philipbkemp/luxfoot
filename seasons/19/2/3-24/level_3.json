@@ -56,7 +56,7 @@
             {"home":"MANC","away":"ADUD","score":"6-4","season":"1923-24","competition":{"type":"league","level": 3,"name": "2. Division","playoff":"title"},"outcome":"MANC qualified for TARGET","target":{"season": "1924-25", "level": 4, "name": "3. Division","playoff":"league_promotion_playoff"}}
         ],
         "relegation": [
-        {"home":"CPET","away":"ASDF","score":"6-3","season":"1923-24","competition":{"type":"league","level": 3,"name": "2. Division","playoff":"relegation"},"outcome":"ADUD qualified for TARGET","target":{"season": "1924-25", "level": 4, "name": "3. Division","playoff":"league_relegation_playoff"}}
+            {"home":"CPET","away":"ASDF","score":"6-3","season":"1923-24","competition":{"type":"league","level": 3,"name": "2. Division","playoff":"relegation"},"outcome":"ASDF qualified for TARGET","target":{"season": "1924-25", "level": 4, "name": "3. Division","playoff":"league_relegation_playoff"}}
         ],
         "league_promotion_playoff": {
             "teams": ["MANC","UESH","YBDK"],
