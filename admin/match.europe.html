@@ -11,103 +11,114 @@
 	<body>
 		<div class="container mt-3">
 			<h1 class="mb-3">LuxFoot Admin</h1>
+
+			<div class="placeholder-glow">
+				<div class="col-12 placeholder"></div>
+			</div>
+
+            <div class="row admin-panel displayAfterLoad d-none">
+                <div class="col-12">
+
+                <table>
+                    <tr>
+                        <td>isEurope</td>
+                        <td>
+                            <select readonly id="isEurope">
+                                <option value="1" selected="true">Yes</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td>
+                            <input type="number" min="1909" max="2030" id="date_year" value="" />
+                            <input type="number" min="1" max="12" id="date_month" value="" />
+                            <input type="number" min="1" max="31" id="date_day" value="" />
+                        </td>
+                        <td>
+                            <input readonly type="text" id="date_val" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Leg</td>
+                        <td>
+                            <select id="leg">
+                                <option value="1" selected="true">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Home</td>
+                        <td>
+                            <input type="text" id="home" />
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Away</td>
+                        <td>
+                            <input type="text" id="away" />
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Score</td>
+                        <td>
+                            <input type="text" id="score" />
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Season</td>
+                        <td>
+                            <input type="text" id="season" />
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Competition</td>
+                        <td>
+                            <select readonly id="competition_type">
+                                <option value="europe" selected="true">Europe</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Cup</td>
+                        <td>
+                            <select id="competition_cup">
+                                <option value="champions_league">Champions League</option>
+                                <option value="europa_league">Europa League</option>
+                                <option value="conference_league">Conference League</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Round</td>
+                        <td>
+                            <select id="competition_cup">
+                                <option value="Qualifying R1">Qualifying R1</option>
+                                <option value="Qualifying R2">Qualifying R2</option>
+                                <option value="Qualifying R3">Qualifying R3</option>
+                            </select>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+
+                <button id="generate_europe">Generate</button>
+
+                <div id="code"></div>                
+                    
+                </div>
+            </div>
+
         </div>
-
-        <table>
-            <tr>
-                <td>isEurope</td>
-                <td>
-                    <select readonly id="isEurope">
-                        <option value="1" selected="true">Yes</option>
-                    </select>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Date</td>
-                <td>
-                    <input type="number" min="1909" max="2030" id="date_year" value="" />
-                    <input type="number" min="1" max="12" id="date_month" value="" />
-                    <input type="number" min="1" max="31" id="date_day" value="" />
-                </td>
-                <td>
-                    <input readonly type="text" id="date_val" />
-                </td>
-            </tr>
-            <tr>
-                <td>Leg</td>
-                <td>
-                    <select id="leg">
-                        <option value="1" selected="true">1</option>
-                        <option value="2">2</option>
-                    </select>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Home</td>
-                <td>
-                    <input type="text" id="home" />
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Away</td>
-                <td>
-                    <input type="text" id="away" />
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Score</td>
-                <td>
-                    <input type="text" id="score" />
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Season</td>
-                <td>
-                    <input type="text" id="season" />
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Competition</td>
-                <td>
-                    <select readonly id="competition_type">
-                        <option value="europe" selected="true">Europe</option>
-                    </select>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Cup</td>
-                <td>
-                    <select id="competition_cup">
-                        <option value="champions_league">Champions League</option>
-                        <option value="europa_league">Europa League</option>
-                        <option value="conference_league">Conference League</option>
-                    </select>
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Round</td>
-                <td>
-                    <select id="competition_cup">
-                        <option value="Qualifying R1">Qualifying R1</option>
-                        <option value="Qualifying R2">Qualifying R2</option>
-                        <option value="Qualifying R3">Qualifying R3</option>
-                    </select>
-                </td>
-                <td></td>
-            </tr>
-        </table>
-
-        <button id="generate_europe">Generate</button>
-
-        <div class="code"></div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>

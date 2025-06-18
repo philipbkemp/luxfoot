@@ -1,9 +1,40 @@
 $(document).ready(function(){
 
+    $.ajax({
+        url: "data/teams_europe.json",
+        success: function(data) {
+            Object.keys(data).forEach(country=>{
+                Object.keys(data[country]).forEach(team=>{
+                    if ( team !== "_country" ) {
+                        allEuropeTeams[ country + ":" + team ] = data[country][team].name;
+                    } else {
+                        allEuropeTeams[ country ] = data[country]._country;
+                    }
+                });
+            });
+            doneParsingEuropeanTeams();
+        }
+    });
+
+});
+
+function doneParsingEuropeanTeams() {
+
+    $.ajax({
+        url: "data/teams.json",
+        success: function(data) {
+            parseTeams(data);
+        }
+    });
+
+}
+
+function doneParsingTeams() {
     if ( $("#date_year").length !== 0 ) {
         $("#date_year").val(new Date().getFullYear()).on("change",updateDate);
         $("#date_month").val(new Date().getMonth()+1).on("change",updateDate);
         $("#date_day").val(new Date().getDate()).on("change",updateDate);
+        updateDate();
     }
 
     if ( $("#season").length !== 0 ) {
@@ -12,6 +43,8 @@ $(document).ready(function(){
 
     $("#generate_europe").on("click",generateEurope);
 
+    $(".placeholder-glow").addClass("d-none");
+	$(".displayAfterLoad").removeClass("d-none");
 });
 
 function generateEurope() {

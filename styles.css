@@ -564,84 +564,11 @@ table.table--scorers tbody tr td {
     padding: 10px;
 }
 
-/*.badge.badge-titleCount {
-	color: #666;
-	font-style: italic;
-	font-weight: normal;
-	margin-left: 15px;
+/* ADMIN PANEL ***********************************************************************************/
+.admin-panel #code {
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #eeeeee;
+    margin: 10px;
 }
-
-#standingsTable {
-	width: 100%;
-}
-#standingsTable thead th,
-#standingsTable tbody td {
-	text-align: center;
-	width: 60px;
-}
-#standingsTable thead th:nth-of-type(2),
-#standingsTable tbody th {
-	text-align: left;
-	width: calc( 100% - ( 60px * 9 ) - 300px );
-}
-#standingsTable thead th:last-of-type,
-#standingsTable tbody td:last-of-type {
-	text-align: left;
-	width: 300px;
-}
-
-#standingsTable img {
-	height: 20px;
-}
-
-.is_promoted > * {
-	background-color: #DCF1DA !important;
-}
-
-.nav-tabs {
-	border-bottom-color: #2B5873;
-}
-.nav-tabs .nav-link {
-	color: #2B5873 !important;
-	min-width: 150px;
-}
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-	border-color: #2B5873 #2B5873 transparent #2B5873;
-	font-weight: bold;
-}
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-	border-color: #2B5873 #2B5873 transparent #2B5873;
-}
-
-#resultsTable {
-	width: calc ( 300px + ( attr(data-teams) * 60px ) );
-}
-#resultsTable th, #resultsTable td {
-	padding: 10px;
-}
-#resultsTable tbody th {
-	width: 300px;
-}
-#resultsTable tbody td {
-	text-align: center;
-	width: 60px;
-}
-#resultsTable * {
-	border-color: #666666;
-}
-
-abbr {
-	text-underline-offset: 4px;
-	text-decoration-color: #CCCCCC !important;
-	color: black;
-}
-#resultsTable tbody abbr {
-	text-decoration-color: black !important;
-}
-
-.match-item .match-note {
-	font-size: 0.8rem;
-}
-.match-item .fw-bold {
-	color: #2B5973;
-}*/
