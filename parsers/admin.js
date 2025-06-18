@@ -46,6 +46,7 @@ function doneParsingTeams() {
     $("#generate_europe").on("click",generateEurope);
     $("#home").on("change",checkHomeTeam);
     $("#away").on("change",checkAwayTeam);
+    $("#outTeam").on("change",checkOutcomeTeam);
 
     $(".placeholder-glow").addClass("d-none");
 	$(".displayAfterLoad").removeClass("d-none");
@@ -73,11 +74,22 @@ function checkAwayTeam() {
     }
 }
 
+function checkOutcomeTeam() {
+    $("#outTeam").val( $("#outTeam").val().toUpperCase() );
+    if ( allTeams[$("#outTeam").val()] ) {
+        $("#outTeam_team").val(allTeams[$("#outTeam").val()])
+    } else if ( allEuropeTeams[$("#outTeam").val()] ) {
+        $("#outTeam_team").val(allEuropeTeams[$("#outTeam").val()])
+    } else {
+        $("#outTeam_team").val("---");
+    }
+}
+
 function generateEurope() {
     matchObj = {};
     matchObj.isEurope = true;
     matchObj.date = $("#date_val").val();
-    matchObj.leg = $("#leg").val();
+    matchObj.leg = parseInt($("#leg").val());
     matchObj.home = $("#home").val();    
     matchObj.away = $("#away").val();
     matchObj.score = $("#score").val();
@@ -93,9 +105,33 @@ function generateEurope() {
     } else if ( matchObj.competition.cup === "conference_league" ) {
         compName = "Conference League";
     }
-    matchObj.competition.name =compName;
+    matchObj.competition.name = compName;
     matchObj.competition.round = $("#competition_round").val();
-    matchObj.competition.leg = $("#leg").val();
+    matchObj.competition.leg = matchObj.leg;
+
+    if ( matchObj.leg === 2 ) {
+        matchObj.agg = {};
+        matchObj.agg.score = $("#agg").val();
+        matchObj.agg.outcome = $("#outcome").val();
+        matchObj.agg.team = $("#outTeam").val();
+    }
+
+    if ( $("#transfer").val() !== "" ) {
+        matchObj.transfer = {};
+        matchObj.transfer.type = "europe";
+        matchObj.transfer.season = matchObj.season;
+        matchObj.transfer.comp = $("#transfer").val();
+        matchObj.transfer.team = $("#outTeam").val();
+        tCompName = "";
+        if ( matchObj.transfer.comp === "champions_league" ) {
+            tCompName = "Champions League";
+        } else if ( matchObj.transfer.comp === "europa_league" ) {
+            tCompName = "Europa League";
+        } else if ( matchObj.transfer.comp === "conference_league" ) {
+            tCompName = "Conference League";
+        }
+        matchObj.transfer.name = tCompName;
+    }
 
     $("#code").html(JSON.stringify(matchObj));
 }
