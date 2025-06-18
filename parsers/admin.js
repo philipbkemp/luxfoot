@@ -1,3 +1,5 @@
+allEuropeTeams = {};
+
 $(document).ready(function(){
 
     $.ajax({
