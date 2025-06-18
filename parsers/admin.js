@@ -44,10 +44,32 @@ function doneParsingTeams() {
     }
 
     $("#generate_europe").on("click",generateEurope);
+    $("#home").on("change",checkHomeTeam);
+    $("#away").on("change",checkAwayTeam);
 
     $(".placeholder-glow").addClass("d-none");
 	$(".displayAfterLoad").removeClass("d-none");
 };
+
+function checkHomeTeam() {
+    if ( allTeams[$("#home").val()] ) {
+        $("#home_team").val(allTeams[$("#home").val()])
+    } else if ( allEuropeTeams[$("#home").val()] ) {
+        $("#home_team").val(allEuropeTeams[$("#home").val()])
+    } else {
+        $("#home_team").val("---");
+    }
+}
+
+function checkAwayTeam() {
+    if ( allTeams[$("#away").val()] ) {
+        $("#away_team").val(allTeams[$("#away").val()])
+    } else if ( allEuropeTeams[$("#away").val()] ) {
+        $("#away_team").val(allEuropeTeams[$("#away").val()])
+    } else {
+        $("#away_team").val("---");
+    }
+}
 
 function generateEurope() {
     matchObj = {};
