@@ -52,6 +52,7 @@ function doneParsingTeams() {
 };
 
 function checkHomeTeam() {
+    $("#home").val() = $("#home").val().toUpperCase();
     if ( allTeams[$("#home").val()] ) {
         $("#home_team").val(allTeams[$("#home").val()])
     } else if ( allEuropeTeams[$("#home").val()] ) {
@@ -62,6 +63,7 @@ function checkHomeTeam() {
 }
 
 function checkAwayTeam() {
+    $("#away").val() = $("#away").val().toUpperCase();
     if ( allTeams[$("#away").val()] ) {
         $("#away_team").val(allTeams[$("#away").val()])
     } else if ( allEuropeTeams[$("#away").val()] ) {
