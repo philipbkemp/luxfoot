@@ -1,0 +1,60 @@
+{
+    "season": "1924-25",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1925-26",
+        "prev": "1923-24"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+            {"date":"1924-09-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "ASDF", "homeDivision": {"level":3,"name":"2. Division"},"away": "CROD", "awayDivision": {"level":2,"name":"The Promotion"},"score":"5-1"},
+			{"date":"1924-09-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "MANC", "homeDivision": {"level":3,"name":"2. Division"},"away": "PRON", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-2"},
+			{"date":"1924-09-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "CPET", "homeDivision": {"level":3,"name":"2. Division"},"away": "SWFT", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-1"},
+			{"date":"1924-09-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "ARIS", "homeDivision": {"level":3,"name":"2. Division"},"away": "ECBT", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-2"},
+			{"date":"1924-09-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "JKYL", "homeDivision": {"level":3,"name":"2. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"The Promotion"},"score":"2-1"}
+        ]
+    },{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CROD", "homeDivision": {"level":2,"name":"The Promotion"},"away": "SWFT", "awayDivision": {"level":3,"name":"2. Division"},"score":"1-2"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":2,"name":"The Promotion"},"away": "URUM", "awayDivision": {"level":2,"name":"The Promotion"},"score":"4-1"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MANC", "homeDivision": {"level":3,"name":"2. Division"},"away": "ECBT", "awayDivision": {"level":2,"name":"The Promotion"},"score":"6-3"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":3,"name":"2. Division"},"away": "PROG", "awayDivision": {"level":1,"name":"1. Division"},"score":"5-2"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-1"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-0","note":"Replayed"},
+            {"date":"1925-01-25","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-0"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JKYL", "homeDivision": {"level":3,"name":"2. Division"},"away": "ASDF", "awayDivision": {"level":3,"name":"2. Division"},"score":"0-3"},
+			{"date":"1924-12-07","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HLBN", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-2"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ASDF", "homeDivision": {"level":3,"name":"2. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-6"},
+			{"season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "MANC", "homeDivision": {"level":3,"name":"2. Division"},"away": "CPET", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-1"},
+			{"season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":2,"name":"The Promotion"},"away": "SWFT", "awayDivision": {"level":3,"name":"2. Division"},"score":"9-2"},
+			{"season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "HLBN", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-0"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+           	{"date":"1925-03-08","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "MANC", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-0"},
+			{"date":"1925-03-22","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "PRON", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-4"} 
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1925-05-14","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-1","aet":true,"note":"Replayed"},
+            {"date":"1925-06-14","season": "1924-25","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-0","forfeit":true}
+        ]
+    }],
+    "winner": "RBDF",
+    "title_count": 1
+}

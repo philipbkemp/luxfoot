@@ -1,0 +1,74 @@
+{
+    "level": 3,
+	"season": "1924-25",
+    "links": {
+        "next": "1925-26",
+        "prev": "1923-24",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARIS","ASLX","AVBG","ETZE","GOLD"],
+        "standings": [
+            {"place": 1, "team": "ARIS", "w": 5, "d": 2, "l": 1, "f": 28, "a": 11, "pts_win": 2, "season": "1924-25", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"league_promotion_playoff","promoted":true,"target":{"season": "1925-26", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "AVBG", "w": 4, "d": 3, "l": 1, "f": 18, "a": 10, "pts_win": 2, "season": "1924-25", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "ASLX", "w": 3, "d": 3, "l": 2, "f": 26, "a": 21, "pts_win": 2, "season": "1924-25", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "ETZE", "w": 3, "d": 1, "l": 4, "f": 12, "a": 21, "pts_win": 2, "season": "1924-25", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "GOLD", "w": 0, "d": 1, "l": 7, "f":  8, "a": 29, "pts_win": 2, "season": "1924-25", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"league_relegation_playoff"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ADUD","MANC","NSCH","RIEF","SWFT"],
+        "standings": [
+            {"place": 1, "team": "ADUD", "w": 6, "d": 1, "l": 1, "f": 29, "a":  8, "pts_win": 2, "season": "1924-25", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"league_promotion_playoff"},
+            {"place": 2, "team": "MANC", "w": 5, "d": 0, "l": 3, "f": 21, "a": 13, "pts_win": 2, "season": "1924-25", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "RIEF", "w": 4, "d": 0, "l": 4, "f": 18, "a": 19, "pts_win": 2, "season": "1924-25", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "NSCH", "w": 3, "d": 0, "l": 5, "f": 13, "a": 18, "pts_win": 2, "season": "1924-25", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "SWFT", "w": 1, "d": 1, "l": 6, "f": 13, "a": 36, "pts_win": 2, "season": "1924-25", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASDF","BLVL","CPET","JKYL","RPDN"],
+        "standings": [
+            {"place": 1, "team": "ASDF", "w": 6, "d": 1, "l": 1, "f": 34, "a": 13, "pts_win": 2, "season": "1924-25", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"league_promotion_playoff","promoted":true,"target":{"season": "1925-26", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "JKYL", "w": 5, "d": 1, "l": 2, "f": 21, "a": 23, "pts_win": 2, "season": "1924-25", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 3, "team": "CPET", "w": 4, "d": 1, "l": 3, "f": 28, "a": 19, "pts_win": 2, "season": "1924-25", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 4, "team": "RPDN", "w": 2, "d": 0, "l": 6, "f":  5, "a": 21, "pts_win": 2, "season": "1924-25", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 5, "team": "BLVL", "w": 1, "d": 1, "l": 6, "f": 12, "a": 24, "pts_win": 2, "season": "1924-25", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["ARIS","ASDF"],
+        "target": {"season": "1925-26", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["BLVL","SWFT"],
+        "target": {"season": "1924-25", "level": 4, "name": "3. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["ADUD","ARIS","ASDF"],
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "ARIS", "teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"}, "w": 2, "d": 0, "l": 0, "f": 7, "a": 1, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1925-26", "level": 2, "name": "The Promotion"}},
+                {"place": 2, "team": "ASDF", "teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"}, "w": 1, "d": 0, "l": 1, "f": 2, "a": 6, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1925-26", "level": 2, "name": "The Promotion"}},
+                {"place": 3, "team": "ADUD", "teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"}, "w": 0, "d": 0, "l": 2, "f": 2, "a": 4, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_promotion_playoff"}
+            ]
+        },
+        "league_relegation_playoff": {
+            "teams": ["BLVL","GOLD","SWFT"],
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "GOLD", "teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"}, "w": 2, "d": 0, "l": 0, "f": 3, "a": 1, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff"},
+		        {"place": 2, "team": "SWFT", "teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"}, "w": 1, "d": 0, "l": 1, "f": 4, "a": 2, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}},
+		        {"place": 3, "team": "BLVL", "teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"}, "w": 0, "d": 0, "l": 2, "f": 0, "a": 4, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+            ]
+        }
+    }
+}

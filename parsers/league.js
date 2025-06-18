@@ -330,6 +330,28 @@ function parseLeague(league) {
 			removeKey("playoffs.league_promotion_playoff");
 		}
 
+		if ( league.playoffs.league_relegation_playoff ) {
+			$("#leagueTabs").append(buildTabButton("po_league_relegationplayoff","Relegation play-off"));
+			poLeaguePromotionPlayoff = buildTabPanel("po_league_relegationplayoff");
+			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
+			if ( league.playoffs.league_relegation_playoff.matches ) {
+				league.playoffs.league_relegation_playoff.matches.forEach(m=>{
+					poLeaguePromotionPlayoffMatches.append( drawMatch(m));
+				});
+				poLeaguePromotionPlayoff.append(poLeaguePromotionPlayoffMatches);
+			}
+			poLeaguePromotionPlayoff.append(
+				buildStandings(
+					league.playoffs.league_relegation_playoff.standings,
+					league.playoffs.league_relegation_playoff.pts_win
+						? league.playoffs.league_relegation_playoff.pts_win
+						: 3
+				)
+			);
+			$("#leagueTabContent").append(poLeaguePromotionPlayoff);
+			removeKey("playoffs.league_relegation_playoff");
+		}
+
 		if ( league.playoffs.league_promotion_playoff_a ) {
 			$("#leagueTabs").append(buildTabButton("po_league_promotion_playoff_a","Play-off (2)"));
 			poLeaguePromotionPlayoff = buildTabPanel("po_league_promotion_playoff_a");

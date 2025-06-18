@@ -1,0 +1,44 @@
+{
+    "level": 4,
+	"season": "1924-25",
+    "links": {
+        "next": "1925-26",
+        "prev": "1923-24",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ESLX","JHTC","OYMP","SPST","USND"],
+        "standings": [
+            {"place": 1, "team": "OYMP", "w": 7, "d": 1, "l": 0, "f": 22, "a":  5, "pts_win": 2, "season": "1924-25", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1925-26", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "JHTC", "w": 6, "d": 0, "l": 2, "f": 27, "a": 10, "pts_win": 2, "season": "1924-25", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "SPST", "w": 3, "d": 1, "l": 4, "f": 12, "a": 18, "pts_win": 2, "season": "1924-25", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "USND", "w": 3, "d": 0, "l": 5, "f": 16, "a": 20, "pts_win": 2, "season": "1924-25", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "ESLX", "w": 0, "d": 0, "l": 8, "f":  5, "a": 29, "pts_win": 2, "season": "1924-25", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AZST","CSHL","JVRL","RSSW","SGRV","UNAS"],
+        "standings": [
+            {"place": 1, "team": "CSHL", "w": 7, "d": 1, "l": 2, "f": 40, "a": 17, "pts_win": 2, "season": "1924-25", "level": 4, "series": 2, "league": "3. Division Series 2","playoff":"title", "promoted": true, "target": {"season": "1925-26", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "UNAS", "w": 6, "d": 3, "l": 1, "f": 27, "a": 15, "pts_win": 2, "season": "1924-25", "level": 4, "series": 2, "league": "3. Division Series 2","playoff":"title", "promoted": true, "target": {"season": "1925-26", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "SGRV", "w": 5, "d": 2, "l": 3, "f": 35, "a": 23, "pts_win": 2, "season": "1924-25", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "JVRL", "w": 3, "d": 1, "l": 6, "f": 16, "a": 22, "pts_win": 2, "season": "1924-25", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "AZST", "w": 3, "d": 1, "l": 6, "f": 13, "a": 29, "pts_win": 2, "season": "1924-25", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "RSSW", "w": 1, "d": 2, "l": 7, "f": 15, "a": 40, "pts_win": 2, "season": "1924-25", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["OYMP","CSHL","UNAS"],
+        "target": {"season": "1925-26", "level": 3, "name": "2. Division"}
+    },
+    "playoffs": {
+        "title": [
+            {"home":"CSHL","away":"UNAS","score":"7-1","season":"1924-25","competition":{"type":"league","level": 4,"name": "3. Division","playoff":"title"},"outcome":"CSHL declared winner of Series 2"}
+        ]
+    }
+}

@@ -156,18 +156,18 @@
 		"leagues": {
 			"level_1": {"season": "1924-25", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 1},
 			"level_2": {"season": "1924-25", "level":  2, "name": "The Promotion", "winner": "RBPF"},
-			"level_3": {"missing":true,"season": "1924-25", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1924-25", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "ARIS"},
-				{"missing":true,"season": "1924-25", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"},
-				{"missing":true,"season": "1924-25", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "ASDF"}
+			"level_3": {"season": "1924-25", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1924-25", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "ARIS"},
+				{"season": "1924-25", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"},
+				{"season": "1924-25", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "ASDF"}
 			]},
-			"level_4": {"missing":true,"season": "1924-25", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1924-25", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "OYMP"},
-				{"missing":true,"season": "1924-25", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
+			"level_4": {"season": "1924-25", "level":  4, "name": "3. Division", "series": [
+				{"season": "1924-25", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "OYMP"},
+				{"season": "1924-25", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1924-25", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1924-25", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1925-26",
