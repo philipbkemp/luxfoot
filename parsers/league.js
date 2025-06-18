@@ -955,12 +955,14 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			removeKey("standings.removed");
 			removeKey("standings.removed_note");
 		}
-		if ( s.playoff && ! isPlayoffTable) {
+		if ( s.playoff) {
 			theText = getPlayoffName(s.playoff);
 			if ( theText !== "" ) {
-				thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
-				thisRowHasNotes = true;
-				thisRow.addClass("is-playoff_"+s.playoff);
+				if ( ! isPlayoffTable ) {
+					thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+					thisRowHasNotes = true;
+					thisRow.addClass("is-playoff_"+s.playoff);
+				}
 				removeKey("standings.playoff");
 			}
 		}
