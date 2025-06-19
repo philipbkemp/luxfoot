@@ -66,8 +66,8 @@
             "pts_win": 2,
             "standings": [
                 {"place": 1, "team": "GOLD", "teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"}, "w": 2, "d": 0, "l": 0, "f": 3, "a": 1, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff"},
-		        {"place": 2, "team": "SWFT", "teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"}, "w": 1, "d": 0, "l": 1, "f": 4, "a": 2, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}},
-		        {"place": 3, "team": "BLVL", "teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"}, "w": 0, "d": 0, "l": 2, "f": 0, "a": 4, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}}
+		        {"place": 2, "team": "SWFT", "teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"}, "w": 1, "d": 0, "l": 1, "f": 4, "a": 2, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1925-26", "level": 4, "name": "3. Division"}},
+		        {"place": 3, "team": "BLVL", "teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"}, "w": 0, "d": 0, "l": 2, "f": 0, "a": 4, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1925-26", "level": 4, "name": "3. Division"}}
             ]
         }
     }

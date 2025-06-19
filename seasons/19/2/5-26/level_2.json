@@ -1,0 +1,32 @@
+{
+    "level": 2,
+	"season": "1925-26",
+    "links": {
+        "next": "1926-27",
+        "prev": "1924-25",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["ARIS","ASDF","CROD","ECBT","PROG","PRON","USDD","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "ARIS", "w": 10, "d": 2, "l":  2, "f": 59, "a": 32, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1926-27", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "PRON", "w":  9, "d": 3, "l":  2, "f": 42, "a": 18, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1926-27", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "ASDF", "w":  8, "d": 3, "l":  3, "f": 35, "a": 22, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion"},
+		{"place": 4, "team": "PROG", "w":  6, "d": 4, "l":  4, "f": 45, "a": 35, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "YBDK", "w":  6, "d": 3, "l":  5, "f": 44, "a": 40, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "USDD", "w":  5, "d": 0, "l":  9, "f": 31, "a": 47, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "CROD", "w":  3, "d": 2, "l":  9, "f": 28, "a": 50, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1926-27", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "ECBT", "w":  0, "d": 1, "l": 13, "f":  7, "a": 47, "pts_win": 2, "season": "1925-26", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1926-27", "level": 3, "name": "2. Division"}}
+    ],
+	"champion": "",
+	"promotion": {
+		"teams": ["ARIS","PRON"],
+		"target": {"season": "1926-27", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["CROD","ECBT"],
+		"target": {"season": "1926-27", "level": 3, "name": "2. Division"}
+	}
+}

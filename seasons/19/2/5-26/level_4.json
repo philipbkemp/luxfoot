@@ -1,0 +1,37 @@
+{
+    "level": 4,
+	"season": "1925-26",
+    "links": {
+        "next": "1926-27",
+        "prev": "1924-25",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AZST","DARE","USND","WALF"],
+        "standings": [
+            {"place": 1, "team": "DARE", "w": 5, "d": 1, "l": 0, "f": 33, "a":  3, "pts_win": 2, "season": "1925-26", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1926-27", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "AZST", "w": 2, "d": 1, "l": 3, "f": 10, "a": 24, "pts_win": 2, "season": "1925-26", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "USND", "w": 1, "d": 3, "l": 2, "f": 10, "a": 10, "pts_win": 2, "season": "1925-26", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "WALF", "w": 1, "d": 1, "l": 4, "f":  3, "a": 19, "pts_win": 2, "season": "1925-26", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["BLVL","FCOB","JHTC","SPST","SWFT"],
+        "standings": [
+            {"place": 1, "team": "BLVL", "w": 7, "d": 0, "l": 1, "f": 25, "a": 12, "pts_win": 2, "season": "1925-26", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1926-27", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "SPST", "w": 5, "d": 0, "l": 3, "f": 19, "a": 11, "pts_win": 2, "season": "1925-26", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "FCOB", "w": 4, "d": 0, "l": 4, "f": 19, "a": 20, "pts_win": 2, "season": "1925-26", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "SWFT", "w": 2, "d": 1, "l": 5, "f": 11, "a": 19, "pts_win": 2, "season": "1925-26", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "JHTC", "w": 1, "d": 1, "l": 6, "f": 11, "a": 23, "pts_win": 2, "season": "1925-26", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["DARE","BLVL"],
+        "target": {"season": "1926-27", "level": 3, "name": "2. Division"}
+    }
+}

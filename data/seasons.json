@@ -173,19 +173,19 @@
 		"season": "1925-26",
 		"leagues": {
 			"level_1": {"season": "1925-26", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 2, "double": true},
-			"level_2": {"missing":true,"season": "1925-26", "level":  2, "name": "The Promotion", "winner": "ARIS"},
-			"level_3": {"missing":true,"season": "1925-26", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1925-26", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "JKYL"},
-				{"missing":true,"season": "1925-26", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "CPET"},
-				{"missing":true,"season": "1925-26", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "AVBG"}
+			"level_2": {"season": "1925-26", "level":  2, "name": "The Promotion", "winner": "ARIS"},
+			"level_3": {"season": "1925-26", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1925-26", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "JKYL"},
+				{"season": "1925-26", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "CPET"},
+				{"season": "1925-26", "level":  3, "series":  3, "name": "2. Division Series 3", "winner": "AVBG"}
 			]},
-			"level_4": {"missing":true,"season": "1925-26", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1925-26", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "DARE"},
-				{"missing":true,"season": "1925-26", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
+			"level_4": {"season": "1925-26", "level":  4, "name": "3. Division", "series": [
+				{"season": "1925-26", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "DARE"},
+				{"season": "1925-26", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1925-26", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1925-26", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1926-27",

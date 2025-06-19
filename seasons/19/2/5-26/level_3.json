@@ -1,0 +1,74 @@
+{
+    "level": 3,
+	"season": "1925-26",
+    "links": {
+        "next": "1926-27",
+        "prev": "1924-25",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ADUD","JKYL","NSCH","STET","URUM"],
+        "standings": [
+            {"place": 1, "team": "JKYL", "w": 7, "d": 1, "l": 0, "f": 34, "a": 15, "pts_win": 2, "season": "1925-26", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1926-27", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "URUM", "w": 4, "d": 2, "l": 2, "f": 24, "a": 14, "pts_win": 2, "season": "1925-26", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "ADUD", "w": 2, "d": 3, "l": 3, "f": 21, "a": 17, "pts_win": 2, "season": "1925-26", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "NSCH", "w": 1, "d": 3, "l": 4, "f": 11, "a": 28, "pts_win": 2, "season": "1925-26", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "STET", "w": 1, "d": 1, "l": 6, "f": 12, "a": 28, "pts_win": 2, "season": "1925-26", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1926-27", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["CPET","CSHL","OYMP","RPDN","UNAS"],
+        "standings": [
+            {"place": 1, "team": "CPET", "w": 6, "d": 0, "l": 2, "f": 35, "a": 13, "pts_win": 2, "season": "1925-26", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"league_promotion_playoff"},
+            {"place": 2, "team": "RPDN", "w": 5, "d": 0, "l": 3, "f": 27, "a": 14, "pts_win": 2, "season": "1925-26", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "OYMP", "w": 4, "d": 0, "l": 4, "f": 22, "a": 22, "pts_win": 2, "season": "1925-26", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "CSHL", "w": 3, "d": 0, "l": 5, "f": 17, "a": 31, "pts_win": 2, "season": "1925-26", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "UNAS", "w": 2, "d": 0, "l": 6, "f": 11, "a": 32, "pts_win": 2, "season": "1925-26", "level": 3, "series": 2, "league": "2. Division Series 2","playoff":"league_relegation_playoff"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASLX","AVBG","ETZE","GOLD","MANC"],
+        "standings": [
+            {"place": 1, "team": "AVBG", "w": 6, "d": 1, "l": 1, "f": 20, "a": 12, "pts_win": 2, "season": "1925-26", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1926-27", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "ETZE", "w": 4, "d": 2, "l": 2, "f": 22, "a": 14, "pts_win": 2, "season": "1925-26", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 3, "team": "ASLX", "w": 2, "d": 3, "l": 3, "f": 18, "a": 21, "pts_win": 2, "season": "1925-26", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 4, "team": "GOLD", "w": 2, "d": 3, "l": 3, "f": 15, "a": 16, "pts_win": 2, "season": "1925-26", "level": 3, "series": 3, "league": "2. Division Series 3"},
+            {"place": 5, "team": "MANC", "w": 0, "d": 3, "l": 5, "f":  8, "a": 20, "pts_win": 2, "season": "1925-26", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"league_relegation_playoff"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CPET","AVBG"],
+        "target": {"season": "1926-27", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["STET"],
+        "target": {"season": "1926-27", "level": 4, "name": "3. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["JKYL","CPET","AVBG"],
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "CPET", "teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"}, "w": 2, "d": 0, "l": 0, "f": 4, "a": 2, "pts_win": 2, "season": "1925-26", "level":3,"league":"2. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1926-27", "level": 2, "name": "The Promotion"}},
+                {"place": 2, "team": "AVBG", "teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"}, "w": 1, "d": 0, "l": 1, "f": 3, "a": 3, "pts_win": 2, "season": "1925-26", "level":3,"league":"2. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1926-27", "level": 2, "name": "The Promotion"}},
+                {"place": 3, "team": "JKYL", "teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"}, "w": 0, "d": 0, "l": 2, "f": 2, "a": 4, "pts_win": 2, "season": "1925-26", "level":3,"league":"2. Division","playoff":"league_promotion_playoff"}
+            ]
+        },
+        "league_relegation_playoff": {
+            "teams": ["STET","UNAS","MANC"],
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "MANC", "teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"}, "w": 1, "d": 1, "l": 0, "f": 4, "a": 1, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff"},
+		        {"place": 2, "team": "UNAS", "teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"}, "w": 1, "d": 1, "l": 0, "f": 3, "a": 2, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff"},
+		        {"place": 3, "team": "STET", "teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"}, "w": 0, "d": 0, "l": 2, "f": 1, "a": 5, "pts_win": 2, "season": "1924-25", "level":3,"league":"2. Division","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1926-27", "level": 4, "name": "3. Division"}}
+            ]
+        }
+    }
+}
