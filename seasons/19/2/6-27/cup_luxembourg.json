@@ -1,0 +1,47 @@
+{
+    "season": "1926-27",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1927-28",
+        "prev": "1925-26"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1926-09-05","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-4"},
+			{"date":"1926-09-05","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-1"},
+			{"date":"1926-09-05","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":1,"name":"1. Division"},"away": "MANC", "awayDivision": {"level":3,"name":"2. Division"},"score":"8-0"},
+			{"date":"1926-09-05","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASDF", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RBPF", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-3","note":"Replayed"},
+            {"date":"1926-10-10","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASDF", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RBPF", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-1"},
+			{"date":"1926-09-05","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"The Promotion"},"away": "FOLA", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-3"}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"1926-11-07","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"6-0"},
+			{"date":"1926-11-07","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"1. Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-2","note":"Replayed"},
+            {"date":"1927-01-02","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"1. Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-2"},
+			{"date":"1926-11-07","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-2"},
+			{"date":"1926-11-07","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":1,"name":"1. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-7"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1927-02-06","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-4"},
+			{"date":"1927-02-06","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"1. Division"},"score":"9-1"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1927-02-27","season": "1926-27","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-2"}
+        ]
+    }],
+    "winner": "RBDF",
+    "title_count": 3
+}

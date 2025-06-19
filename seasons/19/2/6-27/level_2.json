@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1926-27",
+    "links": {
+        "next": "1927-28",
+        "prev": "1925-26",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["ASDF","AVBG","CPET","PROG","SDUD","UESH","USDD","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "SDUD", "w": 14, "d": 0, "l":  0, "f": 89, "a":  6, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1927-28", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "PROG", "w":  9, "d": 2, "l":  3, "f": 42, "a": 27, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1927-28", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "ASDF", "w":  7, "d": 4, "l":  3, "f": 34, "a": 31, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion"},
+		{"place": 4, "team": "USDD", "w":  4, "d": 5, "l":  5, "f": 35, "a": 39, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "YBDK", "w":  4, "d": 2, "l":  8, "f": 32, "a": 38, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "CPET", "w":  2, "d": 5, "l":  7, "f": 23, "a": 53, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion", "playoff":"relegation"},
+		{"place": 7, "team": "AVBG", "w":  4, "d": 1, "l":  9, "f": 25, "a": 48, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion", "playoff":"relegation", "relegated": true, "target": {"season": "1927-28", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "UESH", "w":  2, "d": 1, "l": 11, "f": 22, "a": 60, "pts_win": 2, "season": "1926-27", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1927-28", "level": 3, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["SDUD","PROG"],
+		"target": {"season": "1927-28", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["AVBG","UESH"],
+		"target": {"season": "1927-28", "level": 3, "name": "2. Division"}
+	},
+    "playoffs": {
+        "relegation": [
+            {"home":"CPET","away":"AVBG","score":"1-0","season":"1926-27","competition":{"type":"league","level": 2,"name": "The Promotion","playoff":"relegation"},"outcome":"AVBG relegated to TARGET", "target": {"season": "1927-28", "level": 3, "name": "2. Division"}}
+        ]
+    }
+}

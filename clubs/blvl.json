@@ -5,6 +5,7 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 7, "team": "BLVL", "w":  3, "d": 2, "l":  9, "f": 21, "a": 49, "pts_win": 2, "season": "1926-27", "level": 3, "series" :1, "league": "2. Division Series 1"},
         {"place": 1, "team": "BLVL", "w":  7, "d": 0, "l":  1, "f": 25, "a": 12, "pts_win": 2, "season": "1925-26", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1926-27", "level": 3, "name": "2. Division"}},
         {"place": 5, "team": "BLVL", "w":  1, "d": 1, "l":  6, "f": 12, "a": 24, "pts_win": 2, "season": "1924-25", "level": 3, "series": 3, "league": "2. Division Series 3","playoff":"league_relegation_playoff","relegated":true,"target": {"season": "1924-25", "level": 4, "name": "3. Division"}},
         {"place": 2, "team": "BLVL", "w":  3, "d": 0, "l":  3, "f":  8, "a": 10, "pts_win": 2, "season": "1923-24", "level": 3, "series": 3, "league": "2. Division Series 3"},

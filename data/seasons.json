@@ -191,18 +191,18 @@
 		"season": "1926-27",
 		"leagues": {
 			"level_1": {"season": "1926-27", "level":  1, "name": "1. Division", "winner": "ULUX", "title_count": 1},
-			"level_2": {"missing":true,"season": "1926-27", "level":  2, "name": "The Promotion", "winner": "SDUD"},
-			"level_3": {"missing":true,"season": "1926-27", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1926-27", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "NSCH"},
-				{"missing":true,"season": "1926-27", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "MANC"}
+			"level_2": {"season": "1926-27", "level":  2, "name": "The Promotion", "winner": "SDUD"},
+			"level_3": {"season": "1926-27", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1926-27", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "NSCH"},
+				{"season": "1926-27", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "MANC"}
 			]},
-			"level_4": {"missing":true,"season": "1926-27", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1926-27", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "ESLX"},
-				{"missing":true,"season": "1926-27", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "SWFT"}
+			"level_4": {"season": "1926-27", "level":  4, "name": "3. Division", "series": [
+				{"season": "1926-27", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "ESLX"},
+				{"season": "1926-27", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "SWFT"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1926-27", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 3, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1926-27", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 3, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1927-28",

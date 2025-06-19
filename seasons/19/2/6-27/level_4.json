@@ -1,0 +1,42 @@
+{
+    "level": 4,
+	"season": "1926-27",
+    "links": {
+        "next": "1927-28",
+        "prev": "1925-26",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ESLX","JWIL","MINL","USND","WALF"],
+        "standings": [
+            {"place": 1, "team": "ESLX", "w": 6, "d": 1, "l": 1, "f": 29, "a": 13, "pts_win": 2, "season": "1926-27", "level": 4, "series": 1, "league": "3. Division Series 1","promoted": true, "target": {"season": "1927-28", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "USND", "w": 6, "d": 0, "l": 2, "f": 27, "a": 11, "pts_win": 2, "season": "1926-27", "level": 4, "series": 1, "league": "3. Division Series 1","playoff":"promotion"},
+            {"place": 3, "team": "WALF", "w": 3, "d": 0, "l": 5, "f": 11, "a": 26, "pts_win": 2, "season": "1926-27", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "MINL", "w": 2, "d": 1, "l": 5, "f": 14, "a": 19, "pts_win": 2, "season": "1926-27", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "JWIL", "w": 2, "d": 0, "l": 6, "f": 11, "a": 23, "pts_win": 2, "season": "1926-27", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["JHTC","SPST","STET","SWFT"],
+        "standings": [
+            {"place": 1, "team": "SWFT", "w": 5, "d": 0, "l": 1, "f": 32, "a": 12, "pts_win": 2, "season": "1926-27", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1927-28", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "STET", "w": 4, "d": 0, "l": 2, "f": 18, "a": 18, "pts_win": 2, "season": "1926-27", "level": 4, "series": 2, "league": "3. Division Series 2","playoff":"promotion", "promoted": true, "target": {"season": "1927-28", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "JHTC", "w": 2, "d": 0, "l": 4, "f": 15, "a": 22, "pts_win": 2, "season": "1926-27", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "SPST", "w": 1, "d": 0, "l": 5, "f":  9, "a": 22, "pts_win": 2, "season": "1926-27", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["ESLX","SWFT","STET"],
+        "target": {"season": "1927-28", "level": 3, "name": "2. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"home":"USND","away":"STET","homeDivision":{"level":4,"series":1,"name":"3. Division Series 1"},"awayDivision":{"level":4,"series":2,"name":"3. Division Series 2"},"score":"1-3","season":"1926-27","competition":{"type":"league","level": 4,"name": "3. Division","playoff":"promotion"},"outcome":"STET promoted to TARGET", "target": {"season": "1927-28", "level": 3, "name": "2. Division"}}
+        ]
+    }
+}
