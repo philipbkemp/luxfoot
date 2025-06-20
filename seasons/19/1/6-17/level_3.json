@@ -20,7 +20,7 @@
         ]
     },{
         "series": 2,
-        "name": "Series 2",
+        "name": "Series Esch",
         "teams": ["BLVL","NSCH","STET","URUM"],
         "standings": [
             {"place": 1, "team": "URUM", "w": 5, "d": 1, "l": 0, "f": 20, "a":  7, "pts_win": 2, "season": "1916-17", "level": 3, "series": 2, "league": "3. Division Series Esch", "playoff":"promotion", "promoted":true, "target":{"season":"1917-18","level":2,"name":"2. Division"}},
