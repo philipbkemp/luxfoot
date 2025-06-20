@@ -208,18 +208,18 @@
 		"season": "1927-28",
 		"leagues": {
 			"level_1": {"season": "1927-28", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 2, "double": true},
-			"level_2": {"missing":true,"season": "1927-28", "level":  2, "name": "The Promotion", "winner": "ASDF"},
-			"level_3": {"missing":true,"season": "1927-28", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1927-28", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SWFT"},
-				{"missing":true,"season": "1927-28", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"}
+			"level_2": {"season": "1927-28", "level":  2, "name": "The Promotion", "winner": "ASDF"},
+			"level_3": {"season": "1927-28", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1927-28", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SWFT"},
+				{"season": "1927-28", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"}
 			]},
-			"level_4": {"missing":true,"season": "1927-28", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1927-28", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "USND"},
-				{"missing":true,"season": "1927-28", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "SPST"}
+			"level_4": {"season": "1927-28", "level":  4, "name": "3. Division", "series": [
+				{"season": "1927-28", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "USND"},
+				{"season": "1927-28", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "SPST"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1927-28", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 1, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1927-28", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 1, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1928-29",

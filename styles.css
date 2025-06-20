@@ -355,7 +355,8 @@ table.table--results td abbr {
     color: black;
     text-underline-offset: 4px;
 }
-table.table--results ul.match-notes {
+table.table--results ul.match-notes,
+ul.match-notes li {
     font-size: 0.8rem;
 }
 

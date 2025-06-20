@@ -1,0 +1,49 @@
+{
+    "level": 3,
+	"season": "1927-28",
+    "links": {
+        "next": "1928-29",
+        "prev": "1926-27",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASLX","AVBG","ETZE","GOLD","OYMP","RPDN","SWFT","UNAS"],
+        "standings": [
+            {"place": 1, "team": "SWFT", "w": 13, "d": 0, "l":  1, "f": 64, "a": 20, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1928-29", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "ETZE", "w": 11, "d": 0, "l":  3, "f": 52, "a": 23, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "AVBG", "w":  8, "d": 1, "l":  5, "f": 49, "a": 40, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "ASLX", "w":  6, "d": 0, "l":  8, "f": 35, "a": 50, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "UNAS", "w":  5, "d": 1, "l":  8, "f": 35, "a": 45, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 6, "team": "GOLD", "w":  5, "d": 0, "l":  9, "f": 38, "a": 43, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 7, "team": "RPDN", "w":  3, "d": 2, "l":  9, "f": 27, "a": 46, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 8, "team": "OYMP", "w":  3, "d": 0, "l": 11, "f": 14, "a": 47, "pts_win": 2, "season": "1927-28", "level": 3, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1928-29", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ADUD","CROD","CSHL","ESLX","JKYL","STET","UESH","URUM"],
+        "standings": [
+            {"place": 1, "team": "ADUD", "w": 11, "d": 3, "l":  0, "f": 68, "a": 28, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1928-29", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "URUM", "w":  7, "d": 5, "l":  2, "f": 48, "a": 24, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "JKYL", "w":  7, "d": 2, "l":  5, "f": 40, "a": 32, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "CROD", "w":  5, "d": 5, "l":  4, "f": 30, "a": 30, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "CSHL", "w":  5, "d": 2, "l":  7, "f": 31, "a": 38, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 6, "team": "STET", "w":  3, "d": 5, "l":  6, "f": 31, "a": 38, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 7, "team": "UESH", "w":  2, "d": 4, "l":  8, "f": 28, "a": 40, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 8, "team": "ESLX", "w":  2, "d": 2, "l": 10, "f": 18, "a": 64, "pts_win": 2, "season": "1927-28", "level": 3, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1928-29", "level": 4, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["SWFT","ADUD"],
+        "target": {"season": "1928-29", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["OYMP","ESLX"],
+        "target": {"season": "1928-29", "level": 4, "name": "3. Division"}
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "level": 4,
+	"season": "1927-28",
+    "links": {
+        "next": "1928-29",
+        "prev": "1926-27",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["JWIL","MARM","MINL","USND"],
+        "standings": [
+            {"place": 1, "team": "USND", "w": 5, "d": 1, "l": 0, "f": 20, "a":  4, "pts_win": 2, "season": "1927-28", "level": 4, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1928-29", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "MINL", "w": 3, "d": 1, "l": 2, "f": 10, "a":  6, "pts_win": 2, "season": "1927-28", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "MARM", "w": 3, "d": 0, "l": 3, "f": 13, "a": 11, "pts_win": 2, "season": "1927-28", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "JWIL", "w": 0, "d": 0, "l": 6, "f":  4, "a": 26, "pts_win": 2, "season": "1927-28", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["EGWM","EITZ","JHTC","SPST","WALF"],
+        "standings": [
+            {"place": 1, "team": "SPST", "w": 7, "d": 0, "l": 1, "f": 29, "a": 11, "pts_win": 2, "season": "1927-28", "level": 4, "series": 2, "league": "3. Division Series 2", "ppromoted": true, "target": {"season": "1928-29", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "EGWM", "w": 5, "d": 0, "l": 3, "f": 32, "a": 23, "pts_win": 2, "season": "1927-28", "level": 4, "series": 2, "league": "3. Division Series 2", "ppromoted": true, "target": {"season": "1928-29", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "JHTC", "w": 4, "d": 0, "l": 4, "f": 35, "a": 26, "pts_win": 2, "season": "1927-28", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "WALF", "w": 4, "d": 0, "l": 4, "f": 23, "a": 22, "pts_win": 2, "season": "1927-28", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "EITZ", "w": 0, "d": 0, "l": 8, "f": 13, "a": 50, "pts_win": 2, "season": "1927-28", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["USND","SPST"],
+        "target": {"season": "1928-29", "level": 3, "name": "2. Division"}
+    }
+}

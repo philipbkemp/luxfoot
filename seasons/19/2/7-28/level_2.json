@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1927-28",
+    "links": {
+        "next": "1928-29",
+        "prev": "1926-27",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["ARIS","ASDF","CPET","MANC","NSCH","PRON","USDD","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "ASDF", "w": 11, "d": 0, "l":  3, "f": 53, "a": 18, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1928-29", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "PRON", "w":  9, "d": 3, "l":  2, "f": 61, "a": 20, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion","playoff":"promotion", "promoted": true, "target": {"season": "1928-29", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "ARIS", "w": 10, "d": 1, "l":  3, "f": 51, "a": 27, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion","playoff":"promotion"},
+		{"place": 4, "team": "NSCH", "w":  8, "d": 1, "l":  5, "f": 38, "a": 36, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "CPET", "w":  6, "d": 2, "l":  6, "f": 32, "a": 48, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "USDD", "w":  4, "d": 1, "l":  9, "f": 47, "a": 37, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "MANC", "w":  2, "d": 0, "l": 12, "f": 17, "a": 65, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1928-29", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "YBDK", "w":  2, "d": 0, "l": 12, "f": 10, "a": 58, "pts_win": 2, "season": "1927-28", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1928-29", "level": 3, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ASDF","PRON"],
+		"target": {"season": "1928-29", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["MANC","YBDK"],
+		"target": {"season": "1928-29", "level": 3, "name": "2. Division"}
+	},
+    "playoffs": {
+        "promotion": [
+            {"home":"PRON","away":"ARIS","score":"4-0","season":"1927-28","competition":{"type":"league","level": 2,"name": "The Promotion","playoff":"promotion"},"outcome":"PRON relegated to TARGET", "target": {"season": "1928-29", "level": 1, "name": "1. Division"}}
+        ]
+    }
+}

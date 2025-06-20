@@ -1,0 +1,50 @@
+{
+    "season": "1927-28",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1928-29",
+        "prev": "1926-27"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+            {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "MANC", "homeDivision": {"level":2,"name":"The Promotion"},"away": "PROG", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-8"},
+			{"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "RBPF", "homeDivision": {"level":1,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":2,"name":"The Promotion"},"score":"0-3"},
+			{"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-0"},
+			{"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "CPET", "homeDivision": {"level":2,"name":"The Promotion"},"away": "FOLA", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-5"},
+			{"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "SDUD", "homeDivision": {"level":1,"name":"1. Division"},"away": "SWFT", "awayDivision": {"level":2,"name":"2. Division"},"score":"8-2"},
+			{"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "ARIS", "homeDivision": {"level":2,"name":"The Promotion"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-1"}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"0-3"},
+			{"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":1,"name":"1. Division"},"score":"4-0"},
+			{"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-1","note":"Replayed"},
+			{"date":"1928-01-01","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final (Replay)"},"home": "JESH", "homeDivision": {"level":1,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-3"},
+			{"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":2,"name":"The Promotion"},"score":"0-0","note":"Replayed"},
+			{"date":"1928-01-01","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final (Replay)"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":2,"name":"The Promotion"},"score":"3-1"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1928-01-08","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"1. Division"},"score":"12-0"},
+			{"date":"1928-01-08","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-0"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1928-03-18","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"2-2","aet":true,"note":"Replayed"},
+            {"date":"1928-04-29","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final (Replay)"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-3","aet":true,"note":"Replayed"},
+            {"date":"1928-05-17","season": "1927-28","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final (Second Replay)"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"5-2"}
+        ]
+    }],
+    "winner": "SPOR",
+    "title_count": 1
+}
