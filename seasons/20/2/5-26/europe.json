@@ -12,8 +12,8 @@
             "name": "Qualifying R1",
             "matches": {
                 "DIFF": [
-                    {"isEurope":true,"leg":1,"home":"KOS:DRTA","away":"DIFF","score":"-","season":"2025-26","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":1}},
-                    {"isEurope":true,"leg":2,"home":"DIFF","away":"KOS:DRTA","score":"-","season":"2025-26","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":2}}
+                    {"date":"2025-07-08","isEurope":true,"leg":1,"home":"KOS:DRTA","away":"DIFF","score":"-","season":"2025-26","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":1}},
+                    {"date":"2025-07-15","isEurope":true,"leg":2,"home":"DIFF","away":"KOS:DRTA","score":"-","season":"2025-26","competition":{"type":"europe","cup":"champions_league","name":"Champions League","round":"Qualifying R1","leg":2}}
                 ]
             }
         }]
