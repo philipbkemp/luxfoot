@@ -225,15 +225,15 @@
 		"season": "1928-29",
 		"leagues": {
 			"level_1": {"season": "1928-29", "level":  1, "name": "1. Division", "winner": "SPOR", "title_count": 3},
-			"level_2": {"missing":true,"season": "1928-29", "level":  2, "name": "The Promotion", "winner": "ULUX"},
-			"level_3": {"missing":true,"season": "1928-29", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1928-29", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
-				{"missing":true,"season": "1928-29", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "URUM"}
+			"level_2": {"season": "1928-29", "level":  2, "name": "The Promotion", "winner": "ULUX"},
+			"level_3": {"season": "1928-29", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1928-29", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
+				{"season": "1928-29", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "URUM"}
 			]},
-			"level_4": {"missing":true,"season": "1928-29", "level":  4, "name": "3. Division", "winner": "OYMP"}
+			"level_4": {"season": "1928-29", "level":  4, "name": "3. Division", "winner": "OYMP"}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1928-29", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 4, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1928-29", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 4, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1929-30",

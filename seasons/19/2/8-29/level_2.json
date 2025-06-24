@@ -1,0 +1,31 @@
+{
+    "level": 2,
+	"season": "1928-29",
+    "links": {
+        "next": "1929-30",
+        "prev": "1927-28",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["ADUD","ARIS","CPET","NSCH","PROG","SWFT","ULUX","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "ULUX", "w": 12, "d": 0, "l":  2, "f": 66, "a": 27, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1929-30", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "USDD", "w":  9, "d": 2, "l":  3, "f": 50, "a": 22, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1929-30", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "ARIS", "w":  8, "d": 1, "l":  5, "f": 34, "a": 28, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion"},
+		{"place": 4, "team": "PROG", "w":  7, "d": 1, "l":  6, "f": 42, "a": 31, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "NSCH", "w":  6, "d": 3, "l":  5, "f": 38, "a": 32, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "ADUD", "w":  6, "d": 0, "l":  8, "f": 32, "a": 47, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "CPET", "w":  1, "d": 3, "l": 10, "f": 18, "a": 56, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1929-30", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "SWFT", "w":  1, "d": 2, "l": 11, "f": 30, "a": 67, "pts_win": 2, "season": "1928-29", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1929-30", "level": 3, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ULUX","USDD"],
+		"target": {"season": "1929-30", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["CPET","SWFT"],
+		"target": {"season": "1929-30", "level": 3, "name": "2. Division"}
+	}
+}

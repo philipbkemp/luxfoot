@@ -1,0 +1,49 @@
+{
+    "level": 3,
+	"season": "1928-29",
+    "links": {
+        "next": "1929-30",
+        "prev": "1927-28",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AVBG","EGWM","ETZE","GOLD","MANC","SPST","USND","YBDK"],
+        "standings": [
+            {"place": 1, "team": "SPST", "w": 9, "d": 3, "l":  2, "f": 39, "a": 23, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1929-30", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "AVBG", "w": 9, "d": 2, "l":  3, "f": 53, "a": 16, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "ETZE", "w": 8, "d": 4, "l":  2, "f": 48, "a": 34, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "YBDK", "w": 6, "d": 1, "l":  7, "f": 32, "a": 33, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "EGWM", "w": 5, "d": 3, "l":  6, "f": 30, "a": 20, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1"},
+            {"place": 6, "team": "GOLD", "w": 5, "d": 3, "l":  6, "f": 30, "a": 22, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1"},
+            {"place": 7, "team": "USND", "w": 5, "d": 2, "l":  7, "f": 29, "a": 33, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1"},
+            {"place": 8, "team": "MANC", "w": 0, "d": 0, "l": 14, "f": 13, "a": 93, "pts_win": 2, "season": "1928-29", "level": 3, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1929-30", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASLX","CROD","JKYL","RPDN","STET","UESH","UNAS","URUM"],
+        "standings": [
+            {"place": 1, "team": "URUM", "w": 10, "d": 2, "l":  2, "f": 46, "a": 19, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1929-30", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "UESH", "w":  9, "d": 2, "l":  3, "f": 38, "a": 17, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "UNAS", "w":  8, "d": 3, "l":  3, "f": 39, "a": 20, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "CROD", "w":  8, "d": 3, "l":  3, "f": 38, "a": 20, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "STET", "w":  7, "d": 0, "l":  7, "f": 38, "a": 37, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2"},
+            {"place": 6, "team": "ASLX", "w":  4, "d": 0, "l": 10, "f": 34, "a": 60, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2"},
+            {"place": 7, "team": "JKYL", "w":  3, "d": 2, "l":  9, "f": 27, "a": 49, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2"},
+            {"place": 8, "team": "RPDN", "w":  1, "d": 0, "l": 13, "f": 12, "a": 50, "pts_win": 2, "season": "1928-29", "level": 3, "series" :2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1929-30", "level": 4, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["SPST","URUM"],
+        "target": {"season": "1929-30", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["MANC","RPDN"],
+        "target": {"season": "1929-30", "level": 4, "name": "3. Division"}
+    }
+}
