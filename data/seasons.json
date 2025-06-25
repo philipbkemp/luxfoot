@@ -239,14 +239,14 @@
 		"season": "1929-30",
 		"leagues": {
 			"level_1": {"season": "1929-30", "level":  1, "name": "1. Division", "winner": "FOLA", "title_count": 5},
-			"level_2": {"missing":true,"season": "1929-30", "level":  2, "name": "The Promotion", "winner": "NSCH"},
-			"level_3": {"missing":true,"season": "1929-30", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1929-30", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "EGWM"},
-				{"missing":true,"season": "1929-30", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "STET"}
+			"level_2": {"season": "1929-30", "level":  2, "name": "The Promotion", "winner": "NSCH"},
+			"level_3": {"season": "1929-30", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1929-30", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "EGWM"},
+				{"season": "1929-30", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "STET"}
 			]},
 			"level_4": {"season": "1929-30", "level":  4, "name": "3. Division", "series": [
 				{"season": "1929-30", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "RSML"},
-				{"missing":true,"season": "1929-30", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
+				{"season": "1929-30", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "BLVL"}
 			]}
 		},
 		"cups": {

@@ -23,10 +23,19 @@
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
+        "teams": ["BLVL","JHTC","MARM","MINL","SCBT","UBSH","WGLW"],
+        "standings": [
+            {"place": 1, "team": "BLVL", "w": 10, "d": 2, "l":  0, "f": 56, "a":  5, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1930-31", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "SCBT", "w":  8, "d": 1, "l":  3, "f": 44, "a": 23, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "JHTC", "w":  7, "d": 1, "l":  4, "f": 37, "a": 27, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "MARM", "w":  5, "d": 1, "l":  6, "f": 23, "a": 51, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "UBSH", "w":  4, "d": 2, "l":  6, "f": 16, "a": 25, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "WGLW", "w":  4, "d": 0, "l":  8, "f": 23, "a": 29, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "MINL", "w":  0, "d": 1, "l": 11, "f":  3, "a": 42, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
     }],
     "promotion": {
-        "teams": ["RSML"],
+        "teams": ["RSML","BLVL"],
         "target": {"season":"1930-31","level":3,"name":"2. Division"}
     }
 }
