@@ -1,0 +1,68 @@
+{
+    "level": 4,
+	"season": "1930-31",
+    "links": {
+        "next": "1931-32",
+        "prev": "1929-30",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["MARM","MDLB","MINL","RPDN","SCBT","WGLW"],
+        "standings": [
+            {"place": 1, "team": "SCBT", "w": 9, "d": 0, "l": 1, "f": 86, "a": 10, "pts_win": 2, "season": "1930-31", "level": 4, "series": 1, "league": "3. Division Series 1", "playoff": "league_promotion_playoff", "promoted":true,"target":{"season":"1931-32","level":3,"name":"2. Division"}},
+            {"place": 2, "team": "RPDN", "w": 8, "d": 1, "l": 1, "f": 52, "a": 18, "pts_win": 2, "season": "1930-31", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "MINL", "w": 4, "d": 1, "l": 5, "f": 23, "a": 55, "pts_win": 2, "season": "1930-31", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "WGLW", "w": 3, "d": 1, "l": 6, "f": 29, "a": 32, "pts_win": 2, "season": "1930-31", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "MDLB", "w": 2, "d": 1, "l": 7, "f": 23, "a": 39, "pts_win": 2, "season": "1930-31", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "MARM", "w": 2, "d": 0, "l": 8, "f": 11, "a": 70, "pts_win": 2, "season": "1930-31", "level": 4, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASLX","CGRV","CSHL","DARE","JWAS"],
+        "standings": [
+            {"place": 1, "team": "JWAS", "w": 7, "d": 0, "l": 1, "f": 26, "a": 10, "pts_win": 2, "season": "1930-31", "level": 4, "series": 2, "league": "3. Division Series 2", "playoff": "league_promotion_playoff", "promoted":true,"target":{"season":"1931-32","level":3,"name":"2. Division"}},
+            {"place": 2, "team": "CGRV", "w": 5, "d": 0, "l": 3, "f": 31, "a": 17, "pts_win": 2, "season": "1930-31", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "ASLX", "w": 3, "d": 1, "l": 4, "f": 18, "a": 20, "pts_win": 2, "season": "1930-31", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "DARE", "w": 2, "d": 2, "l": 4, "f": 16, "a": 20, "pts_win": 2, "season": "1930-31", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "CSHL", "w": 1, "d": 1, "l": 6, "f": 13, "a": 37, "pts_win": 2, "season": "1930-31", "level": 4, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["CSOB","JHTC","MANC","OYMP","TRIM","UBSH"],
+        "standings": [
+            {"place": 1, "team": "MANC", "w": 8, "d": 0, "l":  2, "f": 46, "a": 20, "pts_win": 2, "season": "1930-31", "level": 4, "series": 3, "league": "3. Division Series 3", "playoff": "league_promotion_playoff"},
+            {"place": 2, "team": "CSOB", "w": 7, "d": 1, "l":  2, "f": 54, "a": 19, "pts_win": 2, "season": "1930-31", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 3, "team": "JHTC", "w": 6, "d": 1, "l":  3, "f": 25, "a": 24, "pts_win": 2, "season": "1930-31", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "UBSH", "w": 5, "d": 0, "l":  5, "f": 25, "a": 22, "pts_win": 2, "season": "1930-31", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "OYMP", "w": 3, "d": 0, "l":  7, "f": 12, "a": 30, "pts_win": 2, "season": "1930-31", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "TRIM", "w": 0, "d": 0, "l": 10, "f": 10, "a": 57, "pts_win": 2, "season": "1930-31", "level": 4, "series": 3, "league": "3. Division Series 3"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["SCBT","JWAS"],
+        "target": {"season":"1931-32","level":3,"name":"2. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["SCBT","JWAS","MANC"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"SCBT","teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"},"w":1,"d":1,"l":0,"f": 2,"a":1,"pts_win":2,"season":"1930-31","level":4,"league":"3. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season":"1931-32","level":3,"name":"2. Division"}},
+                {"place":2,"team":"JWAS","teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"},"w":0,"d":2,"l":0,"f": 3,"a":3,"pts_win":2,"season":"1930-31","level":4,"league":"3. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season":"1931-32","level":3,"name":"2. Division"}},
+                {"place":3,"team":"MANC","teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"},"w":0,"d":1,"l":1,"f": 2,"a":3,"pts_win":2,"season":"1930-31","level":4,"league":"3. Division","playoff":"league_promotion_playoff"}
+            ],
+            "matches": [
+                {"season": "1930-31","competition": {"type":"league","level":4,"name":"3. Division","round":"Promotion Playoffs"},"home": "SCBT", "homeDivision": {"level":4,"series":1,"name":"3. Division Series 1"},"away": "JWAS", "awayDivision": {"level":4,"series":2,"name":"3. Division Series 2"},"score": "1-1"},
+                {"season": "1930-31","competition": {"type":"league","level":4,"name":"3. Division","round":"Promotion Playoffs"},"home": "MANC", "homeDivision": {"level":4,"series":3,"name":"3. Division Series 3"},"away": "JWAS", "awayDivision": {"level":4,"series":2,"name":"3. Division Series 2"},"score": "2-2"},
+                {"season": "1930-31","competition": {"type":"league","level":4,"name":"3. Division","round":"Promotion Playoffs"},"home": "SCBT", "homeDivision": {"level":4,"series":1,"name":"3. Division Series 1"},"away": "MANC", "awayDivision": {"level":4,"series":3,"name":"3. Division Series 3"},"score": "1-0"}
+            
+            ]
+        }
+    }
+}

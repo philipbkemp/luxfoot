@@ -1,0 +1,62 @@
+{
+    "season": "1930-31",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1931-32",
+        "prev": "1929-30"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"The Promotion"},"away": "USND", "awayDivision": {"level":3,"name":"2. Division"},"score":"4-1"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BLVL", "homeDivision": {"level":3,"name":"2. Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-0"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UBSH", "homeDivision": {"level":4,"name":"3. Division"},"away": "CPET", "awayDivision": {"level":3,"name":"2. Division"},"score":"0-3"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UESH", "homeDivision": {"level":3,"name":"2. Division"},"away": "CROD", "awayDivision": {"level":3,"name":"2. Division"},"score":"1-3"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"The Promotion"},"away": "SWFT", "awayDivision": {"level":3,"name":"2. Division"},"score":"4-0"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASDF", "homeDivision": {"level":2,"name":"The Promotion"},"away": "RSML", "awayDivision": {"level":3,"name":"2. Division"},"score":"1-0"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ETZE", "homeDivision": {"level":3,"name":"2. Division"},"away": "JESH", "awayDivision": {"level":2,"name":"The Promotion"},"score":"0-3"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JHTC", "homeDivision": {"level":4,"name":"3. Division"},"away": "USDD", "awayDivision": {"level":2,"name":"The Promotion"},"score":"0-11"},
+			{"date":"1930-09-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":3,"name":"2. Division"},"away": "UNAS", "awayDivision": {"level":3,"name":"2. Division"},"score":"3-0","forfeit":true}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+            {"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"The Promotion"},"score":"6-0"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "PROG", "homeDivision": {"level":2,"name":"The Promotion"},"away": "ULUX", "awayDivision": {"level":1,"name":"1. Division"},"score":"4-1"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "PRON", "homeDivision": {"level":1,"name":"1. Division"},"away": "CPET", "awayDivision": {"level":3,"name":"2. Division"},"score":"4-1"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"1. Division"},"away": "USDD", "awayDivision": {"level":2,"name":"The Promotion"},"score":"1-0"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBPF", "homeDivision": {"level":1,"name":"1. Division"},"away": "ADUD", "awayDivision": {"level":3,"name":"2. Division"},"score":"2-3"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JESH", "homeDivision": {"level":2,"name":"The Promotion"},"away": "ASDF", "awayDivision": {"level":2,"name":"The Promotion"},"score":"6-2"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CROD", "homeDivision": {"level":3,"name":"2. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-11"},
+			{"date":"1930-10-05","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"1. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"2. Division"},"score":"5-2"}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"1930-12-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"The Promotion"},"score":"8-0"},
+			{"date":"1930-12-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":1,"name":"1. Division"},"score":"5-3"},
+			{"date":"1930-12-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"1. Division"},"score":"6-0"},
+			{"date":"1930-12-07","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":2,"name":"The Promotion"},"away": "ADUD", "awayDivision": {"level":3,"name":"2. Division"},"score":"7-2"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1931-01-04","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "JESH", "homeDivision": {"level":2,"name":"The Promotion"},"away": "SPOR", "awayDivision": {"level":1,"name":"1. Division"},"score":"1-5"},
+			{"date":"1931-01-04","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-1"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1931-03-29","season": "1930-31","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"1. Division"},"score":"3-5","aet":true}
+        ]
+    }],
+    "winner": "RBDF",
+    "title_count": 6
+}

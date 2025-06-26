@@ -256,19 +256,19 @@
 		"season": "1930-31",
 		"leagues": {
 			"level_1": {"season": "1930-31", "level":  1, "name": "1. Division", "winner": "RBDF", "title_count": 3, "double": true},
-			"level_2": {"missing":true,"season": "1930-31", "level":  2, "name": "The Promotion", "winner": "USDD"},
-			"level_3": {"missing":true,"season": "1930-31", "level":  3, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1930-31", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "AVBG"},
-				{"missing":true,"season": "1930-31", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"}
+			"level_2": {"season": "1930-31", "level":  2, "name": "The Promotion", "winner": "USDD"},
+			"level_3": {"season": "1930-31", "level":  3, "name": "2. Division", "series": [
+			    {"season": "1930-31", "level":  3, "series":  1, "name": "2. Division Series 1", "winner": "AVBG"},
+				{"season": "1930-31", "level":  3, "series":  2, "name": "2. Division Series 2", "winner": "ADUD"}
 			]},
-			"level_4": {"missing":true,"season": "1930-31", "level":  4, "name": "3. Division", "series": [
-				{"missing":true,"season": "1930-31", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "SCLX"},
-				{"missing":true,"season": "1930-31", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "JWAS"},
-				{"missing":true,"season": "1930-31", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "MANC"}
+			"level_4": {"season": "1930-31", "level":  4, "name": "3. Division", "series": [
+				{"season": "1930-31", "level":  4, "series":  1, "name": "3. Division Series 1", "winner": "SCLX"},
+				{"season": "1930-31", "level":  4, "series":  2, "name": "3. Division Series 2", "winner": "JWAS"},
+				{"season": "1930-31", "level":  4, "series":  3, "name": "3. Division Series 3", "winner": "MANC"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1930-31", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 6, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1930-31", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 6, "double": true, "winner_division": {"level": 1,"name": "1. Division"}}
 		}
 	},{
 		"season": "1931-32",

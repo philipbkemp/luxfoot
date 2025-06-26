@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1930-31",
+    "links": {
+        "next": "1931-32",
+        "prev": "1929-30",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["ARIS","ASDF","EGWM","JESH","PROG","STET","URUM","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "USDD", "w": 12, "d": 0, "l":  2, "f": 69, "a": 22, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1931-32", "level": 1, "name": "1. Division"}},
+		{"place": 2, "team": "ARIS", "w":  9, "d": 0, "l":  5, "f": 55, "a": 21, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion", "playoff":"promotion", "promoted": true, "target": {"season": "1931-32", "level": 1, "name": "1. Division"}},
+		{"place": 3, "team": "PROG", "w":  9, "d": 0, "l":  5, "f": 38, "a": 19, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion", "playoff":"promotion"},
+		{"place": 4, "team": "JESH", "w":  8, "d": 1, "l":  5, "f": 35, "a": 28, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "ASDF", "w":  7, "d": 1, "l":  6, "f": 32, "a": 21, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "URUM", "w":  7, "d": 0, "l":  7, "f": 35, "a": 37, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "STET", "w":  2, "d": 2, "l": 10, "f": 17, "a": 53, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1931-32", "level": 3, "name": "2. Division"}},
+		{"place": 8, "team": "EGWM", "w":  0, "d": 0, "l": 14, "f": 11, "a": 91, "pts_win": 2, "season": "1930-31", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1931-32", "level": 3, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["USDD","ARIS"],
+		"target": {"season": "1931-32", "level": 1, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["STET","EGWM"],
+		"target": {"season": "1931-32", "level": 3, "name": "2. Division"}
+	},
+    "playoffs": {
+        "promotion": [
+            {"home":"ARIS", "away":"PROG", "score":"8-1", "season":"1930-31", "competition": {"type":"league", "level":2, "name":"The Promotion", "playoff": "promotion"}, "outcome": "ARIS promoted to TARGET", "target": {"season": "1931-32", "level": 1, "name": "1. Division"}}
+        ]
+    }
+}

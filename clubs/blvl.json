@@ -5,6 +5,7 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 2, "team": "BLVL", "w":  8, "d": 2, "l":  4, "f": 34, "a": 17, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
         {"place": 1, "team": "BLVL", "w": 10, "d": 2, "l":  0, "f": 56, "a":  5, "pts_win": 2, "season": "1929-30", "level": 4, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1930-31", "level": 3, "name": "2. Division"}},
         {"gap":true},
         {"place": 7, "team": "BLVL", "w":  3, "d": 2, "l":  9, "f": 21, "a": 49, "pts_win": 2, "season": "1926-27", "level": 3, "series": 1, "league": "2. Division Series 1","removed":true,"removed_note":"Did not compete next season"},

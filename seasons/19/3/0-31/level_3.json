@@ -1,0 +1,54 @@
+{
+    "level": 3,
+	"season": "1930-31",
+    "links": {
+        "next": "1931-32",
+        "prev": "1929-30",
+        "up": 2,
+        "down": 4
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AVBG","CPET","ETZE","GOLD","SPST","USND","WALF","YBDK"],
+        "standings": [
+            {"place": 1, "team": "AVBG", "w": 12, "d": 0, "l": 2, "f": 65, "a": 20, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"promotion", "promoted": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "CPET", "w": 12, "d": 0, "l": 2, "f": 57, "a": 17, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1","playoff":"promotion"},
+            {"place": 3, "team": "SPST", "w":  5, "d": 2, "l": 7, "f": 32, "a": 38, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "GOLD", "w":  5, "d": 2, "l": 7, "f": 26, "a": 36, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "USND", "w":  5, "d": 1, "l": 8, "f": 25, "a": 46, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 6, "team": "YBDK", "w":  4, "d": 2, "l": 8, "f": 33, "a": 48, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 7, "team": "WALF", "w":  3, "d": 4, "l": 7, "f": 30, "a": 47, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1"},
+            {"place": 8, "team": "ETZE", "w":  3, "d": 3, "l": 8, "f": 24, "a": 40, "pts_win": 2, "season": "1930-31", "level": 3, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1931-32", "level": 4, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ADUD","BLVL","CROD","JKYL","RSML","SWFT","UESH","UNAS"],
+        "standings": [
+            {"place": 1, "team": "ADUD", "w": 12, "d": 2, "l":  0, "f": 68, "a": 22, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}},
+            {"place": 2, "team": "BLVL", "w":  8, "d": 2, "l":  4, "f": 34, "a": 17, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "CROD", "w":  8, "d": 1, "l":  5, "f": 45, "a": 26, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "UNAS", "w":  7, "d": 1, "l":  6, "f": 44, "a": 48, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "RSML", "w":  5, "d": 3, "l":  6, "f": 34, "a": 37, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 6, "team": "SWFT", "w":  3, "d": 2, "l":  9, "f": 26, "a": 40, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 7, "team": "JKYL", "w":  2, "d": 4, "l":  8, "f": 28, "a": 55, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2"},
+            {"place": 8, "team": "UESH", "w":  3, "d": 1, "l": 10, "f": 22, "a": 56, "pts_win": 2, "season": "1930-31", "level": 3, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1931-32", "level": 4, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["AVBG","ADUD"],
+        "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["EZTE","UESH"],
+        "target": {"season": "1931-32", "level": 4, "name": "3. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"homeDivision":{"level":3,"series":1,"name":"2. Division Series 1"},"awayDivision":{"level":3,"series":1,"name":"2. Division Series 1"},"home":"AVBG", "away":"CPET", "score":"2-1", "season":"1930-31", "competition": {"type":"league", "level":3, "series": 1, "name":"2. Division Series 1", "playoff": "promotion"}, "outcome": "AVBG promoted to TARGET", "target": {"season": "1931-32", "level": 2, "name": "The Promotion"}}
+        ]
+    }
+}
