@@ -932,7 +932,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 				if ( ! s.playoff || isPlayoffTable ) {
 					thisRowNotes.append(
 						$("<A></A>")
-							.html(["Relegated to",s.target.season,s.target.name].join(" "))
+							.html([(s.relegated_twice?"Double":""),"Relegated to",s.target.season,s.target.name].join(" "))
 							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
 							.addClass(thisRowHasNotes?'ms-3':'ms-0')
 					);
