@@ -1,0 +1,62 @@
+{
+    "level": 4,
+	"season": "1931-32",
+    "links": {
+        "next": "1932-33",
+        "prev": "1930-31",
+        "up": 3
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["CSHL","CSOB","JHTC","MANC","OYMP","UESH"],
+        "standings": [
+            {"place": 1, "team": "CSOB", "w": 7, "d": 2, "l": 1, "f": 36, "a":  7, "pts_win": 2, "season": "1931-32", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 2, "team": "JHTC", "w": 6, "d": 1, "l": 3, "f": 33, "a": 25, "pts_win": 2, "season": "1931-32", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "UESH", "w": 4, "d": 3, "l": 3, "f": 20, "a": 31, "pts_win": 2, "season": "1931-32", "level": 4, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "MANC", "w": 4, "d": 1, "l": 5, "f": 27, "a": 18, "pts_win": 2, "season": "1931-32", "level": 4, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 5, "team": "CSHL", "w": 4, "d": 1, "l": 5, "f": 28, "a": 25, "pts_win": 2, "season": "1931-32", "level": 4, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 6, "team": "OYMP", "w": 0, "d": 2, "l": 8, "f": 10, "a": 48, "pts_win": 2, "season": "1931-32", "level": 4, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","ASLX","ECBT","MDLB","RBAS","TRIM"],
+        "standings": [
+            {"place": 1, "team": "AREM", "w": 7, "d": 1, "l": 2, "f": 30, "a":  9, "pts_win": 2, "season": "1931-32", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 2, "team": "TRIM", "w": 6, "d": 2, "l": 2, "f": 23, "a": 14, "pts_win": 2, "season": "1931-32", "level": 4, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "MDLB", "w": 5, "d": 3, "l": 2, "f": 26, "a": 17, "pts_win": 2, "season": "1931-32", "level": 4, "series": 2, "league": "3. Division Series 2", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 4, "team": "RBAS", "w": 4, "d": 2, "l": 4, "f": 27, "a": 29, "pts_win": 2, "season": "1931-32", "level": 4, "series": 2, "league": "3. Division Series 2", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 5, "team": "ECBT", "w": 2, "d": 2, "l": 6, "f": 16, "a": 24, "pts_win": 2, "season": "1931-32", "level": 4, "series": 2, "league": "3. Division Series 2", "removed": true,"removed_note":"Did not compete next season"},
+            {"place": 6, "team": "ASLX", "w": 1, "d": 0, "l": 9, "f": 14, "a": 43, "pts_win": 2, "season": "1931-32", "level": 4, "series": 2, "league": "3. Division Series 2", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ETZE","MARM","MINL","RPDN","UBSH","WGLW"],
+        "standings": [
+            {"place": 1, "team": "ETZE", "w": 9, "d": 1, "l":  0, "f": 52, "a": 12, "pts_win": 2, "season": "1931-32", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 2, "team": "RPDN", "w": 7, "d": 2, "l":  1, "f": 40, "a": 15, "pts_win": 2, "season": "1931-32", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 3, "team": "UBSH", "w": 6, "d": 1, "l":  3, "f": 40, "a": 22, "pts_win": 2, "season": "1931-32", "level": 4, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "MARM", "w": 3, "d": 0, "l":  7, "f": 26, "a": 36, "pts_win": 2, "season": "1931-32", "level": 4, "series": 3, "league": "3. Division Series 3", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 5, "team": "WGLW", "w": 3, "d": 0, "l":  7, "f": 19, "a": 31, "pts_win": 2, "season": "1931-32", "level": 4, "series": 3, "league": "3. Division Series 3", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 6, "team": "MINL", "w": 0, "d": 0, "l": 10, "f":  7, "a": 68, "pts_win": 2, "season": "1931-32", "level": 4, "series": 3, "league": "3. Division Series 3", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["CGRV","DARE","UMRT","VICR"],
+        "standings": [
+            {"place": 1, "team": "CGRV", "w": 5, "d": 0, "l": 1, "f": 28, "a": 13, "pts_win": 2, "season": "1931-32", "level": 4, "series": 4, "league": "3. Division Series 4"},
+            {"place": 2, "team": "DARE", "w": 4, "d": 0, "l": 2, "f": 16, "a":  7, "pts_win": 2, "season": "1931-32", "level": 4, "series": 4, "league": "3. Division Series 4"},
+            {"place": 3, "team": "UMRT", "w": 2, "d": 0, "l": 4, "f": 17, "a": 21, "pts_win": 2, "season": "1931-32", "level": 4, "series": 4, "league": "3. Division Series 4", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}},
+            {"place": 4, "team": "VICR", "w": 1, "d": 0, "l": 5, "f": 10, "a": 30, "pts_win": 2, "season": "1931-32", "level": 4, "series": 4, "league": "3. Division Series 4", "relegated": true, "target": {"season": "1932-33", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "relegation": {
+        "teams": ["MANC","CSHL","OYMP","MDLB","RBAS","ASLX","MARM","WGLW","MINL","UMRT","VICR"],
+        "target": {"season": "1932-33", "level": 5, "name": "3. Division"}
+    }
+}

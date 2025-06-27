@@ -1,0 +1,31 @@
+{
+    "level": 2,
+	"season": "1931-32",
+    "links": {
+        "next": "1932-33",
+        "prev": "1930-31",
+        "up": 1,
+        "down": 3
+    },
+	"name": "The Promotion",
+	"teams": ["ADUD","ASDF","AVBG","JESH","PROG","RBPF","SDUD","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "SDUD", "w": 8, "d": 4, "l":  2, "f": 30, "a": 13, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1932-33", "level": 1, "name": "Honour Division"}},
+		{"place": 2, "team": "RBPF", "w": 8, "d": 4, "l":  2, "f": 30, "a": 14, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion", "promoted": true, "target": {"season": "1932-33", "level": 1, "name": "Honour Division"}},
+		{"place": 3, "team": "PROG", "w": 8, "d": 3, "l":  3, "f": 30, "a": 16, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion"},
+		{"place": 4, "team": "JESH", "w": 7, "d": 3, "l":  4, "f": 45, "a": 26, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion"},
+		{"place": 5, "team": "ASDF", "w": 5, "d": 5, "l":  4, "f": 25, "a": 23, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion"},
+		{"place": 6, "team": "ADUD", "w": 4, "d": 5, "l":  5, "f": 29, "a": 34, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion"},
+		{"place": 7, "team": "URUM", "w": 1, "d": 3, "l": 10, "f": 25, "a": 44, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1932-33", "level": 3, "name": "The Promotion"}},
+		{"place": 8, "team": "AVBG", "w": 1, "d": 1, "l": 12, "f": 20, "a": 64, "pts_win": 2, "season": "1931-32", "level": 2, "league": "The Promotion", "relegated": true, "target": {"season": "1932-33", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["SDUD","RBPF"],
+		"target": {"season": "1932-33", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["URUM","AVBG"],
+		"target": {"season": "1932-33", "level": 3, "name": "The Promotion"}
+	}
+}
