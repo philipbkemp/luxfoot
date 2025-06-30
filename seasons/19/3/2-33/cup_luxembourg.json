@@ -1,0 +1,82 @@
+{
+    "season": "1932-33",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1933-34",
+        "prev": "1931-32"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "SWFT", "awayDivision": {"level":3,"name":"The Promotion"},"score":"7-2"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"The Promotion"},"away": "GOLD", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-0","forfeit":true},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JKYL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "TRIM", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-5"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-1","note":"Replay"},
+            {"date":"1932-12-18","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-1"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "EGWM", "homeDivision": {"level":4,"name":"2. Division"},"away": "BLVL", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-4"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CROD", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SCBT", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-2"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-2"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JHTC", "homeDivision": {"level":4,"name":"2. Division"},"away": "UBSH", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-0"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":3,"name":"The Promotion"},"away": "UESH", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-1"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "AREM", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":5,"name":"3. Division"},"away": "STET", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MANC", "homeDivision": {"level":5,"name":"3. Division"},"away": "CSOB", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-5"},
+			{"date":"1932-12-04","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSHL", "homeDivision": {"level":5,"name":"3. Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "USDD", "homeDivision": {"level":2,"name":"1. Division"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JHTC", "homeDivision": {"level":4,"name":"2. Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-2"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":4,"name":"2. Division"},"away": "CPET", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-4"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "AREM", "homeDivision": {"level":4,"name":"2. Division"},"away": "EGWM", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-2"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TRIM", "homeDivision": {"level":4,"name":"2. Division"},"away": "BLVL", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-2","note":"Replay"},
+            {"date":"1933-01-22","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TRIM", "homeDivision": {"level":4,"name":"2. Division"},"away": "BLVL", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CROD", "homeDivision": {"level":3,"name":"The Promotion"},"away": "AVBG", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-3"},
+			{"date":"1933-01-08","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CSHL", "homeDivision": {"level":5,"name":"3. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"}
+		]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CPET", "awayDivision": {"level":3,"name":"The Promotion"},"score":"16-0"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-3"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "AREM", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JHTC", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-1"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "BLVL", "awayDivision": {"level":2,"name":"1. Division"},"score":"7-1"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PROG", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-3"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-1"},
+			{"date":"1933-02-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBPF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-4"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1933-03-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-1"},
+			{"date":"1933-03-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-6"},
+			{"date":"1933-03-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-3","note":"Replay"},
+            {"date":"1933-03-26","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1933-03-05","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-3"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1933-04-02","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-3"},
+			{"date":"1933-04-02","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-0"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1933-04-23","season": "1932-33","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-4"}
+        ]
+    }],
+    "winner": "PRON",
+    "title_count": 1
+}

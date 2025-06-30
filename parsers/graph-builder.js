@@ -37,8 +37,8 @@ function buildGraph() {
 	clubs = {};
 	seasons = 0;
 
-	function loadSeason(t1=[],t2=[],t3=[],t4=[]) {
-		leagueSizes.push( [t1.length,t2.length,t3.length,t4.length] );
+	function loadSeason(t1=[],t2=[],t3=[],t4=[],t5=[]) {
+		leagueSizes.push( [t1.length,t2.length,t3.length,t4.length,t5.length] );
 		p = 1;
 		t1.forEach(c1=>{
 			if ( !clubs[c1] ) {
@@ -83,6 +83,18 @@ function buildGraph() {
 					}
 				}
 				clubs[cc4].push(p);
+			});
+			p++;
+		});
+		t5.forEach(c5=>{
+			c5.split("|").forEach(cc5=>{
+				if ( !clubs[cc5] ) {
+					clubs[cc5] = [];
+					for ( i=1 ; i<=seasons ; i++ ) {
+						clubs[cc5].push( null );
+					}
+				}
+				clubs[cc5].push(p);
 			});
 			p++;
 		});
@@ -143,7 +155,7 @@ function buildGraph() {
 	/*1929-30*/ loadSeason(["FOLA","SPOR","RBDF","PRON","RBPF","ULUX","USDD","JESH"],["NSCH","SDUD","ASDF","ARIS","URUM","PROG","ADUD","SPST"],["EGWM|STET","YBDK|CPET","ETZE|SWFT","AVBG|UESH","GOLD|CROD","USND|UNAS","WALF|JKYL","OYMP|ASLX"],["RSML|BLVL","DARE|SCBT","RPDN|JHTC","JWAS|MARM","CSHL|UBSH","MANC|WGLW","MINL"]);
 	/*1930-31*/ loadSeason(["RBDF","SPOR","PRON","FOLA","ULUX","NSCH","SDUD","RBPF"],["USDD","ARIS","PROG","JESH","ASDF","URUM","STET","EGWM"],["AVBG|ADUD","CPET|BLVL","SPST|CROD","GOLD|UNAS","USND|RSML","YBDK|SWFT","WALF|JKYL","ETZE|UESH"],["SCBT|JWAS|MANC","RPDN|CGRV|CSOB","MINL|ASLX|JHTC","WGLW|DARE|UBSH","MDLB|CSHL|OYMP","MARM|TRIM"]);
 	/*1931-32*/ loadSeason(["RBDF","PRON","SPOR","ULUX","NSCH","FOLA","USDD","ARIS"],["SDUD","RBPF","PROG","JESH","ASDF","ADUD","URUM","AVBG"],["SCBT|BLVL","CPET|CROD","GOLD|SWFT","YBDK|JKYL","SPST|STET","USND|JWAS","EGWM|RSML","WALF|UNAS"],["CSOB|AREM|ETZE|CGRV","JHTC|TRIM|RPDN|DARE","UESH|MDLB|UBSH|UMRT","MANC|RBAS|MARM|VICR","CSHL|ECBT|WGLW","OYMP|ASLX|MINL"]);
-
+	/*1932-33*/ loadSeason(["RBDF","SPOR","PRON","FOLA","NSCH","ULUX","SDUD","RBPF"],["USDD","JESH","ARIS","ASDF","ADUD","PROG","BLVL","SCBT"],["CROD","URUM","CPET","YBDK","SWFT","AVBG","GOLD","JKYL"],["RSML|JWAS","AREM|TRIM","STET|CGRV","CSOB|ETZE","UBSH|SPST","RPDN|USND","JHTC|DARE","UESH|EGWM"],["UMRT|CSHL","ASLX|JMAM","WWMP|UNAS","VICR|RBAS","WALF|MANC","MARM|MDLB","WGLW|OYMP","MINL|ESHW"]);
 
 
 
@@ -156,7 +168,7 @@ function buildGraph() {
 	t2d = "M105,69";
 	t3d = "M105,69";
 	t4d = "M155,69";
-	t5d = "M155,69"; // adjust 155
+	t5d = "M275,69";
 	t1s = 0;
 	t2s = 0;
 	t3s = 0;

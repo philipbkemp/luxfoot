@@ -1,0 +1,44 @@
+{
+    "level": 5,
+	"season": "1932-33",
+    "links": {
+        "next": "1933-34",
+        "prev": "1931-32",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASLX","MARM","MINL","UMRT","VICR","WALF","WGLW","WWMP"],
+        "standings": [
+            {"place": 1, "team": "UMRT", "w": 9, "d": 3, "l":  2, "f": 57, "a": 25, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1933-34", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "ASLX", "w": 9, "d": 2, "l":  3, "f": 48, "a": 22, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1933-34", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "WWMP", "w": 9, "d": 1, "l":  4, "f": 45, "a": 31, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "VICR", "w": 7, "d": 1, "l":  6, "f": 34, "a": 34, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "WALF", "w": 6, "d": 1, "l":  7, "f": 28, "a": 29, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "MARM", "w": 5, "d": 1, "l":  8, "f": 27, "a": 39, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 7, "team": "WGLW", "w": 4, "d": 3, "l":  7, "f": 26, "a": 25, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 8, "team": "MINL", "w": 1, "d": 0, "l": 13, "f": 25, "a": 85, "pts_win": 2, "season": "1932-33", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["CSHL","ESHW","JMAM","MANC","MDLB","OYMP","RBAS","UNAS"],
+        "standings": [
+            {"place": 1, "team": "CSHL", "w": 12, "d": 1, "l":  1, "f": 62, "a": 11, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1933-34", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "JMAM", "w":  9, "d": 0, "l":  5, "f": 38, "a": 30, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1933-34", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "UNAS", "w":  7, "d": 2, "l":  5, "f": 32, "a": 34, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "RBAS", "w":  7, "d": 1, "l":  6, "f": 38, "a": 33, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "MANC", "w":  7, "d": 1, "l":  6, "f": 35, "a": 36, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "MDLB", "w":  7, "d": 1, "l":  6, "f": 33, "a": 26, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "OYMP", "w":  3, "d": 2, "l":  9, "f": 15, "a": 34, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 8, "team": "ESHW", "w":  0, "d": 0, "l": 14, "f": 10, "a": 59, "pts_win": 2, "season": "1932-33", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["UMRT","ASLX","CSHL","JMAM"],
+        "target": {"season": "1933-34", "level": 4, "name": "2. Division"}
+    }
+}

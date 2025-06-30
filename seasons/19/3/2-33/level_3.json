@@ -1,0 +1,31 @@
+{
+    "level": 3,
+	"season": "1932-33",
+    "links": {
+        "next": "1933-34",
+        "prev": "1931-32",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["AVBG","CPET","CROD","GOLD","JKYL","SWFT","URUM","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "CROD", "w": 9, "d": 4, "l":  1, "f": 39, "a": 13, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1933-34", "level": 2, "name": "1. Division"}},
+		{"place": 2, "team": "URUM", "w": 9, "d": 2, "l":  3, "f": 37, "a": 16, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1933-34", "level": 2, "name": "1. Division"}},
+		{"place": 3, "team": "CPET", "w": 9, "d": 0, "l":  5, "f": 55, "a": 33, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion"},
+		{"place": 4, "team": "YBDK", "w": 6, "d": 2, "l":  6, "f": 32, "a": 43, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion"},
+		{"place": 5, "team": "SWFT", "w": 6, "d": 1, "l":  7, "f": 33, "a": 30, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion"},
+		{"place": 6, "team": "AVBG", "w": 5, "d": 1, "l":  8, "f": 36, "a": 46, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion"},
+		{"place": 7, "team": "GOLD", "w": 4, "d": 2, "l":  8, "f": 21, "a": 41, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1933-34", "level": 4, "name": "2. Division"}},
+		{"place": 8, "team": "JKYL", "w": 1, "d": 2, "l": 11, "f": 24, "a": 55, "pts_win": 2, "season": "1932-33", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1933-34", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CROD","URUM"],
+		"target": {"season": "1933-34", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["GOLD","JYKL"],
+		"target": {"season": "1933-34", "level": 4, "name": "2. Division"}
+	}
+}

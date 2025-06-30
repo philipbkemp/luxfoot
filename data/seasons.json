@@ -292,20 +292,20 @@
 	},{
 		"season": "1932-33",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1932-33", "level":  1, "name": "Honour Division", "winner": "RBDF", "title_count": 5},
-			"level_2": {"missing":true,"season": "1932-33", "level":  2, "name": "1. Division", "winner": "USDD"},
-			"level_3": {"missing":true,"season": "1932-33", "level":  3, "name": "The Promotion", "winner": "CROD"},
-			"level_4": {"missing":true,"season": "1932-33", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1932-33", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "RSML"},
-				{"missing":true,"season": "1932-33", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JWAS"}
+			"level_1": {"season": "1932-33", "level":  1, "name": "Honour Division", "winner": "RBDF", "title_count": 5},
+			"level_2": {"season": "1932-33", "level":  2, "name": "1. Division", "winner": "USDD"},
+			"level_3": {"season": "1932-33", "level":  3, "name": "The Promotion", "winner": "CROD"},
+			"level_4": {"season": "1932-33", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1932-33", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "RSML"},
+				{"season": "1932-33", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JWAS"}
 			]},
-			"level_5": {"missing":true,"season": "1932-33", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1932-33", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "UMRT"},
-				{"missing":true,"season": "1932-33", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
+			"level_5": {"season": "1932-33", "level":  5, "name": "3. Division", "series": [
+				{"season": "1932-33", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "UMRT"},
+				{"season": "1932-33", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "CSHL"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1932-33", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1932-33", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1933-34",
