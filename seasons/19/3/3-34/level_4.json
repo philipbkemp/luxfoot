@@ -48,7 +48,7 @@
     },
     "playoffs": {
         "relegation": [
-            {"home":"CSGV","away":"RPDN","score":"1-0","season":"1933-34","competition":{"type":"league","level": 4,"name": "2. Division", "playoff":"relegation"},"outcome":"RPDN relegated to TARGET","target": {"season": "1934-35", "level": 5, "name": "3. Division"}}
+            {"home":"CGRV","away":"RPDN","score":"1-0","season":"1933-34","competition":{"type":"league","level": 4,"name": "2. Division", "playoff":"relegation"},"outcome":"RPDN relegated to TARGET","target": {"season": "1934-35", "level": 5, "name": "3. Division"}}
         ]
     }
 }
