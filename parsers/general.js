@@ -357,7 +357,7 @@ function getPlayoffName(code) {
 		case "relegation":
 		case "league_relegation_playoff":
 			theText = "Relegation play-off"; break;
-		case "league_promotionplayoff":
+		case "league_promotion_playoff":
 		case "league_promotion_playoff":
 		case "promotion":
 		case "updown":
