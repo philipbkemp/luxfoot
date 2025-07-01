@@ -1,0 +1,54 @@
+{
+    "level": 4,
+	"season": "1933-34",
+    "links": {
+        "next": "1934-35",
+        "prev": "1932-33",
+        "up": 3,
+        "down": 5
+    },
+	"name": "",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASLX","CSHL","ETZE","GOLD","SPST","TRIM","UBSH","USND"],
+        "standings": [
+            {"place": 1, "team": "TRIM", "w": 11, "d": 0, "l":  3, "f": 48, "a": 19, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1934-35", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "CSHL", "w":  9, "d": 2, "l":  3, "f": 42, "a": 19, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1"},
+            {"place": 3, "team": "ASLX", "w":  9, "d": 2, "l":  3, "f": 39, "a": 27, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "USND", "w":  9, "d": 2, "l":  3, "f": 42, "a": 17, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "ETZE", "w":  4, "d": 3, "l":  7, "f": 31, "a": 43, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1"},
+            {"place": 6, "team": "GOLD", "w":  4, "d": 1, "l":  9, "f": 18, "a": 42, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1"},
+            {"place": 7, "team": "UBSH", "w":  4, "d": 0, "l": 10, "f": 26, "a": 48, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1934-35", "level": 5, "name": "3. Division"}},
+            {"place": 8, "team": "SPST", "w":  1, "d": 0, "l": 13, "f": 16, "a": 47, "pts_win": 2, "season": "1933-34", "level": 4, "series" :1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1934-35", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","CGRV","CSOB","JKYL","MAMR","RPDN","STET","UMRT"],
+        "standings": [
+            {"place": 1, "team": "CSOB", "w": 12, "d": 1, "l":  1, "f": 59, "a": 14, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1934-35", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "STET", "w": 10, "d": 1, "l":  3, "f": 46, "a": 25, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 3, "team": "AREM", "w":  7, "d": 3, "l":  4, "f": 42, "a": 32, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 4, "team": "MAMR", "w":  7, "d": 1, "l":  6, "f": 41, "a": 31, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 5, "team": "JKYL", "w":  5, "d": 2, "l":  7, "f": 30, "a": 45, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 6, "team": "CGRV", "w":  4, "d": 2, "l":  8, "f": 28, "a": 34, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2","playoff":"relegation"},
+            {"place": 7, "team": "RPDN", "w":  4, "d": 2, "l":  8, "f": 31, "a": 49, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2","playoff":"relegation", "relegated": true, "target": {"season": "1934-35", "level": 5, "name": "3. Division"}},
+            {"place": 8, "team": "UMRT", "w":  1, "d": 0, "l": 13, "f": 16, "a": 63, "pts_win": 2, "season": "1933-34", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1934-35", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["TRIM","CSOB"],
+        "target": {"season": "1934-35", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["UBSH","SPST","RPDN","UMRT"],
+        "target": {"season": "1934-35", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "relegation": [
+            {"home":"CSGV","away":"RPDN","score":"1-0","season":"1933-34","competition":{"type":"league","level": 4,"name": "2. Division", "playoff":"relegation"},"outcome":"RPDN relegated to TARGET","target": {"season": "1934-35", "level": 5, "name": "3. Division"}}
+        ]
+    }
+}

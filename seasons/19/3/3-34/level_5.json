@@ -11,11 +11,27 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "missing" :true
+        "teams": ["DARE","KOPS","MARM","MINL","VICR","WWMP"],
+        "standings": [
+            {"place": 1, "team": "DARE", "w": 9, "d": 1, "l":  0, "f": 44, "a":  6, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1934-35", "level": 4, "name": "2. Division"}},
+		    {"place": 2, "team": "VICR", "w": 7, "d": 0, "l":  3, "f": 28, "a": 15, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 1"},
+		    {"place": 3, "team": "WWMP", "w": 6, "d": 1, "l":  3, "f": 29, "a": 20, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 1"},
+		    {"place": 4, "team": "MARM", "w": 5, "d": 0, "l":  5, "f": 26, "a": 23, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 1"},
+		    {"place": 5, "team": "MINL", "w": 2, "d": 0, "l":  8, "f": 19, "a": 35, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 1"},
+		    {"place": 6, "team": "KOPS", "w": 0, "d": 0, "l": 10, "f": 11, "a": 58, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 1"}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
+        "teams": ["BBML","LUXC","MDLB","RBAS","UESH","UNAS"],
+        "standings": [
+            {"place": 1, "team": "RBAS", "w": 7, "d": 1, "l":  2, "f": 28, "a": 16, "pts_win": 2, "season": "1933-34", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1934-35", "level": 3, "name": "2. Division"}},
+		    {"place": 2, "team": "UNAS", "w": 6, "d": 1, "l":  3, "f": 21, "a": 13, "pts_win": 2, "season": "1933-34", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "BBML", "w": 5, "d": 2, "l":  3, "f": 44, "a": 22, "pts_win": 2, "season": "1933-34", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "MDLB", "w": 5, "d": 1, "l":  4, "f": 26, "a": 21, "pts_win": 2, "season": "1933-34", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "UESH", "w": 3, "d": 3, "l":  4, "f": 19, "a": 24, "pts_win": 2, "season": "1933-34", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "LUXC", "w": 0, "d": 0, "l": 10, "f":  6, "a": 48, "pts_win": 2, "season": "1933-34", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
     },{
         "series": 3,
         "name": "Series 3",
@@ -26,13 +42,13 @@
             {"place": 3, "team": "RROD", "w": 4, "d": 3, "l": 3, "f": 20, "a": 17, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"},
             {"place": 4, "team": "JHTC", "w": 4, "d": 2, "l": 4, "f": 19, "a": 17, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"},
             {"place": 5, "team": "ESHW", "w": 2, "d": 0, "l": 8, "f": 15, "a": 38, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"},
-            {"place": 6, "team": "OYMP", "w": 1, "d": 0, "l": 9, "f": 9, "a": 29, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"}
-        ],
-        "promoted": {
-            "teams": ["MANC","EGWM"],
-            "target": {"season":"1934-35","level":4,"name":"2. Division"}
-        }
+            {"place": 6, "team": "OYMP", "w": 1, "d": 0, "l": 9, "f":  9, "a": 29, "pts_win": 2, "season": "1933-34", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
     }],
+    "promotion": {
+        "teams": ["MANC","EGWM","DARE","RBAS"],
+        "target": {"season":"1934-35","level":4,"name":"2. Division"}
+    },
     "playoffs": {
         "league_promotion_playoff": {
             "teams": ["EGWM","UNAS","VICR"],

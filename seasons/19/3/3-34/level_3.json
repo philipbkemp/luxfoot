@@ -1,0 +1,31 @@
+{
+    "level": 3,
+	"season": "1933-34",
+    "links": {
+        "next": "1934-35",
+        "prev": "1932-33",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["AVBG","BLVL","CPET","JWAS","RSML","SCBT","SWFT","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "CPET", "w": 10, "d": 3, "l":  1, "f": 48, "a": 18, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1934-35", "level": 2, "name": "1. Division"}},
+		{"place": 2, "team": "AVBG", "w": 10, "d": 2, "l":  2, "f": 41, "a": 31, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1934-35", "level": 2, "name": "1. Division"}},
+		{"place": 3, "team": "BLVL", "w":  6, "d": 4, "l":  4, "f": 31, "a": 22, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion"},
+		{"place": 4, "team": "JWAS", "w":  5, "d": 4, "l":  5, "f": 31, "a": 33, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion"},
+		{"place": 5, "team": "SWFT", "w":  5, "d": 1, "l":  8, "f": 31, "a": 27, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion"},
+		{"place": 6, "team": "RSML", "w":  4, "d": 3, "l":  7, "f": 29, "a": 38, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion"},
+		{"place": 7, "team": "YBDK", "w":  4, "d": 2, "l":  8, "f": 29, "a": 38, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1934-35", "level": 4, "name": "2. Division"}},
+		{"place": 8, "team": "SCBT", "w":  2, "d": 1, "l": 11, "f": 25, "a": 58, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1934-35", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CPET","AVBG"],
+		"target": {"season": "1934-35", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["YBDK","SCBT"],
+		"target": {"season": "1934-35", "level": 4, "name": "2. Division"}
+	}
+}

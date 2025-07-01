@@ -1,0 +1,36 @@
+{
+    "level": 2,
+	"season": "1933-34",
+    "links": {
+        "next": "1934-35",
+        "prev": "1932-33",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","ARIS","ASDF","CROD","PROG","RBPF","SDUD","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "RBPF", "w": 10, "d": 1, "l":  3, "f": 49, "a": 17, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1934-35", "level": 1, "name": "Honour Division"}},
+		{"place": 2, "team": "ARIS", "w": 10, "d": 1, "l":  3, "f": 40, "a": 22, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1934-35", "level": 1, "name": "Honour Division"}},
+		{"place": 3, "team": "SDUD", "w":  9, "d": 1, "l":  4, "f": 34, "a": 23, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division"},
+		{"place": 4, "team": "ASDF", "w":  6, "d": 2, "l":  6, "f": 25, "a": 23, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division"},
+		{"place": 5, "team": "ADUD", "w":  7, "d": 0, "l":  7, "f": 32, "a": 42, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division"},
+		{"place": 6, "team": "CROD", "w":  3, "d": 2, "l":  9, "f": 31, "a": 39, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division", "playoff": "relegation"},
+		{"place": 7, "team": "PROG", "w":  3, "d": 2, "l":  9, "f": 22, "a": 48, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division", "playoff": "relegation", "relegated": true, "target": {"season": "1934-35", "level": 3, "name": "The Promotion"}},
+		{"place": 8, "team": "URUM", "w":  3, "d": 1, "l": 10, "f": 23, "a": 42, "pts_win": 2, "season": "1933-34", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1934-35", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["RBPF","ARIS"],
+		"target": {"season": "1934-35", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["PROG","URUM"],
+		"target": {"season": "1934-35", "level": 3, "name": "The Promotion"}
+	},
+    "playoffs": {
+        "relegation": [
+            {"home":"CROD","away":"PROG","score":"2-1","season":"1933-34","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"relegation"},"outcome":"PROG relegated to TARGET","target": {"season": "1934-35", "level": 3, "name": "The Promotion"}}
+        ]
+    }
+}
