@@ -1,0 +1,80 @@
+{
+    "level": 5,
+	"season": "1934-35",
+    "links": {
+        "next": "1935-36",
+        "prev": "1933-34",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "North",
+        "teams": ["AHOS","AWDG","GSWW","JSCV","LAHD","SURA","TSVG","WWMP"],
+        "standings": [
+            {"place": 1, "team": "GSWW", "w": 11, "d": 2, "l":  1, "f": 42, "a":  8, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North","promoted":true,"target":{"season":"1935-36","level":4,"name":"2. Division"}},
+            {"place": 2, "team": "AWDG", "w": 10, "d": 3, "l":  1, "f": 47, "a": 18, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North","promoted":true,"target":{"season":"1935-36","level":4,"name":"2. Division"}},
+            {"place": 3, "team": "WWMP", "w": 11, "d": 1, "l":  2, "f": 46, "a": 14, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North"},
+            {"place": 4, "team": "TSVG", "w":  7, "d": 1, "l":  6, "f": 43, "a": 23, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North"},
+            {"place": 5, "team": "SURA", "w":  7, "d": 1, "l":  6, "f": 50, "a": 36, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North"},
+            {"place": 6, "team": "AHOS", "w":  4, "d": 0, "l": 10, "f": 13, "a": 45, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North"},
+            {"place": 7, "team": "JSCV", "w":  1, "d": 0, "l": 13, "f":  6, "a": 43, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North"},
+            {"place": 8, "team": "LAHD", "w":  1, "d": 0, "l": 13, "f":  7, "a": 67, "pts_win": 2, "season": "1934-35", "level": 5, "series" :1, "league": "3. Division North"}
+        ]
+    },{
+        "series": 2,
+        "name": "Central",
+        "teams": ["JGIL","MARM","MINL","SCHR","WALF","WRMC"],
+        "standings": [
+            {"place": 1, "team": "WALF", "w": 10, "d": 0, "l":  0, "f": 60, "a":  8, "pts_win": 2, "season": "1934-35", "level": 5, "series": 2, "league": "3. Division Central", "promoted": true, "target": {"season": "1935-36", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "MARM", "w":  5, "d": 1, "l":  4, "f": 32, "a": 30, "pts_win": 2, "season": "1934-35", "level": 5, "series": 2, "league": "3. Division Central", "promoted": true, "target": {"season": "1935-36", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "JGIL", "w":  5, "d": 0, "l":  5, "f": 28, "a": 19, "pts_win": 2, "season": "1934-35", "level": 5, "series": 2, "league": "3. Division Central"},
+            {"place": 4, "team": "MINL", "w":  4, "d": 2, "l":  4, "f": 27, "a": 29, "pts_win": 2, "season": "1934-35", "level": 5, "series": 2, "league": "3. Division Central"},
+            {"place": 5, "team": "SCHR", "w":  4, "d": 1, "l":  5, "f": 22, "a": 37, "pts_win": 2, "season": "1934-35", "level": 5, "series": 2, "league": "3. Division Central"},
+            {"place": 6, "team": "WRMC", "w":  0, "d": 0, "l": 10, "f":  4, "a": 50, "pts_win": 2, "season": "1934-35", "level": 5, "series": 2, "league": "3. Division Central"}
+        ]
+    },{
+        "series": 3,
+        "name": "East",
+        "teams": ["BECH","BOUS","MDLB","UESH","UMRT","VICR"],
+        "standings": [
+            {"place": 1, "team": "MDLB", "w": 9, "d": 0, "l": 1, "f": 68, "a": 14, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division East", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "UESH", "w": 9, "d": 0, "l": 1, "f": 43, "a": 17, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division East", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "UMRT", "w": 4, "d": 0, "l": 6, "f": 43, "a": 42, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division East"},
+            {"place": 4, "team": "BOUS", "w": 4, "d": 0, "l": 6, "f": 20, "a": 43, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division East"},
+            {"place": 5, "team": "VICR", "w": 3, "d": 0, "l": 7, "f": 22, "a": 31, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division East"},
+            {"place": 6, "team": "BECH", "w": 1, "d": 0, "l": 9, "f": 16, "a": 65, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division East"}
+        ]
+    },{
+        "series": 4,
+        "name": "South",
+        "teams": ["ESHW","JHTC","MDCG","OYMP","RROD","SPST","UBSH"],
+        "standings": [
+            {"place": 1, "team": "RROD", "w": 10, "d": 1, "l":  1, "f": 39, "a": 16, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "JHTC", "w":  9, "d": 1, "l":  2, "f": 41, "a": 11, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South"},
+            {"place": 3, "team": "MDCG", "w":  7, "d": 1, "l":  4, "f": 44, "a": 21, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 4, "team": "SPST", "w":  5, "d": 3, "l":  4, "f": 38, "a": 25, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 5, "team": "UBSH", "w":  5, "d": 1, "l":  6, "f": 33, "a": 35, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South"},
+            {"place": 6, "team": "OYMP", "w":  1, "d": 1, "l": 10, "f": 11, "a": 55, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South"},
+            {"place": 7, "team": "ESHW", "w":  1, "d": 0, "l": 11, "f":  8, "a": 51, "pts_win": 2, "season": "1934-35", "level": 4, "series": 4, "league": "3. Division South"}
+        ]
+    },{
+        "series": 5,
+        "name": "West",
+        "teams": ["BBML","JGOB","KOPS","LUXC","RPDN","SBRT","UNAS"],
+        "standings": [
+            {"place": 1, "team": "RPDN", "w": 9, "d": 2, "l":  1, "f": 40, "a": 16, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 2, "team": "UNAS", "w": 7, "d": 1, "l":  4, "f": 32, "a": 28, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 3, "team": "BBML", "w": 6, "d": 2, "l":  4, "f": 38, "a": 19, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
+            {"place": 4, "team": "KOPS", "w": 6, "d": 0, "l":  6, "f": 33, "a": 31, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
+            {"place": 5, "team": "SBRT", "w": 4, "d": 2, "l":  6, "f": 33, "a": 37, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
+            {"place": 6, "team": "LUXC", "w": 4, "d": 1, "l":  7, "f": 19, "a": 28, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
+            {"place": 7, "team": "JGOB", "w": 2, "d": 0, "l": 10, "f": 19, "a": 55, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["AWDG","GSWW","WALF","MARM","MDLB","UESH","RROD","MDCG","SPST","RPDN","UNAS","BBML"],
+        "target": {"season":"1935-36","level":4,"name":"2. Division"}
+    }
+}

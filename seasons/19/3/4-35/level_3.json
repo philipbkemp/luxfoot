@@ -1,0 +1,31 @@
+{
+    "level": 3,
+	"season": "1934-35",
+    "links": {
+        "next": "1935-36",
+        "prev": "1933-34",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["BLVL","CSOB","JWAS","PROG","RSML","SWFT","TRIM","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "BLVL", "w": 10, "d": 2, "l":  2, "f": 33, "a": 11, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1935-36", "level": 2, "name": "1. Division"}},
+		{"place": 2, "team": "URUM", "w": 10, "d": 1, "l":  3, "f": 42, "a": 16, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1935-36", "level": 2, "name": "1. Division"}},
+		{"place": 3, "team": "TRIM", "w":  7, "d": 4, "l":  3, "f": 22, "a": 24, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1935-36", "level": 2, "name": "1. Division"}},
+		{"place": 4, "team": "PROG", "w":  6, "d": 4, "l":  4, "f": 38, "a": 25, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1935-36", "level": 2, "name": "1. Division"}},
+		{"place": 5, "team": "CSOB", "w":  7, "d": 1, "l":  6, "f": 46, "a": 24, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion"},
+		{"place": 6, "team": "JWAS", "w":  2, "d": 4, "l":  8, "f": 20, "a": 43, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion"},
+		{"place": 7, "team": "RSML", "w":  2, "d": 4, "l":  8, "f": 26, "a": 35, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion"},
+		{"place": 8, "team": "SWFT", "w":  1, "d": 2, "l": 11, "f": 13, "a": 62, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1935-36", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["BLVL","URUM","TRIM","PROG"],
+		"target": {"season": "1935-36", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["SWFT"],
+		"target": {"season": "1935-36", "level": 4, "name": "2. Division"}
+	}
+}

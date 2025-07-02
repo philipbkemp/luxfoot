@@ -356,6 +356,7 @@ function getPlayoffName(code) {
 		case "downup":
 		case "relegation":
 		case "league_relegation_playoff":
+		case "league_downup":
 			theText = "Relegation play-off"; break;
 		case "league_promotion_playoff":
 		case "league_promotion_playoff":
@@ -363,6 +364,7 @@ function getPlayoffName(code) {
 		case "updown":
 		case "updown_league":
 		case "updown_league_multi":
+		case "league_updown":
 			theText = "Promotion play-off"; break;
 		case "league_promotion_playoff_a":
 		case "league_promotion_playoff_b":

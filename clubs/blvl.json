@@ -5,6 +5,7 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
+        {"place": 1, "team": "BLVL", "w": 10, "d": 2, "l":  2, "f": 33, "a": 11, "pts_win": 2, "season": "1934-35", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1935-36", "level": 2, "name": "1. Division"}},
 		{"place": 3, "team": "BLVL", "w":  6, "d": 4, "l":  4, "f": 31, "a": 22, "pts_win": 2, "season": "1933-34", "level": 3, "league": "The Promotion"},
         {"place": 7, "team": "BLVL", "w":  2, "d": 1, "l": 11, "f": 12, "a": 49, "pts_win": 2, "season": "1932-33", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1933-34", "level": 3, "name": "The Promotion"}},
         {"place": 1, "team": "BLVL", "w": 12, "d": 1, "l":  1, "f": 47, "a": 15, "pts_win": 2, "season": "1931-32", "level": 3, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1932-33", "level": 2, "name": "1. Division"}},

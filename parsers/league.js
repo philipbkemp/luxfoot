@@ -331,6 +331,30 @@ function parseLeague(league) {
 			removeKey("playoffs.league_promotion_playoff");
 		}
 
+		if ( league.playoffs.league_downup || league.playoffs.league_updown ) {
+			style = league.playoffs.league_downup ? "league_downup" : "league_updown";
+			$("#leagueTabs").append(buildTabButton("po_"+style,getPlayoffName(style)));
+			poThisPlayoff = buildTabPanel("po_"+style);
+			poTheseMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
+			if ( league.playoffs[style].matches ) {
+				league.playoffs[style].matches.forEach(m=>{
+					poTheseMatches.append( drawMatch(m));
+				});
+				poThisPlayoff.append(poTheseMatches);
+			}
+			poThisPlayoff.append(
+				buildStandings(
+					league.playoffs[style].standings,
+					league.playoffs[style].pts_win
+						? league.playoffs[style].pts_win
+						: 3,
+					true
+				)
+			);
+			$("#leagueTabContent").append(poThisPlayoff);
+			removeKey("playoffs."+style);
+		}
+
 		if ( league.playoffs.league_relegation_playoff ) {
 			$("#leagueTabs").append(buildTabButton("po_league_relegation_playoff","Relegation play-off"));
 			poLeaguePromotionPlayoff = buildTabPanel("po_league_relegation_playoff");

@@ -1,0 +1,61 @@
+{
+    "level": 2,
+	"season": "1934-35",
+    "links": {
+        "next": "1935-36",
+        "prev": "1933-34",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","ASDF","AVBG","CPET","CROD","FOLA","NSCH","SDUD"],
+	"pts_win": 2,
+	"standings": [
+        {"place": 1, "team": "FOLA", "w": 10, "d": 2, "l":  2, "f": 60, "a": 22, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1935-36", "level": 1, "name": "Honour Division"}},
+		{"place": 2, "team": "ASDF", "w":  8, "d": 3, "l":  3, "f": 36, "a": 18, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division", "playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1935-36", "level": 1, "name": "Honour Division"}},
+		{"place": 3, "team": "NSCH", "w":  9, "d": 1, "l":  4, "f": 40, "a": 14, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division", "playoff":"league_promotion_playoff"},
+		{"place": 4, "team": "SDUD", "w":  9, "d": 1, "l":  4, "f": 36, "a": 21, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division", "playoff":"league_promotion_playoff"},
+		{"place": 5, "team": "CPET", "w":  3, "d": 4, "l":  7, "f": 28, "a": 51, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division"},
+		{"place": 6, "team": "CROD", "w":  4, "d": 1, "l":  9, "f": 26, "a": 42, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division"},
+		{"place": 7, "team": "ADUD", "w":  3, "d": 1, "l": 10, "f": 33, "a": 56, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division"},
+		{"place": 8, "team": "AVBG", "w":  3, "d": 1, "l": 10, "f": 25, "a": 60, "pts_win": 2, "season": "1934-35", "level": 2, "league": "1. Division"}
+    ],
+	"promotion": {
+		"teams": ["FOLA"],
+		"target": {"season": "1935-36", "level": 1, "name": "Honour Division"}
+	},
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["ASDF","SDUD","NSCH"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"ASDF","w":1,"d":1,"l":0,"f": 6,"a":2,"pts_win":2,"season":"1934-35","level":3,"league":"2. Division", "promoted": true, "target": {"season": "1935-36", "level": 1, "name": "Honour Division"}},
+                {"place":2,"team":"SDUD","w":1,"d":0,"l":1,"f": 2,"a":5,"pts_win":2,"season":"1934-35","level":3,"league":"2. Division", "playoff": "league_updown"},
+                {"place":3,"team":"NSCH","w":0,"d":1,"l":1,"f": 3,"a":4,"pts_win":2,"season":"1934-35","level":3,"league":"2. Division", "playoff": "league_updown"}
+            ],
+            "matches": [
+                {"home":"ASDF","away":"SDUD","score":"4-0","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_promotion_playoff"}},
+                {"home":"ASDF","away":"NSCH","score":"2-2","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_promotion_playoff"}},
+                {"home":"SDUD","away":"NSCH","score":"2-1","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_promotion_playoff"}}
+            ]
+        },
+        "league_updown": {            
+            "teams": ["ARIS","NSCH","PRON","SDUD"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"ARIS","teamDivision": {"level":1,"name":"Honour Division"},"w":2,"d":0,"l":0,"f": 8,"a": 2,"pts_win":2,"season":"1934-35","level":1,"league":"Honour Division"},
+                {"place":2,"team":"NSCH","teamDivision": {"level":2,"name":"1. Division"},    "w":2,"d":0,"l":0,"f": 5,"a": 3,"pts_win":2,"season":"1934-35","level":1,"league":"Honour Division", "promoted": true,  "target": {"season": "1935-36", "level": 1, "name": "Honour Division"}},
+                {"place":3,"team":"PRON","teamDivision": {"level":1,"name":"Honour Division"},"w":1,"d":0,"l":2,"f": 7,"a": 7,"pts_win":2,"season":"1934-35","level":1,"league":"Honour Division", "relegated": true, "target": {"season": "1935-36", "level": 2, "name": "1. Division"}},
+                {"place":3,"team":"SDUD","teamDivision": {"level":2,"name":"1. Division"},    "w":0,"d":0,"l":3,"f": 3,"a":11,"pts_win":2,"season":"1934-35","level":1,"league":"Honour Division"}
+            ],
+            "matches": [
+                {"home":"NSCH","away":"SDUD","score":"2-1","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_updown"}},
+                {"home":"PRON","away":"SDUD","score":"4-1","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_updown"}},
+                {"home":"NSCH","away":"PRON","score":"3-2","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_updown"}},
+                {"home":"ARIS","away":"PRON","score":"3-1","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_updown"}},
+                {"home":"ARIS","away":"SDUD","score":"5-1","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_updown"}},
+                {"home":"ARIS","away":"NSCH","score":"P-P","season":"1934-35","competition":{"type":"league","level": 2,"name": "1. Division", "playoff":"league_updown"}}
+            ]
+        }
+    }
+}
