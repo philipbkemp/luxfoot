@@ -41,17 +41,17 @@ function parseCup(cup) {
 			linkKeys[i] = "links." + linkKeys[i];
 		}
 		addKeys(linkKeys);
-		if ( cup.links.next ) {
-			$("#menu-links").append(
-				$("<A></A>").attr("href","cup.html?season="+cup.links.next+"&comp="+urlParams.comp).html("Next")
-			);
-			removeKey("links.next");
-		}
 		if ( cup.links.prev ) {
 			$("#menu-links").append(
 				$("<A></A>").attr("href","cup.html?season="+cup.links.prev+"&comp="+urlParams.comp).html("Previous")
 			);
 			removeKey("links.prev");
+		}
+		if ( cup.links.next ) {
+			$("#menu-links").append(
+				$("<A></A>").attr("href","cup.html?season="+cup.links.next+"&comp="+urlParams.comp).html("Next")
+			);
+			removeKey("links.next");
 		}
 		removeKey("links");
 	}
