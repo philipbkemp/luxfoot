@@ -1,0 +1,33 @@
+{
+    "level": 2,
+	"season": "1935-36",
+    "links": {
+        "next": "1936-37",
+        "prev": "1934-35",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","AVBG","BLVL","CPET","CROD","PROG","PRON","SDUD","TRIM","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "PRON", "w": 14, "d": 3, "l":  1, "f": 70, "a": 20, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1936-37", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "SDUD", "w": 10, "d": 6, "l":  2, "f": 55, "a": 18, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1936-37", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "CROD", "w":  8, "d": 7, "l":  3, "f": 44, "a": 28, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "CPET", "w": 10, "d": 2, "l":  6, "f": 49, "a": 30, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "AVBG", "w":  7, "d": 4, "l":  7, "f": 44, "a": 34, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "URUM", "w":  8, "d": 1, "l":  9, "f": 31, "a": 37, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "BLVL", "w":  6, "d": 4, "l":  8, "f": 23, "a": 35, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "ADUD", "w":  4, "d": 5, "l":  9, "f": 29, "a": 50, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}},
+		{"place":  9, "team": "TRIM", "w":  3, "d": 2, "l": 13, "f": 26, "a": 63, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "PROG", "w":  2, "d": 2, "l": 14, "f": 18, "a": 74, "pts_win": 2, "season": "1935-36", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["PRON","SDUD"],
+		"target": {"season": "1936-37", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["ADUD","TRIM","PROG"],
+		"target": {"season": "1936-37", "level": 3, "name": "The Promotion"}
+	}
+}

@@ -1,0 +1,58 @@
+{
+    "level": 5,
+	"season": "1935-36",
+    "links": {
+        "next": "1936-37",
+        "prev": "1934-35",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "East",
+        "teams": ["BECH","FRTA","JGIL","LLMP","OBCN","UMRT","VICR"],
+        "standings": [
+            {"place": 1, "team": "JGIL", "w": 9, "d": 1, "l": 2, "f": 46, "a": 17, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East", "promoted": true, "target": {"season": "1936-37", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "LLMP", "w": 8, "d": 0, "l": 4, "f": 37, "a": 23, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East", "promoted": true, "target": {"season": "1936-37", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "VICR", "w": 7, "d": 1, "l": 4, "f": 36, "a": 21, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East"},
+            {"place": 4, "team": "UMRT", "w": 5, "d": 2, "l": 5, "f": 28, "a": 31, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East"},
+            {"place": 5, "team": "OBCN", "w": 4, "d": 3, "l": 5, "f": 24, "a": 30, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East"},
+            {"place": 6, "team": "FRTA", "w": 2, "d": 2, "l": 8, "f": 15, "a": 39, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East"},
+            {"place": 7, "team": "BECH", "w": 1, "d": 3, "l": 8, "f": 21, "a": 46, "pts_win": 2, "season": "1935-36", "level": 5, "series": 1, "league": "3. Division East"}
+        ]
+    },{
+        "series": 2,
+        "name": "South",
+        "teams": ["DRZV","ESHW","HOBS","JGOB","JKYL","KOPS","OYMP","SBRT","UBSH"],
+        "standings": [
+            {"place": 1, "team": "UBSH", "w": 12, "d": 3, "l":  1, "f": 63, "a": 26, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South", "promoted": true, "target": {"season": "1936-37", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "JKYL", "w":  9, "d": 6, "l":  1, "f": 54, "a": 28, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South", "promoted": true, "target": {"season": "1936-37", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "DRZV", "w":  9, "d": 4, "l":  3, "f": 55, "a": 33, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"},
+            {"place": 4, "team": "SBRT", "w":  7, "d": 5, "l":  4, "f": 48, "a": 32, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"},
+            {"place": 5, "team": "KOPS", "w":  5, "d": 4, "l":  7, "f": 37, "a": 40, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"},
+            {"place": 6, "team": "OYMP", "w":  3, "d": 6, "l":  7, "f": 29, "a": 34, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"},
+            {"place": 7, "team": "JGOB", "w":  3, "d": 5, "l":  8, "f": 25, "a": 32, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"},
+            {"place": 8, "team": "ESHW", "w":  4, "d": 3, "l":  9, "f": 29, "a": 70, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"},
+            {"place": 9, "team": "HOBS", "w":  1, "d": 2, "l": 13, "f": 22, "a": 67, "pts_win": 2, "season": "1935-36", "level": 5, "series": 2, "league": "3. Division South"}
+        ]
+    },{
+        "series": 3,
+        "name": "North",
+        "teams": ["ASTN","ETZE","MINL","SCHR","SURA","TSVG","WRMC","WWMP"],
+        "standings": [
+            {"place": 1, "team": "ETZE", "w": 14, "d": 0, "l":  0, "f": 73, "a": 15, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North", "promoted": true, "target": {"season": "1936-37", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "WRMC", "w":  7, "d": 3, "l":  4, "f": 31, "a": 32, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North"},
+            {"place": 3, "team": "MINL", "w":  6, "d": 4, "l":  4, "f": 54, "a": 49, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North", "promoted": true, "target": {"season": "1936-37", "level": 4, "name": "2. Division"}},
+            {"place": 4, "team": "TSVG", "w":  7, "d": 2, "l":  5, "f": 34, "a": 31, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North"},
+            {"place": 5, "team": "ASTN", "w":  5, "d": 3, "l":  6, "f": 32, "a": 29, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North"},
+            {"place": 6, "team": "WWMP", "w":  6, "d": 1, "l":  7, "f": 15, "a": 26, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North"},
+            {"place": 7, "team": "SCHR", "w":  2, "d": 1, "l": 11, "f": 19, "a": 52, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North"},
+            {"place": 8, "team": "SURA", "w":  1, "d": 2, "l": 11, "f": 17, "a": 41, "pts_win": 2, "season": "1935-36", "level": 5, "series": 3, "league": "3. Division North"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["JGIL","LLMP","UBSH","JKYL","ETZE","WRMC"],
+        "target": {"season": "1936-37", "level": 4, "name": "2. Division"}
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "season": "1935-36",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1936-37",
+        "prev": "1934-35"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "DRZV", "homeDivision": {"level":5,"name":"3. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-2","note":"Replayed"},
+            {"date":"1935-09-22", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "DRZV", "homeDivision": {"level":5,"name":"3. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-4"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JWAS", "homeDivision": {"level":3,"name":"The Promotion"},"away": "YBDK", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-3"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "AWDG", "awayDivision": {"level":4,"name":"2. Division"},"score":"9-1"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UESH", "homeDivision": {"level":4,"name":"2. Division"},"away": "MANC", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-3"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "EGWM", "homeDivision": {"level":3,"name":"The Promotion"},"away": "STET", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-1"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TRIM", "homeDivision": {"level":2,"name":"1. Division"},"away": "MDCG", "awayDivision": {"level":4,"name":"2. Division"},"score":"7-0"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "DARE", "homeDivision": {"level":4,"name":"2. Division"},"away": "CSHL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-4"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "USND", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RPDN", "homeDivision": {"level":4,"name":"2. Division"},"away": "LLMP", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-0"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RSML", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SWFT", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-2"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBAS", "homeDivision": {"level":3,"name":"The Promotion"},"away": "BBML", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-0"},
+			{"date":"1935-09-01", "season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SDUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "SBRT", "awayDivision": {"level":5,"name":"3. Division"},"score":"13-0"},
+			{"bye":"GOLD", "byeDivision": {"level":4,"name":"2. Division"}}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "YBDK", "homeDivision": {"level":4,"name":"2. Division"},"away": "RBAS", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-1"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ARIS", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-0"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"1. Division"},"score":"7-3"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SWFT", "homeDivision": {"level":4,"name":"2. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-3"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "GOLD", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-0"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TRIM", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSHL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-0"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "EGWM", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RPDN", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-0"},
+			{"date":"1935-10-06","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RROD", "homeDivision": {"level":4,"name":"2. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"bye":"MANC", "byeDivision": {"level":3,"name":"The Promotion"}}
+		]
+    },{
+        "key": "RI",
+        "name": "Intermediate round",
+        "matches": [
+            {"date":"1935-11-03","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "SWFT", "homeDivision": {"level":4,"name":"2. Division"},"away": "EGWM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-0"},
+            {"date":"1935-11-03","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "ARIS", "homeDivision": {"level":1,"name":"Honour Division"},"away": "YBDK", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+            {"date":"1935-11-03","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "TRIM", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-2"},
+            {"date":"1935-11-03","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "SDUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":4,"name":"2. Division"},"score":"9-0"},
+            {"date":"1935-11-03","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "MANC", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-1"}
+        ]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "MANC", "awayDivision": {"level":3,"name":"The Promotion"},"score":"6-1"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SDUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-3"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBPF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-0"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "PRON", "homeDivision": {"level":2,"name":"1. Division"},"away": "SWFT", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-0"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-4"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "YBDK", "homeDivision": {"level":4,"name":"2. Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-8"},
+			{"date":"1936-01-05","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "EGWM", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1936-04-19","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"},
+			{"date":"1936-04-19","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1936-04-19","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-5"},
+			{"date":"1936-04-19","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1936-05-03","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "PRON", "homeDivision": {"level":2,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-4"},
+			{"date":"1936-05-17","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1936-06-07","season": "1935-36","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-0"}
+        ]
+    }],
+    "winner": "RBDF",
+    "title_count": 8
+}

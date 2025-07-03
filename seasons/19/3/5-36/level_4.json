@@ -1,0 +1,53 @@
+{
+    "level": 4,
+	"season": "1935-36",
+    "links": {
+        "next": "1936-37",
+        "prev": "1934-35",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["BBML","MAMR","MDCG","MDLB","RPDN","RROD","SCBT","SWFT","UESH","UNAS"],
+        "standings": [
+            {"place":  1, "team": "UESH", "w": 14, "d": 2, "l":  2, "f": 61, "a": 23, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "RPDN", "w": 14, "d": 1, "l":  3, "f": 74, "a": 29, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "SCBT", "w": 13, "d": 2, "l":  3, "f": 80, "a": 33, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "BBML", "w":  9, "d": 3, "l":  6, "f": 58, "a": 30, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "RROD", "w": 10, "d": 1, "l":  7, "f": 48, "a": 31, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "MAMR", "w":  7, "d": 0, "l": 11, "f": 47, "a": 71, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "SWFT", "w":  6, "d": 1, "l": 11, "f": 33, "a": 58, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "UNAS", "w":  6, "d": 0, "l": 12, "f": 46, "a": 72, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1936-37", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "MDLB", "w":  3, "d": 1, "l": 14, "f": 28, "a": 68, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1936-37", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "MDCG", "w":  2, "d": 1, "l": 15, "f": 25, "a": 85, "pts_win": 2, "season": "1935-36", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1936-37", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AWDG","CGRV","DARE","GOLD","GSWW","MARM","SPST","USND","WALF","YBDK"],
+        "standings": [
+            {"place":  1, "team": "YBDK", "w": 13, "d": 3, "l":  2, "f": 55, "a": 16, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "USND", "w": 13, "d": 1, "l":  4, "f": 48, "a": 25, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "SPST", "w": 12, "d": 2, "l":  4, "f": 54, "a": 34, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "GOLD", "w": 12, "d": 2, "l":  4, "f": 51, "a": 24, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "CGRV", "w": 10, "d": 3, "l":  5, "f": 58, "a": 49, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "WALF", "w":  6, "d": 3, "l":  9, "f": 36, "a": 34, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "DARE", "w":  6, "d": 1, "l": 11, "f": 43, "a": 46, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "MARM", "w":  6, "d": 0, "l": 12, "f": 36, "a": 62, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1936-37", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "AWDG", "w":  4, "d": 0, "l": 14, "f": 22, "a": 58, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1936-37", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "GSWW", "w":  0, "d": 1, "l": 17, "f":  3, "a": 58, "pts_win": 2, "season": "1935-36", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1936-37", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["UESH","RPDN","YBDK","USND"],
+        "target": {"season": "1936-37", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["UNAS","MDLB","MDCG","MARM","AWDG","GSWW"],
+        "target": {"season": "1936-37", "level": 5, "name": "3. Division"}
+    }
+}
