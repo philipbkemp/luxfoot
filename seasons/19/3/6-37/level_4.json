@@ -14,33 +14,45 @@
         "name": "Series 1",
         "teams": ["CSHL","JKYL","MAMR","RBAS","RROD","RSML","SCBT","SPST","SWFT","UBSH"],
         "standings": [
-            {"place": 1, "team": "SCBT", "w": 16, "d": 1, "l": 1, "f": 94, "a": 26, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
-            {"place": 2, "team": "CSHL", "w": 11, "d": 2, "l": 5, "f": 48, "a": 28, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "playoff":"updown","promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
-            {"place": 3, "team": "RROD", "w": 11, "d": 2, "l": 5, "f": 48, "a": 29, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "playoff":"updown"},
-            {"place": 4, "team": "MAMR", "w": 9, "d": 2, "l": 7, "f": 50, "a": 44, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
-            {"place": 5, "team": "UBSH", "w": 9, "d": 2, "l": 7, "f": 41, "a": 43, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
-            {"place": 6, "team": "SPST", "w": 8, "d": 2, "l": 8, "f": 56, "a": 46, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
-            {"place": 7, "team": "SWFT", "w": 6, "d": 4, "l": 8, "f": 38, "a": 36, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
-            {"place": 8, "team": "JKYL", "w": 6, "d": 3, "l": 9, "f": 36, "a": 46, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}},
-            {"place": 9, "team": "RBAS", "w": 4, "d": 0, "l": 14, "f": 38, "a": 77, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}},
-            {"place": 10, "team": "RSML", "w": 1, "d": 0, "l": 17, "f": 12, "a": 86, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}}
-        ],
-        "promoted": {
-            "teams": ["SCBT","CSHL"],
-            "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}
-        },
-        "relegated": {
-            "teams": ["JYKL","RBAS","RSML"],
-            "target": {"season": "1937-38", "level": 5, "name": "3. Division"}
-        }
+            {"place":  1, "team": "SCBT", "w": 16, "d": 1, "l":  1, "f": 94, "a": 26, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "CSHL", "w": 11, "d": 2, "l":  5, "f": 48, "a": 28, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "playoff":"updown","promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "RROD", "w": 11, "d": 2, "l":  5, "f": 48, "a": 29, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "playoff":"updown"},
+            {"place":  4, "team": "MAMR", "w":  9, "d": 2, "l":  7, "f": 50, "a": 44, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "UBSH", "w":  9, "d": 2, "l":  7, "f": 41, "a": 43, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "SPST", "w":  8, "d": 2, "l":  8, "f": 56, "a": 46, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "SWFT", "w":  6, "d": 4, "l":  8, "f": 38, "a": 36, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "JKYL", "w":  6, "d": 3, "l":  9, "f": 36, "a": 46, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "RBAS", "w":  4, "d": 0, "l": 14, "f": 38, "a": 77, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "RSML", "w":  1, "d": 0, "l": 17, "f": 12, "a": 86, "pts_win": 2, "season": "1936-37", "level": 4, "series":1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
+        "teams": ["BBML","CGRV","DARE","ETZE","GOLD","JGIL","JWAS","LLMP","MINL","WALF"],
+        "standings": [
+            {"place":  1, "team": "BBML", "w": 14, "d": 3, "l":  1, "f": 103, "a":  19, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "ETZE", "w": 11, "d": 6, "l":  1, "f":  55, "a":  18, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "GOLD", "w": 11, "d": 3, "l":  4, "f":  59, "a":  32, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "JWAS", "w":  8, "d": 4, "l":  6, "f":  78, "a":  40, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "JGIL", "w":  8, "d": 3, "l":  7, "f":  48, "a":  58, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "DARE", "w":  7, "d": 4, "l":  7, "f":  40, "a":  57, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "LLMP", "w":  7, "d": 3, "l":  8, "f":  25, "a":  40, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "WALF", "w":  6, "d": 3, "l":  9, "f":  42, "a":  49, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "CGRV", "w":  1, "d": 3, "l": 14, "f":  18, "a":  57, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "MINL", "w":  1, "d": 0, "l": 17, "f":  27, "a": 125, "pts_win": 2, "season": "1936-37", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1937-38", "level": 5, "name": "3. Division"}}
+        ]
     }],
     "playoffs": {
         "updown": [
             {"home":"CSHL","away":"RROD","homeDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"awayDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"score":"2-1","season":"1936-37","competition":{"type":"league","level": 4,"name": "2. Division","playoff":"updown"},"outcome":"CSHL promoted to TARGET","target":{"season":"1937-38","level":3,"name":"The Promotion"}}
         ]
+    },
+    "promotion": {
+        "teams": ["SCBT","CSHL","BBML","ETZE"],
+        "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["JYKL","RBAS","RSML","WALF","CGRV","MINL"],
+        "target": {"season": "1937-38", "level": 5, "name": "3. Division"}
     }
 }

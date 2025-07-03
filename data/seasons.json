@@ -369,21 +369,21 @@
 	},{
 		"season": "1936-37",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1936-37", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 2, "double": true},
-			"level_2": {"missing":true,"season": "1936-37", "level":  2, "name": "1. Division", "winner": "ASDF"},
-			"level_3": {"missing":true,"season": "1936-37", "level":  3, "name": "The Promotion", "winner": "ADUD"},
+			"level_1": {"season": "1936-37", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 2, "double": true},
+			"level_2": {"season": "1936-37", "level":  2, "name": "1. Division"},
+			"level_3": {"season": "1936-37", "level":  3, "name": "The Promotion"},
 			"level_4": {"season": "1936-37", "level":  4, "name": "2. Division", "series": [
-			    {"season": "1936-37", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SCBT"},
-				{"missing":true,"season": "1936-37", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "BBML"}
+			    {"season": "1936-37", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1936-37", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1936-37", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1936-37", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "MARM"},
-				{"missing":true,"season": "1936-37", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "RUPL"},
-				{"missing":true,"season": "1936-37", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "ASCH"}
+			"level_5": {"season": "1936-37", "level":  5, "name": "3. Division", "series": [
+				{"season": "1936-37", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1936-37", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1936-37", "level":  5, "series":  3, "name": "3. Division Series 3"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1936-37", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1936-37", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 2, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1937-38",

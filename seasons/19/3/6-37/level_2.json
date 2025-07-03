@@ -1,0 +1,33 @@
+{
+    "level": 2,
+	"season": "1936-37",
+    "links": {
+        "next": "1937-38",
+        "prev": "1935-36",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["AREM","ASDF","AVBG","BLVL","CPET","CROD","MANC","NSCH","STET","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "ASDF", "w": 15, "d": 2, "l":  1, "f": 74, "a": 20, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1937-38", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "NSCH", "w": 12, "d": 3, "l":  3, "f": 58, "a": 19, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1937-38", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "CROD", "w": 12, "d": 2, "l":  4, "f": 57, "a": 28, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "AREM", "w":  8, "d": 4, "l":  6, "f": 42, "a": 38, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "AVBG", "w":  7, "d": 4, "l":  7, "f": 33, "a": 40, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "URUM", "w":  7, "d": 4, "l":  7, "f": 32, "a": 45, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "STET", "w":  5, "d": 6, "l":  7, "f": 27, "a": 39, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "MANC", "w":  6, "d": 3, "l":  9, "f": 36, "a": 46, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
+		{"place":  9, "team": "CPET", "w":  4, "d": 0, "l": 14, "f": 28, "a": 47, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "BLVL", "w":  0, "d": 0, "l": 18, "f": 11, "a": 76, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["ASDF","NSCH"],
+		"target": {"season": "1937-38", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["MANC","CPET","BLVL"],
+		"target": {"season": "1937-38", "level": 3, "name": "The Promotion"}
+	}
+}

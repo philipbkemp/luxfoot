@@ -1,0 +1,33 @@
+{
+    "level": 3,
+	"season": "1936-37",
+    "links": {
+        "next": "1937-38",
+        "prev": "1935-36",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["ADUD","ASLX","CSOB","EGWM","PROG","RPDN","TRIM","UESH","USND","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "ADUD", "w": 14, "d": 2, "l":  2, "f": 77, "a": 19, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1937-38", "level": 2, "name": "1. Division"}},
+		{"place":  2, "team": "USND", "w": 11, "d": 4, "l":  3, "f": 47, "a": 30, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1937-38", "level": 2, "name": "1. Division"}},
+		{"place":  3, "team": "RPDN", "w": 12, "d": 1, "l":  5, "f": 48, "a": 35, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1937-38", "level": 2, "name": "1. Division"}},
+		{"place":  4, "team": "YBDK", "w": 11, "d": 0, "l":  7, "f": 50, "a": 40, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion"},
+		{"place":  5, "team": "ASLX", "w":  8, "d": 1, "l":  9, "f": 52, "a": 47, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion"},
+		{"place":  6, "team": "UESH", "w":  6, "d": 4, "l":  8, "f": 25, "a": 47, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion"},
+		{"place":  7, "team": "PROG", "w":  6, "d": 2, "l": 10, "f": 36, "a": 51, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1937-38", "level": 4, "name": "2. Division"}},
+		{"place":  8, "team": "CSOB", "w":  7, "d": 0, "l": 11, "f": 28, "a": 52, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1937-38", "level": 4, "name": "2. Division"}},
+		{"place":  9, "team": "EGWM", "w":  5, "d": 3, "l": 10, "f": 42, "a": 47, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1937-38", "level": 4, "name": "2. Division"}},
+		{"place": 10, "team": "TRIM", "w":  1, "d": 1, "l": 16, "f": 25, "a": 62, "pts_win": 2, "season": "1936-37", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1937-38", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ADUD","USND","RPDN"],
+		"target": {"season": "1937-38", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["PROG","CSOB","EGWM","TRIM"],
+		"target": {"season": "1937-38", "level": 4, "name": "2. Division"}
+	}
+}
