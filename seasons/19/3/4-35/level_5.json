@@ -62,14 +62,14 @@
     },{
         "series": 5,
         "name": "West",
-        "teams": ["BBML","JGOB","KOPS","LUXC","RPDN","SBRT","UNAS"],
+        "teams": ["BBML","JGOB","KOPS","LLMP","RPDN","SBRT","UNAS"],
         "standings": [
             {"place": 1, "team": "RPDN", "w": 9, "d": 2, "l":  1, "f": 40, "a": 16, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
             {"place": 2, "team": "UNAS", "w": 7, "d": 1, "l":  4, "f": 32, "a": 28, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
             {"place": 3, "team": "BBML", "w": 6, "d": 2, "l":  4, "f": 38, "a": 19, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West", "promoted": true, "target": {"season": "1935-36", "level": 3, "name": "2. Division"}},
             {"place": 4, "team": "KOPS", "w": 6, "d": 0, "l":  6, "f": 33, "a": 31, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
             {"place": 5, "team": "SBRT", "w": 4, "d": 2, "l":  6, "f": 33, "a": 37, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
-            {"place": 6, "team": "LUXC", "w": 4, "d": 1, "l":  7, "f": 19, "a": 28, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
+            {"place": 6, "team": "LLMP", "w": 4, "d": 1, "l":  7, "f": 19, "a": 28, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"},
             {"place": 7, "team": "JGOB", "w": 2, "d": 0, "l": 10, "f": 19, "a": 55, "pts_win": 2, "season": "1934-35", "level": 4, "series": 3, "league": "3. Division West"}
         ]
     }],
