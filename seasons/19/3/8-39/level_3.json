@@ -1,0 +1,33 @@
+{
+    "level": 3,
+	"season": "1938-39",
+    "links": {
+        "next": "1939-40",
+        "prev": "1937-38",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["AREM","CSOB","ETZE","GOLD","JWAS","MANC","RROD","SCBT","URUM","USND"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "JWAS", "w": 11, "d": 3, "l":  4, "f": 55, "a": 37, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1939-40", "level": 2, "name": "1. Division"}},
+		{"place":  2, "team": "RROD", "w": 11, "d": 2, "l":  5, "f": 56, "a": 22, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1939-40", "level": 2, "name": "1. Division"}},
+		{"place":  3, "team": "SCBT", "w": 11, "d": 0, "l":  7, "f": 51, "a": 33, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1939-40", "level": 2, "name": "1. Division"}},
+		{"place":  4, "team": "URUM", "w":  9, "d": 3, "l":  6, "f": 35, "a": 27, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion"},
+		{"place":  5, "team": "CSOB", "w":  9, "d": 2, "l":  7, "f": 49, "a": 38, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion"},
+		{"place":  6, "team": "AREM", "w":  7, "d": 6, "l":  5, "f": 37, "a": 35, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion"},
+		{"place":  7, "team": "ETZE", "w":  8, "d": 2, "l":  8, "f": 39, "a": 45, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+		{"place":  8, "team": "GOLD", "w":  6, "d": 2, "l": 10, "f": 33, "a": 44, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+		{"place":  9, "team": "MANC", "w":  3, "d": 2, "l": 13, "f": 29, "a": 59, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+		{"place": 10, "team": "USND", "w":  1, "d": 6, "l": 11, "f": 10, "a": 54, "pts_win": 2, "season": "1938-39", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["JWAS","RROD"],
+		"target": {"season": "1939-40", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["ETZE","GOLD","MANC","USND"],
+		"target": {"season": "1939-40", "level": 4, "name": "2. Division"}
+	}
+}

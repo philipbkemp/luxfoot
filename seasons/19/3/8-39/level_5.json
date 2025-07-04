@@ -1,0 +1,60 @@
+{
+    "level": 5,
+	"season": "1938-39",
+    "links": {
+        "next": "1939-40",
+        "prev": "1937-38",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","FRTA","JGIL","MARM","MINL","OVND","RUPL","UWLD"],
+        "standings": [
+            {"place": 1, "team": "RUPL", "w": 13, "d": 0, "l":  1, "f": 87, "a": 18, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "OVND", "w": 10, "d": 2, "l":  2, "f": 43, "a": 21, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "JGIL", "w":  8, "d": 1, "l":  5, "f": 64, "a": 38, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "MARM", "w":  7, "d": 3, "l":  4, "f": 43, "a": 36, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "MINL", "w":  6, "d": 3, "l":  5, "f": 36, "a": 44, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "AWDG", "w":  4, "d": 1, "l":  9, "f": 29, "a": 45, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 7, "team": "FRTA", "w":  3, "d": 0, "l": 11, "f": 21, "a": 51, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 8, "team": "UWLD", "w":  0, "d": 0, "l": 14, "f": 13, "a": 83, "pts_win": 2, "season": "1938-39", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["DRZV","ESHW","HESH","HOBS","HRTB","JKGB","MDCG","OYMP","SPST"],
+        "standings": [
+            {"place": 1, "team": "SPST", "w": 14, "d": 1, "l":  1, "f": 54, "a": 24, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "HESH", "w": 13, "d": 0, "l":  3, "f": 71, "a": 18, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "MDCG", "w": 11, "d": 1, "l":  4, "f": 45, "a": 27, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "OYMP", "w": 10, "d": 1, "l":  5, "f": 43, "a": 26, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "HOBS", "w":  7, "d": 1, "l":  8, "f": 50, "a": 45, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "JKGB", "w":  5, "d": 2, "l":  9, "f": 27, "a": 36, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "ESHW", "w":  5, "d": 2, "l":  9, "f": 32, "a": 43, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 8, "team": "HRTB", "w":  3, "d": 0, "l": 13, "f": 13, "a": 63, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 9, "team": "DRZV", "w":  0, "d": 0, "l": 16, "f":  0, "a": 53, "pts_win": 2, "season": "1938-39", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASTN","HAMM","JUNG","MAMR","MDLB","RBAS","RSML","SAND","SBRT"],
+        "standings": [
+            {"place": 1, "team": "MAMR", "w": 15, "d": 0, "l":  1, "f": 99, "a": 24, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "SBRT", "w": 13, "d": 1, "l":  2, "f": 50, "a": 16, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1939-40", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "RBAS", "w": 11, "d": 0, "l":  5, "f": 51, "a": 20, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "ASTN", "w":  8, "d": 2, "l":  6, "f": 35, "a": 37, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "MDLB", "w":  5, "d": 2, "l":  9, "f": 35, "a": 65, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "RSML", "w":  5, "d": 1, "l": 10, "f": 41, "a": 43, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 7, "team": "JUNG", "w":  4, "d": 2, "l": 10, "f": 35, "a": 52, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 8, "team": "HAMM", "w":  3, "d": 1, "l": 12, "f": 24, "a": 56, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 9, "team": "SAND", "w":  3, "d": 1, "l": 12, "f": 16, "a": 73, "pts_win": 2, "season": "1938-39", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["RUPL","OVND","SPST","HESH","MAMR","SBRT"],
+        "target": {"season": "1939-40", "level": 4, "name": "2. Division"}
+    }
+}

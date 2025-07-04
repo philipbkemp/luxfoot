@@ -1,0 +1,33 @@
+{
+    "level": 2,
+	"season": "1938-39",
+    "links": {
+        "next": "1939-40",
+        "prev": "1937-38",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","ARIS","ASDF","BBML","CPET","RBDF","RBPF","RPDN","STET","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "RBDF", "w": 14, "d": 2, "l":  2, "f": 78, "a": 22, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1939-40", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "ASDF", "w": 10, "d": 4, "l":  4, "f": 49, "a": 23, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1939-40", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "CPET", "w":  8, "d": 5, "l":  5, "f": 42, "a": 25, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "RPDN", "w":  8, "d": 2, "l":  8, "f": 53, "a": 49, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "STET", "w":  7, "d": 3, "l":  8, "f": 30, "a": 40, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "RBPF", "w":  5, "d": 5, "l":  8, "f": 36, "a": 50, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "YBDK", "w":  5, "d": 4, "l":  9, "f": 35, "a": 49, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "ADUD", "w":  6, "d": 2, "l": 10, "f": 36, "a": 58, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
+		{"place":  9, "team": "ARIS", "w":  5, "d": 4, "l":  9, "f": 27, "a": 53, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "BBML", "w":  5, "d": 3, "l": 10, "f": 29, "a": 46, "pts_win": 2, "season": "1938-39", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["RBDF","ASDF"],
+		"target": {"season": "1939-40", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["ADUD","ARIS","BBML"],
+		"target": {"season": "1939-40", "level": 3, "name": "The Promotion"}
+	}
+}

@@ -1,0 +1,58 @@
+{
+    "level": 4,
+	"season": "1938-39",
+    "links": {
+        "next": "1939-40",
+        "prev": "1937-38",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASLX","CGRV","DARE","EGWM","PROG","TSVG","UMRT","UNAS","VICR","WALF"],
+        "standings": [
+            {"place":  1, "team": "EGWM", "w": 13, "d": 2, "l":  3, "f": 74, "a":  30, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "CGRV", "w": 13, "d": 2, "l":  3, "f": 70, "a":  26, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "DARE", "w": 11, "d": 5, "l":  2, "f": 74, "a":  30, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "UMRT", "w":  9, "d": 3, "l":  6, "f": 50, "a":  40, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "ASLX", "w":  9, "d": 1, "l":  8, "f": 66, "a":  45, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "VICR", "w":  7, "d": 5, "l":  6, "f": 46, "a":  48, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "PROG", "w":  7, "d": 3, "l":  8, "f": 45, "a":  47, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relegation"},
+            {"place":  8, "team": "UNAS", "w":  6, "d": 5, "l":  7, "f": 30, "a":  42, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relegation", "relegated": true, "target": {"season": "1939-40", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "WALF", "w":  2, "d": 0, "l": 16, "f": 24, "a": 105, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1939-40", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "TSVG", "w":  0, "d": 0, "l": 18, "f":  4, "a":  70, "pts_win": 2, "season": "1938-39", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1939-40", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASCH","BLVL","CSHL","JKYL","KOPS","LLMP","SWFT","TRIM","UBSH","UESH"],
+        "standings": [
+            {"place":  1, "team": "BLVL", "w": 13, "d": 3, "l":  2, "f": 44, "a": 18, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "ASCH", "w": 10, "d": 4, "l":  4, "f": 64, "a": 35, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "UBSH", "w":  8, "d": 5, "l":  5, "f": 52, "a": 39, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "KOPS", "w":  7, "d": 7, "l":  4, "f": 53, "a": 46, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "SWFT", "w":  8, "d": 2, "l":  8, "f": 49, "a": 43, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "JKYL", "w":  8, "d": 2, "l":  8, "f": 44, "a": 40, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "CSHL", "w":  5, "d": 6, "l":  7, "f": 40, "a": 46, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "UESH", "w":  6, "d": 3, "l":  9, "f": 46, "a": 53, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1939-40", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "LLMP", "w":  5, "d": 3, "l": 10, "f": 30, "a": 55, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1939-40", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "TRIM", "w":  1, "d": 3, "l": 14, "f": 26, "a": 73, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1939-40", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["EGWM","CGRV","BLVL","ASCH"],
+        "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["UNAS","WALF","TSVG","UESH","LLMP","TRIM"],
+        "target": {"season": "1939-40", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "relegation": [
+            {"home":"PROG","away":"UNAS","score":"5-2","season":"1938-39","competition":{"type":"league","level": 4,"name": "2 Division","playoff":"relegation"},"outcome":"UNAS relegated to TARGET","target": {"season": "1939-40", "level": 5, "name": "3. Division"},"homeDivision":{"level":4,"series":1,"name":"2. Division Series 1"},"awayDivision":{"level":4,"series":1,"name":"2. Division Series 1"}}
+        ]
+    }
+}

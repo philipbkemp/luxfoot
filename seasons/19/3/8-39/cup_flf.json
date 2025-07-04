@@ -1,0 +1,34 @@
+{
+    "season": "1938-39",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1939-40"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "GOLD", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-7"},
+			{"season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-5"},
+			{"season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "ASDF", "homeDivision": {"level":2,"name":"1. Division"},"away": "CPET", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-2"},
+			{"season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"7-0"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1939-03-12","season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-4"},
+			{"date":"1939-03-12","season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-4"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1939-05-02","season": "1938-39","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-6"}
+        ]
+    }],
+    "winner": "SPOR",
+    "title_count": 1
+}
