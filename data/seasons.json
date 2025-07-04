@@ -388,21 +388,21 @@
 	},{
 		"season": "1937-38",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1937-38", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 7},
-			"level_2": {"missing":true,"season": "1937-38", "level":  2, "name": "1. Division", "winner": "AVBG"},
-			"level_3": {"missing":true,"season": "1937-38", "level":  3, "name": "The Promotion", "winner": "YBDK"},
+			"level_1": {"season": "1937-38", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 7},
+			"level_2": {"season": "1937-38", "level":  2, "name": "1. Division"},
+			"level_3": {"season": "1937-38", "level":  3, "name": "The Promotion"},
 			"level_4": {"season": "1937-38", "level":  4, "name": "2. Division", "series": [
-			    {"season": "1937-38", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "RROD"},
-				{"missing":true,"season": "1937-38", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JWAS"}
+			    {"season": "1937-38", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1937-38", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1937-38", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1937-38", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "CGRV"},
-				{"missing":true,"season": "1937-38", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JKYL"},
-				{"missing":true,"season": "1937-38", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "WALF"}
+			"level_5": {"season": "1937-38", "level":  5, "name": "3. Division", "series": [
+				{"season": "1937-38", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1937-38", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1937-38", "level":  5, "series":  3, "name": "3. Division Series 3"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1937-38", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1937-38", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1938-39",

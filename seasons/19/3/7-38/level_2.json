@@ -1,0 +1,33 @@
+{
+    "level": 2,
+	"season": "1937-38",
+    "links": {
+        "next": "1938-39",
+        "prev": "1936-37",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","AREM","ARIS","AVBG","CROD","RBPF","RPDN","STET","URUM","USND"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "AVBG", "w": 14, "d": 0, "l":  4, "f": 59, "a": 29, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1938-39", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "CROD", "w": 11, "d": 2, "l":  5, "f": 65, "a": 32, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1938-39", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "ADUD", "w": 10, "d": 3, "l":  5, "f": 44, "a": 33, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "ARIS", "w": 10, "d": 1, "l":  7, "f": 45, "a": 36, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "RBPF", "w":  9, "d": 1, "l":  8, "f": 60, "a": 44, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "RPDN", "w":  7, "d": 2, "l":  9, "f": 43, "a": 52, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "STET", "w":  6, "d": 3, "l":  9, "f": 35, "a": 38, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "USND", "w":  6, "d": 2, "l": 10, "f": 30, "a": 58, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1938-39", "level": 3, "name": "The Promotion"}},
+		{"place":  9, "team": "URUM", "w":  5, "d": 2, "l": 11, "f": 31, "a": 65, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1938-39", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "AREM", "w":  3, "d": 2, "l": 13, "f": 26, "a": 51, "pts_win": 2, "season": "1937-38", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1938-39", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["AVBG","CROD"],
+		"target": {"season": "1938-39", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["USND","URUM","AREM"],
+		"target": {"season": "1938-39", "level": 3, "name": "The Promotion"}
+	}
+}
