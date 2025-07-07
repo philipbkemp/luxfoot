@@ -1,0 +1,78 @@
+{
+    "season": "1939-40",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1940-41",
+        "prev": "1938-39"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "YBDK", "homeDivision": {"level":2,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"7-2"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SWFT", "homeDivision": {"level":4,"name":"2. Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-3","forfeit":true},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "EGWM", "homeDivision": {"level":3,"name":"The Promotion"},"away": "MDCG", "awayDivision": {"level":5,"name":"3. Division"},"score":"0-2"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "GOLD", "homeDivision": {"level":4,"name":"2. Division"},"away": "FOLA", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-8"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"2. Division"},"away": "SAND", "awayDivision": {"level":5,"name":"3. Division"},"score":"7-1"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MANC", "homeDivision": {"level":4,"name":"2. Division"},"away": "USND", "awayDivision": {"level":4,"name":"2. Division"},"score":"7-3"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UESH", "homeDivision": {"level":5,"name":"3. Division"},"away": "ADUD", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-10"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JKGB", "homeDivision": {"level":5,"name":"3. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-6"},
+			{"date":"1939-08-20","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBAS", "homeDivision": {"level":5,"name":"3. Division"},"away": "ARIS", "awayDivision": {"level":3,"name":"The Promotion"},"score":"6-4"},
+			{"bye":"TRIM", "byeDivision": {"level":5,"name":"3. Division"}}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "YBDK", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-6"},
+			{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-0"},
+			{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ASLX", "homeDivision": {"level":4,"name":"2. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-2"},
+			{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBAS", "homeDivision": {"level":5,"name":"3. Division"},"away": "TRIM", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-2"},
+			{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "MDCG", "awayDivision": {"level":5,"name":"3. Division"},"score":"6-1"},
+			{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "FOLA", "homeDivision": {"level":2,"name":"1. Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-6"},
+			{"date":"1939-08-27","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "MANC", "homeDivision": {"level":4,"name":"2. Division"},"away": "ADUD", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-2"}
+		]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-5"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBAS", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-1"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"7-5"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-2"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-0"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "MDCG", "homeDivision": {"level":5,"name":"3. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-6"},
+			{"date":"1939-11-05","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "MANC", "homeDivision": {"level":4,"name":"2. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-12"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-1"},
+			{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-2"},
+			{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "STET", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-2"},
+			{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"}    
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1940-03-03","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1","leg":1},
+			{"date":"1940-04-14","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-0","leg":2,"outcome":"SPOR won 8-1"},
+			{"date":"1940-03-03","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"7-3","leg":1},
+			{"date":"1940-04-14","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1","leg":2,"outcome":"SDUD won 11-4"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1940-04-21","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-6"}
+        ]
+    }],
+    "winner": "SPOR",
+    "title_count": 3
+}

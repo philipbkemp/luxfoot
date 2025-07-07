@@ -1,0 +1,38 @@
+{
+    "level": 2,
+	"season": "1939-40",
+    "links": {
+        "next": "1945-46",
+        "prev": "1938-49",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["AVBG","CPET","FOLA","JWAS","RBPF","RPDN","RROD","SCBT","STET","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CPET", "w": 13, "d": 3, "l":  2, "f": 73, "a": 30, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1945-46", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "FOLA", "w": 12, "d": 4, "l":  2, "f": 69, "a": 38, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1945-46", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "RROD", "w": 12, "d": 2, "l":  4, "f": 70, "a": 28, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "AVBG", "w":  8, "d": 4, "l":  6, "f": 38, "a": 34, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "RBPF", "w":  7, "d": 2, "l":  9, "f": 37, "a": 48, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "JWAS", "w":  6, "d": 3, "l":  9, "f": 39, "a": 53, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "RPDN", "w":  6, "d": 2, "l": 10, "f": 45, "a": 70, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division", "playoff":"relegation"},
+		{"place":  8, "team": "YBDK", "w":  6, "d": 2, "l": 10, "f": 35, "a": 50, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division", "playoff":"relegation", "relegated": true, "target": {"season": "1945-46", "level": 3, "name": "The Promotion"}},
+		{"place":  9, "team": "STET", "w":  5, "d": 1, "l": 12, "f": 38, "a": 66, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1945-46", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "SCBT", "w":  3, "d": 1, "l": 14, "f": 20, "a": 47, "pts_win": 2, "season": "1939-40", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1945-46", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["CPET","FOLA"],
+		"target": {"season": "1945-46", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["YBDK","STET","SCBT"],
+		"target": {"season": "1945-46", "level": 3, "name": "The Promotion"}
+	},
+    "playoffs": {
+        "relegation": [
+            {"home":"RPDN","away":"YBDK","score":"6-3","season":"1939-40","competition":{"type":"league","level": 2,"name": "1. Division"},"outcome":"YBDK relegated to TARGET","target": {"season": "1945-46", "level": 3, "name": "The Promotion"}}
+        ]
+    }
+}

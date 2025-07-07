@@ -1,0 +1,35 @@
+{
+    "season": "1939-40",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1940-41",
+        "prev": "1938-39"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "MDCG", "homeDivision": {"level":5,"name":"3. Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-11"},
+			{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBAS", "awayDivision": {"level":5,"name":"3. Division"},"score":"8-0"},
+			{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-0"},
+			{"date":"1940-01-07","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "MANC", "awayDivision": {"level":4,"name":"2. Division"},"score":"11-0"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+         	{"date":"1940-03-03","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-3"},
+			{"date":"1940-03-03","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"8-6"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1940-04-21","season": "1939-40","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-2"}
+        ]
+    }],
+    "winner": "USDD",
+    "title_count": 1
+}

@@ -1,0 +1,33 @@
+{
+    "level": 3,
+	"season": "1939-40",
+    "links": {
+        "next": "1945-46",
+        "prev": "1938-39",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["ADUD","AREM","ARIS","ASCH","BBML","BLVL","CGRV","CSOB","EGWM","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "ADUD", "w": 12, "d": 3, "l":  3, "f": 54, "a": 22, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1945-46", "level": 2, "name": "1. Division"}},
+		{"place":  2, "team": "ARIS", "w":  9, "d": 5, "l":  4, "f": 36, "a": 25, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1945-46", "level": 2, "name": "1. Division"}},
+		{"place":  3, "team": "URUM", "w": 10, "d": 3, "l":  5, "f": 46, "a": 36, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1945-46", "level": 2, "name": "1. Division"}},
+		{"place":  4, "team": "AREM", "w":  8, "d": 5, "l":  5, "f": 42, "a": 33, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion"},
+		{"place":  5, "team": "EGWM", "w": 10, "d": 1, "l":  7, "f": 33, "a": 27, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion"},
+		{"place":  6, "team": "CSOB", "w":  9, "d": 3, "l":  6, "f": 61, "a": 40, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion"},
+		{"place":  7, "team": "ASCH", "w":  8, "d": 2, "l":  8, "f": 45, "a": 48, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1945-46", "level": 4, "name": "2. Division"}},
+		{"place":  8, "team": "BBML", "w":  4, "d": 2, "l": 12, "f": 27, "a": 58, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1945-46", "level": 4, "name": "2. Division"}},
+		{"place":  9, "team": "BLVL", "w":  4, "d": 1, "l": 13, "f": 32, "a": 51, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1945-46", "level": 4, "name": "2. Division"}},
+		{"place": 10, "team": "CGRV", "w":  3, "d": 1, "l": 14, "f": 27, "a": 63, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1945-46", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ADUD","ARIS","URUM"],
+		"target": {"season": "1945-46", "level": 2, "name": "1. Division"}
+	},
+	"relegation": {
+		"teams": ["ASCH","BBML","BLVL","CGRV"],
+		"target": {"season": "1945-46", "level": 4, "name": "2. Division"}
+	}
+}

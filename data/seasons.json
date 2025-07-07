@@ -427,22 +427,22 @@
 	},{
 		"season": "1939-40",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1939-40", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 2},
-			"level_2": {"missing":true,"season": "1939-40", "level":  2, "name": "1. Division", "winner": "CPET"},
-			"level_3": {"missing":true,"season": "1939-40", "level":  3, "name": "The Promotion", "winner": "ADUD"},
+			"level_1": {"season": "1939-40", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 2},
+			"level_2": {"season": "1939-40", "level":  2, "name": "1. Division"},
+			"level_3": {"season": "1939-40", "level":  3, "name": "The Promotion"},
 			"level_4": {"season": "1939-40", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1939-40", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
-				{"season": "1939-40", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JKYL"}
+			    {"season": "1939-40", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1939-40", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1939-40", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1939-40", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JGIL"},
-				{"missing":true,"season": "1939-40", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UESH"},
-				{"missing":true,"season": "1939-40", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "TRIM"}
+			"level_5": {"season": "1939-40", "level":  5, "name": "3. Division", "series": [
+				{"season": "1939-40", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1939-40", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1939-40", "level":  5, "series":  3, "name": "3. Division Series 3"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1939-40", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1939-40", "name": "Coupe FLF", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1939-40", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1939-40", "name": "Coupe FLF", "winner": "USDD", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1940-41",
