@@ -103,6 +103,16 @@ function parseCup(cup) {
 
         });
 		thisRoundPanel.append(ul);
+
+		if ( cup.note ) {
+			thisRoundPanel.append(
+				$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
+					cup.note
+				)
+			);
+			removeKey("note");
+		}
+
 		removeKey("round.matches");
 
 		$("#cupTabContent").append(thisRoundPanel);
