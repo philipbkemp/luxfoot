@@ -1,0 +1,35 @@
+{
+    "season": "1940-41",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1945-46",
+        "prev": "1939-40"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"1941-03-16","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1941-03-16","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "CSOB", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ASLX", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-1"},
+			{"date":"1941-03-16","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "EGWM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-1"},
+			{"date":"1941-03-16","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Quarter Final"},"home": "STET", "homeDivision": {"level":3,"name":"The Promotion"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-0"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1941-03-30","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "STET", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"},
+			{"date":"1941-03-30","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-1"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1941-04-27","season": "1940-41","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "STET", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-1"}
+        ]
+    }],
+    "winner": "JWAS",
+    "title_count": 1
+}

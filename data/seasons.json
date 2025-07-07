@@ -447,8 +447,8 @@
 	},{
 		"season": "1940-41",
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1940-41", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 9, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1940-41", "name": "Coupe FLF", "winner": "JWAS", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1940-41", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 9, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1940-41", "name": "Coupe FLF", "winner": "JWAS", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1941-42",

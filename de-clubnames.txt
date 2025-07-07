@@ -1,0 +1,34 @@
+Eintracht Esch				UESH
+FK 1912 Schifflingen		NSCH
+FK 1936 Schifflingen		ASCH
+FK Gasperich-Muhlenweg		TRIG
+FK Klausen					MANC
+FK Niederkorn				PRON
+FK Oberkorn					CSOB
+FK Schuweiler				ESHW
+FK Steinfort				STNG
+FK Tetingen					STET
+FK Weimerskirch				EGWM
+FV 08 Petingen				CPET
+FV Aspelt					RBAS
+FV Fels						RUPL
+FV Merl						RSML
+FV Rümelingen				URUM
+FV Sandweiler				SAND
+Korn Rodingen				CROD
+Moselland 07 Luxemburg		SPOR
+Rot-Schwarz Düdelingen		ADUD
+Rot-Schwarz Pfaffenthal		RBPF
+Rote Erde Esch				FOLA
+Rotstern Differdingen		ASDF
+Schwarz-Weiss 07 Esch		JESH
+Schwarz-Weiss Wasserbillig	JWAS
+SK 07 Differdingen			RBDF
+Sp.V. Hollerich				CSHL
+Sport Verein 1915 Beggen	AVBG
+Sportfreunde Luxemburg		ASLX
+Sportverein 09 Neudorf		RPDN
+Sportverein Düdelingen		USDD
+Stadt Düdelingen			SDUD
+SV 07 Wacker Kayl			JKYL
+VfR 08 Luxemburg			ULUX
