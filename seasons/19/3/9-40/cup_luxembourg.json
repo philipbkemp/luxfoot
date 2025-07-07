@@ -62,9 +62,9 @@
         "name": "Semi Final",
         "matches": [
         	{"date":"1940-03-03","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1","leg":1},
-			{"date":"1940-04-14","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-0","leg":2,"outcome":"SPOR won 8-1"},
+			{"date":"1940-04-14","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-0","leg":2,"winner":"SPOR","outcome":"SPOR won 8-1"},
 			{"date":"1940-03-03","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"7-3","leg":1},
-			{"date":"1940-04-14","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1","leg":2,"outcome":"SDUD won 11-4"}
+			{"date":"1940-04-14","season": "1939-40","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1","leg":2,"winner":"SDUD","outcome":"SDUD won 11-4"}
 		]
     },{
         "key": "F",
