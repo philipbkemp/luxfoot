@@ -13,29 +13,54 @@
         "name": "Series 1",
         "teams": ["HOBS","JSKH","OYMP","SBRT","SPST","UNAS","YBSW"],
         "standings": [
-            {"place": 1, "team": "SBRT", "w": 12, "d": 0, "l": 0, "f": 42, "a": 6, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
-            {"place": 2, "team": "UNAS", "w": 8, "d": 0, "l": 4, "f": 49, "a": 16, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
-            {"place": 3, "team": "SPST", "w": 6, "d": 1, "l": 5, "f": 26, "a": 25, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
-            {"place": 4, "team": "OYMP", "w": 5, "d": 1, "l": 6, "f": 30, "a": 32, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
-            {"place": 5, "team": "JSKH", "w": 3, "d": 4, "l": 5, "f": 20, "a": 37, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
-            {"place": 6, "team": "HOBS", "w": 2, "d": 2, "l": 8, "f": 25, "a": 37, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
-            {"place": 7, "team": "YBSW", "w": 1, "d": 2, "l": 9, "f": 12, "a": 51, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"}
-        ],
-        "promoted": {
-            "teams": ["SBRT","UNAS","SPST"],
-            "target": {"season": "1946-47", "level": 4, "name": "2. Division"}
-        }
+            {"place": 1, "team": "SBRT", "w": 12, "d": 0, "l": 0, "f": 42, "a":  6, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "UNAS", "w":  8, "d": 0, "l": 4, "f": 49, "a": 16, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "SPST", "w":  6, "d": 1, "l": 5, "f": 26, "a": 25, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 4, "team": "OYMP", "w":  5, "d": 1, "l": 6, "f": 30, "a": 32, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "JSKH", "w":  3, "d": 4, "l": 5, "f": 20, "a": 37, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "HOBS", "w":  2, "d": 2, "l": 8, "f": 25, "a": 37, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 7, "team": "YBSW", "w":  1, "d": 2, "l": 9, "f": 12, "a": 51, "pts_win": 2, "season": "1945-46", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
+        "teams": ["BWIT","ESHW","HAMM","JBIW","KWRM","MDCG","MDLB"],
+        "standings": [
+            {"place": 1, "team": "MDLB", "w": 11, "d": 0, "l":  1, "f": 51, "a": 18, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "BWIT", "w":  8, "d": 2, "l":  2, "f": 62, "a": 21, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "HAMM", "w":  7, "d": 1, "l":  4, "f": 34, "a": 29, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 4, "team": "JBIW", "w":  5, "d": 3, "l":  4, "f": 27, "a": 23, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 5, "team": "KWRM", "w":  5, "d": 0, "l":  7, "f": 39, "a": 42, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "ESHW", "w":  2, "d": 1, "l":  9, "f": 23, "a": 59, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "MDCG", "w":  0, "d": 1, "l": 11, "f": 13, "a": 57, "pts_win": 2, "season": "1945-46", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
     },{
         "series": 3,
         "name": "Series 3",
-        "missing" :true
+        "teams": ["ASTN","FRTA","JUNG","MARM","SAND","VICR","WALF"],
+        "standings": [
+            {"place": 1, "team": "WALF", "w": 8, "d": 1, "l": 3, "f": 44, "a": 19, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "JUNG", "w": 8, "d": 0, "l": 4, "f": 46, "a": 31, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "VICR", "w": 7, "d": 1, "l": 4, "f": 47, "a": 28, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 4, "team": "MARM", "w": 7, "d": 1, "l": 4, "f": 38, "a": 26, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 5, "team": "FRTA", "w": 5, "d": 1, "l": 6, "f": 32, "a": 46, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "ASTN", "w": 2, "d": 1, "l": 9, "f": 27, "a": 49, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 7, "team": "SAND", "w": 2, "d": 1, "l": 9, "f": 25, "a": 60, "pts_win": 2, "season": "1945-46", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
     },{
         "series": 4,
         "name": "Series 4",
-        "missing" :true
-    }]
+        "teams": ["AWDG","CLVX","GOLD","OVND","TSVG"],
+        "standings": [
+            {"place": 1, "team": "CLVX", "w": 4, "d": 3, "l": 1, "f": 30, "a": 15, "pts_win": 2, "season": "1945-46", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "TSVG", "w": 3, "d": 2, "l": 3, "f": 24, "a": 24, "pts_win": 2, "season": "1945-46", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "GOLD", "w": 3, "d": 2, "l": 3, "f": 18, "a": 19, "pts_win": 2, "season": "1945-46", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1946-47", "level": 4, "name": "2. Division"}},
+            {"place": 4, "team": "OVND", "w": 3, "d": 1, "l": 4, "f": 22, "a": 32, "pts_win": 2, "season": "1945-46", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 5, "team": "AWDG", "w": 1, "d": 4, "l": 3, "f": 19, "a": 23, "pts_win": 2, "season": "1945-46", "level": 5, "series": 4, "league": "3. Division Series 4"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["SBRT","UNAS","SPST","JBIW","HAMM","BWIT","MDLB","MARM","VICR","JUNG","WALF","GOLD","TSVG","CLVX"],
+        "target": {"season": "1946-47", "level": 4, "name": "2. Division"}
+    }
 }

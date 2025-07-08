@@ -470,22 +470,22 @@
 	},{
 		"season": "1945-46",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1945-46", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 4},
-			"level_2": {"missing":true,"season": "1945-46", "level":  2, "name": "1. Division", "winner": "JESH"},
-			"level_3": {"missing":true,"season": "1945-46", "level":  3, "name": "The Promotion", "winner": "CSOB"},
-			"level_4": {"missing":true,"season": "1945-46", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1945-46", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "ASCH"},
-				{"missing":true,"season": "1945-46", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "PROG"}
+			"level_1": {"season": "1945-46", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 4},
+			"level_2": {"season": "1945-46", "level":  2, "name": "1. Division"},
+			"level_3": {"season": "1945-46", "level":  3, "name": "The Promotion"},
+			"level_4": {"season": "1945-46", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1945-46", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1945-46", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
 			"level_5": {"season": "1945-46", "level":  5, "name": "3. Division", "series": [
-				{"season": "1945-46", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SBRT"},
-				{"missing":true,"season": "1945-46", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MDLB"},
-				{"missing":true,"season": "1945-46", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "WALF"},
-				{"missing":true,"season": "1945-46", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "CLVX"}
+				{"season": "1945-46", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1945-46", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1945-46", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1945-46", "level":  5, "series":  4, "name": "3. Division Series 4"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1945-46", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 3, "winner_division": {"level": 2,"name": "1. Division"}},
+			"cup_luxembourg": {"season": "1945-46", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 3, "winner_division": {"level": 2,"name": "1. Division"}},
 			"cup_flf": {"season": "1945-46", "name": "Coupe FLF", "winner": "RBDF", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{

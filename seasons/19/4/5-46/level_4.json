@@ -1,0 +1,49 @@
+{
+    "level": 4,
+	"season": "1945-46",
+    "links": {
+        "next": "1946-47",
+        "prev": "1939-40",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASCH","BLVL","CSHL","KOPS","MAMR","RBAS","RSML","SWFT","TRIM","UESH"],
+        "standings": [
+            {"place":  1, "team": "ASCH", "w": 14, "d": 2, "l":  2, "f": 80, "a":  29, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "BLVL", "w": 13, "d": 1, "l":  4, "f": 62, "a":  35, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "UESH", "w": 10, "d": 5, "l":  3, "f": 84, "a":  40, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  4, "team": "SWFT", "w": 12, "d": 1, "l":  5, "f": 82, "a":  43, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  5, "team": "RSML", "w":  9, "d": 1, "l":  8, "f": 60, "a":  73, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  6, "team": "TRIM", "w":  8, "d": 1, "l":  9, "f": 50, "a":  45, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  7, "team": "CSHL", "w":  7, "d": 1, "l": 10, "f": 64, "a":  64, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  8, "team": "KOPS", "w":  6, "d": 1, "l": 11, "f": 48, "a":  62, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "MAMR", "w":  3, "d": 1, "l": 14, "f": 39, "a":  86, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "RBAS", "w":  1, "d": 0, "l": 17, "f": 22, "a": 114, "pts_win": 2, "season": "1945-46", "level": 4, "series": 1, "league": "2. Division Series 1"} 
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASLX","BBML","CGRV","DARE","JGIL","MANC","MINL","PROG","RUPL","UMRT"],
+        "standings": [
+            {"place":  1, "team": "PROG", "w": 16, "d": 1, "l":  1, "f": 95, "a": 18, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "ASLX", "w": 15, "d": 1, "l":  2, "f": 79, "a": 15, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "UMRT", "w": 13, "d": 0, "l":  5, "f": 60, "a": 39, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  4, "team": "CGRV", "w": 12, "d": 1, "l":  5, "f": 65, "a": 35, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  5, "team": "BBML", "w":  8, "d": 4, "l":  6, "f": 60, "a": 37, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  6, "team": "MINL", "w":  7, "d": 1, "l": 10, "f": 33, "a": 56, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  7, "team": "MANC", "w":  5, "d": 2, "l": 11, "f": 36, "a": 52, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}},
+            {"place":  8, "team": "JGIL", "w":  4, "d": 1, "l": 13, "f": 34, "a": 86, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "RUPL", "w":  4, "d": 1, "l": 13, "f": 33, "a": 67, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "DARE", "w":  0, "d": 0, "l": 18, "f":  0, "a": 90, "pts_win": 2, "season": "1945-46", "level": 4, "series": 2, "league": "2. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CSHL","TRIM","RSML","SWFT","UESH","BLVL","ASCH","MANC","MINL","BBML","CGRV","UMRT","ASLX","PROG"],
+        "target": {"season": "1946-47", "level": 3, "name": "The Promotion"}
+    }
+}

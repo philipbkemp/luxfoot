@@ -268,9 +268,9 @@ table.table--standings-history tr > td:first-of-type {
     background-color: #CB8282 !important;
 }
 .is-champion td:nth-of-type(1),
-.is-relegated td:nth-of-type(1),
-.is-promoted td:nth-of-type(1),
-.is-removed td:nth-of-type(1) {
+.table--standings .is-relegated td:nth-of-type(1),
+.table--standings .is-promoted td:nth-of-type(1),
+.table--standings .is-removed td:nth-of-type(1) {
     color: transparent;  
     background-size: 20px;
     background-repeat: no-repeat;
@@ -283,14 +283,26 @@ table.table--standings-history tr > td:first-of-type {
 .is-relegated:not(.is-relegated-twice) td:nth-of-type(1) {
 	background-image: url("assets/relegated.png");
 }
-.is-relegated.is-relegated-twice td:nth-of-type(1) {
+.table--standings .is-relegated.is-relegated-twice td:nth-of-type(1) {
 	background-image: url("assets/relegated-twice.png");
 }
-.is-promoted td:nth-of-type(1) {
+.table--standings .is-promoted td:nth-of-type(1) {
 	background-image: url("assets/promoted.png");
 }
-.is-removed td:nth-of-type(1) {
+.table--standings .is-removed td:nth-of-type(1) {
 	background-image: url("assets/removed.png");
+}
+.table--standings-history .is-relegated td:nth-of-type(1) {
+    background-image: none !important;
+    color: #911d1d;
+}
+.table--standings-history .is-promoted td:nth-of-type(1) {
+    background-image: none !important;
+    color: #359235;
+}
+.table--standings-history .is-removed td:nth-of-type(1) {
+    background-image: none !important;
+    color: #cb0b0b;
 }
 
 /* RESULTS TABLE *********************************************************************************/

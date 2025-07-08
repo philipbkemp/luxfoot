@@ -1,0 +1,29 @@
+{
+    "level": 3,
+	"season": "1945-46",
+    "links": {
+        "next": "1946-47",
+        "prev": "1939-40",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"teams": ["AREM","CSOB","EGWM","ETZE","JKYL","SCBT","STET","UBSH","USND","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CSOB", "w": 13, "d": 4, "l":  1, "f": 64, "a": 21, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1946-47", "level": 2, "name": "1. Division"}},
+		{"place":  2, "team": "STET", "w": 14, "d": 1, "l":  3, "f": 73, "a": 27, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1946-47", "level": 2, "name": "1. Division"}},
+		{"place":  3, "team": "AREM", "w": 11, "d": 3, "l":  4, "f": 52, "a": 23, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1946-47", "level": 2, "name": "1. Division"}},
+		{"place":  4, "team": "SCBT", "w": 11, "d": 1, "l":  6, "f": 32, "a": 27, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion", "promoted": true, "target": {"season": "1946-47", "level": 2, "name": "1. Division"}},
+		{"place":  5, "team": "YBDK", "w":  8, "d": 1, "l":  9, "f": 35, "a": 43, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion"},
+		{"place":  6, "team": "UBSH", "w":  8, "d": 1, "l":  9, "f": 38, "a": 47, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion"},
+		{"place":  7, "team": "EGWM", "w":  5, "d": 3, "l": 10, "f": 29, "a": 43, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion"},
+		{"place":  8, "team": "USND", "w":  4, "d": 2, "l": 12, "f": 29, "a": 63, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion"},
+		{"place":  9, "team": "JKYL", "w":  4, "d": 2, "l": 12, "f": 30, "a": 46, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion"},
+		{"place": 10, "team": "ETZE", "w":  2, "d": 2, "l": 14, "f": 23, "a": 65, "pts_win": 2, "season": "1945-46", "level": 3, "league": "The Promotion"}
+    ],
+	"promotion": {
+		"teams": ["CSOB","STET","AREM","SCBT"],
+		"target": {"season": "1946-47", "level": 2, "name": "1. Division"}
+	}
+}

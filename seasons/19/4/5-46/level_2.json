@@ -1,0 +1,29 @@
+{
+    "level": 2,
+	"season": "1945-46",
+    "links": {
+        "next": "1946-47",
+        "prev": "1939-40",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","ARIS","ASDF","AVBG","JESH","JWAS","RBPF","RPDN","RROD","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "JESH", "w": 14, "d": 1, "l":  3, "f": 87, "a": 25, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1946-47", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "RROD", "w": 13, "d": 0, "l":  5, "f": 89, "a": 34, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1946-47", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "URUM", "w": 12, "d": 0, "l":  6, "f": 49, "a": 32, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "RPDN", "w": 10, "d": 2, "l":  6, "f": 51, "a": 44, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "RBPF", "w":  8, "d": 2, "l":  8, "f": 44, "a": 51, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "ADUD", "w":  8, "d": 1, "l":  9, "f": 44, "a": 66, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "AVBG", "w":  7, "d": 1, "l": 10, "f": 48, "a": 59, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "ASDF", "w":  5, "d": 1, "l": 12, "f": 34, "a": 68, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place":  9, "team": "JWAS", "w":  5, "d": 0, "l": 13, "f": 31, "a": 63, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"},
+		{"place": 10, "team": "ARIS", "w":  4, "d": 0, "l": 14, "f": 30, "a": 65, "pts_win": 2, "season": "1945-46", "level": 2, "league": "1. Division"}
+    ],
+	"promotion": {
+		"teams": ["JESH","RROD"],
+		"target": {"season": "1946-47", "level": 1, "name": "Honour Division"}
+	}
+}

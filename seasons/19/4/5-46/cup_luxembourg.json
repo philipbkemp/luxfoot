@@ -1,0 +1,107 @@
+{
+    "season": "1945-46",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1944-45",
+        "prev": "1946-47"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-2"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":2,"name":"1. Division"},"away": "BBML", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-4"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "EGWM", "homeDivision": {"level":3,"name":"The Promotion"},"away": "TRIM", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-0"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"11-0"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "ASDF", "homeDivision": {"level":2,"name":"1. Division"},"away": "SBRT", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-1"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "SWFT", "homeDivision": {"level":4,"name":"2. Division"},"away": "BWIT", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-1"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-4"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "MDLB", "homeDivision": {"level":5,"name":"3. Division"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "UESH", "homeDivision": {"level":4,"name":"2. Division"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-6"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "BLVL", "homeDivision": {"level":4,"name":"2. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-2","aet":true,"outcome":"Both teams advanced to the next round"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "UBSH", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-4"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "WALF", "homeDivision": {"level":5,"name":"3. Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-7"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "YBDK", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ASCH", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "MANC", "homeDivision": {"level":4,"name":"2. Division"},"away": "SCBT", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-1"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":4,"name":"2. Division"},"away": "UNAS", "awayDivision": {"level":5,"name":"3. Division"},"score":"8-1"},
+			{"date":"1945-09-02","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"1st Round"},"home": "GOLD", "homeDivision": {"level":5,"name":"3. Division"},"away": "RSML", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-5","forfeit":true}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "UNAS", "homeDivision": {"level":5,"name":"3. Division"},"away": "JWAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-6"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "MDLB", "homeDivision": {"level":5,"name":"3. Division"},"away": "PROG", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-3","note":"Replayed"},
+            {"date":"1945-10-28", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "MDLB", "homeDivision": {"level":5,"name":"3. Division"},"away": "PROG", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-5","forfeit":true},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "SBRT", "homeDivision": {"level":5,"name":"3. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-3"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "YBDK", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SWFT", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-1","note":"Replayed"},
+            {"date":"1945-10-28", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "YBDK", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SWFT", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "BBML", "homeDivision": {"level":4,"name":"2. Division"},"away": "EGWM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-2"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "RBPF", "homeDivision": {"level":2,"name":"1. Division"},"away": "ASLX", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-2"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "GOLD", "homeDivision": {"level":5,"name":"3. Division"},"away": "BWIT", "awayDivision": {"level":5,"name":"3. Division"},"score":"0-4"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "RSML", "homeDivision": {"level":4,"name":"2. Division"},"away": "MANC", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "WALF", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-1"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "SCBT", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-0"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "RROD", "homeDivision": {"level":2,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-4"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CSOB", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-1"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"10-1"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "BLVL", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASCH", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "UBSH", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-1"},
+			{"date":"1945-10-07", "season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"2nd Round"},"home": "CPET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "UESH", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-1"}
+		]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-0"},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-0"},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "BBML", "homeDivision": {"level":4,"name":"2. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "ASLX", "homeDivision": {"level":2,"name":"1. Division"},"away": "MANC", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0","forfeit":true},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "PROG", "homeDivision": {"level":4,"name":"2. Division"},"away": "JESH", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-6"},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "CPET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "UBSH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"7-4"},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "BWIT", "homeDivision": {"level":5,"name":"3. Division"},"away": "JWAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-3"},
+			{"date":"1945-11-04","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"3rd Round"},"home": "ASCH", "homeDivision": {"level":4,"name":"2. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-3","aet":true}
+		]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+        	{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"6-3"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-4"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "CROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "CPET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "BWIT", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "BBML", "homeDivision": {"level":4,"name":"2. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-5"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASCH", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-0"},
+			{"date":"1945-12-01","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Round of 16"},"home": "RPDN", "homeDivision": {"level":2,"name":"1. Division"},"away": "ASLX", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1946-01-13","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Quarter Final"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1946-01-13","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1946-01-13","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CPET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-2"},
+			{"date":"1946-01-13","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"7-2"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Semi Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-3","leg":1},
+            {"season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Semi Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-3","leg":2,"winner":"PRON"},
+			{"season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Semi Final"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-2","leg":1},
+            {"season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Semi Final"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1","leg":2,"winner":"JESH"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1946-04-28","season": "1945-46","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxemourg Cup","round":"Final"},"home": "JESH", "homeDivision": {"level":2,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1","aet":true}
+        ]
+    }],
+    "winner": "JESH",
+    "title_count": 3
+}
