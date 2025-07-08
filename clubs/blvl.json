@@ -5,7 +5,8 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
-		{"place":  9, "team": "BLVL", "w":  4, "d": 1, "l": 13, "f": 32, "a": 51, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1945-46", "level": 4, "name": "2. Division"}},
+		{"gap":true},
+        {"place":  9, "team": "BLVL", "w":  4, "d": 1, "l": 13, "f": 32, "a": 51, "pts_win": 2, "season": "1939-40", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1945-46", "level": 4, "name": "2. Division"}},
 		{"place":  1, "team": "BLVL", "w": 13, "d": 3, "l":  2, "f": 44, "a": 18, "pts_win": 2, "season": "1938-39", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1939-40", "level": 3, "name": "The Promotion"}},
         {"place":  9, "team": "BLVL", "w":  3, "d": 1, "l": 14, "f": 13, "a": 45, "pts_win": 2, "season": "1937-38", "level": 3, "league": "The Promotion", "relegated": true, "target": {"season": "1938-39", "level": 4, "name": "2. Division"}},
         {"place": 10, "team": "BLVL", "w":  0, "d": 0, "l": 18, "f": 11, "a": 76, "pts_win": 2, "season": "1936-37", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1937-38", "level": 3, "name": "The Promotion"}},
