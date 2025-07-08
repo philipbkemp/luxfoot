@@ -88,15 +88,26 @@ function parseCup(cup) {
 					matchKeys[i] = "match." + matchKeys[i];
 				}
 				addKeys(matchKeys);
-				ul.append(
-					$("<LI></LI>").addClass("list-group-item").addClass("match-item").append(
-						$("<DIV></DIV>").addClass("match-note").html(
-							allTeams[match.bye]
-							+ " (" + match.byeDivision.name + ") "
-							+ "received a bye to the next round"
+				if ( match.byeDivision ) {
+					ul.append(
+						$("<LI></LI>").addClass("list-group-item").addClass("match-item").append(
+							$("<DIV></DIV>").addClass("match-note").html(
+								allTeams[match.bye]
+								+ " (" + match.byeDivision.name + ") "
+								+ "received a bye to the next round"
+							)
 						)
-					)
-				);
+					);
+				} else {
+					ul.append(
+						$("<LI></LI>").addClass("list-group-item").addClass("match-item").append(
+							$("<DIV></DIV>").addClass("match-note").html(
+								allTeams[match.bye]
+								+ "received a bye to the next round"
+							)
+						)
+					);
+				}
 				removeKey("match.bye");
 				removeKey("match.byeDivision");
 			}
