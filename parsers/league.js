@@ -163,6 +163,8 @@ function parseLeague(league) {
 								thisOutcome = thisOutcome.replace(t,allTeams[t]);
 							});
 							thisNote = $("<LI></LI>").addClass("list-group-item").html(thisOutcome);
+							noteWrapper.append(thisOutcome);
+							seriesPanel.append(noteWrapper);
 						}
 					}
 				}
