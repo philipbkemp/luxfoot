@@ -34,9 +34,11 @@
         "matchesOnly": true,
         "matches": [
             {"date":"1945-04-30","home":"SDUD","away":"JESH","score":"3-1","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"}},
-            {"date":"1945-04-30","home":"SPOR","away":"RBDF","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"},"outcome":"RBDF also qualified for the Semi Final"},
+            {"date":"1945-04-30","home":"SPOR","away":"RBDF","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"}},
             {"date":"1945-04-30","home":"NSCH","away":"AVBG","score":"5-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"}}
-        ]
+        ],
+        "teams": ["RBDF"],
+        "outcome":"RBDF also qualified for the Semi Final"        
     },{
         "series": 4,
         "name": "Semi Final",

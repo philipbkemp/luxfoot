@@ -165,6 +165,7 @@ function parseLeague(league) {
 							thisNote = $("<LI></LI>").addClass("list-group-item").html(thisOutcome);
 							noteWrapper.append(thisNote);
 							seriesPanel.append(noteWrapper);
+							removeKey("series.outcome");
 						}
 					}
 				}
