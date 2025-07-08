@@ -104,47 +104,57 @@ function parseLeague(league) {
 				removeKey("series.in_progress");
 			}
 			if ( ! series.missing ) {
-				seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
-				if ( league.pts_win && league.pts_win !== 3) {
-					seriesPanel.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
-							league.pts_win + " points for a win"
-						)
-					);
-					removeKey("pts_win");
+				if ( series.standings ) {
+					seriesPanel.append( buildStandings(series.standings,league.pts_win?league.pts_win:3) );
+					if ( league.pts_win && league.pts_win !== 3) {
+						seriesPanel.append(
+							$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
+								league.pts_win + " points for a win"
+							)
+						);
+						removeKey("pts_win");
+					}
+					if ( series.note ) {
+						seriesPanel.append(
+							$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
+								series.note
+							)
+						);
+						removeKey("series.note");
+					}
+					removeKey("series.standings");
 				}
-				if ( series.note ) {
-					seriesPanel.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("mt-4").html(
-							series.note
-						)
-					);
-					removeKey("series.note");
-				}
-				removeKey("series.standings");
 				if ( series.matches ) {
-					seriesPanel.append( $("<H2></H2>").html("Results table").addClass("pt-3") );
-					hasTwo = false || (series.play_each && series.play_each === 3);
-					if ( ! hasTwo ) {
-						seriesPanel.append( buildResultsTable(series.teams,series.matches,false,league.covid?true:false) );
-					} else {
-						resultsPanels = buildResultsTable(series.teams,series.matches,hasTwo,league.covid?true:false);
-						seriesPanel.append( resultsPanels[0] );
-						seriesPanel.append( resultsPanels[1] );
-					}
-					seriesPanel.append(
-						$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(
-							"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
-						)
-					);
-					
-					if ( resultNotes.length !== 0 ) {
-						noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
-						seriesPanel.append( buildNotes(resultNotes,noteWrapper) );
-					}
+					if ( ! series.matchesOnly ) {
+						seriesPanel.append( $("<H2></H2>").html("Results table").addClass("pt-3") );
+						hasTwo = false || (series.play_each && series.play_each === 3);
+						if ( ! hasTwo ) {
+							seriesPanel.append( buildResultsTable(series.teams,series.matches,false,league.covid?true:false) );
+						} else {
+							resultsPanels = buildResultsTable(series.teams,series.matches,hasTwo,league.covid?true:false);
+							seriesPanel.append( resultsPanels[0] );
+							seriesPanel.append( resultsPanels[1] );
+						}
+						seriesPanel.append(
+							$("<DIV></DIV>").addClass("alert").addClass("alert-info").addClass("d-inline-block").html(
+								"<strong>Legend:</strong> <span class='homeWin'></span>Home win <span class='awayWin'></span>Away win <span class='draw'></span>Draw"
+							)
+						);
+						
+						if ( resultNotes.length !== 0 ) {
+							noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
+							seriesPanel.append( buildNotes(resultNotes,noteWrapper) );
+						}
 
-					removeKey("series.matches");
-					removeKey("series.play_each");
+						removeKey("series.matches");
+						removeKey("series.play_each");
+					} else {
+						ul = $("<UL></UL>").addClass("mb-5").addClass("list-group");
+						round.matches.forEach(match=>{
+							ul.append( drawMatch(match,true) );
+						});
+						seriesPanel.append(ul);
+					}
 				}
 
 				if ( series.playoffs ) {

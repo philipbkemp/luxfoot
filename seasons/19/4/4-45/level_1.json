@@ -1,0 +1,55 @@
+{
+    "level": 1,
+	"season": "1944-45",
+    "links": {
+        "next": "1945-46",
+        "prev": "1939-40"
+    },
+	"name": "Liberation Cup",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Central Qualification",
+        "matchesOnly": true,
+        "matches": [
+            {"home":"AVBG","away":"SWFT","score":"4-3","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Central Qualification"}},
+            {"home":"SPOR","away":"AVBG","score":"3-0","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Central Qualification"}},
+            {"home":"SPOR","away":"SWFT","score":"6-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Central Qualification"}}
+        ],
+        "outcome": "SPOR and AVBG qualified for Round 1"
+    },{
+        "series": 2,
+        "name": "Southern Qualification",
+        "matchesOnly": true,
+        "matches": [
+            {"home":"NSCH","away":"USDD","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Southern Qualification"}},
+            {"home":"NSCH","away":"PRON","score":"3-1","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Southern Qualification"}}
+        ],
+        "outcome": "NSCH qualified for Round 1"
+    },{
+        "series": 3,
+        "name": "Round 1",
+        "matchesOnly": true,
+        "matches": [
+            {"date":"1945-04-30","home":"SDUD","away":"JESH","score":"3-1","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"}},
+            {"date":"1945-04-30","home":"SPOR","away":"RBDF","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"},"outcome":"RBDF also qualified for the Semi Final"},
+            {"date":"1945-04-30","home":"NSCH","away":"AVBG","score":"5-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Semi Final",
+        "matchesOnly": true,
+        "matches": [
+            {"date":"1945-05-06","home":"SDUD","away":"RBDF","score":"7-1","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Semi Final"}},
+            {"date":"1945-05-06","home":"SPOR","away":"NSCH","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Semi Final"}}
+        ]
+    },{
+        "series": 4,
+        "name": "Final",
+        "matchesOnly": true,
+        "matches": [
+            {"date":"1945-05-06","home":"SDUD","away":"SPOR","score":"6-0","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Semi Final"}}
+        ]
+    }],
+    "champion": "SDUD"
+}
