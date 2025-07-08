@@ -461,14 +461,16 @@
 		"note": "No competitions held due to World War 2"
     },{
 		"season": "1944-45",
+		"leagues": {
+			"level_1": {"missing":true,"season":"1944-45", "level": 1, "name": "Liberation Cup", "winner": "SDUD", "title_count": 4}
+		},
 		"cups": {
-			"liberation": {"missing":true,"season": "1944-45", "name": "Liberation Cup", "winner": "SDUD"},
 			"cup_luxembourg": {"missing":true,"season": "1944-45", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 2, "winner_division": {"level": 1,"name": "Honour Division"}}
 		}
 	},{
 		"season": "1945-46",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1945-46", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 3},
+			"level_1": {"missing":true,"season": "1945-46", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 4},
 			"level_2": {"missing":true,"season": "1945-46", "level":  2, "name": "1. Division", "winner": "JESH"},
 			"level_3": {"missing":true,"season": "1945-46", "level":  3, "name": "The Promotion", "winner": "CSOB"},
 			"level_4": {"missing":true,"season": "1945-46", "level":  4, "name": "2. Division", "series": [
@@ -489,7 +491,7 @@
 	},{
 		"season": "1946-47",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1946-47", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 4},
+			"level_1": {"missing":true,"season": "1946-47", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 5},
 			"level_2": {"missing":true,"season": "1946-47", "level":  2, "name": "1. Division", "winner": "RBPF"},
 			"level_3": {"missing":true,"season": "1946-47", "level":  3, "name": "The Promotion", "series": [
 			    {"missing":true,"season": "1946-47", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "CGRV"},
@@ -515,7 +517,7 @@
 	},{
 		"season": "1947-48",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1947-48", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 5, "double": true},
+			"level_1": {"missing":true,"season": "1947-48", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 6, "double": true},
 			"level_2": {"missing":true,"season": "1947-48", "level":  2, "name": "1. Division", "winner": "RROD"},
 			"level_3": {"missing":true,"season": "1947-48", "level":  3, "name": "The Promotion", "series": [
 			    {"missing":true,"season": "1947-48", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "EGWM"},
@@ -568,7 +570,7 @@
 	},{
 		"season": "1949-50",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1949-50", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 6},
+			"level_1": {"missing":true,"season": "1949-50", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 7},
 			"level_2": {"missing":true,"season": "1949-50", "level":  2, "name": "1. Division", "winner": "RROD"},
 			"level_3": {"missing":true,"season": "1949-50", "level":  3, "name": "The Promotion", "series": [
 			    {"missing":true,"season": "1949-50", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "EGWM"},
@@ -700,7 +702,7 @@
 	},{
 		"season": "1954-55",
 		"leagues": {
-			"level_1": {"season": "1954-55", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 7},
+			"level_1": {"season": "1954-55", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 8},
 			"level_2": {"missing":true,"season": "1954-55", "level":  2, "name": "1. Division", "series": [
 			    {"missing":true,"season": "1954-55", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "SPOR"},
 				{"missing":true,"season": "1954-55", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "CROD"}
@@ -750,7 +752,7 @@
 	},{
 		"season": "1956-57",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1956-57", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 8},
+			"level_1": {"missing":true,"season": "1956-57", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 9},
 			"level_2": {"missing":true,"season": "1956-57", "level":  2, "name": "1. Division", "series": [
 			    {"missing":true,"season": "1956-57", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "CROD"},
 				{"missing":true,"season": "1956-57", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "USDD"}
@@ -945,7 +947,7 @@
 	},{
 		"season": "1964-65",
 		"leagues": {
-			"level_1": {"season": "1964-65", "level":  1, "name": "National Division", "winner": "SDUD", "title_count": 9},
+			"level_1": {"season": "1964-65", "level":  1, "name": "National Division", "winner": "SDUD", "title_count": 10},
 			"level_2": {"missing":true,"season": "1964-65", "level":  2, "name": "Division of Honour", "winner": "CPET"},
 			"level_3": {"missing":true,"season": "1964-65", "level":  3, "name": "1. Division", "winner": "CROD"},
 			"level_4": {"missing":true,"season": "1964-65", "level":  4, "name": "2. Division", "series": [
