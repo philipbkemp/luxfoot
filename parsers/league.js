@@ -158,7 +158,11 @@ function parseLeague(league) {
 						seriesPanel.append(ul);
 						if ( series.outcome ) {
 							noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
-							seriesPanel.append( buildNotes([series.outcome],noteWrapper) );
+							thisOutcome = series.outcome;
+							series.teams.forEach(t=>{
+								thisOutcome = thisOutcome.replace(t,allTeams[t]);
+							});
+							thisNote = $("<LI></LI>").addClass("list-group-item").html(thisOutcome);
 						}
 					}
 				}

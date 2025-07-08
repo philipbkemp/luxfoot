@@ -16,6 +16,7 @@
             {"home":"SPOR","away":"AVBG","score":"3-0","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Central Qualification"}},
             {"home":"SPOR","away":"SWFT","score":"6-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Central Qualification"}}
         ],
+        "teams": ["SPOR","AVBG"],
         "outcome": "SPOR and AVBG qualified for Round 1"
     },{
         "series": 2,
@@ -25,6 +26,7 @@
             {"home":"NSCH","away":"USDD","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Southern Qualification"}},
             {"home":"NSCH","away":"PRON","score":"3-1","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Southern Qualification"}}
         ],
+        "teams": ["NSCH"],
         "outcome": "NSCH qualified for Round 1"
     },{
         "series": 3,
