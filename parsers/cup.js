@@ -103,7 +103,7 @@ function parseCup(cup) {
 						$("<LI></LI>").addClass("list-group-item").addClass("match-item").append(
 							$("<DIV></DIV>").addClass("match-note").html(
 								allTeams[match.bye]
-								+ "received a bye to the next round"
+								+ " received a bye to the next round"
 							)
 						)
 					);
