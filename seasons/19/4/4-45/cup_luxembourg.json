@@ -38,7 +38,9 @@
             {"season": "1944-45","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BWIT", "away": "RBPF", "score":"0-8"},
             {"season": "1944-45","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BBML", "away": "UNAS", "score":"5-2"},
             {"season": "1944-45","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "MANC", "away": "CSHL", "score":"4-3"},
-            {"bye":"JKYL"}
+            {"bye":"JKYL"},
+            {"bye":"UESH"},
+            {"bye":"BLVL"}
         ]
     },{
         "key": "R16",
