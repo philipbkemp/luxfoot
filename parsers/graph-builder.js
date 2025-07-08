@@ -186,10 +186,10 @@ function buildGraph() {
 	leagueSizes.forEach(s=>{
 
 		one = s[0];
-		two = s.length >= 2 && s[1] !== 0 ? one + s[1] : null;
-		three = s.length >= 3 && s[2] !== 0  ? two + s[2] : null;
-		four = s.length >= 4 && s[3] !== 0  ? (three + s[3]) : null;
-		five = s.length >= 5 && s[4] !== 0  ? (four + s[4]) : null;
+		two = s.length >= 2 ? one + s[1] : null;
+		three = s.length >= 3 ? two + s[2] : null;
+		four = s.length >= 4 ? (three + s[3]) : null;
+		five = s.length >= 5 ? (four + s[4]) : null;
 
 		if ( t1s === 0 ) {
 			t1d += "v" + (one*4) + "h10";
