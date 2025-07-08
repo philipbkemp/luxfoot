@@ -150,7 +150,7 @@ function parseLeague(league) {
 						removeKey("series.play_each");
 					} else {
 						ul = $("<UL></UL>").addClass("mb-5").addClass("list-group");
-						round.matches.forEach(match=>{
+						series.matches.forEach(match=>{
 							ul.append( drawMatch(match,true) );
 						});
 						seriesPanel.append(ul);
