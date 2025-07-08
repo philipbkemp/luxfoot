@@ -36,7 +36,7 @@
             {"date":"1945-04-30","home":"NSCH","away":"AVBG","score":"5-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Round 1"}}
         ]
     },{
-        "series": 3,
+        "series": 4,
         "name": "Semi Final",
         "matchesOnly": true,
         "matches": [
@@ -44,7 +44,7 @@
             {"date":"1945-05-06","home":"SPOR","away":"NSCH","score":"3-2","season":"1944-45","competition":{"type":"league","level": 1,"name": "Liberation Cup", "round":"Semi Final"}}
         ]
     },{
-        "series": 4,
+        "series": 5,
         "name": "Final",
         "matchesOnly": true,
         "matches": [

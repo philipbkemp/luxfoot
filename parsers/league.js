@@ -153,7 +153,13 @@ function parseLeague(league) {
 						series.matches.forEach(match=>{
 							ul.append( drawMatch(match,true) );
 						});
+						removeKey("series.matches");
+						removeKey("series.matchesOnly");
 						seriesPanel.append(ul);
+						if ( series.outcome ) {
+							noteWrapper = $("<UL></UL>").addClass("list-group").addClass("match-notes");
+							seriesPanel.append( buildNotes([series.outcome],noteWrapper) );
+						}
 					}
 				}
 
