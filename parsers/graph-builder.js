@@ -54,7 +54,7 @@ function buildGraph() {
 		loadSeason(t1,t2,t3,t4,[]);
 	}
 	function loadSeason5(t1=[],t2=[],t3=[],t4=[],t5=[]) {
-		leagueSizes.push([t1.length,t2.length,t3.length,t4.lengt,t5.length]);
+		leagueSizes.push([t1.length,t2.length,t3.length,t4.length,t5.length]);
 		loadSeason(t1,t2,t3,t4,t5);
 	}
 
