@@ -194,6 +194,8 @@ function buildGraph() {
 	/* 2024-25 loadSeason5(["DIFF","UNAS","F91D","RACE","PRON","SWFT","MDLB","JESH","UNTP","HOST","VICR","RODG","WLTZ","SCBT","FOLA","MDCG"],["MAMR","KAER","ATBS","JCNC","LUXC","MARM","WALF","ETZE","BDBB","ASTN","URUM","UFLN","SCHF","KOEP","AVBG","SAND"],["LRNZ|BLVL","MRTZ|SYRA","JSCH|SHGN","BWMD|CGRV","YBDK|YBWT","JUSE|DARE","KHLN|UNRB","KOSM|SNEM","BAST|JUNG","JGIL|BWIT","AHOS|MUNS","NORD|RSMB","ERPL|RBPF","AAHE|EHLR","STNG|U5KT","OVND|USBC"],["MINL|KOPS","RPLL|CSOB","GBHT|SBRT","WINC|UNMW","RHSE|JBIW","TSVG|TRIG","FOLS|USMM","FCPR|ASLX","RAMB|CLMC","OYCW|LADH","BVAT|MLSV","SELL|ESHW","REIS|NORZ","ASCB|LUNA"],["CBSH","UESH","RBAS","BIEK","CLVX","BRCH","LARD","EXGV","KPWW"]);
 	*/
 
+	positionHeight = 5;
+
 	t1d = "M45,69";
 	t2d = "M95,69";
 	t3d = "M95,69";
@@ -213,95 +215,95 @@ function buildGraph() {
 		five = s.length >= 5 ? (four + s[4]) : null;
 
 		if ( t1s === 0 ) {
-			t1d += "v" + (one*4) + "h10";
+			t1d += "v" + (one*positionHeight) + "h10";
 			t1s = one;
 		} else if ( t1s === one ) {
 			t1d += "h10";
 		} else if ( t1s > one ) {
 			diff = one - t1s;
-			t1d += "v" +( diff*4 ) + "h10";
+			t1d += "v" +( diff*positionHeight ) + "h10";
 			t1s = one;
 		} else if ( t1s < one ) {
 			diff = one - t1s;
-			t1d += "v" +( diff*4 ) + "h10";
+			t1d += "v" +( diff*positionHeight ) + "h10";
 			t1s = one;
 		}
 
 		if ( two !== null ) {
 			if ( t2s === 0 ) {
-				t2d += "v" +( two*4) + "h10";
+				t2d += "v" +( two*positionHeight) + "h10";
 				t2s = two;
 			} else if ( t2s === two ) {
 				t2d += "h10";
 			} else if ( t2s > two ) {
 				diff = two - t2s;
-				t2d += "v" +( diff*4 ) + "h10";
+				t2d += "v" +( diff*positionHeight ) + "h10";
 				t2s = two;
 			} else if ( t2s < two ) {
 				diff = two - t2s;
-				t2d += "v" +( diff*4 ) + "h10";
+				t2d += "v" +( diff*positionHeight ) + "h10";
 				t2s = two;
 			}
 		}
 
 		if ( three !== null ) {
 			if ( t3s === 0 ) {
-				t3d += "v" +( three*4) + "h10";
+				t3d += "v" +( three*positionHeight) + "h10";
 				t3s = three;
 			} else if ( t3s === three ) {
 				t3d += "h10";
 			} else if ( t3s > three ) {
 				diff = three - t3s;
-				t3d += "v" +( diff*4 ) + "h10";
+				t3d += "v" +( diff*positionHeight ) + "h10";
 				t3s = three;
 			} else if ( t3s < three ) {
 				diff = three - t3s;
-				t3d += "v" +( diff*4 ) + "h10";
+				t3d += "v" +( diff*positionHeight ) + "h10";
 				t3s = three;
 			}
 		}
 
 		if ( four !== null ) {
 			if ( t4s === 0 ) {
-				t4d += "v" +( four*4) + "h10";
+				t4d += "v" +( four*positionHeight) + "h10";
 				t4s = four;
 			} else if ( t4s === four ) {
 				t4d += "h10";
 			} else if ( t4s > four ) {
 				diff = four - t4s;
-				t4d += "v" +( diff*4 ) + "h10";
+				t4d += "v" +( diff*positionHeight ) + "h10";
 				t4s = four;
 			} else if ( t4s < four ) {
 				diff = four - t4s;
-				t4d += "v" +( diff*4 ) + "h10";
+				t4d += "v" +( diff*positionHeight ) + "h10";
 				t4s = four;
 			}
 		}
 
 		if ( five !== null ) {
 			if ( t5s === 0 ) {
-				t5d += "v" +( five*4) + "h10";
+				t5d += "v" +( five*positionHeight) + "h10";
 				t5s = five;
 			} else if ( t5s === five ) {
 				t5d += "h10";
 			} else if ( t5s > five ) {
 				diff = five - t5s;
-				t5d += "v" +( diff*4 ) + "h10";
+				t5d += "v" +( diff*positionHeight ) + "h10";
 				t5s = five;
 			} else if ( t5s < five ) {
 				diff = five - t5s;
-				t5d += "v" +( diff*4 ) + "h10";
+				t5d += "v" +( diff*positionHeight ) + "h10";
 				t5s = five;
 			}
 		}
 
 	});
 
-	t1d += "v-"+(t1s*4)+"H45";
-	t2d += "v-"+(t2s*4)+"H45";
-	t3d += "v-"+(t3s*4)+"H45";
-	t4d += "v-"+(t4s*4)+"H45";
-	t5d += "v-"+(t5s*4)+"H45";
+	t1d += "v-"+(t1s*positionHeight)+"H45";
+	t2d += "v-"+(t2s*positionHeight)+"H45";
+	t3d += "v-"+(t3s*positionHeight)+"H45";
+	t4d += "v-"+(t4s*positionHeight)+"H45";
+	t5d += "v-"+(t5s*positionHeight)+"H45";
 	document.getElementById("t1").setAttribute("d",t1d);
 	document.getElementById("t2").setAttribute("d",t2d);
 	document.getElementById("t3").setAttribute("d",t3d);
@@ -312,7 +314,7 @@ function buildGraph() {
 	team = clubs[focus];
 	teamName = teams[focus];
 	start = 50;
-	p0 = 73 -4;
+	p0 = 73 - positionHeight;
 	line = "";
 	started = false;
 	current = p0;
@@ -332,7 +334,7 @@ function buildGraph() {
 			}
 			consecutive = 0;
 		} else {
-			place = p0 + (position*4);
+			place = p0 + (position*positionHeight);
 			if ( gap !== 10 ) {
 				line += "m"+gap;
 				diff = place - current;
