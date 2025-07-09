@@ -227,7 +227,7 @@ function buildGraph() {
 			t1s = one;
 		}
 
-		if ( two ) {
+		if ( two !== null ) {
 			if ( t2s === 0 ) {
 				t2d += "v" +( two*4) + "h10";
 				t2s = two;
@@ -244,7 +244,7 @@ function buildGraph() {
 			}
 		}
 
-		if ( three ) {
+		if ( three !== null ) {
 			if ( t3s === 0 ) {
 				t3d += "v" +( three*4) + "h10";
 				t3s = three;
@@ -261,7 +261,7 @@ function buildGraph() {
 			}
 		}
 
-		if ( four ) {
+		if ( four !== null ) {
 			if ( t4s === 0 ) {
 				t4d += "v" +( four*4) + "h10";
 				t4s = four;
@@ -278,7 +278,7 @@ function buildGraph() {
 			}
 		}
 
-		if ( five ) {
+		if ( five !== null ) {
 			if ( t5s === 0 ) {
 				t5d += "v" +( five*4) + "h10";
 				t5s = five;
