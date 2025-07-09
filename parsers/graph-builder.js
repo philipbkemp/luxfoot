@@ -157,8 +157,8 @@ function buildGraph() {
 	/*1911-12*/ loadSeason1(["HLBN","SCLX","RACL","DEIC"]);
 	/*1912-13*/ loadSeason1([]);
 	/*1913-14*/ loadSeason1(["HLBN","SCLX","RACL","SDIF","JESH","CPET"]);
-	/*1914-15*/ loadSeason191415("HLBN",["HLBN|SCLX|JESH|SDUD|CPET|YBDK","RACL|FOLA|USDD|SDIF|CECH"]);
-	/*1915-16*/ loadSeason2(["HLBN","SCLX","FOLA","RACL","JESH","SDUD"],["YBDK","SDIF","CPET"],["CSHL|JBET","JSTF|NSCH","ROLG|ERDU"]);
+	/*1914-15*/ loadSeason1(["HLBN","SCLX|JESH|SDUD|CPET|YBDK","RACL|FOLA|USDD|SDIF|CECH"]);
+	/*1915-16*/ loadSeason3(["HLBN","SCLX","FOLA","RACL","JESH","SDUD"],["YBDK","SDIF","CPET"],["CSHL|JBET","JSTF|NSCH","ROLG|ERDU"]);
 	/*1916-17*/ loadSeason3(["HLBN","FOLA","RACL","SCLX","YBDK","JESH"],["CPET","SDIF","SDUD","CSHL","UESH"],["AVBG|URUM","JWMK|NSCH","WALF|STET","ROLG|BLVL"]);
 	/*1917-18*/ loadSeason3(["FOLA","HLBN","SCLX","YBDK","RACL","CPET"],["JESH","SDIF","SDUD","URUM","CSHL"],["AVBG|STET","CMLB|ECBT","JWMK|NSCH","ADUD"]);
 	/*1918-19*/ loadSeason3(["SCLX","FOLA","JESH","HLBN","RACL","YBDK"],["SDUD","SDIF","AVBG","URUM","CPET"],["CMLB|CROD","ETZE|NSCH","SWFT|ECBT","CLMC|STET","ADUD"]);
@@ -183,13 +183,13 @@ function buildGraph() {
 	/*1937-38*/ loadSeason5(["SPOR","JESH","SDUD","USDD","PRON","ULUX","FOLA","NSCH","ASDF","RBDF"],["AVBG","CROD","ADUD","ARIS","RBPF","RPDN","STET","USND","URUM","AREM"],["YBDK","BBML","CPET","SCBT","MANC","ETZE","UESH","ASLX","BLVL","CSHL"],["RROD|JWAS","CSOB|GOLD","ASCH|TRIM","UBSH|EGWM","SWFT|DARE","PROG|LLMP","UNAS|UMRT","SPST|RUPL","MAMR|JGIL","DRZV|MARM"],["WALF|JKYL|CGRV","TSVG|KOPS|VICR","RSML|OYMP|MDLB","AWDG|ESHW|RBAS","SAND|SBRT|FRTA","OVND|JKGB|JUNG","ASTN|HRTB|UWLD","MINL|HOBS"]);
 	/*1938-39*/ loadSeason5(["SDUD","USDD","SPOR","JESH","PRON","ULUX","CROD","NSCH","FOLA","AVBG"],["RBDF","ASDF","CPET","RPDN","STET","RBPF","YBDK","ADUD","ARIS","BBML"],["JWAS","RROD","SCBT","URUM","CSOB","AREM","ETZE","GOLD","MANC","USND"],["EGWM|BLVL","CGRV|ASCH","DARE|UBSH","UMRT|KOPS","ASLX|SWFT","VICR|JKYL","PROG|CSHL","UNAS|UESH","WALF|LLMP","TSVG|TRIM"],["MAMR|SPST|RUPL","SBRT|HESH|OVND","RBAS|MDCG|JGIL","ASTN|OYMP|MARM","MDLB|HOBS|MINL","RSML|JKGB|AWDG","JUNG|ESHW|FRTA","HAMM|HRTB|UWLD","SAND|DRZV"]);
 	/*1939-40*/ loadSeason5(["SDUD","USDD","PRON","NSCH","SPOR","ULUX","RBDF","CROD","JESH","ASDF"],["CPET","FOLA","RROD","AVBG","RBPF","JWAS","RPDN","YBDK","STET","SCBT"],["ADUD","ARIS","URUM","AREM","EGWM","CSOB","ASCH","BBML","BLVL","CGRV"],["USND|JKYL","ETZE|UBSH","DARE|MANC","PROG|KOPS","ASLX|CSHL","RUPL|MAMR","UMRT|SWFT","OVND|HESH","VICR|SPST","GOLD|SBRT"],["JGIL|UESH|TRIM","MINL|RSML|RBAS","FRTA|OYMP|LLMP","JUNG|UNAS|JBIW","WALF|MDCG|HAMM","MARM|HOBS|MDLB","ASTN|ESHW|SAND","AWDG|JKGB|RIEF"]);
-	/*1940-41*/ //loadSeason5([],[],[],[],[]);
-	/*1941-42*/ //loadSeason5([],[],[],[],[]);
-	/*1942-43*/ //loadSeason5([],[],[],[],[]);
-	/*1943-44*/ //loadSeason5([],[],[],[],[]);
-	/*1944-45*/ //loadSeason5(["SDUD","SPOR","RBDF|NSCH","AVBG|JESH","USDD|PRON","SWFT"],[],[],[],[]);
-	/*1945-46*/ //loadSeason5(["SDUD","USDD","PRON","RBDF","SPOR","CROD","NSCH","ULUX","FOLA","CPET"],["JESH","RROD","URUM","RPDN","RBPF","ADUD","AVBG","ASDF","JWAS","ARIS"],["CSOB","STET","AREM","SCBT","YBDK","UBSH","EGWM","USND","JKYL","ETZE"],["ASCH|PROG","BLVL|ASLX","UESH|UMRT","SWFT|CGRV","RSML|BBML","TRIM|MINL","CSHL|MANC","KOPS|JGIL","MAMR|RUPL","RBAS|DARE"],["SBRT|MDLB|WALF|CLVX","UNAS|BWIT|JUNG|TSVG","SPST|HAMM|VICR|GOLD","OYMP|JBIW|MARM|OVND","JSKH|KWRM|FRTA|AWDG","HOBS|ESHW|ASTN","YBSW|MDCG|SAND"]);
-	/*1946-47*/ //loadSeason5(["SDUD","USDD","FOLA","ULUX","NSCH","RBDF","SPOR","PRON","JESH","RROD","CROD","CPET"],["RBPF","SCBT","STET","ADUD","URUM","CSOB","AREM","AVBG","JWAS","RPDN","ASDF","ARIS"],["CGRV|YBDK","JKYL|PROG","BLVL|BBML","ASCH|TRIG","EGWM|USND","SWFT|MANC","UBSH|RSML","UMRT|ETZE","UESH|MINL","CSHL|ASLX"],["CLVX|BWIT","MARM|MAMR","DARE|MDLB","RUPL|UNAS","JUNG|JBIW","WALF|KOPS","VICR|SPST","GOLD|RBAS","TSVG|SBRT","JGIL|HAMM"],["KWRM|FRTA|OYMP|JWIL|AWDG|ATBS","GRIV|LRNZ|JSKH|KNAP|JSCH|JUSE","RLND|ARBD|ASTN|OVND|SURA|YBSW","SAND|OBCN|HOBS|WWMP|MRTZ|PRTZ","BOUS|OYCW|KHLN|KPWW|DAHL|LARD","MUNS|SYRA|ESHW|SBEL|SURM|SRED","FCNC|HOST|MDCG|RLCN|BBEE|FOLS","JFLX|LUNA|EWLZ|JGOS|MONF","HAGN|HUPP|EVER","FELL"]);
+	/*1940-41*/ loadSeason5([],[],[],[],[]);
+	/*1941-42*/ loadSeason5([],[],[],[],[]);
+	/*1942-43*/ loadSeason5([],[],[],[],[]);
+	/*1943-44*/ loadSeason5([],[],[],[],[]);
+	/*1944-45*/ loadSeason5(["SDUD","SPOR","RBDF|NSCH","AVBG|JESH","USDD|PRON","SWFT"],[],[],[],[]);
+	/*1945-46*/ loadSeason5(["SDUD","USDD","PRON","RBDF","SPOR","CROD","NSCH","ULUX","FOLA","CPET"],["JESH","RROD","URUM","RPDN","RBPF","ADUD","AVBG","ASDF","JWAS","ARIS"],["CSOB","STET","AREM","SCBT","YBDK","UBSH","EGWM","USND","JKYL","ETZE"],["ASCH|PROG","BLVL|ASLX","UESH|UMRT","SWFT|CGRV","RSML|BBML","TRIM|MINL","CSHL|MANC","KOPS|JGIL","MAMR|RUPL","RBAS|DARE"],["SBRT|MDLB|WALF|CLVX","UNAS|BWIT|JUNG|TSVG","SPST|HAMM|VICR|GOLD","OYMP|JBIW|MARM|OVND","JSKH|KWRM|FRTA|AWDG","HOBS|ESHW|ASTN","YBSW|MDCG|SAND"]);
+	/*1946-47*/ loadSeason5(["SDUD","USDD","FOLA","ULUX","NSCH","RBDF","SPOR","PRON","JESH","RROD","CROD","CPET"],["RBPF","SCBT","STET","ADUD","URUM","CSOB","AREM","AVBG","JWAS","RPDN","ASDF","ARIS"],["CGRV|YBDK","JKYL|PROG","BLVL|BBML","ASCH|TRIG","EGWM|USND","SWFT|MANC","UBSH|RSML","UMRT|ETZE","UESH|MINL","CSHL|ASLX"],["CLVX|BWIT","MARM|MAMR","DARE|MDLB","RUPL|UNAS","JUNG|JBIW","WALF|KOPS","VICR|SPST","GOLD|RBAS","TSVG|SBRT","JGIL|HAMM"],["KWRM|FRTA|OYMP|JWIL|AWDG|ATBS","GRIV|LRNZ|JSKH|KNAP|JSCH|JUSE","RLND|ARBD|ASTN|OVND|SURA|YBSW","SAND|OBCN|HOBS|WWMP|MRTZ|PRTZ","BOUS|OYCW|KHLN|KPWW|DAHL|LARD","MUNS|SYRA|ESHW|SBEL|SURM|SRED","FCNC|HOST|MDCG|RLCN|BBEE|FOLS","JFLX|LUNA|EWLZ|JGOS|MONF","HAGN|HUPP|EVER","FELL"]);
 	/* FOR LATER
 	/* 2024-25 loadSeason5(["DIFF","UNAS","F91D","RACE","PRON","SWFT","MDLB","JESH","UNTP","HOST","VICR","RODG","WLTZ","SCBT","FOLA","MDCG"],["MAMR","KAER","ATBS","JCNC","LUXC","MARM","WALF","ETZE","BDBB","ASTN","URUM","UFLN","SCHF","KOEP","AVBG","SAND"],["LRNZ|BLVL","MRTZ|SYRA","JSCH|SHGN","BWMD|CGRV","YBDK|YBWT","JUSE|DARE","KHLN|UNRB","KOSM|SNEM","BAST|JUNG","JGIL|BWIT","AHOS|MUNS","NORD|RSMB","ERPL|RBPF","AAHE|EHLR","STNG|U5KT","OVND|USBC"],["MINL|KOPS","RPLL|CSOB","GBHT|SBRT","WINC|UNMW","RHSE|JBIW","TSVG|TRIG","FOLS|USMM","FCPR|ASLX","RAMB|CLMC","OYCW|LADH","BVAT|MLSV","SELL|ESHW","REIS|NORZ","ASCB|LUNA"],["CBSH","UESH","RBAS","BIEK","CLVX","BRCH","LARD","EXGV","KPWW"]);
 	*/
@@ -197,15 +197,10 @@ function buildGraph() {
 	positionHeight = 5;
 
 	t1d = "M45,69";
-	t2d = "M95,69";
-	t3d = "M95,69";
-	t4d = "M145,69";
-	t5d = "M265,69";
-	t1s = 0;
-	t2s = 0;
-	t3s = 0;
-	t4s = 0;
-	t5s = 0;
+	t2d = "M105,69";
+	t3d = "M105,69";
+	t4d = "M155,69";
+	t5d = "M275,69";
 	leagueSizes.forEach(s=>{
 
 		one = s[0];
@@ -214,98 +209,31 @@ function buildGraph() {
 		four = s.length >= 4 ? (three + s[3]) : null;
 		five = s.length >= 5 ? (four + s[4]) : null;
 
-		if ( t1s === 0 ) {
-			t1d += "v" + (one*positionHeight) + "h10";
-			t1s = one;
-		} else if ( t1s === one ) {
-			t1d += "h10";
-		} else if ( t1s > one ) {
-			diff = one - t1s;
-			console.log(">",one,t1s,diff);
-			t1d += "v" +( diff*positionHeight ) + "h10";
-			t1s = one;
-		} else if ( t1s < one ) {
-			diff = one - t1s;
-			console.log("<",one,t1s,diff);
-			t1d += "v" +( diff*positionHeight ) + "h10";
-			t1s = one;
-		}
+		onePos = one*positionHeight
+		t1d += "v" + onePos + "h10v-" + onePos + "h-10h10";
 
 		if ( two !== null ) {
-			if ( t2s === 0 ) {
-				t2d += "v" +( two*positionHeight) + "h10";
-				t2s = two;
-			} else if ( t2s === two ) {
-				t2d += "h10";
-			} else if ( t2s > two ) {
-				diff = two - t2s;
-				t2d += "v" +( diff*positionHeight ) + "h10";
-				t2s = two;
-			} else if ( t2s < two ) {
-				diff = two - t2s;
-				t2d += "v" +( diff*positionHeight ) + "h10";
-				t2s = two;
-			}
+			twoPos = two*positionHeight;
+			t2d += "v" + twoPos + "h10v-" + twoPos + "h-10h10";
 		}
 
 		if ( three !== null ) {
-			if ( t3s === 0 ) {
-				t3d += "v" +( three*positionHeight) + "h10";
-				t3s = three;
-			} else if ( t3s === three ) {
-				t3d += "h10";
-			} else if ( t3s > three ) {
-				diff = three - t3s;
-				t3d += "v" +( diff*positionHeight ) + "h10";
-				t3s = three;
-			} else if ( t3s < three ) {
-				diff = three - t3s;
-				t3d += "v" +( diff*positionHeight ) + "h10";
-				t3s = three;
-			}
+			threePos = three*positionHeight;
+			t3d += "v" + threePos + "h10v-" + threePos + "h-10h10";
 		}
 
 		if ( four !== null ) {
-			if ( t4s === 0 ) {
-				t4d += "v" +( four*positionHeight) + "h10";
-				t4s = four;
-			} else if ( t4s === four ) {
-				t4d += "h10";
-			} else if ( t4s > four ) {
-				diff = four - t4s;
-				t4d += "v" +( diff*positionHeight ) + "h10";
-				t4s = four;
-			} else if ( t4s < four ) {
-				diff = four - t4s;
-				t4d += "v" +( diff*positionHeight ) + "h10";
-				t4s = four;
-			}
+			fourPos = four*positionHeight;
+			t4d += "v" + fourPos + "h10v-" + fourPos + "h-10h10";
 		}
 
 		if ( five !== null ) {
-			if ( t5s === 0 ) {
-				t5d += "v" +( five*positionHeight) + "h10";
-				t5s = five;
-			} else if ( t5s === five ) {
-				t5d += "h10";
-			} else if ( t5s > five ) {
-				diff = five - t5s;
-				t5d += "v" +( diff*positionHeight ) + "h10";
-				t5s = five;
-			} else if ( t5s < five ) {
-				diff = five - t5s;
-				t5d += "v" +( diff*positionHeight ) + "h10";
-				t5s = five;
-			}
+			fivePos = five*positionHeight;
+			t5d += "v" + fivePos + "h10v-" + fivePos + "h-10h10";
 		}
 
 	});
 
-	t1d += "v-"+(t1s*positionHeight)+"H45";
-	t2d += "v-"+(t2s*positionHeight)+"H45";
-	t3d += "v-"+(t3s*positionHeight)+"H45";
-	t4d += "v-"+(t4s*positionHeight)+"H45";
-	t5d += "v-"+(t5s*positionHeight)+"H45";
 	document.getElementById("t1").setAttribute("d",t1d);
 	document.getElementById("t2").setAttribute("d",t2d);
 	document.getElementById("t3").setAttribute("d",t3d);
