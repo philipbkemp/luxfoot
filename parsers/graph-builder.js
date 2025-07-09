@@ -221,10 +221,12 @@ function buildGraph() {
 			t1d += "h10";
 		} else if ( t1s > one ) {
 			diff = one - t1s;
+			console.log(">",one,t1s,diff);
 			t1d += "v" +( diff*positionHeight ) + "h10";
 			t1s = one;
 		} else if ( t1s < one ) {
 			diff = one - t1s;
+			console.log("<",one,t1s,diff);
 			t1d += "v" +( diff*positionHeight ) + "h10";
 			t1s = one;
 		}
