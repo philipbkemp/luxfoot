@@ -1,0 +1,58 @@
+{
+    "level": 4,
+	"season": "1946-47",
+    "links": {
+        "next": "1947-48",
+        "prev": "1945-46",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["CLVX","DARE","GOLD","JGIL","JUNG","MARM","RUPL","TSVG","VICR","WALF"],
+        "standings": [
+            {"place":  1, "team": "CLVX", "w": 13, "d": 3, "l":  2, "f": 73, "a": 28, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "MARM", "w": 11, "d": 3, "l":  4, "f": 63, "a": 25, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "DARE", "w": 11, "d": 1, "l":  6, "f": 53, "a": 43, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+            {"place":  4, "team": "RUPL", "w":  9, "d": 1, "l":  8, "f": 51, "a": 44, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "JUNG", "w":  9, "d": 0, "l":  9, "f": 45, "a": 50, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "WALF", "w":  8, "d": 2, "l":  8, "f": 44, "a": 52, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "VICR", "w":  7, "d": 3, "l":  8, "f": 50, "a": 43, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}},
+            {"place":  8, "team": "GOLD", "w":  5, "d": 4, "l":  9, "f": 46, "a": 61, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "TSVG", "w":  5, "d": 2, "l": 11, "f": 35, "a": 59, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "JGIL", "w":  2, "d": 1, "l": 15, "f": 27, "a": 82, "pts_win": 2, "season": "1946-47", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["BWIT","HAMM","JBIW","KOPS","MAMR","MDLB","RBAS","SBRT","SPST","UNAS"],
+        "standings": [
+            {"place":  1, "team": "BWIT", "w": 18, "d": 0, "l":  0, "f": 79, "a": 22, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "MAMR", "w": 10, "d": 3, "l":  5, "f": 49, "a": 40, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "MDLB", "w": 10, "d": 2, "l":  6, "f": 68, "a": 39, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+            {"place":  4, "team": "UNAS", "w":  8, "d": 3, "l":  7, "f": 41, "a": 48, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "JBIW", "w":  8, "d": 2, "l":  8, "f": 43, "a": 43, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "KOPS", "w":  8, "d": 1, "l":  9, "f": 51, "a": 44, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "playoff": "relegation"},
+            {"place":  7, "team": "SPST", "w":  7, "d": 3, "l":  8, "f": 35, "a": 32, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "playoff": "relegation", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}},
+            {"place":  8, "team": "RBAS", "w":  7, "d": 1, "l": 10, "f": 61, "a": 60, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "SBRT", "w":  4, "d": 3, "l": 11, "f": 32, "a": 46, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "HAMM", "w":  1, "d": 0, "l": 17, "f": 11, "a": 96, "pts_win": 2, "season": "1946-47", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1947-48", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CLVX","MARM","DARE","BWIT","MAMR","MDLB"],
+        "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["VICR","GOLD","TSVG","JGIL","SPST","RBAS","SBRT","HAMM"],
+        "target": {"season": "1947-48", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "relegation": [
+            {"home":"KOPS","away":"SPST","score":"1-0","season":"1946-47","competition":{"type":"league","level": 4,"name": "2. Division","playoff":"relegation"}}
+        ]
+    }
+}

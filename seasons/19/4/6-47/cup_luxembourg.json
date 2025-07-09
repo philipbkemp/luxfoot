@@ -1,0 +1,101 @@
+{
+    "season": "1946-47",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1947-48",
+        "prev": "1945-46"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "SYRA", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-0","forfeit":true},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-0","forfeit":true},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UNAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "EGWM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-2"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "WALF", "homeDivision": {"level":4,"name":"2. Division"},"away": "UESH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-7"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HOBS", "homeDivision": {"level":5,"name":"3. Division"},"away": "BWIT", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-12"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AWDG", "homeDivision": {"level":5,"name":"3. Division"},"away": "TRIG", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-3"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "JKYL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-4"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MRTZ", "homeDivision": {"level":5,"name":"3. Division"},"away": "ASCH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-14"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "BLVL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-3"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MANC", "homeDivision": {"level":3,"name":"The Promotion"},"away": "CSHL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-2"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSOB", "homeDivision": {"level":2,"name":"1. Division"},"away": "BBML", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-2"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RBAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-2","note":"Replayed"},
+            {"date":"1946-09-15","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASLX", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RBAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-6"},
+			{"date":"1946-09-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JSKH", "homeDivision": {"level":5,"name":"3. Division"},"away": "RSML", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-4"}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BLVL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "TRIG", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-1"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CSHL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-0"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RSML", "homeDivision": {"level":3,"name":"The Promotion"},"away": "ASCH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-3"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "BWIT", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-3"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "KNAP", "homeDivision": {"level":5,"name":"3. Division"},"away": "KOPS", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-10"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JKYL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-2"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SPST", "homeDivision": {"level":4,"name":"2. Division"},"away": "FRTA", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-0","forfeit":true},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-0"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "UESH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-1"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "HAMM", "awayDivision": {"level":4,"name":"2. Division"},"score":"9-0"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-1"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ETZE", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-10"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "SWFT", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-0","forfeit":true},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SCBT", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-4"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "UNAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-1"},
+			{"date":"1946-10-06","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "YBDK", "homeDivision": {"level":3,"name":"The Promotion"},"away": "CSOB", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"}
+		]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-0"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "BLVL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-2"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "KOPS", "homeDivision": {"level":4,"name":"2. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-0"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASCH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-3"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CSHL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "STET", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-7"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-2"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"13-3"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "JKYL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "UNAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-0"}
+		]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+        	{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-4"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JKYL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-0"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-6"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "KOPS", "awayDivision": {"level":4,"name":"2. Division"},"score":"7-1"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "CPET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-1"},
+			{"season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"},
+			{"date":"1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "CPET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-3"},
+			{"date":"1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-0"},
+			{"date":"1947-02-02","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-6"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1947-03-09","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CPET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"},
+			{"date":"1947-03-09","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1947-06-01","season": "1946-47","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1","aet":true}
+        ]
+    }],
+    "winner": "ULUX",
+    "title_count": 1
+}

@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1946-47",
+    "links": {
+        "next": "1947-48",
+        "prev": "1945-46",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","AREM","ARIS","ASDF","AVBG","CSOB","JWAS","RBPF","RPDN","SCBT","STET","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "RBPF", "w": 15, "d": 3, "l":  4, "f": 62, "a": 28, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1947-48", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "SCBT", "w": 14, "d": 3, "l":  5, "f": 51, "a": 32, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1947-48", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "STET", "w": 13, "d": 4, "l":  5, "f": 56, "a": 27, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1947-48", "level": 1, "name": "Honour Division"}},
+		{"place":  4, "team": "ADUD", "w": 12, "d": 5, "l":  5, "f": 53, "a": 35, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "URUM", "w": 12, "d": 1, "l":  9, "f": 46, "a": 35, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "CSOB", "w":  9, "d": 5, "l":  8, "f": 54, "a": 44, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "AREM", "w":  9, "d": 4, "l":  9, "f": 43, "a": 47, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "AVBG", "w":  8, "d": 4, "l": 10, "f": 49, "a": 44, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division"},
+		{"place":  9, "team": "JWAS", "w":  8, "d": 3, "l": 11, "f": 46, "a": 60, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "RPDN", "w":  5, "d": 3, "l": 14, "f": 50, "a": 74, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+		{"place": 11, "team": "ASDF", "w":  4, "d": 2, "l": 16, "f": 28, "a": 73, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}},
+		{"place": 12, "team": "ARIS", "w":  2, "d": 5, "l": 15, "f": 16, "a": 55, "pts_win": 2, "season": "1946-47", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1947-48", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["RBPF","SCBT","STET"],
+		"target": {"season": "1947-48", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["ARIS","ASDF","RPDN","JWAS"],
+		"target": {"season": "1947-48", "level": 3, "name": "The Promotion"}
+	}
+}
