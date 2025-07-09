@@ -7,7 +7,7 @@
         "down": 2
     },
 	"name": "Honour Division",
-	"teams": ["CPET","CROD","FOLA","JESH","NSCH","PRON","RBDF","RROD","SDUD","SPOR","ULUX","USDD"],
+	"teams": ["RBDF","SDUD","USDD","CPET","JESH","SPOR","PRON","CROD","NSCH","RROD","FOLA","ULUX"],
 	"pts_win": 2,
 	"standings": [
         {"place":  1, "team": "SDUD", "w": 20, "d": 0, "l":  2, "f": 83, "a": 20, "pts_win": 2, "season": "1946-47", "level": 1, "league": "Honour Division", "champion": true, "title_count": 5},
