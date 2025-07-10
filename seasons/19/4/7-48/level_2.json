@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1947-48",
+    "links": {
+        "next": "1948-49",
+        "prev": "1946-47",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","AREM","AVBG","CGRV","CPET","CROD","CSOB","JKYL","PROG","RROD","URUM","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "RROD", "w": 15, "d": 4, "l":  3, "f": 45, "a": 21, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1948-49", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "CPET", "w": 12, "d": 4, "l":  6, "f": 61, "a": 35, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1948-49", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "CSOB", "w": 11, "d": 6, "l":  5, "f": 59, "a": 42, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1948-49", "level": 1, "name": "Honour Division"}},
+		{"place":  4, "team": "URUM", "w": 11, "d": 3, "l":  8, "f": 55, "a": 51, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "JKYL", "w": 10, "d": 4, "l":  8, "f": 50, "a": 41, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "CROD", "w": 10, "d": 3, "l":  9, "f": 52, "a": 41, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "ADUD", "w":  8, "d": 6, "l":  8, "f": 41, "a": 43, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "CGRV", "w":  7, "d": 7, "l":  8, "f": 36, "a": 36, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division"},
+		{"place":  9, "team": "AVBG", "w":  7, "d": 4, "l": 11, "f": 35, "a": 47, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1948-49", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "YBDK", "w":  7, "d": 2, "l": 13, "f": 46, "a": 78, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1948-49", "level": 3, "name": "The Promotion"}},
+		{"place": 11, "team": "PROG", "w":  5, "d": 3, "l": 14, "f": 40, "a": 68, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1948-49", "level": 3, "name": "The Promotion"}},
+		{"place": 12, "team": "AREM", "w":  4, "d": 4, "l": 14, "f": 43, "a": 60, "pts_win": 2, "season": "1947-48", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1948-49", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["RROD","CPET","CSOB"],
+		"target": {"season": "1948-49", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["AVBG","YBDK","PROG","AREM"],
+		"target": {"season": "1948-49", "level": 3, "name": "The Promotion"}
+	}
+}

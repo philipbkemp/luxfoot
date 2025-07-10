@@ -1,0 +1,69 @@
+{
+    "season": "1947-48",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1948-49",
+        "prev": "1946-47"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "STET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-2"},
+			{"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CGRV", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1"},
+			{"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"7-3"},
+			{"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JKYL", "homeDivision": {"level":2,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-3","forfeit":true},
+			{"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "YBDK", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-1"},
+			{"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "SCBT", "awayDivision": {"level":1,"name":"Honour Division"},"score":"6-1"},
+			{"date":"1947-10-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"},
+			{"bye":"ULUX", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"CPET", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"RBDF", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"SDUD", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"FOLA", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"USDD", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"RROD", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"CSOB", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"PROG", "byeDivision": {"level":2,"name":"1. Division"}}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CSOB", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-5"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-4"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-2"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-7"},
+			{"date":"1947-11-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CGRV", "homeDivision": {"level":2,"name":"1. Division"},"away": "PROG", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1947-12-07","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CSOB", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-0"},
+			{"date":"1947-12-07","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-1"},
+			{"date":"1947-12-07","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-1"},
+			{"date":"1947-12-07","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-3"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1948-02-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-1"},
+			{"date":"1948-02-01","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-1"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1948-04-05","season": "1947-48","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-0","aet":true}
+        ]
+    }],
+    "winner": "SDUD",
+    "title_count": 2
+}

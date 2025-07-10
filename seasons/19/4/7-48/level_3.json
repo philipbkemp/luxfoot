@@ -1,0 +1,53 @@
+{
+    "level": 3,
+	"season": "1947-48",
+    "links": {
+        "next": "1948-49",
+        "prev": "1946-47",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASCH","ASDF","BLVL","BWIT","EGWM","JWAS","MAMR","MDLB","TRIG","UBSH"],
+        "standings": [
+            {"place":  1, "team": "EGWM", "w": 14, "d": 1, "l":  3, "f": 60, "a": 19, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1948-49", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "JWAS", "w": 12, "d": 3, "l":  3, "f": 69, "a": 30, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1948-49", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "UBSH", "w":  9, "d": 5, "l":  4, "f": 38, "a": 24, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  4, "team": "TRIG", "w":  9, "d": 3, "l":  6, "f": 41, "a": 39, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  5, "team": "ASCH", "w":  9, "d": 1, "l":  8, "f": 47, "a": 38, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "BWIT", "w":  9, "d": 1, "l":  8, "f": 36, "a": 30, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "BLVL", "w":  7, "d": 5, "l":  6, "f": 46, "a": 41, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "ASDF", "w":  7, "d": 2, "l":  9, "f": 42, "a": 44, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
+            {"place":  9, "team": "MAMR", "w":  2, "d": 0, "l": 16, "f": 22, "a": 81, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
+            {"place": 10, "team": "MDLB", "w":  1, "d": 1, "l": 16, "f":  8, "a": 63, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ARIS","BBML","CLVX","DARE","MANC","MARM","RPDN","RSML","SWFT","USND"],
+        "standings": [
+            {"place":  1, "team": "RPDN", "w": 13, "d": 3, "l":  2, "f": 63, "a": 22, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1948-49", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "RSML", "w": 10, "d": 6, "l":  2, "f": 55, "a": 27, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1948-49", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "MARM", "w": 10, "d": 2, "l":  6, "f": 39, "a": 43, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  4, "team": "ARIS", "w":  9, "d": 3, "l":  6, "f": 66, "a": 34, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  5, "team": "USND", "w":  9, "d": 2, "l":  7, "f": 42, "a": 41, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  6, "team": "SWFT", "w":  8, "d": 3, "l":  7, "f": 55, "a": 43, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  7, "team": "BBML", "w":  7, "d": 3, "l":  8, "f": 60, "a": 39, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  8, "team": "MANC", "w":  4, "d": 3, "l": 11, "f": 27, "a": 55, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
+            {"place":  9, "team": "CLVX", "w":  4, "d": 1, "l": 13, "f": 27, "a": 87, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
+            {"place": 10, "team": "DARE", "w":  3, "d": 0, "l": 15, "f": 33, "a": 76, "pts_win": 2, "season": "1947-48", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["EGWM","JWAS","RPDN","RSML"],
+        "target": {"season": "1948-49", "level": 2, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["ASDF","MAMR","MDLB","MANC","CLVX","DARE"],
+        "target": {"season": "1948-49", "level": 4, "name": "2. Division"}
+    }
+}
