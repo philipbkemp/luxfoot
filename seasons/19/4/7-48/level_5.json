@@ -14,7 +14,7 @@
         "teams": ["AHOS","GSWW","HOSC","HUPP","RLCN","SBEL","TSVG","WWMP"],
         "standings": [
             {"place": 1, "team": "WWMP", "w": 10, "d": 2, "l":  2, "f": 45, "a": 17, "pts_win": 2, "season": "1947-48", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
-            {"place": 2, "team": "TSVG", "w": 10, "d": 2, "l":  2, "f": 49, "a": 18, "pts_win": 2, "season": "1947-48", "level": 5, "series": 1, "league": "3. Division Series 1","playoff":"league_promotion_playoff"},
+            {"place": 2, "team": "TSVG", "w": 10, "d": 2, "l":  2, "f": 49, "a": 18, "pts_win": 2, "season": "1947-48", "level": 5, "series": 1, "league": "3. Division Series 1","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
             {"place": 3, "team": "GSWW", "w":  7, "d": 6, "l":  1, "f": 37, "a": 20, "pts_win": 2, "season": "1947-48", "level": 5, "series": 1, "league": "3. Division Series 1"},
             {"place": 4, "team": "SBEL", "w":  5, "d": 4, "l":  5, "f": 24, "a": 23, "pts_win": 2, "season": "1947-48", "level": 5, "series": 1, "league": "3. Division Series 1"},
             {"place": 5, "team": "RLCN", "w":  5, "d": 4, "l":  5, "f": 28, "a": 34, "pts_win": 2, "season": "1947-48", "level": 5, "series": 1, "league": "3. Division Series 1"},
@@ -28,7 +28,7 @@
         "teams": ["DAHL","FCBB","GOLD","JGOS","MRTZ","RHDS","SURA","UFLN"],
         "standings": [
             {"place": 1, "team": "GOLD", "w": 11, "d": 0, "l":  3, "f": 78, "a": 20, "pts_win": 2, "season": "1947-48", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
-            {"place": 2, "team": "MRTZ", "w": 10, "d": 1, "l":  3, "f": 46, "a": 19, "pts_win": 2, "season": "1947-48", "level": 5, "series": 2, "league": "3. Division Series 2","playoff":"league_promotion_playoff"},
+            {"place": 2, "team": "MRTZ", "w": 10, "d": 1, "l":  3, "f": 46, "a": 19, "pts_win": 2, "season": "1947-48", "level": 5, "series": 2, "league": "3. Division Series 2","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
             {"place": 3, "team": "SURA", "w":  9, "d": 1, "l":  4, "f": 51, "a": 21, "pts_win": 2, "season": "1947-48", "level": 5, "series": 2, "league": "3. Division Series 2"},
             {"place": 4, "team": "DAHL", "w":  8, "d": 1, "l":  5, "f": 41, "a": 35, "pts_win": 2, "season": "1947-48", "level": 5, "series": 2, "league": "3. Division Series 2"},
             {"place": 5, "team": "JGOS", "w":  5, "d": 2, "l":  7, "f": 19, "a": 29, "pts_win": 2, "season": "1947-48", "level": 5, "series": 2, "league": "3. Division Series 2"},
@@ -42,7 +42,7 @@
         "teams": ["ARBD","ASTN","BBEE","JGIL","LRNZ","OBCN","OVND","OYCW","SURM","VICR"],
         "standings": [
             {"place":  1, "team": "ASTN", "w": 15, "d": 1, "l":  2, "f": 86, "a": 36, "pts_win": 2, "season": "1947-48", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
-            {"place":  2, "team": "VICR", "w": 13, "d": 1, "l":  4, "f": 59, "a": 21, "pts_win": 2, "season": "1947-48", "level": 5, "series": 3, "league": "3. Division Series 3","playoff":"league_promotion_playoff"},
+            {"place":  2, "team": "VICR", "w": 13, "d": 1, "l":  4, "f": 59, "a": 21, "pts_win": 2, "season": "1947-48", "level": 5, "series": 3, "league": "3. Division Series 3","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
             {"place":  3, "team": "JGIL", "w": 11, "d": 1, "l":  6, "f": 50, "a": 37, "pts_win": 2, "season": "1947-48", "level": 5, "series": 3, "league": "3. Division Series 3"},
             {"place":  4, "team": "ARBD", "w": 10, "d": 2, "l":  6, "f": 60, "a": 44, "pts_win": 2, "season": "1947-48", "level": 5, "series": 3, "league": "3. Division Series 3"},
             {"place":  5, "team": "OVND", "w":  9, "d": 3, "l":  6, "f": 43, "a": 42, "pts_win": 2, "season": "1947-48", "level": 5, "series": 3, "league": "3. Division Series 3"},
@@ -58,7 +58,7 @@
         "teams": ["ESHW","HAGN","HAMM","HOBS","JHTC","KHLN","LUNA","MDCG","SBRT","SNEM","SPST"],
         "standings": [
             {"place":  1, "team": "ESHW", "w": 16, "d": 1, "l":  3, "f": 83, "a": 34, "pts_win": 2, "season": "1947-48", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
-            {"place":  2, "team": "SPST", "w": 13, "d": 3, "l":  4, "f": 54, "a": 25, "pts_win": 2, "season": "1947-48", "level": 5, "series": 4, "league": "3. Division Series 4","playoff":"league_promotion_playoff"},
+            {"place":  2, "team": "SPST", "w": 13, "d": 3, "l":  4, "f": 54, "a": 25, "pts_win": 2, "season": "1947-48", "level": 5, "series": 4, "league": "3. Division Series 4","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
             {"place":  3, "team": "HAMM", "w": 12, "d": 5, "l":  3, "f": 54, "a": 31, "pts_win": 2, "season": "1947-48", "level": 5, "series": 4, "league": "3. Division Series 4"},
             {"place":  4, "team": "JHTC", "w": 11, "d": 3, "l":  6, "f": 54, "a": 49, "pts_win": 2, "season": "1947-48", "level": 5, "series": 4, "league": "3. Division Series 4"},
             {"place":  5, "team": "KHLN", "w": 11, "d": 2, "l":  7, "f": 54, "a": 37, "pts_win": 2, "season": "1947-48", "level": 5, "series": 4, "league": "3. Division Series 4"},
@@ -75,7 +75,7 @@
         "teams": ["BOUS","FCNC","GRIV","HOST","JFLX","MUNS","RBAS","RLND","SAND","SYRA"],
         "standings": [
             {"place":  1, "team": "RBAS", "w": 17, "d": 1, "l":  0, "f": 113, "a": 18, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
-            {"place":  2, "team": "SAND", "w": 13, "d": 2, "l":  3, "f":  52, "a": 19, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5","playoff":"league_promotion_playoff"},
+            {"place":  2, "team": "SAND", "w": 13, "d": 2, "l":  3, "f":  52, "a": 19, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1948-49", "level": 4, "name": "2. Division"}},
             {"place":  3, "team": "RLND", "w":  9, "d": 2, "l":  7, "f":  43, "a": 39, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
             {"place":  4, "team": "BOUS", "w":  7, "d": 4, "l":  7, "f":  38, "a": 39, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
             {"place":  5, "team": "GRIV", "w":  8, "d": 1, "l":  9, "f":  45, "a": 51, "pts_win": 2, "season": "1947-48", "level": 5, "series": 5, "league": "3. Division Series 5"},
