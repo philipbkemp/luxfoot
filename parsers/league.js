@@ -402,7 +402,7 @@ function parseLeague(league) {
 		}
 
 		if ( league.playoffs.league_promotion_playoff_a ) {
-			$("#leagueTabs").append(buildTabButton("po_league_promotion_playoff_a","Play-off (2)"));
+			$("#leagueTabs").append(buildTabButton("po_league_promotion_playoff_a","Play-off (1)"));
 			poLeaguePromotionPlayoff = buildTabPanel("po_league_promotion_playoff_a");
 			poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
 			if ( league.playoffs.league_promotion_playoff_a.matches ) {
