@@ -54,8 +54,6 @@
             {"place": 7, "team": "MANC", "w":  4, "d": 4, "l":  8, "f": 33, "a": 42, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
             {"place": 8, "team": "OYMP", "w":  5, "d": 1, "l": 10, "f": 32, "a": 63, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
             {"place": 9, "team": "SMOB", "w":  2, "d": 2, "l": 12, "f": 19, "a": 59, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3", "relegated": true, "target": {"season": "1950-51", "level": 5, "name": "3. Division"}}
-        ],
-        "matches": [
         ]
     }],
     "promotion": {
