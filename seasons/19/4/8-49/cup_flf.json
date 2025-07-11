@@ -1,0 +1,26 @@
+{
+    "season": "1948-49",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1949-50",
+        "prev": "1947-48"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1949-03-20","season": "1948-49","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "YBDK", "awayDivision": {"level":3,"name":"The Promotion"},"score":"4-3"},
+			{"date":"1949-03-20","season": "1948-49","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "AVBG", "homeDivision": {"level":3,"name":"The Promotion"},"away": "UESH", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-0"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1949-05-01","season": "1948-49","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-0"}
+        ]
+    }],
+    "winner": "RBAS",
+    "title_count": 1
+}

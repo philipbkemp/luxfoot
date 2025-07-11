@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1948-49",
+    "links": {
+        "next": "1949-50",
+        "prev": "1947-48",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","CGRV","CROD","EGWM","JESH","JKYL","JWAS","RBPF","RPDN","RSML","SCBT","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "JESH", "w": 18, "d": 3, "l":  1, "f": 79, "a": 24, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1949-50", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "URUM", "w": 14, "d": 2, "l":  6, "f": 68, "a": 30, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1949-50", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "CGRV", "w": 13, "d": 4, "l":  5, "f": 57, "a": 33, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1949-50", "level": 1, "name": "Honour Division"}},
+		{"place":  4, "team": "RSML", "w": 12, "d": 4, "l":  6, "f": 53, "a": 40, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "SCBT", "w": 11, "d": 3, "l":  8, "f": 51, "a": 40, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "JKYL", "w":  8, "d": 6, "l":  8, "f": 38, "a": 41, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "CROD", "w": 10, "d": 1, "l": 11, "f": 52, "a": 45, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "RBPF", "w":  9, "d": 2, "l": 11, "f": 50, "a": 64, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division"},
+		{"place":  9, "team": "ADUD", "w":  6, "d": 4, "l": 12, "f": 25, "a": 47, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1949-50", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "JWAS", "w":  6, "d": 3, "l": 13, "f": 38, "a": 64, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1949-50", "level": 3, "name": "The Promotion"}},
+		{"place": 11, "team": "EGWM", "w":  5, "d": 3, "l": 14, "f": 26, "a": 60, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1949-50", "level": 3, "name": "The Promotion"}},
+		{"place": 12, "team": "RPDN", "w":  1, "d": 3, "l": 18, "f": 27, "a": 76, "pts_win": 2, "season": "1948-49", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1949-50", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["JESH","URUM","CGRV"],
+		"target": {"season": "1949-50", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["ADUD","JWAS","EGWM","RPDN"],
+		"target": {"season": "1949-50", "level": 3, "name": "The Promotion"}
+	}
+}

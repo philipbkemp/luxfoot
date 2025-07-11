@@ -53,7 +53,8 @@ allTeams = {
     "Stade Mosellan Grevenmacher":"SGRV","Union Beckerich":"UBEK","Alzetta Cruchten":"ALCR","FC Käerch":"KOSM","Alliance Aischdall Hobscheid/Eischen":"AAHE",
     "Daring Echternach":"DARE","FC Red Black Pfaffenthal":"RBPF","Racing FC Union Luxemburg":"RACE","Ro'de Le'w Niederdonven":"RLND","CS Greiveldange":"GRIV",
     "Fortuna Canach":"FCNC","Jeunesse Flaxweiler":"JFLX","US Dahl":"DAHL","Jeunesse Goesdorf":"JGOS","Sura Michelau":"SURM","Blue Boys Erpeldingen/Ettelbrück":"BBEE",
-    "Le Monflin Bigonville":"MONF","FC Everlange":"EVER","FC Ell":"FELL"
+    "Le Monflin Bigonville":"MONF","FC Everlange":"EVER","FC Ell":"FELL","Koeppchen Wormeldingen":"KWRM","Blue Star Schweicherthal":"BSSW","Jeunesse Useldingen":"JUSE",
+    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
