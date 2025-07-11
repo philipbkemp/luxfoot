@@ -18,8 +18,8 @@
 		{"place":  6, "team": "RBDF", "w":  8, "d": 5, "l":  9, "f": 50, "a": 38, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division"},
 		{"place":  7, "team": "ULUX", "w":  6, "d": 9, "l":  7, "f": 44, "a": 39, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division"},
 		{"place":  8, "team": "USDD", "w":  8, "d": 5, "l":  9, "f": 40, "a": 46, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division"},
-		{"place":  9, "team": "STET", "w":  7, "d": 3, "l": 12, "f": 34, "a": 50, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division","playoff":"relgation"},
-		{"place": 10, "team": "CSOB", "w":  7, "d": 3, "l": 12, "f": 32, "a": 63, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division","playoff":"relgation", "relegated": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}},
+		{"place":  9, "team": "STET", "w":  7, "d": 3, "l": 12, "f": 34, "a": 50, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division","playoff":"relegation"},
+		{"place": 10, "team": "CSOB", "w":  7, "d": 3, "l": 12, "f": 32, "a": 63, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division","playoff":"relegation", "relegated": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}},
 		{"place": 11, "team": "RROD", "w":  7, "d": 2, "l": 13, "f": 36, "a": 46, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division", "relegated": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}},
 		{"place": 12, "team": "CPET", "w":  1, "d": 2, "l": 19, "f": 23, "a": 81, "pts_win": 2, "season": "1948-49", "level": 1, "league": "Honour Division", "relegated": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}}
     ],
@@ -30,7 +30,7 @@
 	},
     "playoffs": {
         "relegation": [
-            {"home":"STET","away":"CSOB","score":"4-3","season":"1948-49","competition":{"type":"league","level": 1,"name": "Honour Division","playoff":"relgation"},"outcome":"CSOB relegated to TARGET","target": {"season": "1949-50", "level": 2, "name": "1. Division"}}
+            {"home":"STET","away":"CSOB","score":"4-3","season":"1948-49","competition":{"type":"league","level": 1,"name": "Honour Division","playoff":"relegation"},"outcome":"CSOB relegated to TARGET","target": {"season": "1949-50", "level": 2, "name": "1. Division"}}
         ]
     },
 	"matches": [
