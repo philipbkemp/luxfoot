@@ -53,9 +53,5 @@
     "relegation": {
         "teams": ["MINL","TRIG","JSCH","UNAS","KWRM","UMRT"],
         "target": {"season": "1950-51", "level": 4, "name": "2. Division"}
-    },
-    "playoffs": {
-        "updown": [],
-        "downup": []
     }
 }
