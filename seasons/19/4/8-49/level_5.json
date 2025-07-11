@@ -109,9 +109,9 @@
                 {"place": 3, "team": "MUNS","teamDivision": {"level":5,"series":6,"name":"3. Division Series 6"}, "w": 0, "d": 0, "l": 2, "f": 1, "a": 5, "pts_win": 2, "season": "1948-49", "level": 5, "league": "3. Division", "playoff": "league_promotion_playoff_a", "promoted": true, "target": {"season": "1949-50", "level": 3, "name": "The Promotion"}}
             ],
             "matches": [
-                {"home":"SNEM","away":"OBCN","score":"4-0","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "playoff":"league_promotion_playoff_a"}},
-                {"home":"OBCN","away":"MUNS","score":"2-1","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "playoff":"league_promotion_playoff_a"}},
-                {"home":"SNEM","away":"MUNS","score":"3-0","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "playoff":"league_promotion_playoff_a"}}
+                {"home":"SNEM","away":"OBCN","score":"4-0","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "round":"league_promotion_playoff_a"}},
+                {"home":"OBCN","away":"MUNS","score":"2-1","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "round":"league_promotion_playoff_a"}},
+                {"home":"SNEM","away":"MUNS","score":"3-0","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "round":"league_promotion_playoff_a"}}
             ]
         },
         "league_promotion_playoff_b": {
@@ -123,9 +123,9 @@
                 {"place": 3, "team": "DONC","teamDivision": {"level":5,"series":5,"name":"3. Division Series 5"}, "w": 0, "d": 0, "l": 2, "f": 1, "a": 4, "pts_win": 2, "season": "1948-49", "level": 5, "league": "3. Division", "playoff": "league_promotion_playoff_b"}
             ],
             "matches": [
-                {"home":"LARD","away":"HUPP","score":"3-2","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "playoff":"league_promotion_playoff_b"}},
-                {"home":"HUPP","away":"DONC","score":"2-0","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "playoff":"league_promotion_playoff_b"}},
-                {"home":"LARD","away":"DONC","score":"2-1","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "playoff":"league_promotion_playoff_b"}}
+                {"home":"LARD","away":"HUPP","score":"3-2","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "round":"league_promotion_playoff_b"}},
+                {"home":"HUPP","away":"DONC","score":"2-0","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "round":"league_promotion_playoff_b"}},
+                {"home":"LARD","away":"DONC","score":"2-1","season":"1948-49","competition":{"type":"league","level": 5,"name": "3. Division", "round":"league_promotion_playoff_b"}}
             ]
         }
     }
