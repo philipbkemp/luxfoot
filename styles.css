@@ -255,7 +255,9 @@ table.table--standings-history tr > td:first-of-type {
 }
 .is-playoff_promotion > *,
 .is-playoff_updown > *,
-.is-playoff_league_promotion_playoff > * {
+.is-playoff_league_promotion_playoff > *,
+.is-playoff_league_promotion_playoff_a > *,
+.is-playoff_league_promotion_playoff_b > * {
     background-color: #eaf7e9 !important;
 }
 .is-relegated > * {
