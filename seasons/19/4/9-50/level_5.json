@@ -1,0 +1,99 @@
+{
+    "level": 5,
+	"season": "1949-50",
+    "links": {
+        "next": "1950-51",
+        "prev": "1948-49",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["DAHL","DONC","HARL","HUPP","JGOS","RHDS","SURA","UFLN"],
+        "standings": [
+            {"place": 1, "team": "SURA", "w": 11, "d": 1, "l": 2, "f": 54, "a": 26, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 2, "team": "HARL", "w":  8, "d": 3, "l": 3, "f": 40, "a": 26, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "DONC", "w":  6, "d": 3, "l": 5, "f": 29, "a": 32, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "UFLN", "w":  6, "d": 2, "l": 6, "f": 37, "a": 35, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "HUPP", "w":  5, "d": 3, "l": 6, "f": 24, "a": 29, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "DAHL", "w":  4, "d": 2, "l": 8, "f": 27, "a": 42, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 7, "team": "RHDS", "w":  4, "d": 1, "l": 9, "f": 28, "a": 38, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 8, "team": "JGOS", "w":  2, "d": 5, "l": 7, "f": 19, "a": 30, "pts_win": 2, "season": "1949-50", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AHOS","BAST","HOSC","JGIL","OVND","REIS","SURM"],
+        "standings": [
+            {"place": 1, "team": "OVND", "w": 12, "d": 0, "l":  0, "f": 55, "a": 11, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "REIS", "w":  7, "d": 1, "l":  4, "f": 45, "a": 23, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "AHOS", "w":  6, "d": 2, "l":  4, "f": 38, "a": 25, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "JGIL", "w":  7, "d": 0, "l":  5, "f": 31, "a": 23, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "HOSC", "w":  4, "d": 1, "l":  7, "f": 25, "a": 53, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "BAST", "w":  3, "d": 0, "l":  9, "f": 14, "a": 41, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "SURM", "w":  1, "d": 0, "l": 11, "f":  8, "a": 40, "pts_win": 2, "season": "1949-50", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["BOUS","FCNC","HAMM","JFLX","JHSD","SBRT","SYRA","USMM"],
+        "standings": [
+            {"place": 1, "team": "HAMM", "w": 14, "d": 0, "l":  0, "f": 99, "a":  12, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "SYRA", "w": 10, "d": 1, "l":  3, "f": 60, "a":  21, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 3, "team": "SBRT", "w":  9, "d": 1, "l":  4, "f": 61, "a":  25, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "USMM", "w":  7, "d": 0, "l":  7, "f": 41, "a":  48, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "FCNC", "w":  6, "d": 1, "l":  7, "f": 48, "a":  30, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "BOUS", "w":  6, "d": 1, "l":  7, "f": 40, "a":  41, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 7, "team": "JFLX", "w":  1, "d": 1, "l": 12, "f": 18, "a":  74, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 8, "team": "JHSD", "w":  0, "d": 1, "l": 13, "f":  8, "a": 124, "pts_win": 2, "season": "1949-50", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["HAGN","HOBS","JHTC","JSKH","KHLN","MDCG","TLMD"],
+        "standings": [
+            {"place": 1, "team": "TLMD", "w": 11, "d": 0, "l":  1, "f": 60, "a": 12, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "JHTC", "w":  9, "d": 0, "l":  3, "f": 39, "a":  6, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 3, "team": "KHLN", "w":  7, "d": 0, "l":  5, "f": 39, "a": 22, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 4, "team": "JSKH", "w":  7, "d": 0, "l":  5, "f": 46, "a": 27, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 5, "team": "MDCG", "w":  5, "d": 1, "l":  6, "f": 33, "a": 39, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 6, "team": "HOBS", "w":  2, "d": 1, "l":  9, "f": 15, "a": 86, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 7, "team": "HAGN", "w":  0, "d": 0, "l": 12, "f":  2, "a": 42, "pts_win": 2, "season": "1949-50", "level": 5, "series": 4, "league": "3. Division Series 4"}
+        ]
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "teams": ["ATBS","BSSW","BVAT","EVER","JOSP","JUSE","LARD","MONF","PRTZ","SRED"],
+        "standings": [
+            {"place":  1, "team": "LARD", "w": 13, "d": 4, "l":  1, "f": 101, "a": 21, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5", "promoted": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "ATBS", "w": 13, "d": 2, "l":  3, "f":  86, "a": 26, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  3, "team": "BSSW", "w": 11, "d": 1, "l":  6, "f":  56, "a": 31, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  4, "team": "PRTZ", "w":  9, "d": 4, "l":  5, "f":  47, "a": 38, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  5, "team": "JUSE", "w":  8, "d": 6, "l":  4, "f":  45, "a": 34, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  6, "team": "SRED", "w":  9, "d": 3, "l":  6, "f":  45, "a": 52, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  7, "team": "EVER", "w":  5, "d": 3, "l": 10, "f":  42, "a": 74, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  8, "team": "JOSP", "w":  4, "d": 3, "l": 11, "f":  32, "a": 63, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place":  9, "team": "BVAT", "w":  3, "d": 1, "l": 14, "f":  20, "a": 64, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 10, "team": "MONF", "w":  0, "d": 3, "l": 15, "f":  19, "a": 90, "pts_win": 2, "season": "1949-50", "level": 5, "series": 5, "league": "3. Division Series 5"}
+        ]
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "teams": ["BWMD","FRTA","GRAU","HOST","JUNG","OBCN","OYCW"],
+        "standings": [
+            {"place": 1, "team": "FRTA", "w": 10, "d": 1, "l":  1, "f": 60, "a": 24, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6", "promoted": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "OYCW", "w":  9, "d": 0, "l":  3, "f": 42, "a": 22, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6"},
+            {"place": 3, "team": "OBCN", "w":  5, "d": 4, "l":  3, "f": 28, "a": 27, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6"},
+            {"place": 4, "team": "JUNG", "w":  5, "d": 4, "l":  3, "f": 37, "a": 27, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6"},
+            {"place": 5, "team": "BWMD", "w":  2, "d": 3, "l":  7, "f": 26, "a": 47, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6"},
+            {"place": 6, "team": "GRAU", "w":  3, "d": 0, "l":  9, "f": 15, "a": 43, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6"},
+            {"place": 7, "team": "HOST", "w":  2, "d": 0, "l": 10, "f": 28, "a": 46, "pts_win": 2, "season": "1949-50", "level": 5, "series" :6, "league": "3. Division Series 6"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["HARL","OVND","HAMM","TLMD","LARD","FRTA"],
+        "target": {"season": "1950-51", "level": 4, "name": "2. Division"}
+    }
+}

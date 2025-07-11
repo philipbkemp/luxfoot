@@ -570,29 +570,29 @@
 	},{
 		"season": "1949-50",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1949-50", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 7},
-			"level_2": {"missing":true,"season": "1949-50", "level":  2, "name": "1. Division", "winner": "RROD"},
-			"level_3": {"missing":true,"season": "1949-50", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1949-50", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "EGWM"},
-				{"missing":true,"season": "1949-50", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "ADUD"}
+			"level_1": {"season": "1949-50", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 7},
+			"level_2": {"season": "1949-50", "level":  2, "name": "1. Division"},
+			"level_3": {"season": "1949-50", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1949-50", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1949-50", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1949-50", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1949-50", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "ETZE"},
-				{"missing":true,"season": "1949-50", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JBIW"},
-				{"missing":true,"season": "1949-50", "level":  4, "series":  3, "name": "2. Division Series 3", "winner": "UESH"}
+			"level_4": {"season": "1949-50", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1949-50", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1949-50", "level":  4, "series":  2, "name": "2. Division Series 2"},
+				{"season": "1949-50", "level":  4, "series":  3, "name": "2. Division Series 3"}
 			]},
-			"level_5": {"missing":true,"season": "1949-50", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1949-50", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SURA"},
-				{"missing":true,"season": "1949-50", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "OVND"},
-				{"missing":true,"season": "1949-50", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "HAMM"},
-				{"missing":true,"season": "1949-50", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "TLMD"},
-				{"missing":true,"season": "1949-50", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "LARD"},
-				{"missing":true,"season": "1949-50", "level":  5, "series":  6, "name": "3. Division Series 6", "winner": "FRTA"}
+			"level_5": {"season": "1949-50", "level":  5, "name": "3. Division", "series": [
+				{"season": "1949-50", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1949-50", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1949-50", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1949-50", "level":  5, "series":  4, "name": "3. Division Series 4"},
+				{"season": "1949-50", "level":  5, "series":  5, "name": "3. Division Series 5"},
+				{"season": "1949-50", "level":  5, "series":  6, "name": "3. Division Series 6"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1949-50", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1949-50", "name": "Coupe FLF", "winner": "RPDN", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series": 1,"series_name": "2. Division Series 1"}}
+			"cup_luxembourg": {"season": "1949-50", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1949-50", "name": "Coupe FLF", "winner": "RPDN", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series": 1,"series_name": "2. Division Series 1"}}
 		}
 	},{
 		"season": "1950-51",

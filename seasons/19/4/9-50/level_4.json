@@ -1,0 +1,69 @@
+{
+    "level": 4,
+	"season": "1949-50",
+    "links": {
+        "next": "1950-51",
+        "prev": "1948-49",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","BBEE","CLVX","ETZE","GOLD","MRTZ","RLCN","TSVG","WWMP"],
+        "standings": [
+            {"place": 1, "team": "ETZE", "w": 10, "d": 4, "l":  2, "f": 91, "a": 29, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "WWMP", "w": 10, "d": 4, "l":  2, "f": 41, "a": 23, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+            {"place": 3, "team": "TSVG", "w":  9, "d": 3, "l":  4, "f": 48, "a": 36, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 4, "team": "AWDG", "w":  9, "d": 2, "l":  5, "f": 65, "a": 34, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "CLVX", "w":  7, "d": 3, "l":  6, "f": 45, "a": 45, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 6, "team": "MRTZ", "w":  3, "d": 6, "l":  7, "f": 23, "a": 54, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 7, "team": "GOLD", "w":  4, "d": 3, "l":  9, "f": 34, "a": 54, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 8, "team": "RLCN", "w":  2, "d": 4, "l": 10, "f": 23, "a": 62, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 9, "team": "BBEE", "w":  3, "d": 1, "l": 12, "f": 25, "a": 58, "pts_win": 2, "season": "1949-50", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1950-51", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ARBD","ASLX","JBIW","KOPS","LRNZ","MUNS","RUPL","SAND","VICR","WALF"],
+        "standings": [
+            {"place":  1, "team": "JBIW", "w": 13, "d": 1, "l":  4, "f": 64, "a": 26, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "RUPL", "w": 13, "d": 1, "l":  4, "f": 53, "a": 23, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "SAND", "w": 11, "d": 3, "l":  4, "f": 45, "a": 22, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "WALF", "w": 10, "d": 2, "l":  6, "f": 63, "a": 30, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "KOPS", "w":  7, "d": 5, "l":  6, "f": 31, "a": 41, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "LRNZ", "w":  8, "d": 2, "l":  8, "f": 38, "a": 34, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "ARBD", "w":  6, "d": 3, "l":  9, "f": 41, "a": 40, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "VICR", "w":  5, "d": 4, "l":  9, "f": 35, "a": 62, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1950-51", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "ASLX", "w":  6, "d": 1, "l": 11, "f": 30, "a": 51, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "MUNS", "w":  0, "d": 0, "l": 18, "f": 19, "a": 90, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1950-51", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["CSHL","LUNA","MANC","OYMP","SMOB","SNEM","SPST","SWFT","UESH"],
+        "standings": [
+            {"place": 1, "team": "UESH", "w": 14, "d": 1, "l":  1, "f": 68, "a": 16, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "LUNA", "w": 10, "d": 3, "l":  3, "f": 52, "a": 29, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+            {"place": 3, "team": "SWFT", "w":  8, "d": 3, "l":  5, "f": 43, "a": 32, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
+            {"place": 4, "team": "CSHL", "w":  8, "d": 0, "l":  8, "f": 37, "a": 40, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
+            {"place": 5, "team": "SNEM", "w":  5, "d": 5, "l":  6, "f": 37, "a": 32, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
+            {"place": 6, "team": "SPST", "w":  5, "d": 3, "l":  8, "f": 26, "a": 34, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
+            {"place": 7, "team": "MANC", "w":  4, "d": 4, "l":  8, "f": 33, "a": 42, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
+            {"place": 8, "team": "OYMP", "w":  5, "d": 1, "l": 10, "f": 32, "a": 63, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3"},
+            {"place": 9, "team": "SMOB", "w":  2, "d": 2, "l": 12, "f": 19, "a": 59, "pts_win": 2, "season": "1949-50", "level": 4, "series": 2, "league": "2. Division Series 3", "relegated": true, "target": {"season": "1950-51", "level": 5, "name": "3. Division"}}
+        ],
+        "matches": [
+        ]
+    }],
+    "promotion": {
+        "teams": ["ETZE","WWMP","JBIW","RUPL","UESH","LUNA"],
+        "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["BBEE","VICR","MUNS","SMOB"],
+        "target": {"season": "1950-51", "level": 5, "name": "3. Division"}
+    }
+}

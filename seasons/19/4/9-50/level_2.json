@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1949-50",
+    "links": {
+        "next": "1950-51",
+        "prev": "1948-49",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["AVBG","BLVL","CPET","CROD","CSOB","JKYL","PROG","RBPF","RROD","RSML","SCBT","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "RROD", "w": 15, "d": 4, "l":  3, "f": 64, "a": 27, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1950-51", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "CROD", "w": 14, "d": 2, "l":  6, "f": 54, "a": 29, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1950-51", "level": 1, "name": "Honour Division"}},
+		{"place":  3, "team": "YBDK", "w": 13, "d": 3, "l":  6, "f": 73, "a": 51, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1950-51", "level": 1, "name": "Honour Division"}},
+		{"place":  4, "team": "CPET", "w": 13, "d": 2, "l":  7, "f": 49, "a": 49, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "RSML", "w": 11, "d": 2, "l":  9, "f": 60, "a": 55, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "CSOB", "w":  9, "d": 3, "l": 10, "f": 60, "a": 45, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "AVBG", "w":  7, "d": 7, "l":  8, "f": 41, "a": 49, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "RBPF", "w":  8, "d": 5, "l":  9, "f": 36, "a": 47, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division"},
+		{"place":  9, "team": "PROG", "w":  5, "d": 6, "l": 11, "f": 37, "a": 57, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+		{"place": 10, "team": "BLVL", "w":  4, "d": 7, "l": 11, "f": 37, "a": 50, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+		{"place": 11, "team": "SCBT", "w":  6, "d": 3, "l": 13, "f": 40, "a": 68, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
+		{"place": 12, "team": "JKYL", "w":  4, "d": 2, "l": 16, "f": 39, "a": 63, "pts_win": 2, "season": "1949-50", "level": 2, "league": "1. Division", "relegated": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}}
+    ],
+	"promotion": {
+		"teams": ["RROD","CROD","YBDK"],
+		"target": {"season": "1950-51", "level": 1, "name": "Honour Division"}
+	},
+	"relegation": {
+		"teams": ["PROG","BLVL","SCBT","JKYL"],
+		"target": {"season": "1950-51", "level": 3, "name": "The Promotion"}
+	}
+}

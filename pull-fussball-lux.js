@@ -118,23 +118,26 @@ function pullResults(tbl) {
     console.log('"'+teams.join('","')+'"');
     console.log(output.join("\n\t\t"));
 }
+nextSeason = "";
 function pullStandings(tbl) {
     season = window.location.href.split("/").pop().split(".")[0].replace("-19","-").replace("-20","-").replace("Saison","");
     level = parseInt(prompt("League level"));
     comp = prompt("Competition");
-    ppw = parseInt(prompt("Points per win",3));
+    ppw = parseInt(prompt("Points per win",2));
     champion = prompt("Champion code");
-    relegated = prompt("Relegated codes");
+    relegated = prompt("Relegated codes").toUpperCase();
     if ( relegated !== "" ) {
         relegated = relegated.split(",");
-        nextSeasonDown = prompt("Next season",season);
+        nextSeasonDown = prompt("Next season",nextSeason);
+        nextSeason = nextSeasonDown;
         relegateToLevel = parseInt(prompt("Relegate to which level?",level+1));
         relegateToName = prompt("Relegate to which division?");
     }
-    promoted = prompt("Promoted codes");
+    promoted = prompt("Promoted codes").toUpperCase();
     if ( promoted !== "" ) {
         promoted = promoted.split(",");
-        nextSeasonUp = prompt("Next season",season);
+        nextSeasonUp = prompt("Next season",nextSeason);
+        nextSeason = nextSeasonUp;
         promoteToLevel = parseInt(prompt("Promote to which level?",level-1));
         promoteToName = prompt("Promote to which division?");
     }

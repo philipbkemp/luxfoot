@@ -1,0 +1,61 @@
+{
+    "level": 3,
+	"season": "1949-50",
+    "links": {
+        "next": "1950-51",
+        "prev": "1948-49",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARIS","ASTN","BBML","BWIT","DARE","EGWM","JSCH","MARM","MINL","RPDN","TRIG","USND"],
+        "standings": [
+            {"place":  1, "team": "EGWM", "w": 13, "d": 7, "l":  2, "f": 61, "a": 27, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1950-51", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "RPDN", "w": 13, "d": 6, "l":  3, "f": 52, "a": 19, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1950-51", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "MARM", "w": 13, "d": 1, "l":  8, "f": 53, "a": 43, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  4, "team": "USND", "w": 11, "d": 4, "l":  7, "f": 46, "a": 57, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  5, "team": "DARE", "w":  9, "d": 7, "l":  6, "f": 48, "a": 38, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "ARIS", "w": 10, "d": 2, "l": 10, "f": 65, "a": 40, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "ASTN", "w": 10, "d": 1, "l": 11, "f": 52, "a": 51, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "BBML", "w":  8, "d": 5, "l":  9, "f": 42, "a": 53, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  9, "team": "BWIT", "w":  9, "d": 2, "l": 11, "f": 42, "a": 44, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 10, "team": "MINL", "w":  9, "d": 1, "l": 12, "f": 31, "a": 38, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 11, "team": "TRIG", "w":  4, "d": 5, "l": 13, "f": 33, "a": 40, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+		    {"place": 12, "team": "JSCH", "w":  2, "d": 1, "l": 19, "f": 22, "a": 97, "pts_win": 2, "season": "1949-50", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ADUD","AREM","ASCH","ASDF","JWAS","KWRM","MAMR","MDLB","RBAS","UBSH","UMRT","UNAS"],
+        "standings": [
+            {"place":  1, "team": "ADUD", "w": 17, "d": 4, "l":  1, "f": 79, "a":  27, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1950-51", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "JWAS", "w": 15, "d": 4, "l":  3, "f": 87, "a":  35, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1950-51", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "ASDF", "w": 15, "d": 4, "l":  3, "f": 68, "a":  29, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  4, "team": "UBSH", "w": 11, "d": 3, "l":  8, "f": 59, "a":  61, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  5, "team": "AREM", "w": 11, "d": 2, "l":  9, "f": 73, "a":  45, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  6, "team": "RBAS", "w":  7, "d": 7, "l":  8, "f": 62, "a":  53, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  7, "team": "MAMR", "w":  9, "d": 3, "l": 10, "f": 51, "a":  53, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  8, "team": "MDLB", "w":  9, "d": 3, "l": 10, "f": 37, "a":  60, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  9, "team": "ASCH", "w":  7, "d": 4, "l": 11, "f": 56, "a":  77, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 10, "team": "UNAS", "w":  3, "d": 9, "l": 10, "f": 30, "a":  47, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 11, "team": "KWRM", "w":  3, "d": 5, "l": 14, "f": 39, "a":  83, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "UMRT", "w":  0, "d": 2, "l": 20, "f": 32, "a": 103, "pts_win": 2, "season": "1949-50", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1950-51", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["EGWM","RPDN","ADUD","JWAS"],
+        "target": {"season": "1950-51", "level": 2, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["MINL","TRIG","JSCH","UNAS","KWRM","UMRT"],
+        "target": {"season": "1950-51", "level": 4, "name": "2. Division"}
+    },
+    "playoffs": {
+        "updown": [],
+        "downup": []
+    }
+}

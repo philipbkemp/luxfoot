@@ -1,0 +1,26 @@
+{
+    "season": "1949-50",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1950-51",
+        "prev": "1948-49"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1950-05-07","season": "1949-50","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "RPDN", "homeDivision": {"level":3,"name":"The Promotion"},"away": "JWAS", "awayDivision": {"level":3,"name":"The Promotion"},"score":"3-1"},
+			{"date":"1950-05-07","season": "1949-50","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "UESH", "homeDivision": {"level":4,"name":"2. Division"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-4"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1950-05-14","season": "1949-50","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "RPDN", "homeDivision": {"level":3,"name":"The Promotion"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"1-0"}
+        ]
+    }],
+    "winner": "RPDN",
+    "title_count": 1
+}
