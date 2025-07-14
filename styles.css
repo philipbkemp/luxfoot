@@ -192,6 +192,10 @@ table.table--standings tbody tr > * {
 }
 table.table--standings tbody tr td {
     text-align: center;
+    vertical-align: middle;
+}
+table.table--standings tbody tr th {
+    vertical-align: middle;
 }
 table.table--standings tbody tr > td:first-of-type {
     font-size: 0.7rem;
