@@ -1055,6 +1055,12 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			}
 		}
 
+		if ( s.note ) {
+			thisRowNotes.append( $("<SPAN></SPAN>").addClass('d-block').addClass("ms-0").html( s.note ));
+			thisRowHasNotes = true;
+			removeKey("standings.note");
+		}
+
 		thisRow.append(thisRowNotes);
 
 		removeKey("standings.place");
