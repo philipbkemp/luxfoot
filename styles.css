@@ -288,6 +288,9 @@ table.table--standings-history tr > td:first-of-type {
 .table--standings .is-relegated.is-relegated-twice td:nth-of-type(1) {
 	background-image: url("assets/relegated-twice.png");
 }
+.table--standings .is-relegated.is-relegated-thrice td:nth-of-type(1) {
+	background-image: url("assets/relegated-thrice.png");
+}
 .table--standings .is-promoted td:nth-of-type(1) {
 	background-image: url("assets/promoted.png");
 }

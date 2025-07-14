@@ -597,27 +597,27 @@
 	},{
 		"season": "1950-51",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1950-51", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 3},
-			"level_2": {"missing":true,"season": "1950-51", "level":  2, "name": "1. Division", "winner": "FOLA"},
-			"level_3": {"missing":true,"season": "1950-51", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1950-51", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "ASDF"},
-				{"missing":true,"season": "1950-51", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "ARIS"}
+			"level_1": {"season": "1950-51", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 3},
+			"level_2": {"season": "1950-51", "level":  2, "name": "1. Division"},
+			"level_3": {"season": "1950-51", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1950-51", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1950-51", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1950-51", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1950-51", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "TLMD"},
-				{"missing":true,"season": "1950-51", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "WALF"},
-				{"missing":true,"season": "1950-51", "level":  4, "series":  3, "name": "2. Division Series 3", "winner": "OVND"}
+			"level_4": {"season": "1950-51", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1950-51", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1950-51", "level":  4, "series":  2, "name": "2. Division Series 2"},
+				{"season": "1950-51", "level":  4, "series":  3, "name": "2. Division Series 3"}
 			]},
 			"level_5": {"season": "1950-51", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1950-51", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "KNAP"},
-				{"missing":true,"season": "1950-51", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "VICR"},
-				{"season": "1950-51", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "USMM"},
-				{"missing":true,"season": "1950-51", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "JHTC"},
-				{"missing":true,"season": "1950-51", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "ATBS"}
+				{"season": "1950-51", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1950-51", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1950-51", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1950-51", "level":  5, "series":  4, "name": "3. Division Series 4"},
+				{"season": "1950-51", "level":  5, "series":  5, "name": "3. Division Series 5"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1950-51", "name": "Luxembourg Cup", "winner": "STET", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_luxembourg": {"season": "1950-51", "name": "Luxembourg Cup", "winner": "STET", "title_count": 1, "winner_division": {"level": 1,"name": "Honour Division"}},
 			"cup_flf": {"season": "1950-51", "name": "Coupe FLF", "winner": "RBAS", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
 		}
 	},{

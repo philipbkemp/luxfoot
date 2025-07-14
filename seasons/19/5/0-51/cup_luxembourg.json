@@ -1,0 +1,72 @@
+{
+    "season": "1950-51",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1951-52",
+        "prev": "1949-50"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ADUD", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-1"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "EGWM", "homeDivision": {"level":2,"name":"1. Division"},"away": "STET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-5"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "FOLA", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CGRV", "homeDivision": {"level":2,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "YBDK", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-2"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RSML", "homeDivision": {"level":2,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"6-6","note":"Replayed"},
+            {"date":"1950-11-22","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RSML", "homeDivision": {"level":2,"name":"1. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"},
+			{"date":"1950-11-05","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"9-3"},
+			{"bye":"USDD", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"CSOB", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"RBPF", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"AVBG", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"RBDF", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"NSCH", "byeDivision": {"level":1,"name":"Honour Division"}},
+			{"bye":"SPOR", "byeDivision": {"level":1,"name":"Honour Division"}}
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+            {"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-3"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-4"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CSOB", "homeDivision": {"level":2,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-1"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-7"},
+			{"season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RSML", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"8-2"}
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+            {"date":"1951-01-07","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "STET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-3","note":"Replayed"},
+            {"date":"1951-02-18","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "STET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"},
+			{"date":"1951-01-07","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RSML", "homeDivision": {"level":2,"name":"1. Division"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-0"},
+			{"date":"1951-01-07","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "CSOB", "homeDivision": {"level":2,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"},
+			{"date":"1951-01-07","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-1"}
+        ]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+           	{"date":"1951-03-18","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RSML", "homeDivision": {"level":2,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-1"},
+			{"date":"1951-03-18","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "STET", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-7"} 
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1951-04-29","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-1","aet":true,"note":"Replayed"},
+            {"date":"1951-07-17","season": "1950-51","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-0"}
+        ]
+    }],
+    "winner": "",
+    "title_count": 0
+}

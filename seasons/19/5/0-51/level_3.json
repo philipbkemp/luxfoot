@@ -1,0 +1,58 @@
+{
+    "level": 3,
+	"season": "1950-51",
+    "links": {
+        "next": "1951-52",
+        "prev": "1949-50",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AREM","ASCH","ASDF","BLVL","JKYL","LUNA","MAMR","MDLB","RBAS","SCBT","UBSH","UESH"],
+        "standings": [
+            {"place":  1, "team": "ASDF", "w": 15, "d": 5, "l":  2, "f": 91, "a":  37, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "BLVL", "w": 14, "d": 4, "l":  4, "f": 76, "a":  35, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "SCBT", "w": 13, "d": 4, "l":  5, "f": 67, "a":  47, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  4, "team": "ASCH", "w": 13, "d": 4, "l":  5, "f": 76, "a":  43, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1", "playoff":"promotion","promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  5, "team": "JKYL", "w": 10, "d": 7, "l":  5, "f": 60, "a":  44, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "MAMR", "w":  9, "d": 4, "l":  9, "f": 51, "a":  70, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "UESH", "w": 10, "d": 1, "l": 11, "f": 56, "a":  59, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "AREM", "w":  7, "d": 6, "l":  9, "f": 61, "a":  61, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  9, "team": "UBSH", "w":  8, "d": 2, "l": 12, "f": 54, "a":  57, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 10, "team": "RBAS", "w":  4, "d": 7, "l": 11, "f": 42, "a":  63, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 11, "team": "LUNA", "w":  3, "d": 3, "l": 16, "f": 34, "a":  76, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 12, "team": "MDLB", "w":  2, "d": 1, "l": 19, "f": 30, "a": 106, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ARIS","ASTN","BBML","BWIT","DARE","ETZE","JBIW","MARM","PROG","RUPL","USND","WWMP"],
+        "standings": [
+            {"place":  1, "team": "ARIS", "w": 16, "d": 4, "l":  2, "f": 67, "a": 26, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "BBML", "w": 14, "d": 4, "l":  4, "f": 66, "a": 47, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "PROG", "w": 14, "d": 3, "l":  5, "f": 70, "a": 34, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+            {"place":  4, "team": "ETZE", "w": 12, "d": 2, "l":  8, "f": 61, "a": 62, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2", "playoff":"promotion"},
+            {"place":  5, "team": "USND", "w": 10, "d": 3, "l":  9, "f": 54, "a": 50, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  6, "team": "DARE", "w": 11, "d": 1, "l": 10, "f": 61, "a": 56, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  7, "team": "ASTN", "w":  9, "d": 3, "l": 10, "f": 66, "a": 57, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  8, "team": "BWIT", "w":  8, "d": 3, "l": 11, "f": 49, "a": 58, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  9, "team": "MARM", "w":  6, "d": 5, "l": 11, "f": 44, "a": 44, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 10, "team": "WWMP", "w":  6, "d": 2, "l": 14, "f": 33, "a": 66, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 11, "team": "JBIW", "w":  5, "d": 4, "l": 13, "f": 46, "a": 71, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 12, "team": "RUPL", "w":  2, "d": 4, "l": 16, "f": 35, "a": 81, "pts_win": 2, "season": "1950-51", "level": 3, "series": 2, "league": "The Promotion Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["ASDF","BLVL","SCBT","ASCH","ARIS","BBML","PROG"],
+        "target": {"season": "1951-52", "level": 2, "name": "1. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"home":"ASCH","away":"ETZE","score":"8-0","season":"1950-51","competition":{"type":"league","level": 3,"name": "The Promotion","playoff":"promotion"},"homeDivision":{"level":3,"series":1,"name":"The Promotion Series 1"},"awayDivision":{"level":3,"series":2,"name":"The Promotion Series 2"},"outcome":"ASCH promoted to TARGET","target": {"season": "1951-52", "level": 2, "name": "1. Division"}}
+        ]
+    }
+}

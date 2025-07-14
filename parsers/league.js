@@ -966,6 +966,10 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 				thisRow.addClass("is-relegated-twice");
 				removeKey("standings.relegated_twice");
 			}
+			if ( s.relegated_thrice ) {
+				thisRow.addClass("is-relegated-thrice");
+				removeKey("standings.relegarelegated_thriceted_twice");
+			}
 			removeKey("standings.relegated");
 			removeKey("series.relegated");
 			if ( s.target ) {
@@ -980,7 +984,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 				if ( ! s.playoff || isPlayoffTable ) {
 					thisRowNotes.append(
 						$("<A></A>")
-							.html([(s.relegated_twice?"Double":""),"Relegated to",s.target.season,s.target.name].join(" "))
+							.html([(s.relegated_twice?"Double":""),(s.relegated_thrice?"Triple":""),"Relegated to",s.target.season,s.target.name].join(" "))
 							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
 							.addClass(thisRowHasNotes?'ms-3':'ms-0')
 					);

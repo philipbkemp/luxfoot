@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1950-51",
+    "links": {
+        "next": "1951-52",
+        "prev": "1949-50",
+        "up": 1,
+        "down": 3
+    },
+	"name": "1. Division",
+	"teams": ["ADUD","AVBG","CGRV","CPET","CSOB","EGWM","FOLA","JWAS","RBPF","RPDN","RSML","URUM"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "FOLA", "w": 17, "d": 4, "l":  1, "f": 82, "a": 17, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division", "promoted": true, "target": {"season": "1951-52", "level": 1, "name": "Honour Division"}},
+		{"place":  2, "team": "AVBG", "w": 11, "d": 5, "l":  6, "f": 48, "a": 37, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  3, "team": "URUM", "w":  9, "d": 8, "l":  5, "f": 48, "a": 33, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  4, "team": "RSML", "w": 12, "d": 2, "l":  8, "f": 58, "a": 48, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  5, "team": "JWAS", "w":  9, "d": 7, "l":  6, "f": 48, "a": 55, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  6, "team": "RPDN", "w": 11, "d": 2, "l":  9, "f": 42, "a": 49, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  7, "team": "CGRV", "w":  7, "d": 8, "l":  7, "f": 44, "a": 36, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  8, "team": "ADUD", "w":  9, "d": 4, "l":  9, "f": 43, "a": 43, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place":  9, "team": "CSOB", "w":  7, "d": 8, "l":  7, "f": 42, "a": 42, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place": 10, "team": "CPET", "w":  6, "d": 7, "l":  9, "f": 49, "a": 52, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"},
+		{"place": 11, "team": "EGWM", "w":  3, "d": 2, "l": 17, "f": 32, "a": 71, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division", "relegated": true, "relegated_thrice":true,"target": {"season": "1951-52", "level": 5, "name": "3. Division"},"note":"Excluded due to unsportsmanlike conduct"},
+		{"place": 12, "team": "RBPF", "w":  2, "d": 1, "l": 19, "f": 35, "a": 88, "pts_win": 2, "season": "1950-51", "level": 2, "league": "1. Division"}
+    ],
+	"promotion": {
+		"teams": ["FOLA"],
+		"target": {"season": "", "level": 0, "name": ""}
+	},
+	"relegation": {
+		"teams": ["EGWM"],
+		"target": {"season": "1951-52", "level": 5, "name": "3. Division"}
+	}
+}
