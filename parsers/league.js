@@ -968,7 +968,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			}
 			if ( s.relegated_thrice ) {
 				thisRow.addClass("is-relegated-thrice");
-				removeKey("standings.relegarelegated_thriceted_twice");
+				removeKey("standings.relegated_thrice");
 			}
 			removeKey("standings.relegated");
 			removeKey("series.relegated");
