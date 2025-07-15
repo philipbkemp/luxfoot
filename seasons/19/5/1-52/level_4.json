@@ -1,0 +1,66 @@
+{
+    "level": 4,
+	"season": "1951-52",
+    "links": {
+        "next": "1952-53",
+        "prev": "1950-51",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["CSHL","HAGN","JHTC","MDCG","OYMP","SNEM","SPST","SWFT","UNAS"],
+        "standings": [
+            {"place": 1, "team": "CSHL", "w": 13, "d": 1, "l":  2, "f": 68, "a": 27, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "SWFT", "w": 10, "d": 2, "l":  4, "f": 55, "a": 37, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 3, "team": "UNAS", "w": 10, "d": 1, "l":  5, "f": 40, "a": 27, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 4, "team": "SNEM", "w":  7, "d": 5, "l":  4, "f": 36, "a": 21, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 5, "team": "JHTC", "w":  5, "d": 3, "l":  8, "f": 33, "a": 40, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 6, "team": "SPST", "w":  5, "d": 2, "l":  9, "f": 30, "a": 43, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 7, "team": "HAGN", "w":  3, "d": 5, "l":  8, "f": 28, "a": 48, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 8, "team": "OYMP", "w":  4, "d": 2, "l": 10, "f": 31, "a": 51, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 9, "team": "MDCG", "w":  1, "d": 7, "l":  8, "f": 30, "a": 57, "pts_win": 2, "season": "1951-52", "level": 4, "series": 1, "league": "2. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ARBD","HAMM","KOPS","KWRM","LRNZ","MINL","SAND","UMRT","VICR"],
+        "standings": [
+            {"place": 1, "team": "MINL", "w": 12, "d": 2, "l":  2, "f": 66, "a": 22, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "SAND", "w": 11, "d": 2, "l":  3, "f": 36, "a": 19, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 3, "team": "HAMM", "w":  9, "d": 3, "l":  4, "f": 49, "a": 26, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 4, "team": "KOPS", "w":  8, "d": 4, "l":  4, "f": 45, "a": 32, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 5, "team": "KWRM", "w":  6, "d": 3, "l":  7, "f": 44, "a": 40, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 6, "team": "VICR", "w":  5, "d": 1, "l": 10, "f": 32, "a": 46, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 7, "team": "UMRT", "w":  4, "d": 2, "l": 10, "f": 29, "a": 42, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 8, "team": "ARBD", "w":  3, "d": 4, "l":  9, "f": 25, "a": 59, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 9, "team": "LRNZ", "w":  3, "d": 1, "l": 12, "f": 21, "a": 61, "pts_win": 2, "season": "1951-52", "level": 4, "series": 2, "league": "2. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["AWDG","BVAT","CLVX","GOLD","JGIL","JSCH","LARD","MRTZ","TSVG"],
+        "standings": [
+            {"place": 1, "team": "AWDG", "w": 14, "d": 1, "l":  1, "f": 76, "a": 18, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 2, "team": "JSCH", "w": 12, "d": 0, "l":  4, "f": 53, "a": 23, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 3, "team": "BVAT", "w": 10, "d": 1, "l":  5, "f": 49, "a": 36, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 4, "team": "GOLD", "w":  9, "d": 2, "l":  5, "f": 43, "a": 23, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3", "promoted": true, "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}},
+            {"place": 5, "team": "TSVG", "w":  7, "d": 3, "l":  6, "f": 35, "a": 30, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3"},
+            {"place": 6, "team": "JGIL", "w":  7, "d": 1, "l":  8, "f": 41, "a": 48, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3"},
+            {"place": 7, "team": "LARD", "w":  5, "d": 0, "l": 11, "f": 39, "a": 57, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3"},
+            {"place": 8, "team": "MRTZ", "w":  3, "d": 0, "l": 13, "f": 13, "a": 64, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3"},
+            {"place": 9, "team": "CLVX", "w":  1, "d": 0, "l": 15, "f": 16, "a": 66, "pts_win": 2, "season": "1951-52", "level": 4, "series": 3, "league": "2. Division Series 3", "relegated": true, "target": {"season": "1952-53", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CSHL","SWFT","UNAS","MINL","SAND","HAMM","KOPS","AWDG","JSCH","BVAT","GOLD"],
+        "target": {"season": "1952-53", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["CLVX"],
+        "target": {"season": "1952-53", "level": 5, "name": "3. Division"}
+    }
+}

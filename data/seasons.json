@@ -623,31 +623,31 @@
 	},{
 		"season": "1951-52",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1951-52", "level":  1, "name": "Honour Division", "winner": "NSCH", "title_count": 1},
-			"level_2": {"missing":true,"season": "1951-52", "level":  2, "name": "1. Division", "series": [
-			    {"missing":true,"season": "1951-52", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "RSML"},
-				{"missing":true,"season": "1951-52", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "ADUD"}
+			"level_1": {"season": "1951-52", "level":  1, "name": "Honour Division", "winner": "NSCH", "title_count": 1},
+			"level_2": {"season": "1951-52", "level":  2, "name": "1. Division", "series": [
+			    {"season": "1951-52", "level":  2, "series":  1, "name": "1. Division Series 1"},
+				{"season": "1951-52", "level":  2, "series":  2, "name": "1. Division Series 2"}
 			]},
-			"level_3": {"missing":true,"season": "1951-52", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1951-52", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "JKYL"},
-				{"missing":true,"season": "1951-52", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "ETZE"}
+			"level_3": {"season": "1951-52", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1951-52", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1951-52", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1951-52", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1951-52", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "CSHL"},
-				{"missing":true,"season": "1951-52", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "MINL"},
-				{"missing":true,"season": "1951-52", "level":  4, "series":  3, "name": "2. Division Series 3", "winner": "AWDG"}
+			"level_4": {"season": "1951-52", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1951-52", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1951-52", "level":  4, "series":  2, "name": "2. Division Series 2"},
+				{"season": "1951-52", "level":  4, "series":  3, "name": "2. Division Series 3"}
 			]},
-			"level_5": {"missing":true,"season": "1951-52", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1951-52", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "HUPP"},
-				{"missing":true,"season": "1951-52", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "FRTA"},
-				{"missing":true,"season": "1951-52", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "SYRA"},
-				{"missing":true,"season": "1951-52", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "EGWM"},
-				{"missing":true,"season": "1951-52", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "SRED"}
+			"level_5": {"season": "1951-52", "level":  5, "name": "3. Division", "series": [
+				{"season": "1951-52", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1951-52", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1951-52", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1951-52", "level":  5, "series":  4, "name": "3. Division Series 4"},
+				{"season": "1951-52", "level":  5, "series":  5, "name": "3. Division Series 5"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1951-52", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 10, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1951-52", "name": "Coupe FLF", "winner": "JKYL", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":2,"series_name":"The Promotion Series 2"}}
+			"cup_luxembourg": {"season": "1951-52", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 10, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1951-52", "name": "Coupe FLF", "winner": "JKYL", "title_count": 2, "winner_division": {"level": 3,"name": "The Promotion","series":2,"series_name":"The Promotion Series 2"}}
 		}
 	},{
 		"season": "1952-53",

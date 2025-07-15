@@ -5,7 +5,8 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
-		{"place":  2, "team": "BLVL", "w": 14, "d": 4, "l":  4, "f": 76, "a": 35, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1",   "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
+		{"place":  4, "team": "BLVL", "w":  9, "d": 4, "l":  5, "f": 47, "a": 38, "pts_win": 2, "season": "1951-52", "level": 2, "series" :2, "league": "1. Division Series 2"},
+        {"place":  2, "team": "BLVL", "w": 14, "d": 4, "l":  4, "f": 76, "a": 35, "pts_win": 2, "season": "1950-51", "level": 3, "series": 1, "league": "The Promotion Series 1",   "promoted": true, "target": {"season": "1951-52", "level": 2, "name": "1. Division"}},
         {"place": 10, "team": "BLVL", "w":  4, "d": 7, "l": 11, "f": 37, "a": 50, "pts_win": 2, "season": "1949-50", "level": 2,              "league": "1. Division",              "relegated": true, "target": {"season": "1950-51", "level": 3, "name": "The Promotion"}},
         {"place":  2, "team": "BLVL", "w":  8, "d": 8, "l":  2, "f": 36, "a": 25, "pts_win": 2, "season": "1948-49", "level": 3, "series": 2, "league": "The Promotion Series 2",   "promoted": true, "target": {"season": "1949-50", "level": 2, "name": "1. Division"}},
         {"place":  7, "team": "BLVL", "w":  7, "d": 5, "l":  6, "f": 46, "a": 41, "pts_win": 2, "season": "1947-48", "level": 3, "series": 1, "league": "The Promotion Series 1"},

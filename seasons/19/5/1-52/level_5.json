@@ -1,0 +1,82 @@
+{
+    "level": 5,
+	"season": "1951-52",
+    "links": {
+        "next": "1952-53",
+        "prev": "1950-51",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","DAHL","HARL","HUPP","RHDS","TWTC"],
+        "standings": [
+            {"place": 1, "team": "HUPP", "w": 9, "d": 1, "l":  0, "f": 43, "a": 16, "pts_win": 2, "season": "1951-52", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 2, "team": "RHDS", "w": 7, "d": 1, "l":  2, "f": 41, "a": 13, "pts_win": 2, "season": "1951-52", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "AHOS", "w": 5, "d": 0, "l":  5, "f": 26, "a": 29, "pts_win": 2, "season": "1951-52", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "DAHL", "w": 5, "d": 0, "l":  5, "f": 24, "a": 27, "pts_win": 2, "season": "1951-52", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "TWTC", "w": 3, "d": 0, "l":  7, "f": 10, "a": 31, "pts_win": 2, "season": "1951-52", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "HARL", "w": 0, "d": 0, "l": 10, "f":  1, "a": 29, "pts_win": 2, "season": "1951-52", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["BAST","BWMD","FRTA","OBCN","OYCW","REIS","UFLN"],
+        "standings": [
+            {"place": 1, "team": "FRTA", "w": 9, "d": 1, "l": 2, "f": 42, "a": 19, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 2, "team": "BWMD", "w": 7, "d": 3, "l": 2, "f": 46, "a": 17, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "OBCN", "w": 5, "d": 2, "l": 5, "f": 27, "a": 28, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "OYCW", "w": 4, "d": 3, "l": 5, "f": 26, "a": 29, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "REIS", "w": 5, "d": 1, "l": 6, "f": 22, "a": 33, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "BAST", "w": 3, "d": 2, "l": 7, "f": 22, "a": 41, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "UFLN", "w": 3, "d": 0, "l": 9, "f": 21, "a": 39, "pts_win": 2, "season": "1951-52", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["BDBB","BOUS","FCNC","HOST","JUNG","MUNS","SYRA","USMM"],
+        "standings": [
+            {"place": 1, "team": "SYRA", "w": 13, "d": 0, "l":  1, "f": 71, "a": 16, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "JUNG", "w": 11, "d": 0, "l":  3, "f": 58, "a": 19, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "BDBB", "w":  9, "d": 0, "l":  5, "f": 45, "a": 25, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "HOST", "w":  6, "d": 3, "l":  5, "f": 34, "a": 28, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "USMM", "w":  7, "d": 0, "l":  7, "f": 32, "a": 39, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "FCNC", "w":  3, "d": 2, "l":  9, "f": 13, "a": 50, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 7, "team": "BOUS", "w":  2, "d": 1, "l": 11, "f": 16, "a": 61, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 8, "team": "MUNS", "w":  1, "d": 2, "l": 11, "f":  7, "a": 38, "pts_win": 2, "season": "1951-52", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["ASLX","EGWM","HOBS","JHSD","JSKH","KHLN","MANC","SBRT","TRIG"],
+        "standings": [
+            {"place": 1, "team": "EGWM", "w": 15, "d": 1, "l":  0, "f": 89, "a": 14, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "JSKH", "w": 12, "d": 1, "l":  3, "f": 73, "a": 33, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "MANC", "w": 10, "d": 1, "l":  5, "f": 40, "a": 30, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 4, "team": "TRIG", "w":  8, "d": 2, "l":  6, "f": 44, "a": 42, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 5, "team": "ASLX", "w":  8, "d": 1, "l":  7, "f": 47, "a": 36, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 6, "team": "SBRT", "w":  7, "d": 2, "l":  7, "f": 38, "a": 22, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 7, "team": "JHSD", "w":  4, "d": 3, "l":  9, "f": 35, "a": 68, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 8, "team": "KHLN", "w":  2, "d": 1, "l": 13, "f": 15, "a": 78, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 9, "team": "HOBS", "w":  0, "d": 0, "l": 16, "f": 12, "a": 70, "pts_win": 2, "season": "1951-52", "level": 5, "series": 4, "league": "3. Division Series 4"}
+        ]
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "teams": ["ATBS","BSSW","EVER","JOSP","PRTZ","SRED"],
+        "standings": [
+            {"place": 1, "team": "SRED", "w": 6, "d": 3, "l":  1, "f": 31, "a": 16, "pts_win": 2, "season": "1951-52", "level": 5, "series": 5, "league": "3. Division Series 5", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 2, "team": "ATBS", "w": 6, "d": 2, "l":  2, "f": 35, "a": 15, "pts_win": 2, "season": "1951-52", "level": 5, "series": 5, "league": "3. Division Series 5", "promoted": true, "target": {"season": "1952-53", "level": 4, "name": "2. Division"}},
+            {"place": 3, "team": "BSSW", "w": 5, "d": 3, "l":  2, "f": 25, "a": 21, "pts_win": 2, "season": "1951-52", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 4, "team": "JOSP", "w": 4, "d": 1, "l":  5, "f": 23, "a": 23, "pts_win": 2, "season": "1951-52", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 5, "team": "PRTZ", "w": 4, "d": 1, "l":  5, "f": 28, "a": 34, "pts_win": 2, "season": "1951-52", "level": 5, "series": 5, "league": "3. Division Series 5"},
+            {"place": 6, "team": "EVER", "w": 0, "d": 0, "l": 10, "f":  1, "a": 34, "pts_win": 2, "season": "1951-52", "level": 5, "series": 5, "league": "3. Division Series 5"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["RHDS","BWMD","SYRA","JUNG","EGWM","JSKH","SRED","ATBS"],
+        "target": {"season": "1952-53", "level": 4, "name": "2. Division"}
+    }
+}

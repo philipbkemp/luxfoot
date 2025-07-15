@@ -1,0 +1,26 @@
+{
+    "season": "1951-52",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1952-53",
+        "prev": "1950-51"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1952-05-25","season": "1951-52","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "JKYL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "USND", "awayDivision": {"level":3,"name":"The Promotion"},"score":"6-0"},
+			{"date":"1952-05-25","season": "1951-52","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "MINL", "homeDivision": {"level":4,"name":"2. Division"},"away": "DARE", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-1"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1952-06-15","season": "1951-52","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "JKYL", "homeDivision": {"level":3,"name":"The Promotion"},"away": "DARE", "awayDivision": {"level":3,"name":"The Promotion"},"score":"6-2"}
+        ]
+    }],
+    "winner": "JKYL",
+    "title_count": 2
+}
