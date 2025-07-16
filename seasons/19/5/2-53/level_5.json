@@ -43,8 +43,6 @@
             {"place": 10, "team": "BOUS", "w":  7, "d": 3, "l": 12, "f":  33, "a":  67, "pts_win": 2, "season": "1952-53", "level": 5, "series": 2, "league": "3. Division Series 2"},
             {"place": 11, "team": "HOST", "w":  4, "d": 1, "l": 17, "f":  39, "a": 113, "pts_win": 2, "season": "1952-53", "level": 5, "series": 2, "league": "3. Division Series 2"},
             {"place": 12, "team": "FCNC", "w":  2, "d": 0, "l": 20, "f":  15, "a":  80, "pts_win": 2, "season": "1952-53", "level": 5, "series": 2, "league": "3. Division Series 2"}
-        ],
-        "matches": [
         ]
     }],
     "promotion": {
