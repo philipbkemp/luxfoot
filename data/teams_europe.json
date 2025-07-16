@@ -76,6 +76,10 @@
         "IFKN": {"id": "IFK_Norrköping", "name": "Norrköping"},
         "OREB": {"id": "Örebro_SK", "name": "Örebro"}
     },
+    "WAL": {
+        "_country": "Wales",
+        "TNST": {"id": "The_New_Saints_F.C.", "name": "The New Saints"}
+    },
     "WDE": {
         "_country": "West Germany",
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}

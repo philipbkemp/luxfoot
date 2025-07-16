@@ -2756,7 +2756,7 @@
 		},
 		"europe": {
 			"champions_league": {"name":"Champions League",	"season":"2025-26","teams":["DIFF"]},
-			"conference_league": {"name":"Conference League","season":"2025-26","teams":["F91D","UNAS","RACE"]}
+			"conference_league": {"name":"Conference League","season":"2025-26","teams":["F91D","UNAS","RACE","DIFF"]}
 		}
 	}
 ]
