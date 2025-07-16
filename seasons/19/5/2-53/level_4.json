@@ -1,0 +1,56 @@
+{
+    "level": 4,
+	"season": "1952-53",
+    "links": {
+        "next": "1953-54",
+        "prev": "1951-52",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARBD","ATBS","BWMD","JGIL","JUNG","LARD","RHDS","SRED","TSVG","VICR","WWMP"],
+        "standings": [
+            {"place":  1, "team": "ARBD", "w": 15, "d": 3, "l":  2, "f": 81, "a": 21, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "BWMD", "w": 14, "d": 2, "l":  4, "f": 76, "a": 33, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "SRED", "w": 11, "d": 3, "l":  6, "f": 48, "a": 40, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "VICR", "w": 10, "d": 4, "l":  6, "f": 58, "a": 39, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "ATBS", "w":  9, "d": 3, "l":  8, "f": 54, "a": 49, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "WWMP", "w":  8, "d": 3, "l":  9, "f": 58, "a": 54, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "TSVG", "w":  8, "d": 3, "l":  9, "f": 35, "a": 57, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "JUNG", "w":  8, "d": 2, "l": 10, "f": 41, "a": 50, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "LARD", "w":  7, "d": 2, "l": 11, "f": 58, "a": 72, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "JGIL", "w":  5, "d": 2, "l": 13, "f": 30, "a": 61, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1953-54", "level": 5, "name": "3. Division"}},
+            {"place": 11, "team": "RHDS", "w":  1, "d": 1, "l": 18, "f": 22, "a": 85, "pts_win": 2, "season": "1952-53", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1953-54", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["HAGN","JHTC","JSKH","KWRM","LRNZ","MDCG","OYMP","SNEM","SPST","SYRA","UMRT","EGWM"],
+        "standings": [
+            {"place":  1, "team": "SNEM", "w": 14, "d": 3, "l":  5, "f": 70, "a": 41, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "EGWM", "w": 12, "d": 6, "l":  4, "f": 78, "a": 33, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "JHTC", "w": 12, "d": 4, "l":  6, "f": 48, "a": 32, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "JSKH", "w": 12, "d": 3, "l":  7, "f": 82, "a": 46, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "MDCG", "w":  9, "d": 8, "l":  5, "f": 61, "a": 50, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "OYMP", "w": 10, "d": 6, "l":  6, "f": 45, "a": 44, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "SPST", "w":  9, "d": 4, "l":  9, "f": 45, "a": 42, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "UMRT", "w":  9, "d": 2, "l": 11, "f": 61, "a": 68, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "KWRM", "w":  6, "d": 5, "l": 11, "f": 51, "a": 69, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "LRNZ", "w":  6, "d": 4, "l": 12, "f": 33, "a": 58, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "SYRA", "w":  5, "d": 4, "l": 13, "f": 32, "a": 60, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1953-54", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "HAGN", "w":  2, "d": 3, "l": 17, "f": 30, "a": 93, "pts_win": 2, "season": "1952-53", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1953-54", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["ARBD","BWMD","SNEM","EGWM"],
+        "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["JGIL","RHDS","SYRA","HAGN"],
+        "target": {"season": "1953-54", "level": 5, "name": "3. Division"}
+    }
+}

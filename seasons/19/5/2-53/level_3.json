@@ -1,0 +1,57 @@
+{
+    "level": 3,
+	"season": "1952-53",
+    "links": {
+        "next": "1953-54",
+        "prev": "1951-52",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ASTN","AWDG","BVAT","GOLD","JBIW","JSCH","KOPS","MARM","MINL","OVND","RUPL","USND"],
+        "standings": [
+            {"place":  1, "team": "KOPS", "w": 19, "d": 1, "l":  2, "f": 92, "a":  22, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "MINL", "w": 18, "d": 2, "l":  2, "f": 90, "a":  23, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "MARM", "w":  9, "d": 7, "l":  6, "f": 40, "a":  37, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  4, "team": "ASTN", "w":  9, "d": 4, "l":  9, "f": 62, "a":  52, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  5, "team": "AWDG", "w":  8, "d": 6, "l":  8, "f": 51, "a":  51, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "OVND", "w":  8, "d": 6, "l":  8, "f": 47, "a":  53, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "USND", "w":  6, "d": 7, "l":  9, "f": 42, "a":  41, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "JBIW", "w":  7, "d": 5, "l": 10, "f": 41, "a":  48, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  9, "team": "RUPL", "w":  8, "d": 2, "l": 12, "f": 41, "a":  56, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 10, "team": "GOLD", "w":  6, "d": 6, "l": 10, "f": 38, "a":  61, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 11, "team": "JSCH", "w":  7, "d": 2, "l": 13, "f": 41, "a":  58, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1953-54", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "BVAT", "w":  2, "d": 2, "l": 18, "f": 25, "a": 108, "pts_win": 2, "season": "1952-53", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1953-54", "level": 4, "name": "2. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","BWIT","CSHL","HAMM","LUNA","MAMR","MDLB","RBAS","SAND","SWFT","UBSH","UNAS"],
+        "standings": [
+            {"place":  1, "team": "CSHL", "w": 17, "d": 2, "l":  3, "f": 82, "a": 26, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "HAMM", "w": 15, "d": 4, "l":  3, "f": 60, "a": 21, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1953-54", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "MAMR", "w": 14, "d": 2, "l":  6, "f": 62, "a": 34, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  4, "team": "UNAS", "w": 11, "d": 4, "l":  7, "f": 54, "a": 42, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  5, "team": "RBAS", "w":  9, "d": 5, "l":  8, "f": 46, "a": 37, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  6, "team": "SAND", "w":  8, "d": 6, "l":  8, "f": 41, "a": 39, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  7, "team": "AREM", "w":  7, "d": 4, "l": 11, "f": 52, "a": 62, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  8, "team": "SWFT", "w":  7, "d": 4, "l": 11, "f": 36, "a": 67, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  9, "team": "LUNA", "w":  6, "d": 5, "l": 11, "f": 45, "a": 60, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 10, "team": "BWIT", "w":  6, "d": 4, "l": 12, "f": 38, "a": 62, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 11, "team": "MDLB", "w":  5, "d": 3, "l": 14, "f": 36, "a": 69, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1953-54", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "UBSH", "w":  4, "d": 3, "l": 15, "f": 39, "a": 72, "pts_win": 2, "season": "1952-53", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1953-54", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["KOPS","MINL","CSHL","HAMM"],
+        "target": {"season": "1953-54", "level": 2, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["JSCH","BVAT","MDLB","UBSH"],
+        "target": {"season": "1953-54", "level": 4, "name": "2. Division"}
+    }
+}

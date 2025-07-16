@@ -12,7 +12,21 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "missing" :true
+        "teams": ["ARIS","AVBG","BBML","CGRV","DARE","ETZE","JWAS","PROG","RBPF","RPDN","WALF","YBDK"],
+        "standings": [
+            {"place":  1, "team": "CGRV", "w": 14, "d": 6, "l":  2, "f": 69, "a": 19, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1953-54", "level": 1, "name": "Honour Division"}},
+            {"place":  2, "team": "RBPF", "w": 12, "d": 3, "l":  7, "f": 57, "a": 41, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  3, "team": "PROG", "w":  9, "d": 7, "l":  6, "f": 52, "a": 46, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  4, "team": "WALF", "w": 11, "d": 2, "l":  9, "f": 51, "a": 44, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  5, "team": "YBDK", "w":  9, "d": 5, "l":  8, "f": 49, "a": 43, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  6, "team": "AVBG", "w": 10, "d": 3, "l":  9, "f": 41, "a": 51, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  7, "team": "JWAS", "w":  8, "d": 5, "l":  9, "f": 41, "a": 43, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  8, "team": "BBML", "w":  7, "d": 6, "l":  9, "f": 39, "a": 38, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place":  9, "team": "ARIS", "w":  6, "d": 8, "l":  8, "f": 53, "a": 54, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place": 10, "team": "ETZE", "w":  6, "d": 8, "l":  8, "f": 32, "a": 49, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1"},
+            {"place": 11, "team": "RPDN", "w":  5, "d": 5, "l": 12, "f": 34, "a": 61, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}},
+            {"place": 12, "team": "DARE", "w":  4, "d": 4, "l": 14, "f": 32, "a": 61, "pts_win": 2, "season": "1952-53", "level": 2, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
@@ -33,11 +47,11 @@
         ]
     }],
     "promotion": {
-        "teams": ["USDD"],
+        "teams": ["USDD","CGRV"],
         "target": {"season": "1953-54", "level": 1, "name": "Honour Division"}
     },
     "relegation": {
-        "teams": ["SCBT","UESH"],
+        "teams": ["SCBT","UESH","RPDN","DARE"],
         "target": {"season": "1953-54", "level": 3, "name": "The Promotion"}
     }
 }

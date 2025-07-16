@@ -1,0 +1,28 @@
+{
+    "season": "1952-53",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1953-54",
+        "prev": "1951-52"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1953-01-25","season": "1952-53","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "UMRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "GOLD", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-2","note":"Replayed"},
+            {"date":"1953-03-15","season": "1952-53","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "UMRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "GOLD", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"},
+			{"date":"1953-01-25","season": "1952-53","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "MINL", "homeDivision": {"level":4,"name":"2. Division"},"away": "RBAS", "awayDivision": {"level":3,"name":"The Promotion"},"score":"0-4"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1953-04-12","season": "1952-53","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Endspiele am 12 April und 07 Juni 1953"},"home": "RBAS", "homeDivision": {"level":3,"name":"The Promotion"},"away": "UMRT", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-1","note":"Replayed"},
+            {"date":"1953-06-07","season": "1952-53","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Endspiele am 12 April und 07 Juni 1953"},"home": "RBAS", "homeDivision": {"level":3,"name":"The Promotion"},"away": "UMRT", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-2"}
+        ]
+    }],
+    "winner": "UMRT",
+    "title_count": 1
+}
