@@ -677,27 +677,27 @@
 	},{
 		"season": "1953-54",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1953-54", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 4, "double": true},
-			"level_2": {"missing":true,"season": "1953-54", "level":  2, "name": "1. Division", "series": [
-			    {"missing":true,"season": "1953-54", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "RROD"},
-				{"missing":true,"season": "1953-54", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "ADUD"}
+			"level_1": {"season": "1953-54", "level":  1, "name": "Honour Division", "winner": "JESH", "title_count": 4, "double": true},
+			"level_2": {"season": "1953-54", "level":  2, "name": "1. Division", "series": [
+			    {"season": "1953-54", "level":  2, "series":  1, "name": "1. Division Series 1"},
+				{"season": "1953-54", "level":  2, "series":  2, "name": "1. Division Series 2"}
 			]},
-			"level_3": {"missing":true,"season": "1953-54", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1953-54", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "RPDN"},
-				{"missing":true,"season": "1953-54", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "SCBT"}
+			"level_3": {"season": "1953-54", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1953-54", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1953-54", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1953-54", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1953-54", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "JSCH"},
-				{"missing":true,"season": "1953-54", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JHTC"}
+			"level_4": {"season": "1953-54", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1953-54", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1953-54", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1953-54", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1953-54", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "CLVX"},
-				{"missing":true,"season": "1953-54", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JHSD"}
+			"level_5": {"season": "1953-54", "level":  5, "name": "3. Division", "series": [
+				{"season": "1953-54", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1953-54", "level":  5, "series":  2, "name": "3. Division Series 2"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1953-54", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 4, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1953-54", "name": "Coupe FLF", "winner": "JSKH", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":2,"series_name":"2. Division Series 2"}}
+			"cup_luxembourg": {"season": "1953-54", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 4, "double": true, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1953-54", "name": "Coupe FLF", "winner": "JSKH", "title_count": 1, "winner_division": {"level": 4,"name": "2. Division","series":2,"series_name":"2. Division Series 2"}}
 		}
 	},{
 		"season": "1954-55",

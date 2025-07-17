@@ -1,0 +1,92 @@
+{
+    "season": "1953-54",
+    "cup": "cup_",
+    "name": "",
+    "links": {
+        "next": "1954-55",
+        "prev": "1952-53"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+            {"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASCH", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-2"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-1","note":"Replayed"},
+            {"date":"1953-12-03","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-0"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-1","note":"Replayed"},
+            {"date":"1953-12-03","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-2"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"1. Division"},"away": "CROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-1"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RSML", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "HAMM", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-0","note":"Replayed"},
+            {"date":"1953-12-03","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "HAMM", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-1"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "KOPS", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-3","note":"Replayed"},
+            {"date":"1953-12-03","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TLMD", "homeDivision": {"level":2,"name":"1. Division"},"away": "BBML", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-3"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "ETZE", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RROD", "homeDivision": {"level":2,"name":"1. Division"},"away": "JKYL", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-4","note":"Replayed"},
+            {"date":"1953-12-03","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-4"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSOB", "homeDivision": {"level":2,"name":"1. Division"},"away": "MINL", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-2"},
+			{"date":"1953-11-29","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CSHL", "awayDivision": {"level":2,"name":"1. Division"},"score":"9-0"},
+			{"bye":"YBDK", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"URUM", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"WALF", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"USDD", "byeDivision": {"level":1,"name":"Honour Division"}}		
+        ]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "YBDK", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-2"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "URUM", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "WALF", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-0"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "USDD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-3"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-3"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RSML", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "MINL", "awayDivision": {"level":2,"name":"1. Division"},"score":"8-1"},
+			{"season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"},
+			{"bye":"JWAS", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"RBPF", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"BBML", "byeDivision": {"level":2,"name":"1. Division"}},
+			{"bye":"CPET", "byeDivision": {"level":2,"name":"1. Division"}}
+		]
+    },{
+        "key": "RI",
+        "name": "Intermediate round",
+        "matches": [
+        	{"date":"1953-12-13","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "YBDK", "homeDivision": {"level":2,"name":"1. Division"},"away": "JWAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-3"},
+			{"date":"1953-12-13","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBPF", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-0"},
+			{"date":"1953-12-13","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "BBML", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-1"},
+			{"date":"1953-12-13","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Intermediate Round"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CPET", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1953-12-20","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "YBDK", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1953-12-20","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RSML", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-3"},
+			{"date":"1953-12-20","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1"},
+			{"date":"1953-12-20","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "USDD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-2"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1953-02-14","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RROD", "homeDivision": {"level":2,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"},
+			{"date":"1953-02-14","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RSML", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-1","note":"Replayed"},
+            {"date":"1953-03-21","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "RSML", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-5"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+        	{"date":"1953-05-30","season": "1953-54","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CGRV", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-0"}
+        ]
+    }],
+    "winner": "JESH",
+    "title_count": 4
+}

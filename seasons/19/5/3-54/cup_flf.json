@@ -1,0 +1,19 @@
+{
+    "season": "1953-54",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1954-55",
+        "prev": "1952-53"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1954-02-14","season": "1953-54","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "JSKH", "homeDivision": {"level":4,"name":"2. Division"},"away": "EGWM", "awayDivision": {"level":3,"name":"The Promotion"},"score":"2-0"}
+        ]
+    }],
+    "winner": "JSKH",
+    "title_count": 1
+}

@@ -1,0 +1,53 @@
+{
+    "level": 5,
+	"season": "1953-54",
+    "links": {
+        "next": "1954-55",
+        "prev": "1952-53",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","BAST","CLVX","FRTA","JGIL","JOSP","JUSE","OBCN","REIS","UFLN"],
+        "standings": [
+            {"place":  1, "team": "CLVX", "w": 16, "d": 1, "l":  1, "f":  93, "a": 19, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1954-55", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "JUSE", "w": 15, "d": 1, "l":  2, "f": 103, "a": 45, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1954-55", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "FRTA", "w": 10, "d": 1, "l":  7, "f":  59, "a": 52, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1", "playoff":"promotion", "promoted": true, "target": {"season": "1954-55", "level": 4, "name": "2. Division"}},
+            {"place":  4, "team": "OBCN", "w":  9, "d": 2, "l":  7, "f":  45, "a": 52, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  5, "team": "JOSP", "w":  8, "d": 3, "l":  7, "f":  70, "a": 61, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  6, "team": "BAST", "w":  7, "d": 3, "l":  8, "f":  48, "a": 48, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  7, "team": "UFLN", "w":  6, "d": 2, "l": 10, "f":  35, "a": 66, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  8, "team": "AHOS", "w":  4, "d": 3, "l": 11, "f":  34, "a": 54, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  9, "team": "JGIL", "w":  4, "d": 1, "l": 13, "f":  27, "a": 81, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "REIS", "w":  2, "d": 1, "l": 15, "f":  19, "a": 55, "pts_win": 2, "season": "1953-54", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASLX","BDBB","HAGN","HOBS","HOST","JHSD","KHLN","MUNS","SYRA","USMM"],
+        "standings": [
+            {"place":  1, "team": "JHSD", "w": 14, "d": 3, "l":  1, "f": 67, "a": 28, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1954-55", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "HOST", "w": 10, "d": 6, "l":  2, "f": 45, "a": 40, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1954-55", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "ASLX", "w": 12, "d": 1, "l":  5, "f": 80, "a": 43, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2", "playoff":"promotion"},
+            {"place":  4, "team": "HOBS", "w":  8, "d": 4, "l":  6, "f": 48, "a": 44, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  5, "team": "BDBB", "w":  7, "d": 2, "l":  9, "f": 38, "a": 38, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  6, "team": "KHLN", "w":  6, "d": 4, "l":  8, "f": 46, "a": 46, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  7, "team": "SYRA", "w":  5, "d": 5, "l":  8, "f": 40, "a": 48, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  8, "team": "USMM", "w":  6, "d": 0, "l": 12, "f": 41, "a": 64, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  9, "team": "MUNS", "w":  4, "d": 4, "l": 10, "f": 28, "a": 47, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 10, "team": "HAGN", "w":  3, "d": 1, "l": 14, "f": 29, "a": 64, "pts_win": 2, "season": "1953-54", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CLVX","JUSE","FRTA","JHSD","HOST"],
+        "target": {"season": "1954-55", "level": 4, "name": "2. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"home":"FRTA","away":"ASLX","score":"4-1","season":"1953-54","competition":{"type":"league","level": 5,"name": "3. Division","playoff":"promotion"},"homeDivision":{"level":5,"series":2,"name":"3. Division Series 2"},"awayDivision":{"level":5,"series":2,"name":"3. Division Series 2"},"outcome":"FRTA promoted to TARGET", "target": {"season": "1954-55", "level": 4, "name": "2. Division"}}
+        ]
+    }
+}
