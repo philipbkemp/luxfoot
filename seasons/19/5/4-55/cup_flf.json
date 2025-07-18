@@ -1,0 +1,21 @@
+{
+    "season": "1954-55",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "1955-56",
+        "prev": "1953-54"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "MM",
+        "name": "Matches",
+        "matches": [
+            {"date":"1955-01-09","season": "1954-55","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Matches"},"home": "BWMD", "homeDivision": {"level":3,"name":"The Promotion"},"away": "RBAS", "awayDivision": {"level":3,"name":"The Promotion"},"leg":0,"score":"0-1"},
+            {"date":"1955-03-27","season": "1954-55","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Matches"},"home": "RBAS", "homeDivision": {"level":3,"name":"The Promotion"},"away": "AREM", "awayDivision": {"level":3,"name":"The Promotion"},"leg":0,"score":"2-4"},
+            {"date":"1955-04-17","season": "1954-55","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Matches"},"home": "BWMD", "homeDivision": {"level":3,"name":"The Promotion"},"away": "AREM", "awayDivision": {"level":3,"name":"The Promotion"},"leg":0,"score":"0-10","note":"AREM declared winner"}
+        ]
+    }],
+    "winner": "AREM",
+    "title_count": 1
+}

@@ -1,0 +1,62 @@
+{
+    "level": 4,
+	"season": "1954-55",
+    "links": {
+        "next": "1955-56",
+        "prev": "1953-54",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["BSSW","BVAT","CLVX","FRTA","JBIW","JUNG","JUSE","PRTZ","RUPL","SRED","TSVG","VICR"],
+        "standings": [
+            {"place":  1, "team": "CLVX", "w": 17, "d": 3, "l":  2, "f": 108, "a": 37, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1955-56", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "TSVG", "w": 16, "d": 3, "l":  3, "f": 102, "a": 39, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1955-56", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "BVAT", "w": 14, "d": 3, "l":  5, "f":  79, "a": 43, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "VICR", "w": 10, "d": 4, "l":  8, "f":  54, "a": 50, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "BSSW", "w": 11, "d": 2, "l":  9, "f":  53, "a": 68, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "JBIW", "w":  8, "d": 5, "l":  9, "f":  52, "a": 49, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "FRTA", "w":  9, "d": 0, "l": 13, "f":  57, "a": 86, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "SRED", "w":  7, "d": 3, "l": 12, "f":  60, "a": 75, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "JUSE", "w":  6, "d": 4, "l": 12, "f":  65, "a": 75, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "JUNG", "w":  5, "d": 4, "l": 13, "f":  33, "a": 69, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1", "playoff":"relegation"},
+            {"place": 11, "team": "RUPL", "w":  6, "d": 2, "l": 14, "f":  55, "a": 79, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1", "playoff":"relegation", "relegated": true, "target": {"season": "1955-56", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "PRTZ", "w":  5, "d": 3, "l": 14, "f":  44, "a": 92, "pts_win": 2, "season": "1954-55", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1955-56", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["BWIT","HOST","JHSD","JSKH","KWRM","LRNZ","MDCG","SBRT","SPST","TRIG","UBSH","UESH"],
+        "standings": [
+            {"place":  1, "team": "UBSH", "w": 18, "d": 3, "l":  1, "f": 120, "a":  31, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1955-56", "level": 3, "name": "The Promotion"}},
+            {"place":  2, "team": "KWRM", "w": 15, "d": 3, "l":  4, "f":  90, "a":  36, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1955-56", "level": 3, "name": "The Promotion"}},
+            {"place":  3, "team": "SBRT", "w": 14, "d": 1, "l":  7, "f":  76, "a":  42, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "BWIT", "w": 11, "d": 5, "l":  6, "f":  70, "a":  41, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "LRNZ", "w": 11, "d": 4, "l":  7, "f":  55, "a":  42, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "TRIG", "w": 11, "d": 2, "l":  9, "f":  77, "a":  53, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "UESH", "w": 11, "d": 2, "l":  9, "f":  77, "a":  54, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "JSKH", "w":  8, "d": 6, "l":  8, "f":  63, "a":  72, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "MDCG", "w":  4, "d": 7, "l": 11, "f":  49, "a":  64, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "SPST", "w":  5, "d": 5, "l": 12, "f":  46, "a":  66, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "HOST", "w":  3, "d": 2, "l": 17, "f":  34, "a":  98, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1955-56", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "JHSD", "w":  0, "d": 2, "l": 20, "f":  20, "a": 178, "pts_win": 2, "season": "1954-55", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1955-56", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CLVX","TSVG","UBSH","KWRM"],
+        "target": {"season": "1955-56", "level": 3, "name": "The Promotion"}
+    },
+    "relegation": {
+        "teams": ["RUPL","PRTZ","HOST","JHSD"],
+        "target": {"season": "1955-56", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "relegation": [
+            {"home":"JUNG","away":"RUPL","score":"3-2","season":"1954-55","competition":{"type":"league","level": 4, "series": 1,"name": "2. Division Series 1", "playoff":"relegation"},"outcome":"RUPL relegated to TARGET","target":{"season": "1955-56", "level": 5, "name": "3. Division"}}
+        ]
+    }
+}

@@ -14,30 +14,44 @@
         "name": "Series 1",
         "teams": ["ARBD","ASTN","AWDG","BWMD","GOLD","JSCH","KOPS","MANC","MARM","MINL","OVND","USND"],
         "standings": [
-            {"place": 1, "team": "KOPS", "w": 17, "d": 1, "l": 4, "f": 88, "a": 29, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1955-56", "level": 2, "name": "1. Division"}},
-            {"place": 2, "team": "MINL", "w": 14, "d": 3, "l": 5, "f": 59, "a": 31, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1955-56", "level": 2, "name": "1. Division"}},
-            {"place": 3, "team": "AWDG", "w": 13, "d": 3, "l": 6, "f": 64, "a": 38, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 4, "team": "ARBD", "w": 11, "d": 4, "l": 7, "f": 41, "a": 43, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 5, "team": "USND", "w": 12, "d": 1, "l": 9, "f": 58, "a": 41, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 6, "team": "MANC", "w": 10, "d": 4, "l": 8, "f": 53, "a": 57, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 7, "team": "OVND", "w": 9, "d": 2, "l": 11, "f": 53, "a": 58, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 8, "team": "BWMD", "w": 7, "d": 6, "l": 9, "f": 43, "a": 51, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 9, "team": "JSCH", "w": 9, "d": 1, "l": 12, "f": 51, "a": 51, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 10, "team": "MARM", "w": 6, "d": 5, "l": 11, "f": 32, "a": 48, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
-            {"place": 11, "team": "ASTN", "w": 4, "d": 3, "l": 15, "f": 38, "a": 92, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1955-56", "level": 4, "name": "3. Division"}},
-            {"place": 12, "team": "GOLD", "w": 2, "d": 3, "l": 17, "f": 33, "a": 74, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1955-56", "level": 4, "name": "3. Division"}}
-        ],
-        "promoted": {
-            "teams": ["KOPS","MINL"],
-            "target": {"season": "1955-56", "level": 2, "name": "1. Division"}
-        },
-        "relegated": {
-            "teams": ["ASTN","GOLD"],
-            "target": {"season": "1955-56", "level": 4, "name": "3. Division"}
-        }
+            {"place":  1, "team": "KOPS", "w": 17, "d": 1, "l":  4, "f": 88, "a": 29, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1955-56", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "MINL", "w": 14, "d": 3, "l":  5, "f": 59, "a": 31, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1955-56", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "AWDG", "w": 13, "d": 3, "l":  6, "f": 64, "a": 38, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  4, "team": "ARBD", "w": 11, "d": 4, "l":  7, "f": 41, "a": 43, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  5, "team": "USND", "w": 12, "d": 1, "l":  9, "f": 58, "a": 41, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "MANC", "w": 10, "d": 4, "l":  8, "f": 53, "a": 57, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "OVND", "w":  9, "d": 2, "l": 11, "f": 53, "a": 58, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "BWMD", "w":  7, "d": 6, "l":  9, "f": 43, "a": 51, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  9, "team": "JSCH", "w":  9, "d": 1, "l": 12, "f": 51, "a": 51, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 10, "team": "MARM", "w":  6, "d": 5, "l": 11, "f": 32, "a": 48, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 11, "team": "ASTN", "w":  4, "d": 3, "l": 15, "f": 38, "a": 92, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1955-56", "level": 4, "name": "3. Division"}},
+            {"place": 12, "team": "GOLD", "w":  2, "d": 3, "l": 17, "f": 33, "a": 74, "pts_win": 2, "season": "1954-55", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1955-56", "level": 4, "name": "3. Division"}}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
-    }]
+        "teams": ["AREM","CSHL","EGWM","JHTC","JKYL","LUNA","RBAS","SAND","SNEM","SWFT","UMRT","UNAS"],
+        "standings": [
+            {"place":  1, "team": "AREM", "w": 13, "d": 7, "l":  2, "f": 69, "a": 36, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1955-56", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "RBAS", "w": 13, "d": 5, "l":  4, "f": 65, "a": 41, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1955-56", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "UMRT", "w": 13, "d": 4, "l":  5, "f": 70, "a": 58, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place":  4, "team": "JKYL", "w": 11, "d": 5, "l":  6, "f": 60, "a": 43, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place":  5, "team": "SNEM", "w":  7, "d": 8, "l":  7, "f": 58, "a": 55, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place":  6, "team": "EGWM", "w":  8, "d": 6, "l":  8, "f": 44, "a": 43, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place":  7, "team": "UNAS", "w":  9, "d": 2, "l": 11, "f": 49, "a": 52, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place":  8, "team": "SAND", "w":  7, "d": 4, "l": 11, "f": 42, "a": 48, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place":  9, "team": "SWFT", "w":  7, "d": 4, "l": 11, "f": 45, "a": 60, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place": 10, "team": "JHTC", "w":  6, "d": 6, "l": 10, "f": 38, "a": 52, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2"},
+            {"place": 11, "team": "CSHL", "w":  5, "d": 5, "l": 12, "f": 54, "a": 88, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1955-56", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "LUNA", "w":  3, "d": 4, "l": 15, "f": 28, "a": 46, "pts_win": 2, "season": "1954-55", "level": 3, "series":2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1955-56", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["KOPS","MINL","AREM","RBAS"],
+        "target": {"season": "1955-56", "level": 2, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["ASTN","GOLD","CSHL","LUNA"],
+        "target": {"season": "1955-56", "level": 4, "name": "3. Division"}
+    }
 }

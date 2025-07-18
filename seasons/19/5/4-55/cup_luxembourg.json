@@ -1,0 +1,83 @@
+{
+    "season": "1954-55",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1955-56",
+        "prev": "1953-54"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+        	{"date":"1954-09-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "RBPF", "homeDivision": {"level":2,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"},
+			{"date":"1954-09-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-3"},
+			{"date":"1954-09-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "DARE", "awayDivision": {"level":2,"name":"1. Division"},"score":"7-1"}
+		]
+    },{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JESH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-0"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SPOR", "homeDivision": {"level":2,"name":"1. Division"},"away": "SCBT", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-0"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TLMD", "homeDivision": {"level":2,"name":"1. Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-9"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-2"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-2","note":"Replayed"},
+            {"date":"1954-12-15","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AVBG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-1"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ETZE", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-0","forfeit":true},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JWAS", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-1"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ADUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-2"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASDF", "homeDivision": {"level":2,"name":"1. Division"},"away": "USDD", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"1. Division"},"away": "WALF", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-3"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CROD", "homeDivision": {"level":2,"name":"1. Division"},"away": "RSML", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CPET", "homeDivision": {"level":2,"name":"1. Division"},"away": "BBML", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HAMM", "homeDivision": {"level":2,"name":"1. Division"},"away": "YBDK", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-6"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-1"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-0"},
+			{"date":"1954-12-12","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASCH", "homeDivision": {"level":2,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ASDF", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-0"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SPOR", "homeDivision": {"level":2,"name":"1. Division"},"away": "WALF", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-0"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RSML", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-3","note":"Replayed"},
+            {"date":"1954-12-22","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RSML", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "BBML", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-0"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "YBDK", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-1"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-1","note":"Replayed"},
+            {"date":"1954-12-25","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-3"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBDF", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ARIS", "awayDivision": {"level":2,"name":"1. Division"},"score":"3-0"},
+			{"date":"1954-12-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CGRV", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-3"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+         	{"date":"1955-01-02","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-0"},
+			{"date":"1955-01-02","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":2,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-1"},
+			{"date":"1955-01-02","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "RSML", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"},
+			{"date":"1955-01-02","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+           	{"season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-0","note":"Replayed"},
+            {"season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"},
+			{"season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-1","note":"Replayed"},
+			{"season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-3"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1955-06-05","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-1","aet":true,"note":"Replayed"},
+            {"date":"1955-06-19","season": "1954-55","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1"}
+        ]
+    }],
+    "winner": "FOLA",
+    "title_count": 3
+}

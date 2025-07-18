@@ -703,26 +703,26 @@
 		"season": "1954-55",
 		"leagues": {
 			"level_1": {"season": "1954-55", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 8},
-			"level_2": {"missing":true,"season": "1954-55", "level":  2, "name": "1. Division", "series": [
-			    {"missing":true,"season": "1954-55", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "SPOR"},
-				{"missing":true,"season": "1954-55", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "CROD"}
+			"level_2": {"season": "1954-55", "level":  2, "name": "1. Division", "series": [
+			    {"season": "1954-55", "level":  2, "series":  1, "name": "1. Division Series 1"},
+				{"season": "1954-55", "level":  2, "series":  2, "name": "1. Division Series 2"}
 			]},
 			"level_3": {"season": "1954-55", "level":  3, "name": "The Promotion", "series": [
-			    {"season": "1954-55", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "KOPS"},
-				{"missing":true,"season": "1954-55", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "AREM"}
+			    {"season": "1954-55", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1954-55", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1954-55", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1954-55", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "CLVX"},
-				{"missing":true,"season": "1954-55", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "UBSH"}
+			"level_4": {"season": "1954-55", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1954-55", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1954-55", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1954-55", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1954-55", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "JOSP"},
-				{"missing":true,"season": "1954-55", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MDLB"}
+			"level_5": {"season": "1954-55", "level":  5, "name": "3. Division", "series": [
+				{"season": "1954-55", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1954-55", "level":  5, "series":  2, "name": "3. Division Series 2"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1954-55", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1954-55", "name": "Coupe FLF", "winner": "AREM", "title_count": 1, "winner_division": {"level": 3,"name": "The Promotion","series":2,"series_name":"The Promotion Series 2"}}
+			"cup_luxembourg": {"season": "1954-55", "name": "Luxembourg Cup", "winner": "FOLA", "title_count": 3, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1954-55", "name": "Coupe FLF", "winner": "AREM", "title_count": 1, "winner_division": {"level": 3,"name": "The Promotion","series":2,"series_name":"The Promotion Series 2"}}
 		}
 	},{
 		"season": "1955-56",
