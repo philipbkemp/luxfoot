@@ -340,7 +340,7 @@ function drawMatch(match,highlightWinner=false) {
 			.replaceAll(match.home,allTeams[match.home])
 			.replaceAll(match.away,allTeams[match.away])
 			;
-		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(match.note);
+		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theMatchNote);
 		matchNoteRow.append(matchNote);
 		matchObj.append(matchNoteRow);
 		removeKey("match.note");
