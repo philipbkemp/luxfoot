@@ -47,8 +47,8 @@
                     {"isEurope":true,"date":"2025-07-31","leg":2,"home":"UNAS","away":"SCO:DNDU","score":"v","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2}}
                 ],
                 "DIFF": [
-                    {"isEurope":true,"date":"2025-07-24","leg":1,"home":"WAL:TNST","away":"DIFF","score":"v","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},
-                    {"isEurope":true,"date":"2025-07-31","leg":2,"home":"DIFF","away":"WAL:TNST","score":"v","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2}}
+                    {"isEurope":true,"date":"2025-07-23","leg":1,"home":"WAL:TNST","away":"DIFF","score":"v","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":1}},
+                    {"isEurope":true,"date":"2025-07-29","leg":2,"home":"DIFF","away":"WAL:TNST","score":"v","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R2","leg":2}}
                 ]
             }
         }]
