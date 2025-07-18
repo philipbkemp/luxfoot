@@ -31,11 +31,11 @@
             "matches": {
                 "F91D": [
                     {"isEurope":true,"date":"2025-07-10","leg":1,"home":"AND:ESCD","away":"F91D","score":"2-0","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":1}},
-                    {"isEurope":true,"date":"2025-07-17","leg":2,"home":"F91D","away":"AND:ESCD","score":"-","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":2}}
+                    {"isEurope":true,"date":"2025-07-17","leg":2,"home":"F91D","away":"AND:ESCD","score":"2-3","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":2},"agg":{"score":"2-5","outcome":"L","team":"F91D"}}
                 ],
                 "RACE": [
                     {"isEurope":true,"date":"2025-07-10","leg":1,"home":"RACE","away":"GEO:DILA","score":"1-2","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":1}},
-                    {"isEurope":true,"date":"2025-07-17","leg":2,"home":"GEO:DILA","away":"RACE","score":"-","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":2}}
+                    {"isEurope":true,"date":"2025-07-17","leg":2,"home":"GEO:DILA","away":"RACE","score":"0-1","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R1","leg":2},"agg":{"score":"1-3","outcome":"L","team":"RACE"}}
                 ]
             }
         },{
