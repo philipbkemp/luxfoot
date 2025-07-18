@@ -50,7 +50,7 @@
     },
     "playoffs": {
         "title": [
-            {"home":"MDLB","away":"OYMP","score":"1-0","season":"1954-55","competition":{"type":"league","level": 5, "series": 2,"name": "3. Division Series 2", "playoff":"title"},"outcome":"MLDB delcared champion, both teams promoted to TARGET","target":{"season": "1955-56", "level": 4, "name": "2. Division"}}
+            {"home":"MDLB","away":"OYMP","score":"1-0","season":"1954-55","competition":{"type":"league","level": 5, "series": 2,"name": "3. Division Series 2", "playoff":"title"},"outcome":"MDLB delcared champion, both teams promoted to TARGET","target":{"season": "1955-56", "level": 4, "name": "2. Division"}}
         ]
     }
 }
