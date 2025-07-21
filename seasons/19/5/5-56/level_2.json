@@ -14,7 +14,7 @@
         "name": "Series 1",
         "teams": ["ARIS","AVBG","BBML","CGRV","ETZE","JWAS","KOPS","MINL","PROG","RBPF","RPDN","WALF"],
         "standings": [
-            {"place":  1, "team": "CGRV", "w": 22, "d": 0, "l":  0, "f": 111, "a":   9, "pts_win": 2, "season": "1955-56", "level": 2, "series": 1, "league": "1. Division Series 1", "promotion": true, "target": {"season": "1956-57", "level": 1, "name": "Honour Division"}},
+            {"place":  1, "team": "CGRV", "w": 22, "d": 0, "l":  0, "f": 111, "a":   9, "pts_win": 2, "season": "1955-56", "level": 2, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1956-57", "level": 1, "name": "Honour Division"}},
             {"place":  2, "team": "ARIS", "w": 12, "d": 3, "l":  7, "f":  51, "a":  44, "pts_win": 2, "season": "1955-56", "level": 2, "series": 1, "league": "1. Division Series 1"},
             {"place":  3, "team": "JWAS", "w": 12, "d": 3, "l":  7, "f":  59, "a":  52, "pts_win": 2, "season": "1955-56", "level": 2, "series": 1, "league": "1. Division Series 1"},
             {"place":  4, "team": "PROG", "w": 12, "d": 1, "l":  9, "f":  67, "a":  42, "pts_win": 2, "season": "1955-56", "level": 2, "series": 1, "league": "1. Division Series 1"},
