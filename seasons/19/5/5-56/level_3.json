@@ -1,0 +1,57 @@
+{
+    "level": 3,
+	"season": "1955-56",
+    "links": {
+        "next": "1956-57",
+        "prev": "1954-55",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARBD","AWDG","BWMD","CLVX","DARE","JSCH","MANC","MARM","OVND","TSVG","USND","YBDK"],
+        "standings": [
+            {"place":  1, "team": "YBDK", "w": 15, "d": 7, "l":  0, "f": 82, "a": 28, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1956-57", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "OVND", "w": 16, "d": 3, "l":  3, "f": 72, "a": 32, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1", "promoted": true, "target": {"season": "1956-57", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "TSVG", "w": 11, "d": 4, "l":  7, "f": 72, "a": 59, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  4, "team": "USND", "w": 10, "d": 5, "l":  7, "f": 54, "a": 48, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  5, "team": "DARE", "w": 12, "d": 1, "l":  9, "f": 57, "a": 52, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  6, "team": "AWDG", "w": 10, "d": 2, "l": 10, "f": 50, "a": 54, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  7, "team": "CLVX", "w":  9, "d": 3, "l": 10, "f": 85, "a": 73, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  8, "team": "MANC", "w":  7, "d": 5, "l": 10, "f": 57, "a": 54, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  9, "team": "BWMD", "w":  4, "d": 9, "l":  9, "f": 39, "a": 59, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 10, "team": "MARM", "w":  5, "d": 5, "l": 12, "f": 29, "a": 58, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place": 11, "team": "ARBD", "w":  3, "d": 5, "l": 14, "f": 28, "a": 57, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1956-57", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "JSCH", "w":  3, "d": 5, "l": 14, "f": 24, "a": 75, "pts_win": 2, "season": "1955-56", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1956-57", "level": 4, "name": "2. Division"}} 
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","EGWM","JHTC","JKYL","KWRM","MAMR","SAND","SNEM","SWFT","UBSH","UMRT","UNAS"],
+        "standings": [
+            {"place":  1, "team": "UBSH", "w": 15, "d": 3, "l":  4, "f": 64, "a": 38, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1956-57", "level": 2, "name": "1. Division"}},
+            {"place":  2, "team": "KWRM", "w": 15, "d": 2, "l":  5, "f": 73, "a": 42, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2", "promoted": true, "target": {"season": "1956-57", "level": 2, "name": "1. Division"}},
+            {"place":  3, "team": "UNAS", "w": 13, "d": 2, "l":  7, "f": 55, "a": 29, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  4, "team": "EGWM", "w": 11, "d": 6, "l":  5, "f": 51, "a": 38, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  5, "team": "JKYL", "w":  8, "d": 7, "l":  7, "f": 53, "a": 58, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  6, "team": "UMRT", "w":  8, "d": 5, "l":  9, "f": 57, "a": 64, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  7, "team": "ASDF", "w":  8, "d": 3, "l": 11, "f": 43, "a": 42, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  8, "team": "SAND", "w":  7, "d": 5, "l": 10, "f": 43, "a": 53, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  9, "team": "MAMR", "w":  7, "d": 3, "l": 12, "f": 43, "a": 52, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 10, "team": "SWFT", "w":  7, "d": 3, "l": 12, "f": 49, "a": 61, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place": 11, "team": "JHTC", "w":  5, "d": 5, "l": 12, "f": 34, "a": 58, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1956-57", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "SNEM", "w":  5, "d": 2, "l": 15, "f": 49, "a": 79, "pts_win": 2, "season": "1955-56", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1956-57", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["YBDK","OVND","UBSH","KWRM"],
+        "target": {"season": "1956-57", "level": 2, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["ARBD","JSCH","JHTC","SNEM"],
+        "target": {"season": "1956-57", "level": 4, "name": "2. Division"}
+    }
+}

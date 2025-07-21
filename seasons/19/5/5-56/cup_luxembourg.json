@@ -1,0 +1,80 @@
+{
+    "season": "1955-56",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1956-57",
+        "prev": "1954-55"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "PR",
+        "name": "Preliminary round",
+        "matches": [
+            {"date":"1955-08-24","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"4-1"},
+			{"date":"1955-08-24","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1"},
+			{"date":"1955-08-24","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "TLMD", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-0"},
+			{"date":"1955-08-24","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Preliminary round"},"home": "RPDN", "homeDivision": {"level":2,"name":"1. Division"},"away": "USDD", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-5"}
+        ]
+    },{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "USDD", "homeDivision": {"level":2,"name":"1. Division"},"away": "CPET", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-2","aet":true,"note":"Replayed"},
+            {"date":"1955-09-28","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "USDD", "homeDivision": {"level":2,"name":"1. Division"},"away": "CPET", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "MINL", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-4","aet":true},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JESH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"0-2"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "KOPS", "awayDivision": {"level":2,"name":"1. Division"},"score":"8-1"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "SCBT", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-1"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "AVBG", "awayDivision": {"level":2,"name":"1. Division"},"score":"5-1"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBPF", "homeDivision": {"level":2,"name":"1. Division"},"away": "ASCH", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-5"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "AREM", "homeDivision": {"level":2,"name":"1. Division"},"away": "BLVL", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ADUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-4"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-0"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RROD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RSML", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-0","aet":true},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BBML", "homeDivision": {"level":2,"name":"1. Division"},"away": "JWAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HAMM", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-3"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "WALF", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-2"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ARIS", "homeDivision": {"level":2,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"0-6"},
+			{"date":"1955-09-04","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "FOLA", "homeDivision": {"level":1,"name":"Honour Division"},"away": "ETZE", "awayDivision": {"level":2,"name":"1. Division"},"score":"6-0"}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "URUM", "homeDivision": {"level":2,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-2","aet":true,"note":"Replayed"},
+            {"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "RROD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-0"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "JWAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"10-1"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "CSOB", "awayDivision": {"level":2,"name":"1. Division"},"score":"4-0"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "PROG", "homeDivision": {"level":2,"name":"1. Division"},"away": "RBAS", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-0"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ASCH", "homeDivision": {"level":2,"name":"1. Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-7"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"2-10"},
+			{"season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "USDD", "homeDivision": {"level":2,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-2"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"date":"1955-12-18","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "USDD", "homeDivision": {"level":2,"name":"1. Division"},"away": "STET", "awayDivision": {"level":2,"name":"1. Division"},"score":"2-4"},
+			{"date":"1955-12-18","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PROG", "awayDivision": {"level":2,"name":"1. Division"},"score":"8-1"},
+			{"date":"1955-12-18","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "CGRV", "awayDivision": {"level":2,"name":"1. Division"},"score":"1-0"},
+			{"date":"1955-12-18","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"Honour Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1956-03-18","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "STET", "homeDivision": {"level":2,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"Honour Division"},"score":"1-2"},
+			{"date":"1956-03-18","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "PRON", "homeDivision": {"level":1,"name":"Honour Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"Honour Division"},"score":"5-0"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1956-05-13","season": "1955-56","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"Honour Division"},"away": "PRON", "awayDivision": {"level":1,"name":"Honour Division"},"score":"3-1","aet":true}
+        ]
+    }],
+    "winner": "SDUD",
+    "title_count": 4
+}

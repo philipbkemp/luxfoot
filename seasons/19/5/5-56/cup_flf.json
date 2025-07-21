@@ -1,0 +1,26 @@
+{
+    "season": "1955-56",
+    "cup": "cup_flf",
+    "name": "Coupe FLF",
+    "links": {
+        "next": "2010-11",
+        "prev": "1954-55"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+            {"date":"1956-03-18","season": "1955-56","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "YBDK", "homeDivision": {"level":3,"name":"The Promotion"},"away": "JKYL", "awayDivision": {"level":3,"name":"The Promotion"},"score":"5-1"},
+			{"date":"1956-03-18","season": "1955-56","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Semi Final"},"home": "SBRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "MDLB", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-0"}
+        ]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1956-05-10","season": "1955-56","competition": {"type":"cup","cup":"cup_flf","name":"Coupe FLF","round":"Final"},"home": "YBDK", "homeDivision": {"level":3,"name":"The Promotion"},"away": "SBRT", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-0"}
+        ]
+    }],
+    "winner": "YBDK",
+    "title_count": 1
+}

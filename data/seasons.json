@@ -727,27 +727,27 @@
 	},{
 		"season": "1955-56",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1955-56", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 9},
-			"level_2": {"missing":true,"season": "1955-56", "level":  2, "name": "1. Division", "series": [
-			    {"missing":true,"season": "1955-56", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "CGRV"},
-				{"missing":true,"season": "1955-56", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "STET"}
+			"level_1": {"season": "1955-56", "level":  1, "name": "Honour Division", "winner": "SPOR", "title_count": 9},
+			"level_2": {"season": "1955-56", "level":  2, "name": "1. Division", "series": [
+			    {"season": "1955-56", "level":  2, "series":  1, "name": "1. Division Series 1"},
+				{"season": "1955-56", "level":  2, "series":  2, "name": "1. Division Series 2"}
 			]},
-			"level_3": {"missing":true,"season": "1955-56", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1955-56", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "YBDK"},
-				{"missing":true,"season": "1955-56", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "UBSH"}
+			"level_3": {"season": "1955-56", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1955-56", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1955-56", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1955-56", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1955-56", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "JUSE"},
-				{"missing":true,"season": "1955-56", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "CSHL"}
+			"level_4": {"season": "1955-56", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1955-56", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1955-56", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1955-56", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1955-56", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "RUPL"},
-				{"missing":true,"season": "1955-56", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MLSV"}
+			"level_5": {"season": "1955-56", "level":  5, "name": "3. Division", "series": [
+				{"season": "1955-56", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1955-56", "level":  5, "series":  2, "name": "3. Division Series 2"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1955-56", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
-			"cup_flf": {"missing":true,"season": "1955-56", "name": "Coupe FLF", "winner": "YBDK", "title_count": 1, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
+			"cup_luxembourg": {"season": "1955-56", "name": "Luxembourg Cup", "winner": "SDUD", "title_count": 4, "winner_division": {"level": 1,"name": "Honour Division"}},
+			"cup_flf": {"season": "1955-56", "name": "Coupe FLF", "winner": "YBDK", "title_count": 1, "winner_division": {"level": 3,"name": "The Promotion","series":1,"series_name":"The Promotion Series 1"}}
 		}
 	},{
 		"season": "1956-57",
