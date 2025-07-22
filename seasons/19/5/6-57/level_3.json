@@ -1,0 +1,59 @@
+{
+    "level": 3,
+	"season": "1956-57",
+    "links": {
+        "next": "1957-58",
+        "prev": "1955-56",
+        "up": 2,
+        "down": 4
+    },
+	"name": "The Promotion",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","BVAT","BWMD","CLVX","DARE","JUSE","KOPS","MANC","MARM","MINL","TSVG","USND"],
+        "standings": [
+            {"place":  1, "team": "DARE", "w": 20, "d": 0, "l":  2, "f": 101, "a": 44, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  2, "team": "CLVX", "w": 17, "d": 2, "l":  3, "f": 107, "a": 42, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1"},
+            {"place":  3, "team": "USND", "w": 13, "d": 5, "l":  4, "f":  73, "a": 39, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  4, "team": "TSVG", "w":  9, "d": 5, "l":  8, "f":  69, "a": 61, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  5, "team": "AWDG", "w":  8, "d": 6, "l":  8, "f":  60, "a": 62, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  6, "team": "JUSE", "w":  9, "d": 3, "l": 10, "f":  60, "a": 59, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  7, "team": "KOPS", "w":  9, "d": 3, "l": 10, "f":  60, "a": 73, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  8, "team": "BVAT", "w":  7, "d": 3, "l": 12, "f":  62, "a": 71, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  9, "team": "MANC", "w":  5, "d": 7, "l": 10, "f":  45, "a": 68, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place": 10, "team": "MINL", "w":  7, "d": 3, "l": 12, "f":  36, "a": 63, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place": 11, "team": "MARM", "w":  4, "d": 6, "l": 12, "f":  45, "a": 67, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "relegated_twice": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "BWMD", "w":  2, "d": 1, "l": 19, "f":  27, "a": 96, "pts_win": 2, "season": "1956-57", "level": 3, "series": 1, "league": "The Promotion Series 1", "relegated": true, "relegated_twice": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","CSHL","CSOB","EGWM","JKYL","MAMR","RBAS","SAND","SBRT","SWFT","UMRT","UNAS"],
+        "standings": [
+            {"place":  1, "team": "CSOB", "w": 15, "d": 6, "l":  1, "f": 94, "a": 29, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  2, "team": "JKYL", "w": 13, "d": 4, "l":  5, "f": 72, "a": 38, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2"},
+            {"place":  3, "team": "UNAS", "w":  9, "d": 8, "l":  5, "f": 60, "a": 37, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  4, "team": "SWFT", "w": 10, "d": 3, "l":  9, "f": 50, "a": 54, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  5, "team": "CSHL", "w": 10, "d": 3, "l":  9, "f": 55, "a": 61, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  6, "team": "EGWM", "w":  8, "d": 6, "l":  8, "f": 48, "a": 36, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  7, "team": "ASDF", "w":  9, "d": 4, "l":  9, "f": 46, "a": 52, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  8, "team": "MAMR", "w":  8, "d": 5, "l":  9, "f": 44, "a": 56, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place":  9, "team": "RBAS", "w":  8, "d": 2, "l": 12, "f": 44, "a": 57, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place": 10, "team": "UMRT", "w":  6, "d": 5, "l": 11, "f": 45, "a": 76, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "target": {"season": "1957-58", "level": 4, "name": "2. Division"}},
+            {"place": 11, "team": "SAND", "w":  5, "d": 3, "l": 14, "f": 44, "a": 69, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "relegated_twice": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "SBRT", "w":  6, "d": 1, "l": 15, "f": 33, "a": 70, "pts_win": 2, "season": "1956-57", "level": 3, "series": 2, "league": "The Promotion Series 2", "relegated": true, "relegated_twice": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    }],
+    "relegation": {
+        "teams": ["USND","TSVG","AWDG","JUSE","KOPS","BVAT","MANC","MINL","UNAS","SWFT","CSHL","EGWM","ASDF","MAMR","RBAS","UMRT"],
+        "target": {"season": "1957-58", "level": 4, "name": "2. Division"},
+        "double": {
+            "teams": ["MARM","BWMD","SAND","SBRT"],
+            "target": {"season": "1957-58", "level": 5, "name": "3. Division"}
+        }
+    }
+}

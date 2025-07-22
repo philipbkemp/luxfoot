@@ -82,6 +82,7 @@
     },
     "WDE": {
         "_country": "West Germany",
+        "DORT": {"id": "Borussia_Dortmund", "name": "Borussia Dortmund"},
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}
     },
     "YUG": {

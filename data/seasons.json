@@ -752,30 +752,30 @@
 	},{
 		"season": "1956-57",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1956-57", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 9},
-			"level_2": {"missing":true,"season": "1956-57", "level":  2, "name": "1. Division", "series": [
-			    {"missing":true,"season": "1956-57", "level":  2, "series":  1, "name": "1. Division Series 1", "winner": "CROD"},
-				{"missing":true,"season": "1956-57", "level":  2, "series":  2, "name": "1. Division Series 2", "winner": "USDD"}
+			"level_1": {"season": "1956-57", "level":  1, "name": "Honour Division", "winner": "SDUD", "title_count": 9},
+			"level_2": {"season": "1956-57", "level":  2, "name": "1. Division", "series": [
+			    {"season": "1956-57", "level":  2, "series":  1, "name": "1. Division Series 1"},
+				{"season": "1956-57", "level":  2, "series":  2, "name": "1. Division Series 2"}
 			]},
-			"level_3": {"missing":true,"season": "1956-57", "level":  3, "name": "The Promotion", "series": [
-			    {"missing":true,"season": "1956-57", "level":  3, "series":  1, "name": "The Promotion Series 1", "winner": "DARE"},
-				{"missing":true,"season": "1956-57", "level":  3, "series":  2, "name": "The Promotion Series 2", "winner": "CSOB"}
+			"level_3": {"season": "1956-57", "level":  3, "name": "The Promotion", "series": [
+			    {"season": "1956-57", "level":  3, "series":  1, "name": "The Promotion Series 1"},
+				{"season": "1956-57", "level":  3, "series":  2, "name": "The Promotion Series 2"}
 			]},
-			"level_4": {"missing":true,"season": "1956-57", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1956-57", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "ASTN"},
-				{"missing":true,"season": "1956-57", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "SPST"}
+			"level_4": {"season": "1956-57", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1956-57", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1956-57", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1956-57", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1956-57", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "UFLN"},
-				{"missing":true,"season": "1956-57", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "OYCW"},
-				{"missing":true,"season": "1956-57", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MDCG"}
+			"level_5": {"season": "1956-57", "level":  5, "name": "3. Division", "series": [
+				{"season": "1956-57", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1956-57", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1956-57", "level":  5, "series":  3, "name": "3. Division Series 3"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1956-57", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 5, "winner_division": {"level": 1,"name": "Honour Division"}}
+			"cup_luxembourg": {"season": "1956-57", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 5, "winner_division": {"level": 1,"name": "Honour Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1956-57","name":"European Cup","teams":["SPOR"]}
+			"champions_league": {"season":"1956-57","name":"European Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1957-58",

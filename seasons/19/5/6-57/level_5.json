@@ -1,0 +1,59 @@
+{
+    "level": 5,
+	"season": "1956-57",
+    "links": {
+        "next": "1957-58",
+        "prev": "1955-56",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","BAST","BGHP","JGIL","LARD","RHDS","TWTC","UFLN"],
+        "standings": [
+            {"place": 1, "team": "UFLN", "w": 11, "d": 2, "l":  1, "f": 57, "a": 17, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 2, "team": "LARD", "w":  9, "d": 3, "l":  2, "f": 46, "a": 22, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 3, "team": "RHDS", "w":  8, "d": 1, "l":  5, "f": 40, "a": 30, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 4, "team": "BGHP", "w":  6, "d": 4, "l":  4, "f": 38, "a": 38, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 5, "team": "JGIL", "w":  5, "d": 2, "l":  7, "f": 42, "a": 41, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 6, "team": "AHOS", "w":  3, "d": 3, "l":  8, "f": 35, "a": 47, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 7, "team": "TWTC", "w":  2, "d": 4, "l":  8, "f": 30, "a": 58, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 8, "team": "BAST", "w":  2, "d": 1, "l": 11, "f": 18, "a": 53, "pts_win": 2, "season": "1956-57", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ATBS","BDBB","FRTA","HAGN","ISKA","KHLN","OBCN","OYCW","REIS"],
+        "standings": [
+            {"place": 1, "team": "OYCW", "w": 11, "d": 2, "l":  3, "f": 50, "a": 23, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 2, "team": "OBCN", "w": 10, "d": 1, "l":  5, "f": 56, "a": 34, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 3, "team": "BDBB", "w":  9, "d": 2, "l":  5, "f": 55, "a": 36, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 4, "team": "HAGN", "w":  8, "d": 3, "l":  5, "f": 55, "a": 40, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 5, "team": "ISKA", "w":  7, "d": 3, "l":  6, "f": 39, "a": 28, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 6, "team": "KHLN", "w":  8, "d": 1, "l":  7, "f": 45, "a": 39, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 7, "team": "ATBS", "w":  5, "d": 5, "l":  6, "f": 49, "a": 50, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 8, "team": "REIS", "w":  2, "d": 4, "l": 10, "f": 26, "a": 72, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 9, "team": "FRTA", "w":  1, "d": 1, "l": 14, "f": 21, "a": 74, "pts_win": 2, "season": "1956-57", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASLX","BWIT","ESHW","HOST","JHSD","MDCG","MUNS","USMM","YBWT"],
+        "standings": [
+            {"place": 1, "team": "MDCG", "w": 14, "d": 1, "l":  1, "f": 78, "a": 22, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 2, "team": "BWIT", "w": 12, "d": 2, "l":  2, "f": 83, "a": 26, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 3, "team": "HOST", "w": 11, "d": 1, "l":  4, "f": 51, "a": 35, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 4, "team": "USMM", "w":  9, "d": 1, "l":  6, "f": 40, "a": 39, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 5, "team": "MUNS", "w":  8, "d": 1, "l":  7, "f": 45, "a": 55, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 6, "team": "ASLX", "w":  5, "d": 2, "l":  9, "f": 31, "a": 42, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 7, "team": "YBWT", "w":  5, "d": 0, "l": 11, "f": 22, "a": 55, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 8, "team": "ESHW", "w":  4, "d": 0, "l": 12, "f": 28, "a": 47, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 9, "team": "JHSD", "w":  0, "d": 0, "l": 16, "f":  8, "a": 65, "pts_win": 2, "season": "1956-57", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    }]
+}

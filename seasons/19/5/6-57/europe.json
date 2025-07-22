@@ -1,0 +1,22 @@
+{
+    "season": "1956-57",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1956-57",
+        "links": {
+            "next": "1957-58"
+        },
+        "teams": ["SPOR"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "SPOR": [
+                    {"isEurope":true,"date":"1956-08-01","leg":1,"home":"WDE:DORT","away":"SPOR","score":"4-3","season":"1956-57","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1956-09-06","leg":2,"home":"SPOR","away":"WDE:DORT","score":"2-1","season":"1956-57","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2}},
+                    {"isEurope":true,"date":"1956-09-16","leg":1,"home":"WDE:DORT","away":"SPOR","score":"7-0","season":"1956-57","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":3},"agg":{"score":"0-7","outcome":"L","team":"SPOR"}}
+                ]
+            }
+        }]
+    }
+}

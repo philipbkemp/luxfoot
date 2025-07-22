@@ -1,0 +1,55 @@
+{
+    "level": 4,
+	"season": "1956-57",
+    "links": {
+        "next": "1957-58",
+        "prev": "1955-56",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARBD","ASTN","BSSW","GOLD","HOBS","JBIW","JSCH","JUNG","PRTZ","RUPL","SRED","VICR"],
+        "standings": [
+            {"place":  1, "team": "ASTN", "w": 16, "d": 5, "l":  1, "f": 64, "a": 22, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  2, "team": "SRED", "w": 17, "d": 1, "l":  4, "f": 83, "a": 32, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  3, "team": "VICR", "w": 14, "d": 6, "l":  2, "f": 66, "a": 35, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  4, "team": "RUPL", "w": 10, "d": 4, "l":  8, "f": 54, "a": 45, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  5, "team": "HOBS", "w": 10, "d": 4, "l":  8, "f": 45, "a": 38, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  6, "team": "GOLD", "w": 11, "d": 2, "l":  9, "f": 57, "a": 59, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  7, "team": "JBIW", "w":  7, "d": 8, "l":  7, "f": 52, "a": 53, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  8, "team": "ARBD", "w":  9, "d": 1, "l": 12, "f": 58, "a": 70, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "PRTZ", "w":  7, "d": 2, "l": 13, "f": 57, "a": 59, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "JSCH", "w":  6, "d": 4, "l": 12, "f": 34, "a": 59, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 11, "team": "JUNG", "w":  2, "d": 4, "l": 16, "f": 21, "a": 78, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "BSSW", "w":  2, "d": 1, "l": 19, "f": 30, "a": 71, "pts_win": 2, "season": "1956-57", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["JHTC","JSKH","LRNZ","LUNA","MDLB","MLSV","OYMP","SNEM","SPST","SYRA","TRIG","UESH"],
+        "standings": [
+            {"place":  1, "team": "SPST", "w": 15, "d": 2, "l":  5, "f": 71, "a": 55, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  2, "team": "LUNA", "w": 13, "d": 4, "l":  5, "f": 72, "a": 42, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  3, "team": "LRNZ", "w": 14, "d": 2, "l":  6, "f": 81, "a": 56, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  4, "team": "TRIG", "w": 10, "d": 7, "l":  5, "f": 58, "a": 43, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  5, "team": "UESH", "w": 11, "d": 3, "l":  8, "f": 51, "a": 45, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  6, "team": "SNEM", "w": 11, "d": 2, "l":  9, "f": 81, "a": 62, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  7, "team": "JHTC", "w":  9, "d": 4, "l":  9, "f": 56, "a": 52, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  8, "team": "MDLB", "w":  6, "d": 6, "l": 10, "f": 47, "a": 52, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place":  9, "team": "MLSV", "w":  6, "d": 6, "l": 10, "f": 49, "a": 63, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "OYMP", "w":  5, "d": 6, "l": 11, "f": 51, "a": 77, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 11, "team": "JSKH", "w":  5, "d": 5, "l": 12, "f": 56, "a": 83, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "SYRA", "w":  2, "d": 3, "l": 17, "f": 50, "a": 93, "pts_win": 2, "season": "1956-57", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1957-58", "level": 5, "name": "3. Division"}}
+        ],
+        "note": "League Pyramid restructured at end of season"
+    }],
+    "relegation": {
+        "teams": ["ARBD","BSSW","GOLD","HOBS","JBIW","JSCH","JUNG","PRTZ","RUPL","VICR","JHTC","LRNZ","LUNA","MDLB","MLSV","OYMP","SNEM","SYRA","TRIG","UESH"],
+        "target": {"season": "1957-58", "level": 5, "name": "3. Division"}
+    }
+}
