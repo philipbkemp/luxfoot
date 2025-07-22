@@ -292,6 +292,8 @@ function drawMatch(match,highlightWinner=false) {
 			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " on aggregate";
 		} else if ( match.agg.outcome === "L" ) {
 			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " on aggregate";
+		} else if ( match.agg.outcome === "D" ) {
+			theOutcome = allTeams[match.agg.team] + " drew " + match.agg.score + " on aggregate";
 		} else if ( match.agg.outcome === "WA" ) {
 			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " on aggregate via the 'away goals' rule";
 		} else if ( match.agg.outcome === "LA" ) {
