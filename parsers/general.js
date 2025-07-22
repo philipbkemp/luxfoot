@@ -300,6 +300,10 @@ function drawMatch(match,highlightWinner=false) {
 			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " after penalty shootout";
 		} else if ( match.agg.outcome === "LP" ) {
 			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " after penalty shootout";
+		} else if ( match.agg.outcome === "WR" ) {
+			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " after playoff";
+		} else if ( match.agg.outcome === "LR" ) {
+			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " after playoff";
 		}
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
