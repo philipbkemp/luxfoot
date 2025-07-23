@@ -780,22 +780,22 @@
 	},{
 		"season": "1957-58",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1957-58", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 5},
-			"level_2": {"missing":true,"season": "1957-58", "level":  2, "name": "Division of Honour", "winner": "NSCH"},
-			"level_3": {"missing":true,"season": "1957-58", "level":  3, "name": "1. Division", "winner": "CLVX"},
-			"level_4": {"missing":true,"season": "1957-58", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1957-58", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "KWRM"},
-				{"missing":true,"season": "1957-58", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "SPST"}
+			"level_1": {"season": "1957-58", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 5},
+			"level_2": {"season": "1957-58", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1957-58", "level":  3, "name": "1. Division"},
+			"level_4": {"season": "1957-58", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1957-58", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1957-58", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1957-58", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1957-58", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "GOLD"},
-				{"missing":true,"season": "1957-58", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "VICR"},
-				{"missing":true,"season": "1957-58", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "TRIG"},
-				{"missing":true,"season": "1957-58", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "JHTC"}
+			"level_5": {"season": "1957-58", "level":  5, "name": "3. Division", "series": [
+				{"season": "1957-58", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1957-58", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1957-58", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1957-58", "level":  5, "series":  4, "name": "3. Division Series 4"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1957-58", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 12, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1957-58", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 12, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"season":"1957-58","name":"European Cup","teams":["SDUD"]}

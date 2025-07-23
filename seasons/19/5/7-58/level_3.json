@@ -1,0 +1,35 @@
+{
+    "level": 3,
+	"season": "1957-58",
+    "links": {
+        "next": "1958-59",
+        "prev": "1956-57",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["AREM","AVBG","CLVX","CPET","CSOB","DARE","ETZE","JKYL","PROG","RBPF","TLMD","UBSH"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CLVX", "w": 12, "d":  5, "l":  5, "f": 70, "a": 56, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1958-59", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "RBPF", "w":  9, "d": 10, "l":  3, "f": 48, "a": 31, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1958-59", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "CSOB", "w": 13, "d":  1, "l":  8, "f": 59, "a": 32, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "JKYL", "w": 11, "d":  4, "l":  7, "f": 58, "a": 46, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "ETZE", "w": 10, "d":  5, "l":  7, "f": 45, "a": 40, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "DARE", "w": 10, "d":  3, "l":  9, "f": 62, "a": 62, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "AREM", "w":  8, "d":  5, "l":  9, "f": 53, "a": 46, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "TLMD", "w":  7, "d":  6, "l":  9, "f": 39, "a": 48, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "PROG", "w":  8, "d":  3, "l": 11, "f": 47, "a": 64, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "CPET", "w":  8, "d":  1, "l": 13, "f": 37, "a": 48, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "UBSH", "w":  6, "d":  3, "l": 13, "f": 31, "a": 59, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "AVBG", "w":  5, "d":  4, "l": 13, "f": 32, "a": 49, "pts_win": 2, "season": "1957-58", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CLVX","RBPF"],
+		"target": {"season": "1958-59", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["UBSH","AVBG"],
+		"target": {"season": "1958-59", "level": 4, "name": "2. Division"}
+	}
+}

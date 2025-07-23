@@ -1,0 +1,98 @@
+{
+    "level": 5,
+	"season": "1957-58",
+    "links": {
+        "next": "1958-59",
+        "prev": "1956-57",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","ATBS","BAST","BGHP","GOLD","JGIL","JSCH","LARD","PRTZ","RHDS","TWTC","UFLN"],
+        "standings": [
+            {"place":  1, "team": "GOLD", "w": 18, "d": 2, "l":  2, "f": 96, "a":  27, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "RHDS", "w": 15, "d": 2, "l":  5, "f": 85, "a":  52, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1","playoff":"promotion"},
+            {"place":  3, "team": "AHOS", "w": 13, "d": 4, "l":  5, "f": 69, "a":  41, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  4, "team": "JSCH", "w": 12, "d": 4, "l":  6, "f": 75, "a":  54, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  5, "team": "BGHP", "w": 10, "d": 6, "l":  6, "f": 59, "a":  54, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  6, "team": "PRTZ", "w": 10, "d": 5, "l":  7, "f": 65, "a":  49, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  7, "team": "ATBS", "w":  7, "d": 6, "l":  9, "f": 54, "a":  49, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  8, "team": "UFLN", "w":  7, "d": 3, "l": 12, "f": 56, "a":  80, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  9, "team": "LARD", "w":  5, "d": 5, "l": 12, "f": 46, "a":  81, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "JGIL", "w":  4, "d": 5, "l": 13, "f": 48, "a":  71, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 11, "team": "TWTC", "w":  4, "d": 3, "l": 15, "f": 52, "a": 110, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 12, "team": "BAST", "w":  1, "d": 7, "l": 14, "f": 48, "a":  85, "pts_win": 2, "season": "1957-58", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ARBD","BDBB","BWMD","FRTA","JBIW","JUNG","MARM","OBCN","OYCW","REIS","RUPL","SYRA","VICR"],
+        "standings": [
+            {"place":  1, "team": "VICR", "w": 19, "d": 3, "l":  2, "f": 94, "a": 34, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "ARBD", "w": 19, "d": 1, "l":  4, "f": 91, "a": 32, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2","playoff":"promotion", "promoted": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "JBIW", "w": 15, "d": 6, "l":  3, "f": 87, "a": 46, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  4, "team": "BWMD", "w": 16, "d": 3, "l":  5, "f": 95, "a": 43, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  5, "team": "RUPL", "w": 12, "d": 5, "l":  7, "f": 81, "a": 56, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  6, "team": "SYRA", "w": 11, "d": 4, "l":  9, "f": 59, "a": 68, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  7, "team": "OYCW", "w":  9, "d": 4, "l": 11, "f": 57, "a": 65, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  8, "team": "JUNG", "w":  7, "d": 4, "l": 13, "f": 28, "a": 54, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  9, "team": "MARM", "w":  6, "d": 4, "l": 14, "f": 38, "a": 63, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 10, "team": "FRTA", "w":  5, "d": 3, "l": 16, "f": 52, "a": 92, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 11, "team": "REIS", "w":  4, "d": 5, "l": 15, "f": 55, "a": 94, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 12, "team": "BDBB", "w":  5, "d": 3, "l": 16, "f": 46, "a": 88, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 13, "team": "OBCN", "w":  5, "d": 1, "l": 18, "f": 39, "a": 87, "pts_win": 2, "season": "1957-58", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASLX","BWIT","HOST","JCNC","KHLN","LRNZ","MDLB","MUNS","SAND","SBRT","TRIG","USMM","YBWT"],
+        "standings": [
+            {"place":  1, "team": "TRIG", "w": 19, "d": 3, "l":  2, "f": 116, "a":  27, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "SAND", "w": 18, "d": 3, "l":  3, "f": 111, "a":  37, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3","playoff":"promotion"},
+            {"place":  3, "team": "LRNZ", "w": 17, "d": 5, "l":  2, "f":  90, "a":  42, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  4, "team": "SBRT", "w": 14, "d": 4, "l":  6, "f":  83, "a":  37, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  5, "team": "MDLB", "w": 14, "d": 4, "l":  6, "f":  89, "a":  45, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  6, "team": "BWIT", "w": 14, "d": 1, "l":  9, "f":  87, "a":  52, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  7, "team": "HOST", "w": 11, "d": 6, "l":  7, "f":  72, "a":  57, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  8, "team": "MUNS", "w":  8, "d": 3, "l": 13, "f":  57, "a":  73, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  9, "team": "KHLN", "w":  6, "d": 4, "l": 14, "f":  50, "a":  77, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 10, "team": "JCNC", "w":  7, "d": 2, "l": 15, "f":  56, "a": 111, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 11, "team": "USMM", "w":  4, "d": 2, "l": 18, "f":  36, "a":  98, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 12, "team": "ASLX", "w":  4, "d": 0, "l": 20, "f":  26, "a": 136, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 13, "team": "YBWT", "w":  1, "d": 1, "l": 22, "f":  28, "a": 109, "pts_win": 2, "season": "1957-58", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["BSSW","CLMC","ESHW","HAGN","HOBS","ISKA","JHTC","JSKH","MDCG","MLSV","OYMP","SNEM","UESH"],
+        "standings": [
+            {"place":  1, "team": "JHTC", "w": 22, "d": 2, "l":  0, "f": 99, "a":  15, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1958-59", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "MLSV", "w": 19, "d": 3, "l":  2, "f": 80, "a":  24, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4","playoff":"promotion"},
+            {"place":  3, "team": "SNEM", "w": 16, "d": 1, "l":  7, "f": 83, "a":  49, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  4, "team": "JSKH", "w": 13, "d": 2, "l":  9, "f": 94, "a":  56, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  5, "team": "BSSW", "w": 12, "d": 3, "l":  9, "f": 69, "a":  56, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  6, "team": "UESH", "w": 11, "d": 2, "l": 11, "f": 62, "a":  39, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  7, "team": "HOBS", "w": 10, "d": 4, "l": 10, "f": 48, "a":  51, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  8, "team": "OYMP", "w":  8, "d": 4, "l": 12, "f": 57, "a":  67, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  9, "team": "MDCG", "w":  8, "d": 2, "l": 14, "f": 49, "a":  62, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 10, "team": "ESHW", "w":  6, "d": 2, "l": 16, "f": 39, "a":  73, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 11, "team": "HAGN", "w":  6, "d": 2, "l": 16, "f": 45, "a":  95, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 12, "team": "CLMC", "w":  5, "d": 3, "l": 16, "f": 42, "a":  99, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 13, "team": "ISKA", "w":  3, "d": 4, "l": 17, "f": 28, "a": 109, "pts_win": 2, "season": "1957-58", "level": 5, "series": 4, "league": "3. Division Series 4"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["GOLD","VICR","ARBD","TRIG","JHTC"],
+        "target": {"season": "1958-59", "level": 4, "name": "2. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"season": "1957-58","competition": {"type":"league","level":5,"name":"3. Division","playoff":"promotion"},"home": "ARBD", "homeDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"away": "AHOS", "awayDivision": {"level":5,"series":1,"name":"3. Division Series 1"},"score":"8-1","outcome":"ARBD qualified to playoff final"},
+            {"season": "1957-58","competition": {"type":"league","level":5,"name":"3. Division","playoff":"promotion"},"home": "SAND", "homeDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"away": "MSLV", "awayDivision": {"level":5,"series":4,"name":"3. Division Series 4"},"score":"4-0","outcome":"SAND qualified to playoff final"},
+            {"season": "1957-58","competition": {"type":"league","level":5,"name":"3. Division","playoff":"promotion"},"home": "ARBD", "homeDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"away": "SAND", "awayDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"score":"2-1","outcome":"ARBD promoted to TARGET","target": {"season": "1958-59", "level": 4, "name": "2. Division"}}
+        ]
+    }
+}

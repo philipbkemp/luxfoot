@@ -153,7 +153,7 @@ function pullStandings(tbl) {
     for ( r=1 ; r!==rows.length ; r++ ) {
         cols = rows[r].querySelectorAll("td");
         if ( cols.length !== 1 ) {
-            teamName = cols[1].textContent.trim().replace(" (P)","").replace(" (N)","").replace(" (M)","").replace(" (A)","");
+            teamName = cols[1].textContent.trim().replace("&nbsp;"," ").replace(" "," ").replace(" (P)","").replace(" (N)","").replace(" (M)","").replace(" (A)","");
             checkTeamName = teamName;
             teamCode = "";
 
@@ -246,30 +246,98 @@ function pullCup(tbl) {
     
             extraBits = "";
 
+            wasReplayed = false;
+
             scoreParts = score.replaceAll("- ","-");
             scoreParts = scoreParts.split(" ");
             if ( scoreParts.length === 1 ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0]} );
             } else if ( scoreParts.length === 2 && scoreParts[0] === "3-0" && scoreParts[1] === "ff." ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0],forfeit:true} );
+            } else if ( scoreParts.length === 2 && scoreParts[0] === "0-3" && scoreParts[1] === "ff." ) {
+                scoreBit = JSON.stringify( {score:scoreParts[0],forfeit:true} );
+            } else if ( scoreParts.length === 2 && scoreParts[0] === "5-0" && scoreParts[1] === "ff." ) {
+                scoreBit = JSON.stringify( {score:scoreParts[0],forfeit:true} );
+            } else if ( scoreParts.length === 2 && scoreParts[0] === "0-5" && scoreParts[1] === "ff." ) {
+                scoreBit = JSON.stringify( {score:scoreParts[0],forfeit:true} );
             } else if ( scoreParts.length === 2 && scoreParts[1] === "n.V." ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0],aet:true} );
             } else if ( scoreParts.length === 5 && scoreParts[1] === "n.V." && scoreParts[4] === "n.E." ) {
                 scoreBit = JSON.stringify( {score:scoreParts[0],aet:true,penalties:scoreParts[3]} );
+            } else if ( score.indexOf(" / ") !== -1 ) {
+                wasReplayed = true;
+                firstScore = score.split(" / ")[0];
+                secondScore = score.split(" / ")[1];
+
+                FIRSTscoreParts = firstScore.replaceAll("- ","-");
+                FIRSTscoreParts = FIRSTscoreParts.split(" ");
+                if ( FIRSTscoreParts.length === 1 ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0]} );
+                } else if ( FIRSTscoreParts.length === 2 && FIRSTscoreParts[0] === "3-0" && FIRSTscoreParts[1] === "ff." ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0],forfeit:true} );
+                } else if ( FIRSTscoreParts.length === 2 && FIRSTscoreParts[0] === "0-3" && FIRSTscoreParts[1] === "ff." ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0],forfeit:true} );
+                } else if ( FIRSTscoreParts.length === 2 && FIRSTscoreParts[0] === "5-0" && FIRSTscoreParts[1] === "ff." ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0],forfeit:true} );
+                } else if ( FIRSTscoreParts.length === 2 && FIRSTscoreParts[0] === "0-5" && FIRSTscoreParts[1] === "ff." ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0],forfeit:true} );
+                } else if ( FIRSTscoreParts.length === 2 && FIRSTscoreParts[1] === "n.V." ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0],aet:true} );
+                } else if ( FIRSTscoreParts.length === 5 && FIRSTscoreParts[1] === "n.V." && FIRSTscoreParts[4] === "n.E." ) {
+                    FIRSTscoreBit = JSON.stringify( {score:FIRSTscoreParts[0],aet:true,penalties:FIRSTscoreParts[3]} );
+                } else {
+                    FIRSTscoreBit = JSON.stringify( {score:"UNKNOWN"} );
+                }
+                
+                SECONDscoreParts = secondScore.replaceAll("- ","-");
+                SECONDscoreParts = SECONDscoreParts.split(" ");
+                if ( SECONDscoreParts.length === 1 ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0]} );
+                } else if ( SECONDscoreParts.length === 2 && SECONDscoreParts[0] === "3-0" && SECONDscoreParts[1] === "ff." ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0],forfeit:true} );
+                } else if ( SECONDscoreParts.length === 2 && SECONDscoreParts[0] === "0-3" && SECONDscoreParts[1] === "ff." ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0],forfeit:true} );
+                } else if ( SECONDscoreParts.length === 2 && SECONDscoreParts[0] === "5-0" && SECONDscoreParts[1] === "ff." ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0],forfeit:true} );
+                } else if ( SECONDscoreParts.length === 2 && SECONDscoreParts[0] === "0-5" && SECONDscoreParts[1] === "ff." ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0],forfeit:true} );
+                } else if ( SECONDscoreParts.length === 2 && SECONDscoreParts[1] === "n.V." ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0],aet:true} );
+                } else if ( SECONDscoreParts.length === 5 && SECONDscoreParts[1] === "n.V." && SECONDscoreParts[4] === "n.E." ) {
+                    SECONDscoreBit = JSON.stringify( {score:SECONDscoreParts[0],aet:true,penalties:SECONDscoreParts[3]} );
+                } else {
+                    SECONDscoreBit = JSON.stringify( {score:"UNKNOWN"} );
+                }
+
             } else {
-                console.error(score);
+                console.error("unknown score",score);
                 scoreBit = JSON.stringify( {score:"UNKNOWN"} );
             }
             scoreBit = scoreBit.replace("{","").replace("}","");
             
-            thisRoundLines.push('\t\t\t{"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},'+scoreBit+'},\n');
+            if ( ! wasReplayed ) {
+                thisRoundLines.push('\t\t\t{"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},'+scoreBit+'},\n');
+            } else {
+                
+                FIRSTscoreBit = FIRSTscoreBit.replace("{","").replace("}","");
+                SECONDscoreBit = SECONDscoreBit.replace("{","").replace("}","");
+                thisRoundLines.push('\t\t\t{"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},'+FIRSTscoreBit+',"note":"Replayed"},\n');
+                thisRoundLines.push('\t\t\t{"REPLAY":true,"season": "'+season+'","competition": {"type":"cup","cup":"'+whichCup+'","name":"'+whichCupName+'","round":"'+thisRound+'"},"home": "'+home[0]+'", "homeDivision": {"level":'+home[2].split(":")[0]+',"name":"'+home[2].split(":")[1]+'"},"away": "'+away[0]+'", "awayDivision": {"level":'+away[2].split(":")[0]+',"name":"'+away[2].split(":")[1]+'"},'+SECONDscoreBit+'},\n');
+            }
         }
     });
     console.log(thisRoundLines.join(""));
 }
 function getCupClub(c) {
+    c = c.replace("&nbsp;"," ");
+    c = c.replace(" "," ");
     club = c.split(" (")[0];
-    division = c.split(" (")[1].replace(")","");
+    if ( c.split(" (").length > 1 ) {
+        division = c.split(" (")[1].replace(")","");
+    } else {
+        console.error("Unknown Club/Division",c);
+        club = c;
+    }
     if ( ! divisions[division] ) {
         divisionName = prompt("DIVISION '"+division+"'")
         divisions[division] = prompt("LEVEL '"+divisionName+"'") + ":" + divisionName;

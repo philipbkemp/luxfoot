@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1957-58",
+    "links": {
+        "next": "1958-59",
+        "prev": "1956-57",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ARIS","ASCH","BLVL","HAMM","JWAS","NSCH","RPDN","RROD","RSML","URUM","WALF","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "NSCH", "w": 17, "d": 5, "l":  0, "f": 55, "a": 13, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1958-59", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "JWAS", "w": 16, "d": 1, "l":  5, "f": 61, "a": 23, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1958-59", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "YBDK", "w":  9, "d": 4, "l":  9, "f": 44, "a": 41, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "BLVL", "w":  9, "d": 4, "l":  9, "f": 44, "a": 50, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "WALF", "w":  9, "d": 3, "l": 10, "f": 53, "a": 44, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "ARIS", "w":  7, "d": 6, "l":  9, "f": 43, "a": 49, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "RROD", "w":  6, "d": 7, "l":  9, "f": 30, "a": 37, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "ASCH", "w":  8, "d": 3, "l": 11, "f": 34, "a": 44, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "RPDN", "w":  8, "d": 2, "l": 12, "f": 44, "a": 50, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "HAMM", "w":  6, "d": 6, "l": 10, "f": 40, "a": 51, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "RSML", "w":  7, "d": 4, "l": 11, "f": 34, "a": 65, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1958-59", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "URUM", "w":  4, "d": 7, "l": 11, "f": 31, "a": 46, "pts_win": 2, "season": "1957-58", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1958-59", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["JWAS","NSCH"],
+		"target": {"season": "1958-59", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["RSML","URUM"],
+		"target": {"season": "1958-59", "level": 3, "name": "1. Division"}
+	}
+}
