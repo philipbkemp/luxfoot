@@ -73,6 +73,7 @@
         "ATVD": {"id": "Åtvidabergs_FF", "name": "Åtvidabergs FF"},
         "DJUR": {"id": "Djurgårdens_IF_Fotboll", "name": "Djurgårdens IF"},
         "HCKN": {"id": "BK_Häcken","name":"BK Häcken"},
+        "IFKG": {"id": "IFK_Göteborg", "name": "IFK Göteborg"},
         "IFKN": {"id": "IFK_Norrköping", "name": "Norrköping"},
         "OREB": {"id": "Örebro_SK", "name": "Örebro"}
     },

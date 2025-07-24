@@ -1,0 +1,23 @@
+{
+    "season": "1958-59",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1958-59",
+        "links": {
+            "next": "1959-60",
+            "prev": "1957-58"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1958-09-14","leg":1,"home":"JESH","away":"SWE:IFKG","score":"1-2","season":"1958-59","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1958-09-30","leg":2,"home":"SWE:IFKG","away":"JESH","score":"0-1","season":"1958-59","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2},"agg":{"score":"2-2","outcome":"D","team":"JESH"}},
+                    {"isEurope":true,"date":"1958-10-15","leg":3,"home":"SWE:IFKG","away":"JESH","score":"5-1","season":"1958-59","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":3},"agg":{"score":"1-5","outcome":"LR","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}

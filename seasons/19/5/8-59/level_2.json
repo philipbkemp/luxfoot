@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1958-59",
+    "links": {
+        "next": "1959-60",
+        "prev": "1957-58",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ARIS","ASCH","BLVL","CLVX","FOLA","HAMM","RBPF","RPDN","RROD","USDD","WALF","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "FOLA", "w": 16, "d": 4, "l":  2, "f": 58, "a": 22, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1959-60", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "ARIS", "w": 16, "d": 2, "l":  4, "f": 73, "a": 29, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1959-60", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "USDD", "w": 13, "d": 4, "l":  5, "f": 63, "a": 28, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "WALF", "w": 10, "d": 5, "l":  7, "f": 64, "a": 42, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "BLVL", "w": 10, "d": 4, "l":  8, "f": 62, "a": 46, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "ASCH", "w":  9, "d": 5, "l":  8, "f": 40, "a": 51, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "RPDN", "w":  7, "d": 5, "l": 10, "f": 44, "a": 52, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "HAMM", "w":  7, "d": 5, "l": 10, "f": 35, "a": 41, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "YBDK", "w":  5, "d": 8, "l":  9, "f": 48, "a": 55, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "RROD", "w":  5, "d": 8, "l":  9, "f": 46, "a": 58, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "CLVX", "w":  5, "d": 3, "l": 14, "f": 48, "a": 99, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1959-60", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "RBPF", "w":  2, "d": 1, "l": 19, "f": 32, "a": 90, "pts_win": 2, "season": "1958-59", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1959-60", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["FOLA","ARIS"],
+		"target": {"season": "1959-60", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["CLVX","RBPF"],
+		"target": {"season": "1959-60", "level": 3, "name": "1. Division"}
+	}
+}
