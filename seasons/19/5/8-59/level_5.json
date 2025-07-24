@@ -93,7 +93,7 @@
             {"season": "1958-59","competition": {"type":"league","level":5,"name":"3. Division","playoff":"promotion"},"home": "RUPL", "homeDivision": {"level":5,"series":2,"name":"3. Division Series 2"},"away": "MDLB", "awayDivision": {"level":5,"series":3,"name":"3. Division Series 3"},"score":"2-4","outcome":"MDLB promoted to TARGET","target": {"season": "1959-60", "level": 4, "name": "2. Division"}}
         ]
     },
-    "promoted": {
+    "promotion": {
         "teams": ["UMRT","KHLN","MDLB","UESH"],
         "target": {"season": "1959-60", "level": 4, "name": "2. Division"}
     }
