@@ -36,7 +36,7 @@
         "updown": [
             {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-1","aet":true,"season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"}},
             {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-1","aet":true,"season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"}},
-            {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"6-1","season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"},"outcome": "FOLA remain in TARGET", "target": {"season": "1960-61", "level": 1, "name":"National Division"}}
+            {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"6-1","season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"},"outcome": "BLVL remain in TARGET", "target": {"season": "1960-61", "level": 2, "name":"Division of Honour"}}
         ]
     }
 }
