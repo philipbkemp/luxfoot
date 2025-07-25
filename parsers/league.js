@@ -982,9 +982,14 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 				removeKey("standings.target");
 
 				if ( ! s.playoff || isPlayoffTable ) {
+					rNote = "";
+					if ( s.relegated_note ) {
+						removeKey("standings.relegated_note");
+						rNote = "("+ s.relegated_note+")";
+					}
 					thisRowNotes.append(
 						$("<A></A>")
-							.html([(s.relegated_twice?"Double":""),(s.relegated_thrice?"Triple":""),"Relegated to",s.target.season,s.target.name].join(" "))
+							.html([(s.relegated_twice?"Double":""),(s.relegated_thrice?"Triple":""),"Relegated",rNote,"to",s.target.season,s.target.name].join(" "))
 							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
 							.addClass(thisRowHasNotes?'ms-3':'ms-0')
 					);
