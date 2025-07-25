@@ -1,0 +1,96 @@
+{
+    "level": 5,
+	"season": "1959-60",
+    "links": {
+        "next": "1960-61",
+        "prev": "1958-59",
+        "up": 4
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","ATBS","BAST","BGHP","BGNV","FOLS","JSCH","LARD","PRTZ","RHDS","TWTC","UFLN"],
+        "standings": [
+            {"place":  1, "team": "RHDS", "w": 17, "d": 3, "l":  2, "f": 76, "a":  31, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1960-61", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "JSCH", "w": 17, "d": 2, "l":  3, "f": 87, "a":  30, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  3, "team": "PRTZ", "w": 14, "d": 5, "l":  3, "f": 87, "a":  32, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  4, "team": "ATBS", "w": 14, "d": 2, "l":  6, "f": 85, "a":  42, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  5, "team": "UFLN", "w": 13, "d": 1, "l":  8, "f": 58, "a":  37, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  6, "team": "LARD", "w": 12, "d": 3, "l":  7, "f": 61, "a":  56, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  7, "team": "BGNV", "w": 10, "d": 2, "l": 10, "f": 64, "a":  50, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  8, "team": "AHOS", "w":  7, "d": 2, "l": 13, "f": 37, "a":  73, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  9, "team": "TWTC", "w":  6, "d": 2, "l": 14, "f": 45, "a":  80, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "BGHP", "w":  5, "d": 2, "l": 15, "f": 54, "a":  73, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 11, "team": "FOLS", "w":  1, "d": 3, "l": 18, "f": 21, "a":  90, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 12, "team": "BAST", "w":  2, "d": 1, "l": 19, "f": 21, "a": 102, "pts_win": 2, "season": "1959-60", "level": 5, "series": 1, "league": "3. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["BDBB","BWMD","FRTA","JBIW","JGIL","JUNG","MARM","MINL","OBCN","OYCW","REIS","RUPL","VICR"],
+        "standings": [
+            {"place":  1, "team": "RUPL", "w": 19, "d": 2, "l":  3, "f": 113, "a":  34, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2","playoff":"promotion", "promoted": true, "target": {"season": "1960-61", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "MINL", "w": 19, "d": 2, "l":  3, "f":  78, "a":  29, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2","playoff":"promotion"},
+            {"place":  3, "team": "MARM", "w": 16, "d": 4, "l":  4, "f":  71, "a":  31, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  4, "team": "JBIW", "w": 15, "d": 4, "l":  5, "f":  84, "a":  42, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  5, "team": "BWMD", "w": 12, "d": 5, "l":  7, "f":  94, "a":  54, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  6, "team": "VICR", "w": 12, "d": 3, "l":  9, "f":  69, "a":  58, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  7, "team": "OYCW", "w": 10, "d": 3, "l": 11, "f":  59, "a":  53, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  8, "team": "JUNG", "w": 10, "d": 2, "l": 12, "f":  40, "a":  44, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  9, "team": "OBCN", "w": 10, "d": 1, "l": 13, "f":  59, "a":  59, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 10, "team": "REIS", "w":  8, "d": 5, "l": 11, "f":  52, "a":  66, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 11, "team": "BDBB", "w":  5, "d": 0, "l": 19, "f":  22, "a":  79, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 12, "team": "JGIL", "w":  2, "d": 4, "l": 18, "f":  50, "a":  99, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 13, "team": "FRTA", "w":  0, "d": 1, "l": 23, "f":  24, "a": 167, "pts_win": 2, "season": "1959-60", "level": 5, "series": 2, "league": "3. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["ASLX","ASTN","BWIT","EGWM","HOST","JCNC","LRNZ","MANC","MUNS","SAND","SYRA","USMM","YBWT"],
+        "standings": [
+            {"place":  1, "team": "EGWM", "w": 20, "d": 2, "l":  2, "f": 132, "a":  34, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3", "promoted": true, "target": {"season": "1960-61", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "SAND", "w": 17, "d": 2, "l":  5, "f":  91, "a":  32, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  3, "team": "LRNZ", "w": 15, "d": 2, "l":  7, "f":  66, "a":  39, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  4, "team": "MANC", "w": 14, "d": 3, "l":  7, "f":  75, "a":  51, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  5, "team": "YBWT", "w": 11, "d": 2, "l": 11, "f":  57, "a":  57, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  6, "team": "BWIT", "w": 10, "d": 4, "l": 10, "f":  57, "a":  61, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  7, "team": "HOST", "w": 11, "d": 1, "l": 12, "f":  58, "a":  51, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  8, "team": "USMM", "w":  9, "d": 4, "l": 11, "f":  53, "a":  65, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place":  9, "team": "ASLX", "w":  8, "d": 4, "l": 12, "f":  57, "a":  81, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 10, "team": "ASTN", "w":  7, "d": 4, "l": 13, "f":  65, "a":  75, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 11, "team": "MUNS", "w":  8, "d": 2, "l": 14, "f":  55, "a":  98, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 12, "team": "JCNC", "w":  5, "d": 5, "l": 14, "f":  44, "a":  72, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"},
+            {"place": 13, "team": "SYRA", "w":  3, "d": 1, "l": 20, "f":  31, "a": 125, "pts_win": 2, "season": "1959-60", "level": 5, "series": 3, "league": "3. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["BSSW","CLMC","ESHW","HOBS","ISKA","JSKH","MAMR","MDCG","MLSV","OYMP","SBRT","SNEM","UBSH"],
+        "standings": [
+            {"place":  1, "team": "SBRT", "w": 19, "d": 5, "l":  0, "f": 115, "a":  20, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1960-61", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "MAMR", "w": 19, "d": 0, "l":  5, "f": 104, "a":  41, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  3, "team": "UBSH", "w": 17, "d": 0, "l":  7, "f":  86, "a":  43, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  4, "team": "MLSV", "w": 15, "d": 3, "l":  6, "f":  91, "a":  55, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  5, "team": "OYMP", "w": 15, "d": 2, "l":  7, "f":  74, "a":  52, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  6, "team": "BSSW", "w": 13, "d": 2, "l":  9, "f":  72, "a":  58, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  7, "team": "HOBS", "w":  9, "d": 6, "l":  9, "f":  54, "a":  54, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  8, "team": "ISKA", "w":  9, "d": 3, "l": 12, "f":  49, "a":  51, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place":  9, "team": "MDCG", "w":  7, "d": 3, "l": 14, "f":  51, "a":  78, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 10, "team": "CLMC", "w":  6, "d": 4, "l": 14, "f":  40, "a":  79, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 11, "team": "SNEM", "w":  5, "d": 3, "l": 16, "f":  49, "a":  79, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 12, "team": "JSKH", "w":  5, "d": 3, "l": 16, "f":  61, "a":  95, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"},
+            {"place": 13, "team": "ESHW", "w":  0, "d": 0, "l": 24, "f":   2, "a": 143, "pts_win": 2, "season": "1959-60", "level": 5, "series": 4, "league": "3. Division Series 4"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["RHDS","RUPL","EGWM","SBRT"],
+        "target": {"season": "1960-61", "level": 4, "name": "2. Division"}
+    },
+    "playoffs": {
+        "promotion": [
+            {"home":"RUPL","away":"MINL","score":"2-0","season":"1959-60","competition":{"type":"league","level":5,"name":"3.  Division", "playoff": "promotion"},"outcome":"RUPL promoted to TARGET","target":{"season": "1960-61", "level": 4, "name": "2. Division"}}
+        ]
+    }
+}

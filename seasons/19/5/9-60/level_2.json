@@ -11,18 +11,18 @@
 	"teams": ["ASCH","BLVL","CROD","CSOB","HAMM","JWAS","RPDN","RROD","URUM","USDD","WALF","YBDK"],
 	"pts_win": 2,
 	"standings": [
-        {"place": 1, "team": "CROD", "w": 18, "d": 1, "l": 3, "f": 76, "a": 18, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1960-61", "level": 1, "name": "National Division"}},
-		{"place": 2, "team": "URUM", "w": 16, "d": 3, "l": 3, "f": 53, "a": 20, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1960-61", "level": 1, "name": "National Division"}},
-		{"place": 3, "team": "BLVL", "w": 11, "d": 5, "l": 6, "f": 55, "a": 39, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 4, "team": "JWAS", "w": 11, "d": 2, "l": 9, "f": 52, "a": 42, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 5, "team": "CSOB", "w": 10, "d": 3, "l": 9, "f": 43, "a": 45, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 6, "team": "USDD", "w": 8, "d": 6, "l": 8, "f": 49, "a": 40, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 7, "team": "WALF", "w": 10, "d": 2, "l": 10, "f": 46, "a": 52, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 8, "team": "YBDK", "w": 7, "d": 6, "l": 9, "f": 34, "a": 57, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 9, "team": "RROD", "w": 3, "d": 10, "l": 9, "f": 27, "a": 42, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 10, "team": "ASCH", "w": 5, "d": 6, "l": 11, "f": 35, "a": 60, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
-		{"place": 11, "team": "RPDN", "w": 4, "d": 3, "l": 15, "f": 36, "a": 60, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1960-61", "level": 3, "name": "1. Division"}},
-		{"place": 12, "team": "HAMM", "w": 3, "d": 5, "l": 14, "f": 32, "a": 63, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1960-61", "level": 3, "name": "1. Division"}}
+        {"place":  1, "team": "CROD", "w": 18, "d":  1, "l":  3, "f": 76, "a": 18, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1960-61", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "URUM", "w": 16, "d":  3, "l":  3, "f": 53, "a": 20, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1960-61", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "BLVL", "w": 11, "d":  5, "l":  6, "f": 55, "a": 39, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour","playoff":"updown"},
+		{"place":  4, "team": "JWAS", "w": 11, "d":  2, "l":  9, "f": 52, "a": 42, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "CSOB", "w": 10, "d":  3, "l":  9, "f": 43, "a": 45, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "USDD", "w":  8, "d":  6, "l":  8, "f": 49, "a": 40, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "WALF", "w": 10, "d":  2, "l": 10, "f": 46, "a": 52, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "YBDK", "w":  7, "d":  6, "l":  9, "f": 34, "a": 57, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "RROD", "w":  3, "d": 10, "l":  9, "f": 27, "a": 42, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "ASCH", "w":  5, "d":  6, "l": 11, "f": 35, "a": 60, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "RPDN", "w":  4, "d":  3, "l": 15, "f": 36, "a": 60, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1960-61", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "HAMM", "w":  3, "d":  5, "l": 14, "f": 32, "a": 63, "pts_win": 2, "season": "1959-60", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1960-61", "level": 3, "name": "1. Division"}}
     ],
 	"relegation": {
 		"teams": ["RPDN","HAMM"],
@@ -31,5 +31,12 @@
 	"promotion": {
 		"teams": ["CROD","URUM"],
 		"target": {"season": "1960-61", "level": 1, "name": "National Division"}
-	}
+	},
+    "playoffs": {
+        "updown": [
+            {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-1","aet":true,"season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"}},
+            {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-1","aet":true,"season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"}},
+            {"home":"FOLA","homeDivision": {"level":1,"name":"National Division"},"away":"BLVL","awayDivision": {"level":2,"name":"Division of Honour"},"score":"6-1","season":"1959-60","competition":{"type":"league","level":2,"name":"Division of Honour", "playoff": "updown"},"outcome": "FOLA remain in TARGET", "target": {"season": "1960-61", "level": 1, "name":"National Division"}}
+        ]
+    }
 }

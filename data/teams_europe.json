@@ -24,7 +24,8 @@
     },
     "ESP": {
         "_country": "Spain",
-        "BARC": {"id": "FC_Barcelona", "name": "Barcelona"}
+        "BARC": {"id": "FC_Barcelona", "name": "Barcelona"},
+        "REAL": {"id":"Real_Madrid_CF", "name": "Real Madrid"}
     },
     "FIN": {
         "_country": "Finland",
@@ -59,6 +60,10 @@
     "LVA": {
         "_country": "Latvia",
         "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
+    },
+    "POL": {
+        "_country": "Poland",
+        "LODZ": {"id":"ŁKS_Łódź", "name": "ŁKS Łódź"}
     },
     "RUS": {
         "_country": "Russia",

@@ -1,0 +1,139 @@
+{
+    "season": "1959-60",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1960-61",
+        "prev": "1958-59"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TWTC", "homeDivision": {"level":5,"name":"3. Division"},"away": "AWDG", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-7"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "VICR", "homeDivision": {"level":5,"name":"3. Division"},"away": "LARD", "awayDivision": {"level":5,"name":"3. Division"},"score":"6-2"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MINL", "homeDivision": {"level":5,"name":"3. Division"},"away": "JSKH", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0","forfeit":true},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TSVG", "homeDivision": {"level":4,"name":"2. Division"},"away": "BVAT", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-2"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "KHLN", "homeDivision": {"level":4,"name":"2. Division"},"away": "SRED", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-4"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "OVND", "homeDivision": {"level":4,"name":"2. Division"},"away": "RUPL", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-3"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TRIG", "homeDivision": {"level":4,"name":"2. Division"},"away": "KOPS", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "JHTC", "homeDivision": {"level":4,"name":"2. Division"},"away": "SBRT", "awayDivision": {"level":5,"name":"3. Division"},"score":"0-1","aet":true},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BWIT", "homeDivision": {"level":5,"name":"3. Division"},"away": "UBSH", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-3"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SCBT", "homeDivision": {"level":4,"name":"2. Division"},"away": "BBML", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-1"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "MANC", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-1"},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UESH", "homeDivision": {"level":4,"name":"2. Division"},"away": "SWFT", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-3","aet":true},
+			{"date":"1959-09-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSHL", "homeDivision": {"level":4,"name":"2. Division"},"away": "MDLB", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-1","aet":true,"note":"Replayed"},
+			{"date":"1959-09-10","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CSHL", "homeDivision": {"level":4,"name":"2. Division"},"away": "MDLB", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-1"}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "MINL", "homeDivision": {"level":5,"name":"3. Division"},"away": "JUSE", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-5"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "AWDG", "homeDivision": {"level":4,"name":"2. Division"},"away": "VICR", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-1","aet":true},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TSVG", "homeDivision": {"level":4,"name":"2. Division"},"away": "RUPL", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BSSW", "homeDivision": {"level":5,"name":"3. Division"},"away": "JSCH", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ISKA", "homeDivision": {"level":5,"name":"3. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-4"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SRED", "homeDivision": {"level":4,"name":"2. Division"},"away": "HOBS", "awayDivision": {"level":5,"name":"3. Division"},"score":"7-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "OYMP", "homeDivision": {"level":5,"name":"3. Division"},"away": "ARBD", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-3"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BWMD", "homeDivision": {"level":5,"name":"3. Division"},"away": "OYCW", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "UMRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "JBIW", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "UNAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "UESH", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0","forfeit":true},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ASDF", "homeDivision": {"level":4,"name":"2. Division"},"away": "PROG", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "MDCG", "homeDivision": {"level":5,"name":"3. Division"},"away": "UBSH", "awayDivision": {"level":5,"name":"3. Division"},"score":"0-5"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SCBT", "homeDivision": {"level":4,"name":"2. Division"},"away": "TRIG", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CSHL", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASLX", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "LRNZ", "homeDivision": {"level":5,"name":"3. Division"},"away": "SBRT", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-3"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "ASTN", "homeDivision": {"level":5,"name":"3. Division"},"away": "RBAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-8"}
+		]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "KWRM", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RSML", "homeDivision": {"level":3,"name":"1. Division"},"away": "JWAS", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "UMRT", "homeDivision": {"level":4,"name":"2. Division"},"away": "OYMP", "awayDivision": {"level":5,"name":"3. Division"},"score":"8-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "SPST", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-3","aet":true},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"1. Division"},"away": "SCBT", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "UNAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "ETZE", "awayDivision": {"level":3,"name":"1. Division"},"score":"6-5"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "JKYL", "homeDivision": {"level":3,"name":"1. Division"},"away": "BWMD", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "TSVG", "homeDivision": {"level":4,"name":"2. Division"},"away": "USND", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "DARE", "homeDivision": {"level":3,"name":"1. Division"},"away": "ASCH", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "YBDK", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "USDD", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"5-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "HAMM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "AWDG", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CROD", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "CPET", "awayDivision": {"level":3,"name":"1. Division"},"score":"3-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "TLMD", "homeDivision": {"level":3,"name":"1. Division"},"away": "AREM", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-3"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CLVX", "homeDivision": {"level":3,"name":"1. Division"},"away": "URUM", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "BSSW", "homeDivision": {"level":5,"name":"3. Division"},"away": "LRNZ", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-3","aet":true,"note":"Replayed"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "BSSW", "homeDivision": {"level":5,"name":"3. Division"},"away": "LRNZ", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBPF", "homeDivision": {"level":3,"name":"1. Division"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-1","aet":true,"note":"Replayed"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RBPF", "homeDivision": {"level":3,"name":"1. Division"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-3"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CSOB", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "JUSE", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "WALF", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ASDF", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-3"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "UBSH", "homeDivision": {"level":5,"name":"3. Division"},"away": "RROD", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"4-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SRED", "homeDivision": {"level":4,"name":"2. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-4"}
+		]
+    },{
+        "key": "R4",
+        "name": "4th round",
+        "matches": [
+        	{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "UBSH", "homeDivision": {"level":5,"name":"3. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"1-12"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "JKYL", "homeDivision": {"level":3,"name":"1. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"National Division"},"score":"0-3"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "RSML", "homeDivision": {"level":3,"name":"1. Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"National Division"},"score":"1-7"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-4"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "USND", "homeDivision": {"level":3,"name":"1. Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"National Division"},"score":"1-2"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "DARE", "homeDivision": {"level":3,"name":"1. Division"},"away": "ADUD", "awayDivision": {"level":1,"name":"National Division"},"score":"0-5"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CSHL", "homeDivision": {"level":4,"name":"2. Division"},"away": "CGRV", "awayDivision": {"level":1,"name":"National Division"},"score":"1-5"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "LRNZ", "homeDivision": {"level":5,"name":"3. Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-4"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CSOB", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "SPOR", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "ASDF", "homeDivision": {"level":4,"name":"2. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "AREM", "homeDivision": {"level":3,"name":"1. Division"},"away": "PRON", "awayDivision": {"level":1,"name":"National Division"},"score":"0-7"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"1. Division"},"away": "STET", "awayDivision": {"level":1,"name":"National Division"},"score":"2-2","aet":true,"note":"Replayed"},
+			{"date":"1959-11-25","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "AVBG", "homeDivision": {"level":3,"name":"1. Division"},"away": "STET", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "HAMM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "RBAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "URUM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "UMRT", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "UNAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "YBDK", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-3","aet":true},
+			{"date":"1959-11-15","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CROD", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "RPDN", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"3-2"}
+		]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+        	{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "FOLA", "awayDivision": {"level":1,"name":"National Division"},"score":"3-1"},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "CROD", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "URUM", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-5","aet":true},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "NSCH", "homeDivision": {"level":1,"name":"National Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"National Division"},"score":"0-0","aet":true,"note":"Replayed"},
+			{"date":"1959-12-17","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "NSCH", "homeDivision": {"level":1,"name":"National Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"National Division"},"score":"3-1"},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "YBDK", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "SPOR", "awayDivision": {"level":1,"name":"National Division"},"score":"3-4","aet":true},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "PRON", "homeDivision": {"level":1,"name":"National Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"1. Division"},"score":"0-1"},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "SDUD", "homeDivision": {"level":1,"name":"National Division"},"away": "HAMM", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"5-0"},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "CGRV", "homeDivision": {"level":1,"name":"National Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"4-1"},
+			{"date":"1959-12-13","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "JESH", "homeDivision": {"level":1,"name":"National Division"},"away": "ADUD", "awayDivision": {"level":1,"name":"National Division"},"score":"4-1"}
+		]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"National Division"},"away": "CGRV", "awayDivision": {"level":1,"name":"National Division"},"score":"2-2","aet":true,"note":"Replayed"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"National Division"},"away": "CGRV", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "JESH", "homeDivision": {"level":1,"name":"National Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "URUM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "SDUD", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"},
+			{"season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SPOR", "homeDivision": {"level":1,"name":"National Division"},"away": "AVBG", "awayDivision": {"level":3,"name":"1. Division"},"score":"7-2"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+       	    {"date":"1960-03-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"National Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"National Division"},"score":"4-1"},
+			{"date":"1960-03-06","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1960-05-29","season": "1959-60","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "NSCH", "homeDivision": {"level":1,"name":"National Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"National Division"},"score":"3-0"}
+        ]
+    }],
+    "winner": "NSCH",
+    "title_count": 1
+}

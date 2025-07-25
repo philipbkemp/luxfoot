@@ -804,17 +804,17 @@
 		"season": "1958-59",
 		"leagues": {
 			"level_1": {"season": "1958-59", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 6},
-			"level_2": {"season": "1958-59", "level":  2, "name": "Division of Honour", "winner": "FOLA"},
-			"level_3": {"season": "1958-59", "level":  3, "name": "1. Division", "winner": "CSOB"},
+			"level_2": {"season": "1958-59", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1958-59", "level":  3, "name": "1. Division"},
 			"level_4": {"season": "1958-59", "level":  4, "name": "2. Division", "series": [
-			    {"season": "1958-59", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
-				{"season": "1958-59", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "AVBG"}
+			    {"season": "1958-59", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1958-59", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
 			"level_5": {"season": "1958-59", "level":  5, "name": "3. Division", "series": [
-				{"season": "1958-59", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "RHDS"},
-				{"season": "1958-59", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UMRT"},
-				{"season": "1958-59", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "KHLN"},
-				{"season": "1958-59", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "UESH"}
+				{"season": "1958-59", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1958-59", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1958-59", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1958-59", "level":  5, "series":  4, "name": "3. Division Series 4"}
 			]}
 		},
 		"cups": {
@@ -826,25 +826,25 @@
 	},{
 		"season": "1959-60",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1959-60", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 7},
-			"level_2": {"season": "1959-60", "level":  2, "name": "Division of Honour", "winner": "CROD"},
-			"level_3": {"missing":true,"season": "1959-60", "level":  3, "name": "1. Division", "winner": "AVBG"},
-			"level_4": {"missing":true,"season": "1959-60", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1959-60", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
-				{"missing":true,"season": "1959-60", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JHTC"}
+			"level_1": {"season": "1959-60", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 7},
+			"level_2": {"season": "1959-60", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1959-60", "level":  3, "name": "1. Division"},
+			"level_4": {"season": "1959-60", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1959-60", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1959-60", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1959-60", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1959-60", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "RHDS"},
-				{"missing":true,"season": "1959-60", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "RUPL"},
-				{"missing":true,"season": "1959-60", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "EGWM"},
-				{"missing":true,"season": "1959-60", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "SBRT"}
+			"level_5": {"season": "1959-60", "level":  5, "name": "3. Division", "series": [
+				{"season": "1959-60", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1959-60", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1959-60", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1959-60", "level":  5, "series":  4, "name": "3. Division Series 4"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1959-60", "name": "Luxembourg Cup", "winner": "NSCH", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1959-60", "name": "Luxembourg Cup", "winner": "NSCH", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1959-60","name":"European Cup","teams":["JESH"]}
+			"champions_league": {"season":"1959-60","name":"European Cup","teams":["JESH"]}
 		}
 	},{
 		"season": "1960-61",
