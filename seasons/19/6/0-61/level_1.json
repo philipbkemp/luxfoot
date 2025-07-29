@@ -4,14 +4,14 @@
     "links": {
         "next": "1961-62",
         "prev": "1959-60",
-        "down": 1
+        "down": 2
     },
 	"name": "National Division",
 	"teams": ["ARIS","CGRV","CROD","FOLA","JESH","NSCH","RBDF","SDUD","SPOR","STET","ULUX","URUM"],
 	"pts_win": 2,
 	"standings": [
-        {"place":  1, "team": "SPOR", "w": 16, "d": 1, "l":  5, "f": 56, "a": 29, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division", "champion": true, "title_count": 10},
-		{"place":  2, "team": "JESH", "w": 15, "d": 3, "l":  4, "f": 65, "a": 30, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division"},
+        {"place":  1, "team": "SPOR", "w": 16, "d": 1, "l":  5, "f": 56, "a": 29, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division","playoff":"title", "champion": true, "title_count": 10},
+		{"place":  2, "team": "JESH", "w": 15, "d": 3, "l":  4, "f": 65, "a": 30, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division","playoff":"title"},
 		{"place":  3, "team": "ULUX", "w": 13, "d": 4, "l":  5, "f": 44, "a": 31, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division"},
 		{"place":  4, "team": "RBDF", "w":  8, "d": 7, "l":  7, "f": 33, "a": 36, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division"},
 		{"place":  5, "team": "SDUD", "w":  8, "d": 6, "l":  8, "f": 45, "a": 38, "pts_win": 2, "season": "1960-61", "level": 1, "league": "National Division"},
