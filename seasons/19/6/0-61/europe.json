@@ -1,0 +1,22 @@
+{
+    "season": "1960-61",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1960-61",
+        "links": {
+            "next": "1961-62",
+            "prev": "1959-60"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1960-09-07","leg":1,"home":"FRA:REIM","away":"JESH","score":"6-1","season":"1960-61","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1960-09-00","leg":2,"home":"JESH","away":"FRA:REIM","score":"0-5","season":"1960-61","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2},"agg":{"score":"1-11","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    }
+}

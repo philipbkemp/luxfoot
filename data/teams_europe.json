@@ -34,7 +34,8 @@
     },
     "FRA": {
         "_country": "France",
-        "LENS": {"id": "RC_Lens", "name": "Lens"}
+        "LENS": {"id": "RC_Lens", "name": "Lens"},
+        "REIM": {"id" :"Stade de Reims", "name": "Reims"}
     },
     "FRO": {
         "_country": "Faroe Islands",

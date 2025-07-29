@@ -1,0 +1,62 @@
+{
+    "level": 4,
+	"season": "1960-61",
+    "links": {
+        "next": "1961-62",
+        "prev": "1959-60",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","BBML","BVAT","JUSE","OVND","RHDS","RSML","RUPL","SBRT","SRED","TRIG","TSVG"],
+        "standings": [
+            {"place":  1, "team": "BVAT", "w": 17, "d": 3, "l":  2, "f": 69, "a": 30, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1961-62", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "BBML", "w": 14, "d": 2, "l":  6, "f": 92, "a": 65, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  3, "team": "RSML", "w": 13, "d": 2, "l":  7, "f": 65, "a": 44, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "SBRT", "w": 11, "d": 4, "l":  7, "f": 70, "a": 45, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "TRIG", "w": 10, "d": 5, "l":  7, "f": 66, "a": 48, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "AWDG", "w":  9, "d": 5, "l":  8, "f": 71, "a": 63, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "OVND", "w":  9, "d": 2, "l": 11, "f": 75, "a": 59, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "TSVG", "w":  8, "d": 3, "l": 11, "f": 49, "a": 72, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "JUSE", "w":  8, "d": 2, "l": 12, "f": 64, "a": 76, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "SRED", "w":  4, "d": 5, "l": 13, "f": 43, "a": 78, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relegation"},
+            {"place": 11, "team": "RUPL", "w":  4, "d": 5, "l": 13, "f": 37, "a": 70, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relegation", "relegated": true, "target": {"season": "1961-62", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "RHDS", "w":  5, "d": 2, "l": 15, "f": 28, "a": 79, "pts_win": 2, "season": "1960-61", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1961-62", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","CSHL","EGWM","KHLN","KOPS","MDLB","RBAS","SCBT","SWFT","TLMD","UESH","UNAS"],
+        "standings": [
+            {"place":  1, "team": "MDLB", "w": 16, "d": 4, "l":  2, "f": 64, "a": 31, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1961-62", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "EGWM", "w": 14, "d": 3, "l":  5, "f": 66, "a": 36, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  3, "team": "ASDF", "w": 13, "d": 4, "l":  5, "f": 68, "a": 45, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "RBAS", "w": 10, "d": 6, "l":  6, "f": 62, "a": 50, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "TLMD", "w": 10, "d": 4, "l":  8, "f": 58, "a": 39, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "SCBT", "w": 10, "d": 4, "l":  8, "f": 43, "a": 36, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "CSHL", "w":  9, "d": 3, "l": 10, "f": 51, "a": 46, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "SWFT", "w":  8, "d": 4, "l": 10, "f": 44, "a": 50, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "UNAS", "w":  9, "d": 2, "l": 11, "f": 48, "a": 73, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "KHLN", "w":  6, "d": 2, "l": 14, "f": 38, "a": 61, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "UESH", "w":  3, "d": 4, "l": 15, "f": 35, "a": 62, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1961-62", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "KOPS", "w":  3, "d": 2, "l": 17, "f": 32, "a": 80, "pts_win": 2, "season": "1960-61", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1961-62", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["BVAT","MDLB"],
+        "target": {"season": "1961-62", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["RUPL","RHDS","UESH","KOPS"],
+        "target": {"season": "1961-62", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "relegation": [
+            {"home":"SRED","away":"RUPL","score":"2-1","season":"1960-61","competition":{"type":"league","level": 4,"name": "2. Division","playoff":"relegation"},"outcome":"RUPL relegated to TARGET","target": {"season": "1961-62", "level": 5, "name": "3. Division"}}
+        ]
+    }
+}

@@ -849,26 +849,26 @@
 	},{
 		"season": "1960-61",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1960-61", "level":  1, "name": "National Division", "winner": "SPOR", "title_count": 10},
-			"level_2": {"missing":true,"season": "1960-61", "level":  2, "name": "Division of Honour", "winner": "ADUD"},
-			"level_3": {"missing":true,"season": "1960-61", "level":  3, "name": "1. Division", "winner": "CPET"},
-			"level_4": {"missing":true,"season": "1960-61", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1960-61", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "BVAT"},
-				{"missing":true,"season": "1960-61", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "MDLB"}
+			"level_1": {"season": "1960-61", "level":  1, "name": "National Division", "winner": "SPOR", "title_count": 10},
+			"level_2": {"season": "1960-61", "level":  2, "name": "Division of Honour", "winner": "ADUD"},
+			"level_3": {"season": "1960-61", "level":  3, "name": "1. Division", "winner": "CPET"},
+			"level_4": {"season": "1960-61", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1960-61", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "BVAT"},
+				{"season": "1960-61", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "MDLB"}
 			]},
-			"level_5": {"missing":true,"season": "1960-61", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1960-61", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "GOLD"},
-				{"missing":true,"season": "1960-61", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "VICR"},
-				{"missing":true,"season": "1960-61", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MARM"},
-				{"missing":true,"season": "1960-61", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "SAND"},
-				{"missing":true,"season": "1960-61", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "UBSH"}
+			"level_5": {"season": "1960-61", "level":  5, "name": "3. Division", "series": [
+				{"season": "1960-61", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "GOLD"},
+				{"season": "1960-61", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "VICR"},
+				{"season": "1960-61", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "MARM"},
+				{"season": "1960-61", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "SAND"},
+				{"season": "1960-61", "level":  5, "series":  5, "name": "3. Division Series 5", "winner": "UBSH"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1960-61", "name": "Luxembourg Cup", "winner": "ADUD", "title_count": 1, "winner_division": {"level": 2,"name": "Division of Honour"}}
+			"cup_luxembourg": {"season": "1960-61", "name": "Luxembourg Cup", "winner": "ADUD", "title_count": 1, "winner_division": {"level": 2,"name": "Division of Honour"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1960-61","name":"European Cup","teams":["JESH"]}
+			"champions_league": {"season":"1960-61","name":"European Cup","teams":["JESH"]}
 		}
 	},{
 		"season": "1961-62",

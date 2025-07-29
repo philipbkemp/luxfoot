@@ -1,0 +1,40 @@
+{
+    "level": 2,
+	"season": "1960-61",
+    "links": {
+        "next": "1961-62",
+        "prev": "1959-60",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ADUD","ASCH","AVBG","BLVL","CSOB","ETZE","JWAS","PRON","RROD","USDD","WALF","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "ADUD", "w": 19, "d": 0, "l":  3, "f": 87, "a": 13, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1961-62", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "USDD", "w": 16, "d": 1, "l":  5, "f": 60, "a": 36, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1961-62", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "PRON", "w": 11, "d": 3, "l":  8, "f": 46, "a": 38, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "JWAS", "w": 10, "d": 4, "l":  8, "f": 54, "a": 40, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "AVBG", "w": 11, "d": 2, "l":  9, "f": 40, "a": 39, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "ASCH", "w": 10, "d": 2, "l": 10, "f": 39, "a": 63, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "CSOB", "w":  9, "d": 2, "l": 11, "f": 36, "a": 47, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "BLVL", "w":  7, "d": 4, "l": 11, "f": 51, "a": 43, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "RROD", "w":  7, "d": 4, "l": 11, "f": 42, "a": 46, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "YBDK", "w":  7, "d": 3, "l": 12, "f": 34, "a": 47, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour","playoff":"relegation"},
+		{"place": 11, "team": "WALF", "w":  6, "d": 5, "l": 11, "f": 40, "a": 60, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour","playoff":"relegation", "relegated": true, "target": {"season": "1961-62", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "ETZE", "w":  3, "d": 2, "l": 17, "f": 26, "a": 83, "pts_win": 2, "season": "1960-61", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1961-62", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ADUD","USDD"],
+		"target": {"season": "1961-62", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["WALF","ETZE"],
+		"target": {"season": "1961-62", "level": 3, "name": "1. Division"}
+	},
+    "playoffs": {
+        "relegation": [
+            {"home":"YBDK","away":"WALF","score":"2-1","aet":true,"season":"1960-61","competition":{"type":"league","level": 2,"name": "Division of Honour","playoff":"relegation"},"outcome":"WALF relegated to TARGET","target": {"season": "1961-62", "level": 3, "name": "1. Division"}}
+        ]
+    }
+}

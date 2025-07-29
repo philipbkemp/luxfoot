@@ -5,7 +5,8 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
-	    {"place":  3, "team": "BLVL", "w": 11, "d": 5, "l":  6, "f": 55, "a": 39, "pts_win": 2, "season": "1959-60", "level": 2,              "league": "Division of Honour","playoff":"updown"},
+	    {"place":  8, "team": "BLVL", "w":  7, "d": 4, "l": 11, "f": 51, "a": 43, "pts_win": 2, "season": "1960-61", "level": 2,              "league": "Division of Honour"},
+        {"place":  3, "team": "BLVL", "w": 11, "d": 5, "l":  6, "f": 55, "a": 39, "pts_win": 2, "season": "1959-60", "level": 2,              "league": "Division of Honour","playoff":"updown"},
 		{"place":  5, "team": "BLVL", "w": 10, "d": 4, "l":  8, "f": 62, "a": 46, "pts_win": 2, "season": "1958-59", "level": 2,              "league": "Division of Honour"},
 		{"place":  4, "team": "BLVL", "w":  9, "d": 4, "l":  9, "f": 44, "a": 50, "pts_win": 2, "season": "1957-58", "level": 2,              "league": "Division of Honour"},
 		{"place":  2, "team": "BLVL", "w": 14, "d": 2, "l":  6, "f": 77, "a": 43, "pts_win": 2, "season": "1956-57", "level": 2, "series": 2, "league": "1. Division Series 2"},

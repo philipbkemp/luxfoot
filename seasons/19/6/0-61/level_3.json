@@ -1,0 +1,40 @@
+{
+    "level": 3,
+	"season": "1960-61",
+    "links": {
+        "next": "1961-62",
+        "prev": "1959-60",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["AREM","CLVX","CPET","DARE","HAMM","JHTC","JKYL","KWRM","RBPF","RPDN","SPST","USND"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CPET", "w": 16, "d": 4, "l":  2, "f": 64, "a": 21, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1961-62", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "JHTC", "w": 14, "d": 3, "l":  5, "f": 50, "a": 20, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1961-62", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "DARE", "w": 12, "d": 4, "l":  6, "f": 75, "a": 37, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "RBPF", "w": 12, "d": 3, "l":  7, "f": 59, "a": 38, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "RPDN", "w":  9, "d": 5, "l":  8, "f": 49, "a": 37, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "JKYL", "w":  7, "d": 6, "l":  9, "f": 47, "a": 63, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "SPST", "w":  8, "d": 4, "l": 10, "f": 47, "a": 69, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "AREM", "w":  8, "d": 2, "l": 12, "f": 45, "a": 47, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "USND", "w":  7, "d": 3, "l": 12, "f": 36, "a": 51, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "KWRM", "w":  6, "d": 4, "l": 12, "f": 36, "a": 61, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division","playoff":"relegation"},
+		{"place": 11, "team": "CLVX", "w":  5, "d": 6, "l": 11, "f": 35, "a": 65, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division","playoff":"relegation", "relegated": true, "target": {"season": "1961-62", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "HAMM", "w":  5, "d": 2, "l": 15, "f": 30, "a": 64, "pts_win": 2, "season": "1960-61", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1961-62", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CPET","JHTC"],
+		"target": {"season": "1961-62", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["CLVX","HAMM"],
+		"target": {"season": "1961-62", "level": 4, "name": "2. Division"}
+	},
+    "playoffs": {
+        "relegation": [
+            {"home":"KWRM","away":"CLVX","score":"4-2","aet":true,"season":"1960-61","competition":{"type":"league","level": 3,"name": "1. Division","playoff":"relegation"},"outcome":"CLVX relegated to TARGET","target": {"season": "1961-62", "level": 4, "name": "2. Division"}}
+        ]
+    }
+}
