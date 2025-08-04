@@ -1,0 +1,40 @@
+{
+    "season": "1961-62",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1961-62",
+        "links": {
+            "next": "1962-63",
+            "prev": "1960-61"
+        },
+        "teams": ["SPOR"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "SPOR": [
+                    {"isEurope":true,"date":"1961-09-07","leg":1,"home":"SPOR","away":"DNK:BK13","score":"0-6","season":"1961-62","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1961-09-13","leg":2,"home":"DNK:BK13","away":"SPOR","score":"9-2","season":"1961-62","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2},"agg":{"score":"2-15","outcome":"L","team":"SPOR"}}
+                ]
+            }
+        }]
+    },
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1961-62",
+        "links": {
+            "next": "1962-63"
+        },
+        "teams": ["ADUD"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "SPOR": [
+                    {"isEurope":true,"date":"1961-12-17","leg":1,"home":"GDR:JENA","away":"ADUD","score":"7-0","season":"1961-62","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1961-12-19","leg":2,"home":"ADUD","away":"GDR:JENA","score":"2-2","season":"1961-62","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"2-9","outcome":"L","team":"ADUD"}}
+                ]
+            }
+        }]
+    }
+}

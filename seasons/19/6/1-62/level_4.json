@@ -1,0 +1,65 @@
+{
+    "level": 4,
+	"season": "1961-62",
+    "links": {
+        "next": "1962-63",
+        "prev": "1960-61",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","CLVX","CSHL","EGWM","GOLD","JUSE","KHLN","MARM","OVND","SRED","TSVG","VICR"],
+        "standings": [
+            {"place":  1, "team": "MARM", "w": 18, "d": 0, "l":  4, "f": 79, "a":  40, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1962-63", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "EGWM", "w": 14, "d": 4, "l":  4, "f": 83, "a":  41, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  3, "team": "AWDG", "w": 14, "d": 4, "l":  4, "f": 63, "a":  33, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "TSVG", "w": 12, "d": 2, "l":  8, "f": 68, "a":  45, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "OVND", "w": 11, "d": 4, "l":  7, "f": 64, "a":  50, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "JUSE", "w": 10, "d": 5, "l":  7, "f": 61, "a":  57, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "CLVX", "w": 10, "d": 3, "l":  9, "f": 69, "a":  49, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "VICR", "w":  5, "d": 6, "l": 11, "f": 41, "a":  70, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "KHLN", "w":  3, "d": 8, "l": 11, "f": 50, "a":  58, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "CSHL", "w":  4, "d": 5, "l": 13, "f": 37, "a":  66, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relation"},
+            {"place": 11, "team": "SRED", "w":  5, "d": 3, "l": 14, "f": 40, "a":  67, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relation", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "GOLD", "w":  3, "d": 2, "l": 17, "f": 24, "a": 103, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","BBML","HAMM","RBAS","RSML","SBRT","SCBT","SWFT","TLMD","TRIG","UBSH","UNAS"],
+        "standings": [
+            {"place":  1, "team": "RSML", "w": 15, "d": 4, "l":  3, "f": 76, "a":  43, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2","playoff":"promotion", "promoted": true, "target": {"season": "1962-63", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "TRIG", "w": 15, "d": 4, "l":  3, "f": 62, "a":  30, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2","playoff":"promotion"},
+            {"place":  3, "team": "TLMD", "w": 13, "d": 2, "l":  7, "f": 65, "a":  34, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "BBML", "w": 12, "d": 4, "l":  6, "f": 68, "a":  50, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "UNAS", "w": 10, "d": 5, "l":  7, "f": 39, "a":  47, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "SCBT", "w":  9, "d": 5, "l":  8, "f": 62, "a":  46, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "ASDF", "w":  8, "d": 4, "l": 10, "f": 72, "a":  65, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "SBRT", "w":  7, "d": 5, "l": 10, "f": 49, "a":  62, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "SWFT", "w":  5, "d": 7, "l": 10, "f": 52, "a":  58, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "RBAS", "w":  7, "d": 3, "l": 12, "f": 33, "a":  45, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "UBSH", "w":  6, "d": 2, "l": 14, "f": 43, "a":  67, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "HAMM", "w":  2, "d": 1, "l": 19, "f": 30, "a": 104, "pts_win": 2, "season": "1961-62", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["MARM","RSML"],
+        "target": {"season": "1962-63", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["SRED","GOLD","UBSH","HAMM"],
+        "target": {"season": "1962-63", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "relegation": [
+            {"home":"CSHL","away":"SRED","score":"2-1","season":"1961-62","competition":{"type":"league","level": 4,"series":1, "name": "2. Division Series 1","playoff":"relegation"},"outcome":"SRED relegated to TARGET","target": {"season": "1962-63", "level": 5, "name": "3. Division"}}
+        ],
+        "promotion": [
+            {"home":"RSML","away":"TRIG","score":"5-2","season":"1961-62","competition":{"type":"league","level": 4,"series":2, "name": "2. Division Series 2","playoff":"promotion"},"outcome":"RSML promoted to TARGET","target": {"season": "1962-63", "level": 3, "name": "1. Division"}}
+        ]
+    }
+}

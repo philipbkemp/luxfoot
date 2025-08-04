@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1961-62",
+    "links": {
+        "next": "1962-63",
+        "prev": "1960-61",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ASCH","AVBG","BLVL","CPET","CROD","CSOB","JHTC","JWAS","PRON","RROD","STET","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "AVBG", "w": 13, "d": 7, "l":  2, "f": 64, "a": 20, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1962-63", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "BLVL", "w": 15, "d": 3, "l":  4, "f": 59, "a": 32, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1962-63", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "JWAS", "w": 14, "d": 4, "l":  4, "f": 63, "a": 21, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "PRON", "w": 12, "d": 5, "l":  5, "f": 48, "a": 26, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "CPET", "w": 11, "d": 4, "l":  7, "f": 43, "a": 48, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "CROD", "w":  9, "d": 4, "l":  9, "f": 40, "a": 44, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "YBDK", "w":  7, "d": 5, "l": 10, "f": 43, "a": 55, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "STET", "w":  7, "d": 4, "l": 11, "f": 33, "a": 38, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "CSOB", "w":  5, "d": 7, "l": 10, "f": 29, "a": 41, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "RROD", "w":  6, "d": 5, "l": 11, "f": 28, "a": 50, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "ASCH", "w":  4, "d": 2, "l": 16, "f": 28, "a": 68, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1962-63", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "JHTC", "w":  2, "d": 4, "l": 16, "f": 21, "a": 56, "pts_win": 2, "season": "1961-62", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1962-63", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["AVBG","BLVL"],
+		"target": {"season": "1962-63", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["ASCH","JHTC"],
+		"target": {"season": "1962-63", "level": 3, "name": "1. Division"}
+	}
+}

@@ -54,7 +54,7 @@ allTeams = {
     "Daring Echternach":"DARE","FC Red Black Pfaffenthal":"RBPF","Racing FC Union Luxemburg":"RACE","Ro'de Le'w Niederdonven":"RLND","CS Greiveldange":"GRIV",
     "Fortuna Canach":"FCNC","Jeunesse Flaxweiler":"JFLX","US Dahl":"DAHL","Jeunesse Goesdorf":"JGOS","Sura Michelau":"SURM","Blue Boys Erpeldingen/Ettelbrück":"BBEE",
     "Le Monflin Bigonville":"MONF","FC Everlange":"EVER","FC Ell":"FELL","Koeppchen Wormeldingen":"KWRM","Blue Star Schweicherthal":"BSSW","Jeunesse Useldingen":"JUSE",
-    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU"
+    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU","Jeunesse Sportive Hagen":"JHAG"
 }
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
@@ -217,6 +217,10 @@ function pullCup(tbl) {
                 thisRound = "2nd Round";
             } else if ( txt.startsWith("3 Runde ") ) {
                 thisRound = "3rd Round";
+            } else if ( txt.startsWith("4 Runde ") ) {
+                thisRound = "4th Round";
+            } else if ( txt.startsWith("Achtelfinale ") ) {
+                thisRound = "Round of 16";
             } else if ( txt.startsWith("Viertelfinale ") ) {
                 thisRound = "Quarter Final";
             } else if ( txt.startsWith("Halbfinale ") ) {

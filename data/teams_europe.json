@@ -22,6 +22,10 @@
         "_country": "Belgium",
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"}
     },
+    "DNK": {
+        "_country": "Denmark",
+        "BK13": {"id": "Boldklubben_1913", "name": "BK13"}
+    },
     "ESP": {
         "_country": "Spain",
         "BARC": {"id": "FC_Barcelona", "name": "Barcelona"},
@@ -44,6 +48,10 @@
     "FRO": {
         "_country": "Faroe Islands",
         "KLAK": {"id": "Klaksvíkar_Ítróttarfelag", "name": "KÍ"}
+    },
+    "GDR": {
+        "_country": "East Germany",
+        "JENA": {"id": "FC Carl Zeiss Jena", "name": "Motor Jena"}
     },
     "GEO": {
         "_country": "Georgia",
