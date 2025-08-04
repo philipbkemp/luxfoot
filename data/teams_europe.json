@@ -27,6 +27,10 @@
         "BARC": {"id": "FC_Barcelona", "name": "Barcelona"},
         "REAL": {"id":"Real_Madrid_CF", "name": "Real Madrid"}
     },
+    "EST": {
+        "_country": "Estonia",
+        "FCIL": {"id": "FCI_Levadia_Tallinn", "name": "FCI Levadia"}
+    },
     "FIN": {
         "_country": "Finland",
         "KUPS": {"id": "Kuopion_Palloseura", "name": "KuPS"},
