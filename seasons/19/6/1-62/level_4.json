@@ -23,8 +23,8 @@
             {"place":  7, "team": "CLVX", "w": 10, "d": 3, "l":  9, "f": 69, "a":  49, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place":  8, "team": "VICR", "w":  5, "d": 6, "l": 11, "f": 41, "a":  70, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
             {"place":  9, "team": "KHLN", "w":  3, "d": 8, "l": 11, "f": 50, "a":  58, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1"},
-            {"place": 10, "team": "CSHL", "w":  4, "d": 5, "l": 13, "f": 37, "a":  66, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relation"},
-            {"place": 11, "team": "SRED", "w":  5, "d": 3, "l": 14, "f": 40, "a":  67, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relation", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}},
+            {"place": 10, "team": "CSHL", "w":  4, "d": 5, "l": 13, "f": 37, "a":  66, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relegation"},
+            {"place": 11, "team": "SRED", "w":  5, "d": 3, "l": 14, "f": 40, "a":  67, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1","playoff":"relegation", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}},
             {"place": 12, "team": "GOLD", "w":  3, "d": 2, "l": 17, "f": 24, "a": 103, "pts_win": 2, "season": "1961-62", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1962-63", "level": 5, "name": "3. Division"}}
         ]
     },{
