@@ -73,7 +73,7 @@
         "name": "Series 4",
         "teams": ["BWIT","CLMC","EHLR","ESHW","JCNC","MDCG","MLSV","NORZ","SAND","UBSH","UESH","USMM","YBWT"],
         "standings": [
-            {"place":  1, "team": "SAND", "w": 21, "d": 1, "l":  2, "f": 131, "a":  19, "pts_win": 2, "season": "1962-63", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1963-64", "level": 4, "name": "2. Division"}},
+            {"place":  1, "team": "SAND", "w": 21, "d": 2, "l":  1, "f": 131, "a":  19, "pts_win": 2, "season": "1962-63", "level": 5, "series": 4, "league": "3. Division Series 4", "promoted": true, "target": {"season": "1963-64", "level": 4, "name": "2. Division"}},
             {"place":  2, "team": "USMM", "w": 18, "d": 3, "l":  3, "f":  95, "a":  25, "pts_win": 2, "season": "1962-63", "level": 5, "series": 4, "league": "3. Division Series 4"},
             {"place":  3, "team": "YBWT", "w": 16, "d": 4, "l":  4, "f":  84, "a":  30, "pts_win": 2, "season": "1962-63", "level": 5, "series": 4, "league": "3. Division Series 4"},
             {"place":  4, "team": "UESH", "w": 14, "d": 4, "l":  6, "f":  71, "a":  37, "pts_win": 2, "season": "1962-63", "level": 5, "series": 4, "league": "3. Division Series 4"},
