@@ -1,0 +1,57 @@
+{
+    "level": 4,
+	"season": "1962-63",
+    "links": {
+        "next": "1963-64",
+        "prev": "1961-62",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","BBML","BGNV","BVAT","CLVX","HOBS","JUSE","LRNZ","OVND","TSVG","UNAS","VICR"],
+        "standings": [
+            {"place":  1, "team": "TSVG", "w": 14, "d": 7, "l":  1, "f": 80, "a":  35, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1963-64", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "LRNZ", "w": 10, "d": 7, "l":  5, "f": 65, "a":  51, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  3, "team": "AWDG", "w": 11, "d": 4, "l":  7, "f": 82, "a":  49, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "OVND", "w":  9, "d": 8, "l":  5, "f": 64, "a":  49, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "UNAS", "w": 10, "d": 5, "l":  7, "f": 69, "a":  50, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "BBML", "w":  9, "d": 4, "l":  9, "f": 70, "a":  59, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "BVAT", "w":  9, "d": 4, "l":  9, "f": 61, "a":  59, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "HOBS", "w": 10, "d": 2, "l": 10, "f": 58, "a":  58, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "CLVX", "w":  7, "d": 5, "l": 10, "f": 66, "a":  68, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "VICR", "w":  7, "d": 4, "l": 11, "f": 54, "a":  78, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 11, "team": "JUSE", "w":  4, "d": 5, "l": 13, "f": 44, "a":  83, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1963-64", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "BGNV", "w":  4, "d": 1, "l": 17, "f": 41, "a": 115, "pts_win": 2, "season": "1962-63", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1963-64", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","ASDF","CSHL","EGWM","KHLN","RBAS","SBRT","SCBT","SNEM","SWFT","TLMD","TRIG"],
+        "standings": [
+            {"place":  1, "team": "TLMD", "w": 17, "d": 3, "l":  2, "f": 85, "a": 28, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1963-64", "level": 3, "name": "1. Division"}},
+		    {"place":  2, "team": "AREM", "w": 15, "d": 3, "l":  4, "f": 55, "a": 26, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  3, "team": "EGWM", "w": 11, "d": 6, "l":  5, "f": 63, "a": 42, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  4, "team": "ASDF", "w": 12, "d": 3, "l":  7, "f": 82, "a": 38, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  5, "team": "SNEM", "w": 11, "d": 3, "l":  8, "f": 49, "a": 51, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  6, "team": "TRIG", "w": 10, "d": 3, "l":  9, "f": 48, "a": 40, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  7, "team": "RBAS", "w":  7, "d": 6, "l":  9, "f": 38, "a": 50, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  8, "team": "SWFT", "w":  8, "d": 3, "l": 11, "f": 44, "a": 49, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place":  9, "team": "SCBT", "w":  7, "d": 5, "l": 10, "f": 49, "a": 54, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place": 10, "team": "CSHL", "w":  5, "d": 7, "l": 10, "f": 35, "a": 57, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1"},
+		    {"place": 11, "team": "SBRT", "w":  2, "d": 6, "l": 14, "f": 35, "a": 78, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1963-64", "level": 5, "name": "3. Division"}},
+		    {"place": 12, "team": "KHLN", "w":  2, "d": 2, "l": 18, "f": 26, "a": 96, "pts_win": 2, "season": "1962-63", "level": 4, "series": 2, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1963-64", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["TSVG","TLMD"],
+        "target": {"season": "1963-64", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["JUSE","BGNV","SBRT","KHLN"],
+        "target": {"season": "1963-64", "level": 5, "name": "3. Division"}
+    }
+}

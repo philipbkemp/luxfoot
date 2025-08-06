@@ -124,7 +124,7 @@ function pullStandings(tbl) {
     level = parseInt(prompt("League level"));
     comp = prompt("Competition");
     ppw = parseInt(prompt("Points per win",2));
-    champion = prompt("Champion code");
+    champion = prompt("Champion code").toUpperCase();
     relegated = prompt("Relegated codes").toUpperCase();
     if ( relegated !== "" ) {
         relegated = relegated.split(",");

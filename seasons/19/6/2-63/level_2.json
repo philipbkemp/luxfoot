@@ -1,0 +1,40 @@
+{
+    "level": 2,
+	"season": "1962-63",
+    "links": {
+        "next": "1963-64",
+        "prev": "1961-62",
+        "up": 1,
+        "down": 2
+    },
+	"name": "Division of Honour",
+	"teams": ["CGRV","CPET","CROD","CSOB","JWAS","MDLB","PRON","RPDN","RROD","STET","URUM","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "JWAS", "w": 14, "d": 5, "l":  3, "f": 44, "a": 18, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1963-64", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "PRON", "w": 12, "d": 5, "l":  5, "f": 41, "a": 23, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1963-64", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "CGRV", "w": 11, "d": 5, "l":  6, "f": 56, "a": 41, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "URUM", "w": 11, "d": 3, "l":  8, "f": 43, "a": 27, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "YBDK", "w": 10, "d": 4, "l":  8, "f": 43, "a": 42, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "MDLB", "w": 10, "d": 3, "l":  9, "f": 41, "a": 43, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "CSOB", "w":  8, "d": 6, "l":  8, "f": 46, "a": 42, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "CPET", "w":  7, "d": 5, "l": 10, "f": 41, "a": 44, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "CROD", "w":  8, "d": 1, "l": 13, "f": 28, "a": 41, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "RPDN", "w":  6, "d": 4, "l": 12, "f": 36, "a": 49, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour","playoff":"relegation"},
+		{"place": 11, "team": "STET", "w":  7, "d": 2, "l": 13, "f": 34, "a": 55, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour","playoff":"relegation", "relegated": true, "target": {"season": "1963-64", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "RROD", "w":  6, "d": 1, "l": 15, "f": 25, "a": 53, "pts_win": 2, "season": "1962-63", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1963-64", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["JWAS","PRON"],
+		"target": {"season": "1963-64", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["STET","RROD"],
+		"target": {"season": "1963-64", "level": 3, "name": "1. Division"}
+	},
+    "playoffs": {
+        "relegation": [
+            {"home":"RPDN","away":"STET","score":"2-0","season":"1962-63","competition":{"type":"league","level": 2,"name": "Division of Honour","playoff":"relegation"},"outcome":"STET relegated to TARGET","target": {"season": "1963-64", "level": 3, "name": "1. Division"}}
+        ]
+    }
+}

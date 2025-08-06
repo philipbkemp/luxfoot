@@ -897,27 +897,27 @@
 	},{
 		"season": "1962-63",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1962-63", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 8},
-			"level_2": {"missing":true,"season": "1962-63", "level":  2, "name": "Division of Honour", "winner": "JWAS"},
-			"level_3": {"missing":true,"season": "1962-63", "level":  3, "name": "1. Division", "winner": "RSML"},
-			"level_4": {"missing":true,"season": "1962-63", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1962-63", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "TSVG"},
-				{"missing":true,"season": "1962-63", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "TLMD"}
+			"level_1": {"season": "1962-63", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 8},
+			"level_2": {"season": "1962-63", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1962-63", "level":  3, "name": "1. Division"},
+			"level_4": {"season": "1962-63", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1962-63", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1962-63", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
 			"level_5": {"season": "1962-63", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1962-63", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SRED"},
-				{"missing":true,"season": "1962-63", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MANC"},
-				{"missing":true,"season": "1962-63", "level":  5, "series":  3, "name": "3. Division Series 3", "winner": "JBIW"},
-				{"season": "1962-63", "level":  5, "series":  4, "name": "3. Division Series 4", "winner": "SAND"}
+				{"season": "1962-63", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1962-63", "level":  5, "series":  2, "name": "3. Division Series 2"},
+				{"season": "1962-63", "level":  5, "series":  3, "name": "3. Division Series 3"},
+				{"season": "1962-63", "level":  5, "series":  4, "name": "3. Division Series 4"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1962-63", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 3, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1962-63", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 3, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1962-63","name":"European Cup","teams":["ULUX"]},
-			"fairs_cup": {"season":"1962-63","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
-			"cup_winners_cup": {"missing":true,"season":"1962-63","name":"Cup Winners' Cup","teams":["ADUD"]}
+			"champions_league": {"season":"1962-63","name":"European Cup","teams":["ULUX"]},
+			"europa_league": {"season":"1962-63","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
+			"cup_winners_cup": {"season":"1962-63","name":"Cup Winners' Cup","teams":["ADUD"]}
 		}
 	},{
 		"season": "1963-64",
@@ -941,7 +941,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1963-64","name":"European Cup","teams":["JESH"]},
-			"fairs_cup": {"missing":true,"season":"1963-64","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
+			"europa_league": {"missing":true,"season":"1963-64","name":"Inter-Cities Fairs Cup","teams":["ARIS"]},
 			"cup_winners_cup": {"season":"1963-64","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
@@ -969,7 +969,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1964-65","name":"European Cup","teams":["ARIS"]},
-			"fairs_cup": {"missing":true,"season":"1964-65","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
+			"europa_league": {"missing":true,"season":"1964-65","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
 			"cup_winners_cup": {"missing":true,"season":"1964-65","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
@@ -997,7 +997,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1965-66","name":"European Cup","teams":["SDUD"]},
-			"fairs_cup": {"missing":true,"season":"1965-66","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"europa_league": {"missing":true,"season":"1965-66","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
 			"cup_winners_cup": {"missing":true,"season":"1965-66","name":"Cup Winners' Cup","teams":["SPOR"]}
 		}
 	},{
@@ -1025,7 +1025,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1966-67","name":"European Cup","teams":["ARIS"]},
-			"fairs_cup": {"missing":true,"season":"1966-67","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"europa_league": {"missing":true,"season":"1966-67","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
 			"cup_winners_cup": {"missing":true,"season":"1966-67","name":"Cup Winners' Cup","teams":["SPOR"]}
 		}
 	},{
@@ -1053,7 +1053,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1967-68","name":"European Cup","teams":["JESH"]},
-			"fairs_cup": {"missing":true,"season":"1967-68","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
+			"europa_league": {"missing":true,"season":"1967-68","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
 			"cup_winners_cup": {"missing":true,"season":"1967-68","name":"Cup Winners' Cup","teams":["ARIS"]}
 		}
 	},{
@@ -1082,7 +1082,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1968-69","name":"European Cup","teams":["JESH"]},
-			"fairs_cup": {"missing":true,"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"europa_league": {"missing":true,"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
 			"cup_winners_cup": {"missing":true,"season":"1968-69","name":"Cup Winners' Cup","teams":["URUM"]}
 		}
 	},{
@@ -1111,7 +1111,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1969-70","name":"European Cup","teams":["AVBG"]},
-			"fairs_cup": {"missing":true,"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
+			"europa_league": {"missing":true,"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
 			"cup_winners_cup": {"missing":true,"season":"1969-70","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
@@ -1140,7 +1140,7 @@
 		},
 		"europe": {
 			"champions_league": {"missing":true,"season":"1970-71","name":"European Cup","teams":["JESH"]},
-			"fairs_cup": {"missing":true,"season":"1970-71","name":"Inter-Cities Fairs Cup","teams":["URUM"]},
+			"europa_league": {"missing":true,"season":"1970-71","name":"Inter-Cities Fairs Cup","teams":["URUM"]},
 			"cup_winners_cup": {"missing":true,"season":"1970-71","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{

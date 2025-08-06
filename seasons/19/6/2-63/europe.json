@@ -1,6 +1,44 @@
 {
     "season": "1962-63",
-    "fairs_cup": {
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1962-63",
+        "links": {
+            "next": "1963-64",
+            "prev": "1961-62"
+        },
+        "teams": ["ULUX"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "ULUX": [
+                    {"isEurope":true,"date":"1962-09-12","leg":1,"home":"ITA:MILN","away":"ULUX","score":"8-0","season":"1962-63","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1962-09-19","leg":2,"home":"ULUX","away":"ITA:MILN","score":"0-6","season":"1962-63","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2},"agg":{"score":"0-14","outcome":"L","team":"ULUX"}}
+                ]
+            }
+        }]
+    },
+    "cup_winners_cupo": {
+        "name": "Cup Winners' Cup",
+        "season": "1962-63",
+        "links": {
+            "next": "1963-64",
+            "prev": "1961-62"
+        },
+        "teams": ["ADUD"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "ADUD": [
+                    {"isEurope":true,"date":"1962-09-05","leg":1,"home":"ADUD","away":"DNK:BK09","score":"1-1","season":"1962-63","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1962-09-18","leg":2,"home":"DNK:BK09","away":"ADUD","score":"8-1","season":"1962-63","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"Preliminary Round","leg":2},"agg":{"score":"2-9","outcome":"L","team":"ADUD"}}
+                ]
+            }
+        }]
+    },
+    "europa_league": {
         "name": "Inter-Cities Fairs Cup",
         "season": "1962-63",
         "links": {
@@ -12,8 +50,8 @@
             "name": "First round",
             "matches": {
                 "ARIS": [
-                    {"isEurope":true,"date":"1962-09-26","leg":1,"home":"ITA:SAMP","away":"ARIS","score":"1-0","season":"1962-63","competition":{"type":"europe","cup":"fairs_cup","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
-                    {"isEurope":true,"date":"1962-10-03","leg":2,"home":"ARIS","away":"ITA:SAMP","score":"0-2","season":"1963-64","competition":{"type":"europe","cup":"fairs_cup","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-3","outcome":"L","team":"ARIS"}}
+                    {"isEurope":true,"date":"1962-09-26","leg":1,"home":"ITA:SAMP","away":"ARIS","score":"1-0","season":"1962-63","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1962-10-03","leg":2,"home":"ARIS","away":"ITA:SAMP","score":"0-2","season":"1962-63","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-3","outcome":"L","team":"ARIS"}}
                 ]
             }
         }]

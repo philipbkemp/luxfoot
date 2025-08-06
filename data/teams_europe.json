@@ -24,6 +24,7 @@
     },
     "DNK": {
         "_country": "Denmark",
+        "BK09": {"id": "Boldklubben_1909", "name": "B1909" },
         "BK13": {"id": "Boldklubben_1913", "name": "Boldklubben 1913"}
     },
     "ESP": {
@@ -60,6 +61,7 @@
     },
     "ITA": {
         "_country": "Italy",
+        "MILN": {"id": "AC_Milan", "name": "Milan"},
         "SAMP": {"id": "UC_Sampdoria", "name": "Sampdoria"}
     },
     "KAZ": {
