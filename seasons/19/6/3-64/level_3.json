@@ -36,7 +36,5 @@
         "promotion": [
             {"home":"TSVG","away":"STET","score":"2-0","season":"1963-64","competition": {"type":"league", "level":3, "name":"1. Division", "playoff": "promotion"},"outcome":"TSVG promoted to TARGET","target": {"season": "1964-65", "level": 2, "name": "Division of Honour"}}
         ]
-    },
-	"matches": [
-    ]
+    }
 }
