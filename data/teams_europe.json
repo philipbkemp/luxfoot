@@ -20,7 +20,8 @@
     },
     "BEL": {
         "_country": "Belgium",
-        "GENT": {"id": "K.A.A._Gent", "name": "Gent"}
+        "GENT": {"id": "K.A.A._Gent", "name": "Gent"},
+        "LIEG": {"id": "RFC_Liège", "name":"RFC Liège"}
     },
     "DNK": {
         "_country": "Denmark",
@@ -38,6 +39,7 @@
     },
     "FIN": {
         "_country": "Finland",
+        "HAKA": {"id": "FC_Haka", "name": "Valkeakosken Haka"},
         "KUPS": {"id": "Kuopion_Palloseura", "name": "KuPS"},
         "LHTI": {"id": "FC_Lahti", "name": "Reipas Lahti"}
     },
@@ -109,6 +111,7 @@
     "YUG": {
         "_country": "Yugoslavia",
         "BBLK": {"id":"FK_Borac_Banja_Luka", "name": "Borac Banja Luka"},
+        "PART": {"id":"FK_Partizan","name":"Partizan"},
         "REDS": {"id":"Red_Star_Belgrade", "name": "Red Star Belgrade"}
     }
 }

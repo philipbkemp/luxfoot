@@ -1,5 +1,52 @@
 {
     "season": "1963-64",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1963-64",
+        "links": {
+            "next": "1964-65",
+            "prev": "1962-63"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1963-09-25","leg":1,"home":"FIN:HAKA","away":"JESH","score":"4-1","season":"1963-64","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1963-10-09","leg":2,"home":"JESH","away":"FIN:HAKA","score":"4-0","season":"1963-64","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2},"agg":{"score":"5-4","outcome":"W","team":"JESH"}}
+                ]
+            }
+        },{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1963-11-20","leg":1,"home":"JESH","away":"YUG:PART","score":"2-1","season":"1963-64","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1963-11-27","leg":2,"home":"YUG:PART","away":"JESH","score":"6-2","season":"1963-64","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":2},"agg":{"score":"4-7","outcome":"L","team":"JESH"}}
+                ]
+            }
+        }]
+    },
+    "europa_league": {
+        "name": "Inter-Cities Fairs Cup",
+        "season": "1963-64",
+        "links": {
+            "next": "1964-65",
+            "prev": "1962-63"
+        },
+        "teams": ["ARIS"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ARIS": [
+                    {"isEurope":true,"date":"1963-09-04","leg":1,"home":"ARIS","away":"BEL:LIEG","score":"0-2","season":"1963-64","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1963-10-02","leg":2,"home":"BEL:LIEG","away":"ARIS","score":"0-0","season":"1963-64","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-2","outcome":"L","team":"ARIS"}}
+                ]
+            }
+        }]
+    },
     "cup_winners_cup": {
         "name": "Cup Winners' Cup",
         "season": "1963-64",

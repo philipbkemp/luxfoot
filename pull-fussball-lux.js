@@ -201,7 +201,11 @@ function pullCup(tbl) {
     thisRoundLines = [];
     season = window.location.href.split("/").pop().split(".")[0].replace("Saison","").replace("-19","-").replace("-20","-");
     whichCup = prompt("Which cup? cup_flf / cup_luxembourg");
-    whichCupName = prompt("Name of cup " + whichCup,whichCup);
+    whichCupName = prompt("Name of cup " + whichCup,
+        (whichCup === "cup_flf" ? "Coupe FLF" : (
+            whichCup === "cup_luxembourg" ? "Luxembourg Cup" : whichCup
+        ))
+    );
 
     theTable.querySelectorAll("tr").forEach(row=>{
         cols = row.querySelectorAll("td");

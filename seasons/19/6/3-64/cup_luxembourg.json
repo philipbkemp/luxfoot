@@ -1,0 +1,141 @@
+{
+    "season": "1963-64",
+    "cup": "cup_luxembourg",
+    "name": "Luxembourg Cup",
+    "links": {
+        "next": "1964-65",
+        "prev": "1962-63"
+    },
+    "shortTabs": true,
+    "rounds": [{
+        "key": "R1",
+        "name": "1st round",
+        "matches": [
+        	{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "BWMD", "homeDivision": {"level":5,"name":"3. Division"},"away": "MINL", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-3"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HOBS", "homeDivision": {"level":4,"name":"2. Division"},"away": "ATBS", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0","forfeit":true},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "VICR", "homeDivision": {"level":4,"name":"2. Division"},"away": "JUSE", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0","forfeit":true},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "FOLS", "homeDivision": {"level":5,"name":"3. Division"},"away": "LARD", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-4","aet":true,"winner":"FOLS","declared":true,"note":"Declared for FOLS"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "OVND", "homeDivision": {"level":4,"name":"2. Division"},"away": "PRTZ", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0","forfeit":true},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "OYCW", "homeDivision": {"level":5,"name":"3. Division"},"away": "REIS", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-4"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "CLVX", "homeDivision": {"level":4,"name":"2. Division"},"away": "JSCH", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-1"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "UFLN", "homeDivision": {"level":5,"name":"3. Division"},"away": "BRCH", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-5"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "OYMP", "homeDivision": {"level":5,"name":"3. Division"},"away": "BVAT", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-2","aet":true,"winner":"BVAT","declarded":true,"note":"Declared for BVAT"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SWFT", "homeDivision": {"level":4,"name":"2. Division"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-3"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "KWRM", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASLX", "awayDivision": {"level":5,"name":"3. Division"},"score":"6-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "BBML", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SBRT", "homeDivision": {"level":5,"name":"3. Division"},"away": "MAMR", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-2"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "MDCG", "homeDivision": {"level":5,"name":"3. Division"},"away": "UBSH", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-7"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "HAMM", "homeDivision": {"level":5,"name":"3. Division"},"away": "SNEM", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-4","aet":true},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "SAND", "homeDivision": {"level":4,"name":"2. Division"},"away": "NORZ", "awayDivision": {"level":5,"name":"3. Division"},"score":"6-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "PROG", "homeDivision": {"level":5,"name":"3. Division"},"away": "AREM", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-4","aet":true},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "ASDF", "homeDivision": {"level":4,"name":"2. Division"},"away": "MANC", "awayDivision": {"level":4,"name":"2. Division"},"score":"5-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"1st Round"},"home": "TRIG", "homeDivision": {"level":4,"name":"2. Division"},"away": "JBIW", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-1"}
+		]
+    },{
+        "key": "R2",
+        "name": "2nd round",
+        "matches": [
+        	{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "UESH", "homeDivision": {"level":5,"name":"3. Division"},"away": "EGWM", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-5"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SBRT", "homeDivision": {"level":5,"name":"3. Division"},"away": "ARBD", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-3"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "TRIG", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASDF", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SNEM", "homeDivision": {"level":4,"name":"2. Division"},"away": "CLMC", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-1"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "JHTC", "homeDivision": {"level":4,"name":"2. Division"},"away": "GOLD", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-2","aet":true},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "RBAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "UBSH", "awayDivision": {"level":5,"name":"3. Division"},"score":"1-2"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "SCBT", "homeDivision": {"level":4,"name":"2. Division"},"away": "SAND", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CLVX", "homeDivision": {"level":4,"name":"2. Division"},"away": "OBCN", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-4"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "KWRM", "homeDivision": {"level":4,"name":"2. Division"},"away": "AREM", "awayDivision": {"level":4,"name":"2. Division"},"score":"1-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "CSHL", "homeDivision": {"level":4,"name":"2. Division"},"away": "OYMP", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-1"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "BRCH", "homeDivision": {"level":5,"name":"3. Division"},"away": "JSKH", "awayDivision": {"level":5,"name":"3. Division"},"score":"2-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "OVND", "homeDivision": {"level":4,"name":"2. Division"},"away": "EHLR", "awayDivision": {"level":5,"name":"3. Division"},"score":"5-0"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "REIS", "homeDivision": {"level":5,"name":"3. Division"},"away": "LARD", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-2"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "UNAS", "homeDivision": {"level":4,"name":"2. Division"},"away": "BWMD", "awayDivision": {"level":5,"name":"3. Division"},"score":"3-2"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "HOBS", "homeDivision": {"level":4,"name":"2. Division"},"away": "KOPS", "awayDivision": {"level":5,"name":"3. Division"},"score":"4-3"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"2nd Round"},"home": "AWDG", "homeDivision": {"level":4,"name":"2. Division"},"away": "VICR", "awayDivision": {"level":4,"name":"2. Division"},"score":"8-4"}
+		]
+    },{
+        "key": "R3",
+        "name": "3rd round",
+        "matches": [
+        	{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "REIS", "homeDivision": {"level":5,"name":"3. Division"},"away": "FOLA", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-9"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "BLVL", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "URUM", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"0-7"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CGRV", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "MDLB", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"4-3"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ETZE", "homeDivision": {"level":3,"name":"1. Division"},"away": "SNEM", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-5"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SPST", "homeDivision": {"level":3,"name":"1. Division"},"away": "RPDN", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"1-7"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "RSML", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "AWDG", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-0"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "ARBD", "homeDivision": {"level":5,"name":"3. Division"},"away": "EGWM", "awayDivision": {"level":4,"name":"2. Division"},"score":"0-8"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "MARM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "CSOB", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"2-3"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "BRCH", "homeDivision": {"level":5,"name":"3. Division"},"away": "JKYL", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-4"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "JHTC", "homeDivision": {"level":4,"name":"2. Division"},"away": "ASCH", "awayDivision": {"level":3,"name":"1. Division"},"score":"2-3","aet":true},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CROD", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "CSHL", "awayDivision": {"level":4,"name":"2. Division"},"score":"6-1"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "YBDK", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "USND", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-0"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "TSVG", "homeDivision": {"level":3,"name":"1. Division"},"away": "DARE", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-0"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "CPET", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "WALF", "awayDivision": {"level":3,"name":"1. Division"},"score":"5-3"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "SCBT", "homeDivision": {"level":4,"name":"2. Division"},"away": "RROD", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-3"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "OBCN", "homeDivision": {"level":5,"name":"3. Division"},"away": "TRIG", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-0"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "STET", "homeDivision": {"level":3,"name":"1. Division"},"away": "OVND", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-3"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "KWRM", "homeDivision": {"level":4,"name":"2. Division"},"away": "UNAS", "awayDivision": {"level":4,"name":"2. Division"},"score":"4-1"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "UBSH", "homeDivision": {"level":5,"name":"3. Division"},"away": "HOBS", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-3"},
+			{"date":"1963-10-06","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"3rd Round"},"home": "TLMD", "homeDivision": {"level":3,"name":"1. Division"},"away": "RBPF", "awayDivision": {"level":3,"name":"1. Division"},"score":"4-0"}
+		]
+    },{
+        "key": "R4",
+        "name": "4th round",
+        "matches": [
+        	{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "TSVG", "homeDivision": {"level":3,"name":"1. Division"},"away": "JWAS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-2"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "TLMD", "homeDivision": {"level":3,"name":"1. Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"National Division"},"score":"1-4"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CPET", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ULUX", "awayDivision": {"level":1,"name":"National Division"},"score":"1-3"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "RSML", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "PRON", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "ASCH", "homeDivision": {"level":3,"name":"1. Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2","aet":true},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "HOBS", "homeDivision": {"level":4,"name":"2. Division"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"2-5"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "STET", "homeDivision": {"level":3,"name":"1. Division"},"away": "SDUD", "awayDivision": {"level":1,"name":"National Division"},"score":"0-5"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "OBCN", "homeDivision": {"level":5,"name":"3. Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"National Division"},"score":"1-3","aet":true},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "URUM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-1","aet":true,"note":"Replayed"},
+			{"date":"1963-11-07","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "URUM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-1","aet":true,"note":"Replayed"},
+            {"date":"1963-11-13","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "URUM", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-3"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "SNEM", "homeDivision": {"level":4,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":1,"name":"National Division"},"score":"0-10"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "EGWM", "homeDivision": {"level":4,"name":"2. Division"},"away": "USDD", "awayDivision": {"level":1,"name":"National Division"},"score":"3-5"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CSOB", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "ADUD", "awayDivision": {"level":1,"name":"National Division"},"score":"1-2"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "RPDN", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "SCBT", "awayDivision": {"level":4,"name":"2. Division"},"score":"2-4"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "FOLA", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "JKYL", "awayDivision": {"level":3,"name":"1. Division"},"score":"1-0"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CGRV", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "YBDK", "awayDivision": {"level":2,"name":"Division of Honour"},"score":"4-1"},
+			{"date":"1963-11-03","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"4th Round"},"home": "CROD", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "KWRM", "awayDivision": {"level":4,"name":"2. Division"},"score":"3-1"}
+		]
+    },{
+        "key": "R16",
+        "name": "Round of 16",
+        "matches": [
+        	{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "SCBT", "homeDivision": {"level":4,"name":"2. Division"},"away": "AVBG", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "ADUD", "awayDivision": {"level":1,"name":"National Division"},"score":"3-0"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "CGRV", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "JWAS", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "FOLA", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "USDD", "awayDivision": {"level":1,"name":"National Division"},"score":"1-2"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "CROD", "homeDivision": {"level":2,"name":"Division of Honour"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "ARIS", "homeDivision": {"level":1,"name":"National Division"},"away": "SPOR", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "SDUD", "homeDivision": {"level":1,"name":"National Division"},"away": "RBDF", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0"},
+			{"date":"1964-01-05","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Round of 16"},"home": "PRON", "homeDivision": {"level":1,"name":"National Division"},"away": "NSCH", "awayDivision": {"level":1,"name":"National Division"},"score":"3-2"}    
+        ]
+    },{
+        "key": "QF",
+        "name": "Quarter Final",
+        "matches": [
+        	{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "USDD", "awayDivision": {"level":1,"name":"National Division"},"score":"5-1"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "JWAS", "homeDivision": {"level":1,"name":"National Division"},"away": "AVBG", "awayDivision": {"level":1,"name":"National Division"},"score":"2-1"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "PRON", "homeDivision": {"level":1,"name":"National Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"2-4"},
+			{"season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Quarter Final"},"home": "SDUD", "homeDivision": {"level":1,"name":"National Division"},"away": "JESH", "awayDivision": {"level":1,"name":"National Division"},"score":"0-2"}
+		]
+    },{
+        "key": "SF",
+        "name": "Semi Final",
+        "matches": [
+        	{"date":"1964-05-10","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "JWAS", "homeDivision": {"level":1,"name":"National Division"},"away": "ULUX", "awayDivision": {"level":1,"name":"National Division"},"score":"0-1"},
+			{"date":"1964-05-10","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Semi Final"},"home": "JESH", "homeDivision": {"level":1,"name":"National Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"3-4"}
+		]
+    },{
+        "key": "F",
+        "name": "Final",
+        "matches": [
+            {"date":"1964-06-15","season": "1963-64","competition": {"type":"cup","cup":"cup_luxembourg","name":"Luxembourg Cup","round":"Final"},"home": "ULUX", "homeDivision": {"level":1,"name":"National Division"},"away": "ARIS", "awayDivision": {"level":1,"name":"National Division"},"score":"1-0","aet":true}
+        ]
+    }],
+    "winner": "ULUX",
+    "title_count": 4
+}
