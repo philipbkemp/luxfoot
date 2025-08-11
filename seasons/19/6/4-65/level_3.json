@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1964-65",
+    "links": {
+        "next": "1965-66",
+        "prev": "1963-64",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["ASCH","ASDF","CROD","EGWM","JKYL","MARM","RBPF","RROD","SCBT","SPST","STET","TLMD","TRIG","WALF"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CROD", "w": 19, "d": 5, "l":  2, "f": 94, "a": 25, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1965-66", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "STET", "w": 15, "d": 9, "l":  2, "f": 53, "a": 24, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1965-66", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "RROD", "w": 14, "d": 7, "l":  5, "f": 63, "a": 30, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "ASDF", "w": 12, "d": 5, "l":  9, "f": 42, "a": 31, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "ASCH", "w": 11, "d": 6, "l":  9, "f": 37, "a": 37, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "EGWM", "w": 10, "d": 7, "l":  9, "f": 45, "a": 37, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "RBPF", "w": 10, "d": 7, "l":  9, "f": 44, "a": 47, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "MARM", "w": 10, "d": 6, "l": 10, "f": 44, "a": 49, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "JKYL", "w":  9, "d": 8, "l":  9, "f": 37, "a": 47, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "WALF", "w":  9, "d": 6, "l": 11, "f": 58, "a": 71, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "SPST", "w":  4, "d": 8, "l": 14, "f": 29, "a": 58, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1965-66", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "TRIG", "w":  4, "d": 8, "l": 14, "f": 24, "a": 56, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1965-66", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "TLMD", "w":  5, "d": 5, "l": 16, "f": 37, "a": 59, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1965-66", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "SCBT", "w":  3, "d": 7, "l": 16, "f": 26, "a": 62, "pts_win": 2, "season": "1964-65", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1965-66", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CROD","STET"],
+		"target": {"season": "1965-66", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["SPST","TRIG","TLMD","SCBT"],
+		"target": {"season": "1965-66", "level": 4, "name": "2. Division"}
+	}
+}

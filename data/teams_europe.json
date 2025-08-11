@@ -13,6 +13,7 @@
     },
     "CHE": {
         "_country": "Switzerland",
+        "BASL": {"id": "FC_Basel", "name":"Basel"},
         "LGNO": {"id": "FC_Lugano", "name": "Lugano"},
         "LASP": {"id": "FC_Lausanne-Sport", "name": "Lausanne-Sport"},
         "SION": {"id": "FC_Sion", "name": "Sion"},
@@ -82,6 +83,10 @@
         "_country": "Poland",
         "LODZ": {"id":"ŁKS_Łódź", "name": "ŁKS Łódź"}
     },
+    "PRT": {
+        "_country": "Portugal",
+        "BENF": {"id": "S.L._Benfica", "name": "Benfica"}
+    },
     "RUS": {
         "_country": "Russia",
         "STRN": {"id": "FC_Saturn_Ramenskoye", "name": "Saturn Moscow Oblast"}
@@ -105,6 +110,7 @@
     },
     "WDE": {
         "_country": "West Germany",
+        "1860": {"id":"TSV_1860_Munich","name":"1860 München"},
         "DORT": {"id": "Borussia_Dortmund", "name": "Borussia Dortmund"},
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}
     },
