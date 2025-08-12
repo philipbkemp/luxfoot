@@ -46,7 +46,7 @@
         "teams": ["ASLX","ASTN","ATBS","BWIT","ESHW","HAMM","JSKH","KHLN","MDCG","NORZ","SBCK"],
         "standings": [
             {"place":  1, "team": "ATBS", "w": 13, "d": 6, "l":  1, "f": 70, "a": 28, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3","promoted":true,"target":{"season":"1966-67","level":5,"name":"3. Division"}},
-            {"place":  2, "team": "BWIT", "w": 14, "d": 3, "l":  3, "f": 62, "a": 29, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3","playoff":"league_promotion_playoff"},
+            {"place":  2, "team": "BWIT", "w": 14, "d": 3, "l":  3, "f": 62, "a": 29, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3","playoff":"league_promotion_playoff","promoted":true,"target":{"season":"1966-67","level":5,"name":"3. Division"}},
             {"place":  3, "team": "MDCG", "w": 13, "d": 3, "l":  4, "f": 58, "a": 34, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
             {"place":  4, "team": "HAMM", "w":  9, "d": 5, "l":  6, "f": 57, "a": 49, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
             {"place":  5, "team": "ASLX", "w":  8, "d": 6, "l":  6, "f": 52, "a": 38, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
