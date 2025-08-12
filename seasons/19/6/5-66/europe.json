@@ -1,0 +1,60 @@
+{
+    "season": "1965-66",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1965-66",
+        "links": {
+            "next": "1966-67",
+            "prev": "1964-65"
+        },
+        "teams": ["SDUD"],
+        "rounds": [{
+            "key": "PR",
+            "name": "Preliminary round",
+            "matches": {
+                "SDUD": [
+                    {"isEurope":true,"date":"1965-09-30","leg":1,"home":"SDUD","away":"PRT:BENF","score": "0-8","season":"1965-66","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":1}},
+                    {"isEurope":true,"date":"1965-10-05","leg":2,"home":"PRT:BENF","away":"SDUD","score":"10-0","season":"1965-66","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary Round","leg":2},"agg":{"score":"0-18","outcome":"L","team":"SDUD"}}
+                ]
+            }
+        }]
+    },
+    "europa_league": {
+        "name": "Inter-Cities Fairs Cup",
+        "season": "1965-66",
+        "links": {
+            "next": "1966-97",
+            "prev": "1964-65"
+        },
+        "teams": ["ULUX"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ULUX": [
+                    {"isEurope":true,"date":"1964-09-08","leg":1,"home":"ULUX","away":"WDE:KOLN","score": "0-4","season":"1964-65","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1964-10-05","leg":2,"home":"WDE:KOLN","away":"ULUX","score":"13-0","season":"1964-65","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-17","outcome":"L","team":"ULUX"}}
+                ]
+            }
+        }]
+    },
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1965-66",
+        "links": {
+            "next": "1966-67",
+            "prev": "1964-65"
+        },
+        "teams": ["SPOR"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "SPOR": [
+                    {"isEurope":true,"date":"1964-09-22","leg":1,"home":"GDR:MAGD","away":"SPOR","score":"1-0","season":"1964-65","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1964-10-13","leg":2,"home":"SPOR","away":"GDR:MAGD","score":"0-2","season":"1964-65","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"0-3","outcome":"L","team":"SPOR"}}
+                ]
+            }
+        }]
+    }
+}

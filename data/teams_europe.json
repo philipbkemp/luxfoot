@@ -55,7 +55,8 @@
     },
     "GDR": {
         "_country": "East Germany",
-        "JENA": {"id": "FC Carl Zeiss Jena", "name": "Motor Jena"}
+        "JENA": {"id": "FC Carl Zeiss Jena", "name": "Motor Jena"},
+        "MAGD": {"id":"1._FC_Magdeburg","name":"1. FC Magdeburg"}
     },
     "GEO": {
         "_country": "Georgia",
@@ -112,6 +113,7 @@
         "_country": "West Germany",
         "1860": {"id":"TSV_1860_Munich","name":"1860 München"},
         "DORT": {"id": "Borussia_Dortmund", "name": "Borussia Dortmund"},
+        "KOLN": {"id":"1._FC_Köln","name":"1. FC Köln"},
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}
     },
     "YUG": {

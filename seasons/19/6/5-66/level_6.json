@@ -11,18 +11,42 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "missing" :true
+        "teams": ["BAST","BGHP","BGNV","HARL","JGIL","KPWW","MRTZ","PRTZ","TWTC","UFLN"],
+        "standings": [
+            {"place":  1, "team": "KPWW", "w": 17, "d": 0, "l":  1, "f": 96, "a": 21, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1","promoted":true,"target":{"season":"1966-67","level":5,"name":"3. Division"}},
+            {"place":  2, "team": "MRTZ", "w": 12, "d": 1, "l":  5, "f": 64, "a": 36, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1","playoff":"league_promotion_playoff"},
+            {"place":  3, "team": "HARL", "w": 11, "d": 2, "l":  5, "f": 63, "a": 39, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  4, "team": "BGNV", "w":  9, "d": 3, "l":  6, "f": 44, "a": 41, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  5, "team": "JGIL", "w":  7, "d": 6, "l":  5, "f": 60, "a": 46, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  6, "team": "BGHP", "w":  8, "d": 1, "l":  9, "f": 44, "a": 50, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  7, "team": "UFLN", "w":  6, "d": 3, "l":  9, "f": 48, "a": 54, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  8, "team": "PRTZ", "w":  4, "d": 1, "l": 13, "f": 27, "a": 89, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  9, "team": "BAST", "w":  3, "d": 2, "l": 13, "f": 44, "a": 74, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 10, "team": "TWTC", "w":  3, "d": 1, "l": 14, "f": 35, "a": 75, "pts_win": 2, "season": "1965-66", "level": 6, "series": 1, "league": "4. Division Series 1"}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
+        "teams": ["AFLX","ARBD","BDBB","BOUS","BWMD","BYUD","JCNC","MUNS","SYRA","YBWT"],
+        "standings": [
+            {"place":  1, "team": "ARBD", "w": 18, "d": 0, "l":  0, "f": 117, "a":  11, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2","promoted":true,"target":{"season":"1966-67","level":5,"name":"3. Division"}},
+            {"place":  2, "team": "BWMD", "w": 13, "d": 1, "l":  4, "f":  63, "a":  31, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2","playoff":"league_promotion_playoff"},
+            {"place":  3, "team": "YBWT", "w":  9, "d": 3, "l":  6, "f":  82, "a":  50, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  4, "team": "AFLX", "w":  9, "d": 2, "l":  7, "f":  64, "a":  40, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  5, "team": "JCNC", "w":  9, "d": 0, "l":  9, "f":  50, "a":  51, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  6, "team": "BYUD", "w":  7, "d": 3, "l":  8, "f":  51, "a":  50, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  7, "team": "BDBB", "w":  6, "d": 4, "l":  8, "f":  46, "a":  38, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  8, "team": "MUNS", "w":  5, "d": 2, "l": 11, "f":  26, "a":  88, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  9, "team": "BOUS", "w":  4, "d": 1, "l": 13, "f":  26, "a":  75, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 10, "team": "SYRA", "w":  1, "d": 2, "l": 15, "f":  14, "a": 105, "pts_win": 2, "season": "1965-66", "level": 6, "series": 2, "league": "4. Division Series 2"}
+        ]
     },{
         "series": 3,
         "name": "Series 3",
         "teams": ["ASLX","ASTN","ATBS","BWIT","ESHW","HAMM","JSKH","KHLN","MDCG","NORZ","SBCK"],
         "standings": [
             {"place":  1, "team": "ATBS", "w": 13, "d": 6, "l":  1, "f": 70, "a": 28, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3","promoted":true,"target":{"season":"1966-67","level":5,"name":"3. Division"}},
-            {"place":  2, "team": "BWIT", "w": 14, "d": 3, "l":  3, "f": 62, "a": 29, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  2, "team": "BWIT", "w": 14, "d": 3, "l":  3, "f": 62, "a": 29, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3","playoff":"league_promotion_playoff"},
             {"place":  3, "team": "MDCG", "w": 13, "d": 3, "l":  4, "f": 58, "a": 34, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
             {"place":  4, "team": "HAMM", "w":  9, "d": 5, "l":  6, "f": 57, "a": 49, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
             {"place":  5, "team": "ASLX", "w":  8, "d": 6, "l":  6, "f": 52, "a": 38, "pts_win": 2, "season": "1965-66", "level": 6, "series": 3, "league": "4. Division Series 3"},
@@ -35,7 +59,18 @@
         ]
     }],
     "promotion": {
-        "teams": ["ATBS"],
+        "teams": ["ATBS","KPWW","ARBD","BWIT"],
         "target": {"season":"1966-67","level":5,"name":"3. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["BWIT","MRTZ","MRTZ"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"BWIT","teamDivision": {"level":6,"series":3,"name":"4. Division Series 3"},"w": 1,"d": 1,"l": 0,"f": 4,"a": 1, "pts_win":2,"season":"1965-66","level":5,"league":"3. Division","playoff":"league_promotion_playoff","promoted":true,"target": {"season": "1966-67", "level": 5, "name": "3. Division"}},
+                {"place":2,"team":"MRTZ","teamDivision": {"level":6,"series":1,"name":"4. Division Series 1"},"w": 1,"d": 0,"l": 1,"f": 3,"a": 5, "pts_win":2,"season":"1965-66","level":5,"league":"3. Division","playoff":"league_promotion_playoff"},
+                {"place":3,"team":"bwmd","teamDivision": {"level":6,"series":2,"name":"4. Division Series 2"},"w": 0,"d": 1,"l": 1,"f": 2,"a": 5, "pts_win":2,"season":"1965-66","level":5,"league":"3. Division","playoff":"league_promotion_playoff"}
+            ]
+        }
     }
 }

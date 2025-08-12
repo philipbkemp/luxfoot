@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1965-66",
+    "links": {
+        "next": "1966-67",
+        "prev": "1964-65",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["CGRV","CROD","ETZE","FOLA","MDLB","NSCH","PRON","RPDN","RSML","STET","TSVG","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "MDLB", "w": 15, "d": 4, "l":  3, "f": 51, "a": 19, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1966-67", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "RPDN", "w": 15, "d": 3, "l":  4, "f": 54, "a": 28, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1966-67", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "CGRV", "w": 15, "d": 3, "l":  4, "f": 42, "a": 30, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "YBDK", "w": 10, "d": 6, "l":  6, "f": 46, "a": 36, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "PRON", "w": 10, "d": 5, "l":  7, "f": 35, "a": 27, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "NSCH", "w":  9, "d": 5, "l":  8, "f": 42, "a": 37, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "FOLA", "w":  9, "d": 4, "l":  9, "f": 28, "a": 29, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "CROD", "w":  8, "d": 4, "l": 10, "f": 37, "a": 43, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "TSVG", "w":  4, "d": 7, "l": 11, "f": 18, "a": 38, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "STET", "w":  5, "d": 4, "l": 13, "f": 36, "a": 53, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "ETZE", "w":  3, "d": 6, "l": 13, "f": 25, "a": 42, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1966-67", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "RSML", "w":  2, "d": 3, "l": 17, "f": 20, "a": 52, "pts_win": 2, "season": "1965-66", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1966-67", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["MDLB","RPDN"],
+		"target": {"season": "1966-67", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["ETZE","RSML"],
+		"target": {"season": "1966-67", "level": 3, "name": "1. Division"}
+	}
+}

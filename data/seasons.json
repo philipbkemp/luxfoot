@@ -976,29 +976,29 @@
 		"season": "1965-66",
 		"leagues": {
 			"level_1": {"season": "1965-66", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 2},
-			"level_2": {"missing":true,"season": "1965-66", "level":  2, "name": "Division of Honour", "winner": "MDLB"},
-			"level_3": {"missing":true,"season": "1965-66", "level":  3, "name": "1. Division", "winner": "CSOB"},
-			"level_4": {"missing":true,"season": "1965-66", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1965-66", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "DARE"},
-				{"missing":true,"season": "1965-66", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "SCBT"}
+			"level_2": {"season": "1965-66", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1965-66", "level":  3, "name": "1. Division"},
+			"level_4": {"season": "1965-66", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1965-66", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1965-66", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1965-66", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1965-66", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "VICR"},
-				{"missing":true,"season": "1965-66", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "OYMP"}
+			"level_5": {"season": "1965-66", "level":  5, "name": "3. Division", "series": [
+				{"season": "1965-66", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1965-66", "level":  5, "series":  2, "name": "3. Division Series 2"}
 			]},
 			"level_6": {"season": "1965-66", "level":  6, "name": "4. Division", "series": [
-				{"missing":true,"season": "1965-66", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "KPWW"},
-				{"missing":true,"season": "1965-66", "level":  6, "series":  2, "name": "4. Division Series 4", "winner": "ARBD"},
-				{"season": "1965-66", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "ATBS"}
+				{"season": "1965-66", "level":  6, "series":  1, "name": "4. Division Series 1"},
+				{"season": "1965-66", "level":  6, "series":  2, "name": "4. Division Series 4"},
+				{"season": "1965-66", "level":  6, "series":  3, "name": "4. Division Series 3"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1965-66", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 7, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1965-66", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 7, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1965-66","name":"European Cup","teams":["SDUD"]},
-			"europa_league": {"missing":true,"season":"1965-66","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"season":"1965-66","name":"Cup Winners' Cup","teams":["SPOR"]}
+			"champions_league": {"season":"1965-66","name":"European Cup","teams":["SDUD"]},
+			"europa_league": {"season":"1965-66","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"cup_winners_cup": {"season":"1965-66","name":"Cup Winners' Cup","teams":["SPOR"]}
 		}
 	},{
 		"season": "1966-67",

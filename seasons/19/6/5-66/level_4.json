@@ -1,0 +1,57 @@
+{
+    "level": 4,
+	"season": "1965-66",
+    "links": {
+        "next": "1966-67",
+        "prev": "1964-65",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AWDG","BVAT","DARE","JSCH","LRNZ","MANC","MINL","OBCN","OVND","SPST","SRED","UMRT"],
+        "standings": [
+            {"place":  1, "team": "DARE", "w": 15, "d": 3, "l":  4, "f": 63, "a": 37, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1966-67", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "SPST", "w": 13, "d": 3, "l":  6, "f": 56, "a": 41, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1966-67", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "SRED", "w": 13, "d": 2, "l":  7, "f": 68, "a": 41, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "UMRT", "w": 12, "d": 3, "l":  7, "f": 50, "a": 39, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "AWDG", "w":  8, "d": 6, "l":  8, "f": 60, "a": 52, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "OVND", "w":  9, "d": 3, "l": 10, "f": 46, "a": 52, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "JSCH", "w":  8, "d": 5, "l":  9, "f": 40, "a": 48, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "BVAT", "w":  7, "d": 6, "l":  9, "f": 56, "a": 61, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "MINL", "w":  9, "d": 1, "l": 12, "f": 41, "a": 41, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "LRNZ", "w":  7, "d": 3, "l": 12, "f": 33, "a": 67, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 11, "team": "OBCN", "w":  6, "d": 3, "l": 13, "f": 53, "a": 63, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1966-67", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "MANC", "w":  4, "d": 4, "l": 14, "f": 41, "a": 65, "pts_win": 2, "season": "1965-66", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1966-67", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","JHTC","KOPS","PROG","RBAS","SAND","SCBT","SNEM","TLMD","TRIG","UBSH","UESH"],
+        "standings": [
+            {"place":  1, "team": "SCBT", "w": 19, "d":  1, "l":  2, "f": 83, "a": 24, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1966-67", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "TLMD", "w": 16, "d":  4, "l":  2, "f": 63, "a": 29, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1966-67", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "PROG", "w": 11, "d":  5, "l":  6, "f": 57, "a": 42, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "AREM", "w": 10, "d":  7, "l":  5, "f": 66, "a": 50, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "JHTC", "w":  9, "d":  4, "l":  9, "f": 57, "a": 43, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "UESH", "w":  8, "d":  5, "l":  9, "f": 46, "a": 42, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "KOPS", "w":  8, "d":  3, "l": 11, "f": 49, "a": 55, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "TRIG", "w":  7, "d":  5, "l": 10, "f": 36, "a": 45, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "UBSH", "w":  7, "d":  4, "l": 11, "f": 45, "a": 54, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "SNEM", "w":  3, "d": 10, "l":  9, "f": 36, "a": 53, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "RBAS", "w":  4, "d":  3, "l": 15, "f": 33, "a": 82, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1966-67", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "SAND", "w":  3, "d":  3, "l": 16, "f": 28, "a": 80, "pts_win": 2, "season": "1965-66", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1966-67", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["DARE","SPST","SCBT","TLMD"],
+        "target": {"season": "1966-67", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["OBCN","MANC","RBAS","SAND"],
+        "target": {"season": "1966-67", "level": 5, "name": "3. Division"}
+    }
+}
