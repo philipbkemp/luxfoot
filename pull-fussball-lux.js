@@ -132,8 +132,9 @@ function pullResults(tbl) {
 nextSeason = "";
 function pullStandings(tbl) {
     season = window.location.href.split("/").pop().split(".")[0].replace("-19","-").replace("-20","-").replace("Saison","");
-    level = parseInt(prompt("League level"));
-    comp = prompt("Competition");
+    level = prompt("League level");
+    comp = prompt("Competition",DIVISIONS[level]?DIVISIONS[level]:"");
+    level = parseInt(level);
     ppw = parseInt(prompt("Points per win",2));
     champion = prompt("Champion code").toUpperCase();
     relegated = prompt("Relegated codes").toUpperCase();
