@@ -1,0 +1,59 @@
+{
+    "season": "1966-67",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1966-67",
+        "links": {
+            "next": "1967-68",
+            "prev": "1965-66"
+        },
+        "teams": ["ARIS"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ARIS": [
+                    {"isEurope":true,"date":"1966-09-07","leg":1,"home":"ARIS","away":"NIR:LINF","score":"3-3","season":"1966-67","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1966-09-14","leg":2,"home":"NIR:LINF","away":"ARIS","score":"6-1","season":"1966-67","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":2},"agg":{"score":"4-9","outcome":"L","team":"ARIS"}}
+                ]
+            }
+        }]
+    },
+    "europa_league": {
+        "name": "Inter-Cities Fairs Cup",
+        "season": "1966-67",
+        "links": {
+            "next": "1967-68",
+            "prev": "1965-66"
+        },
+        "teams": ["ULUX"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ULUX": [
+                    {"isEurope":true,"date":"1966-09-21","leg":1,"home":"ULUX","away":"BEL:ANTW","score":"0-1","season":"1966-67","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1966-09-28","leg":2,"home":"BEL:ANTW","away":"ULUX","score":"1-0","season":"1966-67","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-2","outcome":"L","team":"ULUX"}}
+                ]
+            }
+        }]
+    },
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1966-67",
+        "links": {
+            "next": "1967-68",
+            "prev": "1965-66"
+        },
+        "teams": ["SPOR"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "SPOR": [
+                    {"isEurope":true,"date":"1966-09-28","leg":1,"home":"IRL:SHAM","away":"SPOR","score":"4-1","season":"1966-67","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1966-10-05","leg":2,"home":"SPOR","away":"IRL:SHAM","score":"1-4","season":"1966-67","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"2-8","outcome":"L","team":"SPOR"}}                ]
+            }
+        }]
+    }
+}

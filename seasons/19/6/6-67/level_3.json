@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1966-67",
+    "links": {
+        "next": "1967-68",
+        "prev": "1965-66",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["CSHL","DARE","ETZE","JKYL","KWRM","MARM","RBPF","RROD","RSML","SCBT","SPST","TLMD","UNAS","WALF"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CSHL", "w": 15, "d": 8, "l":  3, "f": 67, "a": 26, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1967-68", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "KWRM", "w": 16, "d": 5, "l":  5, "f": 75, "a": 47, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1967-68", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "RROD", "w": 17, "d": 3, "l":  6, "f": 63, "a": 37, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "UNAS", "w": 15, "d": 5, "l":  6, "f": 63, "a": 41, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "RSML", "w": 14, "d": 5, "l":  7, "f": 55, "a": 46, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "ETZE", "w": 12, "d": 8, "l":  6, "f": 72, "a": 55, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "SCBT", "w": 11, "d": 5, "l": 10, "f": 62, "a": 55, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "DARE", "w": 12, "d": 3, "l": 11, "f": 69, "a": 70, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "TLMD", "w":  9, "d": 5, "l": 12, "f": 63, "a": 65, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "WALF", "w":  9, "d": 4, "l": 13, "f": 80, "a": 81, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "MARM", "w":  6, "d": 2, "l": 18, "f": 45, "a": 79, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1967-68", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "SPST", "w":  5, "d": 4, "l": 17, "f": 37, "a": 71, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1967-68", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "RBPF", "w":  5, "d": 3, "l": 18, "f": 34, "a": 86, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1967-68", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "JKYL", "w":  4, "d": 4, "l": 18, "f": 42, "a": 68, "pts_win": 2, "season": "1966-67", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1967-68", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CSHL","KWRM"],
+		"target": {"season": "1967-68", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["MARM","SPST","RBPF","JKYL"],
+		"target": {"season": "1967-68", "level": 4, "name": "2. Division"}
+	}
+}

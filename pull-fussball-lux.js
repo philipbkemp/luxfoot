@@ -56,6 +56,16 @@ allTeams = {
     "Le Monflin Bigonville":"MONF","FC Everlange":"EVER","FC Ell":"FELL","Koeppchen Wormeldingen":"KWRM","Blue Star Schweicherthal":"BSSW","Jeunesse Useldingen":"JUSE",
     "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU","Jeunesse Sportive Hagen":"JHAG"
 }
+
+DIVISIONS = {
+    "1": "National Division",
+    "2": "Division of Honour",
+    "3": "1. Division",
+    "4": "2. Division",
+    "5": "3. Division",
+    "6": "4. Division"
+};
+
 document.querySelectorAll("table table").forEach(t=>{
     t.addEventListener("click",function(e){
         source = e.target;
@@ -77,8 +87,9 @@ document.querySelectorAll("table table").forEach(t=>{
 });
 function pullResults(tbl) {
     season = window.location.href.split("/").pop().split(".")[0].replace("-19","-").replace("-20","-").replace("Saison","");
-    level = parseInt(prompt("League level"));
-    comp = prompt("Competition");
+    level = prompt("League level");
+    comp = prompt("Competition",DIVISIONS[level]?DIVISIONS[level]:"");
+    level = parseInt(level);
     rows = tbl.querySelectorAll("tr");
     teams = [];
     output = [];

@@ -21,6 +21,7 @@
     },
     "BEL": {
         "_country": "Belgium",
+        "ANTW": {"id": "Royal_Antwerp_F.C.", "name": "Royal Antwerp"},
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"},
         "LIEG": {"id": "RFC_Liège", "name":"RFC Liège"}
     },
@@ -63,6 +64,10 @@
         "DILA": {"id": "FC_Dila_Gori","name":"Dila Gori"},
         "LOCO": {"id": "FC_Locomotive_Tbilisi", "name": "Locomotive Tbilisi"}
     },
+    "IRL": {
+        "_country": "Republic of Ireland",
+        "SHAM": {"id":"Shamrock_Rovers_F.C.","name":"Shamrock Rovers"}
+    },
     "ITA": {
         "_country": "Italy",
         "MILN": {"id": "AC_Milan", "name": "Milan"},
@@ -79,6 +84,10 @@
     "LVA": {
         "_country": "Latvia",
         "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
+    },
+    "NIR": {
+        "_country": "Northern Ireland",
+        "LINF": {"id": "Linfield_F.C.", "name": "Linfield"}
     },
     "POL": {
         "_country": "Poland",
