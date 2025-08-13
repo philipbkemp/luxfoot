@@ -44,8 +44,8 @@
             {"place": 11, "team": "MUNS", "w":  1, "d": 0, "l": 19, "f":  16, "a": 94, "pts_win": 2, "season": "1966-67", "level": 6, "series": 2, "league": "4. Division Series 2"}
         ]
     },{
-        "series": 2,
-        "name": "Series 2",
+        "series": 3,
+        "name": "Series 3",
         "teams": ["ASLX","BOUS","CLMC","ESHW","HAMM","KHLN","LUNA","MDCG","NORZ","USMM","YBWT"],
         "standings": [
             {"place":  1, "team": "YBWT", "w": 18, "d": 1, "l":  1, "f":  92, "a": 26, "pts_win": 2, "season": "1966-67", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1967-68", "level": 5, "name": "3. Division"}},
