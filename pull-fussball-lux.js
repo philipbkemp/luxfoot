@@ -143,7 +143,7 @@ function pullStandings(tbl) {
         nextSeasonDown = prompt("Next season",nextSeason);
         nextSeason = nextSeasonDown;
         relegateToLevel = parseInt(prompt("Relegate to which level?",level+1));
-        relegateToName = prompt("Relegate to which division?");
+        relegateToName = prompt("Relegate to which division?",DIVISIONS[relegateToLevel]?DIVISIONS[relegateToLevel]:"");
     }
     promoted = prompt("Promoted codes").toUpperCase();
     if ( promoted !== "" ) {
@@ -151,7 +151,7 @@ function pullStandings(tbl) {
         nextSeasonUp = prompt("Next season",nextSeason);
         nextSeason = nextSeasonUp;
         promoteToLevel = parseInt(prompt("Promote to which level?",level-1));
-        promoteToName = prompt("Promote to which division?");
+        promoteToName = prompt("Promote to which division?",DIVISIONS[promoteToLevel]?DIVISIONS[promoteToLevel]:"");
     }
     if ( ppw === 3 ) {
         ppw = "";

@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1967-68",
+    "links": {
+        "next": "1968-69",
+        "prev": "1966-67",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ADUD","CGRV","CSHL","CSOB","EGWM","FOLA","JWAS","KWRM","NSCH","RPDN","STET","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "FOLA", "w": 14, "d": 8, "l":  0, "f": 63, "a": 17, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1968-69", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "CGRV", "w": 14, "d": 2, "l":  6, "f": 55, "a": 32, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1968-69", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "RPDN", "w":  9, "d": 8, "l":  5, "f": 45, "a": 28, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "NSCH", "w": 11, "d": 4, "l":  7, "f": 45, "a": 33, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "CSOB", "w": 10, "d": 4, "l":  8, "f": 39, "a": 34, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "EGWM", "w": 10, "d": 4, "l":  8, "f": 35, "a": 34, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "CSHL", "w":  9, "d": 5, "l":  8, "f": 40, "a": 36, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "ADUD", "w":  8, "d": 3, "l": 11, "f": 42, "a": 43, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "JWAS", "w":  8, "d": 3, "l": 11, "f": 38, "a": 45, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "STET", "w":  6, "d": 5, "l": 11, "f": 28, "a": 42, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "YBDK", "w":  5, "d": 7, "l": 10, "f": 32, "a": 54, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1968-69", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "KWRM", "w":  0, "d": 3, "l": 19, "f": 22, "a": 86, "pts_win": 2, "season": "1967-68", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1968-69", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["FOLA","CGRV"],
+		"target": {"season": "1968-69", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["YBDK","KWRM"],
+		"target": {"season": "1968-69", "level": 3, "name": "1. Division"}
+	}
+}

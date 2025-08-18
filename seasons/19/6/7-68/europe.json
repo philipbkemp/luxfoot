@@ -1,0 +1,60 @@
+{
+    "season": "1967-68",
+    "champions_league": {
+        "name": "European Cup",
+        "season": "1967-68",
+        "links": {
+            "next": "1968-69",
+            "prev": "1966-67"
+        },
+        "teams": ["JESH"],
+        "rounds": [{
+            "key": "R1",
+            "name": "Firdst round",
+            "matches": {
+                "JESH": [
+                    {"isEurope":true,"date":"1967-09-17","leg":1,"home":"ISL:VALR","away":"JESH","score":"1-1","season":"1967-68","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1967-10-01","leg":2,"home":"JESH","away":"ISL:VALR","score":"3-3","season":"1967-68","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First Round","leg":2},"agg":{"score":"4-4","outcome":"LA","team":"JESH"}}
+                ]
+            }
+        }]
+    },
+    "europa_league": {
+        "name": "Inter-Cities Fairs Cup",
+        "season": "1967-68",
+        "links": {
+            "next": "1968-69",
+            "prev": "1966-67"
+        },
+        "teams": ["SPOR"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "SPOR": [
+                    {"isEurope":true,"date":"1967-10-03","leg":1,"home":"SPOR","away":"ENG:LEED","score":"0-9","season":"1967-68","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1966-10-17","leg":2,"home":"ENG:LEED","away":"SPOR","score":"7-0","season":"1967-68","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First Round","leg":2},"agg":{"score":"0-16","outcome":"L","team":"SPOR"}}
+                ]
+            }
+        }]
+    },
+    "cup_winners_cup": {
+        "name": "Cup Winners' Cup",
+        "season": "1967-68",
+        "links": {
+            "next": "1968-69",
+            "prev": "1966-67"
+        },
+        "teams": ["ARIS"],
+        "rounds": [{
+            "key": "R1",
+            "name": "First round",
+            "matches": {
+                "ARIS": [
+                    {"isEurope":true,"date":"1967-09-20","leg":1,"home":"ARIS","away":"FRA:LYON","score":"0-3","season":"1967-68","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":1}},
+                    {"isEurope":true,"date":"1967-10-04","leg":2,"home":"FRA:LYON","away":"ARIS","score":"2-1","season":"1967-68","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First Round","leg":2},"agg":{"score":"1-5","outcome":"L","team":"ARIS"}}
+                ]
+            }
+        }]
+    }
+}

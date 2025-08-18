@@ -1031,30 +1031,30 @@
 	},{
 		"season": "1967-68",
 		"leagues": {
-			"level_1": {"missing":true,"season": "1967-68", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 10},
-			"level_2": {"missing":true,"season": "1967-68", "level":  2, "name": "Division of Honour", "winner": "FOLA"},
-			"level_3": {"missing":true,"season": "1967-68", "level":  3, "name": "1. Division", "winner": "RROD"},
-			"level_4": {"missing":true,"season": "1967-68", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1967-68", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "JBIW"},
-				{"missing":true,"season": "1967-68", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "RBPF"}
+			"level_1": {"season": "1967-68", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 10},
+			"level_2": {"season": "1967-68", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1967-68", "level":  3, "name": "1. Division"},
+			"level_4": {"season": "1967-68", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1967-68", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1967-68", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1967-68", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1967-68", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "REIS"},
-				{"missing":true,"season": "1967-68", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "MAMR"}
+			"level_5": {"season": "1967-68", "level":  5, "name": "3. Division", "series": [
+				{"season": "1967-68", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1967-68", "level":  5, "series":  2, "name": "3. Division Series 2"}
 			]},
-			"level_6": {"missing":true,"season": "1967-68", "level":  6, "name": "4. Division", "series": [
-				{"missing":true,"season": "1967-68", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "PRTZ"},
-				{"missing":true,"season": "1967-68", "level":  6, "series":  2, "name": "4. Division Series 4", "winner": "BRCH"},
-				{"missing":true,"season": "1967-68", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "SAND"}
+			"level_6": {"season": "1967-68", "level":  6, "name": "4. Division", "series": [
+				{"season": "1967-68", "level":  6, "series":  1, "name": "4. Division Series 1"},
+				{"season": "1967-68", "level":  6, "series":  2, "name": "4. Division Series 4"},
+				{"season": "1967-68", "level":  6, "series":  3, "name": "4. Division Series 3"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1967-68", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1967-68", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 1, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1967-68","name":"European Cup","teams":["JESH"]},
-			"europa_league": {"missing":true,"season":"1967-68","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
-			"cup_winners_cup": {"missing":true,"season":"1967-68","name":"Cup Winners' Cup","teams":["ARIS"]}
+			"champions_league": {"season":"1967-68","name":"European Cup","teams":["JESH"]},
+			"europa_league": {"season":"1967-68","name":"Inter-Cities Fairs Cup","teams":["SPOR"]},
+			"cup_winners_cup": {"season":"1967-68","name":"Cup Winners' Cup","teams":["ARIS"]}
 		}
 	},{
 		"season": "1968-69",

@@ -30,6 +30,10 @@
         "BK09": {"id": "Boldklubben_1909", "name": "B1909" },
         "BK13": {"id": "Boldklubben_1913", "name": "Boldklubben 1913"}
     },
+    "ENG": {
+        "_country": "England",
+        "LEED": {"id": "Leeds_United_F.C.", "name":"Leeds United"}
+    },
     "ESP": {
         "_country": "Spain",
         "BARC": {"id": "FC_Barcelona", "name": "Barcelona"},
@@ -48,6 +52,7 @@
     "FRA": {
         "_country": "France",
         "LENS": {"id": "RC_Lens", "name": "Lens"},
+        "LYON": {"id": "Olympique Lyonnais", "name": "Lyon"},
         "REIM": {"id" :"Stade de Reims", "name": "Reims"}
     },
     "FRO": {
@@ -67,6 +72,10 @@
     "IRL": {
         "_country": "Republic of Ireland",
         "SHAM": {"id":"Shamrock_Rovers_F.C.","name":"Shamrock Rovers"}
+    },
+    "ISL": {
+        "_country": "Iceland",
+        "VALR": {"id": "Valur_(men%27s_football)", "name":"Valur"}
     },
     "ITA": {
         "_country": "Italy",
