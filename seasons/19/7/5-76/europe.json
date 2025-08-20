@@ -10,7 +10,7 @@
 		"teams": ["JESH"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"JESH": [
 					{"isEurope":true,"date":"1975-09-17","leg":1,"home":"JESH","away":"WDE:BYRN","score":"0-5","season":"1975-76","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},

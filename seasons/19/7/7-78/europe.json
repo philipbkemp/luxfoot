@@ -10,7 +10,7 @@
 		"teams": ["JESH"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"JESH": [
 					{"isEurope":true,"date":"1977-09-14","leg":1,"home":"SCO:CELT","away":"JESH","score":"5-0","season":"1977-78","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},

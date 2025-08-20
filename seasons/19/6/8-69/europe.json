@@ -10,7 +10,7 @@
 		"teams": ["JESH"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"JESH": [
 					{"isEurope":true,"date":"1968-09-18","leg":1,"home":"GRC:ATHN","away":"JESH","score":"3-0","season":"1968-69","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},

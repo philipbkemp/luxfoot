@@ -10,7 +10,7 @@
 		"teams": ["ARIS"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"ARIS": [
 					{"isEurope":true,"date":"1972-09-13","leg":1,"home":"ARIS","away":"ROU:ARGS","score":"0-2","season":"1972-73","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},

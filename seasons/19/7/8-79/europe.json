@@ -10,7 +10,7 @@
 		"teams": ["PRON"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"PRON": [
 					{"isEurope":true,"date":"1978-09-13","leg":1,"home":"ESP:REAL","away":"PRON","score":"5-0","season":"1978-79","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},

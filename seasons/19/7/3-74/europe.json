@@ -10,7 +10,7 @@
 		"teams": ["JESH"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"JESH": [
 					{"isEurope":true,"date":"1973-09-19","leg":1,"home":"JESH","away":"ENG:LVPL","score":"1-1","season":"1973-74","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},

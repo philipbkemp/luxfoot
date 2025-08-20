@@ -10,7 +10,7 @@
 		"teams": ["ULUX"],
 		"rounds": [{
 			"key": "PR",
-			"round": "Preliminary round",
+			"name": "Preliminary round",
 			"matches": {
 				"ULUX": [
 					{"isEurope":true,"date":"1971-08-19","leg":1,"home":"ESP:VLNC","away":"ULUX","score":"3-1","season":"1971-72","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary round","leg":1}},

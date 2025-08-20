@@ -10,7 +10,7 @@
 		"teams": ["JESH"],
 		"rounds": [{
 			"key": "R1",
-			"round": "First round",
+			"name": "First round",
 			"matches": {
 				"JESH": [
 					{"isEurope":true,"date":"1970-09-16","leg":1,"home":"JESH","away":"GRC:PANA","score":"1-2","season":"1970-71","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
