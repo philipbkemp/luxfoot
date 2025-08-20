@@ -25,6 +25,10 @@
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"},
         "LIEG": {"id": "RFC_Liège", "name":"RFC Liège"}
     },
+    "CYP": {
+        "_country": "Cyprus",
+        "OMON": {"id": "AC_Omonia","name":"Omonia"}
+    },
     "DNK": {
         "_country": "Denmark",
         "BK09": {"id": "Boldklubben_1909", "name": "B1909" },
@@ -32,12 +36,14 @@
     },
     "ENG": {
         "_country": "England",
-        "LEED": {"id": "Leeds_United_F.C.", "name":"Leeds United"}
+        "LEED": {"id": "Leeds_United_F.C.", "name":"Leeds United"},
+        "LVPL": {"id": "Liverpool_F.C.", "name": "Liverpool"}
     },
     "ESP": {
         "_country": "Spain",
         "BARC": {"id": "FC_Barcelona", "name": "Barcelona"},
-        "REAL": {"id":"Real_Madrid_CF", "name": "Real Madrid"}
+        "REAL": {"id":"Real_Madrid_CF", "name": "Real Madrid"},
+        "VLNC": {"id": "Valencia_CF", "name": "Valencia"}
     },
     "EST": {
         "_country": "Estonia",
@@ -68,6 +74,15 @@
         "_country": "Georgia",
         "DILA": {"id": "FC_Dila_Gori","name":"Dila Gori"},
         "LOCO": {"id": "FC_Locomotive_Tbilisi", "name": "Locomotive Tbilisi"}
+    },
+    "GRC": {
+        "_country": "Greece",
+        "ATHN": {"id": "AEK_Athens_F.C.","name":"AEK Athens"},
+        "PANA": {"id": "Panathinaikos_F.C.", "name": "Panathinaikos"}
+    },
+    "HUN": {
+        "_country": "Hungary",
+        "FRNC": {"id": "Ferencvárosi_TC", "name":"Ferencváros"}
     },
     "IRL": {
         "_country": "Republic of Ireland",
@@ -106,12 +121,17 @@
         "_country": "Portugal",
         "BENF": {"id": "S.L._Benfica", "name": "Benfica"}
     },
+    "ROU": {
+        "_country": "Romania",
+        "ARGS": {"id": "FC_Argeș_Pitești", "name": "Argeș Pitești"}
+    },
     "RUS": {
         "_country": "Russia",
         "STRN": {"id": "FC_Saturn_Ramenskoye", "name": "Saturn Moscow Oblast"}
     },
     "SCO": {
         "_country": "Scotland",
+        "CELT": {"id":"Celtic_F.C.", "name":"Celtic"},
         "DNDU": {"id":"Dundee_United_F.C.","name":"Dundee United"}
     },
     "SWE": {
@@ -123,6 +143,10 @@
         "IFKN": {"id": "IFK_Norrköping", "name": "Norrköping"},
         "OREB": {"id": "Örebro_SK", "name": "Örebro"}
     },
+    "TUR": {
+        "_country": "Turkey",
+        "FENR": {"id": "Fenerbahçe_S.K._(football)", "name":"Fenerbahçe"}
+    },
     "WAL": {
         "_country": "Wales",
         "TNST": {"id": "The_New_Saints_F.C.", "name": "The New Saints"}
@@ -130,6 +154,7 @@
     "WDE": {
         "_country": "West Germany",
         "1860": {"id":"TSV_1860_Munich","name":"1860 München"},
+        "BYRN": {"id":"FC_Bayern_Munich", "name":"Bayern Munich"},
         "DORT": {"id": "Borussia_Dortmund", "name": "Borussia Dortmund"},
         "KOLN": {"id":"1._FC_Köln","name":"1. FC Köln"},
         "HAMB": {"id": "Hamburger_SV", "name": "Hamburg"}

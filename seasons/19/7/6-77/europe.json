@@ -1,0 +1,22 @@
+{
+    "season": "1976-77",
+	"champions_league": {
+		"name": "European Cup",
+		"season": "1976-77",
+		"links": {
+			"next": "1977-78",
+			"prev": "1975-76"
+		},
+		"teams": ["JESH"],
+		"rounds": [{
+			"key": "R1",
+			"round": "First round",
+			"matches": {
+				"JESH": [
+					{"isEurope":true,"date":"1976-09-15","leg":1,"home":"HUN:FRNC","away":"JESH","score":"5-1","season":"1976-77","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1976-09-29","leg":2,"home":"JESH","away":"HUN:FRNC","score":"2-6","season":"1976-77","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"3-11","outcome":"L","team":"JESH"}}
+				]
+			}
+		}]
+	}
+}

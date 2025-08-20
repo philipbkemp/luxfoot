@@ -1,0 +1,22 @@
+{
+    "season": "1969-70",
+	"champions_league": {
+		"name": "European Cup",
+		"season": "1969-70",
+		"links": {
+			"next": "1970-71",
+			"prev": "1968-69"
+		},
+		"teams": ["AVBG"],
+		"rounds": [{
+			"key": "R1",
+			"round": "First round",
+			"matches": {
+				"AVBG": [
+					{"isEurope":true,"date":"1969-09-10","leg":1,"home":"ITA:MILN","away":"AVBG","score":"5-0","season":"1969-70","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1969-09-24","leg":2,"home":"AVBG","away":"ITA:MILN","score":"0-3","season":"1969-70","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"0-8","outcome":"L","team":"AVBG"}}
+				]
+			}
+		}]
+	}
+}

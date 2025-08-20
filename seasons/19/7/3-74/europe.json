@@ -1,0 +1,22 @@
+{
+    "season": "1973-74",
+	"champions_league": {
+		"name": "European Cup",
+		"season": "1973-74",
+		"links": {
+			"next": "1974-75",
+			"prev": "1972-73"
+		},
+		"teams": ["JESH"],
+		"rounds": [{
+			"key": "R1",
+			"round": "First round",
+			"matches": {
+				"JESH": [
+					{"isEurope":true,"date":"1973-09-19","leg":1,"home":"JESH","away":"ENG:LVPL","score":"1-1","season":"1973-74","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1973-10-03","leg":2,"home":"ENG:LVPL","away":"JESH","score":"2-0","season":"1973-74","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"1-3","outcome":"L","team":"JESH"}}
+				]
+			}
+		}]
+	}
+}

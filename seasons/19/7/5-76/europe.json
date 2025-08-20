@@ -1,5 +1,24 @@
 {
     "season": "1975-76",
+    "champions_league": {
+		"name": "European Cup",
+		"season": "1975-76",
+		"links": {
+			"next": "1976-77",
+			"prev": "1974-75"
+		},
+		"teams": ["JESH"],
+		"rounds": [{
+			"key": "R1",
+			"round": "First round",
+			"matches": {
+				"JESH": [
+					{"isEurope":true,"date":"1975-09-17","leg":1,"home":"JESH","away":"WDE:BYRN","score":"0-5","season":"1975-76","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1975-10-01","leg":2,"home":"WDE:BYRN","away":"JESH","score":"3-1","season":"1975-76","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"1-8","outcome":"L","team":"JESH"}}
+				]
+			}
+		}]
+	},
     "cup_winners_cup": {
         "name": "Cup Winners' Cup",
         "season": "1975-76",

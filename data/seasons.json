@@ -1081,7 +1081,7 @@
 			"cup_luxembourg": {"missing":true,"season": "1968-69", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 5, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1968-69","name":"European Cup","teams":["JESH"]},
+			"champions_league": {"season":"1968-69","name":"European Cup","teams":["JESH"]},
 			"europa_league": {"missing":true,"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
 			"cup_winners_cup": {"missing":true,"season":"1968-69","name":"Cup Winners' Cup","teams":["URUM"]}
 		}
@@ -1110,7 +1110,7 @@
 			"cup_luxembourg": {"missing":true,"season": "1969-70", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 6, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1969-70","name":"European Cup","teams":["AVBG"]},
+			"champions_league": {"season":"1969-70","name":"European Cup","teams":["AVBG"]},
 			"europa_league": {"missing":true,"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
 			"cup_winners_cup": {"missing":true,"season":"1969-70","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
@@ -1139,7 +1139,7 @@
 			"cup_luxembourg": {"missing":true,"season": "1970-71", "name": "Luxembourg Cup", "winner": "JHTC", "title_count": 1, "winner_division": {"level": 3,"name": "1. Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"season":"1970-71","name":"European Cup","teams":["JESH"]},
+			"champions_league": {"season":"1970-71","name":"European Cup","teams":["JESH"]},
 			"europa_league": {"missing":true,"season":"1970-71","name":"Inter-Cities Fairs Cup","teams":["URUM"]},
 			"cup_winners_cup": {"missing":true,"season":"1970-71","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
@@ -1167,7 +1167,7 @@
 			"cup_luxembourg": {"missing":true,"season": "1971-72", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 13, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1971-72","teams":["ULUX"]},
+			"champions_league": {"name":"European Cup",	"season":"1971-72","teams":["ULUX"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1971-72","teams":["ARIS"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1971-72","teams":["JHTC"]}
 		}
@@ -1196,7 +1196,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1972-73", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 5, "double": true, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1972-73","teams":["ARIS"]},
+			"champions_league": {"name":"European Cup",	"season":"1972-73","teams":["ARIS"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1972-73","teams":["URUM"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1972-73","teams":["RBDF"]}
 		}
@@ -1225,7 +1225,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1973-74", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 6,"winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1973-74","teams":["JESH"]},
+			"champions_league": {"name":"European Cup",	"season":"1973-74","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1973-74","teams":["ULUX"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1973-74","teams":["FOLA"]}
 		}
@@ -1254,7 +1254,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1974-75", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1974-75","teams":["JESH"]},
+			"champions_league": {"name":"European Cup",	"season":"1974-75","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1974-75","teams":["RBDF"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1974-75","teams":["AVBG"]}
 		}
@@ -1283,7 +1283,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1975-76", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1975-76","teams":["JESH"]},
+			"champions_league": {"name":"European Cup",	"season":"1975-76","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1975-76","teams":["AVBG"]},
 			"cup_winners_cup": {"name":"Cup Winners' Cup",				"season":"1975-76","teams":["URUM"]}
 		}
@@ -1323,7 +1323,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1976-77", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1976-77","teams":["JESH"]},
+			"champions_league": {"name":"European Cup",	"season":"1976-77","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1976-77","teams":["RBDF"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1976-77","teams":["ARIS"]}
 		}
@@ -1363,7 +1363,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1977-78", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 4, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1977-78","teams":["JESH"]},
+			"champions_league": {"name":"European Cup",	"season":"1977-78","teams":["JESH"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1977-78","teams":["RBDF"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1977-78","teams":["PRON"]}
 		}
@@ -1403,7 +1403,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1978-79", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1978-79","teams":["PRON"]},
+			"champions_league": {"name":"European Cup",	"season":"1978-79","teams":["PRON"]},
 			"europa_league": {"name":"UEFA Cup",						"season":"1978-79","teams":["JESH"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1978-79","teams":["ULUX"]}
 		}
@@ -1443,7 +1443,7 @@
 			"cup_luxembourg": {"missing":true, "season": "1979-80", "name": "Luxembourg Cup", "winner": "SPOR", "title_count": 8, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
-			"champions_league": {"missing":true,"name":"European Cup",	"season":"1979-80","teams":["RBDF"]},
+			"champions_league": {"name":"European Cup",	"season":"1979-80","teams":["RBDF"]},
 			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1979-80","teams":["PRON"]},
 			"cup_winners_cup": {"name":"Cup Winners' Cup",				"season":"1979-80","teams":["ARIS"]}
 		}

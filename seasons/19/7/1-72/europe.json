@@ -1,0 +1,22 @@
+{
+    "season": "1971-72",
+	"champions_league": {
+		"name": "European Cup",
+		"season": "1971-72",
+		"links": {
+			"next": "1972-73",
+			"prev": "1970-71"
+		},
+		"teams": ["ULUX"],
+		"rounds": [{
+			"key": "PR",
+			"round": "Preliminary round",
+			"matches": {
+				"ULUX": [
+					{"isEurope":true,"date":"1971-08-19","leg":1,"home":"ESP:VLNC","away":"ULUX","score":"3-1","season":"1971-72","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary round","leg":1}},
+					{"isEurope":true,"date":"1971-08-24","leg":2,"home":"ULUX","away":"ESP:VLNC","score":"0-1","season":"1971-72","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"Preliminary round","leg":2},"agg":{"score":"1-4","outcome":"L","team":"ULUX"}}
+				]
+			}
+		}]
+	}
+}

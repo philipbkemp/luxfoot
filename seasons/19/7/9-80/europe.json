@@ -1,5 +1,24 @@
 {
     "season": "1979-80",
+    "champions_league": {
+		"name": "European Cup",
+		"season": "1979-80",
+		"links": {
+			"next": "1980-81",
+			"prev": "1978-79"
+		},
+		"teams": ["RBDF"],
+		"rounds": [{
+			"key": "R1",
+			"round": "First round",
+			"matches": {
+				"RBDF": [
+					{"isEurope":true,"date":"1979-09-19","leg":1,"home":"RBDF","away":"CYP:OMON","score":"2-1","season":"1979-80","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1979-10-03","leg":2,"home":"CYP:OMON","away":"RBDF","score":"1-6","season":"1979-80","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"3-7","outcome":"L","team":"RBDF"}}
+				]
+			}
+		}]
+	},
     "cup_winners_cup": {
         "name": "Cup Winners' Cup",
         "season": "1979-80",

@@ -1,0 +1,22 @@
+{
+    "season": "1972-73",
+	"champions_league": {
+		"name": "European Cup",
+		"season": "1972-73",
+		"links": {
+			"next": "1973-74",
+			"prev": "1971-72"
+		},
+		"teams": ["ARIS"],
+		"rounds": [{
+			"key": "R1",
+			"round": "First round",
+			"matches": {
+				"ARIS": [
+					{"isEurope":true,"date":"1972-09-13","leg":1,"home":"ARIS","away":"ROU:ARGS","score":"0-2","season":"1972-73","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1972-09-27","leg":2,"home":"ROU:ARGS","away":"ARIS","score":"4-0","season":"1972-73","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"0-6","outcome":"L","team":"ARIS"}}
+				]
+			}
+		}]
+	}
+}
