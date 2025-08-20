@@ -14,7 +14,7 @@
 			"matches": {
 				"JESH": [
 					{"isEurope":true,"date":"1968-09-18","leg":1,"home":"GRC:ATHN","away":"JESH","score":"3-0","season":"1968-69","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":1}},
-					{"isEurope":true,"date":"1968-10-02","leg":2,"home":"JESH","away":"GRC:ATHN","score":"2-3","season":"1968-69","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"5-3","outcome":"L","team":"JESH"}}
+					{"isEurope":true,"date":"1968-10-02","leg":2,"home":"JESH","away":"GRC:ATHN","score":"2-3","season":"1968-69","competition":{"type":"europe","cup":"champions_league","name":"European Cup","round":"First round","leg":2},"agg":{"score":"3-5","outcome":"L","team":"JESH"}}
 				]
 			}
 		}]
