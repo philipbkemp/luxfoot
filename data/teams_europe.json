@@ -110,6 +110,10 @@
         "_country": "Latvia",
         "SKNT": {"id": "Skonto_FC", "name": "Skonto"}
     },
+    "MLT": {
+        "_country": "Malta",
+        "SWND": {"id":"Sliema_Wanderers_F.C.","name":"Sliema Wanderers"}
+    },
     "NIR": {
         "_country": "Northern Ireland",
         "LINF": {"id": "Linfield_F.C.", "name": "Linfield"}

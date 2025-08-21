@@ -36,5 +36,24 @@
 				]
 			}
 		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1968-69",
+		"links": {
+			"next": "1969-70",
+			"prev": "1967-68"
+		},
+		"teams": ["URUM"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"URUM": [
+					{"isEurope":true,"date":"1968-09-18","leg":1,"home":"URUM","away":"MLT:SWND","score":"2-1","season":"1968-69","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1968-09-29","leg":2,"home":"MLT:SWND","away":"URUM","score":"1-0","season":"1968-69","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"2-2","outcome":"LA","team":"URUM"}}
+				]
+			}
+		}]
 	}
 }

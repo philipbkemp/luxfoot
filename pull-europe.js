@@ -6,6 +6,10 @@ switch (compName) {
     case "Inter-Cities Fairs Cup":
         compCode = "europa_league";
         break;
+    case "European Cup Winners%27 Cup":
+        compCode = "cup_winners_cup";
+        compName = "Cup Winners' Cup";
+        break;
 }
 next = (parseInt(season.split("-")[0])+1) + "-" + (parseInt(season.split("-")[1])+1);
 prev = (parseInt(season.split("-")[0])-1) + "-" + (parseInt(season.split("-")[1])-1);
