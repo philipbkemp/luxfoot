@@ -18,5 +18,23 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "Inter-Cities Fairs Cup",
+		"season": "1968-69",
+		"links": {
+			"next": "1969-70",
+			"prev": "1967-68"
+		},
+		"teams": ["ULUX"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"ULUX": [
+					{"isEurope":true,"date":"","leg":2,"home":"HUN:UPST","away":"ULUX","score":"-","season":"1968-69","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":2},"agg":{"outcome":"WOL","team":"ULUX"}}
+				]
+			}
+		}]
 	}
 }

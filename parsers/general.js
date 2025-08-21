@@ -310,6 +310,8 @@ function drawMatch(match,highlightWinner=false) {
 			theOutcome = allTeams[match.agg.team] + " win " + match.agg.score + " after playoff";
 		} else if ( match.agg.outcome === "LR" ) {
 			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " after playoff";
+		} else if ( match.agg.outcome === "WOL" ) {
+			theOutcome = allTeams[match.agg.team] + " lose due to walkover being awarded";
 		}
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);
