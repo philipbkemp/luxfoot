@@ -82,7 +82,8 @@
     },
     "HUN": {
         "_country": "Hungary",
-        "FRNC": {"id": "Ferencvárosi_TC", "name":"Ferencváros"}
+        "FRNC": {"id": "Ferencvárosi_TC", "name":"Ferencváros"},
+        "UPST": {"id": "Újpest_FC", "name": "Újpest" }
     },
     "IRL": {
         "_country": "Republic of Ireland",
