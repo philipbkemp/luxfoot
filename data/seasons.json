@@ -1082,7 +1082,7 @@
 		},
 		"europe": {
 			"champions_league": {"season":"1968-69","name":"European Cup","teams":["JESH"]},
-			"europa_league": {"missing":true,"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
+			"europa_league": {"season":"1968-69","name":"Inter-Cities Fairs Cup","teams":["ULUX"]},
 			"cup_winners_cup": {"missing":true,"season":"1968-69","name":"Cup Winners' Cup","teams":["URUM"]}
 		}
 	},{
