@@ -240,8 +240,8 @@ function drawMatch(match,highlightWinner=false) {
 		matchNoteRow = $("<DIV></DIV>").addClass("row mt-2");
 
 		theOutcome = match.outcome
-			.replace(match.home,allTeams[match.home])
-			.replace(match.away,allTeams[match.away])
+			.replaceAll(match.home,allTeams[match.home])
+			.replaceAll(match.away,allTeams[match.away])
 			;
 		if ( match.target ) {
 			if ( match.target.level && match.target.season && match.target.season ) {
