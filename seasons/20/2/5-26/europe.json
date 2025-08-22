@@ -60,6 +60,15 @@
                     {"isEurope":true,"date":"2025-08-14","leg":2,"home":"EST:FCIL","away":"DIFF","score":"3-1","aet":true,"season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R3","leg":2},"agg":{"score":"2-0","outcome":"W","team":"DIFF"}}
                 ]
             }
+        },{
+            "key": "PO",
+            "name": "Play-off",
+            "matches": {
+                "DIFF": [
+                    {"isEurope":true,"date":"2025-08-21","leg":1,"home":"KOS:DRTA","away":"DIFF","score":"2-1","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Play-off","leg":1}},
+                    {"isEurope":true,"date":"2025-08-28","leg":2,"home":"DIFF","away":"KOS:DRTA","score":"-","aet":true,"season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Play-off","leg":2}}
+                ]
+            }
         }]
     }
 }
