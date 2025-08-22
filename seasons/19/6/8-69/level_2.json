@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1968-69",
+    "links": {
+        "next": "1969-70",
+        "prev": "1967-68",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ADUD","CPET","CSHL","CSOB","EGWM","ETZE","JWAS","NSCH","RPDN","RROD","SDUD","STET"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "SDUD", "w": 15, "d": 5, "l":  2, "f": 61, "a": 26, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1969-70", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "STET", "w": 14, "d": 5, "l":  3, "f": 39, "a": 22, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1969-70", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "JWAS", "w": 11, "d": 4, "l":  7, "f": 48, "a": 37, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "ETZE", "w": 10, "d": 4, "l":  8, "f": 56, "a": 44, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "ADUD", "w": 10, "d": 4, "l":  8, "f": 38, "a": 32, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "NSCH", "w": 10, "d": 3, "l":  9, "f": 41, "a": 39, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "CSHL", "w":  9, "d": 4, "l":  9, "f": 42, "a": 38, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "CSOB", "w":  8, "d": 4, "l": 10, "f": 36, "a": 40, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "EGWM", "w":  8, "d": 2, "l": 12, "f": 33, "a": 46, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "CPET", "w":  6, "d": 5, "l": 11, "f": 37, "a": 44, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "RROD", "w":  5, "d": 5, "l": 12, "f": 35, "a": 58, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1969-70", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "RPDN", "w":  3, "d": 1, "l": 18, "f": 30, "a": 70, "pts_win": 2, "season": "1968-69", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1969-70", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["SDUD","STET"],
+		"target": {"season": "1969-70", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["RROD","RPDN"],
+		"target": {"season": "1969-70", "level": 3, "name": "1. Division"}
+	}
+}

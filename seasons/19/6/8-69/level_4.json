@@ -1,0 +1,57 @@
+{
+    "level": 4,
+	"season": "1968-69",
+    "links": {
+        "next": "1969-70",
+        "prev": "1967-68",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARBD","AWDG","HOBS","JUNG","LRNZ","OVND","OYMP","REIS","SPST","SRED","TSVG","VICR"],
+        "standings": [
+            {"place":  1, "team": "OVND", "w": 17, "d": 2, "l":  3, "f": 78, "a":  35, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1969-70", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "AWDG", "w": 13, "d": 6, "l":  3, "f": 76, "a":  27, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1969-70", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "HOBS", "w": 10, "d": 7, "l":  5, "f": 52, "a":  37, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "JUNG", "w": 10, "d": 6, "l":  6, "f": 51, "a":  38, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "VICR", "w":  9, "d": 5, "l":  8, "f": 51, "a":  49, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "SPST", "w":  9, "d": 4, "l":  9, "f": 40, "a":  54, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "TSVG", "w":  8, "d": 5, "l":  9, "f": 44, "a":  58, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "REIS", "w":  9, "d": 2, "l": 11, "f": 36, "a":  35, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "OYMP", "w":  8, "d": 4, "l": 10, "f": 40, "a":  42, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "ARBD", "w":  7, "d": 3, "l": 12, "f": 38, "a":  42, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 11, "team": "SRED", "w":  4, "d": 5, "l": 13, "f": 46, "a":  64, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1969-70", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "LRNZ", "w":  3, "d": 1, "l": 18, "f": 31, "a": 102, "pts_win": 2, "season": "1968-69", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1969-70", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","JHTC","JKYL","MAMR","MLSV","SBRT","SNEM","TLMD","UESH","UMRT","UNAS","YBWT"],
+        "standings": [
+            {"place":  1, "team": "UESH", "w": 13, "d": 6, "l":  3, "f": 46, "a": 27, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1969-70", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "ASDF", "w": 12, "d": 5, "l":  5, "f": 54, "a": 35, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1969-70", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "MAMR", "w": 12, "d": 4, "l":  6, "f": 50, "a": 27, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "TLMD", "w": 12, "d": 4, "l":  6, "f": 55, "a": 36, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "MLSV", "w": 10, "d": 3, "l":  9, "f": 30, "a": 32, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "JHTC", "w":  9, "d": 4, "l":  9, "f": 44, "a": 37, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "SNEM", "w":  8, "d": 4, "l": 10, "f": 44, "a": 44, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "UNAS", "w":  6, "d": 8, "l":  8, "f": 29, "a": 34, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "YBWT", "w":  8, "d": 4, "l": 10, "f": 36, "a": 50, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "JKYL", "w":  8, "d": 3, "l": 11, "f": 51, "a": 50, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "SBRT", "w":  6, "d": 3, "l": 13, "f": 32, "a": 59, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1969-70", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "UMRT", "w":  2, "d": 4, "l": 16, "f": 37, "a": 77, "pts_win": 2, "season": "1968-69", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1969-70", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["OVND","AWDG","UESH","ASDF"],
+        "target": {"season": "1969-70", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["SRED","LRNZ","SBRT","UMRT"],
+        "target": {"season": "1969-70", "level": 5, "name": "3. Division"}
+    }
+}

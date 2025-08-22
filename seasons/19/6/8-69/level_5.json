@@ -1,0 +1,57 @@
+{
+    "level": 5,
+	"season": "1968-69",
+    "links": {
+        "next": "1969-70",
+        "prev": "1967-68",
+        "up": 4,
+        "down": 6
+    },
+	"name": "3. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ATBS","BRCH","BVAT","CLVX","GOLD","JUSE","KPWW","LARD","MINL","MRTZ","PRTZ","USND"],
+        "standings": [
+            {"place":  1, "team": "USND", "w": 20, "d": 2, "l":  0, "f": 88, "a":  16, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1969-70", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "GOLD", "w": 17, "d": 0, "l":  5, "f": 75, "a":  31, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1", "promoted": true, "target": {"season": "1969-70", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "BRCH", "w": 15, "d": 3, "l":  4, "f": 68, "a":  31, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  4, "team": "KPWW", "w": 12, "d": 5, "l":  5, "f": 77, "a":  53, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  5, "team": "BVAT", "w": 11, "d": 2, "l":  9, "f": 50, "a":  43, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  6, "team": "MINL", "w":  7, "d": 6, "l":  9, "f": 37, "a":  57, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  7, "team": "MRTZ", "w":  8, "d": 3, "l": 11, "f": 52, "a":  63, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  8, "team": "ATBS", "w":  7, "d": 3, "l": 12, "f": 44, "a":  63, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place":  9, "team": "LARD", "w":  6, "d": 3, "l": 13, "f": 55, "a":  65, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 10, "team": "JUSE", "w":  5, "d": 5, "l": 12, "f": 39, "a":  63, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1"},
+            {"place": 11, "team": "CLVX", "w":  3, "d": 4, "l": 15, "f": 32, "a":  65, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1969-70", "level": 6, "name": "4. Division"}},
+            {"place": 12, "team": "PRTZ", "w":  2, "d": 2, "l": 18, "f": 42, "a": 109, "pts_win": 2, "season": "1968-69", "level": 5, "series": 1, "league": "3. Division Series 1", "relegated": true, "target": {"season": "1969-70", "level": 6, "name": "4. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AFLX","AREM","BBML","BDBB","BWIT","HOST","MANC","RBAS","SAND","TRIG","UBSH","USMM"],
+        "standings": [
+            {"place":  1, "team": "SAND", "w": 15, "d": 3, "l":  4, "f": 53, "a": 32, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1969-70", "level": 4, "name": "2. Division"}},
+            {"place":  2, "team": "AREM", "w": 12, "d": 5, "l":  5, "f": 64, "a": 32, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2", "promoted": true, "target": {"season": "1969-70", "level": 4, "name": "2. Division"}},
+            {"place":  3, "team": "MANC", "w": 13, "d": 2, "l":  7, "f": 67, "a": 51, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  4, "team": "TRIG", "w": 10, "d": 5, "l":  7, "f": 52, "a": 48, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  5, "team": "BBML", "w":  9, "d": 4, "l":  9, "f": 47, "a": 50, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  6, "team": "USMM", "w":  9, "d": 3, "l": 10, "f": 50, "a": 52, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  7, "team": "HOST", "w":  8, "d": 4, "l": 10, "f": 45, "a": 52, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  8, "team": "AFLX", "w":  8, "d": 2, "l": 12, "f": 51, "a": 52, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place":  9, "team": "UBSH", "w":  8, "d": 2, "l": 12, "f": 48, "a": 54, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 10, "team": "BWIT", "w":  6, "d": 6, "l": 10, "f": 23, "a": 40, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2"},
+            {"place": 11, "team": "RBAS", "w":  6, "d": 4, "l": 12, "f": 32, "a": 41, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2", "relegated": true, "target": {"season": "1969-70", "level": 6, "name": "4. Division"}},
+            {"place": 12, "team": "BDBB", "w":  7, "d": 2, "l": 13, "f": 34, "a": 62, "pts_win": 2, "season": "1968-69", "level": 5, "series": 2, "league": "3. Division Series 2", "relegated": true, "target": {"season": "1969-70", "level": 6, "name": "4. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["USND","GOLD","SAND","AREM"],
+        "target": {"season": "1969-70", "level": 4, "name": "2. Division"}
+    },
+    "relegation": {
+        "teams": ["CLVX","PRTZ","RBAS","BDBB"],
+        "target": {"season": "1969-70", "level": 6, "name": "4. Division"}
+    }
+}
