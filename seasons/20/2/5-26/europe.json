@@ -66,7 +66,7 @@
             "matches": {
                 "DIFF": [
                     {"isEurope":true,"date":"2025-08-21","leg":1,"home":"KOS:DRTA","away":"DIFF","score":"2-1","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Play-off","leg":1}},
-                    {"isEurope":true,"date":"2025-08-28","leg":2,"home":"DIFF","away":"KOS:DRTA","score":"-","aet":true,"season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Play-off","leg":2}}
+                    {"isEurope":true,"date":"2025-08-28","leg":2,"home":"DIFF","away":"KOS:DRTA","score":"-","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Play-off","leg":2}}
                 ]
             }
         }]
