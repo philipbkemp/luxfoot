@@ -311,7 +311,13 @@ function drawMatch(match,highlightWinner=false) {
 		} else if ( match.agg.outcome === "LR" ) {
 			theOutcome = allTeams[match.agg.team] + " lose " + match.agg.score + " after playoff";
 		} else if ( match.agg.outcome === "WOL" ) {
+			theOutcome = allTeams[match.agg.team] + " win due to walkover being awarded";
+		} else if ( match.agg.outcome === "LOL" ) {
 			theOutcome = allTeams[match.agg.team] + " lose due to walkover being awarded";
+		} else if ( match.agg.outcome === "WAET" ) {
+			theOutcome = allTeams[match.agg.team] + " win after extra time";
+		} else if ( match.agg.outcome === "LAET" ) {
+			theOutcome = allTeams[match.agg.team] + " lose after extra time";
 		}
 
 		matchNote = $("<DIV></DIV>").addClass("col-12").addClass("match-note").html(theOutcome);

@@ -32,7 +32,7 @@
 			"name": "First round",
 			"matches": {
 				"ULUX": [
-					{"isEurope":true,"date":"-","leg":2,"home":"HUN:UPST","away":"ULUX","score":"-","season":"1968-69","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":2},"agg":{"outcome":"WOL","team":"ULUX"}}
+					{"isEurope":true,"date":"-","leg":2,"home":"HUN:UPST","away":"ULUX","score":"-","season":"1968-69","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":2},"agg":{"outcome":"LOL","team":"ULUX"}}
 				]
 			}
 		}]
