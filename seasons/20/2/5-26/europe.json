@@ -57,7 +57,7 @@
             "matches": {
                 "DIFF": [
                     {"isEurope":true,"date":"2025-08-07","leg":1,"home":"DIFF","away":"EST:FCIL","score":"2-3","season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R3","leg":1}},
-                    {"isEurope":true,"date":"2025-08-14","leg":2,"home":"EST:FCIL","away":"DIFF","score":"3-1","aet":true,"season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R3","leg":2},"agg":{"score":"2-0","outcome":"W","team":"DIFF"}}
+                    {"isEurope":true,"date":"2025-08-14","leg":2,"home":"EST:FCIL","away":"DIFF","score":"3-1","aet":true,"season":"2025-26","competition":{"type":"europe","cup":"conference_league","name":"Conference League","round":"Qualifying R3","leg":2},"agg":{"score":"2-0","outcome":"WAET","team":"DIFF"}}
                 ]
             }
         },{
