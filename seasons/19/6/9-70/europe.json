@@ -18,5 +18,24 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "Inter-Cities Fairs Cup",
+		"season": "1969-70",
+		"links": {
+			"next": "1970-71",
+			"prev": "1968-69"
+		},
+		"teams": ["JESH"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"JESH": [
+					{"isEurope":true,"date":"1969-09-18","leg":1,"home":"JESH","away":"NIR:CLRN","score":"3-2","season":"1969-70","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1969-10-01","leg":2,"home":"NIR:CLRN","away":"JESH","score":"0-4","season":"1969-70","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":2},"agg":{"score":"3-6","outcome":"L","team":"JESH"}}
+				]
+			}
+		}]
 	}
 }

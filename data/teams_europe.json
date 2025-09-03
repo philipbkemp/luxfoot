@@ -116,6 +116,7 @@
     },
     "NIR": {
         "_country": "Northern Ireland",
+        "CLRN": {"id": "Coleraine_F.C.", "name":"Coleraine"},
         "LINF": {"id": "Linfield_F.C.", "name": "Linfield"}
     },
     "POL": {
