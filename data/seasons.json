@@ -1111,7 +1111,7 @@
 		},
 		"europe": {
 			"champions_league": {"season":"1969-70","name":"European Cup","teams":["AVBG"]},
-			"europa_league": {"missing":true,"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
+			"europa_league": {"season":"1969-70","name":"Inter-Cities Fairs Cup","teams":["JESH"]},
 			"cup_winners_cup": {"missing":true,"season":"1969-70","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
