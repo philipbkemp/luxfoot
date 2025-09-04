@@ -151,7 +151,8 @@
     },
     "TUR": {
         "_country": "Turkey",
-        "FENR": {"id": "Fenerbahçe_S.K._(football)", "name":"Fenerbahçe"}
+        "FENR": {"id": "Fenerbahçe_S.K._(football)", "name":"Fenerbahçe"},
+        "GOZT": {"id": "Göztepe_S.K.", "name":"Göztepe"}
     },
     "WAL": {
         "_country": "Wales",
