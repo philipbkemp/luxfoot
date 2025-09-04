@@ -11,7 +11,19 @@
     "series": [{
         "series": 1,
         "name": "Series 1",
-        "missing" :true
+        "teams": ["AHOS","BGHP","BGNV","CLVX","FOLS","HARL","PRTZ","RAMB","TWTC","UFLN"],
+        "standings": [
+            {"place":  1, "team": "UFLN", "w": 14, "d": 3, "l":  1, "f": 71, "a": 22, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1", "promoted": true, "target": {"season": "1970-71", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "PRTZ", "w": 14, "d": 1, "l":  3, "f": 84, "a": 24, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  3, "team": "BGHP", "w":  9, "d": 3, "l":  6, "f": 54, "a": 30, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  4, "team": "CLVX", "w":  9, "d": 2, "l":  7, "f": 52, "a": 32, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  5, "team": "BGNV", "w":  9, "d": 0, "l":  9, "f": 45, "a": 73, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  6, "team": "HARL", "w":  8, "d": 1, "l":  9, "f": 31, "a": 49, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  7, "team": "TWTC", "w":  6, "d": 4, "l":  8, "f": 31, "a": 57, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  8, "team": "AHOS", "w":  6, "d": 3, "l":  9, "f": 47, "a": 36, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  9, "team": "RAMB", "w":  4, "d": 1, "l": 13, "f": 33, "a": 61, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 10, "team": "FOLS", "w":  2, "d": 0, "l": 16, "f": 19, "a": 83, "pts_win": 2, "season": "1969-70", "level": 6, "series": 1, "league": "4. Division Series 1"}
+        ]
     },{
         "series": 2,
         "name": "Series 2",
@@ -30,14 +42,38 @@
     },{
         "series": 3,
         "name": "Series 3",
-        "missing" :true
+        "teams": ["BOUS","BYUD","HAMM","JCNC","LADH","MUNS","PROG","RBAS","SYRA","VINE"],
+        "standings": [
+            {"place":  1, "team": "BOUS", "w": 16, "d": 1, "l":  1, "f": 96, "a":  22, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1970-71", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "RBAS", "w": 14, "d": 2, "l":  2, "f": 72, "a":  17, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  3, "team": "SYRA", "w": 13, "d": 1, "l":  4, "f": 78, "a":  36, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  4, "team": "HAMM", "w":  9, "d": 3, "l":  6, "f": 45, "a":  37, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  5, "team": "JCNC", "w":  8, "d": 3, "l":  7, "f": 77, "a":  38, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  6, "team": "PROG", "w":  8, "d": 2, "l":  8, "f": 39, "a":  51, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  7, "team": "VINE", "w":  7, "d": 1, "l": 10, "f": 41, "a":  39, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  8, "team": "BYUD", "w":  5, "d": 0, "l": 13, "f": 35, "a":  64, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  9, "team": "LADH", "w":  3, "d": 1, "l": 14, "f": 30, "a":  62, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 10, "team": "MUNS", "w":  0, "d": 0, "l": 18, "f":  4, "a": 151, "pts_win": 2, "season": "1969-70", "level": 6, "series": 3, "league": "4. Division Series 3"}
+        ]
     },{
         "series": 4,
         "name": "Series 4",
-        "missing" :true
+        "teams": ["ASTN","EHLR","ESHW","ISKA","JSKH","KHLN","LUNA","MDCG","NORZ","SBCK"],
+        "standings": [
+            {"place":  1, "team": "JSKH", "w": 16, "d": 0, "l":  2, "f": 102, "a": 20, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4", "promoted": true, "target": {"season": "1970-71", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "MDCG", "w": 15, "d": 0, "l":  3, "f":  60, "a": 22, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  3, "team": "NORZ", "w": 12, "d": 2, "l":  4, "f":  43, "a": 32, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  4, "team": "LUNA", "w": 11, "d": 1, "l":  6, "f":  55, "a": 27, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  5, "team": "ESHW", "w":  9, "d": 2, "l":  7, "f":  50, "a": 34, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  6, "team": "ISKA", "w":  6, "d": 1, "l": 11, "f":  33, "a": 47, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  7, "team": "SBCK", "w":  6, "d": 1, "l": 11, "f":  27, "a": 62, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  8, "team": "ASTN", "w":  5, "d": 1, "l": 12, "f":  29, "a": 40, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  9, "team": "EHLR", "w":  5, "d": 0, "l": 13, "f":  19, "a": 65, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 10, "team": "KHLN", "w":  1, "d": 0, "l": 17, "f":  20, "a": 89, "pts_win": 2, "season": "1969-70", "level": 6, "series": 4, "league": "4. Division Series 4"}
+        ]
     }],
     "promotion": {
-        "teams": ["BWMD"],
+        "teams": ["BWMD","UFLN","BOUS","JSKH"],
         "target": {"season": "1970-71", "level": 5, "name": "3. Division"}
     }
 }

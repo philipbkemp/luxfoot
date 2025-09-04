@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1969-70",
+    "links": {
+        "next": "1970-71",
+        "prev": "1968-79",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["ASDF","AWDG","BLVL","CROD","DARE","JSCH","KWRM","MARM","OVND","RPDN","RROD","SCBT","UESH","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "SCBT", "w": 18, "d": 3, "l":  5, "f": 68, "a":  29, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1970-71", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "AWDG", "w": 16, "d": 4, "l":  6, "f": 66, "a":  23, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1970-71", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "JSCH", "w": 14, "d": 7, "l":  5, "f": 60, "a":  37, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "DARE", "w": 13, "d": 6, "l":  7, "f": 68, "a":  28, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "CROD", "w": 12, "d": 5, "l":  9, "f": 46, "a":  30, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "ASDF", "w": 10, "d": 9, "l":  7, "f": 64, "a":  50, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "BLVL", "w": 13, "d": 2, "l": 11, "f": 42, "a":  36, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "OVND", "w": 10, "d": 7, "l":  9, "f": 52, "a":  38, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "YBDK", "w": 11, "d": 5, "l": 10, "f": 49, "a":  51, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "RROD", "w": 11, "d": 3, "l": 12, "f": 48, "a":  52, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "KWRM", "w":  9, "d": 5, "l": 12, "f": 53, "a":  57, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1970-71", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "UESH", "w":  5, "d": 8, "l": 13, "f": 24, "a":  49, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1970-71", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "RPDN", "w":  4, "d": 1, "l": 21, "f": 32, "a":  87, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1970-71", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "MARM", "w":  3, "d": 1, "l": 22, "f": 29, "a": 134, "pts_win": 2, "season": "1969-70", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1970-71", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["SCBT","AWDG"],
+		"target": {"season": "1970-71", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["KWRM","UESH","RPDN","MARM"],
+		"target": {"season": "1970-71", "level": 4, "name": "2. Division"}
+	}
+}

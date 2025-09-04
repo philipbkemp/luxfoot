@@ -1089,21 +1089,21 @@
 		"season": "1969-70",
 		"leagues": {
 			"level_1": {"season": "1969-70", "level":  1, "name": "National Division", "winner": "JESH", "title_count": 11},
-			"level_2": {"missing":true,"season": "1969-70", "level":  2, "name": "Division of Honour", "winner": "CGRV"},
-			"level_3": {"missing":true,"season": "1969-70", "level":  3, "name": "1. Division", "winner": "SCBT"},
-			"level_4": {"missing":true,"season": "1969-70", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1969-70", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
-				{"missing":true,"season": "1969-70", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JHTC"}
+			"level_2": {"season": "1969-70", "level":  2, "name": "Division of Honour", "winner": "CGRV"},
+			"level_3": {"season": "1969-70", "level":  3, "name": "1. Division", "winner": "SCBT"},
+			"level_4": {"season": "1969-70", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1969-70", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "USND"},
+				{"season": "1969-70", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "JHTC"}
 			]},
-			"level_5": {"missing":true,"season": "1969-70", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1969-70", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "KOPS"},
-				{"missing":true,"season": "1969-70", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UBSH"}
+			"level_5": {"season": "1969-70", "level":  5, "name": "3. Division", "series": [
+				{"season": "1969-70", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "KOPS"},
+				{"season": "1969-70", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "UBSH"}
 			]},
 			"level_6": {"season": "1969-70", "level":  6, "name": "4. Division", "series": [
-				{"missing":true,"season": "1969-70", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "UFLN"},
+				{"season": "1969-70", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "UFLN"},
 				{"season": "1969-70", "level":  6, "series":  2, "name": "4. Division Series 4", "winner": "BWMD"},
-				{"missing":true,"season": "1969-70", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "BOUS"},
-				{"missing":true,"season": "1969-70", "level":  6, "series":  4, "name": "4. Division Series 4", "winner": "JSKH"}
+				{"season": "1969-70", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "BOUS"},
+				{"season": "1969-70", "level":  6, "series":  4, "name": "4. Division Series 4", "winner": "JSKH"}
 			]}
 		},
 		"cups": {

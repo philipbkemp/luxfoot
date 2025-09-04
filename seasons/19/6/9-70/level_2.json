@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1969-70",
+    "links": {
+        "next": "1970-71",
+        "prev": "1968-69",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"pts_win": 2,
+	"teams": ["ADUD","CGRV","CPET","CSHL","CSOB","EGWM","ETZE","FOLA","JWAS","NSCH","RBPF","RSML"],
+	"standings": [
+        {"place":  1, "team": "CGRV", "w": 15, "d": 3, "l":  4, "f": 54, "a": 31, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1970-71", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "ADUD", "w": 13, "d": 4, "l":  5, "f": 55, "a": 28, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1970-71", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "FOLA", "w": 13, "d": 3, "l":  6, "f": 62, "a": 40, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "ETZE", "w": 12, "d": 3, "l":  7, "f": 55, "a": 34, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "NSCH", "w": 11, "d": 4, "l":  7, "f": 40, "a": 39, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "JWAS", "w":  9, "d": 4, "l":  9, "f": 37, "a": 42, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "RSML", "w":  8, "d": 5, "l":  9, "f": 27, "a": 27, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "EGWM", "w":  7, "d": 4, "l": 11, "f": 36, "a": 40, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "CPET", "w":  7, "d": 4, "l": 11, "f": 28, "a": 38, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "CSHL", "w":  7, "d": 2, "l": 13, "f": 32, "a": 52, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "RBPF", "w":  6, "d": 3, "l": 13, "f": 32, "a": 53, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1970-71", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "CSOB", "w":  2, "d": 5, "l": 15, "f": 22, "a": 56, "pts_win": 2, "season": "1969-70", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1970-71", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CGRV","ADUD"],
+		"target": {"season": "1970-71", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["RBPF","CSOB"],
+		"target": {"season": "1970-71", "level": 3, "name": "1. Division"}
+	}
+}
