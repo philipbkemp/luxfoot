@@ -246,8 +246,8 @@ function drawStandings(standings) {
                 thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( getTitleCount(s.title_count)) );
             }
 
-            if ( s.notes ) {
-                thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( s.notes ) );
+            if ( s.note ) {
+                thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( s.note ) );
             }
 
             thisRow.append(thisRowNotes);
