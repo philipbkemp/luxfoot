@@ -10,6 +10,7 @@
 	"name": "1. Division",
 	"teams": ["ASDF","BLVL","CROD","CSOB","DARE","JHTC","JSCH","OVND","RBPF","RROD","SWFT","USND","VICR","YBDK"],
 	"pts_win": 2,
+	"disputed": true,
 	"standings": [
         {"place":  1, "team": "CROD", "w": 22, "d": 3, "l":  1, "f": 90, "a":  21, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1971-72", "level": 2, "name": "Division of Honour"}},
 		{"place":  2, "team": "JHTC", "w": 18, "d": 5, "l":  3, "f": 84, "a":  25, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1971-72", "level": 2, "name": "Division of Honour"}},

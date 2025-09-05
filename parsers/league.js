@@ -1168,6 +1168,14 @@ function validateLeague(data) {
 	});
 	if ( totalW !== totalL ) {
 		console.error("Wins != Losses","Wins: "+totalW,"Losses: "+totalL);
+		if ( data.disputed ) {
+			standingsPanel.append(
+				$("<DIV></DIV>").addClass("alert").addClass("alert-warning").addClass("mt-4").html(
+					"Number of wins does not match number of losses"
+				)
+			);
+			removeKey("disputed");
+		}
 	}
 	if ( totalF !== totalA ) {
 		console.error("For != Against","For: "+totalF,"Against: "+totalA);
