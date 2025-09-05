@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1970-71",
+    "links": {
+        "next": "1971-72",
+        "prev": "1969-70",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["ASDF","BLVL","CROD","CSOB","DARE","JHTC","JSCH","OVND","RBPF","RROD","SWFT","USND","VICR","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CROD", "w": 22, "d": 3, "l":  1, "f": 90, "a":  21, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1971-72", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "JHTC", "w": 18, "d": 5, "l":  3, "f": 84, "a":  25, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1971-72", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "RBPF", "w": 16, "d": 4, "l":  6, "f": 91, "a":  25, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "OVND", "w": 14, "d": 3, "l":  9, "f": 63, "a":  44, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "BLVL", "w": 12, "d": 6, "l":  8, "f": 65, "a":  40, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "CSOB", "w": 14, "d": 2, "l": 10, "f": 52, "a":  43, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "VICR", "w": 12, "d": 3, "l": 11, "f": 51, "a":  59, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "ASDF", "w": 11, "d": 3, "l": 12, "f": 57, "a":  63, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "SWFT", "w": 10, "d": 4, "l": 12, "f": 49, "a":  60, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "YBDK", "w":  8, "d": 5, "l": 13, "f": 42, "a":  73, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "JSCH", "w":  8, "d": 4, "l": 14, "f": 43, "a":  59, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1971-72", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "RROD", "w":  5, "d": 7, "l": 14, "f": 44, "a":  63, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1971-72", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "DARE", "w":  4, "d": 3, "l": 19, "f": 28, "a":  83, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1971-72", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "USND", "w":  3, "d": 0, "l": 23, "f": 22, "a": 123, "pts_win": 2, "season": "1970-71", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1971-72", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CROD","JHTC"],
+		"target": {"season": "1971-72", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["JSCH","RROD","DARE","USND"],
+		"target": {"season": "1971-72", "level": 4, "name": "2. Division"}
+	}
+}

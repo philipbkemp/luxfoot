@@ -1,0 +1,92 @@
+{
+    "level": 6,
+	"season": "1970-71",
+    "links": {
+        "next": "1971-72",
+        "prev": "1969-70",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","BGHP","BGNV","CBSH","CLVX","FOLS","HARL","PRTZ","RAMB","TWTC"],
+        "standings": [
+            {"place":  1, "team": "PRTZ", "w": 16, "d": 0, "l":  2, "f": 103, "a":  11, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1", "promoted": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "BGHP", "w": 15, "d": 0, "l":  3, "f":  75, "a":  15, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1","playoff":"league_promotion_playoff"},
+            {"place":  3, "team": "CLVX", "w": 10, "d": 4, "l":  4, "f":  62, "a":  18, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  4, "team": "FOLS", "w":  9, "d": 3, "l":  6, "f":  51, "a":  46, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  5, "team": "AHOS", "w":  9, "d": 2, "l":  7, "f":  66, "a":  32, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  6, "team": "HARL", "w":  7, "d": 3, "l":  8, "f":  32, "a":  43, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  7, "team": "RAMB", "w":  5, "d": 4, "l":  9, "f":  45, "a":  33, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  8, "team": "TWTC", "w":  5, "d": 2, "l": 11, "f":  55, "a":  62, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  9, "team": "BGNV", "w":  4, "d": 0, "l": 14, "f":  40, "a": 104, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 10, "team": "CBSH", "w":  1, "d": 0, "l": 17, "f":  15, "a": 180, "pts_win": 2, "season": "1970-71", "level": 6, "series": 1, "league": "4. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ALCR","ASCB","BAST","BDBB","BRCH","JGIL","JUSE","OBCN","OYCW","RUPL"],
+        "standings": [
+            {"place":  1, "team": "JUSE", "w": 13, "d": 4, "l":  1, "f": 54, "a": 20, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2", "promoted": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "BDBB", "w": 13, "d": 3, "l":  2, "f": 69, "a": 22, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2", "playoff": "league_promotion_playoff", "promoted": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place":  3, "team": "RUPL", "w": 10, "d": 2, "l":  6, "f": 66, "a": 36, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  4, "team": "OBCN", "w": 10, "d": 2, "l":  6, "f": 51, "a": 25, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  5, "team": "OYCW", "w": 10, "d": 0, "l":  8, "f": 63, "a": 48, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  6, "team": "BRCH", "w":  7, "d": 2, "l":  9, "f": 60, "a": 64, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  7, "team": "ALCR", "w":  7, "d": 1, "l": 10, "f": 47, "a": 87, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  8, "team": "ASCB", "w":  4, "d": 3, "l": 11, "f": 48, "a": 49, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  9, "team": "BAST", "w":  3, "d": 2, "l": 13, "f": 31, "a": 90, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 10, "team": "JGIL", "w":  2, "d": 3, "l": 13, "f": 24, "a": 72, "pts_win": 2, "season": "1970-71", "level": 6, "series": 2, "league": "4. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["AFLX","ASTN","BYUD","JCNC","LADH","MUNS","RBAS","SYRA","USMM","VINE"],
+        "standings": [
+            {"place":  1, "team": "RBAS", "w": 13, "d": 4, "l":  1, "f": 75, "a":  19, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "JCNC", "w": 12, "d": 3, "l":  3, "f": 75, "a":  28, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3", "playoff": "league_promotion_playoff"},
+            {"place":  3, "team": "AFLX", "w": 10, "d": 4, "l":  4, "f": 45, "a":  21, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  4, "team": "LADH", "w": 10, "d": 2, "l":  6, "f": 59, "a":  44, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  5, "team": "SYRA", "w":  8, "d": 3, "l":  7, "f": 55, "a":  35, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  6, "team": "USMM", "w":  6, "d": 4, "l":  8, "f": 33, "a":  40, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  7, "team": "MUNS", "w":  6, "d": 4, "l":  8, "f": 33, "a":  50, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  8, "team": "ASTN", "w":  6, "d": 1, "l": 11, "f": 42, "a":  76, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  9, "team": "VINE", "w":  5, "d": 2, "l": 11, "f": 34, "a":  35, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 10, "team": "BYUD", "w":  0, "d": 1, "l": 17, "f": 27, "a": 130, "pts_win": 2, "season": "1970-71", "level": 6, "series": 3, "league": "4. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["EHLR","ESHW","HAMM","ISKA","KHLN","LUNA","MDCG","NORZ","PROG","SBCK"],
+        "standings": [
+            {"place":  1, "team": "MDCG", "w": 17, "d": 0, "l":  1, "f": 76, "a": 12, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4", "promoted": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "LUNA", "w": 14, "d": 1, "l":  3, "f": 64, "a": 21, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4", "playoff": "league_promotion_playoff"},
+            {"place":  3, "team": "HAMM", "w": 11, "d": 3, "l":  4, "f": 52, "a": 23, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  4, "team": "ESHW", "w":  9, "d": 4, "l":  5, "f": 48, "a": 30, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  5, "team": "KHLN", "w":  6, "d": 5, "l":  7, "f": 55, "a": 51, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  6, "team": "ISKA", "w":  5, "d": 5, "l":  8, "f": 36, "a": 52, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  7, "team": "NORZ", "w":  5, "d": 3, "l": 10, "f": 39, "a": 43, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  8, "team": "EHLR", "w":  6, "d": 0, "l": 12, "f": 35, "a": 66, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  9, "team": "PROG", "w":  3, "d": 4, "l": 11, "f": 32, "a": 71, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 10, "team": "SBCK", "w":  0, "d": 3, "l": 15, "f": 20, "a": 88, "pts_win": 2, "season": "1970-71", "level": 6, "series": 4, "league": "4. Division Series 4"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["PRTZ","JUSE","BDBB","RBAS","MDCG"],
+        "target": {"season": "1971-72", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["GOLD","BDBB","JCNC","LUNA"],
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "BDBB","teamDivision": {"level":6,"series":2,"name":"4. Division Series 2"}, "w": 3, "d": 0, "l": 0, "f": 11, "a": 4, "pts_win": 2, "season": "1970-71", "level": 6, "league": "4. Division", "round": "league_promotion_playoff", "promoted": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+                {"place": 2, "team": "JCNC","teamDivision": {"level":6,"series":3,"name":"4. Division Series 3"}, "w": 2, "d": 0, "l": 1, "f":  8, "a": 5, "pts_win": 2, "season": "1970-71", "level": 6, "league": "4. Division", "round": "league_promotion_playoff"},
+                {"place": 3, "team": "BGHP","teamDivision": {"level":6,"series":1,"name":"4. Division Series 1"}, "w": 1, "d": 0, "l": 2, "f":  4, "a": 7, "pts_win": 2, "season": "1970-71", "level": 6, "league": "4. Division", "round": "league_promotion_playoff"},
+                {"place": 4, "team": "LUNA","teamDivision": {"level":6,"series":4,"name":"4. Division Series 4"}, "w": 0, "d": 0, "l": 3, "f":  1, "a": 8, "pts_win": 2, "season": "1970-71", "level": 6, "league": "4. Division", "round": "league_promotion_playoff"}
+            ]
+        }
+    }
+}

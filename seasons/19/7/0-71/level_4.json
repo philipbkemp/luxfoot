@@ -1,0 +1,57 @@
+{
+    "level": 4,
+	"season": "1970-71",
+    "links": {
+        "next": "1971-72",
+        "prev": "1969-70",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["ARBD","BBML","GOLD","HOBS","KOPS","KPWW","MARM","OYMP","RPDN","SPST","TSVG","WALF"],
+        "standings": [
+            {"place":  1, "team": "WALF", "w": 18, "d": 2, "l":  2, "f": 91, "a": 31, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1971-72", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "BBML", "w": 15, "d": 3, "l":  4, "f": 63, "a": 35, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1971-72", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "SPST", "w": 12, "d": 4, "l":  6, "f": 62, "a": 45, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "RPDN", "w": 12, "d": 3, "l":  7, "f": 69, "a": 40, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "GOLD", "w": 10, "d": 5, "l":  7, "f": 59, "a": 50, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "KOPS", "w":  9, "d": 5, "l":  8, "f": 52, "a": 42, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "KPWW", "w":  8, "d": 5, "l":  9, "f": 54, "a": 52, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "HOBS", "w":  7, "d": 7, "l":  8, "f": 35, "a": 43, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "OYMP", "w":  9, "d": 3, "l": 10, "f": 30, "a": 48, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "TSVG", "w":  5, "d": 5, "l": 12, "f": 31, "a": 55, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 11, "team": "MARM", "w":  2, "d": 3, "l": 17, "f": 30, "a": 71, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "ARBD", "w":  2, "d": 1, "l": 19, "f": 21, "a": 85, "pts_win": 2, "season": "1970-71", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["AREM","JBIW","JKYL","KWRM","MAMR","MLSV","SAND","SNEM","TLMD","UBSH","UESH","UNAS"],
+        "standings": [
+            {"place":  1, "team": "MAMR", "w": 16, "d": 3, "l":  3, "f": 57, "a": 24, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1971-72", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "KWRM", "w": 16, "d": 2, "l":  4, "f": 48, "a": 20, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1971-72", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "SAND", "w": 13, "d": 3, "l":  6, "f": 60, "a": 33, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "AREM", "w": 11, "d": 2, "l":  9, "f": 43, "a": 38, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "MLSV", "w": 11, "d": 2, "l":  9, "f": 45, "a": 43, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "JBIW", "w":  9, "d": 3, "l": 10, "f": 42, "a": 51, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "UESH", "w":  7, "d": 5, "l": 10, "f": 30, "a": 32, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "SNEM", "w":  7, "d": 5, "l": 10, "f": 31, "a": 47, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "JKYL", "w":  6, "d": 6, "l": 10, "f": 42, "a": 53, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "TLMD", "w":  7, "d": 3, "l": 12, "f": 40, "a": 41, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "UBSH", "w":  7, "d": 3, "l": 12, "f": 40, "a": 54, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "UNAS", "w":  2, "d": 3, "l": 17, "f": 13, "a": 55, "pts_win": 2, "season": "1970-71", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1971-72", "level": 5, "name": "3. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["WALF","BBML","MAMR","KWRM"],
+        "target": {"season": "1971-72", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["MARM","ARBD","UBSH","UNAS"],
+        "target": {"season": "1971-72", "level": 5, "name": "3. Division"}
+    }
+}

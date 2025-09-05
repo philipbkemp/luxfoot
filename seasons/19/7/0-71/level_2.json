@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1970-71",
+    "links": {
+        "next": "1971-72",
+        "prev": "1969-70",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["AWDG","CPET","CSHL","EGWM","ETZE","FOLA","JWAS","MDLB","NSCH","RSMB","SCBT","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "NSCH", "w": 16, "d": 4, "l":  2, "f": 52, "a": 23, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1971-72", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "ETZE", "w": 14, "d": 3, "l":  5, "f": 56, "a": 38, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1971-72", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "CSHL", "w": 12, "d": 6, "l":  4, "f": 45, "a": 30, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "RSMB", "w": 13, "d": 3, "l":  6, "f": 45, "a": 26, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "FOLA", "w": 11, "d": 5, "l":  6, "f": 40, "a": 29, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "JWAS", "w":  9, "d": 6, "l":  7, "f": 43, "a": 44, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "SCBT", "w":  7, "d": 7, "l":  8, "f": 37, "a": 25, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "CPET", "w":  6, "d": 6, "l": 10, "f": 28, "a": 39, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "AWDG", "w":  6, "d": 4, "l": 12, "f": 21, "a": 39, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "USDD", "w":  6, "d": 2, "l": 14, "f": 39, "a": 43, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "MDLB", "w":  4, "d": 2, "l": 16, "f": 36, "a": 68, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1971-72", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "EGWM", "w":  2, "d": 4, "l": 16, "f": 20, "a": 58, "pts_win": 2, "season": "1970-71", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1971-72", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["NSCH","ETZE"],
+		"target": {"season": "1971-72", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["MDLB","EGWM"],
+		"target": {"season": "1971-72", "level": 3, "name": "1. Division"}
+	}
+}

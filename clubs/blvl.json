@@ -5,7 +5,8 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
-	    {"place":  7, "team": "BLVL", "w": 13, "d": 2, "l": 11, "f": 42, "a": 36, "pts_win": 2, "season": "1969-70", "level": 3,              "league": "1. Division"},
+	    {"place":  5, "team": "BLVL", "w": 12, "d": 6, "l":  8, "f": 65, "a": 40, "pts_win": 2, "season": "1970-71", "level": 3,              "league": "1. Division"},
+		{"place":  7, "team": "BLVL", "w": 13, "d": 2, "l": 11, "f": 42, "a": 36, "pts_win": 2, "season": "1969-70", "level": 3,              "league": "1. Division"},
         {"place":  6, "team": "BLVL", "w": 13, "d": 4, "l":  9, "f": 52, "a": 40, "pts_win": 2, "season": "1968-69", "level": 3,              "league": "1. Division"},
 		{"place":  5, "team": "BLVL", "w": 13, "d": 5, "l":  8, "f": 75, "a": 33, "pts_win": 2, "season": "1967-68", "level": 3,              "league": "1. Division"},
 		{"place":  1, "team": "BLVL", "w": 15, "d": 6, "l":  1, "f": 67, "a": 22, "pts_win": 2, "season": "1966-67", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1967-68", "level": 3, "name": "1. Division"}},
