@@ -57,9 +57,9 @@ function parseLeague(league) {
 		removeKey("standings");
 	}
 	if ( league.disputed ) {
-		standingsPanel.append(
+		standingsPanel.prepend(
 			$("<DIV></DIV>").addClass("alert").addClass("alert-warning").addClass("mt-4").html(
-				"The data in this table is not correct and under review"
+				"The data in this table does not add up and has been noted for review"
 			)
 		);
 		removeKey("disputed");
