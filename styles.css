@@ -162,6 +162,11 @@ div.lf-nav a:first-child {
 .alert-danger {
     border-color: #58151C;
 }
+.alert-warning {
+    border-color: #c46210;
+    background-color: #c4621011;
+    color: #c46210
+}
 
 /* STANDINGS TABLE *******************************************************************************/
 table.table--standings {
