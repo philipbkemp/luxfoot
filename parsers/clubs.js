@@ -247,7 +247,7 @@ function drawStandings(standings) {
             }
 
             if ( s.notes ) {
-                thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( s.notes );
+                thisRowNotes.append( $("<SPAN></SPAN>").addClass("me-2").html( s.notes ) );
             }
 
             thisRow.append(thisRowNotes);
