@@ -168,7 +168,7 @@ function pullStandings(tbl) {
     for ( r=1 ; r!==rows.length ; r++ ) {
         cols = rows[r].querySelectorAll("td");
         if ( cols.length !== 1 ) {
-            teamName = cols[1].textContent.trim().replace("&nbsp;"," ").replace(" "," ").replace(" (P)","").replace(" (N)","").replace(" (M)","").replace(" (A)","");
+            teamName = cols[1].textContent.trim().replace("&nbsp;"," ").replace(" "," ").replace(" (P)","").replace(" (N)","").replace(" (M)","").replace(" (A)","").trim();
             checkTeamName = teamName;
             teamCode = "";
 

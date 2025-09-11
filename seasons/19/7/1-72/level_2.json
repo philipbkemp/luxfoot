@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1971-72",
+    "links": {
+        "next": "1972-73",
+        "prev": "1970-71",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["AWDG","CGRV","CPET","CROD","CSHL","FOLA","JTHC","JWAS","RSMB","SCBT","SDUD","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "SCBT", "w": 13, "d":  6, "l":  3, "f": 34, "a": 17, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1972-73", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "FOLA", "w": 11, "d":  8, "l":  3, "f": 37, "a": 16, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1972-73", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "CGRV", "w": 10, "d":  9, "l":  3, "f": 28, "a":  9, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "CROD", "w":  6, "d": 14, "l":  2, "f": 40, "a": 23, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "SDUD", "w":  8, "d":  8, "l":  6, "f": 38, "a": 23, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "JTHC", "w":  7, "d": 10, "l":  5, "f": 25, "a": 28, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "RSMB", "w":  7, "d":  8, "l":  7, "f": 26, "a": 17, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "CSHL", "w":  7, "d":  7, "l":  8, "f": 36, "a": 37, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "USDD", "w":  6, "d":  6, "l": 10, "f": 35, "a": 32, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "JWAS", "w":  5, "d":  7, "l": 10, "f": 27, "a": 51, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "CPET", "w":  5, "d":  6, "l": 11, "f": 19, "a": 33, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1972-73", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "AWDG", "w":  1, "d":  3, "l": 18, "f": 17, "a": 76, "pts_win": 2, "season": "1971-72", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1972-73", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["SCBT","FOLA"],
+		"target": {"season": "1972-73", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["CPET","AWDG"],
+		"target": {"season": "1972-73", "level": 3, "name": "1. Division"}
+	}
+}

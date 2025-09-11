@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1971-72",
+    "links": {
+        "next": "1972-73",
+        "prev": "1970-71",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["ASDF","BBML","BLVL","CSOB","EGWM","KWRM","MAMR","MDLB","OVND","RBPF","SWFT","VICR","WALF","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "MDLB", "w": 14, "d": 8, "l":  4, "f": 68, "a": 22, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1972-73", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "EGWM", "w": 14, "d": 8, "l":  4, "f": 54, "a": 24, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1972-73", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "BLVL", "w": 15, "d": 6, "l":  5, "f": 58, "a": 34, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "RBPF", "w": 12, "d": 7, "l":  7, "f": 50, "a": 39, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "VICR", "w": 12, "d": 6, "l":  8, "f": 54, "a": 44, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "BBML", "w": 13, "d": 4, "l":  9, "f": 40, "a": 47, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "KWRM", "w": 12, "d": 4, "l": 10, "f": 44, "a": 47, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "OVND", "w": 11, "d": 4, "l": 11, "f": 59, "a": 40, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "CSOB", "w":  9, "d": 8, "l":  9, "f": 48, "a": 47, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "SWFT", "w": 10, "d": 4, "l": 12, "f": 43, "a": 49, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "ASDF", "w":  8, "d": 6, "l": 12, "f": 42, "a": 57, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1972-73", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "YBDK", "w":  7, "d": 0, "l": 19, "f": 42, "a": 79, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1972-73", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "WALF", "w":  4, "d": 5, "l": 17, "f": 36, "a": 63, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1972-73", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "MAMR", "w":  3, "d": 6, "l": 17, "f": 25, "a": 71, "pts_win": 2, "season": "1971-72", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1972-73", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["MDLB","EGWM"],
+		"target": {"season": "1972-73", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["ASDF","YBDK","WALF","MAMR"],
+		"target": {"season": "1972-73", "level": 4, "name": "2. Division"}
+	}
+}

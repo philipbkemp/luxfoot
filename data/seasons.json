@@ -1147,20 +1147,20 @@
 		"season": "1971-72",
 		"leagues": {
 			"level_1": {"season": "1971-72", "level":  1, "name": "National Division", "winner": "ARIS", "title_count": 3},
-			"level_2": {"missing":true,"season": "1971-72", "level":  2, "name": "Division of Honour", "winner": "SCBT"},
-			"level_3": {"missing":true,"season": "1971-72", "level":  3, "name": "1. Division", "winner": "MDLB"},
-			"level_4": {"missing":true,"season": "1971-72", "level":  4, "name": "2. Division", "series": [
-			    {"missing":true,"season": "1971-72", "level":  4, "series":  1, "name": "2. Division Series 1", "winner": "SPST"},
-				{"missing":true,"season": "1971-72", "level":  4, "series":  2, "name": "2. Division Series 2", "winner": "HOST"}
+			"level_2": {"season": "1971-72", "level":  2, "name": "Division of Honour"},
+			"level_3": {"season": "1971-72", "level":  3, "name": "1. Division"},
+			"level_4": {"season": "1971-72", "level":  4, "name": "2. Division", "series": [
+			    {"season": "1971-72", "level":  4, "series":  1, "name": "2. Division Series 1"},
+				{"season": "1971-72", "level":  4, "series":  2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1971-72", "level":  5, "name": "3. Division", "series": [
-				{"missing":true,"season": "1971-72", "level":  5, "series":  1, "name": "3. Division Series 1", "winner": "SRED"},
-				{"missing":true,"season": "1971-72", "level":  5, "series":  2, "name": "3. Division Series 2", "winner": "JSKH"}
-				]},
-			"level_6": {"missing":true,"season": "1971-72", "level":  6, "name": "4. Division", "series": [
-				{"missing":true,"season": "1971-72", "level":  6, "series":  1, "name": "4. Division Series 1", "winner": "BGHP"},
-				{"missing":true,"season": "1971-72", "level":  6, "series":  2, "name": "4. Division Series 2", "winner": "AFLX"},
-				{"missing":true,"season": "1971-72", "level":  6, "series":  3, "name": "4. Division Series 3", "winner": "LUNA"}
+			"level_5": {"season": "1971-72", "level":  5, "name": "3. Division", "series": [
+				{"season": "1971-72", "level":  5, "series":  1, "name": "3. Division Series 1"},
+				{"season": "1971-72", "level":  5, "series":  2, "name": "3. Division Series 2"}
+			]},
+			"level_6": {"season": "1971-72", "level":  6, "name": "4. Division", "series": [
+				{"season": "1971-72", "level":  6, "series":  1, "name": "4. Division Series 1"},
+				{"season": "1971-72", "level":  6, "series":  2, "name": "4. Division Series 2"},
+				{"season": "1971-72", "level":  6, "series":  3, "name": "4. Division Series 3"}
 			]}
 		},
 		"cups": {
