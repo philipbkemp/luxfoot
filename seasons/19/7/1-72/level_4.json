@@ -44,8 +44,6 @@
             {"place": 10, "team": "TLMD", "w":  5, "d": 6, "l": 11, "f": 40, "a": 53, "pts_win": 2, "season": "1971-72", "level": 4, "series": 2, "league": "2. Division Series 2"},
             {"place": 11, "team": "JBIW", "w":  4, "d": 5, "l": 13, "f": 35, "a": 53, "pts_win": 2, "season": "1971-72", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1972-73", "level": 5, "name": "3. Division"}},
             {"place": 12, "team": "KOPS", "w":  5, "d": 3, "l": 14, "f": 29, "a": 61, "pts_win": 2, "season": "1971-72", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1972-73", "level": 5, "name": "3. Division"}}
-        ],
-        "matches": [
         ]
     }],
     "promotion": {
