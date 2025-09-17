@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1972-73",
+    "links": {
+        "next": "1973-74",
+        "prev": "1971-72",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ADUD","CGRV","CROD","CSHL","EGWM","JHTC","JWAS","MDLB","PRON","RSMB","SDUD","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "RSMB", "w": 14, "d": 7, "l":  1, "f": 42, "a": 15, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1973-74", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "SDUD", "w": 14, "d": 2, "l":  6, "f": 48, "a": 21, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1973-74", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "PRON", "w": 13, "d": 4, "l":  5, "f": 37, "a": 22, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "CROD", "w": 13, "d": 2, "l":  7, "f": 38, "a": 34, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "MDLB", "w":  8, "d": 7, "l":  7, "f": 32, "a": 28, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "JWAS", "w":  7, "d": 7, "l":  8, "f": 21, "a": 26, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "CGRV", "w":  9, "d": 2, "l": 11, "f": 30, "a": 31, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "JHTC", "w":  7, "d": 5, "l": 10, "f": 30, "a": 31, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "ADUD", "w":  5, "d": 9, "l":  8, "f": 29, "a": 31, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "USDD", "w":  6, "d": 7, "l":  9, "f": 25, "a": 31, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "CSHL", "w":  7, "d": 4, "l": 11, "f": 30, "a": 35, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1973-74", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "EGWM", "w":  0, "d": 2, "l": 20, "f": 17, "a": 74, "pts_win": 2, "season": "1972-73", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1973-74", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["RSMB","SDUD"],
+		"target": {"season": "1973-74", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["CSHL","EGWM"],
+		"target": {"season": "1973-74", "level": 3, "name": "1. Division"}
+	}
+}

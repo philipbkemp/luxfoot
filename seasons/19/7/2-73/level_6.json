@@ -1,0 +1,81 @@
+{
+    "level": 6,
+	"season": "1972-73",
+    "links": {
+        "next": "1973-74",
+        "prev": "1971-72",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","CBSH","CLVX","FOLS","HARL","LARD","MGWW","RAMB","TWTC","UEDF"],
+        "standings": [
+            {"place":  1, "team": "CLVX", "w": 13, "d": 5, "l":  0, "f": 78, "a":  19, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1", "promoted": true, "target": {"season": "1973-74", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "LARD", "w": 11, "d": 4, "l":  3, "f": 76, "a":  20, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  3, "team": "AHOS", "w": 11, "d": 3, "l":  4, "f": 63, "a":  21, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  4, "team": "MGWW", "w": 10, "d": 5, "l":  3, "f": 56, "a":  18, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  5, "team": "RAMB", "w": 11, "d": 2, "l":  5, "f": 51, "a":  33, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  6, "team": "TWTC", "w":  9, "d": 4, "l":  5, "f": 60, "a":  34, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  7, "team": "FOLS", "w":  4, "d": 2, "l": 12, "f": 33, "a":  74, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  8, "team": "HARL", "w":  3, "d": 3, "l": 12, "f": 29, "a":  66, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  9, "team": "CBSH", "w":  3, "d": 2, "l": 13, "f": 28, "a":  81, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 10, "team": "UEDF", "w":  0, "d": 0, "l": 18, "f": 20, "a": 128, "pts_win": 2, "season": "1972-73", "level": 6, "series": 1, "league": "4. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ALCR","ASCB","ATBS","BAST","BRCH","ERPL","JGIL","JUSE","RUPL","SBCK","SELL"],
+        "standings": [
+            {"place":  1, "team": "BRCH", "w": 18, "d": 1, "l":  1, "f": 79, "a":  9, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2", "promoted": true, "target": {"season": "1973-74", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "ERPL", "w": 15, "d": 2, "l":  3, "f": 69, "a": 22, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  3, "team": "ASCB", "w": 13, "d": 4, "l":  3, "f": 54, "a": 26, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  4, "team": "ATBS", "w": 11, "d": 3, "l":  6, "f": 65, "a": 43, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  5, "team": "SELL", "w":  7, "d": 5, "l":  8, "f": 37, "a": 38, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  6, "team": "RUPL", "w":  7, "d": 2, "l": 11, "f": 55, "a": 66, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  7, "team": "JUSE", "w":  7, "d": 2, "l": 11, "f": 54, "a": 68, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  8, "team": "SBCK", "w":  6, "d": 4, "l": 10, "f": 36, "a": 50, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  9, "team": "JGIL", "w":  5, "d": 4, "l": 11, "f": 42, "a": 73, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 10, "team": "ALCR", "w":  5, "d": 2, "l": 13, "f": 50, "a": 83, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"},
+		    {"place": 11, "team": "BAST", "w":  1, "d": 1, "l": 18, "f": 35, "a": 98, "pts_win": 2, "season": "1972-73", "level": 6, "series": 2, "league": "4. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["BYUD","JCNC","LADH","MUNS","OBCN","OYCW","SYRA","UMRT","USMM","VINE"],
+        "standings": [
+            {"place":  1, "team": "SYRA", "w": 13, "d": 3, "l":  2, "f": 62, "a":  27, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1973-74", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "LADH", "w": 12, "d": 3, "l":  3, "f": 87, "a":  27, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  3, "team": "OYCW", "w": 11, "d": 5, "l":  2, "f": 79, "a":  21, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  4, "team": "UMRT", "w":  8, "d": 5, "l":  5, "f": 52, "a":  37, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  5, "team": "USMM", "w":  7, "d": 5, "l":  6, "f": 56, "a":  35, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  6, "team": "OBCN", "w":  7, "d": 2, "l":  9, "f": 69, "a":  41, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  7, "team": "MUNS", "w":  7, "d": 1, "l": 10, "f": 53, "a":  45, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  8, "team": "JCNC", "w":  4, "d": 6, "l":  8, "f": 53, "a":  36, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  9, "team": "VINE", "w":  5, "d": 2, "l": 11, "f": 51, "a":  42, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 10, "team": "BYUD", "w":  0, "d": 0, "l": 18, "f":  4, "a": 255, "pts_win": 2, "season": "1972-73", "level": 6, "series": 3, "league": "4. Division Series 3"}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["ASLX","ASTN","EHLR","ESHW","ISKA","KHLN","MDCG","NORZ","PROG","SBRT"],
+        "standings": [
+            {"place":  1, "team": "SBRT", "w": 13, "d": 2, "l":  3, "f": 53, "a": 17, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4", "promoted": true, "target": {"season": "1973-74", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "ASTN", "w": 12, "d": 2, "l":  4, "f": 61, "a": 21, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  3, "team": "MDCG", "w": 11, "d": 2, "l":  5, "f": 46, "a": 28, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  4, "team": "EHLR", "w":  8, "d": 7, "l":  3, "f": 42, "a": 28, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  5, "team": "ISKA", "w":  9, "d": 4, "l":  5, "f": 46, "a": 47, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  6, "team": "ESHW", "w":  7, "d": 3, "l":  8, "f": 29, "a": 35, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  7, "team": "ASLX", "w":  7, "d": 1, "l": 10, "f": 28, "a": 30, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  8, "team": "PROG", "w":  6, "d": 2, "l": 10, "f": 39, "a": 40, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place":  9, "team": "KHLN", "w":  3, "d": 2, "l": 13, "f": 19, "a": 64, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"},
+            {"place": 10, "team": "NORZ", "w":  0, "d": 3, "l": 15, "f": 19, "a": 72, "pts_win": 2, "season": "1972-73", "level": 6, "Series": 4, "league": "4. Division Series 4"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["CLVX","BRCH","SYRA","SBRT"],
+        "target": {"season": "1973-74", "level": 5, "name": "3. Division"}
+    }
+}
