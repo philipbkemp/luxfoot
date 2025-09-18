@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1973-74",
+    "links": {
+        "next": "1974-75",
+        "prev": "1972-73",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ADUD","CGRV","CPET","CROD","JHTC","JWAS","MDLB","PRON","RBPF","SCBT","STET","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "PRON", "w": 16, "d": 2, "l":  4, "f": 50, "a": 29, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1974-75", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "ADUD", "w": 13, "d": 5, "l":  4, "f": 49, "a": 24, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1974-75", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "JHTC", "w": 11, "d": 6, "l":  5, "f": 38, "a": 27, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "MDLB", "w": 11, "d": 3, "l":  8, "f": 58, "a": 35, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "STET", "w": 10, "d": 5, "l":  7, "f": 27, "a": 30, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "CROD", "w": 10, "d": 3, "l":  9, "f": 41, "a": 34, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "CPET", "w":  8, "d": 7, "l":  7, "f": 28, "a": 30, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "RBPF", "w": 10, "d": 1, "l": 11, "f": 42, "a": 38, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "CGRV", "w":  9, "d": 3, "l": 10, "f": 40, "a": 42, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "USDD", "w":  4, "d": 6, "l": 12, "f": 22, "a": 35, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "JWAS", "w":  3, "d": 5, "l": 14, "f": 30, "a": 50, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1974-75", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "SCBT", "w":  2, "d": 4, "l": 16, "f": 11, "a": 62, "pts_win": 2, "season": "1973-74", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1974-75", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["PRON","ADUD"],
+		"target": {"season": "1974-75", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["JWAS","SCBT"],
+		"target": {"season": "1974-75", "level": 3, "name": "1. Division"}
+	}
+}

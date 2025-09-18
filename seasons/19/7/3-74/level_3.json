@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1973-74",
+    "links": {
+        "next": "1974-75",
+        "prev": "1972-73",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["ASDF","BBML","CSHL","CSOB","DARE","EGWM","HOBS","HOST","KWRM","OVND","RPDN","SAND","VICR","WLTZ"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CSHL", "w": 16, "d":  7, "l":  3, "f": 55, "a": 31, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1974-75", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "OVND", "w": 17, "d":  4, "l":  5, "f": 62, "a": 30, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1974-75", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "CSOB", "w": 16, "d":  5, "l":  5, "f": 85, "a": 42, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "DARE", "w": 15, "d":  4, "l":  7, "f": 56, "a": 35, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "HOST", "w": 10, "d": 11, "l":  5, "f": 65, "a": 37, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "VICR", "w": 13, "d":  3, "l": 10, "f": 59, "a": 56, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "RPDN", "w": 10, "d":  8, "l":  8, "f": 52, "a": 48, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "KWRM", "w":  8, "d": 10, "l":  8, "f": 44, "a": 44, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "HOBS", "w":  8, "d":  5, "l": 13, "f": 38, "a": 42, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "WLTZ", "w":  8, "d":  5, "l": 13, "f": 44, "a": 58, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "ASDF", "w":  6, "d":  7, "l": 13, "f": 35, "a": 47, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1974-75", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "SAND", "w":  6, "d":  4, "l": 16, "f": 34, "a": 62, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1974-75", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "BBML", "w":  5, "d":  4, "l": 17, "f": 40, "a": 83, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1974-75", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "EGWM", "w":  3, "d":  5, "l": 18, "f": 33, "a": 87, "pts_win": 2, "season": "1973-74", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1974-75", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CSHL","OVND"],
+		"target": {"season": "1974-75", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["ASDF","SAND","BBML","EGWM"],
+		"target": {"season": "1974-75", "level": 4, "name": "2. Division"}
+	}
+}
