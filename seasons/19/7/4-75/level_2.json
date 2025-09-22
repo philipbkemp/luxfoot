@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1974-75",
+    "links": {
+        "next": "1975-76",
+        "prev": "1973-74",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["CGRV","CPET","CROD","CSHL","JHTC","MDLB","NSCH","OVND","RBPF","SDUD","STET","USDD"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CROD", "w": 13, "d": 6, "l":  3, "f": 54, "a": 19, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1975-76", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "SDUD", "w": 13, "d": 3, "l":  6, "f": 52, "a": 28, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1975-76", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "CGRV", "w": 13, "d": 2, "l":  7, "f": 47, "a": 29, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "OVND", "w": 11, "d": 4, "l":  7, "f": 39, "a": 35, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "RBPF", "w": 10, "d": 5, "l":  7, "f": 35, "a": 32, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "MDLB", "w":  9, "d": 5, "l":  8, "f": 38, "a": 27, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "JHTC", "w":  9, "d": 5, "l":  8, "f": 31, "a": 39, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "STET", "w":  8, "d": 6, "l":  8, "f": 34, "a": 36, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "CPET", "w":  7, "d": 8, "l":  7, "f": 28, "a": 34, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "CSHL", "w":  7, "d": 6, "l":  9, "f": 39, "a": 35, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "USDD", "w":  3, "d": 6, "l": 13, "f": 34, "a": 55, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1975-76", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "NSCH", "w":  0, "d": 2, "l": 20, "f":  9, "a": 71, "pts_win": 2, "season": "1974-75", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1975-76", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CROD","SDUD"],
+		"target": {"season": "1975-76", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["USDD","NSCH"],
+		"target": {"season": "1975-76", "level": 3, "name": "1. Division"}
+	}
+}

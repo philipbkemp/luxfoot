@@ -1,0 +1,59 @@
+{
+    "level": 4,
+	"season": "1974-75",
+    "links": {
+        "next": "1975-76",
+        "prev": "1973-74",
+        "up": 3,
+        "down": 5
+    },
+	"name": "2. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AFLX","ARBD","BBML","BRCH","EGWM","JSCH","JUNG","LRNZ","MRTZ","REIS","UNAS","WALF"],
+        "standings": [
+            {"place":  1, "team": "JSCH", "w": 15, "d": 4, "l":  3, "f": 44, "a": 22, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1975-76", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "BBML", "w": 12, "d": 6, "l":  4, "f": 82, "a": 28, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1", "promoted": true, "target": {"season": "1975-76", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "WALF", "w": 13, "d": 4, "l":  5, "f": 55, "a": 28, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  4, "team": "BRCH", "w": 11, "d": 6, "l":  5, "f": 47, "a": 25, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  5, "team": "JUNG", "w": 11, "d": 5, "l":  6, "f": 51, "a": 33, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  6, "team": "REIS", "w": 10, "d": 5, "l":  7, "f": 39, "a": 41, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  7, "team": "UNAS", "w":  7, "d": 7, "l":  8, "f": 42, "a": 47, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  8, "team": "LRNZ", "w":  6, "d": 5, "l": 11, "f": 41, "a": 50, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place":  9, "team": "MRTZ", "w":  6, "d": 4, "l": 12, "f": 38, "a": 53, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 10, "team": "AFLX", "w":  6, "d": 3, "l": 13, "f": 31, "a": 55, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1"},
+            {"place": 11, "team": "EGWM", "w":  5, "d": 3, "l": 14, "f": 26, "a": 67, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1975-76", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "ARBD", "w":  3, "d": 2, "l": 17, "f": 35, "a": 82, "pts_win": 2, "season": "1974-75", "level": 4, "series": 1, "league": "2. Division Series 1", "relegated": true, "target": {"season": "1975-76", "level": 5, "name": "3. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","BLVL","BOUS","JKYL","JSKH","MAMR","RBAS","RROD","SAND","SNEM","SPST","YBWT"],
+        "standings": [
+            {"place":  1, "team": "RBAS", "w": 15, "d": 5, "l":  2, "f": 44, "a": 18, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1975-76", "level": 3, "name": "1. Division"}},
+            {"place":  2, "team": "RROD", "w": 14, "d": 4, "l":  4, "f": 60, "a": 28, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2", "promoted": true, "target": {"season": "1975-76", "level": 3, "name": "1. Division"}},
+            {"place":  3, "team": "JSKH", "w": 12, "d": 5, "l":  5, "f": 48, "a": 24, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  4, "team": "BLVL", "w": 12, "d": 4, "l":  6, "f": 45, "a": 37, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  5, "team": "ASDF", "w":  9, "d": 3, "l": 10, "f": 38, "a": 29, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  6, "team": "SPST", "w":  8, "d": 5, "l":  9, "f": 41, "a": 42, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  7, "team": "SAND", "w":  8, "d": 5, "l":  9, "f": 32, "a": 36, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  8, "team": "MAMR", "w":  6, "d": 5, "l": 11, "f": 34, "a": 39, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place":  9, "team": "YBWT", "w":  6, "d": 5, "l": 11, "f": 21, "a": 41, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 10, "team": "SNEM", "w":  4, "d": 7, "l": 11, "f": 24, "a": 47, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
+            {"place": 11, "team": "BOUS", "w":  6, "d": 2, "l": 14, "f": 27, "a": 48, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1975-76", "level": 5, "name": "3. Division"}},
+            {"place": 12, "team": "JKYL", "w":  4, "d": 6, "l": 12, "f": 27, "a": 52, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2", "relegated": true, "target": {"season": "1975-76", "level": 5, "name": "3. Division"}}
+        ],
+        "matches": [
+        ]
+    }],
+    "promotion": {
+        "teams": ["JSCH","BBML","RBAS","RROD"],
+        "target": {"season": "1975-76", "level": 3, "name": "1. Division"}
+    },
+    "relegation": {
+        "teams": ["EGWM","ARBD","BOUS","JKYL"],
+        "target": {"season": "1975-76", "level": 5, "name": "3. Division"}
+    }
+}

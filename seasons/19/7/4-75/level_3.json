@@ -1,0 +1,37 @@
+{
+    "level": 3,
+	"season": "1974-75",
+    "links": {
+        "next": "1975-76",
+        "prev": "1973-74",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["BWMD","CSOB","DARE","HOBS","HOST","JWAS","KWRM","MLSV","RPDN","SCBT","SWFT","VICR","WLTZ","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "DARE", "w": 16, "d": 5, "l":  5, "f": 65, "a": 45, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1975-76", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "BWMD", "w": 16, "d": 1, "l":  9, "f": 60, "a": 38, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1975-76", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "JWAS", "w": 14, "d": 4, "l":  8, "f": 71, "a": 50, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "CSOB", "w": 12, "d": 6, "l":  8, "f": 57, "a": 41, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "SWFT", "w": 12, "d": 5, "l":  9, "f": 49, "a": 40, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "MLSV", "w": 12, "d": 5, "l":  9, "f": 56, "a": 52, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "WLTZ", "w": 13, "d": 1, "l": 12, "f": 67, "a": 55, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "YBDK", "w":  9, "d": 9, "l":  8, "f": 42, "a": 38, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "KWRM", "w": 10, "d": 3, "l": 13, "f": 40, "a": 49, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "HOST", "w": 10, "d": 2, "l": 14, "f": 51, "a": 50, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "SCBT", "w":  8, "d": 6, "l": 12, "f": 30, "a": 35, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1975-76", "level": 4, "name": "2. Division"}},
+		{"place": 12, "team": "RPDN", "w":  9, "d": 4, "l": 13, "f": 36, "a": 54, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1975-76", "level": 4, "name": "2. Division"}},
+		{"place": 13, "team": "VICR", "w":  7, "d": 6, "l": 13, "f": 34, "a": 53, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1975-76", "level": 4, "name": "2. Division"}},
+		{"place": 14, "team": "HOBS", "w":  4, "d": 3, "l": 19, "f": 27, "a": 85, "pts_win": 2, "season": "1974-75", "level": 3, "league": "1. Division", "relegated": true, "target": {"season": "1975-76", "level": 4, "name": "2. Division"}}
+    ],
+	"promotion": {
+		"teams": ["DARE","BWMD"],
+		"target": {"season": "1975-76", "level": 2, "name": "Division of Honour"}
+	},
+	"relegation": {
+		"teams": ["SCBT","RPDN","VICR","HOBS"],
+		"target": {"season": "1975-76", "level": 4, "name": "2. Division"}
+	}
+}
