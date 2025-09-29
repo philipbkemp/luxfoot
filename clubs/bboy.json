@@ -3,8 +3,8 @@
     "name": "Black Boys Bascharage",
     "trophies": [],
     "standings": [
-        {"place": 3, "team": "BBOY", "w": 3, "d": 4, "l": 3, "f": 20, "a": 21, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series South West"},
-        {"place": 3, "team": "BBOY", "w": 5, "d": 1, "l": 4, "f": 20, "a": 17, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series South West"},
+        {"place": 3, "team": "BBOY", "w": 3, "d": 4, "l": 3, "f": 20, "a": 21, "pts_win": 2, "season": "1920-21", "level": 4, "series": 3, "league": "3. Division Series SW"},
+        {"place": 3, "team": "BBOY", "w": 5, "d": 1, "l": 4, "f": 20, "a": 17, "pts_win": 2, "season": "1921-22", "level": 4, "series": 3, "league": "3. Division Series SW"},
         {"place": 4, "team": "BBOY", "w": 0, "d": 0, "l": 6, "f":  1, "a": 19, "pts_win": 2, "season": "1922-23", "level": 4, "series": 3, "league": "3. Division Series 3","removed":true,"removed_note":"Club disbanded"}
     ],
     "founded": 1920,
