@@ -43,26 +43,26 @@ function parseClub(data) {
 
     isFirstTab = true;
 
-    history = [];
+    clubHistory = [];
 
     // founded
     if ( data.founded ) {
-        history.append(drawEvent("founded",data.founded));
+        clubHistory.push(drawEvent("founded",data.founded));
     }
     // trophies
     if ( data.trophies ) {
-        history.concat(drawTrophies(data.trophies));
+        clubHistory.concat(drawTrophies(data.trophies));
     }
     // disbanded
     if ( data.disbanded ) {
-        history.append(drawEvent("disbanded",data.disbanded));
+        clubHistory.push(drawEvent("disbanded",data.disbanded));
     }
 
-    if ( history.length !== 0 ) {
+    if ( clubHistory.length !== 0 ) {
         $("#theTabs").append(buildTabButton("history","History",isFirstTab));
         historyPanel = buildTabPanel("history",isFirstTab);
         historyWrapper = $("<DIV></DIV>").addClass("g-4").addClass("row").addClass("row-cols-6").addClass("trophy-list");
-        history.forEach(h=>{
+        clubHistory.forEach(h=>{
             historyWrapper.append(h);
         });
         $("#theTabContent").append(trophyPanel);
