@@ -52,9 +52,7 @@ function parseClub(data) {
     // trophies
     if ( data.trophies ) {
         trophyCabinet = drawTrophies(data.trophies);
-        console.log(trophyCabinet);
-        clubHistory.concat(trophyCabinet);
-        console.log(clubHistory);
+        clubHistory = clubHistory.concat(trophyCabinet);
     }
     // disbanded
     if ( data.disbanded ) {
