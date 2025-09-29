@@ -505,6 +505,14 @@ table.winners--table#winners--country tbody tr td:last-child {
     top: 6px;
     z-index: 1;
 }
+.trophy-list .card-img-event__founded::before {
+    background-image: url('assets/founded.png');
+    background-size: 30px;
+}
+.trophy-list .card-img-event__disbanded::before {
+    background-image: url('assets/disbanded.png');
+    background-size: 30px;
+}
 .trophy-list .card-img {
     align-items: center;
     color: black;

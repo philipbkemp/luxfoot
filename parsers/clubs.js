@@ -45,18 +45,18 @@ function parseClub(data) {
 
     clubHistory = [];
 
-    // founded
-    if ( data.founded ) {
-        clubHistory.push(drawEvent("founded",data.founded));
+    // disbanded
+    if ( data.disbanded ) {
+        clubHistory.push(drawEvent("disbanded",data.disbanded));
     }
     // trophies
     if ( data.trophies ) {
         trophyCabinet = drawTrophies(data.trophies);
         clubHistory = clubHistory.concat(trophyCabinet);
     }
-    // disbanded
-    if ( data.disbanded ) {
-        clubHistory.push(drawEvent("disbanded",data.disbanded));
+    // founded
+    if ( data.founded ) {
+        clubHistory.push(drawEvent("founded",data.founded));
     }
 
     if ( clubHistory.length !== 0 ) {
@@ -126,7 +126,7 @@ function drawEvent(event,year) {
 
     thisEvent = $("<DIV></DIV>").addClass("col");
     thisTrophyLink = $("<DIV></DIV>").addClass("card");
-    thisTrophyImg = $("<DIV></DIV>").addClass("card-img");
+    thisTrophyImg = $("<DIV></DIV>").addClass("card-img").addClass("card-img-event__"+event);
     thisTrophyBody = $("<DIV></DIV>").addClass("card-body");
     thisTrophyComp = $("<STRONG></STRONG>").addClass("card-title").html(eventType);
     thisTrophySeason =$("<P></P>").addClass("card-text").html(year);
