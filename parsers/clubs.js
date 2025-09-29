@@ -154,7 +154,7 @@ function drawTrophies(trophies) {
         thisTrophyBody.append(thisTrophyComp).append(thisTrophySeason);
         thisTrophyLink.append(thisTrophyImg).append(thisTrophyBody);
         thisTrophy.append(thisTrophyLink);
-        trophyCabinet.unshift(thisTrophy);
+        trophyCabinet.unshift(thisTrophy[0]);
     });
 
     return trophyCabinet;
