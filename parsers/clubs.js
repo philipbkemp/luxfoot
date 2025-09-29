@@ -65,7 +65,7 @@ function parseClub(data) {
         clubHistory.forEach(h=>{
             historyWrapper.append(h);
         });
-        $("#theTabContent").append(trophyPanel);
+        $("#theTabContent").append(historyPanel);
         isFirstTab = false;
     }
 
@@ -153,7 +153,7 @@ function drawTrophies(trophies) {
         thisTrophyBody.append(thisTrophyComp).append(thisTrophySeason);
         thisTrophyLink.append(thisTrophyImg).append(thisTrophyBody);
         thisTrophy.append(thisTrophyLink);
-        trophyCabinet.prepend(thisTrophy);
+        trophyCabinet.unshift(thisTrophy);
     });
 
     return trophyCabinet;
