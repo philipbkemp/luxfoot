@@ -66,6 +66,7 @@ function parseClub(data) {
         clubHistory.forEach(h=>{
             historyWrapper.append(h);
         });
+        historyPanel.append(historyWrapper);
         $("#theTabContent").append(historyPanel);
         isFirstTab = false;
     }
