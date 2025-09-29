@@ -43,13 +43,28 @@ function parseClub(data) {
 
     isFirstTab = true;
 
+    history = [];
+
+    // founded
+    if ( data.founded ) {
+        history.append(drawEvent("founded",data.founded));
+    }
     // trophies
     if ( data.trophies ) {
-        $("#theTabs").append(buildTabButton("trophies","Trophy Cabinet",isFirstTab));
-        trophyPanel = buildTabPanel("trophies",isFirstTab);
+        history.concat(drawTrophies(data.trophies));
+    }
+    // disbanded
+    if ( data.disbanded ) {
+        history.append(drawEvent("disbanded",data.disbanded));
+    }
 
-        trophyPanel.append( drawTrophies(data.trophies) );
-
+    if ( history.length !== 0 ) {
+        $("#theTabs").append(buildTabButton("history","History",isFirstTab));
+        historyPanel = buildTabPanel("history",isFirstTab);
+        historyWrapper = $("<DIV></DIV>").addClass("g-4").addClass("row").addClass("row-cols-6").addClass("trophy-list");
+        history.forEach(h=>{
+            historyWrapper.append(h);
+        });
         $("#theTabContent").append(trophyPanel);
         isFirstTab = false;
     }
@@ -93,13 +108,35 @@ function parseClub(data) {
         isFirstTab = false;
     }*/
 
+    // cups
+
     $(".placeholder-glow").addClass("d-none");
     $(".displayAfterLoad").removeClass("d-none");
     $(".showIfClub").removeClass("d-none");
 }
 
+function drawEvent(event,year) {
+    eventType = event;
+    switch(event) {
+        case "disbanded": eventType = "Disbanded"; break;
+        case "founded": eventType = "Founded"; break;
+    }
+
+    thisEvent = $("<DIV></DIV>").addClass("col");
+    thisTrophyLink = $("<DIV></DIV>").addClass("card");
+    thisTrophyImg = $("<DIV></DIV>").addClass("card-img");
+    thisTrophyBody = $("<DIV></DIV>").addClass("card-body");
+    thisTrophyComp = $("<STRONG></STRONG>").addClass("card-title").html(eventType);
+    thisTrophySeason =$("<P></P>").addClass("card-text").html(year);
+    thisTrophyBody.append(thisTrophyComp).append(thisTrophySeason);
+    thisTrophyLink.append(thisTrophyImg).append(thisTrophyBody);
+    thisEvent.append(thisTrophyLink);
+
+    return thisEvent;
+}
+
 function drawTrophies(trophies) {
-    trophy = $("<DIV></DIV>").addClass("g-4").addClass("row").addClass("row-cols-6").addClass("trophy-list");
+    trophyCabinet = [];
 
     trophies.forEach(t=>{
         thisTrophy = $("<DIV></DIV>").addClass("col");
@@ -116,10 +153,10 @@ function drawTrophies(trophies) {
         thisTrophyBody.append(thisTrophyComp).append(thisTrophySeason);
         thisTrophyLink.append(thisTrophyImg).append(thisTrophyBody);
         thisTrophy.append(thisTrophyLink);
-        trophy.prepend(thisTrophy);
+        trophyCabinet.prepend(thisTrophy);
     });
 
-    return trophy;
+    return trophyCabinet;
 }
 
 function drawStandings(standings) {
