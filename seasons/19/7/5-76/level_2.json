@@ -1,0 +1,35 @@
+{
+    "level": 2,
+	"season": "1975-76",
+    "links": {
+        "next": "1976-77",
+        "prev": "1974-75",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["BWMD","CGRV","CPET","CSHL","DARE","JHTC","MDLB","OVND","RBPF","RSMB","SPOR","STET"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "CGRV", "w": 13, "d": 6, "l":  3, "f": 59, "a": 26, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1976-77", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "RBPF", "w": 12, "d": 5, "l":  5, "f": 45, "a": 23, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1976-77", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "SPOR", "w": 13, "d": 2, "l":  7, "f": 53, "a": 30, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "DARE", "w": 12, "d": 4, "l":  6, "f": 48, "a": 33, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "MDLB", "w":  9, "d": 7, "l":  6, "f": 38, "a": 32, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "RSMB", "w":  7, "d": 8, "l":  7, "f": 23, "a": 28, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "BWMD", "w":  7, "d": 6, "l":  9, "f": 25, "a": 32, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "OVND", "w":  7, "d": 5, "l": 10, "f": 24, "a": 34, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "JHTC", "w":  8, "d": 2, "l": 12, "f": 34, "a": 42, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "CPET", "w":  6, "d": 6, "l": 10, "f": 21, "a": 31, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour"},
+		{"place": 11, "team": "STET", "w":  5, "d": 4, "l": 13, "f": 27, "a": 54, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1976-77", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "CSHL", "w":  4, "d": 3, "l": 15, "f": 22, "a": 54, "pts_win": 2, "season": "1975-76", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1976-77", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["CGRV","RBPF"],
+		"target": {"season": "1976-77", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["STET","CSHL"],
+		"target": {"season": "1976-77", "level": 3, "name": "1. Division"}
+	}
+}

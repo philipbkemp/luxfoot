@@ -1262,21 +1262,21 @@
 		"season": "1975-76",
 		"leagues": {
 			"level_1": {"season": "1975-76", "level": 1, "name": "National Division", "winner": "JESH", "title_count": 15, "double": true},
-			"level_2": {"missing":true, "season": "1975-76", "level": 2, "name": "Division of Honour", "winner": "CGRV"},
-			"level_3": {"missing":true, "season": "1975-76", "level": 3, "name": "1. Division", "winner": "BBML"},
-			"level_4": {"missing":true,"season": "1975-76", "level": 4, "name": "2. Division","series":[
-				{"missing":true, "season": "1975-76", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "JUNG"},
-				{"missing":true, "season": "1975-76", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "UESH"}
+			"level_2": {"season": "1975-76", "level": 2, "name": "Division of Honour"},
+			"level_3": {"season": "1975-76", "level": 3, "name": "1. Division"},
+			"level_4": {"season": "1975-76", "level": 4, "name": "2. Division","series":[
+				{"season": "1975-76", "level": 4,"series":1, "name": "2. Division Series 1"},
+				{"season": "1975-76", "level": 4,"series":2, "name": "2. Division Series 2"}
 			]},
-			"level_5": {"missing":true,"season": "1975-76", "level": 5, "name": "3. Division","series":[
-				{"missing":true, "season": "1975-76", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "JBIW"},
-				{"missing":true, "season": "1975-76", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "OYMP"}
+			"level_5": {"season": "1975-76", "level": 5, "name": "3. Division","series":[
+				{"season": "1975-76", "level": 5,"series":1, "name": "3. Division Series 1"},
+				{"season": "1975-76", "level": 5,"series":2, "name": "3. Division Series 2"}
 			]},
-			"level_6": {"missing":true,"season": "1975-76", "level": 6, "name": "4. Division","series":[
-				{"missing":true, "season": "1975-76", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "MGWW"},
-				{"missing":true, "season": "1975-76", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "KHLN"},
-				{"missing":true, "season": "1975-76", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "MUNS"},
-				{"missing":true, "season": "1975-76", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "LUNA"}
+			"level_6": {"season": "1975-76", "level": 6, "name": "4. Division","series":[
+				{"season": "1975-76", "level": 6,"series":1, "name": "4. Division Series 1"},
+				{"season": "1975-76", "level": 6,"series":2, "name": "4. Division Series 2"},
+				{"season": "1975-76", "level": 6,"series":3, "name": "4. Division Series 3"},
+				{"season": "1975-76", "level": 6,"series":4, "name": "4. Division Series 4"}
 			]}
 		},
 		"cups": {

@@ -944,6 +944,10 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			thisRow.addClass("is-promoted");
 			removeKey("standings.promoted");
 			removeKey("series.promoted");
+			if ( s.promoted_twice ) {
+				thisRow.addClass("is-promoted-twice");
+				removeKey("standings.promoted_twice");
+			}
 			if ( s.target ) {
 				
 				targetKeys = Object.keys(s.promoted);
@@ -956,7 +960,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 				if ( ! s.playoff || isPlayoffTable ) {
 					thisRowNotes.append(
 						$("<A></A>")
-							.html(["Promoted to",s.target.season,s.target.name].join(" "))
+							.html([(s.promoted_twice?"Double":""),"Promoted to",s.target.season,s.target.name].join(" "))
 							.attr("href","league.html?season="+s.target.season+"&level="+s.target.level)
 							.addClass(thisRowHasNotes?'ms-3':'ms-0')
 					);

@@ -303,6 +303,9 @@ table.table--standings-history tr > td:first-of-type {
 .table--standings .is-promoted td:nth-of-type(1) {
 	background-image: url("assets/promoted.png");
 }
+.table--standings .is-promoted-twice td:nth-of-type(1) {
+    background-image: url("assets/promoted-twice.png");
+}
 .table--standings .is-removed td:nth-of-type(1) {
 	background-image: url("assets/removed.png");
 }

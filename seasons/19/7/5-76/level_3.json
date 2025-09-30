@@ -1,0 +1,34 @@
+{
+    "level": 3,
+	"season": "1975-76",
+    "links": {
+        "next": "1976-77",
+        "prev": "1974-75",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"teams": ["BBML","CSOB","HOST","JSCH","JWAS","KWRM","MLSV","NSCH","RBAS","RROD","SWFT","USDD","WLTZ","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "BBML", "w": 17, "d": 3, "l":  6, "f": 62, "a": 29, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1976-77", "level": 2, "name": "Division of Honour"}},
+		{"place":  2, "team": "SWFT", "w": 17, "d": 2, "l":  7, "f": 67, "a": 34, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division", "promoted": true, "target": {"season": "1976-77", "level": 2, "name": "Division of Honour"}},
+		{"place":  3, "team": "KWRM", "w": 12, "d": 9, "l":  5, "f": 44, "a": 26, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place":  4, "team": "RBAS", "w": 12, "d": 6, "l":  8, "f": 55, "a": 39, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place":  5, "team": "MLSV", "w": 12, "d": 6, "l":  8, "f": 48, "a": 38, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place":  6, "team": "WLTZ", "w": 12, "d": 6, "l":  8, "f": 55, "a": 54, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place":  7, "team": "JSCH", "w": 11, "d": 4, "l": 11, "f": 44, "a": 52, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place":  8, "team": "CSOB", "w":  8, "d": 9, "l":  9, "f": 53, "a": 46, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place":  9, "team": "RROD", "w":  8, "d": 8, "l": 10, "f": 45, "a": 34, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place": 10, "team": "YBDK", "w": 10, "d": 4, "l": 12, "f": 37, "a": 49, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place": 11, "team": "USDD", "w":  7, "d": 7, "l": 12, "f": 38, "a": 44, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place": 12, "team": "JWAS", "w":  8, "d": 4, "l": 14, "f": 53, "a": 65, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place": 13, "team": "HOST", "w":  7, "d": 5, "l": 14, "f": 49, "a": 70, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"},
+		{"place": 14, "team": "NSCH", "w":  3, "d": 3, "l": 20, "f": 20, "a": 90, "pts_win": 2, "season": "1975-76", "level": 3, "league": "1. Division"}
+    ],
+	"promotion": {
+		"teams": ["BBML","SWFT"],
+		"target": {"season": "1976-77", "level": 2, "name": "Division of Honour"}
+	},
+    "note": "League Pyramid restructured at end of season"
+}
