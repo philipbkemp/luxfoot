@@ -393,6 +393,12 @@ function getPlayoffName(code) {
 			theText = "Promotion play-off"; break;
 		case "league_promotion_playoff_a":
 		case "league_promotion_playoff_b":
+		case "league_promotion_playoff_c":
+		case "league_promotion_playoff_d":
+		case "league_relegation_playoff_a":
+		case "league_relegation_playoff_b":
+		case "league_relegation_playoff_c":
+		case "league_relegation_playoff_d":
 		case "playoff":
 			theText = "Play-off";
 			break;
