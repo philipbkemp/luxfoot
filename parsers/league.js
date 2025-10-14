@@ -428,6 +428,7 @@ function parseLeague(league) {
 						league.playoffs[poc].pts_win
 							? league.playoffs[poc].pts_win
 							: 3
+						,true
 					)
 				);
 				$("#leagueTabContent").append(poLeaguePromotionPlayoff);
@@ -524,6 +525,7 @@ function parseLeague(league) {
 						league.playoffs[poc].pts_win
 							? league.playoffs[poc].pts_win
 							: 3
+						,true
 					)
 				);
 				$("#leagueTabContent").append(poLeagueRelegationPlayoff);
@@ -1028,7 +1030,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			removeKey("standings.removed");
 			removeKey("standings.removed_note");
 		}
-		if ( s.playoff) {
+		if ( s.playoff ) {
 			theText = getPlayoffName(s.playoff);
 			if ( theText !== "" ) {
 				if ( ! isPlayoffTable ) {
