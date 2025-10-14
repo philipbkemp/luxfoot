@@ -1,0 +1,86 @@
+{
+    "level": 3,
+	"season": "1976-77",
+    "links": {
+        "next": "1977-78",
+        "prev": "1975-76",
+        "up": 2,
+        "down": 4
+    },
+	"name": "1. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS","ASCB","BRCH","HOST","JSCH","JSKH","JUNG","JWAS","KWRM","MRTZ","WLTZ","YBDK"],
+        "standings": [
+            {"place":  1, "team": "YBDK", "w": 16, "d":  4, "l":  2, "f": 53, "a": 18, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1", "promoted": true, "target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}},
+            {"place":  2, "team": "JSCH", "w": 14, "d":  3, "l":  5, "f": 46, "a": 28, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1", "playoff": "league_promotion_playoff"},
+            {"place":  3, "team": "WLTZ", "w": 12, "d":  6, "l":  4, "f": 49, "a": 28, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  4, "team": "KWRM", "w": 12, "d":  2, "l":  8, "f": 35, "a": 27, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  5, "team": "MRTZ", "w": 11, "d":  2, "l":  9, "f": 59, "a": 54, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  6, "team": "HOST", "w":  7, "d":  6, "l":  9, "f": 39, "a": 57, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  7, "team": "JWAS", "w":  7, "d":  4, "l": 11, "f": 46, "a": 48, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  8, "team": "JSKH", "w":  7, "d":  4, "l": 11, "f": 38, "a": 55, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place":  9, "team": "JUNG", "w":  4, "d":  9, "l":  9, "f": 28, "a": 30, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 10, "team": "BRCH", "w":  3, "d": 10, "l":  9, "f": 22, "a": 29, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1", "playoff": "league_relegation_playoff_a"},
+            {"place": 11, "team": "AHOS", "w":  6, "d":  4, "l": 12, "f": 35, "a": 53, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "ASCB", "w":  3, "d":  6, "l": 13, "f": 13, "a": 36, "pts_win": 2, "season": "1976-77", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ASDF","CSHL","CSOB","MLSV","NSCH","RBAS","RPDN","RROD","SPST","STET","UESH","USDD"],
+        "standings": [
+            {"place":  1, "team": "RROD", "w": 14, "d":  6, "l":  2, "f": 55, "a": 20, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2", "promoted": true, "target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}},
+            {"place":  2, "team": "STET", "w": 14, "d":  5, "l":  3, "f": 56, "a": 20, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2", "playoff": "league_promotion_playoff", "promoted": true, "target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}},
+            {"place":  3, "team": "RPDN", "w": 10, "d":  7, "l":  5, "f": 42, "a": 37, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  4, "team": "CSHL", "w":  9, "d":  7, "l":  6, "f": 32, "a": 29, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  5, "team": "USDD", "w":  8, "d":  8, "l":  6, "f": 40, "a": 34, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  6, "team": "CSOB", "w":  7, "d":  7, "l":  8, "f": 42, "a": 40, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  7, "team": "SPST", "w":  9, "d":  2, "l": 11, "f": 38, "a": 46, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  8, "team": "ASDF", "w":  7, "d":  5, "l": 10, "f": 38, "a": 41, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  9, "team": "MLSV", "w":  7, "d":  5, "l": 10, "f": 44, "a": 49, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 10, "team": "UESH", "w":  3, "d": 11, "l":  8, "f": 31, "a": 40, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2","playoff":"league_relegation_playoff_b", "relegated": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}},
+            {"place": 11, "team": "RBAS", "w":  5, "d":  4, "l": 13, "f": 32, "a": 64, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "NSCH", "w":  4, "d":  3, "l": 15, "f": 30, "a": 60, "pts_win": 2, "season": "1976-77", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["YBDK","RROD","STET"],
+        "target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}
+    },
+    "relegation": {
+        "teams": ["AHOS","ASCB","RBAS","NSCH","UESH"],
+        "target": {"season": "1977-78", "level": 4, "name": "2. Division"}
+    },
+    "playoffs": {
+        "league_promotion_playoff": {
+            "teams": ["STET","JSCH","RSMB"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"STET","teamDivision": {"level":3,"series":2,"name":"1. Division Series 2"},"w":1,"d":1,"l":0,"f": 6,"a":1,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}},
+                {"place":2,"team":"RSMB","teamDivision": {"level":2,"name":"Division of Honour"},             "w":0,"d":2,"l":0,"f": 2,"a":2,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_promotion_playoff", "relegated": true, "target": {"season": "1977-78", "level": 3, "name": "1. Division"}},
+                {"place":3,"team":"MANC","teamDivision": {"level":3,"series":1,"name":"1. Division Series 1"},"w":0,"d":1,"l":1,"f": 1,"a":6,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_promotion_playoff"}
+            ]
+        },
+        "league_relegation_playoff_a": {
+            "teams": ["BRCH","ERPL","VICR"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"BRCH","teamDivision": {"level":3,"series":1,"name":"1. Division Series 1"},"w":2,"d":0,"l":0,"f":11,"a":1,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_relegation_playoff_a"},
+                {"place":2,"team":"ERPL","teamDivision": {"level":4,"series":1,"name":"2. Division Series 1"},"w":1,"d":0,"l":1,"f": 1,"a":6,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_relegation_playoff_a"},
+                {"place":3,"team":"VICR","teamDivision": {"level":4,"series":3,"name":"2. Division Series 3"},"w":0,"d":0,"l":2,"f": 1,"a":6,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_relegation_playoff_a"}
+            ]
+        },
+        "league_relegation_playoff_b": {
+            "teams": ["MAMR","EGWM","UESH"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"MAMR","teamDivision": {"level":4,"series":4,"name":"2. Division Series 4"},"w":1,"d":1,"l":0,"f": 6,"a":2,"pts_win":2,"season":"1976-77","level":4,"league":"2. Division","playoff":"league_promotion_playoff_b", "promoted": true, "target": {"season": "1977-78", "level": 3, "name": "1. Division"}},
+                {"place":2,"team":"EGWM","teamDivision": {"level":4,"series":2,"name":"2. Division Series 2"},"w":1,"d":1,"l":0,"f": 7,"a":4,"pts_win":2,"season":"1976-77","level":4,"league":"2. Division","playoff":"league_promotion_playoff_b"},
+                {"place":3,"team":"UESH","teamDivision": {"level":3,"series":2,"name":"1. Division Series 2"},"w":0,"d":0,"l":2,"f": 2,"a":9,"pts_win":2,"season":"1976-77","level":4,"league":"2. Division","playoff":"league_promotion_playoff_b", "relegated": true, "target": {"season": "1977-78", "level": 4, "name": "2. Division"}}
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+        "league_promotion_playoff": {
+            "teams": ["STET","JSCH","RSMB"],
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"STET","teamDivision": {"level":3,"series":2,"name":"1. Division Series 2"},"w":1,"d":1,"l":0,"f": 6,"a":1,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_promotion_playoff", "promoted": true, "target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}},
+                {"place":2,"team":"RSMB","teamDivision": {"level":2,"name":"Division of Honour"},             "w":0,"d":2,"l":0,"f": 2,"a":2,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_promotion_playoff", "relegated": true, "target": {"season": "1977-78", "level": 3, "name": "1. Division"}},
+                {"place":3,"team":"MANC","teamDivision": {"level":3,"series":1,"name":"1. Division Series 1"},"w":0,"d":1,"l":1,"f": 1,"a":6,"pts_win":2,"season":"1976-77","level":3,"league":"1. Division","playoff":"league_promotion_playoff"}
+            ]
+        }
+}
