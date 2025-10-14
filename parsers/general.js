@@ -391,14 +391,6 @@ function getPlayoffName(code) {
 		case "updown_league_multi":
 		case "league_updown":
 			theText = "Promotion play-off"; break;
-		case "league_promotion_playoff_a":
-		case "league_promotion_playoff_b":
-		case "league_promotion_playoff_c":
-		case "league_promotion_playoff_d":
-		case "league_relegation_playoff_a":
-		case "league_relegation_playoff_b":
-		case "league_relegation_playoff_c":
-		case "league_relegation_playoff_d":
 		case "playoff":
 			theText = "Play-off";
 			break;
@@ -413,6 +405,18 @@ function getPlayoffName(code) {
 			break;
 		case "relegation_b":
 			theText = "Relegation Group B";
+			break;
+		case "league_promotion_playoff_a":
+		case "league_promotion_playoff_b":
+		case "league_promotion_playoff_c":
+		case "league_promotion_playoff_d":
+			theText = "Promotion Group";
+			break;
+		case "league_relegation_playoff_a":
+		case "league_relegation_playoff_b":
+		case "league_relegation_playoff_c":
+		case "league_relegation_playoff_d":
+			theText = "Relgation Group";
 			break;
 	}
 	if ( theText === "" ) {
