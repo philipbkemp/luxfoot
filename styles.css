@@ -259,14 +259,20 @@ table.table--standings-history tr > td:first-of-type {
 }
 .is-playoff_relegation > *,
 .is-playoff_downup > *,
-.is-playoff_league_relegation_playoff > * {
+.is-playoff_league_relegation_playoff > *,
+.is-playoff_league_relegation_playoff_a > *,
+.is-playoff_league_relegation_playoff_b > *,
+.is-playoff_league_relegation_playoff_c > *,
+.is-playoff_league_relegation_playoff_d > * {
 	background-color: #ead3d3 !important;
 }
 .is-playoff_promotion > *,
 .is-playoff_updown > *,
 .is-playoff_league_promotion_playoff > *,
 .is-playoff_league_promotion_playoff_a > *,
-.is-playoff_league_promotion_playoff_b > * {
+.is-playoff_league_promotion_playoff_b > *,
+.is-playoff_league_promotion_playoff_c > *,
+.is-playoff_league_promotion_playoff_d > * {
     background-color: #eaf7e9 !important;
 }
 .is-relegated > * {
