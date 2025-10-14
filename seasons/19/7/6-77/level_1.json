@@ -28,10 +28,6 @@
 		"teams": ["ARIS","RBDF"],
 		"target": {"season": "1977-78", "level": 2, "name": "Division of Honour"}
 	},
-    "playoffs": {
-        "relegation": [
-        ]
-    },
 	"matches": [
         {"home":"AVBG","away":"ARIS","score":"1-4","season":"1976-77","competition":{"type":"league","level": 1,"name": "National Division"}},
 		{"home":"AVBG","away":"ADUD","score":"2-1","season":"1976-77","competition":{"type":"league","level": 1,"name": "National Division"}},
