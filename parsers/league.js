@@ -1,4 +1,5 @@
 resultNotes = [];
+poIndex = ["_","a","b","c","d"];
 
 $(document).ready(function(){
 
@@ -504,8 +505,6 @@ function parseLeague(league) {
 				removeKey("playoffs."+po);
 			}
 		});
-
-		poIndex = ["a","b","c","d"];
 
 		["a","b","c","d"].forEach(po=>{
 			poc = "league_relegation_playoff_" + po;
