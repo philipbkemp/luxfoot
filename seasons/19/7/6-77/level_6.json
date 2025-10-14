@@ -10,7 +10,7 @@
 	"pts_win": 2,
     "series": [{
         "series": 1,
-        "name": "Series 1",
+        "name": "S 1",
         "teams" :["AHOS:2","AWDG:2","CBSH:2","CLVX:2","ERPL:2","KPWW:2","MGWW:2","OVND:2","TSVG:2","TWTC:2","YBDK:2"],
         "standings": [
             {"place":  1, "team": "OVND:2", "w": 17, "d": 2, "l":  1, "f": 138, "a":  17, "pts_win": 2, "season": "1976-77", "level": 6, "series": 1, "league": "4. Division Series 1", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -27,7 +27,7 @@
         ]
     },{
         "series": 2,
-        "name": "Series 2",
+        "name": "S 2",
         "teams": ["ASCB:2","ATBS:2","AVBG:2","FOLS:2","JSCH:2","JUSE:2","LARD:2","MRTZ:2","PRTZ:2","RAMB:2","SELL:2","SRED:2"],
         "standings": [
             {"place":  1, "team": "AVBG:2", "w": 21, "d": 0, "l":  1, "f": 162, "a":  11, "pts_win": 2, "season": "1976-77", "level": 6, "series": 2, "league": "4. Division Series 2", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -45,7 +45,7 @@
         ]
     },{
         "series": 3,
-        "name": "Series 3",
+        "name": "S 3",
         "teams": ["ARBD:2","BWMD:2","DARE:2","JBIW:2","JGIL:2","JUNG:2","JWAS:2","LRNZ:2","MARM:2","MINL:2","REIS:2","VICR:2"],
         "standings": [
             {"place":  1, "team": "JUNG:2", "w": 21, "d": 0, "l":  1, "f": 118, "a":  27, "pts_win": 2, "season": "1976-77", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -63,7 +63,7 @@
         ]
     },{
         "series": 4,
-        "name": "Series 4",
+        "name": "S 4",
         "teams": ["CLMC:2","CSOB:2","ESHW:2","HOBS:2","JHTC:2","JSKH:2","KOPS:2","MAMR:2","OYMP:2","SPST:2","UBSH:2","UNAS:2"],
         "standings": [
             {"place":  1, "team": "HOBS:2", "w": 17, "d": 2, "l":  3, "f": 73, "a":  21, "pts_win": 2, "season": "1976-77", "level": 6, "series": 4, "league": "4. Division Series 4", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -81,7 +81,7 @@
         ]
     },{
         "series": 5,
-        "name": "Series 5",
+        "name": "S 5",
         "teams": ["AFLX:2","ASTN:2","BWIT:2","CSHL:2","EGWM:2","HAMM:2","HOST:2","MUNS:2","RBPF:2","SAND:2","WALF:2"],
         "standings": [
             {"place":  1, "team": "CSHL:2", "w": 17, "d": 0, "l":  3, "f": 99, "a":  22, "pts_win": 2, "season": "1976-77", "level": 6, "series": 5, "league": "4. Division Series 5", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -98,7 +98,7 @@
         ]
     },{
         "series": 6,
-        "name": "Series 6",
+        "name": "S 6",
         "teams": ["ASLX:2","BBML:2","JKYL:2","MANC:2","NORZ:2","NSCH:2","RPDN:2","SCBT:2","STET:2","TRIG:2"],
         "standings": [
             {"place":  1, "team": "SCBT:2", "w": 15, "d": 1, "l":  2, "f":  91, "a":  13, "pts_win": 2, "season": "1976-77", "level": 6, "series": 6, "league": "4. Division Series 6", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -114,7 +114,7 @@
         ]
     },{
         "series": 7,
-        "name": "Series 7",
+        "name": "S 7",
         "teams": ["ASCH:2","ASDF:2","BLVL:2","CPET:2","CROD:2","EHLR:2","LUNA:2","MLSV:2","RROD:2","SNEM:2","TLMD:2","UESH:2"],
         "standings": [
             {"place":  1, "team": "CROD:2", "w": 18, "d": 2, "l":  2, "f": 121, "a":  30, "pts_win": 2, "season": "1976-77", "level": 6, "series": 7, "league": "4. Division Series 7", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
@@ -132,7 +132,7 @@
         ]
     },{
         "series": 8,
-        "name": "Series 8",
+        "name": "S 8",
         "teams": ["ADUD:2","AREM:2","BOUS:2","JCNC:2","KWRM:2","LADH:2","MDLB:2","RBAS:2","SWFT:2","USMM:2","VINE:2","YBWT:2"],
         "standings" :[
             {"place":  1, "team": "ADUD:2", "w": 17, "d": 3, "l":  2, "f": 121, "a":  16, "pts_win": 2, "season": "1976-77", "level": 6, "series": 8, "league": "4. Division Series 8", "promoted": true, "target": {"season": "1977-78", "level": 5, "name": "3. Division"}},
