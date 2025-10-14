@@ -900,7 +900,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			removeKey("standings.teamDivision");
 		}
 
-		if ( ! s.missing ) {
+		if ( ! s.missing && ! s.withdrew ) {
 
 			points = (s.w * ptsWin) + s.d;
 			if ( s.carry_forward ) {
@@ -928,13 +928,20 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 				.append( $("<TD></TD>").html(points) )
 				.append( $("<TD></TD>").html(s.f-s.a) )
 				;
-		} else {
+		} else if ( s.missing) {
 			thisRow
 				.append( $("<TD></TD>").html(s.place) )
 				.append( $("<TH></TH>").attr("scope","row").html(teamName) )
 				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").addClass("small").addClass("text-danger").addClass("text-start").html("Missing data") )
 				;
 			removeKey("standings.missing");
+		} else if ( s.withdrew ) {
+			thisRow
+				.append( $("<TD></TD>").html(getTitleCount(s.place,"")) )
+				.append( $("<TH></TH>").attr("scope","row").html(teamName) )
+				.append( $("<TD></TD>").attr("colspan",8).addClass("fst-italic").html("withdrew") )
+				;
+			removeKey("standings.withdrew");
 		}
 		
 		if ( s.champion ) {
@@ -1116,7 +1123,7 @@ function validateLeague(data) {
 	}
 	totalW = totalD = totalL = totalF = totalA = 0;
 	data.standings.forEach(s=>{
-		if ( ! s.missing ) {
+		if ( ! s.missing && ! s.withdrew ) {
 			totalW += s.w;
 			totalD += s.d;
 			totalL += s.l;
