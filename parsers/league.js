@@ -417,6 +417,7 @@ function parseLeague(league) {
 				if ( ! pocTab ) {
 					$("#leagueTabs").append(buildTabButton("po_up","Promotion Play-offs"));
 					poLeaguePromotionPlayoff = buildTabPanel("po_up");
+					poc = true;
 				}
 				poLeaguePromotionPlayoff.append( $("<STRONG</STRONG>").html("Group "+poIndex.indexOf(po)) );
 				poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
