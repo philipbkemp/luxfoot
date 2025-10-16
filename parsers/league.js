@@ -419,7 +419,7 @@ function parseLeague(league) {
 					poLeaguePromotionPlayoff = buildTabPanel("po_up");
 					pocTab = true;
 				}
-				poLeaguePromotionPlayoff.append( $("<STRONG</STRONG>").html("Group "+poIndex.indexOf(po)) );
+				poLeaguePromotionPlayoff.append( $("<STRONG></STRONG>").html("Group "+poIndex.indexOf(po)) );
 				poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
 				if ( league.playoffs[poc].matches ) {
 					league.playoffs[poc].matches.forEach(m=>{
@@ -1052,7 +1052,7 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 					if ( playOffType.indexOf("_promotion_playoff_") !== -1 ) {
 						playOffType = "up";
 					}
-					thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
+					thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+playOffType+"-tab").click();}) );
 					thisRowHasNotes = true;
 					thisRow.addClass("is-playoff_"+s.playoff);
 				}
