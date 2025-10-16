@@ -521,7 +521,7 @@ function parseLeague(league) {
 				if ( ! pocTabDown ) {
 					$("#leagueTabs").append(buildTabButton("po_down","Relegation Play-offs"));
 					poLeagueRelegationPlayoff = buildTabPanel("po_down");
-					pocTabUp = true;
+					pocTabDown = true;
 				}
 				poLeagueRelegationPlayoff.append( $("<STRONG></STRONG>").html("Group "+poIndex.indexOf(po)) );
 				poLeagueRelegationPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
