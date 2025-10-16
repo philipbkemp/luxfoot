@@ -410,11 +410,15 @@ function parseLeague(league) {
 			removeKey("playoffs.league_relegation_playoff");
 		}
 
+		pocTab = null;
 		["a","b","c","d"].forEach(po=>{
 			poc = "league_promotion_playoff_" + po;
 			if ( league.playoffs[poc] ) {
-				$("#leagueTabs").append(buildTabButton("po_"+poc,"Promotion Group ("+poIndex.indexOf(po)+")"));
-				poLeaguePromotionPlayoff = buildTabPanel("po_"+poc);
+				if ( ! pocTab ) {
+					$("#leagueTabs").append(buildTabButton("po_up","Promotion Play-offs"));
+					poLeaguePromotionPlayoff = buildTabPanel("po_up");
+				}
+				poLeaguePromotionPlayoff.append( $("<STRONG</STRONG>").html("Group "+poIndex.indexOf(po)) );
 				poLeaguePromotionPlayoffMatches = $("<DIV></DIV>").addClass("list-group").addClass("mb-4");
 				if ( league.playoffs[poc].matches ) {
 					league.playoffs[poc].matches.forEach(m=>{
@@ -1041,6 +1045,10 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 			theText = getPlayoffName(s.playoff);
 			if ( theText !== "" ) {
 				if ( ! isPlayoffTable ) {
+					playOffType = s.playoff;
+					if ( playOffType.indexOf("_promotion_playoff_") !== -1 ) {
+						playOffType = "up";
+					}
 					thisRowNotes.append( $("<SPAN></SPAN>").addClass(thisRowHasNotes?'ms-3':'ms-0').addClass("faux-link").html(theText).on("click",function(){$("#po_"+s.playoff+"-tab").click();}) );
 					thisRowHasNotes = true;
 					thisRow.addClass("is-playoff_"+s.playoff);
