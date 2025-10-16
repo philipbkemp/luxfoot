@@ -435,10 +435,12 @@ function parseLeague(league) {
 						,true
 					)
 				);
-				$("#leagueTabContent").append(poLeaguePromotionPlayoff);
 				removeKey("playoffs."+poc);
 			}
 		});
+		if ( pocTab ) {
+			$("#leagueTabContent").append(poLeaguePromotionPlayoff);
+		}
 
 		if ( league.playoffs.playoff ) {
 			$("#leagueTabs").append(buildTabButton("po_playoff","Playoffs"));
