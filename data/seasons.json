@@ -1107,7 +1107,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1969-70", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 6, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1969-70", "name": "Luxembourg Cup", "winner": "ULUX", "title_count": 6, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"season":"1969-70","name":"European Cup","teams":["AVBG"]},
