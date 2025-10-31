@@ -1136,7 +1136,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true,"season": "1970-71", "name": "Luxembourg Cup", "winner": "JHTC", "title_count": 1, "winner_division": {"level": 3,"name": "1. Division"}}
+			"cup_luxembourg": {"season": "1970-71", "name": "Luxembourg Cup", "winner": "JHTC", "title_count": 1, "winner_division": {"level": 3,"name": "1. Division"}}
 		},
 		"europe": {
 			"champions_league": {"season":"1970-71","name":"European Cup","teams":["JESH"]},
