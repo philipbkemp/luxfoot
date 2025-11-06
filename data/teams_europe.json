@@ -95,6 +95,7 @@
     },
     "ITA": {
         "_country": "Italy",
+        "JUVE": {"id": "Juventus_FC", "name":"Juventus"},
         "MILN": {"id": "AC_Milan", "name": "Milan"},
         "SAMP": {"id": "UC_Sampdoria", "name": "Sampdoria"}
     },

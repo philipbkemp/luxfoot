@@ -18,5 +18,24 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "Inter-Cities Fairs Cup",
+		"season": "1970-71",
+		"links": {
+			"next": "1971-72",
+			"prev": "1969-70"
+		},
+		"teams": ["URUM"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"URUM": [
+					{"isEurope":true,"date":"1970-09-16","leg":1,"home":"ITA:JUVE","away":"URUM","score":"7-0","season":"1970-71","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1970-09-30","leg":2,"home":"URUM","away":"ITA:JUVE","score":"0-4","season":"1970-71","competition":{"type":"europe","cup":"europa_league","name":"Inter-Cities Fairs Cup","round":"First round","leg":2},"agg":{"score":"0-11","outcome":"L","team":"URUM"}}
+				]
+			}
+		}]
 	}
 }
