@@ -1141,7 +1141,7 @@
 		"europe": {
 			"champions_league": {"season":"1970-71","name":"European Cup","teams":["JESH"]},
 			"europa_league": {"season":"1970-71","name":"Inter-Cities Fairs Cup","teams":["URUM"]},
-			"cup_winners_cup": {"missing":true,"season":"1970-71","name":"Cup Winners' Cup","teams":["ULUX"]}
+			"cup_winners_cup": {"season":"1970-71","name":"Cup Winners' Cup","teams":["ULUX"]}
 		}
 	},{
 		"season": "1971-72",
