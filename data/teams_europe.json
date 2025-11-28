@@ -120,6 +120,10 @@
         "CLRN": {"id": "Coleraine_F.C.", "name":"Coleraine"},
         "LINF": {"id": "Linfield_F.C.", "name": "Linfield"}
     },
+    "NLD": {
+        "_country": "Netherlands",
+        "HAAG": {"id": "ADO_Den_Haag", "name": "ADO Den Haag"}
+    },
     "POL": {
         "_country": "Poland",
         "LODZ": {"id":"ŁKS_Łódź", "name": "ŁKS Łódź"}

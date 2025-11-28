@@ -4,6 +4,7 @@ compName = window.location.href.split("/").pop().split("#")[0].replace(season+"_
 season = season.replace("%E2%80%93","-");
 switch (compName) {
     case "Inter-Cities Fairs Cup":
+    case "UEFA Cup":
         compCode = "europa_league";
         break;
     case "European Cup Winners%27 Cup":

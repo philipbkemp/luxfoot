@@ -1168,7 +1168,7 @@
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1971-72","teams":["ULUX"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1971-72","teams":["ARIS"]},
+			"europa_league": {"name":"UEFA Cup",			"season":"1971-72","teams":["ARIS"]},
 			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1971-72","teams":["JHTC"]}
 		}
 	},{

@@ -18,5 +18,24 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "UEFA Cup",
+		"season": "1971-72",
+		"links": {
+			"next": "1972-73",
+			"prev": "1970-71"
+		},
+		"teams": ["ARIS"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"ARIS": [
+					{"isEurope":true,"date":"1971-09-14","leg":1,"home":"NLD:HAAG","away":"ARIS","score":"5-0","season":"1971-72","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1971-09-28","leg":2,"home":"ARIS","away":"NLD:HAAG","score":"2-2","season":"1971-72","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"2-7","outcome":"L","team":"ARIS"}}
+				]
+			}
+		}]
 	}
 }
