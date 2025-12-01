@@ -36,6 +36,7 @@
     },
     "ENG": {
         "_country": "England",
+        "CHLS": {"id":"Chelsea_F.C.","name":"Chelsea"},
         "LEED": {"id": "Leeds_United_F.C.", "name":"Leeds United"},
         "LVPL": {"id": "Liverpool_F.C.", "name": "Liverpool"}
     },

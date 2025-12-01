@@ -37,5 +37,24 @@
 				]
 			}
 		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1971-72",
+		"links": {
+			"next": "1972-73",
+			"prev": "1970-71"
+		},
+		"teams": ["JHTC"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"JHTC": [
+					{"isEurope":true,"date":"1971-09-15","leg":1,"home":"JHTC","away":"ENG:CHLS","score":"0-8","season":"1971-72","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1971-09-29","leg":2,"home":"ENG:CHLS","away":"JHTC","score":"13-0","season":"1971-72","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"0-21","outcome":"L","team":"JHTC"}}
+				]
+			}
+		}]
 	}
 }
