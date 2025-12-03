@@ -101,17 +101,19 @@ function drawMatch(match,highlightWinner=false) {
 		}
 	}
 	if ( match.leg && match.leg === 2 && match.winner ) {
-		winner = match.winner == match.home ? "home" : "away";
+		winner = match.winner === match.home ? "home" : "away";
 		removeKey("match.winner");
 	} else if ( match.winner && match.score === "" ) {
-		winner = match.winner == match.home ? "home" : "away";
+		winner = match.winner === match.home ? "home" : "away";
 		removeKey("match.winner");
 	} else if ( match.declared && match.winner ) {
-		winner = match.winner == match.home ? "home" : "away";
+		winner = match.winner === match.home ? "home" : "away";
 		removeKey("match.winner");
 		removeKey("match.declared");
 	} else if ( match.leg && match.leg === 1 ) {
 		winner = "";
+	} else if ( match.leg && match.leg === 2 && match.agg && match.agg.outcome === "W" ) {
+		winner = match.agg.team === match.home ? "home": "away";
 	}
 
 	matchHome = $("<DIV></DIV>").addClass("col-3").addClass("text-end").addClass("club-home");
