@@ -1193,7 +1193,7 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1972-73", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 5, "double": true, "winner_division": {"level": 1,"name": "National Division"}}
+			"cup_luxembourg": {"season": "1972-73", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 5, "double": true, "winner_division": {"level": 1,"name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1972-73","teams":["ARIS"]},
