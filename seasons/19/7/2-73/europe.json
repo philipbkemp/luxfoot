@@ -37,5 +37,24 @@
 				]
 			}
 		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1972-73",
+		"links": {
+			"next": "1973-74",
+			"prev": "1971-72"
+		},
+		"teams": ["RBDF"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"RBDF": [
+					{"isEurope":true,"date":"1972-09-06","leg":1,"home":"RBDF","away":"ITA:MILN","score":"1-4","season":"1972-73","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1972-09-27","leg":2,"home":"ITA:MILN","away":"RBDF","score":"3-0","season":"1972-73","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"1-7","outcome":"L","team":"RBDF"}}
+				]
+			}
+		}]
 	}
 }

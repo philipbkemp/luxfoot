@@ -1198,7 +1198,7 @@
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1972-73","teams":["ARIS"]},
 			"europa_league": {"name":"UEFA Cup",			"season":"1972-73","teams":["URUM"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1972-73","teams":["RBDF"]}
+			"cup_winners_cup": {"name":"Cup Winners' Cup","season":"1972-73","teams":["RBDF"]}
 		}
 	},{
 		"season": "1973-74",
