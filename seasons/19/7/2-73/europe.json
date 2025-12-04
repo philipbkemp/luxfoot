@@ -19,4 +19,23 @@
 			}
 		}]
 	}
+	,"europa_league": {
+		"name": "UEFA Cup",
+		"season": "1972-73",
+		"links": {
+			"next": "1973-74",
+			"prev": "1971-72"
+		},
+		"teams": ["URUM"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"URUM": [
+					{"isEurope":true,"date":"1972-09-13","leg":1,"home":"NLD:FNRD","away":"URUM","score":"9-0", "season":"1972-73","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1972-09-27","leg":2,"home":"URUM","away":"NLD:FNRD","score":"0-12","season":"1972-73","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"0-21","outcome":"L","team":"URUM"}}
+				]
+			}
+		}]
+	}
 }

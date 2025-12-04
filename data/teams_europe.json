@@ -123,6 +123,7 @@
     },
     "NLD": {
         "_country": "Netherlands",
+        "FNRD": {"id":"Feyenoord","name":"Feyenoord"},
         "HAAG": {"id": "ADO_Den_Haag", "name": "ADO Den Haag"}
     },
     "POL": {
