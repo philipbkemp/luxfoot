@@ -18,5 +18,43 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "UEFA Cup",
+		"season": "1973-74",
+		"links": {
+			"next": "1974-75",
+			"prev": "1972-73"
+		},
+		"teams": ["ULUX"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"ULUX": [
+					{"isEurope":true,"date":"1973-09-18","leg":1,"home":"ULUX","away":"FRA:MARS","score":"0-5","season":"1973-74","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1973-10-03","leg":2,"home":"FRA:MARS","away":"ULUX","score":"7-1","season":"1973-74","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"1-12","outcome":"L","team":"ULUX"}}
+				]
+			}
+		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1973-74",
+		"links": {
+			"next": "1974-75",
+			"prev": "1972-73"
+		},
+		"teams": ["FOLA"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"FOLA": [
+					{"isEurope":true,"date":"1973-09-13","leg":1,"home":"BGR:BROE","away":"FOLA","score":"7-0","season":"1973-74","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1973-09-22","leg":2,"home":"FOLA","away":"BGR:BROE","score":"1-4","season":"1973-74","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"1-11","outcome":"L","team":"FOLA"}}
+				]
+			}
+		}]
 	}
 }

@@ -1222,12 +1222,12 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1973-74", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 6,"winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"season": "1973-74", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 6,"winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1973-74","teams":["JESH"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1973-74","teams":["ULUX"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1973-74","teams":["FOLA"]}
+			"europa_league": {"name":"UEFA Cup",			"season":"1973-74","teams":["ULUX"]},
+			"cup_winners_cup": {"name":"Cup Winners' Cup","season":"1973-74","teams":["FOLA"]}
 		}
 	},{
 		"season": "1974-75",

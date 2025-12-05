@@ -25,6 +25,10 @@
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"},
         "LIEG": {"id": "RFC_Liège", "name":"RFC Liège"}
     },
+    "BGR": {
+        "_country": "Bulgaria",
+        "BROE": {"id":"PFC_Beroe_Stara_Zagora","name":"PFC Beroe Stara Zagora"}
+    },
     "CYP": {
         "_country": "Cyprus",
         "OMON": {"id": "AC_Omonia","name":"Omonia"}
@@ -60,6 +64,7 @@
         "_country": "France",
         "LENS": {"id": "RC_Lens", "name": "Lens"},
         "LYON": {"id": "Olympique Lyonnais", "name": "Lyon"},
+        "MARS": {"id":"Olympique de Marseille","name":"Marseille"},
         "REIM": {"id" :"Stade de Reims", "name": "Reims"}
     },
     "FRO": {
