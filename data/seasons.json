@@ -1251,12 +1251,12 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1974-75", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"season": "1974-75", "name": "Luxembourg Cup", "winner": "URUM", "title_count": 2, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1974-75","teams":["JESH"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1974-75","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1974-75","teams":["AVBG"]}
+			"europa_league": {"name":"UEFA Cup",			"season":"1974-75","teams":["RBDF"]},
+			"cup_winners_cup": {"name":"Cup Winners' Cup","season":"1974-75","teams":["AVBG"]}
 		}
 	},{
 		"season": "1975-76",

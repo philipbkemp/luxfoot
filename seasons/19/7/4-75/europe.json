@@ -18,5 +18,51 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "UEFA Cup",
+		"season": "1974-75",
+		"links": {
+			"next": "1975-76",
+			"prev": "1973-74"
+		},
+		"teams": ["RBDF"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"RBDF": [
+					{"isEurope":true,"date":"1974-09-17","leg":1,"home":"FRA:LYON","away":"RBDF","score":"7-0","season":"1974-75","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1974-10-02","leg":2,"home":"RBDF","away":"FRA:LYON","score":"1-4","season":"1974-75","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"1-11","outcome":"L","team":"RBDF"}}
+				]
+			}
+		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1974-75",
+		"links": {
+			"next": "1975-76",
+			"prev": "1973-74"
+		},
+		"teams": ["AVBG"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"AVBG": [
+					{"isEurope":true,"date":"","leg":2,"home":"AVBG","away":"CYP:NEON","score":"-","season":"1974-75","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"outcome":"WOL","team":"AVBG"}}
+				]
+			}
+		},{
+			"key": "R2",
+			"name": "Second round",
+			"matches": {
+				"AVBG": [
+					{"isEurope":true,"date":"1974-10-22","leg":1,"home":"AVBG","away":"YUG:REDS","score":"1-6","season":"1974-75","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"Second round","leg":1}},
+					{"isEurope":true,"date":"1974-11-06","leg":2,"home":"YUG:REDS","away":"AVBG","score":"5-1","season":"1974-75","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"Second round","leg":2},"agg":{"score":"2-11","outcome":"L","team":"AVBG"}}
+				]
+			}
+		}]
 	}
 }
