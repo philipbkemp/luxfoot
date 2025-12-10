@@ -51,7 +51,7 @@
 			"name": "First round",
 			"matches": {
 				"AVBG": [
-					{"isEurope":true,"date":"","leg":2,"home":"AVBG","away":"CYP:NEON","score":"-","season":"1974-75","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"outcome":"WOL","team":"AVBG"}}
+					{"isEurope":true,"leg":2,"home":"AVBG","away":"CYP:NEON","score":"-","season":"1974-75","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"outcome":"WOL","team":"AVBG"}}
 				]
 			}
 		},{
