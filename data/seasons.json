@@ -1280,11 +1280,11 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1975-76", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"season": "1975-76", "name": "Luxembourg Cup", "winner": "JESH", "title_count": 7, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1975-76","teams":["JESH"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1975-76","teams":["AVBG"]},
+			"europa_league": {"name":"UEFA Cup",			"season":"1975-76","teams":["AVBG"]},
 			"cup_winners_cup": {"name":"Cup Winners' Cup",				"season":"1975-76","teams":["URUM"]}
 		}
 	},{

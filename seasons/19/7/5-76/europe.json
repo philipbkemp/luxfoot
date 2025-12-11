@@ -19,6 +19,25 @@
 			}
 		}]
 	},
+    "europa_league": {
+		"name": "UEFA Cup",
+		"season": "1975-76",
+		"links": {
+			"next": "1976-77",
+			"prev": "1974-75"
+		},
+		"teams": ["AVBG"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"AVBG": [
+					{"isEurope":true,"date":"1975-09-17","leg":1,"home":"PRT:PRTO","away":"AVBG","score":"7-0","season":"1975-76","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1975-10-01","leg":2,"home":"AVBG","away":"PRT:PRTO","score":"0-3","season":"1975-76","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"0-10","outcome":"L","team":"AVBG"}}
+				]
+			}
+		}]
+	},
     "cup_winners_cup": {
         "name": "Cup Winners' Cup",
         "season": "1975-76",

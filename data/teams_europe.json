@@ -138,7 +138,8 @@
     },
     "PRT": {
         "_country": "Portugal",
-        "BENF": {"id": "S.L._Benfica", "name": "Benfica"}
+        "BENF": {"id": "S.L._Benfica", "name": "Benfica"},
+        "PRTO": {"id":"FC_Porto","name":"Porto"}
     },
     "ROU": {
         "_country": "Romania",
