@@ -1320,12 +1320,12 @@
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1976-77", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
+			"cup_luxembourg": {"season": "1976-77", "name": "Luxembourg Cup", "winner": "PRON", "title_count": 3, "winner_division": { "level": 1, "name": "National Division"}}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1976-77","teams":["JESH"]},
-			"europa_league": {"missing":true,"name":"UEFA Cup",			"season":"1976-77","teams":["RBDF"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1976-77","teams":["ARIS"]}
+			"europa_league": {"name":"UEFA Cup",			"season":"1976-77","teams":["RBDF"]},
+			"cup_winners_cup": {"name":"Cup Winners' Cup","season":"1976-77","teams":["ARIS"]}
 		}
 	},{
 		"season": "1977-78",

@@ -18,5 +18,43 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "UEFA Cup",
+		"season": "1976-77",
+		"links": {
+			"next": "1977-78",
+			"prev": "1975-76"
+		},
+		"teams": ["RBDF"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"RBDF": [
+					{"isEurope":true,"date":"1976-09-15","leg":1,"home":"RBDF","away":"BEL:LKRN","score":"0-3","season":"1976-77","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1976-09-29","leg":2,"home":"BEL:LKRN","away":"RBDF","score":"3-1","season":"1976-77","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"1-6","outcome":"L","team":"RBDF"}}
+				]
+			}
+		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1976-77",
+		"links": {
+			"next": "1977-78",
+			"prev": "1975-76"
+		},
+		"teams": ["ARIS"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"ARIS": [
+					{"isEurope":true,"date":"1976-09-15","leg":1,"home":"NIR:CRCK","away":"ARIS","score":"3-1","season":"1976-77","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1976-10-06","leg":2,"home":"ARIS","away":"NIR:CRCK","score":"2-1","season":"1976-77","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"3-4","outcome":"L","team":"ARIS"}}
+				]
+			}
+		}]
 	}
 }

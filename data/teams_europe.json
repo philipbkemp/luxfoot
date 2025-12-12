@@ -23,7 +23,8 @@
         "_country": "Belgium",
         "ANTW": {"id": "Royal_Antwerp_F.C.", "name": "Royal Antwerp"},
         "GENT": {"id": "K.A.A._Gent", "name": "Gent"},
-        "LIEG": {"id": "RFC_Liège", "name":"RFC Liège"}
+        "LIEG": {"id": "RFC_Liège", "name":"RFC Liège"},
+        "LKRN": {"id":"K.S.C._Lokeren_Oost-Vlaanderen","name":"Lokeren"}
     },
     "BGR": {
         "_country": "Bulgaria",
@@ -125,6 +126,7 @@
     "NIR": {
         "_country": "Northern Ireland",
         "CLRN": {"id": "Coleraine_F.C.", "name":"Coleraine"},
+        "CRCK": {"id": "Carrick_Rangers_F.C.", "name":"Carrick Rangers"},
         "LINF": {"id": "Linfield_F.C.", "name": "Linfield"}
     },
     "NLD": {
