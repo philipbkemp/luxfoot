@@ -18,5 +18,43 @@
 				]
 			}
 		}]
+	},
+	"europa_league": {
+		"name": "UEFA Cup",
+		"season": "1977-78",
+		"links": {
+			"next": "1978-79",
+			"prev": "1976-77"
+		},
+		"teams": ["RBDF"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"RBDF": [
+					{"isEurope":true,"date":"1977-09-14","leg":1,"home":"NLD:ALKM","away":"RBDF","score":"11-1","season":"1977-78","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1977-09-27","leg":2,"home":"RBDF","away":"NLD:ALKM","score":"0-5","season":"1977-78","competition":{"type":"europe","cup":"europa_league","name":"UEFA Cup","round":"First round","leg":2},"agg":{"score":"1-16","outcome":"L","team":"RBDF"}}
+				]
+			}
+		}]
+	},
+	"cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1977-78",
+		"links": {
+			"next": "1978-79",
+			"prev": "1976-77"
+		},
+		"teams": ["PRON"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"PRON": [
+					{"isEurope":true,"date":"1977-09-14","leg":1,"home":"PRON","away":"DNK:VJBK","score":"0-1","season":"1977-78","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1977-09-28","leg":2,"home":"DNK:VJBK","away":"PRON","score":"0-9","season":"1977-78","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"0-10","outcome":"L","team":"PRON"}}
+				]
+			}
+		}]
 	}
 }

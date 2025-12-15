@@ -1,0 +1,37 @@
+{
+    "level": 2,
+	"season": "1977-78",
+    "links": {
+        "next": "1978-79",
+        "prev": "1976-77",
+        "up": 1,
+        "down": 3
+    },
+	"name": "Division of Honour",
+	"teams": ["ARIS","BBML","BWMD","DARE","FOLA","JHTC","MDLB","OVND","RBPF","RROD","STET","YBDK"],
+	"pts_win": 2,
+	"standings": [
+        {"place":  1, "team": "ARIS", "w": 17, "d": 2, "l":  3, "f": 58, "a": 19, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1978-79", "level": 1, "name": "National Division"}},
+		{"place":  2, "team": "YBDK", "w": 11, "d": 5, "l":  6, "f": 41, "a": 32, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour", "promoted": true, "target": {"season": "1978-79", "level": 1, "name": "National Division"}},
+		{"place":  3, "team": "RROD", "w": 12, "d": 2, "l":  8, "f": 39, "a": 27, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place":  4, "team": "FOLA", "w":  9, "d": 5, "l":  8, "f": 36, "a": 31, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place":  5, "team": "BBML", "w":  8, "d": 7, "l":  7, "f": 34, "a": 37, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place":  6, "team": "STET", "w":  7, "d": 8, "l":  7, "f": 30, "a": 26, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place":  7, "team": "DARE", "w":  8, "d": 5, "l":  9, "f": 35, "a": 36, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place":  8, "team": "MDLB", "w":  6, "d": 7, "l":  9, "f": 51, "a": 56, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place":  9, "team": "JHTC", "w":  8, "d": 2, "l": 12, "f": 39, "a": 53, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour"},
+		{"place": 10, "team": "BWMD", "w":  7, "d": 4, "l": 11, "f": 32, "a": 56, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1978-79", "level": 3, "name": "1. Division"}},
+		{"place": 11, "team": "RBPF", "w":  6, "d": 5, "l": 11, "f": 36, "a": 45, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1978-79", "level": 3, "name": "1. Division"}},
+		{"place": 12, "team": "OVND", "w":  6, "d": 2, "l": 14, "f": 25, "a": 38, "pts_win": 2, "season": "1977-78", "level": 2, "league": "Division of Honour", "relegated": true, "target": {"season": "1978-79", "level": 3, "name": "1. Division"}}
+    ],
+	"promotion": {
+		"teams": ["ARIS","YBDK"],
+		"target": {"season": "1978-79", "level": 1, "name": "National Division"}
+	},
+	"relegation": {
+		"teams": ["RBPF","OVND"],
+		"target": {"season": "1978-79", "level": 3, "name": "1. Division"}
+	},
+    "playoffs": {
+    }
+}

@@ -23,21 +23,37 @@
             {"place":  7, "team": "JSCH", "w":  8, "d": 3, "l": 11, "f": 47, "a": 50, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1"},
             {"place":  8, "team": "UFLN", "w":  6, "d": 7, "l":  9, "f": 30, "a": 51, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1"},
             {"place":  9, "team": "KWRM", "w":  5, "d": 8, "l":  9, "f": 31, "a": 40, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1"},
-            {"place": 10, "team": "UMRT", "w":  6, "d": 5, "l": 11, "f": 40, "a": 56, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1"},
+            {"place": 10, "team": "UMRT", "w":  6, "d": 5, "l": 11, "f": 40, "a": 56, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1978-79", "level": 4, "name": "2. Division"}},
             {"place": 11, "team": "KHLN", "w":  5, "d": 2, "l": 15, "f": 41, "a": 62, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1978-79", "level": 4, "name": "2. Division"}},
             {"place": 12, "team": "HOST", "w":  1, "d": 5, "l": 16, "f": 33, "a": 65, "pts_win": 2, "season": "1977-78", "level": 3, "series": 1, "league": "1. Division Series 1", "relegated": true, "target": {"season": "1978-79", "level": 4, "name": "2. Division"}}
-        ],
-        "promoted": {
-            "teams": ["SWFT"],
-            "target": {"season": "1978-79", "level": 2, "name": "Division of Honour"}
-        },
-        "relegated": {
-            "teams": ["KHLN","HOST"],
-            "target": {"season": "1978-79", "level": 4, "name": "2. Division"}
-        }
+        ]
     },{
         "series": 2,
         "name": "Series 2",
-        "missing" :true
-    }]
+        "teams": ["ASDF","CPET","CSHL","CSOB","JSKH","MAMR","MLSV","RPDN","RSMB","SCBT","SPST","USDD"],
+        "standings": [
+            {"place":  1, "team": "USDD", "w": 14, "d": 5, "l":  3, "f": 53, "a": 21, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2", "promoted": true, "target": {"season": "1978-79", "level": 2, "name": "Division of Honour"}},
+            {"place":  2, "team": "ASDF", "w": 13, "d": 4, "l":  5, "f": 55, "a": 25, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2", "promoted": true, "target": {"season": "1978-79", "level": 2, "name": "Division of Honour"}},
+            {"place":  3, "team": "RSMB", "w": 10, "d": 5, "l":  7, "f": 42, "a": 31, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  4, "team": "RPDN", "w": 10, "d": 5, "l":  7, "f": 41, "a": 41, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  5, "team": "MAMR", "w":  9, "d": 6, "l":  7, "f": 32, "a": 35, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  6, "team": "CSHL", "w": 10, "d": 2, "l": 10, "f": 44, "a": 49, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  7, "team": "MLSV", "w":  8, "d": 5, "l":  9, "f": 32, "a": 35, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  8, "team": "CPET", "w":  6, "d": 9, "l":  7, "f": 28, "a": 31, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place":  9, "team": "JSKH", "w":  8, "d": 5, "l":  9, "f": 32, "a": 41, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 10, "team": "CSOB", "w":  7, "d": 3, "l": 12, "f": 38, "a": 43, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2"},
+            {"place": 11, "team": "SPST", "w":  4, "d": 5, "l": 13, "f": 32, "a": 55, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1978-79", "level": 4, "name": "2. Division"}},
+            {"place": 12, "team": "SCBT", "w":  3, "d": 6, "l": 13, "f": 20, "a": 42, "pts_win": 2, "season": "1977-78", "level": 3, "series": 2, "league": "1. Division Series 2", "relegated": true, "target": {"season": "1978-79", "level": 4, "name": "2. Division"}}
+        ]
+    }],
+    "promotion": {
+        "teams": ["SWFT","USDD"],
+        "target": {"season": "1978-79", "level": 2, "name": "Division of Honour"}
+    },
+    "relegation": {
+        "teams": ["KHLN","HOST","SPST","SCBT","UMRT"],
+        "target": {"season": "1978-79", "level": 4, "name": "2. Division"}
+    },
+    "playoffs": {
+    }
 }

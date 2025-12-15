@@ -38,7 +38,8 @@
     "DNK": {
         "_country": "Denmark",
         "BK09": {"id": "Boldklubben_1909", "name": "B1909" },
-        "BK13": {"id": "Boldklubben_1913", "name": "Boldklubben 1913"}
+        "BK13": {"id": "Boldklubben_1913", "name": "Boldklubben 1913"},
+        "VJBK": {"id": "Vejle_Boldklub", "name": "VB"}
     },
     "ENG": {
         "_country": "England",
@@ -131,6 +132,7 @@
     },
     "NLD": {
         "_country": "Netherlands",
+        "ALKM": {"id": "AZ_Alkmaar", "name": "AZ Alkmaar"},
         "FNRD": {"id":"Feyenoord","name":"Feyenoord"},
         "HAAG": {"id": "ADO_Den_Haag", "name": "ADO Den Haag"}
     },

@@ -106,10 +106,12 @@ function pullResults(tbl) {
         if ( ! allTeams[checkTeamName] ) {
             allTeams[checkTeamName] = prompt("Unknown team",checkTeamName);
         }
-        if ( ! theTeam.endsWith(" II") ) {
+        if ( ! theTeam.endsWith(" II") && ! theTeam.endsWith(" III") ) {
             teams.push( allTeams[checkTeamName] );
-        } else {
+        } else if ( theTeam.endsWith(" II") ) {
             teams.push( allTeams[checkTeamName] + ":2" );
+        } else if ( theTeam.endsWith(" III") ) {
+            teams.push( allTeams[checkTeamName] + ":3" );
         }
     }
 

@@ -5,7 +5,8 @@
         {"season":"2011-12","cup":"cup_flf","name":"Coupe FLF","title_count":1}
     ],
     "standings": [
-	    {"place":  8, "team": "BLVL", "w":  9, "d": 5, "l": 10, "f": 37, "a": 34, "pts_win": 2, "season": "1976-77", "level": 4, "series": 4, "league": "2. Division Series 4"},
+	    {"place":  7, "team": "BLVL", "w":  8, "d": 4, "l": 10, "f": 41, "a": 37, "pts_win": 2, "season": "1977-78", "level": 4, "series": 4, "league": "2. Division Series 4"},
+        {"place":  8, "team": "BLVL", "w":  9, "d": 5, "l": 10, "f": 37, "a": 34, "pts_win": 2, "season": "1976-77", "level": 4, "series": 4, "league": "2. Division Series 4"},
         {"place": 11, "team": "BLVL", "w":  7, "d": 4, "l": 11, "f": 40, "a": 44, "pts_win": 2, "season": "1975-76", "level": 4, "series": 2, "league": "2. Division Series 2"},
         {"place":  4, "team": "BLVL", "w": 12, "d": 4, "l":  6, "f": 45, "a": 37, "pts_win": 2, "season": "1974-75", "level": 4, "series": 2, "league": "2. Division Series 2"},
         {"place":  6, "team": "BLVL", "w":  9, "d": 3, "l": 10, "f": 40, "a": 45, "pts_win": 2, "season": "1973-74", "level": 4, "series": 2, "league": "2. Division Series 2"},

@@ -1,0 +1,166 @@
+{
+    "level": 6,
+	"season": "1977-78",
+    "links": {
+        "next": "1978-79",
+        "prev": "1976-77",
+        "up": 5
+    },
+	"name": "4. Division",
+	"pts_win": 2,
+    "series": [{
+        "series": 1,
+        "name": "Series 1",
+        "teams": ["AHOS:2","CBSH:2","CLVX:2","ERPL:2","GBHT:2","KPWW:2","MGWW:2","RHDS","TSVG:2","UEDF","UFLN:2","WINC:2"],
+        "standings": [
+            {"place":  1, "team": "RHDS",   "w": 19, "d": 3, "l":  0, "f": 107, "a": 18, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "CLVX:2", "w": 13, "d": 3, "l":  6, "f":  65, "a": 42, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  3, "team": "MGWW:2", "w": 13, "d": 2, "l":  7, "f": 107, "a": 36, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  4, "team": "UFLN:2", "w": 12, "d": 4, "l":  6, "f":  76, "a": 42, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  5, "team": "KPWW:2", "w": 11, "d": 3, "l":  8, "f":  53, "a": 64, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  6, "team": "ERPL:2", "w": 11, "d": 1, "l": 10, "f":  58, "a": 66, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  7, "team": "UEDF",   "w": 10, "d": 2, "l": 10, "f":  54, "a": 49, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  8, "team": "AHOS:2", "w":  9, "d": 1, "l": 12, "f":  63, "a": 76, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place":  9, "team": "TSVG:2", "w":  7, "d": 4, "l": 11, "f":  32, "a": 71, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 10, "team": "GBHT:2", "w":  7, "d": 1, "l": 14, "f":  48, "a": 87, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 11, "team": "CBSH:2", "w":  3, "d": 2, "l": 17, "f":  33, "a": 88, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"},
+            {"place": 12, "team": "WINC:2", "w":  3, "d": 2, "l": 17, "f":  20, "a": 77, "pts_win": 2, "season": "1977-78", "level": 6, "series": 1, "league": "4. Division Series 1"}
+        ]
+    },{
+        "series": 2,
+        "name": "Series 2",
+        "teams": ["ATBS:2","EXGV","FOLS:2","JSCH:2","JUSE:2","LARD:2","MRTZ:2","PRTZ:2","RAMB:2","SBCK","SELL:2","SRED:2"],
+        "standings": [
+            {"place":  1, "team": "JSCH:2", "w": 20, "d": 1, "l":  1, "f": 159, "a":  24, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "MRTZ:2", "w": 18, "d": 1, "l":  3, "f":  93, "a":  30, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  3, "team": "ATBS:2", "w": 13, "d": 4, "l":  5, "f":  94, "a":  39, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  4, "team": "EXGV",   "w": 12, "d": 5, "l":  5, "f":  57, "a":  26, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  5, "team": "SBCK",   "w": 11, "d": 2, "l":  9, "f":  68, "a":  44, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  6, "team": "SRED:2", "w": 10, "d": 4, "l":  8, "f":  61, "a":  48, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  7, "team": "SELL:2", "w":  9, "d": 2, "l": 11, "f":  55, "a":  66, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  8, "team": "JUSE:2", "w":  9, "d": 1, "l": 12, "f":  47, "a":  60, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place":  9, "team": "PRTZ:2", "w":  7, "d": 1, "l": 14, "f":  51, "a":  98, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 10, "team": "RAMB:2", "w":  6, "d": 1, "l": 15, "f":  51, "a":  87, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 11, "team": "FOLS:2", "w":  5, "d": 2, "l": 15, "f":  37, "a": 115, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"},
+            {"place": 12, "team": "LARD:2", "w":  0, "d": 0, "l": 22, "f":   3, "a": 139, "pts_win": 2, "season": "1977-78", "level": 6, "series": 2, "league": "4. Division Series 2"}
+        ]
+    },{
+        "series": 3,
+        "name": "Series 3",
+        "teams": ["AFLX:2","ALCR","ARBD:2","BWMD:2","DARE:2","JBIW:2","JGIL:2","JWAS:2","OBCN:2","REIS:2","RUPL:2","SAND:2","VICR:2"],
+        "standings": [
+            {"place":  1, "team": "JWAS:2", "w": 17, "d": 3, "l":  2, "f":  95, "a":  20, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "VICR:2", "w": 16, "d": 1, "l":  5, "f":  99, "a":  28, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  3, "team": "DARE:2", "w": 15, "d": 1, "l":  6, "f": 102, "a":  39, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  4, "team": "BWMD:2", "w": 14, "d": 3, "l":  5, "f":  72, "a":  37, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  5, "team": "SAND:2", "w": 12, "d": 2, "l":  8, "f":  89, "a":  36, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  6, "team": "JBIW:2", "w": 12, "d": 1, "l":  9, "f":  74, "a":  39, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  7, "team": "JGIL:2", "w":  9, "d": 4, "l":  9, "f":  49, "a":  62, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  8, "team": "AFLX:2", "w":  9, "d": 1, "l": 12, "f":  55, "a":  66, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place":  9, "team": "REIS:2", "w":  7, "d": 1, "l": 14, "f":  41, "a":  89, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 10, "team": "RUPL:2", "w":  6, "d": 1, "l": 14, "f":  40, "a":  84, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 11, "team": "ARBD:2", "w":  2, "d": 1, "l": 18, "f":  13, "a": 102, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 12, "team": "OBCN:2", "w":  2, "d": 1, "l": 19, "f":  18, "a": 145, "pts_win": 2, "season": "1977-78", "level": 6, "series": 3, "league": "4. Division Series 3"},
+            {"place": 13, "team": "ALCR", "withdrew": true}
+        ]
+    },{
+        "series": 4,
+        "name": "Series 4",
+        "teams": ["AREM:2","BOUS:2","BWIT:2","JCNC:2","LADH:2","MDLB:2","PROG:2","RBAS:2","SWFT:3","USMM:2","VINE","YBWT:2"],
+        "standings": [
+            {"place":  1, "team": "VINE",   "w": 20, "d": 2, "l":  0, "f": 131, "a":   6, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "MDLB:2", "w": 19, "d": 3, "l":  0, "f": 113, "a":  11, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  3, "team": "BWIT:2", "w": 10, "d": 7, "l":  5, "f":  71, "a":  36, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  4, "team": "SWFT:3", "w": 10, "d": 6, "l":  6, "f":  76, "a":  63, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  5, "team": "JCNC:2", "w": 11, "d": 3, "l":  8, "f":  74, "a":  51, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  6, "team": "PROG:2", "w":  9, "d": 7, "l":  6, "f":  59, "a":  49, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  7, "team": "AREM:2", "w": 10, "d": 2, "l": 10, "f":  71, "a":  72, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  8, "team": "USMM:2", "w":  6, "d": 5, "l": 11, "f":  26, "a":  65, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place":  9, "team": "BOUS:2", "w":  6, "d": 4, "l": 12, "f":  50, "a":  77, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 10, "team": "YBWT:2", "w":  4, "d": 3, "l": 15, "f":  37, "a":  88, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 11, "team": "LADH:2", "w":  5, "d": 0, "l": 17, "f":  48, "a": 117, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"},
+            {"place": 12, "team": "RBAS:2", "w":  1, "d": 0, "l": 21, "f":  18, "a": 139, "pts_win": 2, "season": "1977-78", "level": 6, "series": 4, "league": "4. Division Series 4"}
+        ]
+    },{
+        "series": 5,
+        "name": "Series 5",
+        "teams": ["CLMC:2","CSOB:2","ESHW:2","JHTC:2","JSKH:2","KOPS:2","MAMR:2","MDCG","OYMP:2","SBRT:2","SPST:2","UBSH:2","UNAS:2"],
+        "standings": [
+            {"place":  1, "team": "JHTC:2", "w": 21, "d": 0, "l":  3, "f":  99, "a":  36, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "CSOB:2", "w": 19, "d": 2, "l":  3, "f": 127, "a":  33, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  3, "team": "MDCG",   "w": 18, "d": 2, "l":  4, "f":  88, "a":  29, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  4, "team": "UNAS:2", "w": 13, "d": 2, "l":  9, "f":  68, "a":  55, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  5, "team": "OYMP:2", "w": 13, "d": 2, "l":  9, "f":  71, "a":  58, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  6, "team": "UBSH:2", "w": 13, "d": 1, "l": 10, "f":  77, "a":  52, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  7, "team": "CLMC:2", "w": 10, "d": 3, "l": 11, "f":  65, "a":  63, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  8, "team": "KOPS:2", "w":  9, "d": 3, "l": 12, "f":  69, "a":  60, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place":  9, "team": "SPST:2", "w":  8, "d": 2, "l": 14, "f":  62, "a":  71, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place": 10, "team": "MAMR:2", "w":  8, "d": 2, "l": 14, "f":  62, "a":  74, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place": 11, "team": "JSKH:2", "w":  7, "d": 2, "l": 15, "f":  58, "a":  98, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place": 12, "team": "SBRT:2", "w":  4, "d": 1, "l": 18, "f":  34, "a":  89, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"},
+            {"place": 13, "team": "ESHW:2", "w":  1, "d": 0, "l": 22, "f":  15, "a": 177, "pts_win": 2, "season": "1977-78", "level": 6, "series": 5, "league": "4. Division Series 5"}
+        ]
+    },{
+        "series": 6,
+        "name": "Series 6",
+        "teams": ["ASCB:2","ASTN:2","BRCH:2","BVAT","EGWM:2","HAMM:2","HOST:2","LRNZ:2","MARM:2","MINL:2","MUNS:2","WALF:2"],
+        "standings": [
+            {"place":  1, "team": "BVAT",   "w": 18, "d": 1, "l":  3, "f": 118, "a":  33, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "EGWM:2", "w": 17, "d": 0, "l":  5, "f":  95, "a":  30, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  3, "team": "WALF:2", "w": 15, "d": 3, "l":  4, "f":  90, "a":  31, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  4, "team": "ASTN:2", "w": 15, "d": 1, "l":  6, "f":  76, "a":  47, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  5, "team": "HOST:2", "w": 14, "d": 1, "l":  7, "f":  77, "a":  29, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  6, "team": "HAMM:2", "w": 10, "d": 3, "l":  9, "f":  47, "a":  47, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  7, "team": "LRNZ:2", "w": 11, "d": 0, "l": 11, "f":  70, "a":  62, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  8, "team": "MARM:2", "w":  8, "d": 4, "l": 10, "f":  61, "a":  63, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place":  9, "team": "BRCH:2", "w":  7, "d": 1, "l": 14, "f":  49, "a":  84, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place": 10, "team": "MUNS:2", "w":  5, "d": 1, "l": 16, "f":  39, "a": 133, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place": 11, "team": "ASCB:2", "w":  3, "d": 1, "l": 18, "f":  38, "a": 103, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"},
+            {"place": 12, "team": "MINL:2", "w":  1, "d": 0, "l": 21, "f":  16, "a": 114, "pts_win": 2, "season": "1977-78", "level": 6, "series": 6, "league": "4. Division Series 6"}
+        ]
+    },{
+        "series": 7,
+        "name": "Series 7",
+        "teams": ["ASLX:2","BBML:2","JCNC:2","JKYL:2","MANC:2","NORZ:2","NSCH:2","PROG","RPDN:2","STET:2","TRIG:2","USDD:2","VINE:2"],
+        "standings": [
+            {"place":  1, "team": "PROG",   "w": 20, "d": 3, "l":  1, "f": 118, "a":  15, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "BBML:2", "w": 18, "d": 4, "l":  2, "f":  88, "a":  29, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  3, "team": "USDD:2", "w": 18, "d": 1, "l":  5, "f": 106, "a":  27, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  4, "team": "STET:2", "w": 14, "d": 3, "l":  7, "f":  73, "a":  39, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  5, "team": "NSCH:2", "w": 13, "d": 2, "l":  9, "f":  99, "a":  45, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  6, "team": "TRIG:2", "w": 12, "d": 3, "l":  9, "f":  76, "a":  54, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  7, "team": "MANC:2", "w": 12, "d": 3, "l":  9, "f":  65, "a":  51, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  8, "team": "JCNC:2", "w":  8, "d": 4, "l": 12, "f":  50, "a":  70, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place":  9, "team": "VINE:2", "w":  8, "d": 2, "l": 14, "f":  40, "a":  93, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place": 10, "team": "JKYL:2", "w":  8, "d": 0, "l": 16, "f":  48, "a":  71, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place": 11, "team": "NORZ:2", "w":  6, "d": 2, "l": 16, "f":  46, "a": 115, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place": 12, "team": "RPDN:2", "w":  4, "d": 0, "l": 20, "f":  29, "a":  85, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"},
+            {"place": 13, "team": "ASLX:2", "w":  1, "d": 1, "l": 22, "f":  15, "a": 159, "pts_win": 2, "season": "1977-78", "level": 6, "series": 7, "league": "4. Division Series 7"}
+        ]
+    },{
+        "series": 8,
+        "name": "Series 8",
+        "teams": ["ASCH:2","ASDF:2","BLVL:2","BYUD","CPET:2","EHLR:2","FOLA:3","LUNA:2","MLSV:2","RROD:2","SNEM:2","TLMD:2","UESH:2"],
+        "standings": [
+            {"place":  1, "team": "BYUD",   "w": 19, "d": 4, "l":  1, "f": 108, "a":  16, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8", "promoted": true, "target": {"season": "1978-79", "level": 5, "name": "3. Division"}},
+            {"place":  2, "team": "FOLA:3", "w": 20, "d": 2, "l":  2, "f":  84, "a":  13, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  3, "team": "MLSV:2", "w": 15, "d": 3, "l":  6, "f":  84, "a":  42, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  4, "team": "UESH:2", "w": 14, "d": 4, "l":  6, "f":  72, "a":  27, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  5, "team": "CPET:2", "w": 12, "d": 5, "l":  7, "f":  62, "a":  33, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  6, "team": "ASCH:2", "w": 12, "d": 3, "l":  9, "f":  67, "a":  46, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  7, "team": "BLVL:2", "w": 11, "d": 1, "l": 12, "f":  93, "a":  59, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  8, "team": "ASDF:2", "w": 10, "d": 1, "l": 13, "f":  60, "a":  67, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place":  9, "team": "RROD:2", "w":  8, "d": 3, "l": 13, "f":  61, "a":  81, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place": 10, "team": "SNEM:2", "w":  8, "d": 2, "l": 14, "f":  34, "a":  59, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place": 11, "team": "TLMD:2", "w":  4, "d": 1, "l": 19, "f":  34, "a": 120, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place": 12, "team": "LUNA:2", "w":  4, "d": 1, "l": 19, "f":  23, "a": 130, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"},
+            {"place": 13, "team": "EHLR:2", "w":  4, "d": 0, "l": 20, "f":  29, "a": 118, "pts_win": 2, "season": "1977-78", "level": 6, "series": 8, "league": "4. Division Series 8"}
+        ]
+    }],
+    "promotion": {
+        "teams": ["RHDS","JSCH:2","JWAS:2","VINE","JHTC:2","BVAT","PROG","BYUD"],
+        "target": {"season": "1978-79", "level": 5, "name": "3. Division"}
+    },
+    "playoffs": {
+    }
+}
