@@ -894,6 +894,9 @@ function buildStandings(standings,ptsWin=3,isPlayoffTable=false) {
 					case "2":
 						teamName += "II";
 						break;
+					case "3":
+						teamName += "III";
+						break;
 					default:
 						teamName += teamNameParts[1];
 				}
