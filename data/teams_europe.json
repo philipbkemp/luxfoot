@@ -136,6 +136,10 @@
         "FNRD": {"id":"Feyenoord","name":"Feyenoord"},
         "HAAG": {"id": "ADO_Den_Haag", "name": "ADO Den Haag"}
     },
+    "NOR": {
+        "_country": "Norway",
+        "BODO": {"id": "FK_Bodø/Glimt", "name":"Bodø/Glimt"}
+    },
     "POL": {
         "_country": "Poland",
         "LODZ": {"id":"ŁKS_Łódź", "name": "ŁKS Łódź"}

@@ -37,5 +37,24 @@
                 ]
             }
         }]
-    }
+    },
+    "cup_winners_cup": {
+		"name": "Cup Winners' Cup",
+		"season": "1978-79",
+		"links": {
+			"next": "1979-80",
+			"prev": "1977-78"
+		},
+		"teams": ["ULUX"],
+		"rounds": [{
+			"key": "R1",
+			"name": "First round",
+			"matches": {
+				"ULUX": [
+					{"isEurope":true,"date":"1978-08-27","leg":1,"home":"NOR:BODO","away":"ULUX","score":"4-1","season":"1978-79","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":1}},
+					{"isEurope":true,"date":"1978-09-12","leg":2,"home":"ULUX","away":"NOR:BODO","score":"1-0","season":"1978-79","competition":{"type":"europe","cup":"cup_winners_cup","name":"Cup Winners' Cup","round":"First round","leg":2},"agg":{"score":"2-4","outcome":"L","team":"ULUX"}}
+				]
+			}
+		}]
+	}
 }

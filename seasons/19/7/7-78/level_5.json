@@ -89,7 +89,5 @@
     "relegation": {
         "teams": ["AWDG","LARD","CSHL:2","ARIS:2","RUPL","ARBD","PRON:2","CROD:2"],
         "target": {"season": "1978-79", "level": 6, "name": "4. Division"}
-    },
-    "playoffs": {
     }
 }

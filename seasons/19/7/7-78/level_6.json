@@ -160,7 +160,5 @@
     "promotion": {
         "teams": ["RHDS","JSCH:2","JWAS:2","VINE","JHTC:2","BVAT","PROG","BYUD"],
         "target": {"season": "1978-79", "level": 5, "name": "3. Division"}
-    },
-    "playoffs": {
     }
 }

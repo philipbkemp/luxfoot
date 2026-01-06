@@ -1371,41 +1371,41 @@
 		"season": "1978-79",
 		"leagues": {
 			"level_1": {"season": "1978-79", "level": 1, "name": "National Division", "winner": "RBDF", "title_count": 6, "double": true},
-			"level_2": {"missing":true, "season": "1978-79", "level": 2, "name": "Division of Honour", "winner": "SPOR"},
+			"level_2": {"season": "1978-79", "level": 2, "name": "Division of Honour"},
 			"level_3": {"season": "1978-79", "level": 3, "name": "1. Division","series":[
-				{"missing":true, "season": "1978-79", "level": 3,"series":1, "name": "1. Division Series 1", "winner": "WLTZ"},
-				{"season": "1978-79", "level": 3,"series":2, "name": "1. Division Series 2", "winner": "OYMP"}
+				{"season": "1978-79", "level": 3,"series":1, "name": "1. Division Series 1"},
+				{"season": "1978-79", "level": 3,"series":2, "name": "1. Division Series 2"}
 			]},
 			"level_4": {"season": "1978-79", "level": 4, "name": "2. Division","series":[
-				{"season": "1978-79", "level": 4,"series":1, "name": "2. Division Series 1", "winner": "ASCB"},
-				{"missing":true, "season": "1978-79", "level": 4,"series":2, "name": "2. Division Series 2", "winner": "HOBS"},
-				{"missing":true, "season": "1978-79", "level": 4,"series":3, "name": "2. Division Series 3", "winner": "VICR"},
-				{"missing":true, "season": "1978-79", "level": 4,"series":4, "name": "2. Division Series 4", "winner": "BLVL"}
+				{"season": "1978-79", "level": 4,"series":1, "name": "2. Division Series 1"},
+				{"season": "1978-79", "level": 4,"series":2, "name": "2. Division Series 2"},
+				{"season": "1978-79", "level": 4,"series":3, "name": "2. Division Series 3"},
+				{"season": "1978-79", "level": 4,"series":4, "name": "2. Division Series 4"}
 			]},
-			"level_5": {"missing":true, "season": "1978-79", "level": 5, "name": "3. Division","series":[
-				{"missing":true, "season": "1978-79", "level": 5,"series":1, "name": "3. Division Series 1", "winner": "ETZE:2"},
-				{"missing":true, "season": "1978-79", "level": 5,"series":2, "name": "3. Division Series 2", "winner": "TRIG"},
-				{"missing":true, "season": "1978-79", "level": 5,"series":3, "name": "3. Division Series 3", "winner": "YBWT"},
-				{"missing":true, "season": "1978-79", "level": 5,"series":4, "name": "3. Division Series 4", "winner": "YGGC"}
+			"level_5": {"season": "1978-79", "level": 5, "name": "3. Division","series":[
+				{"season": "1978-79", "level": 5,"series":1, "name": "3. Division Series 1"},
+				{"season": "1978-79", "level": 5,"series":2, "name": "3. Division Series 2"},
+				{"season": "1978-79", "level": 5,"series":3, "name": "3. Division Series 3"},
+				{"season": "1978-79", "level": 5,"series":4, "name": "3. Division Series 4"}
 			]},
-			"level_6": {"missing":true, "season": "1978-79", "level": 6, "name": "4. Division","series":[
-				{"missing":true, "season": "1978-79", "level": 6,"series":1, "name": "4. Division Series 1", "winner": "GBHT:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":2, "name": "4. Division Series 2", "winner": "MARM:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":3, "name": "4. Division Series 3", "winner": "DARE:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":4, "name": "4. Division Series 4", "winner": "USMM:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":5, "name": "4. Division Series 5", "winner": "WALF:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":6, "name": "4. Division Series 6", "winner": "CSHL:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":7, "name": "4. Division Series 7", "winner": "CSOB:2"},
-				{"missing":true, "season": "1978-79", "level": 6,"series":8, "name": "4. Division Series 8", "winner": "MDCG"}
+			"level_6": {"season": "1978-79", "level": 6, "name": "4. Division","series":[
+				{"season": "1978-79", "level": 6,"series":1, "name": "4. Division Series 1"},
+				{"season": "1978-79", "level": 6,"series":2, "name": "4. Division Series 2"},
+				{"season": "1978-79", "level": 6,"series":3, "name": "4. Division Series 3"},
+				{"season": "1978-79", "level": 6,"series":4, "name": "4. Division Series 4"},
+				{"season": "1978-79", "level": 6,"series":5, "name": "4. Division Series 5"},
+				{"season": "1978-79", "level": 6,"series":6, "name": "4. Division Series 6"},
+				{"season": "1978-79", "level": 6,"series":7, "name": "4. Division Series 7"},
+				{"season": "1978-79", "level": 6,"series":8, "name": "4. Division Series 8"}
 			]}
 		},
 		"cups": {
-			"cup_luxembourg": {"missing":true, "season": "1978-79", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
+			"cup_luxembourg": {"season": "1978-79", "name": "Luxembourg Cup", "winner": "RBDF", "title_count": 14, "winner_division": { "level": 1, "name": "National Division"}, "double": true}
 		},
 		"europe": {
 			"champions_league": {"name":"European Cup",	"season":"1978-79","teams":["PRON"]},
 			"europa_league": {"name":"UEFA Cup",						"season":"1978-79","teams":["JESH"]},
-			"cup_winners_cup": {"missing":true,"name":"Cup Winners' Cup","season":"1978-79","teams":["ULUX"]}
+			"cup_winners_cup": {"name":"Cup Winners' Cup","season":"1978-79","teams":["ULUX"]}
 		}
 	},{
 		"season": "1979-80",

@@ -53,7 +53,5 @@
     "relegation": {
         "teams": ["KHLN","HOST","SPST","SCBT","UMRT"],
         "target": {"season": "1978-79", "level": 4, "name": "2. Division"}
-    },
-    "playoffs": {
     }
 }

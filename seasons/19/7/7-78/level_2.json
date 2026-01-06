@@ -31,7 +31,5 @@
 	"relegation": {
 		"teams": ["RBPF","OVND"],
 		"target": {"season": "1978-79", "level": 3, "name": "1. Division"}
-	},
-    "playoffs": {
-    }
+	}
 }
