@@ -13,6 +13,8 @@
             <p id="prev-next"></p>
             <p id="competitions"></p>
         </div>
+
+        <div class="data"></div>
         
         <script>
             params=[];
@@ -86,13 +88,22 @@
                 thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
                 thisLeagueNav.innerHTML = league.name;
                 compNav.append(thisLeagueNav);
-                keys = keys.filter(key => key !== `${keyPrefix}.league`);
+
+                keys = keys.filter(key => key !== `${keyPrefix}.name`);
+                keys = keys.filter(key => key !== `${keyPrefix}.level`);
+                keys = keys.filter(key => key !== `${keyPrefix}.note`);
 
                 if ( showComp !== thisComp ) {
                     return;
                 }
 
-                console.log("showing league",league);
+                dataContainer = document.getElementById("data");
+
+                if ( league.note ) {
+                    note = document.createElement("P");
+                    note.innerHTML = "Note: " + league.note;
+                    dataContainer.append(note);
+                }
             }
         </script>
     </body>

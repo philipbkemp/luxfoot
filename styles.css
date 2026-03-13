@@ -3,6 +3,7 @@
 }
 body {
     margin-bottom: 150px;
+    padding: 0 20px;
 }
 p.error {
     color: red;
@@ -11,4 +12,8 @@ p.error {
     border-bottom: 1px solid #CCCCCC;
     margin: 0;
     padding: 10px 0;
+}
+
+.data {
+    padding: 20px 0;
 }
