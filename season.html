@@ -92,6 +92,7 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.name`);
                 keys = keys.filter(key => key !== `${keyPrefix}.level`);
                 keys = keys.filter(key => key !== `${keyPrefix}.note`);
+                keys = keys.filter(key => key !== `${keyPrefix}.standings`);
 
                 if ( showComp !== thisComp ) {
                     return;
@@ -108,6 +109,17 @@
                     note.innerHTML = "Note: " + league.note;
                     dataContainer.append(note);
                 }
+
+                if ( league.standings ) {
+                    standingTitle = document.createElement("H2");
+                    standingTitle.innerHTML = "Standings";
+                    dataContainer.append(standingTitle);
+                    drawStandingsTable(league.standings,keyPrefix+".standings");
+                }
+            }
+
+            function drawStandingsTable(standings,keyPrefix) {
+                keys = [...keys,...Object.keys(standings).map(key => `${keyPrefix}.${key}`)];
             }
         </script>
     </body>
