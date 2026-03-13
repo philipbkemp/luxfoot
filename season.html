@@ -102,7 +102,7 @@
                 });
             
             function drawPlayoff(code,po,isShown,keyPrefix) {
-                keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${code}`)];
+                keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
 
                 playoffTitle = document.createElement("H3");
                 playoffTitle.innerHTML = getPlayoffName(code);
@@ -129,10 +129,10 @@
                 table.classList.add("matches");
 
                 hasDates = false;
-                hasNotes = false;
+                hasNotes = true;
 
                 matches.forEach(match=>{
-                    keys = [...keys,...Object.keys(matches).map(key => `${keyPrefix}.${key}`)];
+                    keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
                     keys = keys.filter(key => key !== `${keyPrefix}.date`);
 
                     tr = document.createElement("TR");
