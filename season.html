@@ -137,6 +137,7 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.home`);
                     keys = keys.filter(key => key !== `${keyPrefix}.away`);
                     keys = keys.filter(key => key !== `${keyPrefix}.score`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.season`);
 
                     tr = document.createElement("TR");
 
@@ -159,6 +160,10 @@
                     tdAway = document.createElement("TD");
                     tdAway.innerHTML = allTeams[match.away].name;
                     tr.append(tdAway);
+
+                    if ( season !== match.season ) {
+                        console.warn("inconsistent season value",season,match.season);
+                    }
 
                     table.append(tr);
                 });
