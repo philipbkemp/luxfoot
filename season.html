@@ -102,7 +102,7 @@
                 });
             
             function drawPlayoff(code,po,isShown,keyPrefix) {
-                keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
+                keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${code}`)];
 
                 playoffTitle = document.createElement("H3");
                 playoffTitle.innerHTML = getPlayoffName(code);
@@ -111,6 +111,7 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.${code}`);
 
                 if ( ! isShown ) {
+                    console.log("not showing",code);
                     return;
                 }
 
