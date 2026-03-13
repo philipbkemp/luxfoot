@@ -134,6 +134,9 @@
                 matches.forEach(match=>{
                     keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
                     keys = keys.filter(key => key !== `${keyPrefix}.date`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.home`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.away`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.score`);
 
                     tr = document.createElement("TR");
 
@@ -144,6 +147,18 @@
                         hasDates = true;
                     }
                     tr.append(tdDate);
+
+                    tdHome = document.createElement("TD");
+                    tdHome.innerHTML = allTeams[match.home].name;
+                    tr.append(tdHome);
+
+                    tdScore = document.createElement("TD");
+                    tdScore.innerHTML = match.score;
+                    tr.append(tdScore);
+
+                    tdAway = document.createElement("TD");
+                    tdAway.innerHTML = allTeams[match.away].name;
+                    tr.append(tdAway);
 
                     table.append(tr);
                 });
