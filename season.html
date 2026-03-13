@@ -83,12 +83,12 @@
                 thisComp = "league:" + league.level;
 
                 thisLeagueNav = document.createElement("A");
-                thisLeagueNav.href = "season.html?year="+season+"&comp=league:"+thisComp;
+                thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
                 thisLeagueNav.innerHTML = league.name;
                 compNav.append(thisLeagueNav);
                 keys = keys.filter(key => key !== `${keyPrefix}.league`);
 
-                if ( ! showComp === thisComp ) {
+                if ( showComp !== thisComp ) {
                     return;
                 }
 
