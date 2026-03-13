@@ -10,9 +10,10 @@
             <h1>
                 <a href="index.html">Luxembourgish Football</a>: <a href="seasons.html">Seasons</a>: 
             </h1>
+            <p id="prev-next">
+                
+            </p>
         </div>
-        
-        <pre id="thedata"></pre>
         
         <script>
             params=[];
@@ -20,13 +21,36 @@
             season = params.year;
             seasonPath = [season[0]+""+season[1],season[2],season[3]+"-"+season.split("-")[1]];
 
+            keys = [];
+
             fetch("data/"+seasonPath.join("/")+".json")
                 .then(response => response.json())
                 .then(data => {
-                    document.getElementById("thedata").innerHTML = JSON.stringify(data);
                     console.log(data);
+                    keys = [...keys,Object.keys(data)];
 
                     document.getElementsByTagName("H1")[0].innerHTML += data.season;
+                    keys = keys.filter(key => key !== 'season');
+
+                    prevNext = document.getElementById("prev-next");
+                    if ( data.prev ) {
+                        goPrev = document.createElement("A");
+                        goPrev.href = "season.html?year="+data.prev;
+                        goPrev.innerHTML = data.prev;
+                        prevNext.append(goPrev);
+                    }
+                    if ( data.prev && data.next ) {
+                        prevNext.append(" | ");
+                    }
+                    if ( data.next ) {
+                        goNext = document.createElement("A");
+                        goNext.href = "season.html?year="+data.next;
+                        goNext.innerHTML = data.next;
+                        prevNext.append(goNext);
+                    }
+                    keys = keys.filter(key => key !== 'next');
+                    keys = keys.filter(key => key !== 'prev');
+
                 });
         </script>
     </body>
