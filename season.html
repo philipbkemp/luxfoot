@@ -113,6 +113,18 @@
                 if ( ! isShown ) {
                     return;
                 }
+
+                keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+
+                if ( po.matches ) {
+                    po.matches.forEach(match=>{
+                        drawMatch(match,keyPrefix+".matches");
+                    });
+                }
+            }
+
+            function drawMatch(match,keyPrefix) {
+                keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
             }
 
             function drawLeague(league,keyPrefix) {
@@ -234,7 +246,7 @@
 
                     if ( standing.champion ) {
                         tr.classList.add("is-champion");
-                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> Champion";
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Champion";
                     }
 
                     if ( (index+1) !== standing.place ) {
