@@ -193,6 +193,7 @@
                     tdNotes.innerHTML = "";
                     if ( standing.playoff ) {
                         tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> " + getPlayoffName(standing.playoff);
+                        hasNotes = true;
                     }
                     tr.append(tdNotes);
 
