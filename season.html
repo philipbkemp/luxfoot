@@ -124,10 +124,13 @@
                 table = document.createElement("TABLE");
 
                 thead = document.createElement("THEAD");
-                trHead = document.createdElement("TR");
+                trHead = document.createElement("TR");
                 thPlace = document.createElement("TH");
                 thPlace.innerHTML = "#";
                 trHead.append(thPlace);
+                thTeam = document.createElement("TH");
+                thTeam.innerHTML = "Team";
+                trHead.append(thTeam);
                 thead.append(trHead);
                 table.append(thead);
 
@@ -135,12 +138,17 @@
                 standings.forEach((standing,index)=>{
                     keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
                     keys = keys.filter(key => key !== `${keyPrefix}.place`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.team`);
 
                     tr = document.createElement("TR");
 
                     tdPlace = document.createElement("TD");
                     tdPlace.innerHTML = standing.place;
                     tr.append(tdPlace);
+
+                    tdTeam = document.createElement("TD");
+                    tdTeam.innerHTML = standing.team;
+                    tr.append(tdTeam);
 
                     if ( index !== standing.place ) {
                         console.warn("inconsisten place value",index,standing.place);
