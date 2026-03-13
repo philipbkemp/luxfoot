@@ -122,11 +122,11 @@
                     standingTitle = document.createElement("H3");
                     standingTitle.innerHTML = "Standings";
                     dataContainer.append(standingTitle);
-                    drawStandingsTable(league.standings,keyPrefix+".standings");
+                    drawStandingsTable(league.standings,keyPrefix+".standings","league",league.level,league.name);
                 }
             }
 
-            function drawStandingsTable(standings,keyPrefix) {
+            function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
                 dataContainer = document.getElementById("dataContainer");
 
                 table = document.createElement("TABLE");
@@ -156,7 +156,14 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.team`);
                     keys = keys.filter(key => key !== `${keyPrefix}.missing`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
-                    keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+
+                    if ( standing.competition ) {
+                        keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
+                        keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                    }
 
                     tr = document.createElement("TR");
 
@@ -176,7 +183,19 @@
                     }
 
                     if ( (index+1) !== standing.place ) {
-                        console.warn("inconsisten place value",index,standing.place);
+                        console.warn("inconsistent place value",index,standing.place);
+                    }
+                    if ( season !== standing.season ) {
+                        console.warn("inconsistent season value",season,standing.season);
+                    }
+                    if ( compType !== standing.competition.type ) {
+                        console.warn("inconsistent competition type",compType,standing.competition.type);
+                    }
+                    if ( compType === "league" && compLevel !== standing.competition.level ) {
+                        console.warn("inconsistent competition league level",compLevel,standing.competition.level);
+                    }
+                    if ( compType === "league" && compName !== standing.competition.league ) {
+                        console.warn("inconsistent competition league name",compName,standing.competition.league);
                     }
 
                     tbody.append(tr);
