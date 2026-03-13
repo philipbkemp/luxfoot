@@ -24,8 +24,21 @@
             keys = [];
 
             fetch("data/"+seasonPath.join("/")+".json")
-                .then(response => response.json())
+                .then(response => {
+                    if ( ! response.ok ) {
+                        errorP = document.createElement("P");
+                        errorP.classList.add("error");
+                        errorP.textContent = "Season not found";
+                        document.body.append(errorP);
+                        return {"invalid":true};
+                    }
+                    return response.json();
+                })
                 .then(data => {
+                    if ( data.invalid ) {
+                        return;
+                    }
+                    
                     console.log(data);
                     keys = [...keys,Object.keys(data)];
 
