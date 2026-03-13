@@ -139,6 +139,13 @@
                 thTeam = document.createElement("TH");
                 thTeam.innerHTML = "Team";
                 trHead.append(thTeam);
+                cols = ["P","W","D","L","F","A","Pts","GD"];
+                colsAbbr = ["Played","Won","Drawn","Lost","For","Against","Points","Goal difference"];
+                for ( i=0 ; i!==cols.length ; i++ ) {
+                    thCol = document.createElement("TH");
+                    thCol.innerHTML = "<abbr title='"+colsAbbr[i]+"'>"+cols[i]+"</abbr>";
+                    trHead.append(thCol);
+                }
                 thead.append(trHead);
                 table.append(thead);
 
@@ -147,6 +154,7 @@
                     keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
                     keys = keys.filter(key => key !== `${keyPrefix}.place`);
                     keys = keys.filter(key => key !== `${keyPrefix}.team`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.missing`);
 
                     tr = document.createElement("TR");
 
@@ -157,6 +165,13 @@
                     tdTeam = document.createElement("TD");
                     tdTeam.innerHTML = allTeams[standing.team].name;
                     tr.append(tdTeam);
+
+                    if ( standing.missing ) {
+                        tdMissing = document.createElement("TD");
+                        tdMissing.innerHTML = "no data";
+                        tdMissing.colSpan = cols.length;
+                        tr.append(tdMissing);
+                    }
 
                     if ( (index+1) !== standing.place ) {
                         console.warn("inconsisten place value",index,standing.place);
