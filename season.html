@@ -196,6 +196,7 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.missing`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
                     keys = keys.filter(key => key !== `${keyPrefix}.playoff`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.champion`);
 
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
@@ -230,6 +231,11 @@
                         hasNotes = true;
                     }
                     tr.append(tdNotes);
+
+                    if ( standing.champion ) {
+                        tr.classList.add("is-champion");
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> Champion";
+                    }
 
                     if ( (index+1) !== standing.place ) {
                         console.warn("inconsistent place value",index,standing.place);
