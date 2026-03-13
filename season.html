@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LuxFoot | Seasons</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="favicon.png" />
+    </head>
+    <body class="hasNav">
+        <div class="nav">
+            <h1>
+                <a href="index.html">Luxembourgish Football</a>: <a href="seasons.html">Seasons</a>: 
+            </h1>
+        </div>
+        
+        <pre id="thedata"></pre>
+        
+        <script>
+            params=[];
+            window.location.search.replace("?","").split("&").forEach(param=>{parts=param.split("=");params[parts[0]]=parts[1];});
+            season = params.year;
+            seasonPath = [season[0]+""+season[1],season[2],season[3]+"-"+season.split("-")[1]];
+
+            fetch("data/"+seasonPath.join("/")+".json")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("thedata").innerHTML = data;
+                    console.log(data);
+                });
+        </script>
+    </body>
+</html>
