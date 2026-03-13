@@ -74,11 +74,21 @@
                     keys = keys.filter(key => key !== 'next');
                     keys = keys.filter(key => key !== 'prev');
 
+                    playoffsNeeded = [];
+
                     if ( data.league ) {
                         data.league.forEach(league=>{
-                            drawLeague(league,"league");
+                            playoffsNeeded = [...playoffsNeeded,...drawLeague(league,"league")];
                         });
                         keys = keys.filter(key => key !== 'league');
+                    }
+
+                    if ( data.playoffs ) {
+                        keys = keys.filter(key => key !== 'league');
+                        keys = [...keys,...Object.keys(data.playoffs).map(key => `playoffs.${key}`)];
+                        Object.keys(data.playoffs).forEach(po=>{
+                            drawPlayoff(po,data.playoffs[po],playoffsNeeded.includes(po),"playoffs."+po);
+                        });
                     }
 
                     if ( keys.length !== 0 ) {
@@ -86,6 +96,16 @@
                         console.log(data);
                     }
                 });
+            
+            function drawPlayoff(code,po,isShown,keyPrefix) {
+                keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
+
+                playoffTitle = document.createElement("H3");
+                playoffTitle.innerHTML = getPlayoffName(code);
+                dataContainer.append(playoffTitle);
+
+                keys = keys.filter(key => key !== `${keyPrefix}.${code}`);
+            }
 
             function drawLeague(league,keyPrefix) {
                 keys = [...keys,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
@@ -106,6 +126,7 @@
                     return;
                 }
 
+                playoffsNeeded = [];
                 dataContainer = document.getElementById("dataContainer");
 
                 leagueName = document.createElement("H2");
@@ -122,12 +143,16 @@
                     standingTitle = document.createElement("H3");
                     standingTitle.innerHTML = "Standings";
                     dataContainer.append(standingTitle);
-                    drawStandingsTable(league.standings,keyPrefix+".standings","league",league.level,league.name);
+                    playoffsNeeded = drawStandingsTable(league.standings,keyPrefix+".standings","league",league.level,league.name);
                 }
+
+                return playoffsNeeded;
             }
 
             function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
                 dataContainer = document.getElementById("dataContainer");
+
+                playoffsNeeded = [];
 
                 table = document.createElement("TABLE");
                 table.classList.add("standings");
@@ -193,6 +218,7 @@
                     tdNotes.innerHTML = "";
                     if ( standing.playoff ) {
                         tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> " + getPlayoffName(standing.playoff);
+                        playoffsNeeded.push(standing.playoff);
                         hasNotes = true;
                     }
                     tr.append(tdNotes);
@@ -224,6 +250,8 @@
                 }
 
                 dataContainer.append(table);
+
+                return playoffsNeeded;
             }
 
             function getPlayoffName(po) {
