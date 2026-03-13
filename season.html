@@ -14,7 +14,7 @@
             <p id="competitions"></p>
         </div>
 
-        <div class="data"></div>
+        <div id="dataContainer"></div>
         
         <script>
             params=[];
@@ -97,7 +97,11 @@
                     return;
                 }
 
-                dataContainer = document.getElementById("data");
+                dataContainer = document.getElementById("dataContainer");
+
+                leagueName = document.createElement("H2");
+                leagueName.innerHTML = league.name;
+                dataContainer.append(leagueName);
 
                 if ( league.note ) {
                     note = document.createElement("P");
