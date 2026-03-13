@@ -40,7 +40,7 @@
                     }
 
                     console.log(data);
-                    keys = [...keys,Object.keys(data)];
+                    keys = [...keys,...Object.keys(data)];
 
                     document.getElementsByTagName("H1")[0].innerHTML += data.season;
                     keys = keys.filter(key => key !== 'season');
@@ -65,7 +65,7 @@
                     keys = keys.filter(key => key !== 'prev');
 
                     if ( keys.length !== 0 ) {
-                        console.error("Remaining Keys: ",keys);
+                        console.error("Remaining Keys: ",keys.join(", "));
                     }
                 });
         </script>
