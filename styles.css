@@ -43,9 +43,14 @@ table.standings th {
     border-left-color: #FFFFFF;
     border-right-color: #FFFFFF;
 }
-table.standings.no-notes th:last-child,
-table.standings.no-notes td:last-child {
+table.standings.notes__none th:last-child,
+table.standings.notes__none td:last-child {
     display: none;
+}
+table.standings.notes__some th:last-child,
+table.standings.notes__some td:last-child {
+    min-width: 300px;
+    text-align: left;
 }
 
 abbr {

@@ -217,7 +217,9 @@
                 table.append(tbody);
 
                 if ( ! hasNotes ) {
-                    table.classList.add("no_notes");
+                    table.classList.add("notes__none");
+                } else {
+                    table.classList.add("notes__some");
                 }
 
                 dataContainer.append(table);
