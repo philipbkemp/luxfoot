@@ -10,9 +10,8 @@
             <h1>
                 <a href="index.html">Luxembourgish Football</a>: <a href="seasons.html">Seasons</a>: 
             </h1>
-            <p id="prev-next">
-                
-            </p>
+            <p id="prev-next"></p>
+            <p id="competitions"></p>
         </div>
         
         <script>
@@ -20,6 +19,8 @@
             window.location.search.replace("?","").split("&").forEach(param=>{parts=param.split("=");params[parts[0]]=parts[1];});
             season = params.year;
             seasonPath = [season[0]+""+season[1],season[2],season[3]+"-"+season.split("-")[1]];
+            showComp = params.comp ?? "league:1";
+            compNav = document.getElementById("competitions");
 
             keys = [];
 
@@ -39,7 +40,6 @@
                         return;
                     }
 
-                    console.log(data);
                     keys = [...keys,...Object.keys(data)];
 
                     document.getElementsByTagName("H1")[0].innerHTML += data.season;
@@ -64,10 +64,36 @@
                     keys = keys.filter(key => key !== 'next');
                     keys = keys.filter(key => key !== 'prev');
 
+                    if ( data.league ) {
+                        data.league.forEach(league=>{
+                            drawLeague(league,"league");
+                        });
+                        keys = keys.filter(key => key !== 'league');
+                    }
+
                     if ( keys.length !== 0 ) {
-                        console.error("Remaining Keys: ",keys.join(", "));
+                        console.error(keys.join(", "));
+                        console.log(data);
                     }
                 });
+
+            function drawLeague(league,keyPrefix) {
+                keys = [...keys,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
+
+                thisComp = "league:" + league.level;
+
+                thisLeagueNav = document.createElement("A");
+                thisLeagueNav.href = "season.html?year="+season+"&comp=league:"+thisComp;
+                thisLeagueNav.innerHTML = league.name;
+                compNav.append(thisLeagueNav);
+                keys = keys.filter(key => key !== `${keyPrefix}.league`);
+
+                if ( ! showComp === thisComp ) {
+                    return;
+                }
+
+                console.log("showing league",league);
+            }
         </script>
     </body>
 </html>
