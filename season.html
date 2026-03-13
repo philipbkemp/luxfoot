@@ -23,8 +23,10 @@
             fetch("data/"+seasonPath.join("/")+".json")
                 .then(response => response.json())
                 .then(data => {
-                    document.getElementById("thedata").innerHTML = data;
+                    document.getElementById("thedata").innerHTML = JSON.stringify(data);
                     console.log(data);
+
+                    document.getElementsByTagName("H1")[0].innerHTML += data.season;
                 });
         </script>
     </body>
