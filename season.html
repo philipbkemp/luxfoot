@@ -38,7 +38,7 @@
                     if ( data.invalid ) {
                         return;
                     }
-                    
+
                     console.log(data);
                     keys = [...keys,Object.keys(data)];
 
@@ -64,6 +64,9 @@
                     keys = keys.filter(key => key !== 'next');
                     keys = keys.filter(key => key !== 'prev');
 
+                    if ( keys.length !== 0 ) {
+                        console.error("Remaining Keys: ",keys);
+                    }
                 });
         </script>
     </body>
