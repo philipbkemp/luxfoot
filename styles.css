@@ -17,3 +17,30 @@ p.error {
 .data {
     padding: 20px 0;
 }
+
+table.standings {
+    border-collapse: collapse;
+}
+table.standings th,
+table.standings td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    min-width: 50px;
+    text-align: center;
+}
+table.standings td:nth-child(2) {
+    text-align: left;
+    min-width: 250px;
+}
+table.standings th {
+    background-color: black;
+    color: white;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+abbr {
+    text-underline-offset: 3px;
+    text-decoration-color: white;
+    cursor: help;
+}
