@@ -111,7 +111,7 @@
                 }
 
                 if ( league.standings ) {
-                    standingTitle = document.createElement("H2");
+                    standingTitle = document.createElement("H3");
                     standingTitle.innerHTML = "Standings";
                     dataContainer.append(standingTitle);
                     drawStandingsTable(league.standings,keyPrefix+".standings");
@@ -119,7 +119,38 @@
             }
 
             function drawStandingsTable(standings,keyPrefix) {
-                keys = [...keys,...Object.keys(standings).map(key => `${keyPrefix}.${key}`)];
+                dataContainer = document.getElementById("dataContainer");
+
+                table = document.createElement("TABLE");
+
+                thead = document.createElement("THEAD");
+                trHead = document.createdElement("TR");
+                thPlace = document.createElement("TH");
+                thPlace.innerHTML = "#";
+                trHead.append(thPlace);
+                thead.append(trHead);
+                table.append(thead);
+
+                tbody = document.createElement("TBODY");
+                standings.forEach((standing,index)=>{
+                    keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
+                    keys = keys.filter(key => key !== `${keyPrefix}.place`);
+
+                    tr = document.createElement("TR");
+
+                    tdPlace = document.createElement("TD");
+                    tdPlace.innerHTML = standing.place;
+                    tr.append(tdPlace);
+
+                    if ( index !== standing.place ) {
+                        console.warn("inconsisten place value",index,standing.place);
+                    }
+
+                    tbody.append(tr);
+                });
+                table.append(tbody);
+
+                dataContainer.append(table);
             }
         </script>
     </body>
