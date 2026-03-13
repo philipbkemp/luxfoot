@@ -105,6 +105,10 @@
                 dataContainer.append(playoffTitle);
 
                 keys = keys.filter(key => key !== `${keyPrefix}.${code}`);
+
+                if ( ! isShown ) {
+                    return;
+                }
             }
 
             function drawLeague(league,keyPrefix) {
