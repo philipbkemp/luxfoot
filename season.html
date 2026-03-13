@@ -25,8 +25,16 @@
             compNav = document.getElementById("competitions");
 
             keys = [];
+            allTeams = null;
 
-            fetch("data/"+seasonPath.join("/")+".json")
+            fetch("data/teams.json")
+                .then(response => {
+                    return response.json();
+                })
+                .then(data => {
+                    allTeams = data;
+                    return fetch("data/"+seasonPath.join("/")+".json");
+                })
                 .then(response => {
                     if ( ! response.ok ) {
                         errorP = document.createElement("P");
@@ -147,10 +155,10 @@
                     tr.append(tdPlace);
 
                     tdTeam = document.createElement("TD");
-                    tdTeam.innerHTML = standing.team;
+                    tdTeam.innerHTML = allTeams[standing.team].name;
                     tr.append(tdTeam);
 
-                    if ( index !== standing.place ) {
+                    if ( (index+1) !== standing.place ) {
                         console.warn("inconsisten place value",index,standing.place);
                     }
 
