@@ -40,8 +40,13 @@ table.standings td:nth-child(2) {
 table.standings th {
     background-color: #000000;
     color: #FFFFFF;
+}
+table.standings th:not(:first-child) {
     border-left-color: #FFFFFF;
-    border-right-color: #FFFFFF;
+}
+table.standings.notes__some th:not(:last-child),
+table.standings.notes__none th:not(:nth-last-child(2)) {
+    border-left-color: #FFFFFF;
 }
 table.standings.notes__none th:last-child,
 table.standings.notes__none td:last-child {
