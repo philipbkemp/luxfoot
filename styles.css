@@ -38,6 +38,10 @@ table.standings th {
     border-left-color: white;
     border-right-color: white;
 }
+table.standings.no-notes th:last-child,
+table.standings.no-notes td:last-child {
+    display: none;
+}
 
 abbr {
     text-underline-offset: 3px;

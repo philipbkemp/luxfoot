@@ -130,6 +130,7 @@
                 dataContainer = document.getElementById("dataContainer");
 
                 table = document.createElement("TABLE");
+                table.classList.add("standings");
 
                 thead = document.createElement("THEAD");
                 trHead = document.createElement("TR");
@@ -146,8 +147,13 @@
                     thCol.innerHTML = "<abbr title='"+colsAbbr[i]+"'>"+cols[i]+"</abbr>";
                     trHead.append(thCol);
                 }
+                thNotes = document.createElement("TH");
+                thNotes.innerHTML = "Notes";
+                trHead.append(thNotes);
                 thead.append(trHead);
                 table.append(thead);
+
+                hasNotes = false;
 
                 tbody = document.createElement("TBODY");
                 standings.forEach((standing,index)=>{
@@ -156,6 +162,7 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.team`);
                     keys = keys.filter(key => key !== `${keyPrefix}.missing`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.playoff`);
 
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
@@ -182,6 +189,13 @@
                         tr.append(tdMissing);
                     }
 
+                    tdNotes = document.createElement("TD");
+                    tdNotes.innerHTML = "";
+                    if ( standing.playoff ) {
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> " + getPlayoffName(standing.playoff);
+                    }
+                    tr.append(tdNotes);
+
                     if ( (index+1) !== standing.place ) {
                         console.warn("inconsistent place value",index,standing.place);
                     }
@@ -202,7 +216,26 @@
                 });
                 table.append(tbody);
 
+                if ( ! hasNotes ) {
+                    table.classList.append("no_notes");
+                }
+
                 dataContainer.append(table);
+            }
+
+            function getPlayoffName(po) {
+                poName = po;
+
+                switch (po) {
+                    case "title":
+                        poName = "Title decider";
+                        break;
+
+                    default:
+                        console.warn("Unsupported playoff",po);
+                }
+
+                return poName;
             }
         </script>
     </body>
