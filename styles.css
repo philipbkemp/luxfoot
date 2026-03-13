@@ -48,14 +48,19 @@ table.standings.notes__some th:not(:last-child),
 table.standings.notes__none th:not(:nth-last-child(2)) {
     border-left-color: #FFFFFF;
 }
+
 table.standings.notes__none th:last-child,
-table.standings.notes__none td:last-child {
+table.standings.notes__none td:last-child,
+table.matches.notes__none td:last-child {
     display: none;
 }
 table.standings.notes__some th:last-child,
 table.standings.notes__some td:last-child {
     min-width: 300px;
     text-align: left;
+}
+table.matches.dates__none td:first-child {
+    display: none;
 }
 
 abbr {

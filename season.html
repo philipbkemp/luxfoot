@@ -117,14 +117,46 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.matches`);
 
                 if ( po.matches ) {
-                    po.matches.forEach(match=>{
-                        drawMatch(match,keyPrefix+".matches");
-                    });
+                    drawMatches(matches,keyPrefix+".matches");
                 }
             }
 
-            function drawMatch(match,keyPrefix) {
-                keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
+            function drawMatches(matches,keyPrefix) {
+                dataContainer = document.getElementById("dataContainer");
+
+                table = document.createElement("TABLE");
+                table.classList.add("matches");
+
+                hasDates = false;
+                hasNotes = false;
+
+                matches.forEach(match=>{
+                    keys = [...keys,...Object.keys(matches).map(key => `${keyPrefix}.${key}`)];
+                    keys = keys.filter(key => key !== `${keyPrefix}.date`);
+
+                    tr = document.createElement("TR");
+
+                    tdDate = document.createElement("TD");
+                    tdDate.innerHTML = "";
+                    if ( match.date ) {
+                        tdDate.innerHTML = match.date;
+                        hasDates = true;
+                    }
+                    tr.append(tdDate);
+
+                    table.append(tr);
+                });
+
+                if ( ! hasNotes ) {
+                    table.classList.add("notes__none");
+                }
+                if ( ! hasDates ) {
+                    table.classList.add("dates__none");
+                }
+
+                dataContainer.append(table);
+
+                keys = [...keys,...Object.keys(matches).map(key => `${keyPrefix}.${key}`)];
             }
 
             function drawLeague(league,keyPrefix) {
