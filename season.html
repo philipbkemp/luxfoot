@@ -425,6 +425,12 @@
 
                 hasNotes = false;
 
+                totalWins = 0;
+                totalDraws = 0;
+                totalLosses = 0;
+                totalFor = 0;
+                totalAgainst = 0;
+
                 tbody = document.createElement("TBODY");
                 standings.forEach((standing,index)=>{
                     keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
@@ -495,7 +501,11 @@
                         tdGd.innerHTML = standing.f - standing.a;
                         tr.append(tdGd);
 
-                        console.warn("TODO: check totals");
+                        totalWins += standing.w;
+                        totalDraws += standing.d;
+                        totalLosses += standing.l;
+                        totalFor += standing.f;
+                        totalAgainst += standing.a;
 
                     } else {
                         tdMissing = document.createElement("TD");
@@ -543,6 +553,16 @@
                     table.classList.add("notes__none");
                 } else {
                     table.classList.add("notes__some");
+                }
+
+                if ( totalWins !== totalLosses ) {
+                    console.error("Wins != Losses",totalWins,totalLosses);
+                }
+                if ( totalFor !== totalAgainst ) {
+                    console.error("For != Against",totalFor,totalAgainst);
+                }
+                if ( totalDraws % 2 === 0 ) {
+                    console.error("Uneven number of draws",totalDraws);
                 }
 
                 dataContainer.append(table);
