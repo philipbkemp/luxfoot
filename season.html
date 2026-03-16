@@ -261,13 +261,37 @@
 
                 matches.forEach(match=>{
                     keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
+                    keys = keys.filter(key => key !== `${keyPrefix}.home`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.away`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.score`);
 
                     if ( ! grid[match.home] ) {
                         grid[match.home] = [];
                     }
                     grid[match.home][match.away] = match.score;
-
                 });
+
+                dataContainer = document.getElementById("dataContainer");
+                table = document.createElement("TABLE");
+                table.classList.add("matchgrid");
+
+                thead = document.createElement("THEAD");
+                trHead = document.createElement("TR");
+                thHome = document.createElement("TH");
+                thHome.innerHTML = "";
+                trHead.append(thHome);
+                
+                teams = Object.keys(teams).sort();
+                teams.forEach(t=>{
+                    thTeam = document.createElement("TH");
+                    thTeam.innerHTML = "<abbr title='"+allTeams[t].name+"'>"+t+"</abbr>";
+                    trHead.append(thTeam);
+                });
+
+                thead.append(trHead);
+                table.append(thead);
+
+                dataContainer.append(table);
 
                 console.log(grid);
             }
