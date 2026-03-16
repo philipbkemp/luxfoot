@@ -91,6 +91,24 @@ table.matches td:nth-child(5) {
     text-align: left;
 }
 
+table.matchgrid {
+    border-collapse: collapse;
+}
+table.matchgrid th,
+table.matchgrid td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    min-width: 50px;
+}
+table.matchgrid td:nth-child(1) {
+    text-align: left;
+    font-weight: bold;
+}
+table.matchgrid abbr[title] {
+    text-decoration-color: black !important;
+}
+
 abbr {
     text-underline-offset: 3px;
     text-decoration-color: #FFFFFF;
