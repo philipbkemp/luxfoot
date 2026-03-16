@@ -314,6 +314,7 @@
 
                     if ( ! expectedStandings[match.home] ) {
                         expectedStandings[match.home] = [];
+                        expectedStandings[match.home]["team"] = match.home;
                         expectedStandings[match.home]["w"] = 0;
                         expectedStandings[match.home]["d"] = 0;
                         expectedStandings[match.home]["l"] = 0;
@@ -322,6 +323,7 @@
                     }
                     if ( ! expectedStandings[match.away] ) {
                         expectedStandings[match.away] = [];
+                        expectedStandings[match.away]["team"] = match.away;
                         expectedStandings[match.away]["w"] = 0;
                         expectedStandings[match.away]["d"] = 0;
                         expectedStandings[match.away]["l"] = 0;
