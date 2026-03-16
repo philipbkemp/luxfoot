@@ -281,7 +281,7 @@
                 thHome.innerHTML = "";
                 trHead.append(thHome);
                 
-                teams = Object.keys(teams).sort();
+                teams = Object.keys(grid).sort();
                 teams.forEach(t=>{
                     thTeam = document.createElement("TH");
                     thTeam.innerHTML = "<abbr title='"+allTeams[t].name+"'>"+t+"</abbr>";
