@@ -266,7 +266,7 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.score`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
 
-                    if ( standing.competition ) {
+                    if ( match.competition ) {
                         keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
                         if ( match.competition.type === "league" ) {
