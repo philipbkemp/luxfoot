@@ -303,6 +303,12 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
                     keys = keys.filter(key => key !== `${keyPrefix}.playoff`);
                     keys = keys.filter(key => key !== `${keyPrefix}.champion`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.w`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.d`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.l`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.f`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.a`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
 
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
@@ -324,7 +330,41 @@
                     tdTeam.innerHTML = allTeams[standing.team].name;
                     tr.append(tdTeam);
 
-                    if ( standing.missing ) {
+                    if ( ! standing.missing ) {
+
+                        tdP = documment.createElement("TD");
+                        tdP.innerHTML = standing.w + standing.d + standing.l;
+                        tr.append(tdP);
+
+                        tdW = documment.createElement("TD");
+                        tdW.innerHTML = standing.w;
+                        tr.append(tdW);
+
+                        tdD = documment.createElement("TD");
+                        tdD.innerHTML = standing.d;
+                        tr.append(tdD);
+
+                        tdL = documment.createElement("TD");
+                        tdL.innerHTML = standing.l;
+                        tr.append(tdL);
+
+                        tdF = documment.createElement("TD");
+                        tdF.innerHTML = standing.f;
+                        tr.append(tdF);
+
+                        tdA = documment.createElement("TD");
+                        tdA.innerHTML = standing.a;
+                        tr.append(tdA);
+
+                        tdPts = documment.createElement("TD");
+                        tdPts.innerHTML = (standing.w*(standing.pts_win?standing.pts_win:3))+standing.d;
+                        tr.append(tdPts);
+
+                        tdGd = documment.createElement("TD");
+                        tdGd.innerHTML = standing.f - standing.a;
+                        tr.append(tdGd);
+
+                    } else {
                         tdMissing = document.createElement("TD");
                         tdMissing.innerHTML = "no data";
                         tdMissing.colSpan = cols.length;
