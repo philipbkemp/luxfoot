@@ -261,7 +261,15 @@
 
                 matches.forEach(match=>{
                     keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
+
+                    if ( ! grid[match.home] ) {
+                        grid[match.home] = [];
+                    }
+                    grid[match.home][match.away] = match.score;
+
                 });
+
+                console.log(grid);
             }
 
             function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
