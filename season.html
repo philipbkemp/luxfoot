@@ -250,13 +250,13 @@
                     matchesTitle = document.createElement("H3");
                     matchesTitle.innerHTML = "Matches";
                     dataContainer.append(matchesTitle);
-                    drawMatchesGrid(league.matches,keyPrefix+".matches");
+                    drawMatchesGrid(league.matches,keyPrefix+".matches","league",league.level,league.name);
                 }
 
                 return playoffsNeeded;
             }
 
-            function drawMatchesGrid(matches,keyPrefix) {
+            function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName) {
                 grid = [];
 
                 matches.forEach(match=>{
@@ -264,11 +264,35 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.home`);
                     keys = keys.filter(key => key !== `${keyPrefix}.away`);
                     keys = keys.filter(key => key !== `${keyPrefix}.score`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.season`);
+
+                    if ( standing.competition ) {
+                        keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
+                        keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+                        if ( match.competition.type === "league" ) {
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                        }
+                    }
 
                     if ( ! grid[match.home] ) {
                         grid[match.home] = [];
                     }
                     grid[match.home][match.away] = match.score;
+                
+                    if ( season !== match.season ) {
+                        console.warn("inconsistent season value",season,match.season);
+                    }
+                    if ( compType !== match.competition.type ) {
+                        console.warn("inconsistent competition type",compType,match.competition.type);
+                    }
+                    if ( compType === "league" && compLevel !== match.competition.level ) {
+                        console.warn("inconsistent competition league level",compLevel,match.competition.level);
+                    }
+                    if ( compType === "league" && compName !== match.competition.league ) {
+                        console.warn("inconsistent competition league name",compName,match.competition.league);
+                    }
                 });
 
                 dataContainer = document.getElementById("dataContainer");
@@ -314,8 +338,6 @@
                 dataContainer.append(table);
 
                 console.warn("TODO: check matches = standings");
-
-                console.log(grid);
             }
 
             function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
