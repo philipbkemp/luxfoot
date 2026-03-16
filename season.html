@@ -285,7 +285,7 @@
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
-                        if ( standing.competion.type === "league" ) {
+                        if ( standing.competition.type === "league" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
