@@ -143,7 +143,7 @@
                     if ( match.competition ) {
                         keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
-                        if ( match.competion.type === "playoff" ) {
+                        if ( match.competition.type === "playoff" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.playoff`);
                         }
