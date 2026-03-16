@@ -101,6 +101,9 @@ abbr {
 tr.is-champion {
     background: #aad9f5;
 }
+tr.to-playoff--title {
+    background: #aad9f555;
+}
 tr.is-promoted {
     background: #bedf7c;
 }

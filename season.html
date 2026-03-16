@@ -376,6 +376,7 @@
                     if ( standing.playoff ) {
                         tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> " + getPlayoffName(standing.playoff);
                         playoffsNeeded.push(standing.playoff);
+                        tr.classList.add("to-playoff--"+standing.playoff);
                         hasNotes = true;
                     }
                     tr.append(tdNotes);
