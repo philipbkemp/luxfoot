@@ -293,6 +293,8 @@
 
                 dataContainer.append(table);
 
+                console.warn("TODO: check matches = standings");
+
                 console.log(grid);
             }
 
@@ -396,6 +398,8 @@
                         tdGd = document.createElement("TD");
                         tdGd.innerHTML = standing.f - standing.a;
                         tr.append(tdGd);
+
+                        console.warn("TODO: check totals");
 
                     } else {
                         tdMissing = document.createElement("TD");
