@@ -245,7 +245,22 @@
                     playoffsNeeded = drawStandingsTable(league.standings,keyPrefix+".standings","league",league.level,league.name);
                 }
 
+                if ( league.matches ) {
+                    matchesTitle = document.createElement("H3");
+                    matchesTitle.innerHTML = "Matches";
+                    dataContainer.append(matchesTitle);
+                    drawMatchesGrid(league.matches,keyPrefix+".matches");
+                }
+
                 return playoffsNeeded;
+            }
+
+            function drawMatchesGrid(matches,keyPrefix) {
+                grid = [];
+
+                matches.forEach(match=>{
+                    keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
+                });
             }
 
             function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
