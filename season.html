@@ -255,7 +255,7 @@
 
                 if ( league.standings && league.matches ) {
                     const sorted1 = [...league.standings].sort((a, b) => a.team.localeCompare(b.team));
-                    const sorted2 = [...expectedStandings].sort((a, b) => a.team.localeCompare(b.team));
+                    const sorted2 = Object.values(expectedStandings).sort((a, b) => a.team.localeCompare(b.team));
                     const standingsMatchGrid = sorted1.every((item, i) => {
                         const other = sorted2[i];
                         return (
