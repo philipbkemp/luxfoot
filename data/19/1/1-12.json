@@ -33,5 +33,39 @@
                 {"home":"HLBN","away":"SCLX","score":"-", "outcome": "SCLX did not attend (thinking they won the league on goal difference) - HLBN declared champions", "season": "1911-12", "competition":{"type":"playoff","playoff":"title"}}
             ]
         }
+    },
+    "international": {
+        "men": {
+            "matches": [{
+                "date": "1911-10-29",
+                "competition": "Friendly",
+                "home": "_LUX",
+                "away": "_FRA",
+                "score": "1-4",
+                "goals": [
+                    {"team":"LUX","min":15,"player":"Elter","id":5429},
+                    {"team":"FRA","min":26,"player":"Viallemonteil"},
+                    {"team":"FRA","min":32,"player":"Mesnier"},
+                    {"team":"FRA","min":80,"player":"Mesnier","penalty":true},
+                    {"team":"FRA","min":85,"player":"Gravier"}
+                ],
+                "stadium": "Stade Racing Club",
+                "location": "Luxembourg City",
+                "attendance": 2400,
+                "players": [
+                    {"id": 22666, "name": ["Alphonse","Weicker"],"club":"SCLX","gk": true,"cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id": 11747, "name": ["François","Lang"],"club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id": 13900, "name": ["Nicolas","Michaux"],"club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id": 18827, "name": ["Henri","Schwartz"],"club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id": 21545, "name": ["Michel","Ungeheuer"],"club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id":  5682, "name": ["Josy","Faber"],"club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id":  5429, "name": ["Albert","Elter"],"club":"RACL","goals":1,"cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id": 11458, "name": ["Emile","Kuborn"],"club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id":  1490, "name": ["Jemmy","Becker"],"club":"SCLX","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id": 10319, "name": ["Victor","Kauth"],"club":"HLBN","captain":true,"cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"id":  1762, "name": ["Zénon","Bernard"],"club":"SCLX","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+                ]
+            }]
+        }
     }
 }

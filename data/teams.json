@@ -760,5 +760,11 @@
     },
     "YGGC": {
         "name": "Yougo Grund-Cessange"
+    },
+    "_FRA": {
+        "name": "France"
+    },
+    "_LUX": {
+        "name": "Luxembourg"
     }
 }
