@@ -213,6 +213,7 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.level`);
                 keys = keys.filter(key => key !== `${keyPrefix}.note`);
                 keys = keys.filter(key => key !== `${keyPrefix}.standings`);
+                keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
 
                 if ( showComp !== thisComp ) {
                     return;
@@ -229,6 +230,12 @@
                     note = document.createElement("P");
                     note.innerHTML = "Note: " + league.note;
                     dataContainer.append(note);
+                }
+
+                if ( league.pts_win ) {
+                    notePts = document.createElement("P");
+                    notePts.innerHTML = "Note: " + league.pts_win + " points for a win";
+                    dataContainer.append(notePts);
                 }
 
                 if ( league.standings ) {
