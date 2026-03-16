@@ -340,13 +340,13 @@
                     expectedStandings[match.away].a += homeScore;
                     if ( homeScore > awayScore ) {
                         expectedStandings[match.home].w++;
-                        expectedStandings[match.away].w++;
+                        expectedStandings[match.away].l++;
                     } else if ( homeScore < awayScore ) {
                         expectedStandings[match.home].l++;
                         expectedStandings[match.away].w++;
                     } else {
-                        //expectedStandings[match.home].d++;
-                        //expectedStandings[match.away].d++;
+                        expectedStandings[match.home].d++;
+                        expectedStandings[match.away].d++;
                     }
                 });
 
