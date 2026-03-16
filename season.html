@@ -250,7 +250,24 @@
                     matchesTitle = document.createElement("H3");
                     matchesTitle.innerHTML = "Matches";
                     dataContainer.append(matchesTitle);
-                    drawMatchesGrid(league.matches,keyPrefix+".matches","league",league.level,league.name);
+                    expectedStandings = drawMatchesGrid(league.matches,keyPrefix+".matches","league",league.level,league.name);
+                }
+
+                if ( league.standings && league.matches ) {
+                    const sorted1 = [...league.standings].sort((a, b) => a.team.localeCompare(b.team));
+                    const sorted2 = [...expectedStandings].sort((a, b) => a.team.localeCompare(b.team));
+                    const standingsMatchGrid = sorted1.every((item, i) => {
+                        const other = sorted2[i];
+                        return (
+                            item.team === other.team &&
+                            item.won === other.won &&
+                            item.drawn === other.drawn &&
+                            item.lost === other.lost
+                        );
+                    });
+                    if ( ! standingsMatchGrid ) {
+                        console.error("Standings != Grid",sorted1,sorted2);
+                    }
                 }
 
                 return playoffsNeeded;
@@ -258,6 +275,7 @@
 
             function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName) {
                 grid = [];
+                expectedStandings = [];
 
                 matches.forEach(match=>{
                     keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
@@ -292,6 +310,40 @@
                     }
                     if ( compType === "league" && compName !== match.competition.league ) {
                         console.warn("inconsistent competition league name",compName,match.competition.league);
+                    }
+
+                    if ( ! expectedStandings[match.home] ) {
+                        expectedStandings[match.home] = [];
+                        expectedStandings[match.home][w] = 0;
+                        expectedStandings[match.home][d] = 0;
+                        expectedStandings[match.home][l] = 0;
+                        expectedStandings[match.home][f] = 0;
+                        expectedStandings[match.home][a] = 0;
+                    }
+                    if ( ! expectedStandings[match.away] ) {
+                        expectedStandings[match.away] = [];
+                        expectedStandings[match.away][w] = 0;
+                        expectedStandings[match.away][d] = 0;
+                        expectedStandings[match.away][l] = 0;
+                        expectedStandings[match.away][f] = 0;
+                        expectedStandings[match.away][a] = 0;
+                    }
+                    scoreParts = match.score.split("-");
+                    homeScore = parseInt(scoreParts[0]);
+                    awayScore = parseInt(scoreParts[1]);
+                    expectedStandings[match.home][f] += homeScore;
+                    expectedStandings[match.home][a] += awayScore;
+                    expectedStandings[match.away][f] += awayScore;
+                    expectedStandings[match.away][a] += homeScore;
+                    if ( homeScore > awayScore ) {
+                        expectedStandings[match.home][w]++;
+                        expectedStandings[match.away][w]++;
+                    } else if ( homeScore < awayScore ) {
+                        expectedStandings[match.home][l]++;
+                        expectedStandings[match.away][w]++;
+                    } else {
+                        //expectedStandings[match.home][d]++;
+                        //expectedStandings[match.away][d]++;
                     }
                 });
 
@@ -337,7 +389,7 @@
 
                 dataContainer.append(table);
 
-                console.warn("TODO: check matches = standings");
+                return expectedStandings;
             }
 
             function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
