@@ -291,6 +291,26 @@
                 thead.append(trHead);
                 table.append(thead);
 
+                tbody = document.createElement("TBODY");
+                teams.forEach(t=>{
+                    tr = document.createElement("TR");
+                    trTeam = document.createElement("TD");
+                    trTeam.innerHTML = allTeams[t].name;
+                    tr.append(trTeam);
+
+                    teams.forEach(tt=>{
+                        trMatch = document.createElement("TD");
+                        trMatch.innerHTML = "-";
+                        if ( t !== tt ) {
+                            trMatch.innerHTML = grid[t][tt];
+                        }
+                        tr.append(trMatch);
+                    });
+
+                    tbody.append(tr);
+                });
+                table.append(tbody);
+
                 dataContainer.append(table);
 
                 console.warn("TODO: check matches = standings");
