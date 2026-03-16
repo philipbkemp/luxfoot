@@ -260,11 +260,12 @@
                         const other = sorted2[i];
                         return (
                             item.team === other.team &&
-                            item.won === other.won &&
-                            item.drawn === other.drawn &&
-                            item.lost === other.lost
+                            item.w === other.w &&
+                            item.d === other.d &&
+                            item.l === other.l
                         );
                     });
+                    console.log(sorted1,sorted2,standingsMatchGrid);
                     if ( ! standingsMatchGrid ) {
                         console.error("Standings != Grid",sorted1,sorted2);
                     }
