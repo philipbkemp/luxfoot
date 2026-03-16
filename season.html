@@ -138,10 +138,15 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.away`);
                     keys = keys.filter(key => key !== `${keyPrefix}.score`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.outcome`);
 
                     if ( match.competition ) {
                         keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+                        if ( match.competion.type === "playoff" ) {
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.playoff`);
+                        }
                     }
 
                     tr = document.createElement("TR");
@@ -282,9 +287,11 @@
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
-                        keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
-                        keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
-                        keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                        if ( standing.competion === "league" ) {
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                        }
                     }
 
                     tr = document.createElement("TR");
