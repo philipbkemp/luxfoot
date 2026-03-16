@@ -129,7 +129,7 @@
                 table.classList.add("matches");
 
                 hasDates = false;
-                hasNotes = true;
+                hasNotes = false;
 
                 matches.forEach(match=>{
                     keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
@@ -138,6 +138,11 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.away`);
                     keys = keys.filter(key => key !== `${keyPrefix}.score`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
+
+                    if ( standing.competition ) {
+                        keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
+                        keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+                    }
 
                     tr = document.createElement("TR");
 
@@ -164,6 +169,17 @@
                     if ( season !== match.season ) {
                         console.warn("inconsistent season value",season,match.season);
                     }
+
+                    tdNotes = document.createElement("TD");
+                    tdNotes.innerHTML = "";
+                    if ( match.outcome ) {
+                        tdNotes.innerHTML = match.outcome
+                            .replaceAll(match.home,allTeams[match.home].name)
+                            .replaceAll(match.away,allTeams[match.away].name)
+                            ;
+                        hasNotes = true;
+                    }
+                    tr.append(tdNotes);
 
                     table.append(tr);
                 });
