@@ -313,39 +313,39 @@
                     }
 
                     if ( ! expectedStandings[match.home] ) {
-                        expectedStandings[match.home] = [];
-                        expectedStandings[match.home]["team"] = match.home;
-                        expectedStandings[match.home]["w"] = 0;
-                        expectedStandings[match.home]["d"] = 0;
-                        expectedStandings[match.home]["l"] = 0;
-                        expectedStandings[match.home]["f"] = 0;
-                        expectedStandings[match.home]["a"] = 0;
+                        expectedStandings[match.home] = {};
+                        expectedStandings[match.home].team = match.home;
+                        expectedStandings[match.home].w = 0;
+                        expectedStandings[match.home].d = 0;
+                        expectedStandings[match.home].l = 0;
+                        expectedStandings[match.home].f = 0;
+                        expectedStandings[match.home].a = 0;
                     }
                     if ( ! expectedStandings[match.away] ) {
-                        expectedStandings[match.away] = [];
-                        expectedStandings[match.away]["team"] = match.away;
-                        expectedStandings[match.away]["w"] = 0;
-                        expectedStandings[match.away]["d"] = 0;
-                        expectedStandings[match.away]["l"] = 0;
-                        expectedStandings[match.away]["f"] = 0;
-                        expectedStandings[match.away]["a"] = 0;
+                        expectedStandings[match.away] = {};
+                        expectedStandings[match.away].team = match.away;
+                        expectedStandings[match.away].w = 0;
+                        expectedStandings[match.away].d = 0;
+                        expectedStandings[match.away].l = 0;
+                        expectedStandings[match.away].f = 0;
+                        expectedStandings[match.away].a = 0;
                     }
                     scoreParts = match.score.split("-");
                     homeScore = parseInt(scoreParts[0]);
                     awayScore = parseInt(scoreParts[1]);
-                    expectedStandings[match.home]["f"] += homeScore;
-                    expectedStandings[match.home]["a"] += awayScore;
-                    expectedStandings[match.away]["f"] += awayScore;
-                    expectedStandings[match.away]["a"] += homeScore;
+                    expectedStandings[match.home].f += homeScore;
+                    expectedStandings[match.home].a += awayScore;
+                    expectedStandings[match.away].f += awayScore;
+                    expectedStandings[match.away].a += homeScore;
                     if ( homeScore > awayScore ) {
-                        expectedStandings[match.home]["w"]++;
-                        expectedStandings[match.away]["l"]++;
+                        expectedStandings[match.home].w++;
+                        expectedStandings[match.away].w++;
                     } else if ( homeScore < awayScore ) {
-                        expectedStandings[match.home]["l"]++;
-                        expectedStandings[match.away]["w"]++;
+                        expectedStandings[match.home].l++;
+                        expectedStandings[match.away].w++;
                     } else {
-                        //expectedStandings[match.home]["d"]++;
-                        //expectedStandings[match.away]["d"]++;
+                        //expectedStandings[match.home].d++;
+                        //expectedStandings[match.away].d++;
                     }
                 });
 
