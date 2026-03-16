@@ -259,7 +259,7 @@
                 grid = [];
 
                 matches.forEach(match=>{
-                    keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
+                    keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
                 });
             }
 
