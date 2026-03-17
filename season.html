@@ -257,7 +257,7 @@
                         tdGoalsSpacer = document.createElement("TD");
                         tdGoalsAway = document.createElement("TD");
 
-                        match.competition.goals.forEach(g=>{
+                        match.goals.forEach(g=>{
                             keys = [...keys,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
 
                             tdGoalsSpacer.innerHTML += g.min + "<br />";
