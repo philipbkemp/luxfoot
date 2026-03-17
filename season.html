@@ -100,6 +100,13 @@
                         });
                     }
 
+                    if ( data.international ) {
+                        keys = keys.filter(key => key !== 'international');
+                        Object.keys(data.international).forEach(int=>{
+                            drawInternational(int,data.international[int]);
+                        });
+                    }
+
                     if ( keys.length !== 0 ) {
                         console.error(keys.join(", "));
                         console.log(data);
@@ -109,6 +116,28 @@
                         console.log(data.playoffs);
                     }
                 });
+            
+            function drawInternational(intKey,intData) {
+                keys = [...keys,...Object.keys(intData).map(key => `international.${intKey}.${key}`)];
+
+                thisComp = "international:" + intKey;
+
+                thisLeagueNav = document.createElement("A");
+                thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
+                switch ( intKey ) {
+                    case "men":
+                        thisLeagueNav.innerHTML = "Men's National Team";
+                        keys = keys.filter(key => key !== 'international.men');
+                        break;
+                }
+                compNav.append(thisLeagueNav);
+
+                if ( showComp !== thisComp ) {
+                    return;
+                }
+
+                console.warn("SHOW INTERNATIONAL MATCHES ETC");
+            }
             
             function drawPlayoff(code,po,isShown,keyPrefix) {
                 keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
