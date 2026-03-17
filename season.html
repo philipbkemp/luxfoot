@@ -309,7 +309,7 @@
                         tdSquad.innerHTML = "";
                         match.players.forEach(p=>{
                             keys = [...keys,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
-                            keys = [...keys,...Object.keys(p.competition).map(key => `${keyPrefix}.players.competition.${key}`)];
+                            keys = [...keys,...Object.keys(p.cap).map(key => `${keyPrefix}.players.cap.${key}`)];
 
                             tdSquad.innerHTML +=
                                 (tdSquad.innerHTML === "" ? "" : "; ")
@@ -325,7 +325,6 @@
                             keys = keys.filter(key => key !== `${keyPrefix}.players.goals`);
                             keys = keys.filter(key => key !== `${keyPrefix}.players.cap`);
                             keys = keys.filter(key => key !== `${keyPrefix}.players.captain`);
-                            keys = keys.filter(key => key !== `${keyPrefix}.players.competition`);
                         });
 
                         tdEmpty1 = document.createElement("TD");
