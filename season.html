@@ -144,19 +144,16 @@
             
             function drawPlayoff(code,po,isShown,keyPrefix) {
                 keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
-
-                playoffTitle = document.createElement("H3");
-                playoffTitle.innerHTML = getPlayoffName(code);
-                dataContainer.append(playoffTitle);
-
-                keys = keys.filter(key => key !== `${keyPrefix}.${code}`);
+                keys = keys.filter(key => key !== `${keyPrefix}.matches`);
 
                 if ( ! isShown ) {
                     console.log("not showing",code);
                     return;
                 }
 
-                keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+                playoffTitle = document.createElement("H3");
+                playoffTitle.innerHTML = getPlayoffName(code);
+                dataContainer.append(playoffTitle);
 
                 if ( po.matches ) {
                     drawMatches(po.matches,keyPrefix+".matches");
