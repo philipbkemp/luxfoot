@@ -140,6 +140,11 @@
                 }
 
                 if ( intData.matches ) {
+                    
+                    matchesTitle = document.createElement("H3");
+                    matchesTitle.innerHTML = "Matches";
+                    dataContainer.append(matchesTitle);
+
                     keys = keys.filter(key => key !== `international.${intKey}.matches`);
                     drawMatches(intData.matches,`international.${intKey}`);
                 }
@@ -214,6 +219,9 @@
 
                     if ( season !== match.season ) {
                         console.warn("inconsistent season value",season,match.season);
+                    }
+                    if ( match.competition.type === "playoff" ) {
+                        console.warn("validate playoff competition data");
                     }
 
                     tdNotes = document.createElement("TD");
