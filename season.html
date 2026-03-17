@@ -231,7 +231,12 @@
                     if ( season !== match.season ) {
                         console.warn("inconsistent season value",season,match.season);
                     }
-                    console.warn("validate match competition data");
+
+                    if ( comp.type === "international" ) {
+                        // no checks
+                    } else {
+                        console.warn("validate match competition data",comp,match.competition);
+                    }
 
                     tdNotes = document.createElement("TD");
                     tdNotes.innerHTML = "";
@@ -301,6 +306,7 @@
                         trThree = document.createElement("TR");
 
                         tdSquad = document.createElement("TD");
+                        tdSquad.innerHTML = "";
                         match.players.forEach(p=>{
                             keys = [...keys,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
 
@@ -313,7 +319,6 @@
 
                             keys = keys.filter(key => key !== `${keyPrefix}.players.player`);
                         });
-                        tdSquad.innerHTML = "";
 
                         tdEmpty1 = document.createElement("TD");
                         tdEmpty1.innerHTML = "";
