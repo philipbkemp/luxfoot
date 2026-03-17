@@ -325,6 +325,22 @@
                             keys = keys.filter(key => key !== `${keyPrefix}.players.goals`);
                             keys = keys.filter(key => key !== `${keyPrefix}.players.cap`);
                             keys = keys.filter(key => key !== `${keyPrefix}.players.captain`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.players.gk`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.players`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.players.cap.competition`);
+                            if ( p.cap.competition !== match.competition.international ) {
+                                console.warn("Inconsistent international competition",p.cap.competition,match.competition.international);
+                            }
+                            if (
+                                (match.home === "_LUX" && p.cap.opponent !== match.away )
+                                || (match.away === "_LUX" && p.cap.opponent !== match.home )
+                            ) {
+                                console.warn("Inconsistent international opponent",p.cap.opponent,match.home,match.away);
+                            }
+                            if ( p.cap.date !== match.date ) {
+                                console.warn("Inconsistent international date",p.cap.date,match.date);
+                            }
+
                         });
 
                         tdEmpty1 = document.createElement("TD");
