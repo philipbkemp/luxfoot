@@ -1,0 +1,13 @@
+{
+    "BECK_JEM": {"id":  1490, "name": ["Jemmy","Becker"]},
+    "BERN_ZEN": {"id":  1762, "name": ["Zénon","Bernard"]},
+    "ELTE_ALB": {"id":  5429, "name": ["Albert","Elter"]},
+    "FABE_JOS": {"id":  5682, "name": ["Josy","Faber"]},
+    "KAUT_VIC": {"id": 10319, "name": ["Victor","Kauth"]},
+    "KUBO_EMI": {"id": 11458, "name": ["Emile","Kuborn"]},
+    "LANG_FRA": {"id": 11747, "name": ["François","Lang"]},
+    "MICH_NIC": {"id": 13900, "name": ["Nicolas","Michaux"]},
+    "SCHW_HEN": {"id": 18827, "name": ["Henri","Schwartz"]},
+    "UNGE_MIC": {"id": 21545, "name": ["Michel","Ungeheuer"]},
+    "WEIC_ALP": {"id": 22666, "name": ["Alphonse","Weicker"], "position":"GK"}
+}
