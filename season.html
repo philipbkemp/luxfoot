@@ -145,7 +145,7 @@
                     matchesTitle = document.createElement("H3");
                     matchesTitle.innerHTML = "Matches";
                     dataContainer.append(matchesTitle);
-                    drawMatches(intData.matches,`international.${intKey}`,true);
+                    drawMatches(intData.matches,`international.${intKey}`,{"type":"international"},true);
                 }
             }
             
@@ -162,11 +162,11 @@
                 dataContainer.append(playoffTitle);
 
                 if ( po.matches ) {
-                    drawMatches(po.matches,keyPrefix+".matches");
+                    drawMatches(po.matches,keyPrefix+".matches",{"type":"playoff","playoff":po});
                 }
             }
 
-            function drawMatches(matches,keyPrefix,hasIntData=false) {
+            function drawMatches(matches,keyPrefix,comp,hasIntData=false) {
                 dataContainer = document.getElementById("dataContainer");
 
                 table = document.createElement("TABLE");
@@ -268,7 +268,7 @@
 
                             playerEntry = g.player;
                             if ( g.team === "_LUX" ) {
-                                playerEntry = intPlayers[playerEntry].name[0] + " " + intPlayers[playerEntry].name[1];
+                                playerEntry = intPlayers[playerEntry].name[0][0] + " " + intPlayers[playerEntry].name[1];
                             }
                             if ( g.penalty ) {
                                 playerEntry += " (pen)";
@@ -296,10 +296,24 @@
                         tdMatchNotes.innerHTML = match.attendance;
                         trTwo.append(tdMatchNotes);
 
+                        table.append(trTwo);
+
                         trThree = document.createElement("TR");
 
                         tdSquad = document.createElement("TD");
-                        tdSquad.innerHTML = JSON.stringify(match.players);
+                        match.players.forEach(p=>{
+                            keys = [...keys,...Object.keys(g).map(key => `${keyPrefix}.players.${key}`)];
+
+                            tdSquad.innerHTML +=
+                                (tdSquad.innerHTML === "" ? "" : "; ")
+                                + intPlayers[playerEntry].name[0][0]
+                                + " "
+                                + intPlayers[playerEntry].name[1]
+                            ;
+
+                            keys = keys.filter(key => key !== `${keyPrefix}.players.player`);
+                        });
+                        tdSquad.innerHTML = "";
 
                         tdEmpty1 = document.createElement("TD");
                         tdEmpty1.innerHTML = "";
@@ -321,8 +335,6 @@
                         trThree.append(tdEmpty4);
 
                         table.append(trThree);
-
-                        table.append(trTwo);
                     }
                 });
 
