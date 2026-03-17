@@ -192,6 +192,7 @@
                         keys = keys.filter(key => key !== `${keyPrefix}.stadium`);
                         keys = keys.filter(key => key !== `${keyPrefix}.location`);
                         keys = keys.filter(key => key !== `${keyPrefix}.attendance`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.result`);
                     }
 
                     if ( match.competition ) {
@@ -222,6 +223,13 @@
 
                     tdScore = document.createElement("TD");
                     tdScore.innerHTML = match.score;
+                    if ( match.result ) {
+                        switch(match.result) {
+                            case "W": tdScore.classList.add("match-iswin"); break;
+                            case "D": tdScore.classList.add("match-isdraw"); break;
+                            case "L": tdScore.classList.add("match-isloss"); break;
+                        }
+                    }
                     tr.append(tdScore);
 
                     tdAway = document.createElement("TD");
@@ -300,7 +308,7 @@
                         trTwo.append(tdGoalsAway);
 
                         tdMatchNotes = document.createElement("TD");
-                        tdMatchNotes.innerHTML = match.attendance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");;
+                        tdMatchNotes.innerHTML = "Attendance: " + match.attendance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");;
                         trTwo.append(tdMatchNotes);
 
                         table.append(trTwo);

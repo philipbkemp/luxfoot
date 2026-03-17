@@ -43,6 +43,7 @@
                 "home": "_LUX",
                 "away": "_FRA",
                 "score": "1-4",
+                "result": "L",
                 "goals": [
                     {"team":"_LUX","min":15,"player":"ELTE_ALB"},
                     {"team":"_FRA","min":26,"player":"Viallemonteil"},

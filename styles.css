@@ -134,17 +134,19 @@ abbr {
 }
 
 
-tr.to-playoff--title {
+tr.to-playoff--title,
+td.match-isdraw {
     background: #aad9f555;
 }
-
 tr.is-champion {
     background: #aad9f5;
 }
-tr.is-promoted {
+tr.is-promoted,
+td.match-iswin {
     background: #bedf7c;
 }
-tr.is-relegated {
+tr.is-relegated,
+td.match-isloss {
     background: #e19284;
 }
 tr.is-removed {
