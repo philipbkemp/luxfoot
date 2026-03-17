@@ -242,8 +242,8 @@
 
                     if ( comp.type === "international" ) {
                         // no checks
-                    } else if ( comp.type === "playoff" && comp.playoff !== match.competition) {
-                        console.warn("inconsistent playoff competition",comp,match.competition);
+                    } else if ( comp.type === "playoff" && comp.playoff !== match.competition.playoff ) {
+                        console.warn("inconsistent playoff competition",comp,match.competition.playoff);
                     } else if ( ! ["international","playoff"].includes(comp.type)) {
                         console.warn("validate match competition data",comp,match.competition);
                     }
