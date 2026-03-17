@@ -39,7 +39,7 @@
             "matches": [{
                 "season": "1911-12",
                 "date": "1911-10-29",
-                "competition": "Friendly",
+                "competition": {"type":"international","international":"Friendly"},
                 "home": "_LUX",
                 "away": "_FRA",
                 "score": "1-4",

@@ -119,6 +119,7 @@
             
             function drawInternational(intKey,intData) {
                 keys = [...keys,...Object.keys(intData).map(key => `international.${intKey}.${key}`)];
+                keys = keys.filter(key => key !== `international.${intKey}.matches`);
 
                 thisComp = "international:" + intKey;
 
@@ -140,13 +141,11 @@
                 }
 
                 if ( intData.matches ) {
-                    
+
                     matchesTitle = document.createElement("H3");
                     matchesTitle.innerHTML = "Matches";
                     dataContainer.append(matchesTitle);
-
-                    keys = keys.filter(key => key !== `international.${intKey}.matches`);
-                    drawMatches(intData.matches,`international.${intKey}`);
+                    drawMatches(intData.matches,`international.${intKey}`,true);
                 }
             }
             
@@ -155,7 +154,6 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.matches`);
 
                 if ( ! isShown ) {
-                    console.log("not showing",code);
                     return;
                 }
 
@@ -168,11 +166,14 @@
                 }
             }
 
-            function drawMatches(matches,keyPrefix) {
+            function drawMatches(matches,keyPrefix,hasIntData=false) {
                 dataContainer = document.getElementById("dataContainer");
 
                 table = document.createElement("TABLE");
                 table.classList.add("matches");
+                if ( hasIntData ) {
+                    table.classList.add("matches--extradata");
+                }
 
                 hasDates = false;
                 hasNotes = false;
@@ -186,12 +187,19 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
                     keys = keys.filter(key => key !== `${keyPrefix}.outcome`);
 
+                    if ( hasIntData ) {
+                        
+                    }
+
                     if ( match.competition ) {
                         keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
                         if ( match.competition.type === "playoff" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.playoff`);
+                        } else if ( match.competition.type === "international" ) {
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.int`);
                         }
                     }
 
@@ -236,6 +244,15 @@
                     tr.append(tdNotes);
 
                     table.append(tr);
+
+                    if ( hasIntData ) {
+                        trTwo = document.createElement("TR");
+                        tdComp = document.createElement("TD");
+                        tdComp.innerHTML = match.competition.international;
+                        trTwo.append(tdComp);
+
+                        table.append(trTwo);
+                    }
                 });
 
                 if ( ! hasNotes ) {
