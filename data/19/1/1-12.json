@@ -44,11 +44,11 @@
                 "away": "_FRA",
                 "score": "1-4",
                 "goals": [
-                    {"team":"LUX","min":15,"player":"ELTE_ALB"},
-                    {"team":"FRA","min":26,"player":"Viallemonteil"},
-                    {"team":"FRA","min":32,"player":"Mesnier"},
-                    {"team":"FRA","min":80,"player":"Mesnier","penalty":true},
-                    {"team":"FRA","min":85,"player":"Gravier"}
+                    {"team":"_LUX","min":15,"player":"ELTE_ALB"},
+                    {"team":"_FRA","min":26,"player":"Viallemonteil"},
+                    {"team":"_FRA","min":32,"player":"Mesnier"},
+                    {"team":"_FRA","min":80,"player":"Mesnier","penalty":true},
+                    {"team":"_FRA","min":85,"player":"Gravier"}
                 ],
                 "stadium": "Stade Racing Club",
                 "location": "Luxembourg City",

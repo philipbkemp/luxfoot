@@ -266,7 +266,17 @@
 
                             tdGoalsSpacer.innerHTML += g.min + "<br />";
 
+                            if ( g.team === match.home ) {
+                                tdGoalsHome.innerHTML += g.player + "<br />";
+                                tdGoalsAway.innerHTML += "" + "<br />";
+                            } else {
+                                tdGoalsAway.innerHTML += g.player + "<br />";
+                                tdGoalsHome.innerHTML += "" + "<br />";
+                            }
+
                             keys = keys.filter(key => key !== `${keyPrefix}.min`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.team`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.player`);
                         });
 
                         trTwo.append(tdGoalsHome);
