@@ -93,16 +93,20 @@ table.matches td:nth-child(5) {
 table.matches.matches--extradata td {
     vertical-align: top;
 }
-table.matches.matches--extradata tr:nth-child(odd) td {
+table.matches.matches--extradata tr:nth-child(3n+1) td {
     border-bottom: none;
 }
-table.matches.matches--extradata tr:nth-child(even) td {
+table.matches.matches--extradata tr:nth-child(3n+2) td {
+    border-top: none;
+    border-bottom: none;
+}
+table.matches.matches--extradata tr:nth-child(3n+3) td {
     border-top: none;
 }
-table.matches.matches--extradata tr:nth-child(odd) td:nth-child(2),
-table.matches.matches--extradata tr:nth-child(odd) td:nth-child(3),
-table.matches.matches--extradata tr:nth-child(odd) td:nth-child(4) {
-    border-bottom: 1px solid #ccc;
+table.matches.matches--extradata tr:is(:nth-child(3n+2), :nth-child(3n+3)) td:nth-child(2),
+table.matches.matches--extradata tr:is(:nth-child(3n+2), :nth-child(3n+3)) td:nth-child(3),
+table.matches.matches--extradata tr:is(:nth-child(3n+2), :nth-child(3n+3)) td:nth-child(4) {
+    border-top: 1px solid #ccc;
 }
 
 table.matchgrid {

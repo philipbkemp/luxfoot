@@ -192,7 +192,6 @@
                         keys = keys.filter(key => key !== `${keyPrefix}.stadium`);
                         keys = keys.filter(key => key !== `${keyPrefix}.location`);
                         keys = keys.filter(key => key !== `${keyPrefix}.attendance`);
-                        keys = keys.filter(key => key !== `${keyPrefix}.players`);
                     }
 
                     if ( match.competition ) {
@@ -253,6 +252,7 @@
                         tdNotes.innerHTML = match.stadium + ", " + match.location;
 
                         trTwo = document.createElement("TR");
+
                         tdComp = document.createElement("TD");
                         tdComp.innerHTML = match.competition.international;
                         trTwo.append(tdComp);
@@ -266,17 +266,26 @@
 
                             tdGoalsSpacer.innerHTML += g.min + "<br />";
 
+                            playerEntry = g.player;
+                            if ( g.team === "_LUX" ) {
+                                playerEntry = intPlayers[playerEntry].name[0] + " " + intPlayers[playerEntry].name[1];
+                            }
+                            if ( g.penalty ) {
+                                playerEntry += " (pen)";
+                            }
+
                             if ( g.team === match.home ) {
-                                tdGoalsHome.innerHTML += g.player + "<br />";
+                                tdGoalsHome.innerHTML += playerEntry + "<br />";
                                 tdGoalsAway.innerHTML += "" + "<br />";
                             } else {
-                                tdGoalsAway.innerHTML += g.player + "<br />";
+                                tdGoalsAway.innerHTML += playerEntry + "<br />";
                                 tdGoalsHome.innerHTML += "" + "<br />";
                             }
 
                             keys = keys.filter(key => key !== `${keyPrefix}.goals.min`);
                             keys = keys.filter(key => key !== `${keyPrefix}.goals.team`);
                             keys = keys.filter(key => key !== `${keyPrefix}.goals.player`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.goals.penalty`);
                         });
 
                         trTwo.append(tdGoalsHome);
@@ -286,6 +295,32 @@
                         tdMatchNotes = document.createElement("TD");
                         tdMatchNotes.innerHTML = match.attendance;
                         trTwo.append(tdMatchNotes);
+
+                        trThree = document.createElement("TR");
+
+                        tdSquad = document.createElement("TD");
+                        tdSquad.innerHTML = JSON.stringify(match.players);
+
+                        tdEmpty1 = document.createElement("TD");
+                        tdEmpty1.innerHTML = "";
+                        trThree.append(tdEmpty31);
+                        tdEmpty2 = document.createElement("TD");
+                        tdEmpty2.innerHTML = "";
+                        if ( match.home === "_LUX" ) {
+                            trThree.append(tdSquad);
+                        }
+                        trThree.append(tdEmpty2);
+                        tdEmpty3 = document.createElement("TD");
+                        tdEmpty3.innerHTML = "";
+                        if ( match.away === "_LUX" ) {
+                            trThree.append(tdSquad);
+                        }
+                        trThree.append(tdEmpty3);
+                        tdEmpty4 = document.createElement("TD");
+                        tdEmpty4.innerHTML = "";
+                        trThree.append(tdEmpty4);
+
+                        table.append(trThree);
 
                         table.append(trTwo);
                     }
