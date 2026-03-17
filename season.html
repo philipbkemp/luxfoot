@@ -228,9 +228,7 @@
                     if ( season !== match.season ) {
                         console.warn("inconsistent season value",season,match.season);
                     }
-                    if ( match.competition.type === "playoff" ) {
-                        console.warn("validate playoff competition data");
-                    }
+                    console.warn("validate playoff competition data");
 
                     tdNotes = document.createElement("TD");
                     tdNotes.innerHTML = "";
@@ -246,10 +244,29 @@
                     table.append(tr);
 
                     if ( hasIntData ) {
+
+                        hasNotes = true;
+                        tdNotes.innerHTML = "has_int_data";
+
                         trTwo = document.createElement("TR");
                         tdComp = document.createElement("TD");
                         tdComp.innerHTML = match.competition.international;
                         trTwo.append(tdComp);
+
+                        tdGoalsHome = document.createElement("TD");
+                        tdGoalsSpacer = document.createElement("TD");
+                        tdGoalsAway = document.createElement("TD");
+
+                        match.competition.goals.forEach(g=>{
+                            keys = [...keys,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
+
+                            tdGoalsSpacer.innerHTML += g.min + "<br />";
+
+                            keys = keys.filter(key => key !== `${keyPrefix}.min`);
+                        });
+
+                        trTwo.append(tdGoalsHome);
+                        trTwo.append(tdGoalsAway);
 
                         table.append(trTwo);
                     }
