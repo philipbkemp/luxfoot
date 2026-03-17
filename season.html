@@ -302,13 +302,13 @@
 
                         tdSquad = document.createElement("TD");
                         match.players.forEach(p=>{
-                            keys = [...keys,...Object.keys(g).map(key => `${keyPrefix}.players.${key}`)];
+                            keys = [...keys,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
 
                             tdSquad.innerHTML +=
                                 (tdSquad.innerHTML === "" ? "" : "; ")
-                                + intPlayers[playerEntry].name[0][0]
+                                + intPlayers[pp.player].name[0][0]
                                 + " "
-                                + intPlayers[playerEntry].name[1]
+                                + intPlayers[pp.player].name[1]
                             ;
 
                             keys = keys.filter(key => key !== `${keyPrefix}.players.player`);
