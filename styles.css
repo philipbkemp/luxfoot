@@ -90,6 +90,9 @@ table.matches td:nth-child(5) {
     width: 450px;
     text-align: left;
 }
+table.matches.matches--extradata td {
+    vertical-align: top;
+}
 table.matches.matches--extradata tr:nth-child(odd) td {
     border-bottom: none;
 }

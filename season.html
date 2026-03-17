@@ -190,6 +190,8 @@
                     if ( hasIntData ) {
                         keys = keys.filter(key => key !== `${keyPrefix}.goals`);
                         keys = keys.filter(key => key !== `${keyPrefix}.stadium`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.location`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.attendance`);
                     }
 
                     if ( match.competition ) {
