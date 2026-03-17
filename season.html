@@ -228,7 +228,7 @@
                     if ( season !== match.season ) {
                         console.warn("inconsistent season value",season,match.season);
                     }
-                    console.warn("validate playoff competition data");
+                    console.warn("validate match competition data");
 
                     tdNotes = document.createElement("TD");
                     tdNotes.innerHTML = "";
@@ -266,6 +266,7 @@
                         });
 
                         trTwo.append(tdGoalsHome);
+                        trTwo.append(tdGoalsSpacer);
                         trTwo.append(tdGoalsAway);
 
                         table.append(trTwo);
