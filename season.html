@@ -188,7 +188,8 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.outcome`);
 
                     if ( hasIntData ) {
-                        
+                        keys = keys.filter(key => key !== `${keyPrefix}.goals`);
+                        keys = keys.filter(key => key !== `${keyPrefix}.stadium`);
                     }
 
                     if ( match.competition ) {
@@ -246,7 +247,7 @@
                     if ( hasIntData ) {
 
                         hasNotes = true;
-                        tdNotes.innerHTML = "has_int_data";
+                        tdNotes.innerHTML = match.stadium + ", " + match.location;
 
                         trTwo = document.createElement("TR");
                         tdComp = document.createElement("TD");
@@ -268,6 +269,10 @@
                         trTwo.append(tdGoalsHome);
                         trTwo.append(tdGoalsSpacer);
                         trTwo.append(tdGoalsAway);
+
+                        tdMatchNotes = document.createElement("TD");
+                        tdMatchNotes.innerHTML = match.attendance;
+                        trTwo.append(tdMatchNotes);
 
                         table.append(trTwo);
                     }
