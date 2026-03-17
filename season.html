@@ -298,7 +298,7 @@
                         trTwo.append(tdGoalsAway);
 
                         tdMatchNotes = document.createElement("TD");
-                        tdMatchNotes.innerHTML = match.attendance;
+                        tdMatchNotes.innerHTML = match.attendance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");;
                         trTwo.append(tdMatchNotes);
 
                         table.append(trTwo);
@@ -328,6 +328,8 @@
                             keys = keys.filter(key => key !== `${keyPrefix}.players.gk`);
                             keys = keys.filter(key => key !== `${keyPrefix}.players`);
                             keys = keys.filter(key => key !== `${keyPrefix}.players.cap.competition`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.players.cap.opponent`);
+                            keys = keys.filter(key => key !== `${keyPrefix}.players.cap.date`);
                             if ( p.cap.competition !== match.competition.international ) {
                                 console.warn("Inconsistent international competition",p.cap.competition,match.competition.international);
                             }
