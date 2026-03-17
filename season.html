@@ -27,12 +27,21 @@
             keys = [];
             allTeams = null;
 
+            intPlayers = null;
+
             fetch("data/teams.json")
                 .then(response => {
                     return response.json();
                 })
                 .then(data => {
                     allTeams = data;
+                    return fetch("data/intplayers.json");
+                })
+                .then(response=>{
+                    return response.json();
+                })
+                .then(data=>{
+                    intPlayers = data;
                     return fetch("data/"+seasonPath.join("/")+".json");
                 })
                 .then(response => {
