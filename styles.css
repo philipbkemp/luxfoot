@@ -13,9 +13,6 @@ p.error {
     margin: 0;
     padding: 10px 0;
 }
-.nav #competitions a:not(:last-child) {
-    margin-right: 10px;
-}
 
 a {
     color: #000000;

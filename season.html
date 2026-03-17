@@ -139,7 +139,10 @@
                     return;
                 }
 
-                console.warn("SHOW INTERNATIONAL MATCHES ETC");
+                if ( intData.matches ) {
+                    keys = keys.filter(key => key !== `international.${intKey}.matches`);
+                    drawMatches(intData.matches,`international.${intKey}`);
+                }
             }
             
             function drawPlayoff(code,po,isShown,keyPrefix) {
