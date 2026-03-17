@@ -122,6 +122,9 @@
 
                 thisComp = "international:" + intKey;
 
+                if ( compNav.innerHTML !== "" ) {
+                    compNav.innerHTML += " | ";
+                }
                 thisLeagueNav = document.createElement("A");
                 thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
                 switch ( intKey ) {
@@ -242,6 +245,9 @@
 
                 thisComp = "league:" + league.level;
 
+                if ( compNav.innerHTML !== "" ) {
+                    compNav.innerHTML += " | ";
+                }
                 thisLeagueNav = document.createElement("A");
                 thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
                 thisLeagueNav.innerHTML = league.name;
@@ -255,7 +261,7 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.matches`);
 
                 if ( showComp !== thisComp ) {
-                    return;
+                    return [];
                 }
 
                 playoffsNeeded = [];
