@@ -55,17 +55,17 @@
                 "location": "Luxembourg City",
                 "attendance": 2400,
                 "players": [
-                    {"player":"WEIC_ALP","club":"SCLX","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"gk":true},
-                    {"player":"LANG_FRA","club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"MICH_NIC","club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"SCHW_HEN","club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"UNGE_MIC","club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"FABE_JOS","club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"ELTE_ALB","club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"goals":1},
-                    {"player":"KUBO_EMI","club":"RACL","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"BECK_JEM","club":"SCLX","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"KAUT_VIC","club":"HLBN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"captain":true},
-                    {"player":"BERN_ZEN","club":"SCLX","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+                    {"player":"WEIC_ALP","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"gk":true},
+                    {"player":"LANG_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"MICH_NIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"UNGE_MIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"FABE_JOS","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"ELTE_ALB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"goals":1},
+                    {"player":"KUBO_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                    {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"captain":true},
+                    {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
                 ]
             }]
         }

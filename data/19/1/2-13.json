@@ -6,5 +6,44 @@
         "level": 1,
         "name": "Klasse A",
         "note": "No competitions held due to strikes"
-    }]
+    }],
+    "international": {
+        "men": {
+            "matches": [{
+                "season": "1912-13",
+                "date": "1913-04-20",
+                "competition": {"type":"international","international":"Friendly"},
+                "home": "_FRA",
+                "away": "_LUX",
+                "score": "8-0",
+                "result": "L",
+                "goals": [
+                    {"team":"_FRA","min":28,"player":"Maës"},
+                    {"team":"_FRA","min":30,"player":"Poullain"},
+                    {"team":"_FRA","min":56,"player":"Maës"},
+                    {"team":"_FRA","min":68,"player":"Maës"},
+                    {"team":"_FRA","min":78,"player":"Romano"},
+                    {"team":"_FRA","min":83,"player":"Ducret"},
+                    {"team":"_FRA","min":86,"player":"Maës"},
+                    {"team":"_FRA","min":88,"player":"Maës"}
+                ],
+                "stadium": "Stade Bauer",
+                "location": "Saint-Ouen-sur-Seine, Paris",
+                "attendance": 3000,
+                "players": [
+                    {"player":"STUM_ROB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"},"gk":true},
+                    {"player":"LANG_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"KREB_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"UNGE_MIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"FABE_JOS","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"THIL_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"},"captain":true},
+                    {"player":"RECK_ADY","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                    {"player":"BECK_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+                ]
+            }]
+        }
+    }
 }
