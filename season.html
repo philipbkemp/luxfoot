@@ -64,6 +64,7 @@
                     keys = [...keys,...Object.keys(data)];
 
                     document.getElementsByTagName("H1")[0].innerHTML += data.season;
+                    document.title += " | " + data.season;
                     keys = keys.filter(key => key !== 'season');
 
                     prevNext = document.getElementById("prev-next");
