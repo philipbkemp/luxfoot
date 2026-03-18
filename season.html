@@ -29,6 +29,8 @@
 
             intPlayers = null;
 
+            contentShown = false;
+
             fetch("data/teams.json")
                 .then(response => {
                     return response.json();
@@ -108,6 +110,13 @@
                         });
                     }
 
+                    if ( ! contentShown ) {
+                        errorP = document.createElement("P");
+                        errorP.classList.add("error");
+                        errorP.textContent = "Competition not found";
+                        document.body.append(errorP);
+                    }
+
                     if ( keys.length !== 0 ) {
                         console.error(keys.join(", "));
                         console.log(data);
@@ -141,6 +150,7 @@
                 if ( showComp !== thisComp ) {
                     return;
                 }
+                contentShown = true;
 
                 if ( intData.matches ) {
 
@@ -414,6 +424,7 @@
                 if ( showComp !== thisComp ) {
                     return [];
                 }
+                contentShown = true;
 
                 playoffsNeeded = [];
                 dataContainer = document.getElementById("dataContainer");
