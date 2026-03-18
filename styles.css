@@ -8,7 +8,7 @@ body {
 p.error {
     color: red;
 }
-.nav * {
+.nav > * {
     border-bottom: 1px solid #CCCCCC;
     margin: 0;
     padding: 10px 0;
@@ -157,16 +157,26 @@ tr.is-removed {
     margin: 30px 10px;
     padding: 0;
 }
-#seasonlist li {
+#prev-next,
+#competitions {
+    padding: 20px 0;
+}
+#seasonlist li,
+#prev-next li,
+#competitions li {
     list-style-type: none;
     display: inline-block;
 }
-#seasonlist li a {
+#seasonlist li a,
+#prev-next li a,
+#competitions li a {
     border: 1px solid black;
     padding: 5px 10px;
     margin-right: 10px;
     text-decoration: none;
 }
-#seasonlist li a:hover {
+#seasonlist li a:hover,
+#prev-next li a:hover,
+#competitions li a:hover {
     background-color: #eeeeee;
 }
