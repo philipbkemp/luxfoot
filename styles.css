@@ -175,6 +175,10 @@ tr.is-removed {
     margin-right: 10px;
     text-decoration: none;
 }
+#prev-next li a.active,
+#competitions li a.active {
+    background-color: #dddddd;
+}
 #seasonlist li a:hover,
 #prev-next li a:hover,
 #competitions li a:hover {

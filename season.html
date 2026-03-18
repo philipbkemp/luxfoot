@@ -131,6 +131,9 @@
                         keys = keys.filter(key => key !== 'international.men');
                         break;
                 }
+                if ( thisComp === showComp ) {
+                    thisLeagueNav.classList.append("active");
+                }
                 thisLeagueNavLi = document.createElement("LI");
                 thisLeagueNavLi.append(thisLeagueNav);
                 compNav.append(thisLeagueNavLi);
@@ -396,6 +399,9 @@
                 thisLeagueNav.innerHTML = league.name;
                 thisLeagueNavLi = document.createElement("LI");
                 thisLeagueNavLi.append(thisLeagueNav);
+                if ( thisComp === showComp ) {
+                    thisLeagueNav.classList.append("active");
+                }
                 compNav.append(thisLeagueNavLi);
 
                 keys = keys.filter(key => key !== `${keyPrefix}.name`);
