@@ -67,7 +67,7 @@
                     prevNext = document.getElementById("prev-next");
                     if ( data.prev ) {
                         goPrev = document.createElement("A");
-                        goPrev.href = "season.html?year="+data.prev;
+                        goPrev.href = "season.html?year="+data.prev+"&comp="+showComp;
                         goPrev.innerHTML = data.prev;
                         goPrevLi = document.createElement("LI");
                         goPrevLi.append(goPrev);
@@ -75,7 +75,7 @@
                     }
                     if ( data.next ) {
                         goNext = document.createElement("A");
-                        goNext.href = "season.html?year="+data.next;
+                        goNext.href = "season.html?year="+data.next+"&comp="+showComp;
                         goNext.innerHTML = data.next;
                         goNextLi = document.createElement("LI");
                         goNextLi.append(goNext);
