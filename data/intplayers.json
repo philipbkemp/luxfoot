@@ -13,7 +13,7 @@
     "RECK_ADY": {"id": 17490, "name": ["Ady","Reckinger"]},
     "SCHW_HEN": {"id": 18827, "name": ["Henri","Schwartz"]},
     "STUM_ROB": {"id": 20325, "name": ["Robert","Stümper"],"position":"GK"},
-    "THIL_EMI": {"id": 20924,"name":["Emile","Thill"]},
+    "THIL_EMI": {"id": 20924, "name": ["Emile","Thill"]},
     "UNGE_MIC": {"id": 21545, "name": ["Michel","Ungeheuer"]},
     "WEIC_ALP": {"id": 22666, "name": ["Alphonse","Weicker"], "position":"GK"}
 }
