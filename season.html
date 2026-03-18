@@ -367,8 +367,12 @@
                             }
 
                         });
-                        
+
+                        tdEmpty1 = document.createElement("TD");
+                        tdEmpty1.innerHTML = "";
+                        trThree.append(tdEmpty1);
                         trThree.append(tdSquad);
+
                         table.append(trThree);
                     }
                 });
