@@ -10,8 +10,8 @@
             <h1>
                 <a href="index.html">Luxembourgish Football</a>: <a href="seasons.html">Seasons</a>: 
             </h1>
-            <p id="prev-next"></p>
-            <p id="competitions"></p>
+            <ul id="prev-next"></ul>
+            <ul id="competitions"></ul>
         </div>
 
         <div id="dataContainer"></div>
@@ -69,16 +69,17 @@
                         goPrev = document.createElement("A");
                         goPrev.href = "season.html?year="+data.prev;
                         goPrev.innerHTML = data.prev;
-                        prevNext.append(goPrev);
-                    }
-                    if ( data.prev && data.next ) {
-                        prevNext.append(" | ");
+                        goPrevLi = document.createElement("LI");
+                        goPrevLi.append(goPrev);
+                        prevNext.append(goPrevLi);
                     }
                     if ( data.next ) {
                         goNext = document.createElement("A");
                         goNext.href = "season.html?year="+data.next;
                         goNext.innerHTML = data.next;
-                        prevNext.append(goNext);
+                        goNextLi = document.createElement("LI");
+                        goNextLi.append(goNext);
+                        prevNext.append(goNextLi);
                     }
                     keys = keys.filter(key => key !== 'next');
                     keys = keys.filter(key => key !== 'prev');
@@ -122,10 +123,6 @@
                 keys = keys.filter(key => key !== `international.${intKey}.matches`);
 
                 thisComp = "international:" + intKey;
-
-                if ( compNav.innerHTML !== "" ) {
-                    compNav.innerHTML += " | ";
-                }
                 thisLeagueNav = document.createElement("A");
                 thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
                 switch ( intKey ) {
@@ -134,7 +131,9 @@
                         keys = keys.filter(key => key !== 'international.men');
                         break;
                 }
-                compNav.append(thisLeagueNav);
+                thisLeagueNavLi = document.createElement("LI");
+                thisLeagueNavLi.append(thisLeagueNav);
+                compNav.append(thisLeagueNavLi);
 
                 if ( showComp !== thisComp ) {
                     return;
@@ -391,14 +390,13 @@
                 keys = [...keys,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
 
                 thisComp = "league:" + league.level;
-
-                if ( compNav.innerHTML !== "" ) {
-                    compNav.innerHTML += " | ";
-                }
+                
                 thisLeagueNav = document.createElement("A");
                 thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
                 thisLeagueNav.innerHTML = league.name;
-                compNav.append(thisLeagueNav);
+                thisLeagueNavLi = document.createElement("LI");
+                thisLeagueNavLi.append(thisLeagueNav);
+                compNav.append(thisLeagueNavLi);
 
                 keys = keys.filter(key => key !== `${keyPrefix}.name`);
                 keys = keys.filter(key => key !== `${keyPrefix}.level`);
