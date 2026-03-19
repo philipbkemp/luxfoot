@@ -123,7 +123,7 @@
                         console.log(data);
                     }
                     if ( playoffsNeeded.length !== 0 ) {
-                        console.error(playoffsNeeded.join(", "));
+                        console.error("PLAYOFFS MISSING",playoffsNeeded.join(", "));
                         console.log(data.playoffs);
                     }
                 });
@@ -855,7 +855,11 @@
                         break;
 
                     default:
-                        console.warn("Unsupported playoff",po);
+                        if ( po.indexOf("|") !== -1 ) {
+                            return getPlayoffName(po.split("|")[0]);
+                        } else {
+                            console.warn("Unsupported playoff",po);
+                        }
                 }
 
                 return poName;
