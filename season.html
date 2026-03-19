@@ -98,9 +98,24 @@
 
                     if ( data.playoffs ) {
                         keys = keys.filter(key => key !== 'playoffs');
+                        playoffsReallyNeeded = [];
+                        playoffsNeeded.forEach(pon=>{
+                            if ( pon.indexOf("|") !== -1 ) {
+                                pon.split("|").forEach(pon_a=>{
+                                    if ( ! playoffsReallyNeeded.includes(pon_a) ) {
+                                        playoffsReallyNeeded.push(pon_a);
+                                    }
+                                });
+                            } else {
+                                if ( ! playoffsReallyNeeded.includes(pon) ) {
+                                    playoffsReallyNeeded.push(pon);
+                                }
+                            }
+                        });
+
                         Object.keys(data.playoffs).forEach(po=>{
-                            drawPlayoff(po,data.playoffs[po],playoffsNeeded.includes(po),"playoffs."+po);
-                            playoffsNeeded = playoffsNeeded.filter(key => key !== po);
+                            drawPlayoff(po,data.playoffs[po],playoffsReallyNeeded.includes(po),"playoffs."+po);
+                            playoffsReallyNeeded = playoffsReallyNeeded.filter(key => key !== po);
                         });
                     }
 
