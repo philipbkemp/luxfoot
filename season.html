@@ -498,6 +498,30 @@
                             ...drawStandingsTable(serie.standings,keyPrefix+".standings","league_series",league.level,seriesName.innerHTML,serie.serie)
                         ];
                     }
+                    
+                    if ( serie.matches ) {
+                        matchesTitle = document.createElement("H3");
+                        matchesTitle.innerHTML = "Matches";
+                        dataContainer.append(matchesTitle);
+                        expectedStandings = drawMatchesGrid(serie.matches,keyPrefix+".matches","league_series",league.level,seriesName.innerHTML,serie.serie)
+                    }
+
+                    if ( serie.standings && serie.matches ) {
+                        const sorted1 = [...serie.standings].sort((a, b) => a.team.localeCompare(b.team));
+                        const sorted2 = Object.values(expectedStandings).sort((a, b) => a.team.localeCompare(b.team));
+                        const standingsMatchGrid = sorted1.every((item, i) => {
+                            const other = sorted2[i];
+                            return (
+                                item.team === other.team &&
+                                item.w === other.w &&
+                                item.d === other.d &&
+                                item.l === other.l
+                            );
+                        });
+                        if ( ! standingsMatchGrid ) {
+                            console.error("Standings != Grid",sorted1,sorted2);
+                        }
+                    }
 
                     if ( serie.pts_win !== league.pts_win ) {
                         console.warn("Inconsistent points per win definition",serie.pts_win,league.pts_win);
@@ -507,7 +531,7 @@
                 return playoffsNeeded;
             }
 
-            function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName) {
+            function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSeries=0) {
                 grid = [];
                 expectedStandings = [];
 
@@ -521,10 +545,13 @@
                     if ( match.competition ) {
                         keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
-                        if ( match.competition.type === "league" ) {
+                        if ( match.competition.type === "league" || match.competition.type === "league_series" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                        }
+                        if (match.competition.type === "league_series" ) {
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.series`);
                         }
                     }
 
@@ -539,11 +566,14 @@
                     if ( compType !== match.competition.type ) {
                         console.warn("inconsistent competition type",compType,match.competition.type);
                     }
-                    if ( compType === "league" && compLevel !== match.competition.level ) {
+                    if ( (compType === "league" || compType === "league_series") && compLevel !== match.competition.level ) {
                         console.warn("inconsistent competition league level",compLevel,match.competition.level);
                     }
-                    if ( compType === "league" && compName !== match.competition.league ) {
+                    if ( (compType === "league" || compType === "league_series") && compName !== match.competition.league ) {
                         console.warn("inconsistent competition league name",compName,match.competition.league);
+                    }
+                    if ( compType === "league_series" && compSeries !== match.competition.series ) {
+                        console.warn("inconsistent competition league series",compSeries,match.competition.series);
                     }
 
                     if ( ! expectedStandings[match.home] ) {
@@ -684,10 +714,13 @@
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
-                        if ( standing.competition.type === "league" ) {
+                        if ( standing.competition.type === "league" || match.competition.type === "league_series" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                        }
+                        if ( match.competition.type === "league_series" ) {
+                            keys = keys.filter(key => key !== `${keyPrefix}.competition.series`);
                         }
                     }
 
@@ -773,11 +806,14 @@
                     if ( compType !== standing.competition.type ) {
                         console.warn("inconsistent competition type",compType,standing.competition.type);
                     }
-                    if ( compType === "league" && compLevel !== standing.competition.level ) {
+                    if ( (compType === "league" || compType === "league_series") && compLevel !== standing.competition.level ) {
                         console.warn("inconsistent competition league level",compLevel,standing.competition.level);
                     }
-                    if ( compType === "league" && compName !== standing.competition.league ) {
+                    if ( (compType === "league" || compType === "league_series") && compName !== standing.competition.league ) {
                         console.warn("inconsistent competition league name",compName,standing.competition.league);
+                    }
+                    if ( compType === "league_series" && compSeries !== standing.competition.series ) {
+                        console.warn("inconsistent competition league series",compSeries,standing.competition.series);
                     }
 
                     tbody.append(tr);
