@@ -97,15 +97,15 @@
     "playoffs": {
         "title_playoff": {
             "matches": [
-                {"home":"JESH","away":"SDUD","score":"4-1", "season": "1914-15", "competition": { "type":"playoff", "playoff": "title_playoff"}},
-                {"home":"JESH","away":"CPET","score":"4-0", "season": "1914-15", "competition": { "type":"playoff", "playoff": "title_playoff"},"outcome":"JESH qualify for Title decider"},
-                {"home":"SCLX","away":"YBDK","score":"4-1", "season": "1914-15", "competition": { "type":"playoff", "playoff": "title_playoff"},"outcome":"SCLX disqualified for fielding ineligible player during Series 1 matches"},
-                {"home":"HLBN","away":"YBDK","score":"3-0", "season": "1914-15", "competition": { "type":"playoff", "playoff": "title_playoff"},"forfeit":true,"outcome":"HLBN qualify for Title decider"}
+                {"home":"JESH","away":"SDUD","score":"4-1", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"}},
+                {"home":"JESH","away":"CPET","score":"4-0", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"},"outcome":"JESH qualify for Title decider"},
+                {"home":"SCLX","away":"YBDK","score":"4-1", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"},"outcome":"SCLX disqualified for fielding ineligible player during Series 1 matches"},
+                {"home":"HLBN","away":"YBDK","score":"3-0", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"},"forfeit":true,"outcome":"HLBN qualify for Title decider"}
             ]
         },
         "title": {
             "matches": [
-                {"home":"HLBN","away":"JESH","score":"8-1","outcome": "HLBN champions", "season": "1914-15", "playoff": "title"}
+                {"home":"HLBN","away":"JESH","score":"8-1","outcome": "HLBN champions", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title"}}
             ]
         }
     }
