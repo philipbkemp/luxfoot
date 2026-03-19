@@ -19,6 +19,10 @@ a {
     text-underline-offset: 3px;
 }
 
+#dataContainer h2:not(:first-of-type) {
+    margin-top: 50px;
+}
+
 .data {
     padding: 20px 0;
 }

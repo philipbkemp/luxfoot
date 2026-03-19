@@ -13,7 +13,7 @@
             "standings": [
                 {"place":1, "team": "SCLX", "w": 3, "d":  0, "l": 1, "f": 10, "a":  8, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}, "pts_win":2, "playoff": "title_playoff"},
                 {"place":2, "team": "RACL", "w": 2, "d":  1, "l": 1, "f": 13, "a": 10, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}, "pts_win":2},
-                {"place":3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}, "pts_win":2, "playoff": "title_playoff","champion":true}
+                {"place":3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}, "pts_win":2, "playoff": "title_playoff|title","champion":true}
             ],
             "matches": [
                 {"home":"SCLX","away":"RACL","score":"6-5", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
@@ -28,7 +28,7 @@
             "name": "Series 2",
             "pts_win": 2,
             "standings": [
-                {"place":1, "team": "JESH", "w": 1, "d":  1, "l": 0, "f": 5, "a": 4, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}, "pts_win":2, "playoff": "title_playoff"},
+                {"place":1, "team": "JESH", "w": 1, "d":  1, "l": 0, "f": 5, "a": 4, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}, "pts_win":2, "playoff": "title_playoff|title"},
                 {"place":2, "team": "FOLA", "w": 0, "d":  1, "l": 1, "f": 4, "a": 5, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}, "pts_win":2}
             ],
             "matches": [

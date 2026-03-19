@@ -170,7 +170,7 @@
                     return;
                 }
 
-                playoffTitle = document.createElement("H3");
+                playoffTitle = document.createElement("H2");
                 playoffTitle.innerHTML = getPlayoffName(code);
                 dataContainer.append(playoffTitle);
 
@@ -484,6 +484,7 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.name`);
                     keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
                     keys = keys.filter(key => key !== `${keyPrefix}.standings`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.matches`);
 
                     seriesName = document.createElement("H2");
                     seriesName.innerHTML = league.name + " " + serie.name;
