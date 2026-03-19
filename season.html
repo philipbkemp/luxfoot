@@ -475,15 +475,18 @@
             }
 
             function drawSeries(series,keyPrefix) {
-                keys = [...keys,...Object.keys(series).map(key => `${keyPrefix}.${key}`)];
                 playoffsNeeded = [];
 
-                keys = keys.filter(key => key !== `${keyPrefix}.serie`);
-                keys = keys.filter(key => key !== `${keyPrefix}.name`);
+                series.forEach(serie=>{
+                    keys = [...keys,...Object.keys(serie).map(key => `${keyPrefix}.${key}`)];
 
-                seriesName = document.createElement("H2");
-                seriesName.innerHTML = league.name;
-                dataContainer.append(seriesName);
+                    keys = keys.filter(key => key !== `${keyPrefix}.serie`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.name`);
+
+                    seriesName = document.createElement("H2");
+                    seriesName.innerHTML = serie.name;
+                    dataContainer.append(seriesName);
+                });
 
                 return playoffsNeeded;
             }
