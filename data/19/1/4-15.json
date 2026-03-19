@@ -5,6 +5,7 @@
     "league": [{
         "level": 1,
         "name": "1. Division",
+        "pts_win": 2,
         "series": [{
             "serie": 1,
             "name": "Series 1",
@@ -74,6 +75,7 @@
     },{
         "level": 2,
         "name": "2. Division",
+        "pts_win": 2, 
         "series": [{
             "serie": 1,
             "name": "Series 1",

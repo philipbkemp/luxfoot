@@ -468,13 +468,13 @@
                 }
 
                 if ( league.series ) {
-                    playoffsNeeded = drawSeries(league.series,keyPrefix+".series");
+                    playoffsNeeded = drawSeries(league.series,keyPrefix+".series",league);
                 }
 
                 return playoffsNeeded;
             }
 
-            function drawSeries(series,keyPrefix) {
+            function drawSeries(series,keyPrefix,league) {
                 playoffsNeeded = [];
 
                 series.forEach(serie=>{
@@ -482,10 +482,15 @@
 
                     keys = keys.filter(key => key !== `${keyPrefix}.serie`);
                     keys = keys.filter(key => key !== `${keyPrefix}.name`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
 
                     seriesName = document.createElement("H2");
-                    seriesName.innerHTML = serie.name;
+                    seriesName.innerHTML = league.name + " " + serie.name;
                     dataContainer.append(seriesName);
+
+                    if ( series.pts_win !== league.pts_win ) {
+                        console.warn("Inconsistent points per win definition",series.pts_win,league.pts_win);
+                    }
                 });
 
                 return playoffsNeeded;
