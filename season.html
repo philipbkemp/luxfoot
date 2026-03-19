@@ -810,7 +810,9 @@
                     if ( standing.playoff ) {
                         tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> " + getPlayoffName(standing.playoff);
                         playoffsNeeded.push(standing.playoff);
-                        tr.classList.add("to-playoff--"+(standing.playoff.split("|").join(" to-playoff--")));
+                        standing.playoff.split("|").forEach(poclass=>{
+                            tr.classList.add("to-playoff--"+poclass);
+                        });
                         hasNotes = true;
                     }
                     tr.append(tdNotes);
