@@ -137,8 +137,8 @@
                         console.error(keys.join(", "));
                         console.log(data);
                     }
-                    if ( playoffsNeeded.length !== 0 ) {
-                        console.error("PLAYOFFS MISSING",playoffsNeeded.join(", "));
+                    if ( playoffsReallyNeeded.length !== 0 ) {
+                        console.error("PLAYOFFS MISSING",playoffsReallyNeeded.join(", "));
                         console.log(data.playoffs);
                     }
                 });
@@ -214,6 +214,7 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.score`);
                     keys = keys.filter(key => key !== `${keyPrefix}.season`);
                     keys = keys.filter(key => key !== `${keyPrefix}.outcome`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.forfeit`);
 
                     if ( hasIntData ) {
                         keys = keys.filter(key => key !== `${keyPrefix}.goals`);
@@ -250,13 +251,20 @@
                     tr.append(tdHome);
 
                     tdScore = document.createElement("TD");
-                    tdScore.innerHTML = match.score;
                     if ( match.result ) {
                         switch(match.result) {
                             case "W": tdScore.classList.add("match-iswin"); break;
                             case "D": tdScore.classList.add("match-isdraw"); break;
                             case "L": tdScore.classList.add("match-isloss"); break;
                         }
+                    }
+                    if ( match.forfeit ) {
+                        tdScoreFF = document.createElement("ABBR");
+                        tdScoreFF.title = "Match forfeited";
+                        tdScoreFF.innerHTML = match.score;
+                        tdScore.append(tdScoreFF);
+                    } else {
+                        tdScore.innerHTML = match.score;
                     }
                     tr.append(tdScore);
 
