@@ -483,13 +483,21 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.serie`);
                     keys = keys.filter(key => key !== `${keyPrefix}.name`);
                     keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.standings`);
 
                     seriesName = document.createElement("H2");
                     seriesName.innerHTML = league.name + " " + serie.name;
                     dataContainer.append(seriesName);
 
-                    if ( series.pts_win !== league.pts_win ) {
-                        console.warn("Inconsistent points per win definition",series.pts_win,league.pts_win);
+                    if ( serie.standings ) {
+                        standingTitle = document.createElement("H3");
+                        standingTitle.innerHTML = "Standings";
+                        dataContainer.append(standingTitle);
+                        playoffsNeeded = drawStandingsTable(serie.standings,keyPrefix+".standings","league_series",league.level,seriesName.innerHTML,serie.serie);
+                    }
+
+                    if ( serie.pts_win !== league.pts_win ) {
+                        console.warn("Inconsistent points per win definition",serie.pts_win,league.pts_win);
                     }
                 });
 
@@ -617,7 +625,7 @@
                 return expectedStandings;
             }
 
-            function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName) {
+            function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,compSeries=0) {
                 dataContainer = document.getElementById("dataContainer");
 
                 playoffsNeeded = [];
