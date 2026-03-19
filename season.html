@@ -714,12 +714,12 @@
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
                         keys = keys.filter(key => key !== `${keyPrefix}.competition`);
-                        if ( standing.competition.type === "league" || match.competition.type === "league_series" ) {
+                        if ( standing.competition.type === "league" || standing.competition.type === "league_series" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
                         }
-                        if ( match.competition.type === "league_series" ) {
+                        if ( standing.competition.type === "league_series" ) {
                             keys = keys.filter(key => key !== `${keyPrefix}.competition.series`);
                         }
                     }
