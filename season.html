@@ -408,6 +408,7 @@
                 keys = keys.filter(key => key !== `${keyPrefix}.standings`);
                 keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
                 keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+                keys = keys.filter(key => key !== `${keyPrefix}.series`);
 
                 if ( showComp !== thisComp ) {
                     return [];
@@ -463,6 +464,17 @@
                         console.error("Standings != Grid",sorted1,sorted2);
                     }
                 }
+
+                if ( league.series ) {
+                    playoffsNeeded = drawSeries(league.series,keyPrefix+".series");
+                }
+
+                return playoffsNeeded;
+            }
+
+            function drawSeries(series,keyPrefix) {
+                keys = [...keys,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
+                playoffsNeeded = [];
 
                 return playoffsNeeded;
             }
