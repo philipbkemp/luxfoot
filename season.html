@@ -418,9 +418,11 @@
                 playoffsNeeded = [];
                 dataContainer = document.getElementById("dataContainer");
 
-                leagueName = document.createElement("H2");
-                leagueName.innerHTML = league.name;
-                dataContainer.append(leagueName);
+                if ( ! league.series ) {
+                    leagueName = document.createElement("H2");
+                    leagueName.innerHTML = league.name;
+                    dataContainer.append(leagueName);
+                }
 
                 if ( league.note ) {
                     note = document.createElement("P");
@@ -473,8 +475,15 @@
             }
 
             function drawSeries(series,keyPrefix) {
-                keys = [...keys,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
+                keys = [...keys,...Object.keys(series).map(key => `${keyPrefix}.${key}`)];
                 playoffsNeeded = [];
+
+                keys = keys.filter(key => key !== `${keyPrefix}.serie`);
+                keys = keys.filter(key => key !== `${keyPrefix}.name`);
+
+                seriesName = document.createElement("H2");
+                seriesName.innerHTML = league.name;
+                dataContainer.append(seriesName);
 
                 return playoffsNeeded;
             }
