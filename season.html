@@ -493,7 +493,10 @@
                         standingTitle = document.createElement("H3");
                         standingTitle.innerHTML = "Standings";
                         dataContainer.append(standingTitle);
-                        playoffsNeeded = drawStandingsTable(serie.standings,keyPrefix+".standings","league_series",league.level,seriesName.innerHTML,serie.serie);
+                        playoffsNeeded = [
+                            ...playoffsNeeded,
+                            ...drawStandingsTable(serie.standings,keyPrefix+".standings","league_series",league.level,seriesName.innerHTML,serie.serie)
+                        ];
                     }
 
                     if ( serie.pts_win !== league.pts_win ) {
@@ -808,6 +811,10 @@
                 switch (po) {
                     case "title":
                         poName = "Title decider";
+                        break;
+                    
+                    case "title_playoff":
+                        poName = "Title playoff";
                         break;
 
                     default:
