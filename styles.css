@@ -130,14 +130,15 @@ table.matchgrid td:nth-child(1) {
     text-align: left;
     font-weight: bold;
 }
-table.matchgrid abbr[title] {
-    text-decoration-color: black !important;
-}
 
 abbr {
     text-underline-offset: 3px;
     text-decoration-color: #FFFFFF;
     cursor: help;
+}
+table.matchgrid abbr[title],
+table.matches abbr[title] {
+    text-decoration-color: black !important;
 }
 
 
