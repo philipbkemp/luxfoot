@@ -734,6 +734,8 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.f`);
                     keys = keys.filter(key => key !== `${keyPrefix}.a`);
                     keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.relegated`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.promoted`);
 
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
@@ -823,6 +825,17 @@
                         hasNotes = true;
                     }
 
+                    if ( standing.relegated ) {
+                        tr.classList.add("is-relegated");
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Relegated";
+                        hasNotes = true;
+                    }
+                    if ( standing.promoted ) {
+                        tr.classList.add("is-promoted");
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Promoted";
+                        hasNotes = true;
+                    }
+
                     if ( (index+1) !== standing.place ) {
                         console.warn("inconsistent place value",index,standing.place);
                     }
@@ -871,6 +884,10 @@
                 poName = po;
 
                 switch (po) {
+                    case "promotion_3":
+                        poNode = "Promotion playoff";
+                        break;
+
                     case "title":
                         poName = "Title decider";
                         break;
