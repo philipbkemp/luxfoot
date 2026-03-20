@@ -88,6 +88,7 @@
                     keys = keys.filter(key => key !== 'prev');
 
                     playoffsNeeded = [];
+                    playoffsReallyNeeded = [];
 
                     if ( data.league ) {
                         data.league.forEach(league=>{
@@ -98,7 +99,6 @@
 
                     if ( data.playoffs ) {
                         keys = keys.filter(key => key !== 'playoffs');
-                        playoffsReallyNeeded = [];
                         playoffsNeeded.forEach(pon=>{
                             if ( pon.indexOf("|") !== -1 ) {
                                 pon.split("|").forEach(pon_a=>{
