@@ -131,6 +131,8 @@
                         errorP.classList.add("error");
                         errorP.textContent = "Competition not found";
                         document.body.append(errorP);
+                        goPrev.href = "season.html?year="+data.prev;
+                        goNext.href = "season.html?year="+data.next;
                     }
 
                     if ( keys.length !== 0 ) {
