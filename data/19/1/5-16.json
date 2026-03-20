@@ -1,0 +1,90 @@
+{
+    "season": "1915-16",
+    "next": "1916-17",
+    "prev": "1914-15",
+    "league": [{
+        "level": 1,
+        "name": "1. Division",
+        "pts_win": 2,
+        "standings": [
+            {"place":1, "team": "HLBN", "w": 7, "d": 2, "l": 1, "f": 35, "a": 13, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2, "champion": true},
+		    {"place":2, "team": "SCLX", "w": 5, "d": 2, "l": 3, "f": 21, "a": 16, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
+		    {"place":3, "team": "FOLA", "w": 4, "d": 3, "l": 3, "f": 29, "a": 24, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
+		    {"place":4, "team": "RACL", "w": 4, "d": 1, "l": 5, "f": 23, "a": 18, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
+		    {"place":5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 15, "a": 34, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
+		    {"place":6, "team": "SDUD", "w": 2, "d": 1, "l": 7, "f": 14, "a": 32, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2, "relegated": true}
+        ],
+        "matches": [
+            {"home":"HLBN","away":"SCLX","score":"3-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"FOLA","score":"3-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"RACL","score":"2-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"JESH","score":"2-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"SDUD","score":"0-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"HLBN","score":"1-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"FOLA","score":"5-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"RACL","score":"2-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"JESH","score":"6-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"SDUD","score":"1-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"HLBN","score":"4-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"SCLX","score":"2-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"RACL","score":"2-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"JESH","score":"6-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"SDUD","score":"3-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"HLBN","score":"1-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"SCLX","score":"0-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"FOLA","score":"3-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"JESH","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"SDUD","score":"8-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"HLBN","score":"1-11", "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"SCLX","score":"2-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"FOLA","score":"2-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"RACL","score":"1-3" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"SDUD","score":"3-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"HLBN","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"SCLX","score":"3-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"FOLA","score":"3-7" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"RACL","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"JESH","score":"1-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}}
+        ]
+    },{
+        "level": 2,
+        "name": "2. Division",
+        "pts_win": 2,
+        "standings": [
+            {"place":1, "team": "YBDK", "w": 3, "d": 1, "l": 0, "f": 7, "a": 2, "season": "1915-16", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2, "promoted": true},
+            {"place":2, "team": "SDIF", "w": 2, "d": 0, "l": 2, "f": 9, "a": 7, "season": "1915-16", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
+            {"place":3, "team": "CPET", "w": 0, "d": 1, "l": 3, "f": 2, "a": 9, "season": "1915-16", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2}
+        ]
+    },{
+        "level": 3,
+        "name": "3. Division",
+        "pts_win": 3,
+        "series": [{
+            "serie": 1,
+            "name": "Series 1",
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3", "promoted": true},
+                {"place":2,"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3"},
+                {"place":3,"team": "ROLG", "w": 1, "d": 0, "l": 3, "f":  8, "a": 13, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2}
+            ]
+        },{
+            "serie": 2,
+            "name": "Series 2",
+            "pts_win": 2,
+            "standings" :[
+                {"place":1,"team": "JBET", "w": 3, "d": 0, "l": 1, "f": 15, "a": 10, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2, "playoff":"promotion_3", "promoted": true},
+                {"place":2,"team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2, "playoff":"promotion_3"},
+                {"place":3,"team": "ERDU", "w": 0, "d": 0, "l": 4, "f":  2, "a":  7, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2}
+            ]
+        }]
+    }],
+    "playoffs": {
+        "promotion_3": {
+            "matches": [
+                {"home":"CSHL","away":"JSTF","score":"5-0","outcome":"CSHL promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}},
+                {"home":"JBET","away":"NSCH","score":"4-0","outcome":"JBET promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}
+            ]
+        }
+    }
+}
