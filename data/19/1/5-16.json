@@ -82,8 +82,8 @@
     "playoffs": {
         "promotion_3": {
             "matches": [
-                {"home":"CSHL","away":"JSTF","score":"5-0","outcome":"CSHL promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}},
-                {"home":"JBET","away":"NSCH","score":"4-0","outcome":"JBET promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}
+                {"home":"CSHL","away":"JSTF","score":"5-0","outcome":"Series 1 Playoff: CSHL promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}},
+                {"home":"JBET","away":"NSCH","score":"4-0","outcome":"Series 2 Playoff: JBET promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}
             ]
         }
     }
