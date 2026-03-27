@@ -1,0 +1,770 @@
+{
+    "AAHE": {
+        "name": "Alliance Aischdall Hobscheid/Eischen"
+    },
+    "ADUD": {
+        "name": "Alliance Dudelange"
+    },
+    "AFLX": {
+        "name": "Avenir Flaxweiler"
+    },
+    "AHOS": {
+        "name": "AS Hosingen"
+    },
+    "ALCR": {
+        "name": "Alzetta Cruchten"
+    },
+    "ALLX": {
+        "name": "Alliance 01 Luxemburg"
+    },
+    "AMRS": {
+        "name": "Amis de la Moselle Remerschen"
+    },
+    "ARBD": {
+        "name": "Arantia Berdorf"
+    },
+    "AREM": {
+        "name": "AS Remich"
+    },
+    "ARIS": {
+        "name": "Aris Bonnevoie"
+    },
+    "ASCB": {
+        "name": "AS Colmar-Berg"
+    },
+    "ASCH": {
+        "name": "AS Schifflange"
+    },
+    "ASDF": {
+        "name": "AS Differdange"
+    },
+    "ASLX": {
+        "name": "AS Luxembourg"
+    },
+    "ASRB": {
+        "name": "AS Red Black Luxembourg"
+    },
+    "ASTN": {
+        "name": "Alisontia Steinsel"
+    },
+    "ATBS": {
+        "name": "Atert Bissen"
+    },
+    "AVBG": {
+        "name": "Avenir Beggen"
+    },
+    "AWDG": {
+        "name": "Arminia Weidingen"
+    },
+    "AZST": {
+        "name": "L'Alzette Steinsel"
+    },
+    "BAST": {
+        "name": "FC 47 Bastendorf"
+    },
+    "BBEE": {
+        "name": "Blue Boys Erpeldingen/Ettelbrück"
+    },
+    "BBML": {
+        "name": "Blue Boys Muhlenbach"
+    },
+    "BBOY": {
+        "name": "Black Boys Bascharage"
+    },
+    "BDBB": {
+        "name": "Berdenia Berbourg"
+    },
+    "BECH": {
+        "name": "Red Rovers Bech"
+    },
+    "BENF": {
+        "name": "RM Hamm Benfica"
+    },
+    "BIEK": {
+        "name": "FC Biekerech"
+    },
+    "BGHP": {
+        "name": "Blo-Giel Hupperdange"
+    },
+    "BGNV": {
+        "name": "FC Bigonville"
+    },
+    "BLVL": {
+        "name": "The Belval Belvaux"
+    },
+    "BOUS": {
+        "name": "US Bous"
+    },
+    "BRAC": {
+        "name": "Bracarense Grund"
+    },
+    "BRCH": {
+        "name": "FC Brouch"
+    },
+    "BSSW": {
+        "name": "Blue Star Schweicherthal"
+    },
+    "BVAT": {
+        "name": "US Boevange/Attert"
+    },
+    "BWIT": {
+        "name": "Blo-Wäiss Itzig"
+    },
+    "BWMD": {
+        "name": "Blo-Wäiss Medernach"
+    },
+    "BYUD": {
+        "name": "FC Beyren-Udinesina"
+    },
+    "CBRA": {
+        "name": "Cebra 01"
+    },
+    "CBSH": {
+        "name": "CS Bourscheid"
+    },
+    "CECH": {
+        "name": "CS Echternach"
+    },
+    "CESS": {
+        "name": "Cessange FC"
+    },
+    "CGRV": {
+        "name": "CS Grevenmacher"
+    },
+    "CLMC": {
+        "name": "ES Clemency"
+    },
+    "CLVX": {
+        "name": "Claravallis Clervaux"
+    },
+    "CMLB": {
+        "name": "CS Mondorf-les-Bains"
+    },
+    "CSHL": {
+        "name": "CS Hollerich"
+    },
+    "CPET": {
+        "name": "CS Petange"
+    },
+    "CROD": {
+        "name": "Chiers Rodange"
+    },
+    "CSOB": {
+        "name": "CS Oberkorn"
+    },
+    "DAHL": {
+        "name": "US Dahl"
+    },
+    "DARE": {
+        "name": "Daring Club Echternach"
+    },
+    "DEIC": {
+        "name": "Daring Club Eich"
+    },
+    "DIFF": {
+        "name": "Differdange 03"
+    },
+    "DONC": {
+        "name": "FC Doncols"
+    },
+    "DRZV": {
+        "name": "Diables Rouges Zolver"
+    },
+    "ECBT": {
+        "name": "Eclair Bettembourg"
+    },
+    "EBDU": {
+        "name": "Etoile Bleu Dudelange"
+    },
+    "EGWM": {
+        "name": "Egalité Weimerskirch"
+    },
+    "EHLR": {
+        "name": "FC Ehlerange"
+    },
+    "EITZ": {
+        "name": "Excelsior Itzig"
+    },
+    "ENFM": {
+        "name": "Enfants de la Source Mondorf"
+    },
+    "ERDU": {
+        "name": "Etoile Rouge 1908 Dudelange"
+    },
+    "ERPL": {
+        "name": "FC Erpeldange 72"
+    },
+    "ESHW": {
+        "name": "ES Schouweiler"
+    },
+    "ESLX": {
+        "name": "Etoile Sportive Luxembourg"
+    },
+    "ETZE": {
+        "name": "Etzella Ettelbréck"
+    },
+    "EVER": {
+        "name": "FC Everlange"
+    },
+    "EWLZ": {
+        "name": "Union Ardennes Eschweiler/Wiltz"
+    },
+    "EXGV": {
+        "name": "Excelsior Grevels"
+    },
+    "F91D": {
+        "name": "F91 Dudelange"
+    },
+    "FBU1": {
+        "name": "Flaxweiler/Beyren Udinesina 01"
+    },
+    "FCBB": {
+        "name": "FC Bauschleiden/Baschleiden"
+    },
+    "FCNC": {
+        "name": "Fortuna Canach"
+    },
+    "FCOB": {
+        "name": "FC Oberkorn"
+    },
+    "FCPR": {
+        "name": "FC Pratzerthal/Rédange"
+    },
+    "FELL": {
+        "name": "FC Ell"
+    },
+    "FOLA": {
+        "name": "Fola Esch"
+    },
+    "FOLS": {
+        "name": "US Folschette"
+    },
+    "FRTA": {
+        "name": "Forta Beaufort"
+    },
+    "GBHT": {
+        "name": "GB Harlange/Tarchamps"
+    },
+    "GDLL": {
+        "name": "Grupo Desportivo dos Lusitanos de Larochette"
+    },
+    "GDUD": {
+        "name": "Gallia Dudelange"
+    },
+    "GOLD": {
+        "name": "Gold a Ro't Wiltz"
+    },
+    "GRAU": {
+        "name": "US Graulinster"
+    },
+    "GRIV": {
+        "name": "CS Greiveldange"
+    },
+    "GSWW": {
+        "name": "Green Star Wilwerdingen"
+    },
+    "HAGN": {
+        "name": "US Hagen"
+    },
+    "HAMM": {
+        "name": "FC Hamm 37"
+    },
+    "HARL": {
+        "name": "FC Harlange"
+    },
+    "HESH": {
+        "name": "Hômecht Esch"
+    },
+    "HLBN": {
+        "name": "US Hollerich/Bonnevoie"
+    },
+    "HOBS": {
+        "name": "CS Hobscheid"
+    },
+    "HOPB": {
+        "name": "Hoping Burange"
+    },
+    "HOSC": {
+        "name": "FC Hoscheid"
+    },
+    "HOST": {
+        "name": "US Hostert"
+    },
+    "HRTB": {
+        "name": "Hertha Beckerich"
+    },
+    "HUPP": {
+        "name": "FC Hupperdange"
+    },
+    "IESH": {
+        "name": "The International Esch"
+    },
+    "ISKA": {
+        "name": "Iska Boys Simmern"
+    },
+    "JBET": {
+        "name": "Jeunesse Bettembourg"
+    },
+    "JBIW": {
+        "name": "Jeunesse Biwer"
+    },
+    "JCNC": {
+        "name": "Jeunesse Canach"
+    },
+    "JECT": {
+        "name": "Jeunesse Echternach"
+    },
+    "JESH": {
+        "name": "Jeunesse Esch"
+    },
+    "JFLX": {
+        "name": "Jeunesse Flaxweiler"
+    },
+    "JGIL": {
+        "name": "Jeunesse Gilsdorf"
+    },
+    "JGOB": {
+        "name": "Jeunesse Goeblange"
+    },
+    "JGOS": {
+        "name": "Jeunesse Goesdorf"
+    },
+    "JHAG": {
+        "name": "Jeunesse Sportive Hagen"
+    },
+    "JHSD": {
+        "name": "Jeunesse Heisdorf"
+    },
+    "JHTC": {
+        "name": "Jeunesse Hautcharage"
+    },
+    "JKGB": {
+        "name": "Jeunesse Koerich/Goeblange"
+    },
+    "JKYL": {
+        "name": "Jeunesse 07 Kayl"
+    },
+    "JMAM": {
+        "name": "Jeunesse Mamer"
+    },
+    "JMON": {
+        "name": "Jeunesse Mondercange"
+    },
+    "JOSP": {
+        "name": "Jeunesse Ospern"
+    },
+    "JSCH": {
+        "name": "Jeunesse Schieren"
+    },
+    "JSCV": {
+        "name": "Jeunesse Sportive Clervalloise"
+    },
+    "JSKH": {
+        "name": "JS Koerich"
+    },
+    "JSNM": {
+        "name": "Jeunesse Sportive Sanem"
+    },
+    "JSTF": {
+        "name": "Jeunesse Steinfort"
+    },
+    "JUNG": {
+        "name": "Jeunesse Junglinster"
+    },
+    "JUSE": {
+        "name": "Jeunesse Useldange"
+    },
+    "JVRL": {
+        "name": "Jeunesse Verlorenkost"
+    },
+    "JWAS": {
+        "name": "Jeunesse Wasserbillig"
+    },
+    "JWMK": {
+        "name": "Jeunesse Weimerskirch"
+    },
+    "JWIL": {
+        "name": "Jeunesse Wilwerdingen"
+    },
+    "KAER": {
+        "name": "UN Käerjéng 97"
+    },
+    "KHLN": {
+        "name": "FC Kehlen"
+    },
+    "KNAP": {
+        "name": "FC Knaphoscheid/Selscheid"
+    },
+    "KOEP": {
+        "name": "FC Koeppchen"
+    },
+    "KOPS": {
+        "name": "FC Kopstal 33"
+    },
+    "KOSM": {
+        "name": "FC Koerich"
+    },
+    "KPWW": {
+        "name": "Kiischpelt Wilwerwiltz"
+    },
+    "KWRM": {
+        "name": "Koeppchen Wormeldange"
+    },
+    "LADH": {
+        "name": "Les Aiglons Dalheim"
+    },
+    "LAHD": {
+        "name": "Les Ardennais Huldange"
+    },
+    "LARD": {
+        "name": "Les Ardoisiers Perlé"
+    },
+    "LLMP": {
+        "name": "FC Luxembourg Limpertsberg"
+    },
+    "LRNZ": {
+        "name": "FC Lorentzweiler"
+    },
+    "LUNA": {
+        "name": "Luna Oberkorn"
+    },
+    "LUXC": {
+        "name": "FC Luxembourg City"
+    },
+    "MAMR": {
+        "name": "Mamer 32"
+    },
+    "MANC": {
+        "name": "Mansfeldia Clausen"
+    },
+    "MARM": {
+        "name": "Marisca Mersch"
+    },
+    "MDCG": {
+        "name": "FC Mondercange"
+    },
+    "MDLB": {
+        "name": "US Mondorf-les-Bains"
+    },
+    "MERL": {
+        "name": "US Merl"
+    },
+    "MGWW": {
+        "name": "Les Montagnards Weiswampach"
+    },
+    "MINL": {
+        "name": "Minerva Lintgen"
+    },
+    "MLSV": {
+        "name": "Minière Lasauvage"
+    },
+    "MONF": {
+        "name": "Le Monflin Bigonville"
+    },
+    "MRTZ": {
+        "name": "Sporting Mertzig"
+    },
+    "MUNS": {
+        "name": "FC Munsbach"
+    },
+    "NESH": {
+        "name": "National Esch"
+    },
+    "NORD": {
+        "name": "FF Norden 02"
+    },
+    "NORZ": {
+        "name": "FC Noertzange HF"
+    },
+    "NSCH": {
+        "name": "National Schifflange"
+    },
+    "OBCN": {
+        "name": "Old Boys Consdorf"
+    },
+    "OVND": {
+        "name": "Orania Vianden"
+    },
+    "OYCW": {
+        "name": "Olympia Christnach/Waldbillig"
+    },
+    "OYMP": {
+        "name": "Olympique Äischen"
+    },
+    "PHLK": {
+        "name": "Phalanx Kleinbettingen"
+    },
+    "PRTZ": {
+        "name": "AS Pratzerthal"
+    },
+    "PROC": {
+        "name": "Progrès Cessange"
+    },
+    "PROG": {
+        "name": "Progrès Grund"
+    },
+    "PRON": {
+        "name": "Progrès Niederkorn"
+    },
+    "RACE": {
+        "name": "Racing Union"
+    },
+    "RACL": {
+        "name": "Racing Club Luxembourg"
+    },
+    "RAMB": {
+        "name": "US Rambrouch"
+    },
+    "RBAS": {
+        "name": "Red Boys Aspelt"
+    },
+    "RBDF": {
+        "name": "Red Boys Differdange"
+    },
+    "RBE7": {
+        "name": "Red Black-Egalité 07"
+    },
+    "RBPF": {
+        "name": "Red Black Pfaffenthal"
+    },
+    "REIS": {
+        "name": "US Reisdorf"
+    },
+    "RHDS": {
+        "name": "Racing Heiderscheid"
+    },
+    "RHSE": {
+        "name": "Racing Heiderscheid/Eschdorf"
+    },
+    "RIEF": {
+        "name": "D'Rief Schwebsange"
+    },
+    "RLCN": {
+        "name": "Ro'de Le'w Consthum"
+    },
+    "RLND": {
+        "name": "Ro'de Le'w Niederdonven"
+    },
+    "RMHM": {
+        "name": "FC RM Hamm Benfica"
+    },
+    "RMLX": {
+        "name": "RM 86 Luxembourg"
+    },
+    "RODG": {
+        "name": "FC Rodange 91"
+    },
+    "ROLG": {
+        "name": "CS Rollingergrund"
+    },
+    "RPDN": {
+        "name": "Rapid Neudorf"
+    },
+    "RPLL": {
+        "name": "Rupensia Lusitanos Larochette"
+    },
+    "RROD": {
+        "name": "Racing Rodange"
+    },
+    "RSMB": {
+        "name": "Red Star Merl/Belair"
+    },
+    "RSML": {
+        "name": "Red Star Merl"
+    },
+    "RSSW": {
+        "name": "Red Star Sandweiler"
+    },
+    "RUPL": {
+        "name": "Rupensia Larochette"
+    },
+    "SAND": {
+        "name": "US Sandweiler"
+    },
+    "SBCK": {
+        "name": "Sporting Beckerich"
+    },
+    "SBEL": {
+        "name": "Sporting Bellain"
+    },
+    "SBRT": {
+        "name": "Sporting Bertrange"
+    },
+    "SCBT": {
+        "name": "SC Bettembourg"
+    },
+    "SCHF": {
+        "name": "Schifflange 95"
+    },
+    "SCHR": {
+        "name": "FC Schieren"
+    },
+    "SCLX": {
+        "name": "SC Luxembourg"
+    },
+    "SDIF": {
+        "name": "SC Differdange"
+    },
+    "SDUD": {
+        "name": "Stade Dudelange"
+    },
+    "SELL": {
+        "name": "SC Ell"
+    },
+    "SGRV": {
+        "name": "Stade Mosellan Grevenmacher"
+    },
+    "SHGN": {
+        "name": "FC Schengen"
+    },
+    "SMOB": {
+        "name": "Saint Michel Oberpallen"
+    },
+    "SNEM": {
+        "name": "CS Sanem"
+    },
+    "SPDD": {
+        "name": "Sparta Dudelange"
+    },
+    "SPOR": {
+        "name": "Spora Luxembourg"
+    },
+    "SPST": {
+        "name": "Sporting Steinfort"
+    },
+    "SRED": {
+        "name": "SC Rédange"
+    },
+    "STNG": {
+        "name": "FC Stengefort"
+    },
+    "STET": {
+        "name": "SC Tétange"
+    },
+    "SURA": {
+        "name": "Sura Esch/Sauer"
+    },
+    "SURM": {
+        "name": "Sura Michelau"
+    },
+    "SWFT": {
+        "name": "Swift Hesperange"
+    },
+    "SYRA": {
+        "name": "Syra Mensdorf"
+    },
+    "TLMD": {
+        "name": "Titus Lamadelaine"
+    },
+    "TRIG": {
+        "name": "Tricolore Gasperich"
+    },
+    "TRIM": {
+        "name": "Tricolore Muhlenweg"
+    },
+    "TSVG": {
+        "name": "Racing Troisvierges"
+    },
+    "TWTC": {
+        "name": "Tarwat Tarchamps"
+    },
+    "U5KT": {
+        "name": "Union 05 Kayl/Tétange"
+    },
+    "UBEK": {
+        "name": "Union Beckerich"
+    },
+    "UBSH": {
+        "name": "US Bascharage"
+    },
+    "UEDF": {
+        "name": "US Eschdorf"
+    },
+    "UESH": {
+        "name": "US Esch"
+    },
+    "UFLN": {
+        "name": "US Feulen"
+    },
+    "ULUX": {
+        "name": "Union Luxembourg"
+    },
+    "UMRT": {
+        "name": "US Mertert"
+    },
+    "UNAS": {
+        "name": "UNA Strassen"
+    },
+    "UNMW": {
+        "name": "Union Mertert/Wasserbillig"
+    },
+    "UNRB": {
+        "name": "Union Remich/Bous"
+    },
+    "UNTP": {
+        "name": "Union Titus Petange"
+    },
+    "URUM": {
+        "name": "US Rumelange"
+    },
+    "USBC": {
+        "name": "US Berdorf/Consdorf"
+    },
+    "USDD": {
+        "name": "US Dudelange"
+    },
+    "USMM": {
+        "name": "US Moutfort/Medingen"
+    },
+    "USND": {
+        "name": "US Niederwiltz"
+    },
+    "UWLD": {
+        "name": "US Waldbillig"
+    },
+    "VICR": {
+        "name": "Victoria Rosport"
+    },
+    "VINE": {
+        "name": "Vinesca Ehnen"
+    },
+    "WALF": {
+        "name": "Résidence Walferdange"
+    },
+    "WGLW": {
+        "name": "White-Green Lorentzweiler"
+    },
+    "WINC": {
+        "name": "AS Wincrange"
+    },
+    "WLTZ": {
+        "name": "FC Wiltz 71"
+    },
+    "WRMC": {
+        "name": "Weiss a Ro't Michelau"
+    },
+    "WWMP": {
+        "name": "FC Weiswampach"
+    },
+    "YBDK": {
+        "name": "Young Boys Diekirch"
+    },
+    "YBSL": {
+        "name": "Young Boys Zolver"
+    },
+    "YBSW": {
+        "name": "Young Boys Schweicherthal"
+    },
+    "YBWT": {
+        "name": "Yellow Boys Weiler-la-Tour"
+    },
+    "YGGC": {
+        "name": "Yougo Grund-Cessange"
+    },
+    "_FRA": {
+        "name": "France"
+    },
+    "_LUX": {
+        "name": "Luxembourg"
+    }
+}

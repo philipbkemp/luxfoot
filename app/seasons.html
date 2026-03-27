@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LuxFoot | Seasons</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="favicon.png" />
+    </head>
+    <body class="hasNav">
+        <div class="nav">
+            <h1>
+                <a href="index.html">Luxembourgish Football</a>: Seasons
+            </h1>
+        </div>
+        
+        <ul id="seasonlist"></ul>
+        
+        <script>
+            fetch("data/seasons.json")
+                .then(response => response.json())
+                .then(data => {
+                    ul = document.getElementById("seasonlist");
+                    data.forEach(s=>{
+                        li = document.createElement("LI");
+                        link = document.createElement("A");
+                        link.href = "season.html?year="+s;
+                        link.textContent = s;
+                        li.append(link);
+                        ul.append(li);
+                    });
+                });
+        </script>
+    </body>
+</html>

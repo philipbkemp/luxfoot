@@ -1,0 +1,195 @@
+* {
+    font-family: monospace;
+}
+body {
+    margin-bottom: 150px;
+    padding: 0 20px;
+}
+p.error {
+    color: red;
+}
+.nav > * {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0;
+    padding: 10px 0;
+}
+
+a {
+    color: #000000;
+    text-underline-offset: 3px;
+}
+
+#dataContainer h2:not(:first-of-type) {
+    margin-top: 50px;
+}
+
+.data {
+    padding: 20px 0;
+}
+
+table.standings {
+    border-collapse: collapse;
+}
+table.standings th,
+table.standings td {
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    min-width: 50px;
+    text-align: center;
+}
+table.standings td:nth-child(2) {
+    text-align: left;
+    min-width: 250px;
+}
+table.standings th {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+table.standings th:not(:first-child) {
+    border-left-color: #FFFFFF;
+}
+table.standings.notes__some th:not(:last-child),
+table.standings.notes__none th:not(:nth-last-child(2)) {
+    border-left-color: #FFFFFF;
+}
+
+table.standings.notes__none th:last-child,
+table.standings.notes__none td:last-child,
+table.matches.notes__none td:last-child {
+    display: none;
+}
+table.standings.notes__some th:last-child,
+table.standings.notes__some td:last-child {
+    min-width: 300px;
+    text-align: left;
+}
+table.matches.dates__none td:first-child {
+    display: none;
+}
+
+table.matches {
+    border-collapse: collapse;
+}
+table.matches td {
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    min-width: 50px;
+    text-align: center;
+}
+table.matches td:nth-child(1) {
+    width: 100px;
+}
+table.matches td:nth-child(2) {
+    width: 250px;
+    text-align: right;
+}
+table.matches td:nth-child(2)[colspan] {
+    text-align: left;
+}
+table.matches td:nth-child(4) {
+    width: 250px;
+    text-align: left;
+}
+table.matches td:nth-child(3) {
+    width: 76px;
+}
+table.matches td:nth-child(5) {
+    width: 450px;
+    text-align: left;
+}
+table.matches.matches--extradata td {
+    vertical-align: top;
+}
+table.matches.matches--extradata tr:nth-child(3n+1) td {
+    border-bottom: none;
+}
+table.matches.matches--extradata tr:nth-child(3n+2) td {
+    border-top: none;
+    border-bottom: none;
+}
+table.matches.matches--extradata tr:nth-child(3n+3) td {
+    border-top: none;
+}
+table.matches.matches--extradata tr:is(:nth-child(3n+2), :nth-child(3n+3)) td:nth-child(2),
+table.matches.matches--extradata tr:is(:nth-child(3n+2), :nth-child(3n+3)) td:nth-child(3),
+table.matches.matches--extradata tr:is(:nth-child(3n+2), :nth-child(3n+3)) td:nth-child(4) {
+    border-top: 1px solid #ccc;
+}
+
+table.matchgrid {
+    border-collapse: collapse;
+}
+table.matchgrid th,
+table.matchgrid td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+    min-width: 50px;
+}
+table.matchgrid td:nth-child(1) {
+    text-align: left;
+    font-weight: bold;
+}
+
+abbr {
+    text-underline-offset: 3px;
+    text-decoration-color: #FFFFFF;
+    cursor: help;
+}
+table.matchgrid abbr[title],
+table.matches abbr[title] {
+    text-decoration-color: black !important;
+}
+
+
+tr.to-playoff--title,
+tr.to-playoff--title_playoff,
+td.match-isdraw {
+    background: #aad9f555;
+}
+tr.is-champion {
+    background: #aad9f5;
+}
+tr.is-promoted,
+td.match-iswin {
+    background: #bedf7c;
+}
+tr.is-relegated,
+td.match-isloss {
+    background: #e19284;
+}
+tr.is-removed {
+    background: #db0404;
+}
+
+#seasonlist {
+    margin: 30px 10px;
+    padding: 0;
+}
+#prev-next,
+#competitions {
+    padding: 20px 0;
+}
+#seasonlist li,
+#prev-next li,
+#competitions li {
+    list-style-type: none;
+    display: inline-block;
+}
+#seasonlist li a,
+#prev-next li a,
+#competitions li a {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+#prev-next li a.active,
+#competitions li a.active {
+    background-color: #dddddd;
+}
+#seasonlist li a:hover,
+#prev-next li a:hover,
+#competitions li a:hover {
+    background-color: #eeeeee;
+}
