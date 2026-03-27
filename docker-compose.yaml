@@ -1,0 +1,10 @@
+services:
+
+  luxfoot_web:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "9301:9301"
+    volumes:
+      - ./docs:/usr/share/nginx/html
