@@ -147,6 +147,10 @@ tr.to-playoff--title_playoff,
 td.match-isdraw {
     background: #aad9f555;
 }
+tr.to-playoff--promotion_3 {
+    background: #bedf7c55;
+}
+
 tr.is-champion {
     background: #aad9f5;
 }
@@ -160,6 +164,7 @@ td.match-isloss {
 }
 tr.is-removed {
     background: #db0404;
+    color: #FFFFFF;
 }
 
 #seasonlist {

@@ -738,6 +738,8 @@
                     keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
                     keys = keys.filter(key => key !== `${keyPrefix}.relegated`);
                     keys = keys.filter(key => key !== `${keyPrefix}.promoted`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.removed`);
+                    keys = keys.filter(key => key !== `${keyPrefix}.note`);
 
                     if ( standing.competition ) {
                         keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
@@ -835,6 +837,17 @@
                     if ( standing.promoted ) {
                         tr.classList.add("is-promoted");
                         tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Promoted";
+                        hasNotes = true;
+                    }
+                    if ( standing.removed ) {
+                        tr.classList.add("is-removed");
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Removed";
+                        hasNotes = true;
+                    }
+                    
+                    
+                    if ( standing.note ) {
+                        tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + standing.note;
                         hasNotes = true;
                     }
 
