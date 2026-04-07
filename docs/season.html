@@ -560,6 +560,7 @@
             function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSeries=0) {
                 grid = [];
                 expectedStandings = [];
+                gridNotes = [];
 
                 matches.forEach(match=>{
                     keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
@@ -584,7 +585,16 @@
                     if ( ! grid[match.home] ) {
                         grid[match.home] = [];
                     }
-                    grid[match.home][match.away] = match.score;
+                    if ( ! match.forfeit ) {
+                        grid[match.home][match.away] = match.score;
+                    } else {
+                        keys = keys.filter(key => key !== `${keyPrefix}.forfeit`);
+                        gridScoreFF = document.createElement("ABBR");
+                        gridScoreFF.title = "Match forfeited";
+                        gridScoreFF.innerHTML = match.score;
+                        grid[match.home][match.away] = gridScoreFF.outerHTML;
+                        gridNotes.push("Match between "+allTeams[match.home].name+" and "+allTeams[match.away].name+" awarded as forfeit: "+match.score);
+                    }
                 
                     if ( season !== match.season ) {
                         console.warn("inconsistent season value",season,match.season);
@@ -680,6 +690,16 @@
                 table.append(tbody);
 
                 dataContainer.append(table);
+                
+                if ( gridNotes.length !== 0 ) {
+                    gridNoteUl = document.createElement("UL");
+                    gridNotes.forEach(gn=>{
+                        gridNoteLi = document.createElement("LI");
+                        gridNoteLi.innerHTML = gn;
+                        gridNoteUl.append(gridNoteLi);
+                    });                    
+                    dataContainer.append(gridNoteUl);
+                }
 
                 return expectedStandings;
             }
