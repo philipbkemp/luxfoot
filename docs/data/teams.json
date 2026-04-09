@@ -510,7 +510,8 @@
         "name": "Racing Union"
     },
     "RACL": {
-        "name": "Racing Club Luxembourg"
+        "name": "Racing Club Luxembourg",
+        "level": -1
     },
     "RAMB": {
         "name": "US Rambrouch"

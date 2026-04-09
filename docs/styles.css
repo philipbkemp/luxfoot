@@ -37,19 +37,28 @@ table.standings td {
     min-width: 50px;
     text-align: center;
 }
-table.standings td:nth-child(2) {
+table.standings.standings-history td:nth-child(1) {
+    text-align: left;
+    min-width: 70px;
+}
+table.standings:not(.standings-history) td:nth-child(2),
+table.standings.standings-history td:nth-child(8) {
     text-align: left;
     min-width: 250px;
+}
+table.standings.standings-history td:nth-child(2),
+table.standings.standings-history td:nth-child(3),
+table.standings.standings-history td:nth-child(4),
+table.standings.standings-history td:nth-child(5),
+table.standings.standings-history td:nth-child(6),
+table.standings.standings-history td:nth-child(7) {
+    min-width: 20px;
 }
 table.standings th {
     background-color: #000000;
     color: #FFFFFF;
 }
 table.standings th:not(:first-child) {
-    border-left-color: #FFFFFF;
-}
-table.standings.notes__some th:not(:last-child),
-table.standings.notes__none th:not(:nth-last-child(2)) {
     border-left-color: #FFFFFF;
 }
 
@@ -186,7 +195,9 @@ tr.is-removed {
 #prev-next li a,
 #competitions li a {
     border: 1px solid black;
+    display: block;
     padding: 5px 10px;
+    margin-bottom: 5px;
     margin-right: 10px;
     text-decoration: none;
 }
@@ -224,5 +235,51 @@ table.winners tr :nth-child(2) {
 }
 table.winners tr :nth-child(4) {
     width: calc( 100% - 50px - 50px - 250px );
+    text-align: left;
+}
+
+table.standings td.gap-year {
+    background: #ccc;
+}
+
+table.club-history {
+    border-collapse: collapse;
+}
+table.club-history td,
+table.club-history th {
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+table.club-history th {
+    background: black;
+    color: white;
+}
+table.club-history th:nth-child(1),
+table.club-history td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+table.club-history th:nth-child(2),
+table.club-history td:nth-child(2){
+    width: 600px;
+    text-align: left;
+}
+
+table.opponents {
+    border-collapse: collapse;
+}
+table.opponents th,
+table.opponents td {
+    border: 1px solid black;
+    padding: 5px 10px;
+    min-width: 30px;
+    text-align: center;
+}
+table.opponents thead th {
+    background: black;
+    color: white;
+}
+table.opponents tbody td:nth-of-type(1) {
+    min-width: 250px;
     text-align: left;
 }
