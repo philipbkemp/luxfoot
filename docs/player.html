@@ -28,7 +28,7 @@
                 })
                 .then(data => {
                     allTeams = data;
-                    return fetch("data/players/"+getFolder(params.who)+"/"+params.who+".json");
+                    return fetch("data/players/"+getFolder(params.who)+"/"+params.who.toLowerCase()+".json");
                 })
                 .then(response => {
                     if ( ! response.ok ) {
