@@ -61,7 +61,7 @@
                     {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
                     {"player":"UNGE_MIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
                     {"player":"FABE_JOS","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
-                    {"player":"ELTE_ALB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"goals":1},
+                    {"player":"ELTE_ALB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"goals":[15]},
                     {"player":"KUBO_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
                     {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
                     {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"captain":true},

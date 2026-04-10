@@ -47,8 +47,8 @@
                     {"player":"VOEL_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
                     {"player":"HOFF_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
                     {"player":"THIL_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
-                    {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":4},
-                    {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":1},
+                    {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":[4,20,46,81]},
+                    {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":[47]},
                     {"player":"RIZZ_AUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
                     {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"captain":true}
                 ]
