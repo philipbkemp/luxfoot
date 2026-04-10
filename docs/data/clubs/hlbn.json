@@ -1,0 +1,109 @@
+{
+    "name": "US Hollerich/Bonnevoie",
+    "founded": "1908-02-02",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    },{
+        "season": "1911-12",
+        "event": "CHAMPION"
+    },{
+        "season": "1913-14",
+        "event": "CHAMPION"
+    },{
+        "season": "1914-15",
+        "event": "CHAMPION"
+    },{
+        "season": "1915-16",
+        "event": "CHAMPION"
+    },{
+        "season": "1916-17",
+        "event": "CHAMPION"
+    },{
+        "season": "1944-45",
+        "event": "RENAME",
+        "new_name": "ULUX"
+    }],
+    "league": [
+        {"place": 4, "team": "HLBN", "w": 3, "d": 3, "l": 4, "f": 18, "a": 17, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"place": 2, "team": "HLBN", "w": 6, "d": 1, "l": 3, "f": 34, "a": 22, "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win": 2},
+        {"place":1, "team": "HLBN", "w": 10, "d": 0, "l": 0, "f": 33, "a": 10, "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2, "champion": true},
+        {"place":1, "team": "HLBN", "w": 7, "d": 2, "l": 1, "f": 35, "a": 13, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2, "champion": true},
+        {"place":3, "team": "HLBN", "w": 0, "d":  1, "l": 3, "f":  3, "a":  8, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}, "pts_win":2, "playoff": "title_playoff|title","champion":true},
+        {"place":1, "team": "HLBN", "missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}, "champion": true},
+        {"gap":true},
+        {"place":1, "team": "HLBN", "w": 3, "d":  2, "l": 1, "f": 21, "a": 10, "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}, "pts_win":2, "playoff": "title", "champion": true},
+        {"place":3, "team": "HLBN", "w": 2, "d":  2, "l": 2, "f": 10, "a":  7, "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}, "pts_win":2},
+        {"gap":true},
+        {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}, "playoff": "title"}
+    ],
+    "matches": [
+        {"home":"SCLX","away":"HLBN","score":"3-0","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"FOLA","away":"HLBN","score":"4-3","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"JESH","away":"HLBN","score":"1-1","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"SCLX","score":"1-1","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"FOLA","score":"1-3","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"JESH","score":"1-3","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"RACL","score":"1-1","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"YBDK","score":"1-0","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"RACL","away":"HLBN","score":"1-6","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"YBDK","away":"HLBN","score":"0-3","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"},"forfeit":true},
+        
+        {"home":"FOLA","away":"HLBN","score":"4-2" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"FOLA","score":"4-1" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"SCLX","score":"2-6" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"YBDK","score":"4-3" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"RACL","score":"2-2" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"CPET","score":"7-1" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"HLBN","score":"1-4" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"YBDK","away":"HLBN","score":"0-4" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"RACL","away":"HLBN","score":"2-1" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"CPET","away":"HLBN","score":"2-4" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        
+        {"home":"HLBN","away":"FOLA","score":"2-1", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"RACL","score":"3-1", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"SCLX","score":"3-1", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"YBDK","score":"4-1", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"JESH","score":"6-2", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"FOLA","away":"HLBN","score":"0-3", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"RACL","away":"HLBN","score":"1-2", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"HLBN","score":"1-4", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"YBDK","away":"HLBN","score":"2-5", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"JESH","away":"HLBN","score":"0-1", "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        
+        {"home":"HLBN","away":"SCLX","score":"3-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"FOLA","score":"3-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"RACL","score":"2-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"JESH","score":"2-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"SDUD","score":"0-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"HLBN","score":"1-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"FOLA","away":"HLBN","score":"4-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"RACL","away":"HLBN","score":"1-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"JESH","away":"HLBN","score":"1-11", "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"HLBN","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        
+        {"home":"RACL","away":"HLBN","score":"4-2", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
+        {"home":"HLBN","away":"SCLX","score":"0-2", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
+        {"home":"HLBN","away":"RACL","score":"1-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
+        {"home":"SCLX","away":"HLBN","score":"1-0", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},    
+        {"home":"HLBN","away":"YBDK","score":"3-0", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"},"forfeit":true,"outcome":"Match forfeitted; HLBN qualify for Title decider"},
+        {"home":"HLBN","away":"JESH","score":"8-1","outcome": "HLBN champions", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title"}},
+        
+        {"home":"HLBN","away":"SCLX","score":"1-1" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"RACL","score":"4-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"DEIC","score":"9-1" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"SCLX","away":"HLBN","score":"3-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"RACL","away":"HLBN","score":"1-3" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"DEIC","away":"HLBN","score":"2-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"SCLX","score":"-", "outcome": "SCLX did not attend (thinking they won the league on goal difference) - HLBN declared champions", "season": "1911-12", "competition":{"type":"playoff","playoff":"title"}},
+            
+        {"home":"SCLX","away":"HLBN","score":"3-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"SDIF","away":"HLBN","score":"1-0", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"SCLX","score":"2-2", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"SDIF","score":"1-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"MANC","score":"3-0", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"MANC","away":"HLBN","score":"0-3", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        
+        {"date": "1910-05-06", "home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"playoff","playoff":"title"}, "outcome": "RACL declared champions"}
+    ]
+}

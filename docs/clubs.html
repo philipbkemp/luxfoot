@@ -59,7 +59,9 @@
                         divClubs = document.createElement("UL");
                         divClubs.id = "seasonlist";
                         
-                        Object.keys(div.clubs).forEach(cKey=>{
+                        Object.keys(div.clubs)
+                        .sort((a, b) => div.clubs[a].name.localeCompare(div.clubs[b].name))
+                        .forEach(cKey=>{
                             clubLi = document.createElement("LI");
                             clubLink = document.createElement("A");
                             clubLink.innerHTML = div.clubs[cKey].name;

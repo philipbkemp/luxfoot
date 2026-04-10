@@ -75,6 +75,10 @@ table.standings.notes__some td:last-child {
 table.matches.dates__none td:first-child {
     display: none;
 }
+table.standings-history.notes__some th:last-child,
+table.standings-history.notes__some td:last-child {
+    min-width: 150px;
+}
 
 table.matches {
     border-collapse: collapse;

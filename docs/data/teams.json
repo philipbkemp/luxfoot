@@ -276,7 +276,8 @@
         "name": "Hômecht Esch"
     },
     "HLBN": {
-        "name": "US Hollerich/Bonnevoie"
+        "name": "US Hollerich/Bonnevoie",
+        "level": -1
     },
     "HOBS": {
         "name": "CS Hobscheid"

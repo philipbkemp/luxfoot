@@ -145,9 +145,17 @@
                             keys = keys.filter(key => key !== 'history.event');
                             hEvent.innerHTML = "Club founded" + (founded ? (" " + founded) : "");
                             break;
+                        case "RENAME":
+                            keys = keys.filter(key => key !== 'history.event');
+                            keys = keys.filter(key => key !== 'history.new_name');
+                            hEvent.innerHTML = "Club renamed as " + allTeams[h.new_name].name;
+                            break;
                         case "CHAMPION":
                             keys = keys.filter(key => key !== 'history.event');
                             hEvent.innerHTML = "League Champions";
+                            break;
+                        default:
+                            console.warn("unknown event",h.event);
                             break;
                     }
                     hRow.append(hEvent);
@@ -184,27 +192,31 @@
                     }
                     
                     score = m.score.split("-");
-                    homeScore = parseInt(score[0]);
-                    awayScore = parseInt(score[1]);
-                    if ( m.home === club ) {
-                        opponents[opp].f += homeScore;
-                        opponents[opp].a += awayScore;
-                        if ( homeScore > awayScore ) {
-                            opponents[opp].w++;
-                        } else if ( homeScore < awayScore ) {
-                            opponents[opp].l++;
-                        } else if ( homeScore === awayScore ) {
-                            opponents[opp].d++;
-                        }
-                    } else if ( m.away === club ) {
-                        opponents[opp].f += awayScore;
-                        opponents[opp].a += homeScore;
-                        if ( homeScore > awayScore ) {
-                            opponents[opp].l++;
-                        } else if ( homeScore < awayScore ) {
-                            opponents[opp].w++;
-                        } else if ( homeScore === awayScore ) {
-                            opponents[opp].d++;
+                    homeScoreParsed = parseInt(score[0]);
+                    awayScoreParsed = parseInt(score[1]);
+                    homeScore = Number.isNaN(homeScoreParsed) ? -1 : homeScoreParsed;
+                    awayScore = Number.isNaN(awayScoreParsed) ? -1 : awayScoreParsed;
+                    if ( homeScore !== -1 && awayScore !== -1 ) {
+                        if ( m.home === club ) {
+                            opponents[opp].f += homeScore;
+                            opponents[opp].a += awayScore;
+                            if ( homeScore > awayScore ) {
+                                opponents[opp].w++;
+                            } else if ( homeScore < awayScore ) {
+                                opponents[opp].l++;
+                            } else if ( homeScore === awayScore) {
+                                opponents[opp].d++;
+                            }
+                        } else if ( m.away === club ) {
+                            opponents[opp].f += awayScore;
+                            opponents[opp].a += homeScore;
+                            if ( homeScore > awayScore ) {
+                                opponents[opp].l++;
+                            } else if ( homeScore < awayScore ) {
+                                opponents[opp].w++;
+                            } else if ( homeScore === awayScore) {
+                                opponents[opp].d++;
+                            }
                         }
                     }
                     
@@ -216,6 +228,7 @@
                     keys = keys.filter(key => key !== 'matches.competition');
                     keys = keys.filter(key => key !== 'matches.date');
                     keys = keys.filter(key => key !== 'matches.outcome');
+                    keys = keys.filter(key => key !== 'matches.forfeit');
                 });
                 
                 opponents.sort((a, b) => a._name.localeCompare(b._name));
