@@ -131,7 +131,7 @@
                 })
                 .then(data => {
                     allTeams = data;
-                    return fetch("data/clubs/"+params.club+".json")
+                    return fetch("data/clubs/"+getFolder(params.club)+"/"+params.club+".json")
                 })
                 .then(response => {
                     if ( ! response.ok ) {
@@ -412,6 +412,17 @@
                 dataContainer.append(note);
                 
                 dataContainer.append(mt);
+            }
+            
+            function getFolder(name) {
+                const c = name[0];
+                let range;
+                if (c <= 'E') range = 'A-E';
+                else if (c <= 'J') range = 'F-J';
+                else if (c <= 'R') range = 'K-R';
+                else range = 'S-Z';
+
+                return `${range}/${c}`;
             }
         </script>
     </body>
