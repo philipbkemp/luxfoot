@@ -262,6 +262,11 @@
                             keys = keys.filter(key => key !== 'history.event');
                             hEvent.innerHTML = "League Champions";
                             break;
+                        case "MERGE":
+                            keys = keys.filter(key => key !== 'history.event');
+                            keys = keys.filter(key => key !== 'history.new_name');
+                            hEvent.innerHTML = "Merged into " + allTeams[h.new_name].name;
+                            break;
                         default:
                             console.warn("unknown event",h.event);
                             break;

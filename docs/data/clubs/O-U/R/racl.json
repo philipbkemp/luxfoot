@@ -7,6 +7,10 @@
     },{
         "season": "1909-10",
         "event": "CHAMPION"     
+    },{
+        "season": "1923-24",
+        "event": "MERGE",
+        "new_name": "SPOR"
     }],
     "league": [
         {"place": 5, "team": "RACL", "w": 2, "d": 3, "l": 5, "f": 14, "a": 26, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}},
