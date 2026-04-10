@@ -1,3 +1,15 @@
+clubsPos = [];
+
+function getClubsPipe() {
+    pipe = [];
+    clubsPos.forEach(cp=>{
+        if ( cp ) {
+            pipe.push('"'+cp.join("|")+'"');
+        }
+    });
+    return "["+pipe.join(",")+"]";
+}
+
 function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,compSeries=0,isSeason=true) {
     dataContainer = document.getElementById("dataContainer");
 
@@ -95,6 +107,10 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
                 tdPlace = document.createElement("TD");
                 tdPlace.innerHTML = standing.place;
                 tr.append(tdPlace);
+                if ( ! clubsPos[standing.place] ) {
+                    clubsPos[standing.place] = [];
+                }
+                clubsPos[standing.place].push(standing.team);
             } else {
                 for ( i=1 ; i!==7 ; i++ ) {
                     tdPlace = document.createElement("TD");
