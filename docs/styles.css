@@ -89,24 +89,29 @@ table.matches td {
     min-width: 50px;
     text-align: center;
 }
-table.matches td:nth-child(1) {
+table.matches td:nth-child(1),
+table.matches.matches-withcomp td:nth-child(2) {
     width: 100px;
 }
-table.matches td:nth-child(2) {
+table.matches:not(.matches-withcomp) td:nth-child(2),
+table.matches.matches-withcomp td:nth-child(3) {
     width: 250px;
     text-align: right;
 }
 table.matches td:nth-child(2)[colspan] {
     text-align: left;
 }
-table.matches td:nth-child(4) {
+table.matches:not(.matches-withcomp) td:nth-child(4),
+table.matches.matches-withcomp td:nth-child(5) {
     width: 250px;
     text-align: left;
 }
-table.matches td:nth-child(3) {
+table.matches:not(.matches-withcomp) td:nth-child(3),
+table.matches.matches-withcomp td:nth-child(4) {
     width: 76px;
 }
-table.matches td:nth-child(5) {
+table.matches:not(.matches-withcomp) td:nth-child(5),
+table.matches.matches-withcomp td:nth-child(6) {
     width: 450px;
     text-align: left;
 }
@@ -286,4 +291,42 @@ table.opponents thead th {
 table.opponents tbody td:nth-of-type(1) {
     min-width: 250px;
     text-align: left;
+}
+
+table.int-caps {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table.int-caps th,
+table.int-caps td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+table.int-caps th {
+    background: black;
+    color: white;
+}
+table.int-caps tr :nth-child(1),
+table.int-caps tr :nth-child(2) {
+    width: 50px;
+    text-align: center;
+}
+table.int-caps tr > :nth-child(3) {
+    width: 250px;
+}
+table.int-caps tr :nth-child(3) {
+    padding: 0 !important;
+}
+table.int-caps a {
+    width: calc( 100% - 10px ) !important;
+    display: block;
+    text-align: left !important;
+    padding: 5px 5px;
+}
+table.int-caps a:hover {
+    background-color: #eeeeee;
+}
+.stat-label {
+    width: 100px;
+    display: inline-block;
 }

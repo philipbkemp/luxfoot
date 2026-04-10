@@ -1,5 +1,5 @@
 {
-    "BECK_EUG": {"id":  1487, "name": ["Eugène","Becker"]},
+    "BECK_EUG": {"id":  1487, "name": ["Eugène","Becker"],      "teams": ["M"], "total": { "M": {"caps": 1,"goals": 0, "debut": "1913-04-20"} }, "position": "FW"},
     "BECK_JEM": {"id":  1490, "name": ["Jemmy","Becker"]},
     "BERN_ZEN": {"id":  1762, "name": ["Zénon","Bernard"]},
     "DIDI_EUG": {"id":  4720, "name": ["Eugène","Didier"],"position":"GK"},

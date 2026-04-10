@@ -1,0 +1,27 @@
+{
+    "name": [
+        "Eugène"
+        ,"Becker"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "FW",
+    "born": "1882-02-21",
+    "died": "1939-07-30",
+    "matches": [{
+        "season": "1912-13",
+        "date": "1913-04-20",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_FRA",
+        "away": "_LUX",
+        "score": "8-0",
+        "result": "L",
+        "players": [
+            {"player":"BECK_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+        ]
+    }]
+}
