@@ -608,7 +608,8 @@
         "name": "FC Schieren"
     },
     "SCLX": {
-        "name": "SC Luxembourg"
+        "name": "SC Luxembourg",
+        "level": -1
     },
     "SDIF": {
         "name": "SC Differdange"
