@@ -1,6 +1,6 @@
 {
     "BECK_EUG": {"id":  1487, "name": ["Eugène","Becker"],      "teams": ["M"], "total": { "M": {"caps": 1,"goals": 0, "debut": "1913-04-20"} }, "position": "FW"},
-    "BECK_JEM": {"id":  1490, "name": ["Jemmy","Becker"]},
+    "BECK_JEM": {"id":  1490, "name": ["Jemmy","Becker"],       "teams": ["M"], "total": { "M": {"caps": 1,"goals": 0, "debut": "1911-10-29"} }, "position": "MF"},
     "BERN_ZEN": {"id":  1762, "name": ["Zénon","Bernard"]},
     "DIDI_EUG": {"id":  4720, "name": ["Eugène","Didier"],"position":"GK"},
     "ELTE_ALB": {"id":  5429, "name": ["Albert","Elter"]},

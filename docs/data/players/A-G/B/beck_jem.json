@@ -1,0 +1,27 @@
+{
+    "name": [
+        "Jemmy",
+        "Becker"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "MF",
+    "born": "1888-04-10",
+    "died": "1936-09-04",
+    "matches": [{
+        "season": "1911-12",
+        "date": "1911-10-29",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "1-4",
+        "result": "L",
+        "players": [
+            {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+        ]
+    }]
+}

@@ -55,7 +55,9 @@
                         const goalDiff = b.total[mode].goals - a.total[mode].goals;
                         if (goalDiff !== 0) return goalDiff;
                         
-                        return a.debut.localeCompare(b.debut);
+                        aDate = new Date(a.total[mode].debut);
+                        bDate = new Date(b.total[mode].debut);
+                        return aDate.getTime() - bDate.getTime();
                     });
                     
                     table = document.createElement("TABLE");
