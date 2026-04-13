@@ -253,10 +253,28 @@
                             keys = keys.filter(key => key !== 'history.event');
                             hEvent.innerHTML = "Club founded" + (founded ? (" " + founded) : "");
                             break;
+                        case "FOUNDED_MERGE":
+                            keys = keys.filter(key => key !== 'history.event');
+                            keys = keys.filter(key => key !== 'history.clubs');
+                            hEvent.innerHTML = "Club founded after merging ";
+                            for ( c=0 ; c!==h.clubs.length ; c++ ) {
+                                if ( h.clubs.length === 2 ) {
+                                    if ( c !== 0 ) {
+                                        hEvent.innerHTML += " and ";
+                                    }
+                                }
+                                hEvent.innerHTML += allTeams[h.clubs[c]].name;
+                            }
+                            break;
                         case "RENAME":
                             keys = keys.filter(key => key !== 'history.event');
                             keys = keys.filter(key => key !== 'history.new_name');
                             hEvent.innerHTML = "Club renamed as " + allTeams[h.new_name].name;
+                            break;
+                        case "RENAME_FROM":
+                            keys = keys.filter(key => key !== 'history.event');
+                            keys = keys.filter(key => key !== 'history.old_name');
+                            hEvent.innerHTML = "Club renamed from " + allTeams[h.old_name].name;
                             break;
                         case "CHAMPION":
                             keys = keys.filter(key => key !== 'history.event');
@@ -266,6 +284,10 @@
                             keys = keys.filter(key => key !== 'history.event');
                             keys = keys.filter(key => key !== 'history.new_name');
                             hEvent.innerHTML = "Merged into " + allTeams[h.new_name].name;
+                            break;
+                        case "DISSOLVED":
+                            keys = keys.filter(key => key !== 'history.event');
+                            hEvent.innerHTML = "Club dissolved";
                             break;
                         default:
                             console.warn("unknown event",h.event);

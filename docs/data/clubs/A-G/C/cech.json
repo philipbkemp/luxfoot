@@ -1,0 +1,19 @@
+{
+    "name": "CS Echternach",
+    "history": [{
+        "season": "1913-14",
+        "event": "RENAME_FROM",
+        "old_name": "JECT"
+    },{
+        "season": "1944-45",
+        "event": "RENAME",
+        "new_name": "DARE"
+    }],
+    "league":[
+        {"place":2, "team": "CECH", "w": 0, "d": 0, "l": 2, "f":  0, "a": 10, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"}, "pts_win":2}
+    ],
+    "matches": [
+        {"home":"YBDK","away":"CECH","score":"7-0", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"}},
+        {"home":"CECH","away":"YBDK","score":"0-3", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"}}
+    ]
+}

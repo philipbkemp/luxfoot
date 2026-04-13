@@ -1,0 +1,17 @@
+{
+    "name": "Avenir Beggen",
+    "founded": "1915-07-01",
+    "history": [{
+        "season": "1914-15",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place": 3, "team": "AVBG", "w": 3, "d": 1, "l": 4, "f": 20, "a": 23, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}},
+        {"place": 1, "team": "AVBG", "w": 3, "d": 0, "l": 1, "f": 19, "a":  6, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "pts_win": 2, "playoff": "promotion_3", "promoted": true},
+        {"place":1, "team": "AVBG", "w": 6, "d": 0, "l": 0, "f": 51, "a":  5, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "pts_win":2, "playoff":"promotion_3"}
+    ],
+    "matches": [
+        {"home":"AVBG","away":"STET","score":"3-1","outcome":"AVBG promoted","season": "1917-18", "competition": {"type":"playoff","playoff": "promotion_3"}},        
+        {"home":"URUM","away":"AVBG","score":"6-2","outcome":"URUM promoted", "season": "1916-17", "competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}

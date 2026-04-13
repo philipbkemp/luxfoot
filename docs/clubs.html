@@ -58,6 +58,7 @@
                         dataContainer.append(divHeader);
                         divClubs = document.createElement("UL");
                         divClubs.id = "seasonlist";
+                        divClubs.classList.add("no-margin");
                         
                         Object.keys(div.clubs)
                         .sort((a, b) => div.clubs[a].name.localeCompare(div.clubs[b].name))

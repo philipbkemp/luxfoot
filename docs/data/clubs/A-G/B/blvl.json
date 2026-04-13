@@ -1,0 +1,11 @@
+{
+    "name": "The Belval Belvaux",
+    "founded": "1908-07-02",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":4, "team": "BLVL", "w": 1, "d": 0, "l": 5, "f": 15, "a": 23, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 2, "league":"3. Division Series Esch"}, "pts_win":2,"removed":true,"note":"Did not compete next season"}
+    ]
+}

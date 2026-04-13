@@ -3,7 +3,8 @@
         "name": "Alliance Aischdall Hobscheid/Eischen"
     },
     "ADUD": {
-        "name": "Alliance Dudelange"
+        "name": "Alliance Dudelange",
+        "level": -1
     },
     "AFLX": {
         "name": "Avenir Flaxweiler"
@@ -51,7 +52,8 @@
         "name": "Atert Bissen"
     },
     "AVBG": {
-        "name": "Avenir Beggen"
+        "name": "Avenir Beggen",
+        "level": 3
     },
     "AWDG": {
         "name": "Arminia Weidingen"
@@ -90,7 +92,8 @@
         "name": "FC Bigonville"
     },
     "BLVL": {
-        "name": "The Belval Belvaux"
+        "name": "The Belval Belvaux",
+        "level": 2
     },
     "BOUS": {
         "name": "US Bous"
@@ -123,7 +126,8 @@
         "name": "CS Bourscheid"
     },
     "CECH": {
-        "name": "CS Echternach"
+        "name": "CS Echternach",
+        "level": -1
     },
     "CESS": {
         "name": "Cessange FC"
@@ -132,13 +136,15 @@
         "name": "CS Grevenmacher"
     },
     "CLMC": {
-        "name": "ES Clemency"
+        "name": "ES Clemency",
+        "level": 4
     },
     "CLVX": {
         "name": "Claravallis Clervaux"
     },
     "CMLB": {
-        "name": "CS Mondorf-les-Bains"
+        "name": "CS Mondorf-les-Bains",
+        "level": -1
     },
     "CSHL": {
         "name": "CS Hollerich"

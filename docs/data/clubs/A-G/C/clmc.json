@@ -1,0 +1,10 @@
+{
+    "name": "ES Clemency",
+    "history": [{
+        "season": "1914-15",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place": 4, "team": "CLMC", "w": 0, "d": 0, "l": 6, "f":  2, "a": 30, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}}
+    ]
+}

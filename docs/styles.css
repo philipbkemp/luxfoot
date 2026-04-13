@@ -330,3 +330,7 @@ table.int-caps a:hover {
     width: 100px;
     display: inline-block;
 }
+
+.no-margin {
+    margin: 0 !important;
+}
