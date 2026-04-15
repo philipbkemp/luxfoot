@@ -30,7 +30,7 @@
     "playoffs": {
         "title": {
             "matches": [
-                {"home":"HLBN","away":"SCLX","score":"-", "outcome": "SCLX did not attend (thinking they won the league on goal difference) - HLBN declared champions", "season": "1911-12", "competition":{"type":"playoff","playoff":"title"}}
+                {"home":"HLBN","away":"SCLX","score":"-", "outcome": "SCLX did not attend (thinking they won the league on goal difference)|HLBN declared champions", "season": "1911-12", "competition":{"type":"playoff","playoff":"title"}}
             ]
         }
     },

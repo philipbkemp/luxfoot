@@ -8,3 +8,11 @@ services:
       - "9301:9301"
     volumes:
       - ./docs:/usr/share/nginx/html
+      
+  luxfoot_sass:
+    image: node:20-alpine
+    working_dir: /workspace
+    volumes:
+      - ./docs:/workspace
+    command: sh -c "npm install -g sass && sass --watch assets/scss:assets/css --no-source-map --style=compressed --poll"
+    restart: unless-stopped
