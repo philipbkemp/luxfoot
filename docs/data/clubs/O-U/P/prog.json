@@ -1,0 +1,14 @@
+{
+    "name": "Progrès Grund",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    },{
+        "season": "1977-78",
+        "event": "RENAME",
+        "new_name": "YGGC"
+    }],
+    "league": [
+        {"place": 1, "team": "PROG", "w": 8, "d": 3, "l":  1, "f": 34, "a": 11, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true}
+    ]
+}

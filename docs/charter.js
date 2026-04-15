@@ -17,6 +17,7 @@ function drawChart(club) {
     loadSeason("1916-17",["HLBN","FOLA","RACL","SCLX","YBDK","JESH"],["CPET","SDIF","SDUD","CSHL","UESH"],["AVBG|URUM","JWMK|NSCH","WALF|STET","ROLG|BLVL"]);
     loadSeason("1917-18",["FOLA","HLBN","SCLX","YBDK","RACL","CPET"],["JESH","SDIF","SDUD","URUM","CSHL"],["AVBG|STET","CMLB|ECBT","JWMK|NSCH","ADUD"]);
     loadSeason("1918-19",["SCLX","FOLA","JESH","HLBN","RACL","YBDK"],["SDUD","SDIF","AVBG","URUM","CPET"],["CMLB|CROD","ETZE|NSCH","SWFT|ECBT","CLMC|STET","ADUD"]);
+	loadSeason("1919-20",["FOLA","SDUD","SCLX","HLBN","JESH","RACL"],["RBDF","URUM","NSCH","CROD","CPET","AVBG"],["PROG|BLVL|JSTF","TRIM|STET|PRON","MANC|ADUD|JHTC","CSHL|UESH|ETZE","JVRL|ECBT|CLMC","WALF","CMLB"]);
     
     positionHeight = 5;
     

@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place": 5, "team": "CPET", "w": 2, "d": 2, "l": 6, "f": 21, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},
         {"place": 5, "team": "CPET", "w": 1, "d": 1, "l": 6, "f": 20, "a": 36, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}},
         {"place": 6, "team": "CPET", "w": 1, "d": 1, "l": 8, "f": 10, "a": 47, "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win": 2, "relegated": true},
         {"place":1, "team": "CPET", "w": 5, "d": 2, "l": 1, "f": 22, "a": 11, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2, "promoted": true},

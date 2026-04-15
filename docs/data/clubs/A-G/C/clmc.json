@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place": 5, "team": "CLMC", "w": 1, "d": 0, "l": 7, "f":  8, "a": 27, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}},
         {"place": 4, "team": "CLMC", "w": 0, "d": 0, "l": 6, "f":  2, "a": 30, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}}
     ]
 }

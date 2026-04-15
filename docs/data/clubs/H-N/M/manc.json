@@ -17,6 +17,8 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place": 3, "team": "MANC", "w": 6, "d": 4, "l":  2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
+        {"gap": true},
         {"place":4, "team": "MANC", "w": 0, "d":  0, "l": 6, "f":  1, "a": 15, "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}, "pts_win":2}
     ],
     "matches": [

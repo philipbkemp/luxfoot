@@ -284,6 +284,9 @@ function getPlayoffName(po) {
         case "title":
             poName = "Title decider";
             break;
+            
+        case "title_3_S":
+            poName = "Title decider (3. Division Series South)";
         
         case "title_playoff":
             poName = "Title playoff";
@@ -329,6 +332,7 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
         keys = keys.filter(key => key !== `${keyPrefix}.outcome`);
         keys = keys.filter(key => key !== `${keyPrefix}.forfeit`);
         keys = keys.filter(key => key !== `${keyPrefix}.result`);
+        keys = keys.filter(key => key !== `${keyPrefix}.note`);
 
         if ( hasIntData ) {
             keys = keys.filter(key => key !== `${keyPrefix}.goals`);
@@ -416,6 +420,7 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
             tdNotes.innerHTML = match.outcome
                 .replaceAll(match.home,allTeams[match.home].name)
                 .replaceAll(match.away,allTeams[match.away].name)
+                .replaceAll("|","<br />")
                 ;
             hasNotes = true;
         }
@@ -439,6 +444,13 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
             keys = keys.filter(key => key !== `${keyPrefix}.players`);
             keys = keys.filter(key => key !== `ME_PLAYER.player`);
             keys = keys.filter(key => key !== `ME_PLAYER.cap`);
+        }
+        if ( match.note ) {
+            if ( tdNotes.innerHTML !== "" ) {
+                tdNotes.innerHTML += "<br />";
+            }
+            tdNotes.innerHTML+= match.note;
+            hasNotes = true;
         }
         tr.append(tdNotes);
 

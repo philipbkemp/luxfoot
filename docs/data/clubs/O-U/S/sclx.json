@@ -16,6 +16,7 @@
         "new_name": "SPOR"
     }],
     "league": [
+        {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"place": 1, "team": "SCLX", "w": 7, "d": 2, "l": 1, "f": 18, "a": 12, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}, "champion": true},
         {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 19, "a": 17, "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win": 2},
         {"place":4, "team": "SCLX", "w":  3, "d": 2, "l": 5, "f": 24, "a": 29, "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
@@ -28,6 +29,17 @@
         {"place": 3, "team": "SCLX", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"FOLA","away":"SCLX","score":"3-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"SCLX","score":"2-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"FOLA","score":"1-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"SDUD","score":"8-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"HLBN","score":"4-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"JESH","score":"6-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"RACL","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"},"forfeit":true},
+        {"home":"HLBN","away":"SCLX","score":"8-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"JESH","away":"SCLX","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"},"forfeit":true},
+        {"home":"RACL","away":"SCLX","score":"4-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+
         {"home":"SCLX","away":"FOLA","score":"1-0","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SCLX","away":"JESH","score":"1-5","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SCLX","away":"HLBN","score":"3-0","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},

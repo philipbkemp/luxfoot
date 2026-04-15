@@ -1,0 +1,19 @@
+{
+    "name": "Red Boys Differdange",
+    "founded": "1907-05-25",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "2002-03",
+        "event": "MERGE",
+        "new_name": "DIFF"
+    }],
+    "league": [
+        {"place": 1, "team": "RBDF", "w": 4, "d": 5, "l": 1, "f": 20, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true}
+    ],
+    "matches": [
+        {"home":"RBDF","away":"URUM","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
+        {"home":"RBDF","away":"NSCH","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}}
+    ]
+}

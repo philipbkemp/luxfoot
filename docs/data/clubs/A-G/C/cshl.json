@@ -9,6 +9,8 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place": 4, "team": "CSHL", "w": 6, "d": 2, "l":  4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
+        {"gap":true},
         {"place": 5, "team": "CSHL", "w": 2, "d": 0, "l": 6, "f":  7, "a": 37, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
         {"place":4, "team": "CSHL", "w": 2, "d": 1, "l": 5, "f": 15, "a": 28, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
         {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3", "promoted": true}

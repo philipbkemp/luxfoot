@@ -1,0 +1,121 @@
+{
+    "season": "1919-20",
+    "next": "1920-21",
+    "prev": "1918-19",
+    "league": [{
+        "level": 1,
+        "name": "1. Division",
+        "standings": [
+            {"place": 1, "team": "FOLA", "w": 8, "d": 1, "l": 1, "f": 32, "a": 14, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}, "champion": true},
+            {"place": 2, "team": "SDUD", "w": 6, "d": 1, "l": 3, "f": 24, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"place": 4, "team": "HLBN", "w": 4, "d": 1, "l": 5, "f": 17, "a": 18, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"place": 6, "team": "RACL", "w": 2, "d": 0, "l": 8, "f": 17, "a": 36, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}}
+        ],
+        "matches": [
+            {"home":"FOLA","away":"SDUD","score":"3-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"SCLX","score":"3-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"HLBN","score":"5-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"JESH","score":"2-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"FOLA","away":"RACL","score":"5-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"FOLA","score":"4-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"SCLX","score":"2-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"HLBN","score":"2-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"JESH","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SDUD","away":"RACL","score":"8-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"FOLA","score":"1-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"SDUD","score":"8-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"HLBN","score":"4-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"JESH","score":"6-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"SCLX","away":"RACL","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"},"forfeit":true},
+            {"home":"HLBN","away":"FOLA","score":"0-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"SDUD","score":"0-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"SCLX","score":"8-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"JESH","score":"3-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"HLBN","away":"RACL","score":"3-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"FOLA","score":"2-3","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"SDUD","score":"1-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"SCLX","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"},"forfeit":true},
+            {"home":"JESH","away":"HLBN","score":"1-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"JESH","away":"RACL","score":"5-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"FOLA","score":"1-6","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"SDUD","score":"6-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"SCLX","score":"4-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"HLBN","score":"0-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+            {"home":"RACL","away":"JESH","score":"0-3","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}}
+        ]
+    },{
+        "level": 2,
+        "name": "2. Division",
+        "standings": [
+            {"place": 1, "team": "RBDF", "w": 4, "d": 5, "l": 1, "f": 20, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true},
+            {"place": 2, "team": "URUM", "w": 5, "d": 3, "l": 2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true},
+            {"place": 3, "team": "NSCH", "w": 4, "d": 5, "l": 1, "f": 27, "a": 20, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2"},
+            {"place": 4, "team": "CROD", "w": 5, "d": 2, "l": 3, "f": 23, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},
+            {"place": 5, "team": "CPET", "w": 2, "d": 2, "l": 6, "f": 21, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},
+            {"place": 6, "team": "AVBG", "w": 1, "d": 1, "l": 8, "f": 11, "a": 43, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}}
+        ]
+    },{
+        "level":3,
+        "name":"3. Division",
+        "series": [{
+            "serie": 1,
+            "name": "Series Luxembourg",
+            "standings": [
+                {"place": 1, "team": "PROG", "w": 8, "d": 3, "l":  1, "f": 34, "a": 11, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true},
+                {"place": 2, "team": "TRIM", "w": 7, "d": 4, "l":  1, "f": 26, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "playoff": "promotion_3", "promoted": true},
+                {"place": 3, "team": "MANC", "w": 6, "d": 4, "l":  2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
+                {"place": 4, "team": "CSHL", "w": 6, "d": 2, "l":  4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
+                {"place": 5, "team": "JVRL", "w": 2, "d": 6, "l":  4, "f": 16, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "relegated": true},
+                {"place": 6, "team": "WALF", "w": 1, "d": 3, "l":  8, "f": 12, "a": 31, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
+                {"place": 7, "team": "CMLB", "w": 1, "d": 0, "l": 11, "f":  4, "a": 32, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}}
+            ]
+        },{
+            "serie":2,
+            "name":"Series South",
+            "standings": [                
+                {"place": 1, "team": "BLVL", "w": 6, "d": 0, "l": 2, "f": 22, "a": 15, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}, "playoff":"title_3_S", "promoted": true},
+                {"place": 2, "team": "STET", "w": 6, "d": 0, "l": 2, "f": 34, "a": 10, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}, "playoff":"title_3_S"},
+                {"place": 3, "team": "ADUD", "w": 4, "d": 1, "l": 3, "f": 22, "a": 25, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
+                {"place": 4, "team": "UESH", "w": 2, "d": 0, "l": 6, "f": 18, "a": 38, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
+                {"place": 5, "team": "ECBT", "w": 1, "d": 1, "l": 6, "f": 15, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}, "relegated": true}
+            ]
+        },{
+            "serie":3,
+            "name":"Series West",
+            "standings": [
+                {"place": 1, "team": "JSTF", "w": 7, "d": 1, "l": 0, "f": 26, "a":  6, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "promoted": true},
+                {"place": 2, "team": "PRON", "w": 4, "d": 3, "l": 1, "f": 19, "a":  9, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "playoff": "promotion_3"},
+                {"place": 3, "team": "JHTC", "w": 3, "d": 3, "l": 2, "f": 13, "a":  9, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}},
+                {"place": 4, "team": "ETZE", "w": 1, "d": 1, "l": 6, "f":  8, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}},
+                {"place": 5, "team": "CLMC", "w": 1, "d": 0, "l": 7, "f":  8, "a": 27, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}}
+            ]
+        }]
+    }],
+    "playoffs": {
+        "promotion_2": {
+            "matches": [
+                {"home":"RBDF","away":"URUM","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
+                {"home":"URUM","away":"NSCH","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
+                {"home":"RBDF","away":"NSCH","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}}
+            ],
+            "noteTeams": ["RBDF","URUM"],
+            "note": "RBDF and URUM promoted"
+        },
+        "title_3_S": {
+            "matches": [
+                {"home":"BLVL","away":"STET","score":"2-1","season":"1919-20","competition": {"type":"playoff","playoff": "title_3_S"},"outcome":"BLVL declared Series South winners and promoted|STET qualified for 3. Division Promotion playoffs"}
+            ]
+        },
+        "promotion_3": {
+            "matches": [
+                {"home":"TRIM","away":"STET","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}},
+                {"home":"TRIM","away":"PRON","score":"6-1","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}},
+                {"home":"PRON","away":"STET","score":"P-P","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"},"note":"Match not played as playoff winner already decided"}
+            ],
+            "noteTeams": ["TRIM"],
+            "note": "TRIM promoted"
+        }
+    }
+}

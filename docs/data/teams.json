@@ -355,7 +355,8 @@
         "name": "Jeunesse Heisdorf"
     },
     "JHTC": {
-        "name": "Jeunesse Hautcharage"
+        "name": "Jeunesse Hautcharage",
+        "level": -1
     },
     "JKGB": {
         "name": "Jeunesse Koerich/Goeblange"
@@ -396,7 +397,8 @@
         "name": "Jeunesse Useldange"
     },
     "JVRL": {
-        "name": "Jeunesse Verlorenkost"
+        "name": "Jeunesse Verlorenkost",
+        "level": -1
     },
     "JWAS": {
         "name": "Jeunesse Wasserbillig"
@@ -527,10 +529,12 @@
         "name": "Progrès Cessange"
     },
     "PROG": {
-        "name": "Progrès Grund"
+        "name": "Progrès Grund",
+        "level": -1
     },
     "PRON": {
-        "name": "Progrès Niederkorn"
+        "name": "Progrès Niederkorn",
+        "level": 1
     },
     "RACE": {
         "name": "Racing Union"
@@ -546,7 +550,8 @@
         "name": "Red Boys Aspelt"
     },
     "RBDF": {
-        "name": "Red Boys Differdange"
+        "name": "Red Boys Differdange",
+        "level": -1
     },
     "RBE7": {
         "name": "Red Black-Egalité 07"
@@ -693,7 +698,8 @@
         "name": "Tricolore Gasperich"
     },
     "TRIM": {
-        "name": "Tricolore Muhlenweg"
+        "name": "Tricolore Muhlenweg",
+        "level": -1
     },
     "TSVG": {
         "name": "Racing Troisvierges"

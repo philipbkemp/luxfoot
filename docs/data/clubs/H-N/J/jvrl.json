@@ -1,0 +1,14 @@
+{
+    "name": "Jeunesse Verlorenkost",
+    "history": [{
+        "season": "1912-13",
+        "event": "FOUNDED"
+    },{
+        "season": "1925-26",
+        "event": "MERGE",
+        "new_name": "HLBN"
+    }],
+    "league": [
+        {"place": 5, "team": "JVRL", "w": 2, "d": 6, "l":  4, "f": 16, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "relegated": true}
+    ]
+}

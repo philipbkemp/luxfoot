@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place": 2, "team": "SDUD", "w": 6, "d": 1, "l": 3, "f": 24, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"place": 1, "team": "SDUD", "w": 6, "d": 1, "l": 1, "f": 32, "a": 11, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff":"promotion_2", "promoted": true},
         {"place": 3, "team": "SDUD", "w": 3, "d": 0, "l": 5, "f": 17, "a": 14, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
         {"place":3, "team": "SDUD", "w": 4, "d": 2, "l": 2, "f": 36, "a": 13, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
@@ -17,6 +18,17 @@
         {"place":1, "team": "SDUD", "w": 2, "d": 0, "l": 0, "f": 12, "a":  2, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2,"playoff": "title_playoff"}
     ],
     "matches": [
+        {"home":"FOLA","away":"SDUD","score":"3-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"FOLA","score":"4-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"SCLX","score":"2-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"HLBN","score":"2-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"JESH","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"RACL","score":"8-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"SDUD","score":"8-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"HLBN","away":"SDUD","score":"0-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"JESH","away":"SDUD","score":"1-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"RACL","away":"SDUD","score":"6-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
+
         {"home":"SDUD","away":"SDIF","score":"4-0","outcome":"SDUD promoted","season": "1918-19", "competition": {"type":"playoff","playoff": "promotion_2"}},
         
         {"home":"HLBN","away":"SDUD","score":"0-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},

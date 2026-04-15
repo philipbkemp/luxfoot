@@ -121,7 +121,7 @@
             
             params=[];
             window.location.search.replace("?","").split("&").forEach(param=>{parts=param.split("=");params[parts[0]]=parts[1];});
-            club = params.club
+            club = params.club.toUpperCase();
             showSection = params.show ?? "history";
             allTeams = [];
             
@@ -294,6 +294,11 @@
                             keys = keys.filter(key => key !== 'history.event');
                             hEvent.innerHTML = "Club dissolved";
                             break;
+                        case "ABSORB":
+                            keys = keys.filter(key => key !== 'history.event');
+                            hEvent.innerHTML = "Absorbed " + allTeams[h.old_name].name + " into club";
+                            keys = keys.filter(key => key !== 'history.old_name');
+                            break;
                         default:
                             console.warn("unknown event",h.event);
                             break;
@@ -369,6 +374,7 @@
                     keys = keys.filter(key => key !== 'matches.date');
                     keys = keys.filter(key => key !== 'matches.outcome');
                     keys = keys.filter(key => key !== 'matches.forfeit');
+                    keys = keys.filter(key => key !== 'matches.note');
                 });
                 
                 opponents.sort((a, b) => a._name.localeCompare(b._name));
@@ -398,43 +404,44 @@
                 .sort((a, b) => opponents[a]._name.localeCompare(opponents[b]._name))
                 .forEach(opp=>{
                     
-                    oppRow = document.createElement("TR");
-                    
-                    oppName = document.createElement("TD");
-                    oppName.innerHTML = opponents[opp]._name;
-                    oppRow.append(oppName);
-                    
                     played = opponents[opp].w + opponents[opp].d +opponents[opp].l;
-                    points = (opponents[opp].w * 3) + opponents[opp].d;
-                    
-                    oppPlayed = document.createElement("TD");
-                    oppPlayed.innerHTML = played;
-                    oppRow.append(oppPlayed);
-                    
-                    ["w","d","l","f","a"].forEach(col=>{
-                        oppStat = document.createElement("TD");
-                        oppStat.innerHTML = opponents[opp][col];
-                        oppRow.append(oppStat);
-                    });
-                    
-                    oppPoints = document.createElement("TD");
-                    oppPoints.innerHTML = points;
-                    oppRow.append(oppPoints);
-                    
-                    oppDiff = document.createElement("TD");
-                    oppDiff.innerHTML = opponents[opp].f - opponents[opp].a;
-                    oppRow.append(oppDiff);
-                    
-                    oppWinPerc = document.createElement("TD");
-                    oppWinPerc.innerHTML = ((opponents[opp].w / played) * 100).toFixed(2);
-                    oppRow.append(oppWinPerc);
-                    
-                    oppPpg = document.createElement("TD");
-                    oppPpg.innerHTML = (points / played).toFixed(2);
-                    oppRow.append(oppPpg);
-                    
-                    mtBody.append(oppRow);
-                    
+                    if ( played !== 0 ) {                    
+                        oppRow = document.createElement("TR");
+                        
+                        oppName = document.createElement("TD");
+                        oppName.innerHTML = opponents[opp]._name;
+                        oppRow.append(oppName);
+                        
+                        points = (opponents[opp].w * 3) + opponents[opp].d;
+                        
+                        oppPlayed = document.createElement("TD");
+                        oppPlayed.innerHTML = played;
+                        oppRow.append(oppPlayed);
+                        
+                        ["w","d","l","f","a"].forEach(col=>{
+                            oppStat = document.createElement("TD");
+                            oppStat.innerHTML = opponents[opp][col];
+                            oppRow.append(oppStat);
+                        });
+                        
+                        oppPoints = document.createElement("TD");
+                        oppPoints.innerHTML = points;
+                        oppRow.append(oppPoints);
+                        
+                        oppDiff = document.createElement("TD");
+                        oppDiff.innerHTML = opponents[opp].f - opponents[opp].a;
+                        oppRow.append(oppDiff);
+                        
+                        oppWinPerc = document.createElement("TD");
+                        oppWinPerc.innerHTML = ((opponents[opp].w / played) * 100).toFixed(2);
+                        oppRow.append(oppWinPerc);
+                        
+                        oppPpg = document.createElement("TD");
+                        oppPpg.innerHTML = (points / played).toFixed(2);
+                        oppRow.append(oppPpg);
+                        
+                        mtBody.append(oppRow);
+                    }                    
                 });
                 
                 mt.append(mtBody);
@@ -447,14 +454,14 @@
             }
             
             function getFolder(name) {
-                const c = name[0];
+                const c = name[0].toUpperCase();
                 let range;
                 if (c <= 'G') range = 'A-G';
                 else if (c <= 'N') range = 'H-N';
                 else if (c <= 'U') range = 'O-U';
                 else range = 'V-Z';
 
-                return `${range}/${c}`;
+                return (`${range}/${c}`).toUpperCase();
             }
         </script>
     </body>

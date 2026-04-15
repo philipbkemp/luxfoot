@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place": 3, "team": "ADUD", "w": 4, "d": 1, "l": 3, "f": 22, "a": 25, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
         {"place": 5, "team": "ADUD", "w": 2, "d": 0, "l": 6, "f":  9, "a": 28, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}},
         {"place": 4, "team": "ADUD", "w": 1, "d": 0, "l": 5, "f":  7, "a": 21, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "pts_win": 2}
     ]

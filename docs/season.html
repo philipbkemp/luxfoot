@@ -183,6 +183,8 @@
             function drawPlayoff(code,po,isShown,keyPrefix) {
                 keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
                 keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+                keys = keys.filter(key => key !== `${keyPrefix}.note`);
+                keys = keys.filter(key => key !== `${keyPrefix}.noteTeams`);
 
                 if ( ! isShown ) {
                     return;
@@ -194,6 +196,17 @@
 
                 if ( po.matches ) {
                     drawMatches(po.matches,keyPrefix+".matches",{"type":"playoff","playoff":code});
+                }
+                
+                if ( po.note ) {
+                    note = document.createElement("P");
+                    note.innerHTML = "Note: " + po.note;
+                    if ( po.noteTeams ) {
+                        po.noteTeams.forEach(nt=>{
+                            note.innerHTML = note.innerHTML.replaceAll(nt,allTeams[nt].name);
+                        });
+                    }
+                    dataContainer.append(note);
                 }
             }
 

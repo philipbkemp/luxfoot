@@ -10,6 +10,7 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place": 4, "team": "CROD", "w": 5, "d": 2, "l": 3, "f": 23, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},
         {"place": 1, "team": "CROD", "w": 7, "d": 0, "l": 1, "f": 26, "a":  6, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "promoted": true},
         {"gap":true},
         {"place": 7, "team": "CROD", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}

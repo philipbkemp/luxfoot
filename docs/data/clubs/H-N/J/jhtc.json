@@ -1,0 +1,20 @@
+{
+    "name": "Jeunesse Hautcharage",
+    "history": [{
+        "season": "1918-19",
+        "event": "FOUNDED"
+    },{
+        "season": "1934-35",
+        "event": "DISSOLVED"
+    },{
+        "season": "1946-47",
+        "event": "REFOUNDED"
+    },{
+        "season": "1996-97",
+        "event": "MERGE",
+        "new_name": "KAER"
+    }],
+    "league": [
+        {"place": 3, "team": "JHTC", "w": 3, "d": 3, "l": 2, "f": 13, "a":  9, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}}
+    ]
+}

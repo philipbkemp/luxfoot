@@ -1,0 +1,26 @@
+{
+    "name": "Tricolore Muhlenweg",
+    "founded": "1919-05-01",
+    "refounded": "1930-03-27",
+    "history": [{
+        "season": "1918-19",
+        "event": "FOUNDED"
+    },{
+        "season": "1923-24",
+        "event": "DISSOLVED"
+    },{
+        "season": "1929-30",
+        "event": "REFOUNDED"
+    },{
+        "season": "1945-46",
+        "event": "RENAME",
+        "new_name": "TRIG"
+    }],
+    "league": [
+        {"place": 2, "team": "TRIM", "w": 7, "d": 4, "l":  1, "f": 26, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "playoff": "promotion_3", "promoted": true}
+    ],
+    "matches": [
+        {"home":"TRIM","away":"STET","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}},
+        {"home":"TRIM","away":"PRON","score":"6-1","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}
