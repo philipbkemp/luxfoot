@@ -1,0 +1,13 @@
+{
+    "name": "Phalanx Kleinbettingen",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1924-25",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":1, "team":"PHLK", "w":1, "d":1, "l":0, "f":4, "a":3, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":1,"league":"2. Division Series 1"}, "pts_win":2}
+    ]
+}

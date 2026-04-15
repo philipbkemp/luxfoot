@@ -1,0 +1,37 @@
+{
+    "name": "Stade Dudelange",
+    "history": [{
+        "season": "1911-12",
+        "event": "RENAME_FROM",
+        "old_name": "GDUD"
+    },{
+        "season": "1991-92",
+        "event": "MERGE",
+        "new_name": "F91D"
+    }],
+    "league": [
+        {"place": 1, "team": "SDUD", "w": 6, "d": 1, "l": 1, "f": 32, "a": 11, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff":"promotion_2", "promoted": true},
+        {"place": 3, "team": "SDUD", "w": 3, "d": 0, "l": 5, "f": 17, "a": 14, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
+        {"place":3, "team": "SDUD", "w": 4, "d": 2, "l": 2, "f": 36, "a": 13, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
+        {"place":6, "team": "SDUD", "w": 2, "d": 1, "l": 7, "f": 14, "a": 32, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2, "relegated": true},
+        {"place":1, "team": "SDUD", "w": 2, "d": 0, "l": 0, "f": 12, "a":  2, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2,"playoff": "title_playoff"}
+    ],
+    "matches": [
+        {"home":"SDUD","away":"SDIF","score":"4-0","outcome":"SDUD promoted","season": "1918-19", "competition": {"type":"playoff","playoff": "promotion_2"}},
+        
+        {"home":"HLBN","away":"SDUD","score":"0-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SCLX","away":"SDUD","score":"1-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"FOLA","away":"SDUD","score":"3-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"RACL","away":"SDUD","score":"8-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"JESH","away":"SDUD","score":"3-0" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"HLBN","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"SCLX","score":"3-4" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"FOLA","score":"3-7" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"RACL","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"home":"SDUD","away":"JESH","score":"1-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+
+        {"home":"SDUD","away":"USDD","score":"6-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}},
+        {"home":"USDD","away":"SDUD","score":"1-6", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}},
+        {"home":"JESH","away":"SDUD","score":"4-1", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"}}
+    ]
+}

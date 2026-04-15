@@ -1,0 +1,12 @@
+{
+    "name": "US Esch",
+    "history": [{
+        "season": "1912-13",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":5, "team": "UESH", "w": 1, "d": 0, "l": 7, "f":  6, "a": 41, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
+        {"gap": true},
+        {"place":1, "team":"UESH", "w":2, "d":0, "l":0, "f":7, "a":3, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}, "pts_win":2}
+    ]
+}

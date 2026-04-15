@@ -79,6 +79,9 @@ table.standings-history.notes__some th:last-child,
 table.standings-history.notes__some td:last-child {
     min-width: 150px;
 }
+table.standings-history .gap-year {
+    display: table-cell !important;
+}
 
 table.matches {
     border-collapse: collapse;

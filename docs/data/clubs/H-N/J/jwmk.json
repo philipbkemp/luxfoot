@@ -1,0 +1,14 @@
+{
+    "name": "Jeunesse Weimerskirch",
+    "history": [{
+        "season": "1915-16",
+        "event": "FOUNDED"
+    },{
+        "season": "1921-22",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 3, "team": "JWMK", "w": 0, "d": 2, "l": 2, "f":  4, "a": 13, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "pts_win": 2},
+        {"place":2, "team": "JWMK", "w": 3, "d": 0, "l": 3, "f": 16, "a": 19, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "pts_win":2}
+    ]
+}

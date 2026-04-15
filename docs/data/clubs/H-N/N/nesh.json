@@ -1,0 +1,13 @@
+{
+    "name": "National Esch",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1911-12",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 8, "team": "NESH", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+    ]
+}

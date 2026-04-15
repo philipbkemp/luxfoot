@@ -147,13 +147,16 @@
         "level": -1
     },
     "CSHL": {
-        "name": "CS Hollerich"
+        "name": "CS Hollerich",
+        "level": -1
     },
     "CPET": {
-        "name": "CS Petange"
+        "name": "CS Petange",
+        "level": -1
     },
     "CROD": {
-        "name": "Chiers Rodange"
+        "name": "Chiers Rodange",
+        "level": -1
     },
     "CSOB": {
         "name": "CS Oberkorn"
@@ -165,7 +168,8 @@
         "name": "Daring Club Echternach"
     },
     "DEIC": {
-        "name": "Daring Club Eich"
+        "name": "Daring Club Eich",
+        "level": -1
     },
     "DIFF": {
         "name": "Differdange 03"
@@ -177,7 +181,8 @@
         "name": "Diables Rouges Zolver"
     },
     "ECBT": {
-        "name": "Eclair Bettembourg"
+        "name": "Eclair Bettembourg",
+        "level": -1
     },
     "EBDU": {
         "name": "Etoile Bleu Dudelange"
@@ -195,7 +200,8 @@
         "name": "Enfants de la Source Mondorf"
     },
     "ERDU": {
-        "name": "Etoile Rouge 1908 Dudelange"
+        "name": "Etoile Rouge 1908 Dudelange",
+        "level": -1
     },
     "ERPL": {
         "name": "FC Erpeldange 72"
@@ -207,7 +213,8 @@
         "name": "Etoile Sportive Luxembourg"
     },
     "ETZE": {
-        "name": "Etzella Ettelbréck"
+        "name": "Etzella Ettelbréck",
+        "level": 2
     },
     "EVER": {
         "name": "FC Everlange"
@@ -240,7 +247,8 @@
         "name": "FC Ell"
     },
     "FOLA": {
-        "name": "Fola Esch"
+        "name": "Fola Esch",
+        "level": 2
     },
     "FOLS": {
         "name": "US Folschette"
@@ -255,7 +263,8 @@
         "name": "Grupo Desportivo dos Lusitanos de Larochette"
     },
     "GDUD": {
-        "name": "Gallia Dudelange"
+        "name": "Gallia Dudelange",
+        "level": -1
     },
     "GOLD": {
         "name": "Gold a Ro't Wiltz"
@@ -310,7 +319,8 @@
         "name": "Iska Boys Simmern"
     },
     "JBET": {
-        "name": "Jeunesse Bettembourg"
+        "name": "Jeunesse Bettembourg",
+        "level": -1
     },
     "JBIW": {
         "name": "Jeunesse Biwer"
@@ -319,10 +329,12 @@
         "name": "Jeunesse Canach"
     },
     "JECT": {
-        "name": "Jeunesse Echternach"
+        "name": "Jeunesse Echternach",
+        "level": -1
     },
     "JESH": {
-        "name": "Jeunesse Esch"
+        "name": "Jeunesse Esch",
+        "level": 1
     },
     "JFLX": {
         "name": "Jeunesse Flaxweiler"
@@ -349,7 +361,8 @@
         "name": "Jeunesse Koerich/Goeblange"
     },
     "JKYL": {
-        "name": "Jeunesse 07 Kayl"
+        "name": "Jeunesse 07 Kayl",
+        "level": -1
     },
     "JMAM": {
         "name": "Jeunesse Mamer"
@@ -373,7 +386,8 @@
         "name": "Jeunesse Sportive Sanem"
     },
     "JSTF": {
-        "name": "Jeunesse Steinfort"
+        "name": "Jeunesse Steinfort",
+        "level": -1
     },
     "JUNG": {
         "name": "Jeunesse Junglinster"
@@ -388,7 +402,8 @@
         "name": "Jeunesse Wasserbillig"
     },
     "JWMK": {
-        "name": "Jeunesse Weimerskirch"
+        "name": "Jeunesse Weimerskirch",
+        "level": -1
     },
     "JWIL": {
         "name": "Jeunesse Wilwerdingen"
@@ -442,7 +457,8 @@
         "name": "Mamer 32"
     },
     "MANC": {
-        "name": "Mansfeldia Clausen"
+        "name": "Mansfeldia Clausen",
+        "level": -1
     },
     "MARM": {
         "name": "Marisca Mersch"
@@ -475,7 +491,8 @@
         "name": "FC Munsbach"
     },
     "NESH": {
-        "name": "National Esch"
+        "name": "National Esch",
+        "level": -1
     },
     "NORD": {
         "name": "FF Norden 02"
@@ -484,7 +501,8 @@
         "name": "FC Noertzange HF"
     },
     "NSCH": {
-        "name": "National Schifflange"
+        "name": "National Schifflange",
+        "level": -1
     },
     "OBCN": {
         "name": "Old Boys Consdorf"
@@ -499,7 +517,8 @@
         "name": "Olympique Äischen"
     },
     "PHLK": {
-        "name": "Phalanx Kleinbettingen"
+        "name": "Phalanx Kleinbettingen",
+        "level": -1
     },
     "PRTZ": {
         "name": "AS Pratzerthal"
@@ -563,7 +582,8 @@
         "name": "FC Rodange 91"
     },
     "ROLG": {
-        "name": "CS Rollingergrund"
+        "name": "CS Rollingergrund",
+        "level": -1
     },
     "RPDN": {
         "name": "Rapid Neudorf"
@@ -612,10 +632,12 @@
         "level": -1
     },
     "SDIF": {
-        "name": "SC Differdange"
+        "name": "SC Differdange",
+        "level": -1
     },
     "SDUD": {
-        "name": "Stade Dudelange"
+        "name": "Stade Dudelange",
+        "level": -1
     },
     "SELL": {
         "name": "SC Ell"
@@ -648,7 +670,8 @@
         "name": "FC Stengefort"
     },
     "STET": {
-        "name": "SC Tétange"
+        "name": "SC Tétange",
+        "level": -1
     },
     "SURA": {
         "name": "Sura Esch/Sauer"
@@ -657,7 +680,8 @@
         "name": "Sura Michelau"
     },
     "SWFT": {
-        "name": "Swift Hesperange"
+        "name": "Swift Hesperange",
+        "level": 1
     },
     "SYRA": {
         "name": "Syra Mensdorf"
@@ -690,7 +714,8 @@
         "name": "US Eschdorf"
     },
     "UESH": {
-        "name": "US Esch"
+        "name": "US Esch",
+        "level": 4
     },
     "UFLN": {
         "name": "US Feulen"
@@ -714,13 +739,15 @@
         "name": "Union Titus Petange"
     },
     "URUM": {
-        "name": "US Rumelange"
+        "name": "US Rumelange",
+        "level": 2
     },
     "USBC": {
         "name": "US Berdorf/Consdorf"
     },
     "USDD": {
-        "name": "US Dudelange"
+        "name": "US Dudelange",
+        "level": -1
     },
     "USMM": {
         "name": "US Moutfort/Medingen"
@@ -738,7 +765,8 @@
         "name": "Vinesca Ehnen"
     },
     "WALF": {
-        "name": "Résidence Walferdange"
+        "name": "Résidence Walferdange",
+        "level": 2
     },
     "WGLW": {
         "name": "White-Green Lorentzweiler"
@@ -756,7 +784,8 @@
         "name": "FC Weiswampach"
     },
     "YBDK": {
-        "name": "Young Boys Diekirch"
+        "name": "Young Boys Diekirch",
+        "level": 3
     },
     "YBSL": {
         "name": "Young Boys Zolver"

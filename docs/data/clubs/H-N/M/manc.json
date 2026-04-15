@@ -1,0 +1,30 @@
+{
+    "name": "Mansfeldia Clausen",
+    "founded": "1909-04-22",
+    "refounded": "1919-04-06",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1911-12",
+        "event": "DISSOLVED"
+    },{
+        "season": "1918-19",
+        "event": "REFOUNDED"
+    },{
+        "season": "1986-87",
+        "event": "MERGE",
+        "new_name": "RMLX"
+    }],
+    "league": [
+        {"place":4, "team": "MANC", "w": 0, "d":  0, "l": 6, "f":  1, "a": 15, "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}, "pts_win":2}
+    ],
+    "matches": [
+        {"home":"SCLX","away":"MANC","score":"4-0", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"SDIF","away":"MANC","score":"2-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"MANC","score":"3-0", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"MANC","away":"SCLX","score":"0-2", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"MANC","away":"SDIF","score":"0-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"MANC","away":"HLBN","score":"0-3", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Résidence Walferdange",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":3, "team": "WALF", "w": 2, "d": 0, "l": 4, "f":  4, "a": 39, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "pts_win":2}
+    ]
+}

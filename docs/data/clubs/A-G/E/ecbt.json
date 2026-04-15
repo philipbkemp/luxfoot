@@ -1,0 +1,14 @@
+{
+    "name": "Eclair Bettembourg",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1932-33",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 3, "team": "ECBT", "w": 2, "d": 1, "l": 5, "f": 13, "a": 24, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}},
+        {"place": 2, "team": "ECBT", "w": 3, "d": 0, "l": 3, "f": 17, "a": 17, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "pts_win": 2}
+    ]
+}

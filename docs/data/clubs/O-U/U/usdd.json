@@ -1,0 +1,19 @@
+{
+    "name": "US Dudelange",
+    "founded": "1912-04-25",
+    "history": [{
+        "season": "1911-12",
+        "event": "FOUNDED"
+    },{
+        "season": "1990-91",
+        "event": "MERGE",
+        "new_name": "F91D"
+    }],
+    "league": [
+        {"place":2, "team": "USDD", "w": 0, "d": 0, "l": 2, "f":  2, "a": 12, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2}
+    ],
+    "matches": [
+        {"home":"SDUD","away":"USDD","score":"6-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}},
+        {"home":"USDD","away":"SDUD","score":"1-6", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}}
+    ]
+}

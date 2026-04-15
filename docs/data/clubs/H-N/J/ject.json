@@ -1,0 +1,14 @@
+{
+    "name": "Jeunesse Echternach",
+    "history": [{
+        "season": "1909-10",
+        "event": "FOUNDED"
+    },{
+        "season": "1920-21",
+        "event": "RENAME",
+        "new_name": "DARE"
+    }],
+    "league": [
+        {"place": 6, "team": "JECT", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+    ]
+}

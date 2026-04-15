@@ -1,0 +1,14 @@
+{
+    "name": "Jeunesse 07 Kayl",
+    "history": [{
+        "season": "1906-07",
+        "event": "FOUNDED"
+    },{
+        "season": "2004-05",
+        "event": "MERGE",
+        "new_name": "U5KT"
+    }],
+    "league": [
+        {"place":2, "team":"JKYL", "w":0, "d":0, "l":2, "f":3, "a":7, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}, "pts_win":2}
+    ]
+}

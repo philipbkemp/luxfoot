@@ -1,0 +1,11 @@
+{
+    "name": "Swift Hesperange",
+    "founded": "1916-07-02",
+    "history": [{
+        "season": "1916-17",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place": 3, "team": "SWFT", "w": 2, "d": 0, "l": 4, "f":  8, "a": 10, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}}
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "National Schifflange",
+    "history": [{
+        "season": "1912-13",
+        "event": "FOUNDED"
+    },{
+        "season": "1994-95",
+        "event": "MERGE",
+        "new_name": "SCHF"
+    }],
+    "league": [
+        {"place": 2, "team": "NSCH", "w": 6, "d": 1, "l": 1, "f": 22, "a": 13, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "playoff": "promotion_3", "promoted": true},
+        {"place": 3, "team": "NSCH", "w": 3, "d": 0, "l": 3, "f": 17, "a": 17, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "pts_win": 2},
+        {"place":2, "team": "NSCH", "w": 3, "d": 2, "l": 1, "f": 20, "a": 16, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 2, "league":"3. Division Series Esch"}, "pts_win":2},
+        {"place":2,"team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2, "playoff":"promotion_3"}
+    ],
+    "matches": [
+        {"home":"NSCH","away":"CMLB","score":"7-2","outcome":"NSCH promoted","season": "1918-19", "competition": {"type":"playoff","playoff": "promotion_3"}},
+        
+        {"home":"JBET","away":"NSCH","score":"4-0","outcome":"Series 2 Playoff: JBET promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Chiers Rodange",
+    "founded": "1907-11-01",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    },{
+        "season": "1990-91",
+        "event": "MERGE",
+        "new_name": "RODG"
+    }],
+    "league": [
+        {"place": 1, "team": "CROD", "w": 7, "d": 0, "l": 1, "f": 26, "a":  6, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "promoted": true},
+        {"gap":true},
+        {"place": 7, "team": "CROD", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+    ]
+}

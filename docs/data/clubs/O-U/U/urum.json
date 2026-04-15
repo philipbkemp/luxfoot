@@ -1,0 +1,18 @@
+{
+    "name": "US Rumelange",
+    "founded": "1908-04-03",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f": 12, "a": 39, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}},
+        {"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f":  7, "a": 31, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
+        {"place":1, "team": "URUM", "w": 5, "d": 1, "l": 0, "f": 20, "a":  7, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 2, "league":"3. Division Series Esch"}, "pts_win":2, "playoff":"promotion_3", "promoted":true},
+        {"gap":true},
+        {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+    ],
+    "matches": [
+        {"home":"URUM","away":"AVBG","score":"6-2","outcome":"URUM promoted", "season": "1916-17", "competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}

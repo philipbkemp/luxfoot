@@ -1,0 +1,36 @@
+{
+    "name": "SC Differdange",
+    "founded": "1907-04-25",
+    "history": [{
+        "season": "1906-07",
+        "event": "FOUNDED"
+    },{
+        "season": "1918-19",
+        "event": "RENAME",
+        "new_name": "RBDF"
+    }],
+    "league": [
+        {"place": 2, "team": "SDIF", "w": 6, "d": 1, "l": 1, "f": 31, "a":  6, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff":"promotion_2"},
+        {"place": 2, "team": "SDIF", "w": 6, "d": 0, "l": 2, "f": 37, "a":  9, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
+        {"place":2, "team": "SDIF", "w": 5, "d": 1, "l": 2, "f": 26, "a": 12, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
+        {"place":2, "team": "SDIF", "w": 2, "d": 0, "l": 2, "f": 9, "a": 7, "season": "1915-16", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
+        {"place":2, "team": "SDIF", "w": 0, "d": 0, "l": 2, "f": 4, "a": 6, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":4,"league":"1. Division Series 4"}, "pts_win":2},
+        {"place":4, "team": "SDIF", "missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"gap": true},
+        {"place":2, "team": "SDIF", "w": 4, "d":  1, "l": 1, "f":  8, "a":  6, "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}, "pts_win":2, "playoff": "title"}
+    ],
+    "matches": [
+        {"home":"SDUD","away":"SDIF","score":"4-0","outcome":"SDUD promoted","season": "1918-19", "competition": {"type":"playoff","playoff": "promotion_2"}},
+        
+        {"home":"CPET","away":"SDIF","score":"4-3", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":4,"league":"1. Division Series 4"}},
+        {"home":"SDIF","away":"CPET","score":"1-2", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":4,"league":"1. Division Series 4"}},
+                
+        {"home":"SCLX","away":"SDIF","score":"3-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"SDIF","away":"SCLX","score":"2-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"SDIF","away":"HLBN","score":"1-0", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"SDIF","away":"MANC","score":"2-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"HLBN","away":"SDIF","score":"1-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"home":"MANC","away":"SDIF","score":"0-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
+        {"date": "1911-04-09","home":"SCLX","away":"SDIF","score":"3-0", "outcome": "SCLX declared champions", "season": "1910-11", "competition":{"type":"playoff", "playoff": "title"}}
+    ]
+}

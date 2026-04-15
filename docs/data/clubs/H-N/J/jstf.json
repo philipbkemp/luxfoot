@@ -1,0 +1,16 @@
+{
+    "name": "Jeunesse Steinfort",
+    "history": [{
+        "season": "1914-15",
+        "event": "FOUNDED"
+    },{
+        "season": "1923-24",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":2,"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3"}
+    ],
+    "matches": [
+        {"home":"CSHL","away":"JSTF","score":"5-0","outcome":"Series 1 Playoff: CSHL promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}

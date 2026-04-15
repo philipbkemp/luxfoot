@@ -1,0 +1,15 @@
+{
+    "name": "CS Rollingergrund",
+    "history": [{
+        "season": "1913-14",
+        "event": "FOUNDED"
+    },{
+        "season": "1923-24",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":4, "team": "ROLG", "w": 1, "d": 0, "l": 5, "f": 10, "a": 18, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "pts_win":2},
+        {"place":3,"team": "ROLG", "w": 1, "d": 0, "l": 3, "f":  8, "a": 13, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2},
+        {"place":2, "team":"ROLG", "w":0, "d":1, "l":1, "f":3, "a":4, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":1,"league":"2. Division Series 1"}, "pts_win":2}
+    ]
+}

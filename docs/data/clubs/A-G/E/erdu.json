@@ -1,0 +1,14 @@
+{
+    "name": "Etoile Rouge 1908 Dudelange",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1916-17",
+        "event": "MERGE",
+        "new_name": "ADUD"
+    }],
+    "league": [
+        {"place":3,"team": "ERDU", "w": 0, "d": 0, "l": 4, "f":  2, "a":  7, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2}
+    ]
+}

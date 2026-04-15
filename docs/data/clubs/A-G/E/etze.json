@@ -1,0 +1,11 @@
+{
+    "name": "Etzella Ettelbréck",
+    "founded": "1917-04-21",
+    "history": [{
+        "season": "1917-18",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place": 2, "team": "ETZE", "w": 4, "d": 0, "l": 2, "f": 15, "a": 14, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}}
+    ]
+}
