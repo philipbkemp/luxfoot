@@ -1,7 +1,7 @@
 {
     "name": [
-        "Eugène",
-        "Becker"
+        "François",
+        "Krebs"
     ],
     "total": {
         "M": {
@@ -9,9 +9,9 @@
             "goals": 0
         }
     },
-    "position": "FW",
-    "born": "1882-02-21",
-    "died": "1939-07-30",
+    "position": "??",
+    "born": "1894-06-30",
+    "died": "1977-07-02",
     "matches": [{
         "category": "M",
         "season": "1912-13",
@@ -22,7 +22,7 @@
         "score": "8-0",
         "result": "L",
         "players": [
-            {"player":"BECK_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+            {"player":"KREB_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
         ]
     }]
 }

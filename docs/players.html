@@ -32,6 +32,10 @@
                 })
                 .then(data => {
                     
+                    if ( Object.keys(data).length > 25 ) {
+                        alert("Pagination needed");
+                    }
+                    
                     navLeague = document.createElement("A");
                     navLeague.href = "players.html?comp=men";
                     navLeague.innerHTML = "Men's";

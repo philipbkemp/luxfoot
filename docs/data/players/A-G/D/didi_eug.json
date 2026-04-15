@@ -1,0 +1,28 @@
+{
+    "name": [
+        "Eugène",
+        "Didier"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "GK",
+    "born": "1893-01-23",
+    "died": "1922-10-26",
+    "matches": [{
+        "category": "M",
+        "season": "1913-14",
+        "date": "1914-02-08",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "5-4",
+        "result": "W",
+        "players": [
+            {"player":"DIDI_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"gk":true}
+        ]
+    }]
+}

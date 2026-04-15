@@ -1,0 +1,28 @@
+{
+    "name": [
+        "Jean-Pierre",
+        "Voelker"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "??",
+    "born": "1892-10-10",
+    "died": "1918-09-25",
+    "matches": [{
+        "category": "M",
+        "season": "1913-14",
+        "date": "1914-02-08",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "5-4",
+        "result": "W",
+        "players": [
+            {"player":"VOEL_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}}
+        ]
+    }]
+}

@@ -1,0 +1,40 @@
+{
+    "name": [
+        "Jean",
+        "Massard"
+    ],
+    "total": {
+        "M": {
+            "caps": 2,
+            "goals": 4
+        }
+    },
+    "position": "FW",
+    "born": "1894-09-14",
+    "died": "1930-02-03",
+    "matches": [{
+        "category": "M",
+        "season": "1912-13",
+        "date": "1913-04-20",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_FRA",
+        "away": "_LUX",
+        "score": "8-0",
+        "result": "L",
+        "players": [
+            {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+        ]
+    },{
+        "category": "M",
+        "season": "1913-14",
+        "date": "1914-02-08",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "5-4",
+        "result": "W",
+        "players": [
+            {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":[4,20,46,81]}
+        ]
+    }]
+}

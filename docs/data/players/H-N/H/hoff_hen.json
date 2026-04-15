@@ -1,7 +1,7 @@
 {
     "name": [
-        "Jemmy",
-        "Becker"
+        "Henri",
+        "Hoffmann"
     ],
     "total": {
         "M": {
@@ -9,20 +9,20 @@
             "goals": 0
         }
     },
-    "position": "MF",
-    "born": "1888-04-10",
-    "died": "1936-09-04",
+    "position": "??",
+    "born": "1894-01-29",
+    "died": "1972-08-24",
     "matches": [{
         "category": "M",
-        "season": "1911-12",
-        "date": "1911-10-29",
+        "season": "1913-14",
+        "date": "1914-02-08",
         "competition": {"type":"international","international":"Friendly"},
         "home": "_LUX",
         "away": "_FRA",
-        "score": "1-4",
-        "result": "L",
+        "score": "5-4",
+        "result": "W",
         "players": [
-            {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+            {"player":"HOFF_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}}
         ]
     }]
 }

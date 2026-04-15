@@ -1,7 +1,7 @@
 {
     "name": [
-        "Jemmy",
-        "Becker"
+        "Nicolas",
+        "Michaux"
     ],
     "total": {
         "M": {
@@ -9,9 +9,9 @@
             "goals": 0
         }
     },
-    "position": "MF",
-    "born": "1888-04-10",
-    "died": "1936-09-04",
+    "position": "??",
+    "born": "1892-04-07",
+    "died": "1953-05-15",
     "matches": [{
         "category": "M",
         "season": "1911-12",
@@ -22,7 +22,7 @@
         "score": "1-4",
         "result": "L",
         "players": [
-            {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+            {"player":"MICH_NIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
         ]
     }]
 }

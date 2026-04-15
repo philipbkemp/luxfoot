@@ -1,7 +1,7 @@
 {
     "name": [
-        "Jemmy",
-        "Becker"
+        "Auguste",
+        "Rizzi"
     ],
     "total": {
         "M": {
@@ -9,20 +9,20 @@
             "goals": 0
         }
     },
-    "position": "MF",
-    "born": "1888-04-10",
-    "died": "1936-09-04",
+    "position": "DF",
+    "born": "1892-05-08",
+    "died": "1963-09-30",
     "matches": [{
         "category": "M",
-        "season": "1911-12",
-        "date": "1911-10-29",
+        "season": "1913-14",
+        "date": "1914-02-08",
         "competition": {"type":"international","international":"Friendly"},
         "home": "_LUX",
         "away": "_FRA",
-        "score": "1-4",
-        "result": "L",
+        "score": "5-4",
+        "result": "W",
         "players": [
-            {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+            {"player":"RIZZ_AUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}}
         ]
     }]
 }

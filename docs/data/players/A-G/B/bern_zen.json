@@ -1,0 +1,40 @@
+{
+    "name": [
+        "Zénon",
+        "Bernard"
+    ],
+    "total": {
+        "M": {
+            "caps": 2,
+            "goals": 1
+        }
+    },
+    "position": "??",
+    "born": "1893-02-15",
+    "died": "1942-06-25",
+    "matches": [{
+        "category": "M",
+        "season": "1911-12",
+        "date": "1911-10-29",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "1-4",
+        "result": "L",
+        "players": [
+            {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+        ]
+    },{
+        "category": "M",
+        "season": "1913-14",
+        "date": "1914-02-08",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "5-4",
+        "result": "W",
+        "players": [
+            {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":[47]}
+        ]
+    }]
+}

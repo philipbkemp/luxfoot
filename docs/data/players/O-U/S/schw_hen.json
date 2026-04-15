@@ -1,0 +1,40 @@
+{
+    "name": [
+        "Henri",
+        "Schwartz"
+    ],
+    "total": {
+        "M": {
+            "caps": 2,
+            "goals": 0
+        }
+    },
+    "position": "??",
+    "born": "1892-08-06",
+    "died": "1929-02-03",
+    "matches": [{
+        "category": "M",
+        "season": "1911-12",
+        "date": "1911-10-29",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "1-4",
+        "result": "L",
+        "players": [
+            {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+        ]
+    },{
+        "category": "M",
+        "season": "1912-13",
+        "date": "1913-04-20",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_FRA",
+        "away": "_LUX",
+        "score": "8-0",
+        "result": "L",
+        "players": [
+            {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+        ]
+    }]
+}

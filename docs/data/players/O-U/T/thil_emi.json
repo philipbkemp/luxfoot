@@ -1,0 +1,40 @@
+{
+    "name": [
+        "Emile",
+        "Thill"
+    ],
+    "total": {
+        "M": {
+            "caps": 2,
+            "goals": 0
+        }
+    },
+    "position": "??",
+    "born": "1893-10-06",
+    "died": "1968-12-30",
+    "matches": [{
+        "category": "M",
+        "season": "1912-13",
+        "date": "1913-04-20",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_FRA",
+        "away": "_LUX",
+        "score": "8-0",
+        "result": "L",
+        "players": [
+            {"player":"THIL_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+        ]
+    },{
+        "category": "M",
+        "season": "1913-14",
+        "date": "1914-02-08",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "5-4",
+        "result": "W",
+        "players": [
+            {"player":"THIL_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}}
+        ]
+    }]
+}

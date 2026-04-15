@@ -74,13 +74,15 @@
                         keys = keys.filter(key => key !== 'died');
                     }
                     
-                    position = document.createElement("P");
-                    positionLabel = document.createElement("LABEL");
-                    positionLabel.classList.add("stat-label");
-                    positionLabel.innerHTML = "Position:";
-                    position.append(positionLabel);
-                    position.append(getPosition(data.position));
-                    dataContainer.append(position);
+                    if ( data.position !== "??" ) {
+                        position = document.createElement("P");
+                        positionLabel = document.createElement("LABEL");
+                        positionLabel.classList.add("stat-label");
+                        positionLabel.innerHTML = "Position:";
+                        position.append(positionLabel);
+                        position.append(getPosition(data.position));
+                        dataContainer.append(position);
+                    }
                     keys = keys.filter(key => key !== 'position');
                     
                     keys = [...keys,...Object.keys(data.total).map(key => `total.${key}`)];

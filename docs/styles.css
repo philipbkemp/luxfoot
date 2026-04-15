@@ -93,11 +93,12 @@ table.matches td {
     text-align: center;
 }
 table.matches td:nth-child(1),
-table.matches.matches-withcomp td:nth-child(2) {
+table.matches.matches-withcomp td:nth-child(2)
+table.matches.matches-withcomp td:nth-child(3) {
     width: 100px;
 }
 table.matches:not(.matches-withcomp) td:nth-child(2),
-table.matches.matches-withcomp td:nth-child(3) {
+table.matches.matches-withcomp td:nth-child(4) {
     width: 250px;
     text-align: right;
 }
@@ -105,16 +106,16 @@ table.matches td:nth-child(2)[colspan] {
     text-align: left;
 }
 table.matches:not(.matches-withcomp) td:nth-child(4),
-table.matches.matches-withcomp td:nth-child(5) {
+table.matches.matches-withcomp td:nth-child(6) {
     width: 250px;
     text-align: left;
 }
 table.matches:not(.matches-withcomp) td:nth-child(3),
-table.matches.matches-withcomp td:nth-child(4) {
+table.matches.matches-withcomp td:nth-child(5) {
     width: 76px;
 }
 table.matches:not(.matches-withcomp) td:nth-child(5),
-table.matches.matches-withcomp td:nth-child(6) {
+table.matches.matches-withcomp td:nth-child(7) {
     width: 450px;
     text-align: left;
 }

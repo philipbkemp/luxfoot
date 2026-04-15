@@ -1,0 +1,52 @@
+{
+    "name": [
+        "Victor",
+        "Kauth"
+    ],
+    "total": {
+        "M": {
+            "caps": 3,
+            "goals": 0
+        }
+    },
+    "position": "??",
+    "born": "1890-08-20",
+    "died": "1941-03-03",
+    "matches": [{
+        "category": "M",
+        "season": "1911-12",
+        "date": "1911-10-29",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "1-4",
+        "result": "L",
+        "players": [
+            {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"captain":true}
+        ]
+    },{
+        "category": "M",
+        "season": "1912-13",
+        "date": "1913-04-20",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_FRA",
+        "away": "_LUX",
+        "score": "8-0",
+        "result": "L",
+        "players": [
+            {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"},"captain":true}
+        ]
+    },{
+        "category": "M",
+        "season": "1913-14",
+        "date": "1914-02-08",
+        "competition": {"type":"international","international":"Friendly"},
+        "home": "_LUX",
+        "away": "_FRA",
+        "score": "5-4",
+        "result": "W",
+        "players": [
+            {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"captain":true}
+        ]
+    }]
+}

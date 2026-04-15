@@ -1,7 +1,7 @@
 {
     "name": [
-        "Eugène",
-        "Becker"
+        "Robert",
+        "Stümper"
     ],
     "total": {
         "M": {
@@ -9,9 +9,9 @@
             "goals": 0
         }
     },
-    "position": "FW",
-    "born": "1882-02-21",
-    "died": "1939-07-30",
+    "position": "GK",
+    "born": "1895-01-21",
+    "died": "1977-04-15",
     "matches": [{
         "category": "M",
         "season": "1912-13",
@@ -22,7 +22,7 @@
         "score": "8-0",
         "result": "L",
         "players": [
-            {"player":"BECK_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+            {"player":"STUM_ROB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"},"gk":true}
         ]
     }]
 }

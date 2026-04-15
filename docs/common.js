@@ -300,6 +300,13 @@ function getPlayoffName(po) {
     return poName;
 }
 
+function getMatchCategory(cat) {
+    switch ( cat ) {
+        case "M": return "Men"; break;
+    }
+    return cat;
+}
+
 function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compColumn=false,focusPlayer="") {
     dataContainer = document.getElementById("dataContainer");
 
@@ -353,6 +360,10 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
         tr.append(tdDate);
         
         if ( compColumn ) {
+            tdCategory = document.createElement("TD");
+            tdCategory.innerHTML = getMatchCategory(match.category);
+            tr.append(tdCategory);            
+            keys = keys.filter(key => key !== `${keyPrefix}.category`);
             tdComp = document.createElement("TD");
             tdComp.innerHTML = match.competition[ match.competition.type ];
             tr.append(tdComp);
@@ -411,6 +422,7 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
         if ( focusPlayer !== "" ) {
             mePlayer = match.players.filter(key => key.player === focusPlayer)[0];
             keys = [...keys,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
+                keys = keys.filter(key => key !== `ME_PLAYER.gk`);
             
             if ( mePlayer.captain ) {
                 tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "" ) + "Captain";
