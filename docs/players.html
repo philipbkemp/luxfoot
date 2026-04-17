@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>LuxFoot | International Players</title>
         <link href="assets/css/styles.css" rel="stylesheet" />
@@ -15,25 +15,7 @@
 
         <div id="dataContainer"></div>
         
-        <script src="assets/js/min/players.min.js" type="text/javascript"></script>
-        <script>
-            params=[];
-            window.location.search.replace("?","").split("&").forEach(param=>{parts=param.split("=");params[parts[0]]=parts[1];});
-            mode = params.comp ?? "M";
-            
-            dataContainer = document.getElementById("dataContainer");
-            
-            players = [];
-            
-            compNav = document.getElementById("competitions");
-            
-            fetch("data/intplayers.json")
-                .then(response => {
-                    return response.json();
-                })
-                .then(data => {
-                    doneFetch(data);
-                });
-        </script>
+        <script src="assets/js/min/common.min.js" type="text/javascript"></script>
+        <script src="assets/js/min/players.min.js" type="module"></script>
     </body>
 </html>

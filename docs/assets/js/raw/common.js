@@ -1,7 +1,15 @@
-clubsPos = [];
+let clubsPos = [];
+
+function handleError(err) {    
+    let errorP = document.createElement("P");
+    errorP.classList.add("error");
+    errorP.textContent = "Something broke";
+    document.body.append(errorP);
+    console.error(err);
+}
 
 function getClubsPipe() {
-    pipe = [];
+    let pipe = [];
     clubsPos.forEach(cp=>{
         if ( cp ) {
             pipe.push('"'+cp.join("|")+'"');
@@ -10,25 +18,26 @@ function getClubsPipe() {
     return "["+pipe.join(",")+"]";
 }
 
-function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,compSeries=0,isSeason=true) {
-    dataContainer = document.getElementById("dataContainer");
+function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,options={}) {
+    const {compSeries=0,isSeason=true,checkSeason=""} = options;
+    const dataContainer = document.getElementById("dataContainer");
 
-    playoffsNeeded = [];
+    let playoffsNeeded = [];
 
-    table = document.createElement("TABLE");
+    let table = document.createElement("TABLE");
     table.classList.add("standings");
 
-    thead = document.createElement("THEAD");
-    trHead = document.createElement("TR");
+    let thead = document.createElement("THEAD");
+    let trHead = document.createElement("TR");
     
     if ( ! isSeason ) {
-        thSeason = document.createElement("TH");
+        let thSeason = document.createElement("TH");
         thSeason.innerHTML = "Season";
         trHead.append(thSeason);
         table.classList.add("standings-history");
     }
     
-    thPlace = document.createElement("TH");
+    let thPlace = document.createElement("TH");
     thPlace.innerHTML = "#";
     trHead.append(thPlace);
     if ( ! isSeason ) {
@@ -36,75 +45,81 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
         thPlace.setAttribute("colspan",6);
     }
     
-    thTeam = document.createElement("TH");
+    let thTeam = document.createElement("TH");
     thTeam.innerHTML = "Team";
     trHead.append(thTeam);
-    cols = ["P","W","D","L","F","A","Pts","GD"];
-    colsAbbr = ["Played","Won","Drawn","Lost","For","Against","Points","Goal difference"];
-    for ( i=0 ; i!==cols.length ; i++ ) {
-        thCol = document.createElement("TH");
+    const cols = ["P","W","D","L","F","A","Pts","GD"];
+    const colsAbbr = ["Played","Won","Drawn","Lost","For","Against","Points","Goal difference"];
+    for ( let i=0 ; i<cols.length ; i++ ) {
+        let thCol = document.createElement("TH");
         thCol.innerHTML = "<abbr title='"+colsAbbr[i]+"'>"+cols[i]+"</abbr>";
         trHead.append(thCol);
     }
-    thNotes = document.createElement("TH");
+    let thNotes = document.createElement("TH");
     thNotes.innerHTML = "Notes";
     trHead.append(thNotes);
     thead.append(trHead);
     table.append(thead);
 
-    hasNotes = false;
+    let hasNotes = false;
 
-    totalWins = 0;
-    totalDraws = 0;
-    totalLosses = 0;
-    totalFor = 0;
-    totalAgainst = 0;
+    let totalWins = 0;
+    let totalDraws = 0;
+    let totalLosses = 0;
+    let totalFor = 0;
+    let totalAgainst = 0;
 
-    tbody = document.createElement("TBODY");
+    let tbody = document.createElement("TBODY");
     standings.forEach((standing,index)=>{
-        keys = [...keys,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
-        keys = keys.filter(key => key !== `${keyPrefix}.place`);
-        keys = keys.filter(key => key !== `${keyPrefix}.team`);
-        keys = keys.filter(key => key !== `${keyPrefix}.missing`);
-        keys = keys.filter(key => key !== `${keyPrefix}.season`);
-        keys = keys.filter(key => key !== `${keyPrefix}.playoff`);
-        keys = keys.filter(key => key !== `${keyPrefix}.champion`);
-        keys = keys.filter(key => key !== `${keyPrefix}.w`);
-        keys = keys.filter(key => key !== `${keyPrefix}.d`);
-        keys = keys.filter(key => key !== `${keyPrefix}.l`);
-        keys = keys.filter(key => key !== `${keyPrefix}.f`);
-        keys = keys.filter(key => key !== `${keyPrefix}.a`);
-        keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
-        keys = keys.filter(key => key !== `${keyPrefix}.relegated`);
-        keys = keys.filter(key => key !== `${keyPrefix}.promoted`);
-        keys = keys.filter(key => key !== `${keyPrefix}.removed`);
-        keys = keys.filter(key => key !== `${keyPrefix}.note`);
+        window.dataKeySet = [...window.dataKeySet,...Object.keys(standing).map(key => `${keyPrefix}.${key}`)];
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.place`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.team`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.missing`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.season`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.playoff`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.champion`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.w`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.d`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.l`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.f`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.a`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.pts_win`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.relegated`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.promoted`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.removed`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.note`);
 
         if ( standing.competition ) {
-            keys = [...keys,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
-            keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+            window.dataKeySet = [...window.dataKeySet,...Object.keys(standing.competition).map(key => `${keyPrefix}.competition.${key}`)];
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition`);
             if ( standing.competition.type === "league" || standing.competition.type === "league_series" ) {
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.level`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.league`);
             }
             if ( standing.competition.type === "league_series" ) {
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.series`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.series`);
             }
         }
 
-        tr = document.createElement("TR");
+        let tr = document.createElement("TR");
 
-        if ( ! standing.gap ) {
+        if ( standing.gap ) {
+            let gapTd = document.createElement("TD");
+            gapTd.setAttribute("colspan",20);
+            gapTd.classList.add("gap-year");
+            tr.append(gapTd);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.gap`);
+        } else {
             
             if ( ! isSeason ) {
-                tdSeason = document.createElement("TD");
+                let tdSeason = document.createElement("TD");
                 tdSeason.innerHTML = standing.season;
                 tr.append(tdSeason);
             }
 
             if ( isSeason ) {
-                tdPlace = document.createElement("TD");
+                let tdPlace = document.createElement("TD");
                 tdPlace.innerHTML = standing.place;
                 tr.append(tdPlace);
                 if ( ! clubsPos[standing.place] ) {
@@ -112,8 +127,8 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
                 }
                 clubsPos[standing.place].push(standing.team);
             } else {
-                for ( i=1 ; i!==7 ; i++ ) {
-                    tdPlace = document.createElement("TD");
+                for ( let i=1 ; i<7 ; i++ ) {
+                    let tdPlace = document.createElement("TD");
                     if ( standing.competition.level === i ) {
                         tdPlace.innerHTML = standing.place;
                     }
@@ -121,45 +136,50 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
                 }
             }
 
-            tdTeam = document.createElement("TD");
+            let tdTeam = document.createElement("TD");
             if ( isSeason ) {
-                tdTeam.innerHTML = allTeams[standing.team].name;
+                tdTeam.innerHTML = window.allTeams[standing.team].name;
             } else {
                 tdTeam.innerHTML = standing.competition.league;
             }
             tr.append(tdTeam);
 
-            if ( ! standing.missing ) {
+            if ( standing.missing ) {
+                let tdMissing = document.createElement("TD");
+                tdMissing.innerHTML = "no data";
+                tdMissing.colSpan = cols.length;
+                tr.append(tdMissing);
+            } else {
 
-                tdP = document.createElement("TD");
+                let tdP = document.createElement("TD");
                 tdP.innerHTML = standing.w + standing.d + standing.l;
                 tr.append(tdP);
 
-                tdW = document.createElement("TD");
+                let tdW = document.createElement("TD");
                 tdW.innerHTML = standing.w;
                 tr.append(tdW);
 
-                tdD = document.createElement("TD");
+                let tdD = document.createElement("TD");
                 tdD.innerHTML = standing.d;
                 tr.append(tdD);
 
-                tdL = document.createElement("TD");
+                let tdL = document.createElement("TD");
                 tdL.innerHTML = standing.l;
                 tr.append(tdL);
 
-                tdF = document.createElement("TD");
+                let tdF = document.createElement("TD");
                 tdF.innerHTML = standing.f;
                 tr.append(tdF);
 
-                tdA = document.createElement("TD");
+                let tdA = document.createElement("TD");
                 tdA.innerHTML = standing.a;
                 tr.append(tdA);
 
-                tdPts = document.createElement("TD");
+                let tdPts = document.createElement("TD");
                 tdPts.innerHTML = (standing.w*(standing.pts_win?standing.pts_win:3))+standing.d;
                 tr.append(tdPts);
 
-                tdGd = document.createElement("TD");
+                let tdGd = document.createElement("TD");
                 tdGd.innerHTML = standing.f - standing.a;
                 tr.append(tdGd);
 
@@ -169,17 +189,12 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
                 totalFor += standing.f;
                 totalAgainst += standing.a;
 
-            } else {
-                tdMissing = document.createElement("TD");
-                tdMissing.innerHTML = "no data";
-                tdMissing.colSpan = cols.length;
-                tr.append(tdMissing);
             }
 
-            tdNotes = document.createElement("TD");
+            let tdNotes = document.createElement("TD");
             tdNotes.innerHTML = "";
             if ( isSeason && standing.playoff ) {
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "-> " + getPlayoffName(standing.playoff);
+                tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "-> " + getPlayoffName(standing.playoff);
                 playoffsNeeded.push(standing.playoff);
                 standing.playoff.split("|").forEach(poclass=>{
                     tr.classList.add("to-playoff--"+poclass);
@@ -190,29 +205,29 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
 
             if ( standing.champion ) {
                 tr.classList.add("is-champion");
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Champion";
+                tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "Champion";
                 hasNotes = true;
             }
 
             if ( standing.relegated ) {
                 tr.classList.add("is-relegated");
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Relegated";
+                tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "Relegated";
                 hasNotes = true;
             }
             if ( standing.promoted ) {
                 tr.classList.add("is-promoted");
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Promoted";
+                tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "Promoted";
                 hasNotes = true;
             }
             if ( standing.removed ) {
                 tr.classList.add("is-removed");
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + "Removed";
+                tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "Removed";
                 hasNotes = true;
             }
             
             
             if ( standing.note ) {
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "") + standing.note;
+                tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | ") + standing.note;
                 hasNotes = true;
             }
 
@@ -221,8 +236,8 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
                     console.warn("inconsistent place value",index,standing.place);
                 }
                 
-                if ( season !== standing.season ) {
-                    console.warn("inconsistent season value",season,standing.season);
+                if ( checkSeason !== standing.season ) {
+                    console.warn("inconsistent season value",checkSeason,standing.season);
                 }
                 if ( compType !== standing.competition.type ) {
                     console.warn("inconsistent competition type",compType,standing.competition.type);
@@ -237,22 +252,16 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
                     console.warn("inconsistent competition league series",compSeries,standing.competition.series);
                 }
             }
-        } else {
-            gapTd = document.createElement("TD");
-            gapTd.setAttribute("colspan",20);
-            gapTd.classList.add("gap-year");
-            tr.append(gapTd);
-            keys = keys.filter(key => key !== `${keyPrefix}.gap`);
         }
 
         tbody.append(tr);
     });
     table.append(tbody);
 
-    if ( ! hasNotes ) {
-        table.classList.add("notes__none");
-    } else {
+    if ( hasNotes ) {
         table.classList.add("notes__some");
+    } else {
+        table.classList.add("notes__none");
     }
 
     if ( isSeason ) {
@@ -273,7 +282,7 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,comp
 }
 
 function getPlayoffName(po) {
-    poName = po;
+    let poName = po;
 
     switch (po) {
         case "promotion_2":
@@ -287,13 +296,14 @@ function getPlayoffName(po) {
             
         case "title_3_S":
             poName = "Title decider (3. Division Series South)";
+            break;
         
         case "title_playoff":
             poName = "Title playoff";
             break;
 
         default:
-            if ( po.indexOf("|") !== -1 ) {
+            if ( po.includes("|") ) {
                 return getPlayoffName(po.split("|")[0]);
             } else {
                 console.warn("Unsupported playoff",po);
@@ -305,57 +315,59 @@ function getPlayoffName(po) {
 
 function getMatchCategory(cat) {
     switch ( cat ) {
-        case "M": return "Men"; break;
+        case "M": return "Men";
+        case "W": return "Women";
     }
     return cat;
 }
 
-function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compColumn=false,focusPlayer="") {
-    dataContainer = document.getElementById("dataContainer");
+function drawMatches(matches,keyPrefix,comp,options={}) {
+    const {hasIntData=false,isSeason=true,compColumn=false,focusPlayer="",season=""} = options;
+    const dataContainer = document.getElementById("dataContainer");
 
-    table = document.createElement("TABLE");
+    let table = document.createElement("TABLE");
     table.classList.add("matches");
     if ( hasIntData ) {
         table.classList.add("matches--extradata");
     }
 
-    hasDates = false;
-    hasNotes = false;
+    let hasDates = false;
+    let hasNotes = false;
 
     matches.forEach(match=>{
-        keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
-        keys = keys.filter(key => key !== `${keyPrefix}.date`);
-        keys = keys.filter(key => key !== `${keyPrefix}.home`);
-        keys = keys.filter(key => key !== `${keyPrefix}.away`);
-        keys = keys.filter(key => key !== `${keyPrefix}.score`);
-        keys = keys.filter(key => key !== `${keyPrefix}.season`);
-        keys = keys.filter(key => key !== `${keyPrefix}.outcome`);
-        keys = keys.filter(key => key !== `${keyPrefix}.forfeit`);
-        keys = keys.filter(key => key !== `${keyPrefix}.result`);
-        keys = keys.filter(key => key !== `${keyPrefix}.note`);
+        window.dataKeySet = [...window.dataKeySet,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.date`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.home`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.away`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.score`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.season`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.outcome`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.forfeit`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.result`);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.note`);
 
         if ( hasIntData ) {
-            keys = keys.filter(key => key !== `${keyPrefix}.goals`);
-            keys = keys.filter(key => key !== `${keyPrefix}.stadium`);
-            keys = keys.filter(key => key !== `${keyPrefix}.location`);
-            keys = keys.filter(key => key !== `${keyPrefix}.attendance`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.stadium`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.location`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.attendance`);
         }
 
         if ( match.competition ) {
-            keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
-            keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+            window.dataKeySet = [...window.dataKeySet,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition`);
             if ( match.competition.type === "playoff" ) {
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.playoff`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.playoff`);
             } else if ( match.competition.type === "international" ) {
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
-                keys = keys.filter(key => key !== `${keyPrefix}.competition.international`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.international`);
             }
         }
 
-        tr = document.createElement("TR");
+        let tr = document.createElement("TR");
 
-        tdDate = document.createElement("TD");
+        let tdDate = document.createElement("TD");
         tdDate.innerHTML = "";
         if ( match.date ) {
             tdDate.innerHTML = match.date;
@@ -364,21 +376,22 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
         tr.append(tdDate);
         
         if ( compColumn ) {
-            tdCategory = document.createElement("TD");
+            let tdCategory = document.createElement("TD");
             tdCategory.innerHTML = getMatchCategory(match.category);
             tr.append(tdCategory);            
-            keys = keys.filter(key => key !== `${keyPrefix}.category`);
-            tdComp = document.createElement("TD");
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.category`);
+            
+            let tdComp = document.createElement("TD");
             tdComp.innerHTML = match.competition[ match.competition.type ];
             tr.append(tdComp);
             table.classList.add("matches-withcomp");
         }
 
-        tdHome = document.createElement("TD");
-        tdHome.innerHTML = allTeams[match.home].name;
+        let tdHome = document.createElement("TD");
+        tdHome.innerHTML = window.allTeams[match.home].name;
         tr.append(tdHome);
 
-        tdScore = document.createElement("TD");
+        let tdScore = document.createElement("TD");
         if ( match.result ) {
             switch(match.result) {
                 case "W": tdScore.classList.add("match-iswin"); break;
@@ -387,7 +400,7 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
             }
         }
         if ( match.forfeit ) {
-            tdScoreFF = document.createElement("ABBR");
+            let tdScoreFF = document.createElement("ABBR");
             tdScoreFF.title = "Match forfeited";
             tdScoreFF.innerHTML = match.score;
             tdScore.append(tdScoreFF);
@@ -396,8 +409,8 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
         }
         tr.append(tdScore);
 
-        tdAway = document.createElement("TD");
-        tdAway.innerHTML = allTeams[match.away].name;
+        let tdAway = document.createElement("TD");
+        tdAway.innerHTML = window.allTeams[match.away].name;
         tr.append(tdAway);
 
         if ( isSeason ) {
@@ -414,36 +427,36 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
             }
         }
 
-        tdNotes = document.createElement("TD");
+        let tdNotes = document.createElement("TD");
         tdNotes.innerHTML = "";
         if ( match.outcome ) {
             tdNotes.innerHTML = match.outcome
-                .replaceAll(match.home,allTeams[match.home].name)
-                .replaceAll(match.away,allTeams[match.away].name)
+                .replaceAll(match.home,window.allTeams[match.home].name)
+                .replaceAll(match.away,window.allTeams[match.away].name)
                 .replaceAll("|","<br />")
                 ;
             hasNotes = true;
         }
         if ( focusPlayer !== "" ) {
-            mePlayer = match.players.filter(key => key.player === focusPlayer)[0];
-            keys = [...keys,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
-                keys = keys.filter(key => key !== `ME_PLAYER.gk`);
+            const mePlayer = match.players.find(key => key.player === focusPlayer);
+            window.dataKeySet = [...window.dataKeySet,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.gk`);
             
             if ( mePlayer.captain ) {
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "" ) + "Captain";
+                tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Captain";
                 hasNotes = true;
-                keys = keys.filter(key => key !== `ME_PLAYER.captain`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.captain`);
             }
             
             if ( mePlayer.goals ) {
-                tdNotes.innerHTML += (tdNotes.innerHTML !== "" ? " | " : "" ) + "Goals ("+mePlayer.goals.length+"): " + mePlayer.goals.join("', ") + "'";
+                tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Goals ("+mePlayer.goals.length+"): " + mePlayer.goals.join("', ") + "'";
                 hasNotes = true;
-                keys = keys.filter(key => key !== `ME_PLAYER.goals`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.goals`);
             }
             
-            keys = keys.filter(key => key !== `${keyPrefix}.players`);
-            keys = keys.filter(key => key !== `ME_PLAYER.player`);
-            keys = keys.filter(key => key !== `ME_PLAYER.cap`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.player`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.cap`);
         }
         if ( match.note ) {
             if ( tdNotes.innerHTML !== "" ) {
@@ -461,24 +474,24 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
             hasNotes = true;
             tdNotes.innerHTML = match.stadium + ", " + match.location;
 
-            trTwo = document.createElement("TR");
+            let trTwo = document.createElement("TR");
 
-            tdComp = document.createElement("TD");
+            let tdComp = document.createElement("TD");
             tdComp.innerHTML = match.competition.international;
             trTwo.append(tdComp);
 
-            tdGoalsHome = document.createElement("TD");
-            tdGoalsSpacer = document.createElement("TD");
-            tdGoalsAway = document.createElement("TD");
+            let tdGoalsHome = document.createElement("TD");
+            let tdGoalsSpacer = document.createElement("TD");
+            let tdGoalsAway = document.createElement("TD");
             
             match.goals.forEach(g=>{
-                keys = [...keys,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
+                window.dataKeySet = [...window.dataKeySet,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
 
                 tdGoalsSpacer.innerHTML += g.min + "<br />";
 
-                playerEntry = g.player;
+                let playerEntry = g.player;
                 if ( g.team === "_LUX" ) {
-                    playerEntry = intPlayers[playerEntry].name[0][0] + " " + intPlayers[playerEntry].name[1];
+                    playerEntry = window.intPlayers[playerEntry].name[0][0] + " " + window.intPlayers[playerEntry].name[1];
                 }
                 if ( g.penalty ) {
                     playerEntry += " (pen)";
@@ -492,49 +505,49 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
                     tdGoalsHome.innerHTML += "" + "<br />";
                 }
 
-                keys = keys.filter(key => key !== `${keyPrefix}.goals.min`);
-                keys = keys.filter(key => key !== `${keyPrefix}.goals.team`);
-                keys = keys.filter(key => key !== `${keyPrefix}.goals.player`);
-                keys = keys.filter(key => key !== `${keyPrefix}.goals.penalty`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.min`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.team`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.player`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.penalty`);
             });
 
             trTwo.append(tdGoalsHome);
             trTwo.append(tdGoalsSpacer);
             trTwo.append(tdGoalsAway);
 
-            tdMatchNotes = document.createElement("TD");
-            tdMatchNotes.innerHTML = "Attendance: " + match.attendance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");;
+            let tdMatchNotes = document.createElement("TD");
+            tdMatchNotes.innerHTML = "Attendance: " + Number(match.attendance).toLocaleString("en-GB");
             trTwo.append(tdMatchNotes);
 
             table.append(trTwo);
 
-            trThree = document.createElement("TR");
+            let trThree = document.createElement("TR");
 
-            tdSquad = document.createElement("TD");
+            let tdSquad = document.createElement("TD");
             tdSquad.colSpan = 4;
             tdSquad.innerHTML = "";
             match.players.forEach(p=>{
-                keys = [...keys,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
-                keys = [...keys,...Object.keys(p.cap).map(key => `${keyPrefix}.players.cap.${key}`)];
+                window.dataKeySet = [...window.dataKeySet,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
+                window.dataKeySet = [...window.dataKeySet,...Object.keys(p.cap).map(key => `${keyPrefix}.players.cap.${key}`)];
 
                 tdSquad.innerHTML +=
                     (tdSquad.innerHTML === "" ? "" : "; ")
-                    + intPlayers[p.player].name[0][0]
+                    + window.intPlayers[p.player].name[0][0]
                     + " "
-                    + intPlayers[p.player].name[1]
+                    + window.intPlayers[p.player].name[1]
                     + (p.gk ? " (GK)" : "")
                     + (p.captain ? " (C)" : "")
                 ;
 
-                keys = keys.filter(key => key !== `${keyPrefix}.players.player`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.goals`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.cap`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.captain`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.gk`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.cap.competition`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.cap.opponent`);
-                keys = keys.filter(key => key !== `${keyPrefix}.players.cap.date`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.player`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.goals`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.captain`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.gk`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.competition`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.opponent`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.date`);
                 if ( p.cap.competition !== match.competition.international ) {
                     console.warn("Inconsistent international competition",p.cap.competition,match.competition.international);
                 }
@@ -550,7 +563,7 @@ function drawMatches(matches,keyPrefix,comp,hasIntData=false,isSeason=true,compC
 
             });
 
-            tdEmpty1 = document.createElement("TD");
+            let tdEmpty1 = document.createElement("TD");
             tdEmpty1.innerHTML = "";
             trThree.append(tdEmpty1);
             trThree.append(tdSquad);

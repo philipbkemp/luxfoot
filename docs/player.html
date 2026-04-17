@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>LuxFoot | International Players</title>
         <link href="assets/css/styles.css" rel="stylesheet" />
@@ -15,38 +15,6 @@
         <div id="dataContainer"></div>
         
         <script src="assets/js/min/common.min.js" type="text/javascript"></script>  
-        <script src="assets/js/min/player.min.js" type="text/javascript"></script>  
-        <script>
-            params=[];
-            window.location.search.replace("?","").split("&").forEach(param=>{parts=param.split("=");params[parts[0]]=parts[1];});
-            keys = [];
-            dataContainer = document.getElementById("dataContainer");
-            intPlayers = [];
-            
-            fetch("data/teams.json")
-                .then(response => {
-                    return response.json();
-                })
-                .then(data => {
-                    allTeams = data;
-                    return fetch("data/players/"+getFolder(params.who)+"/"+params.who.toLowerCase()+".json");
-                })
-                .then(response => {
-                    if ( ! response.ok ) {
-                        errorP = document.createElement("P");
-                        errorP.classList.add("error");
-                        errorP.textContent = "Player not found";
-                        document.body.append(errorP);
-                        return {"invalid":true};
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    if ( data.invalid ) {
-                        return;
-                    }
-                    doneFetch(data);
-                });
-        </script>
+        <script src="assets/js/min/player.min.js" type="module"></script>  
     </body>
 </html>

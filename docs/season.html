@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>LuxFoot | Seasons</title>
         <link href="assets/css/styles.css" rel="stylesheet" />
@@ -17,53 +17,6 @@
         <div id="dataContainer"></div>
         
         <script src="assets/js/min/common.min.js" type="text/javascript"></script>        
-        <script src="assets/js/min/season.min.js" type="text/javascript"></script>
-        <script>
-            params=[];
-            window.location.search.replace("?","").split("&").forEach(param=>{parts=param.split("=");params[parts[0]]=parts[1];});
-            season = params.year;
-            seasonPath = [season[0]+""+season[1],season[2],season[3]+"-"+season.split("-")[1]];
-            showComp = params.comp ?? "league:1";
-            compNav = document.getElementById("competitions");
-
-            keys = [];
-            allTeams = null;
-
-            intPlayers = null;
-
-            contentShown = false;
-
-            fetch("data/teams.json")
-                .then(response => {
-                    return response.json();
-                })
-                .then(data => {
-                    allTeams = data;
-                    return fetch("data/intplayers.json");
-                })
-                .then(response=>{
-                    return response.json();
-                })
-                .then(data=>{
-                    intPlayers = data;
-                    return fetch("data/"+seasonPath.join("/")+".json");
-                })
-                .then(response => {
-                    if ( ! response.ok ) {
-                        errorP = document.createElement("P");
-                        errorP.classList.add("error");
-                        errorP.textContent = "Season not found";
-                        document.body.append(errorP);
-                        return {"invalid":true};
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    if ( data.invalid ) {
-                        return;
-                    }
-                    doneFetch(data);
-                });
-        </script>
+        <script src="assets/js/min/season.min.js" type="module"></script>
     </body>
 </html>

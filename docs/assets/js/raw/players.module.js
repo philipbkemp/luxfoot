@@ -1,20 +1,37 @@
+let params={};
+window.location.search.replace("?","").split("&").forEach(param=>{const parts=param.split("=");params[parts[0]]=parts[1];});
+const mode = params.comp ?? "M";
+
+const dataContainer = document.getElementById("dataContainer");
+
+let players = [];
+
+const compNav = document.getElementById("competitions");
+    
+try {
+    const rIntPlayers = await fetch("data/intplayers.json");
+    doneFetch(await rIntPlayers.json());
+} catch (error) {
+    handleError(error);
+}
+
 function doneFetch(data) {              
     if ( Object.keys(data).length > 25 ) {
         alert("Pagination needed");
     }
     
-    navLeague = document.createElement("A");
+    let navLeague = document.createElement("A");
     navLeague.href = "players.html?comp=men";
     navLeague.innerHTML = "Men's";
     if ( "M" === mode ) {
         navLeague.classList.add("active");
     }
-    navLeagueLi = document.createElement("LI");
+    let navLeagueLi = document.createElement("LI");
     navLeagueLi.append(navLeague);
     compNav.append(navLeagueLi);
     
     Object.keys(data).forEach(key=>{
-        if ( data[key].total && data[key].total[mode] && data[key].teams.includes(mode) ) {
+        if ( data[key]?.total?.[mode] && data[key].teams.includes(mode) ) {
             data[key].code = key;
             players.push(data[key]);
         }
@@ -26,50 +43,50 @@ function doneFetch(data) {
         const goalDiff = b.total[mode].goals - a.total[mode].goals;
         if (goalDiff !== 0) return goalDiff;
         
-        aDate = new Date(a.total[mode].debut);
-        bDate = new Date(b.total[mode].debut);
+        const aDate = new Date(a.total[mode].debut);
+        const bDate = new Date(b.total[mode].debut);
         return aDate.getTime() - bDate.getTime();
     });
     
-    table = document.createElement("TABLE");
+    let table = document.createElement("TABLE");
     table.classList.add("int-caps");
-    thead = document.createElement("THEAD");
-    trHead = document.createElement("TR");
-    thCaps = document.createElement("TH");
+    let thead = document.createElement("THEAD");
+    let trHead = document.createElement("TR");
+    let thCaps = document.createElement("TH");
     thCaps.innerHTML = "Caps";
     trHead.append(thCaps);
-    thGoals = document.createElement("TH");
+    let thGoals = document.createElement("TH");
     thGoals.innerHTML = "Goals";
     trHead.append(thGoals);
-    thPlayer = document.createElement("TH");
+    let thPlayer = document.createElement("TH");
     thPlayer.innerHTML = "Player";
     trHead.append(thPlayer);
-    thDebut = document.createElement("TH");
+    let thDebut = document.createElement("TH");
     thDebut.innerHTML = "Debut";
     trHead.append(thDebut);
     thead.append(trHead);
     table.append(thead);
     
-    tbody = document.createElement("TBODY");
+    let tbody = document.createElement("TBODY");
     players.forEach(p=>{
-        row = document.createElement("TR");
+        let row = document.createElement("TR");
         
-        tdCaps = document.createElement("TD");
+        let tdCaps = document.createElement("TD");
         tdCaps.innerHTML = p.total[mode].caps;
         row.append(tdCaps);
         
-        tdGoals = document.createElement("TD");
-        tdGoals.innerHTML = p.total[mode].goals;
+        let tdGoals = document.createElement("TD");
+        tdGoals.innerHTML = p.position === "GK" ? "" : p.total[mode].goals;
         row.append(tdGoals);
         
-        tdPlayer = document.createElement("TD");
-        tdPlayerLink = document.createElement("A");
+        let tdPlayer = document.createElement("TD");
+        let tdPlayerLink = document.createElement("A");
         tdPlayerLink.innerHTML = p.name.join(" ");
         tdPlayerLink.setAttribute("href","player.html?who="+p.code);
         tdPlayer.append(tdPlayerLink);
         row.append(tdPlayer);
         
-        tdDebut = document.createElement("TD");
+        let tdDebut = document.createElement("TD");
         tdDebut.innerHTML = p.total[mode].debut;
         row.append(tdDebut);
         

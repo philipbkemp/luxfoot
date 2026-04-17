@@ -1,11 +1,12 @@
-clubs = [];
-seasonCount = 0;
-leagueSizes = [];
+let clubs = [];
+let seasonCount = 0;
+let leagueSizes = [];
+const positionHeight = 5;
 
 function drawChart(club) {
     
-    chartTemplate = document.getElementById("pos_chart");
-    chart = chartTemplate.content.cloneNode(true);
+    const chartTemplate = document.getElementById("pos_chart");
+    const chart = chartTemplate.content.cloneNode(true);
     
     loadSeason("1909-10",["RACL","HLBN","SCLX","JESH","URUM","JECT","CROD","NESH","GDUD"]);
     loadSeason("1910-11",["SCLX","SDIF","HLBN","MANC"]);
@@ -19,49 +20,47 @@ function drawChart(club) {
     loadSeason("1918-19",["SCLX","FOLA","JESH","HLBN","RACL","YBDK"],["SDUD","SDIF","AVBG","URUM","CPET"],["CMLB|CROD","ETZE|NSCH","SWFT|ECBT","CLMC|STET","ADUD"]);
 	loadSeason("1919-20",["FOLA","SDUD","SCLX","HLBN","JESH","RACL"],["RBDF","URUM","NSCH","CROD","CPET","AVBG"],["PROG|BLVL|JSTF","TRIM|STET|PRON","MANC|ADUD|JHTC","CSHL|UESH|ETZE","JVRL|ECBT|CLMC","WALF","CMLB"]);
     
-    positionHeight = 5;
-    
-	t1d = "M45,69";
-	t2d = "M95,69";
-	t3d = "M105,69";
-	t4d = "M155,69";
-	t5d = "M275,69";
-	t6d = "M595,69";
+	let t1d = "M45,69";
+	let t2d = "M95,69";
+	let t3d = "M105,69";
+	let t4d = "M155,69";
+	let t5d = "M275,69";
+	let t6d = "M595,69";
     
     leagueSizes.forEach(s=>{
 
-		one = s.length >= 1 ? s[0] : null;
-		two = s.length >= 2 ? one + s[1] : null;
-		three = s.length >= 3 ? two + s[2] : null;
-		four = s.length >= 4 ? (three + s[3]) : null;
-		five = s.length >= 5 ? (four + s[4]) : null;
-		six = s.length >= 6 ? (five + s[5]) : null;
+		const one = s.length >= 1 ? s[0] : null;
+		const two = s.length >= 2 ? one + s[1] : null;
+		const three = s.length >= 3 ? two + s[2] : null;
+		const four = s.length >= 4 ? (three + s[3]) : null;
+		const five = s.length >= 5 ? (four + s[4]) : null;
+		const six = s.length >= 6 ? (five + s[5]) : null;
 
-		onePos = one*positionHeight
+		let onePos = one*positionHeight
 		t1d += "v" + onePos + "h10v-" + onePos + "h-10h10";
 
 		if ( two !== null ) {
-			twoPos = two*positionHeight;
+			let twoPos = two*positionHeight;
 			t2d += "v" + twoPos + "h10v-" + twoPos + "h-10h10";
 		}
 
 		if ( three !== null ) {
-			threePos = three*positionHeight;
+			let threePos = three*positionHeight;
 			t3d += "v" + threePos + "h10v-" + threePos + "h-10h10";
 		}
 
 		if ( four !== null ) {
-			fourPos = four*positionHeight;
+			let fourPos = four*positionHeight;
 			t4d += "v" + fourPos + "h10v-" + fourPos + "h-10h10";
 		}
 
 		if ( five !== null ) {
-			fivePos = five*positionHeight;
+			let fivePos = five*positionHeight;
 			t5d += "v" + fivePos + "h10v-" + fivePos + "h-10h10";
 		}
 
 		if ( six !== null ) {
-			sixPos = six*positionHeight;
+			let sixPos = six*positionHeight;
 			t6d += "v" + sixPos + "h10v-" + sixPos + "h-10h10";
 		}
         
@@ -80,16 +79,16 @@ function drawChart(club) {
 }
 
 function drawFocus(club) {
-    focus = club.toUpperCase();
-    team = clubs[focus];
-    teamName = allTeams[focus].name;
-	start = 50;
-	p0 = 73 - positionHeight;
-	line = "";
-	started = false;
-	current = p0;
-	gap = 10;
-	consecutive = 0;
+    const focus = club.toUpperCase();
+    const team = clubs[focus];
+    const teamName = window.allTeams[focus].name;
+	let start = 50;
+	const p0 = 73 - positionHeight;
+	let line = "";
+	let started = false;
+	let current = p0;
+	let gap = 10;
+	let consecutive = 0;
 	team.forEach(position=>{
 		if ( position === null ) {
 			if ( started ) {
@@ -104,20 +103,19 @@ function drawFocus(club) {
 			}
 			consecutive = 0;
 		} else {
-			place = p0 + (position*positionHeight);
-			if ( gap !== 10 ) {
-				line += "m"+gap;
-				diff = place - current;
-				line += ","+diff;
-				gap = 10;
-			} else {
-				if ( ! started ) {
+			let place = p0 + (position*positionHeight);
+			let diff = place - current;
+			if ( gap === 10 ) {
+				if ( started ) {
+					line += "l10,"+diff;
+				} else {
 					line += "M"+start+","+place;
 					started = true;
-				} else {
-					diff = place - current;
-					line += "l10,"+diff;
 				}
+			} else {
+				line += "m"+gap;
+				line += ","+diff;
+				gap = 10;
 			}
 			current = place;
 			consecutive++;
@@ -131,7 +129,7 @@ function drawFocus(club) {
 }
 
 function loadSeason(season,level1=[],level2=[],level3=[],level4=[],level5=[],level6=[]) {
-    thisLeagueSize = [
+    let thisLeagueSize = [
         level1.length,
         level2.length,
         level3.length,
@@ -141,12 +139,12 @@ function loadSeason(season,level1=[],level2=[],level3=[],level4=[],level5=[],lev
     ];
     thisLeagueSize = thisLeagueSize.filter(key => key !== 0);
     leagueSizes.push(thisLeagueSize);
-    p = 1;
+    let p = 1;
     [...level1,...level2,...level3,...level4,...level5,...level6].forEach(cc=>{
         cc.split("|").forEach(c=>{
             if ( ! clubs[c] ) {
                 clubs[c] = [];
-                for ( i=1 ; i<=seasonCount ; i++ ) {
+                for ( let i=1 ; i<=seasonCount ; i++ ) {
                     clubs[c].push(null);
                 }
             }
