@@ -14,19 +14,12 @@
         
         <ul id="seasonlist"></ul>
         
+        <script src="assets/js/min/seasons.min.js" type="text/javascript"></script>
         <script>
             fetch("data/seasons.json")
                 .then(response => response.json())
                 .then(data => {
-                    ul = document.getElementById("seasonlist");
-                    data.forEach(s=>{
-                        li = document.createElement("LI");
-                        link = document.createElement("A");
-                        link.href = "season.html?year="+s;
-                        link.textContent = s;
-                        li.append(link);
-                        ul.append(li);
-                    });
+                    doneFetch(data);
                 });
         </script>
     </body>

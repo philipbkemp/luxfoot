@@ -1,0 +1,440 @@
+function doneFetch(data) {
+    keys = [...keys,...Object.keys(data)];
+
+    document.getElementsByTagName("H1")[0].innerHTML += data.season;
+    document.title += " | " + data.season;
+    keys = keys.filter(key => key !== 'season');
+
+    prevNext = document.getElementById("prev-next");
+    if ( data.prev ) {
+        goPrev = document.createElement("A");
+        goPrev.href = "season.html?year="+data.prev+"&comp="+showComp;
+        goPrev.innerHTML = data.prev;
+        goPrevLi = document.createElement("LI");
+        goPrevLi.append(goPrev);
+        prevNext.append(goPrevLi);
+    }
+    if ( data.next ) {
+        goNext = document.createElement("A");
+        goNext.href = "season.html?year="+data.next+"&comp="+showComp;
+        goNext.innerHTML = data.next;
+        goNextLi = document.createElement("LI");
+        goNextLi.append(goNext);
+        prevNext.append(goNextLi);
+    }
+    keys = keys.filter(key => key !== 'next');
+    keys = keys.filter(key => key !== 'prev');
+
+    playoffsNeeded = [];
+    playoffsReallyNeeded = [];
+
+    if ( data.league ) {
+        data.league.forEach(league=>{
+            playoffsNeeded = [...playoffsNeeded,...drawLeague(league,"league")];
+        });
+        keys = keys.filter(key => key !== 'league');
+    }
+
+    if ( data.playoffs ) {
+        keys = keys.filter(key => key !== 'playoffs');
+        playoffsNeeded.forEach(pon=>{
+            if ( pon.indexOf("|") !== -1 ) {
+                pon.split("|").forEach(pon_a=>{
+                    if ( ! playoffsReallyNeeded.includes(pon_a) ) {
+                        playoffsReallyNeeded.push(pon_a);
+                    }
+                });
+            } else {
+                if ( ! playoffsReallyNeeded.includes(pon) ) {
+                    playoffsReallyNeeded.push(pon);
+                }
+            }
+        });
+
+        Object.keys(data.playoffs).forEach(po=>{
+            drawPlayoff(po,data.playoffs[po],playoffsReallyNeeded.includes(po),"playoffs."+po);
+            playoffsReallyNeeded = playoffsReallyNeeded.filter(key => key !== po);
+        });
+    }
+
+    if ( data.international ) {
+        keys = keys.filter(key => key !== 'international');
+        Object.keys(data.international).forEach(int=>{
+            drawInternational(int,data.international[int]);
+        });
+    }
+
+    if ( ! contentShown ) {
+        errorP = document.createElement("P");
+        errorP.classList.add("error");
+        errorP.textContent = "Competition not found";
+        document.body.append(errorP);
+        goPrev.href = "season.html?year="+data.prev;
+        goNext.href = "season.html?year="+data.next;
+    }
+
+    if ( keys.length !== 0 ) {
+        console.error(keys.join(", "));
+        console.log(data);
+    }
+    if ( playoffsReallyNeeded.length !== 0 ) {
+        console.error("PLAYOFFS MISSING",playoffsReallyNeeded.join(", "));
+        console.log(data.playoffs);
+    }
+}
+
+function drawInternational(intKey,intData) {
+    keys = [...keys,...Object.keys(intData).map(key => `international.${intKey}.${key}`)];
+    keys = keys.filter(key => key !== `international.${intKey}.matches`);
+
+    thisComp = "international:" + intKey;
+    thisLeagueNav = document.createElement("A");
+    thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
+    switch ( intKey ) {
+        case "men":
+            thisLeagueNav.innerHTML = "Men's National Team";
+            keys = keys.filter(key => key !== 'international.men');
+            break;
+    }
+    if ( thisComp === showComp ) {
+        thisLeagueNav.classList.add("active");
+    }
+    thisLeagueNavLi = document.createElement("LI");
+    thisLeagueNavLi.append(thisLeagueNav);
+    compNav.append(thisLeagueNavLi);
+
+    if ( showComp !== thisComp ) {
+        return;
+    }
+    contentShown = true;
+
+    if ( intData.matches ) {
+
+        matchesTitle = document.createElement("H3");
+        matchesTitle.innerHTML = "Matches";
+        dataContainer.append(matchesTitle);
+        drawMatches(intData.matches,`international.${intKey}`,{"type":"international"},true);
+    }
+}
+
+function drawPlayoff(code,po,isShown,keyPrefix) {
+    keys = [...keys,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
+    keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+    keys = keys.filter(key => key !== `${keyPrefix}.note`);
+    keys = keys.filter(key => key !== `${keyPrefix}.noteTeams`);
+
+    if ( ! isShown ) {
+        return;
+    }
+
+    playoffTitle = document.createElement("H2");
+    playoffTitle.innerHTML = getPlayoffName(code);
+    dataContainer.append(playoffTitle);
+
+    if ( po.matches ) {
+        drawMatches(po.matches,keyPrefix+".matches",{"type":"playoff","playoff":code});
+    }
+    
+    if ( po.note ) {
+        note = document.createElement("P");
+        note.innerHTML = "Note: " + po.note;
+        if ( po.noteTeams ) {
+            po.noteTeams.forEach(nt=>{
+                note.innerHTML = note.innerHTML.replaceAll(nt,allTeams[nt].name);
+            });
+        }
+        dataContainer.append(note);
+    }
+}
+
+function drawLeague(league,keyPrefix) {
+    keys = [...keys,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
+
+    thisComp = "league:" + league.level;
+    
+    thisLeagueNav = document.createElement("A");
+    thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
+    thisLeagueNav.innerHTML = league.name;
+    thisLeagueNavLi = document.createElement("LI");
+    thisLeagueNavLi.append(thisLeagueNav);
+    if ( thisComp === showComp ) {
+        thisLeagueNav.classList.add("active");
+    }
+    compNav.append(thisLeagueNavLi);
+
+    keys = keys.filter(key => key !== `${keyPrefix}.name`);
+    keys = keys.filter(key => key !== `${keyPrefix}.level`);
+    keys = keys.filter(key => key !== `${keyPrefix}.note`);
+    keys = keys.filter(key => key !== `${keyPrefix}.standings`);
+    keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
+    keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+    keys = keys.filter(key => key !== `${keyPrefix}.series`);
+
+    if ( showComp !== thisComp ) {
+        return [];
+    }
+    contentShown = true;
+
+    playoffsNeeded = [];
+    dataContainer = document.getElementById("dataContainer");
+
+    if ( ! league.series ) {
+        leagueName = document.createElement("H2");
+        leagueName.innerHTML = league.name;
+        dataContainer.append(leagueName);
+    }
+
+    if ( league.note ) {
+        note = document.createElement("P");
+        note.innerHTML = "Note: " + league.note;
+        dataContainer.append(note);
+    }
+
+    if ( league.pts_win ) {
+        notePts = document.createElement("P");
+        notePts.innerHTML = "Note: " + league.pts_win + " points for a win";
+        dataContainer.append(notePts);
+    }
+
+    if ( league.standings ) {
+        standingTitle = document.createElement("H3");
+        standingTitle.innerHTML = "Standings";
+        dataContainer.append(standingTitle);
+        playoffsNeeded = drawStandingsTable(league.standings,keyPrefix+".standings","league",league.level,league.name);
+    }
+
+    if ( league.matches ) {
+        matchesTitle = document.createElement("H3");
+        matchesTitle.innerHTML = "Matches";
+        dataContainer.append(matchesTitle);
+        expectedStandings = drawMatchesGrid(league.matches,keyPrefix+".matches","league",league.level,league.name);
+    }
+
+    if ( league.standings && league.matches ) {
+        const sorted1 = [...league.standings].sort((a, b) => a.team.localeCompare(b.team));
+        const sorted2 = Object.values(expectedStandings).sort((a, b) => a.team.localeCompare(b.team));
+        const standingsMatchGrid = sorted1.every((item, i) => {
+            const other = sorted2[i];
+            return (
+                item.team === other.team &&
+                item.w === other.w &&
+                item.d === other.d &&
+                item.l === other.l
+            );
+        });
+        if ( ! standingsMatchGrid ) {
+            console.error("Standings != Grid",sorted1,sorted2);
+        }
+    }
+
+    if ( league.series ) {
+        playoffsNeeded = drawSeries(league.series,keyPrefix+".series",league);
+    }
+
+    return playoffsNeeded;
+}
+
+function drawSeries(series,keyPrefix,league) {
+    playoffsNeeded = [];
+
+    series.forEach(serie=>{
+        keys = [...keys,...Object.keys(serie).map(key => `${keyPrefix}.${key}`)];
+
+        keys = keys.filter(key => key !== `${keyPrefix}.serie`);
+        keys = keys.filter(key => key !== `${keyPrefix}.name`);
+        keys = keys.filter(key => key !== `${keyPrefix}.pts_win`);
+        keys = keys.filter(key => key !== `${keyPrefix}.standings`);
+        keys = keys.filter(key => key !== `${keyPrefix}.matches`);
+
+        seriesName = document.createElement("H2");
+        seriesName.innerHTML = league.name + " " + serie.name;
+        dataContainer.append(seriesName);
+
+        if ( serie.standings ) {
+            standingTitle = document.createElement("H3");
+            standingTitle.innerHTML = "Standings";
+            dataContainer.append(standingTitle);
+            playoffsNeeded = [
+                ...playoffsNeeded,
+                ...drawStandingsTable(serie.standings,keyPrefix+".standings","league_series",league.level,seriesName.innerHTML,serie.serie)
+            ];
+        }
+        
+        if ( serie.matches ) {
+            matchesTitle = document.createElement("H3");
+            matchesTitle.innerHTML = "Matches";
+            dataContainer.append(matchesTitle);
+            expectedStandings = drawMatchesGrid(serie.matches,keyPrefix+".matches","league_series",league.level,seriesName.innerHTML,serie.serie)
+        }
+
+        if ( serie.standings && serie.matches ) {
+            const sorted1 = [...serie.standings].sort((a, b) => a.team.localeCompare(b.team));
+            const sorted2 = Object.values(expectedStandings).sort((a, b) => a.team.localeCompare(b.team));
+            const standingsMatchGrid = sorted1.every((item, i) => {
+                const other = sorted2[i];
+                return (
+                    item.team === other.team &&
+                    item.w === other.w &&
+                    item.d === other.d &&
+                    item.l === other.l
+                );
+            });
+            if ( ! standingsMatchGrid ) {
+                console.error("Standings != Grid",sorted1,sorted2);
+            }
+        }
+
+        if ( serie.pts_win !== league.pts_win ) {
+            console.warn("Inconsistent points per win definition",serie.pts_win,league.pts_win);
+        }
+    });
+
+    return playoffsNeeded;
+}
+
+function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSeries=0) {
+    grid = [];
+    expectedStandings = [];
+    gridNotes = [];
+
+    matches.forEach(match=>{
+        keys = [...keys,...Object.keys(match).map(key => `${keyPrefix}.${key}`)];
+        keys = keys.filter(key => key !== `${keyPrefix}.home`);
+        keys = keys.filter(key => key !== `${keyPrefix}.away`);
+        keys = keys.filter(key => key !== `${keyPrefix}.score`);
+        keys = keys.filter(key => key !== `${keyPrefix}.season`);
+
+        if ( match.competition ) {
+            keys = [...keys,...Object.keys(match.competition).map(key => `${keyPrefix}.competition.${key}`)];
+            keys = keys.filter(key => key !== `${keyPrefix}.competition`);
+            if ( match.competition.type === "league" || match.competition.type === "league_series" ) {
+                keys = keys.filter(key => key !== `${keyPrefix}.competition.type`);
+                keys = keys.filter(key => key !== `${keyPrefix}.competition.level`);
+                keys = keys.filter(key => key !== `${keyPrefix}.competition.league`);
+            }
+            if (match.competition.type === "league_series" ) {
+                keys = keys.filter(key => key !== `${keyPrefix}.competition.series`);
+            }
+        }
+
+        if ( ! grid[match.home] ) {
+            grid[match.home] = [];
+        }
+        if ( ! match.forfeit ) {
+            grid[match.home][match.away] = match.score;
+        } else {
+            keys = keys.filter(key => key !== `${keyPrefix}.forfeit`);
+            gridScoreFF = document.createElement("ABBR");
+            gridScoreFF.title = "Match forfeited";
+            gridScoreFF.innerHTML = match.score;
+            grid[match.home][match.away] = gridScoreFF.outerHTML;
+            gridNotes.push("Match between "+allTeams[match.home].name+" and "+allTeams[match.away].name+" awarded as forfeit: "+match.score);
+        }
+    
+        if ( season !== match.season ) {
+            console.warn("inconsistent season value",season,match.season);
+        }
+        if ( compType !== match.competition.type ) {
+            console.warn("inconsistent competition type",compType,match.competition.type);
+        }
+        if ( (compType === "league" || compType === "league_series") && compLevel !== match.competition.level ) {
+            console.warn("inconsistent competition league level",compLevel,match.competition.level);
+        }
+        if ( (compType === "league" || compType === "league_series") && compName !== match.competition.league ) {
+            console.warn("inconsistent competition league name",compName,match.competition.league);
+        }
+        if ( compType === "league_series" && compSeries !== match.competition.series ) {
+            console.warn("inconsistent competition league series",compSeries,match.competition.series);
+        }
+
+        if ( ! expectedStandings[match.home] ) {
+            expectedStandings[match.home] = {};
+            expectedStandings[match.home].team = match.home;
+            expectedStandings[match.home].w = 0;
+            expectedStandings[match.home].d = 0;
+            expectedStandings[match.home].l = 0;
+            expectedStandings[match.home].f = 0;
+            expectedStandings[match.home].a = 0;
+        }
+        if ( ! expectedStandings[match.away] ) {
+            expectedStandings[match.away] = {};
+            expectedStandings[match.away].team = match.away;
+            expectedStandings[match.away].w = 0;
+            expectedStandings[match.away].d = 0;
+            expectedStandings[match.away].l = 0;
+            expectedStandings[match.away].f = 0;
+            expectedStandings[match.away].a = 0;
+        }
+        scoreParts = match.score.split("-");
+        homeScore = parseInt(scoreParts[0]);
+        awayScore = parseInt(scoreParts[1]);
+        expectedStandings[match.home].f += homeScore;
+        expectedStandings[match.home].a += awayScore;
+        expectedStandings[match.away].f += awayScore;
+        expectedStandings[match.away].a += homeScore;
+        if ( homeScore > awayScore ) {
+            expectedStandings[match.home].w++;
+            expectedStandings[match.away].l++;
+        } else if ( homeScore < awayScore ) {
+            expectedStandings[match.home].l++;
+            expectedStandings[match.away].w++;
+        } else {
+            expectedStandings[match.home].d++;
+            expectedStandings[match.away].d++;
+        }
+    });
+
+    dataContainer = document.getElementById("dataContainer");
+    table = document.createElement("TABLE");
+    table.classList.add("matchgrid");
+
+    thead = document.createElement("THEAD");
+    trHead = document.createElement("TR");
+    thHome = document.createElement("TH");
+    thHome.innerHTML = "";
+    trHead.append(thHome);
+    
+    teams = Object.keys(grid).sort();
+    teams.forEach(t=>{
+        thTeam = document.createElement("TH");
+        thTeam.innerHTML = "<abbr title='"+allTeams[t].name+"'>"+t+"</abbr>";
+        trHead.append(thTeam);
+    });
+
+    thead.append(trHead);
+    table.append(thead);
+
+    tbody = document.createElement("TBODY");
+    teams.forEach(t=>{
+        tr = document.createElement("TR");
+        trTeam = document.createElement("TD");
+        trTeam.innerHTML = allTeams[t].name;
+        tr.append(trTeam);
+
+        teams.forEach(tt=>{
+            trMatch = document.createElement("TD");
+            trMatch.innerHTML = "-";
+            if ( t !== tt ) {
+                trMatch.innerHTML = grid[t][tt];
+            }
+            tr.append(trMatch);
+        });
+
+        tbody.append(tr);
+    });
+    table.append(tbody);
+
+    dataContainer.append(table);
+    
+    if ( gridNotes.length !== 0 ) {
+        gridNoteUl = document.createElement("UL");
+        gridNotes.forEach(gn=>{
+            gridNoteLi = document.createElement("LI");
+            gridNoteLi.innerHTML = gn;
+            gridNoteUl.append(gridNoteLi);
+        });                    
+        dataContainer.append(gridNoteUl);
+    }
+
+    return expectedStandings;
+}

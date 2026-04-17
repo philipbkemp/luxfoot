@@ -1,0 +1,318 @@
+
+function doneFetch(data) {
+    keys = [...keys,...Object.keys(data)];
+    
+    document.getElementsByTagName("H1")[0].innerHTML += data.name;
+    document.title += " | " + data.name;
+    keys = keys.filter(key => key !== 'name');
+
+    if ( data.history ) {
+        thisSectionNav = document.createElement("A");
+        thisSectionNav.href = "club.html?club="+club+"&show=history";
+        thisSectionNav.innerHTML = "History";
+        thisSectionNavLi = document.createElement("LI");
+        thisSectionNavLi.append(thisSectionNav);
+        if ( showSection === "history" ) {
+            thisSectionNav.classList.add("active");
+            drawHistory(data.history,data.founded,data.refounded);
+        }
+        sectionNav.append(thisSectionNavLi);                        
+        
+        keys = keys.filter(key => key !== 'history');
+        keys = keys.filter(key => key !== 'founded');
+        keys = keys.filter(key => key !== 'refounded');
+    }
+    
+    if ( data.league ) {
+        thisSectionNav = document.createElement("A");
+        thisSectionNav.href = "club.html?club="+club+"&show=league";
+        thisSectionNav.innerHTML = "League Record";
+        thisSectionNavLi = document.createElement("LI");
+        thisSectionNavLi.append(thisSectionNav);
+        if ( showSection === "league" ) {
+            thisSectionNav.classList.add("active");
+            drawStandingsTable(data.league,"league",null,null,null,null,false);
+        }
+        sectionNav.append(thisSectionNavLi);
+        
+        
+        thisSectionNav = document.createElement("A");
+        thisSectionNav.href = "club.html?club="+club+"&show=chart";
+        thisSectionNav.innerHTML = "Position History";
+        thisSectionNavLi = document.createElement("LI");
+        thisSectionNavLi.append(thisSectionNav);
+        if ( showSection === "chart" ) {
+            thisSectionNav.classList.add("active");
+            drawChart(club);
+        }
+        sectionNav.append(thisSectionNavLi);     
+        
+        keys = keys.filter(key => key !== 'league');
+    }
+    
+    if ( data.matches ) {
+        thisSectionNav = document.createElement("A");
+        thisSectionNav.href = "club.html?club="+club+"&show=matches";
+        thisSectionNav.innerHTML = "Matches";
+        thisSectionNavLi = document.createElement("LI");
+        thisSectionNavLi.append(thisSectionNav);
+        if ( showSection === "matches" ) {
+            thisSectionNav.classList.add("active");
+            drawMatchRecord(data.matches);
+        }
+        sectionNav.append(thisSectionNavLi);                        
+        
+        keys = keys.filter(key => key !== 'matches');
+    }
+    
+    if ( keys.length !== 0 ) {
+        console.error(keys.join(", "));
+        console.log(data);
+    }
+}
+
+function drawHistory(history,founded,refounded) {
+    historyTable = document.createElement("TABLE");
+    historyTable.classList.add("club-history");
+    historyTableHead = document.createElement("THEAD");
+    historyTableHeadRow = document.createElement("TR");
+    
+    historyTableHeadSeason = document.createElement("TH");
+    historyTableHeadSeason.innerHTML = "Season";
+    historyTableHeadRow.append(historyTableHeadSeason);
+    historyTableHeadEvent = document.createElement("TH");
+    historyTableHeadEvent.innerHTML = "Event";
+    historyTableHeadRow.append(historyTableHeadEvent);
+    
+    historyTableHead.append(historyTableHeadRow);
+    historyTable.append(historyTableHead);
+    
+    historyTableBody = document.createElement("TBODY");
+    
+    history.reverse();
+    
+    history.forEach(h=>{
+        keys = [...keys,...Object.keys(h).map(key => `history.${key}`)];
+        
+        hRow = document.createElement("TR");
+        
+        hSeason = document.createElement("TD");
+        hSeason.innerHTML = h.season;
+        hRow.append(hSeason);
+        keys = keys.filter(key => key !== 'history.season');
+        
+        hEvent = document.createElement("TD");
+        switch (h.event) {
+            case "FOUNDED":
+                keys = keys.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Club founded" + (founded ? (" " + founded) : "");
+                break;
+            case "REFOUNDED":
+                keys = keys.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Club re-formed" + (refounded ? (" " + refounded) : "");
+                break;
+            case "FOUNDED_MERGE":
+                keys = keys.filter(key => key !== 'history.event');
+                keys = keys.filter(key => key !== 'history.clubs');
+                hEvent.innerHTML = "Club founded after merging ";
+                for ( c=0 ; c!==h.clubs.length ; c++ ) {
+                    if ( h.clubs.length === 2 ) {
+                        if ( c !== 0 ) {
+                            hEvent.innerHTML += " and ";
+                        }
+                    }
+                    hEvent.innerHTML += allTeams[h.clubs[c]].name;
+                }
+                break;
+            case "RENAME":
+                keys = keys.filter(key => key !== 'history.event');
+                keys = keys.filter(key => key !== 'history.new_name');
+                hEvent.innerHTML = "Club renamed as " + allTeams[h.new_name].name;
+                break;
+            case "RENAME_FROM":
+                keys = keys.filter(key => key !== 'history.event');
+                keys = keys.filter(key => key !== 'history.old_name');
+                hEvent.innerHTML = "Club renamed from " + allTeams[h.old_name].name;
+                break;
+            case "CHAMPION":
+                keys = keys.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "League Champions";
+                break;
+            case "MERGE":
+                keys = keys.filter(key => key !== 'history.event');
+                keys = keys.filter(key => key !== 'history.new_name');
+                hEvent.innerHTML = "Merged into " + allTeams[h.new_name].name;
+                break;
+            case "DISSOLVED":
+                keys = keys.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Club dissolved";
+                break;
+            case "ABSORB":
+                keys = keys.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Absorbed " + allTeams[h.old_name].name + " into club";
+                keys = keys.filter(key => key !== 'history.old_name');
+                break;
+            default:
+                console.warn("unknown event",h.event);
+                break;
+        }
+        hRow.append(hEvent);
+        
+        historyTableBody.append(hRow);
+    });
+    
+    historyTable.append(historyTableBody);
+    dataContainer.append(historyTable);
+}
+
+function drawMatchRecord(matches) {
+    opponents = [];
+    
+    matches.forEach(m=>{
+        keys = [...keys,...Object.keys(m).map(key => `matches.${key}`)];
+        
+        opp = "____";
+        if ( m.home === club ) {
+            opp = m.away;
+        } else if ( m.away === club ) {
+            opp = m.home;
+        }
+        
+        if ( ! opponents[opp] ) {
+            opponents[opp] = {
+                "_name": allTeams[opp].name,
+                "w":0,
+                "d":0,
+                "l":0,
+                "f":0,
+                "a":0
+            }
+        }
+        
+        score = m.score.split("-");
+        homeScoreParsed = parseInt(score[0]);
+        awayScoreParsed = parseInt(score[1]);
+        homeScore = Number.isNaN(homeScoreParsed) ? -1 : homeScoreParsed;
+        awayScore = Number.isNaN(awayScoreParsed) ? -1 : awayScoreParsed;
+        if ( homeScore !== -1 && awayScore !== -1 ) {
+            if ( m.home === club ) {
+                opponents[opp].f += homeScore;
+                opponents[opp].a += awayScore;
+                if ( homeScore > awayScore ) {
+                    opponents[opp].w++;
+                } else if ( homeScore < awayScore ) {
+                    opponents[opp].l++;
+                } else if ( homeScore === awayScore) {
+                    opponents[opp].d++;
+                }
+            } else if ( m.away === club ) {
+                opponents[opp].f += awayScore;
+                opponents[opp].a += homeScore;
+                if ( homeScore > awayScore ) {
+                    opponents[opp].l++;
+                } else if ( homeScore < awayScore ) {
+                    opponents[opp].w++;
+                } else if ( homeScore === awayScore) {
+                    opponents[opp].d++;
+                }
+            }
+        }
+        
+        keys = keys.filter(key => key !== 'matches.home')
+        keys = keys.filter(key => key !== 'matches.away');
+        keys = keys.filter(key => key !== 'matches.score');
+        
+        keys = keys.filter(key => key !== 'matches.season');
+        keys = keys.filter(key => key !== 'matches.competition');
+        keys = keys.filter(key => key !== 'matches.date');
+        keys = keys.filter(key => key !== 'matches.outcome');
+        keys = keys.filter(key => key !== 'matches.forfeit');
+        keys = keys.filter(key => key !== 'matches.note');
+    });
+    
+    opponents.sort((a, b) => a._name.localeCompare(b._name));
+    
+    mt = document.createElement("TABLE");
+    mt.classList.add("opponents");
+    mtHead = document.createElement("THEAD");
+    mtHeadRow = document.createElement("TR");
+    
+    mtHeadOpp = document.createElement("TH");
+    mtHeadOpp.innerHTML = "Opponent";
+    mtHeadRow.append(mtHeadOpp);
+    
+    cols = ["P","W","D","L","F","A","Pts","GD","W%","PPG"];
+    colsAbbr = ["Played","Won","Drawn","Lost","For","Against","Points","Goal difference","Win Percentage","Points Per Game"];
+    for ( i=0 ; i!==cols.length ; i++ ) {
+        thCol = document.createElement("TH");
+        thCol.innerHTML = "<abbr title='"+colsAbbr[i]+"'>"+cols[i]+"</abbr>";
+        mtHeadRow.append(thCol);
+    }
+    
+    mtHead.append(mtHeadRow);
+    mt.append(mtHead);
+    mtBody = document.createElement("TBODY");
+    
+    Object.keys(opponents)
+    .sort((a, b) => opponents[a]._name.localeCompare(opponents[b]._name))
+    .forEach(opp=>{
+        
+        played = opponents[opp].w + opponents[opp].d +opponents[opp].l;
+        if ( played !== 0 ) {                    
+            oppRow = document.createElement("TR");
+            
+            oppName = document.createElement("TD");
+            oppName.innerHTML = opponents[opp]._name;
+            oppRow.append(oppName);
+            
+            points = (opponents[opp].w * 3) + opponents[opp].d;
+            
+            oppPlayed = document.createElement("TD");
+            oppPlayed.innerHTML = played;
+            oppRow.append(oppPlayed);
+            
+            ["w","d","l","f","a"].forEach(col=>{
+                oppStat = document.createElement("TD");
+                oppStat.innerHTML = opponents[opp][col];
+                oppRow.append(oppStat);
+            });
+            
+            oppPoints = document.createElement("TD");
+            oppPoints.innerHTML = points;
+            oppRow.append(oppPoints);
+            
+            oppDiff = document.createElement("TD");
+            oppDiff.innerHTML = opponents[opp].f - opponents[opp].a;
+            oppRow.append(oppDiff);
+            
+            oppWinPerc = document.createElement("TD");
+            oppWinPerc.innerHTML = ((opponents[opp].w / played) * 100).toFixed(2);
+            oppRow.append(oppWinPerc);
+            
+            oppPpg = document.createElement("TD");
+            oppPpg.innerHTML = (points / played).toFixed(2);
+            oppRow.append(oppPpg);
+            
+            mtBody.append(oppRow);
+        }                    
+    });
+    
+    mt.append(mtBody);
+    
+    note = document.createElement("P");
+    note.innerHTML = "Note: Assumes 3 points for a win for all matches";
+    dataContainer.append(note);
+    
+    dataContainer.append(mt);
+}
+
+function getFolder(name) {
+    const c = name[0].toUpperCase();
+    let range;
+    if (c <= 'G') range = 'A-G';
+    else if (c <= 'N') range = 'H-N';
+    else if (c <= 'U') range = 'O-U';
+    else range = 'V-Z';
+
+    return (`${range}/${c}`).toUpperCase();
+}
