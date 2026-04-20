@@ -1,0 +1,25 @@
+{
+    "name": "Red Black Pfaffenthal",
+    "refounded": "1919-12-01",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1911-12",
+        "event": "DISSOLVED"
+    },{
+        "season": "1919-20",
+        "event": "REFOUNDED"
+    },{
+        "season": "2006-07",
+        "event": "MERGE",
+        "new_name": "RBE7"
+    }],
+    "league": [
+        {"place": 1, "team": "RBPF", "w": 8, "d": 0, "l": 2, "f": 37, "a": 16, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true}
+    ],
+    "matches": [
+        {"home":"RBPF","away":"ECBT","score":"3-0","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}},
+        {"home":"RBPF","away":"FCOB","score":"3-1","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}

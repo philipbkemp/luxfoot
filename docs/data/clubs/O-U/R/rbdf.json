@@ -10,9 +10,25 @@
         "new_name": "DIFF"
     }],
     "league": [
+        {"place": 5, "team": "RBDF", "w": 6, "d": 2, "l":  6, "f": 42, "a": 31, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
         {"place": 1, "team": "RBDF", "w": 4, "d": 5, "l": 1, "f": 20, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true}
     ],
     "matches": [
+        {"home":"JESH","away":"RBDF","score":"4-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"FOLA","away":"RBDF","score":"4-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"HLBN","away":"RBDF","score":"0-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SDUD","away":"RBDF","score":"4-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"JESH","score":"4-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"FOLA","score":"2-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "note": "Replayed after protest. Original match ended 3-4"},
+        {"home":"RBDF","away":"HLBN","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"SDUD","score":"2-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"SCLX","score":"7-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"RACL","score":"2-5","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"URUM","score":"13-0","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"RBDF","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"RBDF","score":"2-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"RBDF","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+
         {"home":"RBDF","away":"URUM","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
         {"home":"RBDF","away":"NSCH","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}}
     ]

@@ -10,6 +10,8 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place": 2, "team": "USDD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  7, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}},
+        {"gap":true},
         {"place":2, "team": "USDD", "w": 0, "d": 0, "l": 2, "f":  2, "a": 12, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2}
     ],
     "matches": [

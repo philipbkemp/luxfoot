@@ -1,0 +1,19 @@
+{
+    "name": "US Hagen",
+    "history": [{
+        "season": "1920-21",
+        "event": "FOUNDED"
+    },{
+        "season": "1923-24",
+        "event": "DISSOLVED"
+    },{
+        "season": "1945-46",
+        "event": "REFOUNDED"
+    },{
+        "season": "1958-59",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 4, "team": "HAGN", "w": 3, "d": 3, "l": 4, "f": 25, "a": 21, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
+    ]
+}

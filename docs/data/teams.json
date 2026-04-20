@@ -40,7 +40,8 @@
         "name": "AS Differdange"
     },
     "ASLX": {
-        "name": "AS Luxembourg"
+        "name": "AS Luxembourg",
+        "level": -1
     },
     "ASRB": {
         "name": "AS Red Black Luxembourg"
@@ -71,7 +72,8 @@
         "name": "Blue Boys Muhlenbach"
     },
     "BBOY": {
-        "name": "Black Boys Bascharage"
+        "name": "Black Boys Bascharage",
+        "level": -1
     },
     "BDBB": {
         "name": "Berdenia Berbourg"
@@ -197,7 +199,8 @@
         "name": "Excelsior Itzig"
     },
     "ENFM": {
-        "name": "Enfants de la Source Mondorf"
+        "name": "Enfants de la Source Mondorf",
+        "level": -1
     },
     "ERDU": {
         "name": "Etoile Rouge 1908 Dudelange",
@@ -238,7 +241,8 @@
         "name": "Fortuna Canach"
     },
     "FCOB": {
-        "name": "FC Oberkorn"
+        "name": "FC Oberkorn",
+        "level": -1
     },
     "FCPR": {
         "name": "FC Pratzerthal/Rédange"
@@ -279,7 +283,8 @@
         "name": "Green Star Wilwerdingen"
     },
     "HAGN": {
-        "name": "US Hagen"
+        "name": "US Hagen",
+        "level": -1
     },
     "HAMM": {
         "name": "FC Hamm 37"
@@ -313,7 +318,8 @@
         "name": "FC Hupperdange"
     },
     "IESH": {
-        "name": "The International Esch"
+        "name": "The International Esch",
+        "level": -1
     },
     "ISKA": {
         "name": "Iska Boys Simmern"
@@ -369,7 +375,8 @@
         "name": "Jeunesse Mamer"
     },
     "JMON": {
-        "name": "Jeunesse Mondercange"
+        "name": "Jeunesse Mondercange",
+        "level": -1
     },
     "JOSP": {
         "name": "Jeunesse Ospern"
@@ -384,7 +391,8 @@
         "name": "JS Koerich"
     },
     "JSNM": {
-        "name": "Jeunesse Sportive Sanem"
+        "name": "Jeunesse Sportive Sanem",
+        "level": -1
     },
     "JSTF": {
         "name": "Jeunesse Steinfort",
@@ -401,7 +409,8 @@
         "level": -1
     },
     "JWAS": {
-        "name": "Jeunesse Wasserbillig"
+        "name": "Jeunesse Wasserbillig",
+        "level": -1
     },
     "JWMK": {
         "name": "Jeunesse Weimerskirch",
@@ -472,7 +481,8 @@
         "name": "US Mondorf-les-Bains"
     },
     "MERL": {
-        "name": "US Merl"
+        "name": "US Merl",
+        "level": -1
     },
     "MGWW": {
         "name": "Les Montagnards Weiswampach"
@@ -516,7 +526,8 @@
         "name": "Olympia Christnach/Waldbillig"
     },
     "OYMP": {
-        "name": "Olympique Äischen"
+        "name": "Olympique Äischen",
+        "level": -1
     },
     "PHLK": {
         "name": "Phalanx Kleinbettingen",
@@ -557,7 +568,8 @@
         "name": "Red Black-Egalité 07"
     },
     "RBPF": {
-        "name": "Red Black Pfaffenthal"
+        "name": "Red Black Pfaffenthal",
+        "level": -1
     },
     "REIS": {
         "name": "US Reisdorf"
@@ -794,7 +806,8 @@
         "level": 3
     },
     "YBSL": {
-        "name": "Young Boys Zolver"
+        "name": "Young Boys Zolver",
+        "level": -1
     },
     "YBSW": {
         "name": "Young Boys Schweicherthal"
@@ -805,10 +818,16 @@
     "YGGC": {
         "name": "Yougo Grund-Cessange"
     },
+    "_BEL": {
+        "name": "Belgium"
+    },
     "_FRA": {
         "name": "France"
     },
     "_LUX": {
         "name": "Luxembourg"
+    },
+    "_NLD": {
+        "name": "Netherlands"
     }
 }

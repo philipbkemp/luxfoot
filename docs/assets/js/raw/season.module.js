@@ -171,7 +171,7 @@ function drawPlayoff(code,po,isShown,keyPrefix) {
     if ( po.matches ) {
         drawMatches(po.matches,keyPrefix+".matches",{"type":"playoff","playoff":code},{season:season});
     }
-    
+
     if ( po.note ) {
         let note = document.createElement("P");
         note.innerHTML = "Note: " + po.note;
@@ -188,7 +188,7 @@ function drawLeague(league,keyPrefix) {
     window.dataKeySet = [...window.dataKeySet,...Object.keys(league).map(key => `${keyPrefix}.${key}`)];
 
     const thisComp = "league:" + league.level;
-    
+
     let thisLeagueNav = document.createElement("A");
     thisLeagueNav.href = "season.html?year="+season+"&comp="+thisComp;
     thisLeagueNav.innerHTML = league.name;
@@ -239,7 +239,7 @@ function drawLeague(league,keyPrefix) {
         dataContainer.append(standingTitle);
         playoffsNeeded = drawStandingsTable(league.standings,keyPrefix+".standings","league",league.level,league.name,{checkSeason:season});
     }
-    
+
     let expectedStandings = {};
 
     if ( league.matches ) {
@@ -262,7 +262,7 @@ function drawLeague(league,keyPrefix) {
     return playoffsNeeded;
 }
 
-function compare(sorted1,sorted2) {    
+function compare(sorted1,sorted2) {
     const standingsMatchGrid = sorted1.every((item, i) => {
         const other = sorted2[i];
         return (
@@ -302,9 +302,9 @@ function drawSeries(series,keyPrefix,league) {
                 ...drawStandingsTable(serie.standings,keyPrefix+".standings","league_series",league.level,seriesName.innerHTML,{compSeries:serie.serie,checkSeason:season})
             ];
         }
-        
+
         let expectedStandings = {};
-        
+
         if ( serie.matches ) {
             let matchesTitle = document.createElement("H3");
             matchesTitle.innerHTML = "Matches";
@@ -361,10 +361,17 @@ function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSerie
             gridScoreFF.innerHTML = match.score;
             grid[match.home][match.away] = gridScoreFF.outerHTML;
             gridNotes.push("Match between "+window.allTeams[match.home].name+" and "+window.allTeams[match.away].name+" awarded as forfeit: "+match.score);
+        } else if ( match.note ) {
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.note`);
+            let gridScoreNote = document.createElement("ABBR");
+            gridScoreNote.title = "Note: see below";
+            gridScoreNote.innerHTML = match.score;
+            grid[match.home][match.away] = gridScoreNote.outerHTML;
+            gridNotes.push("Match between "+window.allTeams[match.home].name+" and "+window.allTeams[match.away].name+": "+match.note);
         } else {
             grid[match.home][match.away] = match.score;
         }
-    
+
         if ( season !== match.season ) {
             console.warn("inconsistent season value",season,match.season);
         }
@@ -427,7 +434,7 @@ function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSerie
     let thHome = document.createElement("TH");
     thHome.innerHTML = "";
     trHead.append(thHome);
-    
+
     const teams = Object.keys(grid).sort((a, b) => a.localeCompare(b, "en-US", { sensitivity: "base" }));
     teams.forEach(t=>{
         let thTeam = document.createElement("TH");
@@ -459,14 +466,14 @@ function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSerie
     table.append(tbody);
 
     dataContainer.append(table);
-    
+
     if ( gridNotes.length !== 0 ) {
         let gridNoteUl = document.createElement("UL");
         gridNotes.forEach(gn=>{
             let gridNoteLi = document.createElement("LI");
             gridNoteLi.innerHTML = gn;
             gridNoteUl.append(gridNoteLi);
-        });                    
+        });
         dataContainer.append(gridNoteUl);
     }
 

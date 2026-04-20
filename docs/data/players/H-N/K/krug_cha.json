@@ -1,0 +1,28 @@
+{
+    "name": [
+        "Charles",
+        "Krüger"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "GK",
+    "born": "1896-03-09",
+    "died": "1990-03-08",
+    "matches": [{
+        "category": "M",
+        "season": "1920-21",
+        "date": "1920-08-28",
+        "competition": {"type":"international","international":"Olympics", "edition": "1920", "round": "R1"},
+        "home": "_NLD",
+        "away": "_LUX",
+        "score": "3-0",
+        "result": "L",
+        "players": [
+            {"player":"KRUG_CHA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"},"gk":true}
+        ]
+    }]
+}

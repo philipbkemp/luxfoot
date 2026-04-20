@@ -4,10 +4,10 @@ let leagueSizes = [];
 const positionHeight = 5;
 
 function drawChart(club) {
-    
+
     const chartTemplate = document.getElementById("pos_chart");
     const chart = chartTemplate.content.cloneNode(true);
-    
+
     loadSeason("1909-10",["RACL","HLBN","SCLX","JESH","URUM","JECT","CROD","NESH","GDUD"]);
     loadSeason("1910-11",["SCLX","SDIF","HLBN","MANC"]);
     loadSeason("1911-12",["HLBN","SCLX","RACL","DEIC"]);
@@ -19,14 +19,15 @@ function drawChart(club) {
     loadSeason("1917-18",["FOLA","HLBN","SCLX","YBDK","RACL","CPET"],["JESH","SDIF","SDUD","URUM","CSHL"],["AVBG|STET","CMLB|ECBT","JWMK|NSCH","ADUD"]);
     loadSeason("1918-19",["SCLX","FOLA","JESH","HLBN","RACL","YBDK"],["SDUD","SDIF","AVBG","URUM","CPET"],["CMLB|CROD","ETZE|NSCH","SWFT|ECBT","CLMC|STET","ADUD"]);
 	loadSeason("1919-20",["FOLA","SDUD","SCLX","HLBN","JESH","RACL"],["RBDF","URUM","NSCH","CROD","CPET","AVBG"],["PROG|BLVL|JSTF","TRIM|STET|PRON","MANC|ADUD|JHTC","CSHL|UESH|ETZE","JVRL|ECBT|CLMC","WALF","CMLB"]);
-    
+	loadSeason("1920-21",["JESH","FOLA","HLBN","SDUD","RBDF","SCLX","RACL","URUM"],["TRIM","NSCH","CROD","PROG","CPET","JSTF","AVBG","BLVL"],["STET","UESH","PRON","CSHL","ADUD","MANC","ETZE","JHTC"],["RBPF|ECBT|FCOB","ASLX|USDD|OYMP","JWAS|IESH|BBOY","JVRL|ENFM|HAGN","MERL|JMON|YBSL","SWFT|JSNM"]);
+
 	let t1d = "M45,69";
 	let t2d = "M95,69";
 	let t3d = "M105,69";
 	let t4d = "M155,69";
 	let t5d = "M275,69";
 	let t6d = "M595,69";
-    
+
     leagueSizes.forEach(s=>{
 
 		const one = s.length >= 1 ? s[0] : null;
@@ -63,9 +64,9 @@ function drawChart(club) {
 			let sixPos = six*positionHeight;
 			t6d += "v" + sixPos + "h10v-" + sixPos + "h-10h10";
 		}
-        
+
     });
-    
+
     document.getElementById("dataContainer").append(chart);
 
 	document.getElementById("t1").setAttribute("d",t1d);
@@ -74,7 +75,7 @@ function drawChart(club) {
 	document.getElementById("t4").setAttribute("d",t4d);
 	document.getElementById("t5").setAttribute("d",t5d);
 	document.getElementById("t6").setAttribute("d",t6d);
-    
+
     drawFocus(club);
 }
 

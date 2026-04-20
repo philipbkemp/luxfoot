@@ -13,6 +13,7 @@
         "new_name": "SPOR"
     }],
     "league": [
+        {"place": 7, "team": "RACL", "w": 4, "d": 2, "l":  8, "f": 23, "a": 28, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "relegated": true},
         {"place": 6, "team": "RACL", "w": 2, "d": 0, "l": 8, "f": 17, "a": 36, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"place": 5, "team": "RACL", "w": 2, "d": 3, "l": 5, "f": 14, "a": 26, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"place": 5, "team": "RACL", "w": 4, "d": 1, "l": 5, "f": 20, "a": 21, "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win": 2},
@@ -26,6 +27,21 @@
         {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}, "playoff": "title", "champion": true}
     ],
     "matches": [
+        {"home":"JESH","away":"RACL","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"FOLA","away":"RACL","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"HLBN","away":"RACL","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SDUD","away":"RACL","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"RACL","score":"2-5","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"RACL","score":"2-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"JESH","score":"0-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"FOLA","score":"1-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"HLBN","score":"0-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"SDUD","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"RBDF","score":"2-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RACL","away":"URUM","score":"5-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"RACL","score":"1-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+
         {"home":"FOLA","away":"RACL","score":"5-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SDUD","away":"RACL","score":"8-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SCLX","away":"RACL","score":"3-0","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"},"forfeit":true},
@@ -47,7 +63,7 @@
         {"home":"RACL","away":"HLBN","score":"1-6","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"RACL","away":"YBDK","score":"1-1","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"YBDK","away":"RACL","score":"0-2","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
-    
+
         {"home":"FOLA","away":"RACL","score":"5-1" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"HLBN","away":"RACL","score":"2-2" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SCLX","away":"RACL","score":"2-0" , "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}},
@@ -80,19 +96,19 @@
         {"home":"RACL","away":"SDUD","score":"8-1" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"JESH","away":"RACL","score":"1-3" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SDUD","away":"RACL","score":"3-2" , "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
-        
+
         {"home":"SCLX","away":"RACL","score":"6-5", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
         {"home":"RACL","away":"HLBN","score":"4-2", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
         {"home":"RACL","away":"SCLX","score":"3-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
         {"home":"HLBN","away":"RACL","score":"1-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
-        
+
         {"home":"HLBN","away":"RACL","score":"4-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"SCLX","away":"RACL","score":"2-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"RACL","away":"HLBN","score":"1-3" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"RACL","away":"SCLX","score":"3-1" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"RACL","away":"DEIC","score":"9-0" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"DEIC","away":"RACL","score":"1-6" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
-            
+
         {"date": "1910-05-06", "home":"RACL", "away":"HLBN", "score":"3-2", "season":"1909-10", "competition": {"type":"playoff","playoff":"title"}, "outcome": "RACL declared champions"}
     ]
 }

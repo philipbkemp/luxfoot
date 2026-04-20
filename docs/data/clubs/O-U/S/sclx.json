@@ -16,6 +16,7 @@
         "new_name": "SPOR"
     }],
     "league": [
+        {"place": 6, "team": "SCLX", "w": 6, "d": 2, "l":  6, "f": 35, "a": 29, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
         {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"place": 1, "team": "SCLX", "w": 7, "d": 2, "l": 1, "f": 18, "a": 12, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}, "champion": true},
         {"place": 3, "team": "SCLX", "w": 4, "d": 2, "l": 4, "f": 19, "a": 17, "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win": 2},
@@ -29,6 +30,21 @@
         {"place": 3, "team": "SCLX", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"JESH","away":"SCLX","score":"4-5","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"FOLA","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"HLBN","away":"SCLX","score":"1-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SDUD","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"SCLX","score":"7-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"JESH","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"FOLA","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"HLBN","score":"1-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"SDUD","score":"6-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"RBDF","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"RACL","score":"2-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"URUM","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "forfeit" :true},
+        {"home":"RACL","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"SCLX","score":"2-12","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+
         {"home":"FOLA","away":"SCLX","score":"3-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SDUD","away":"SCLX","score":"2-2","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"SCLX","away":"FOLA","score":"1-1","season":"1919-20","competition": {"type":"league", "level":1, "league":"1. Division"}},
@@ -89,7 +105,7 @@
         {"home":"RACL","away":"SCLX","score":"3-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
         {"home":"SCLX","away":"HLBN","score":"1-0", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":1,"league":"1. Division Series 1"}},
         {"home":"SCLX","away":"YBDK","score":"4-1", "season": "1914-15", "competition": {"type":"playoff", "playoff": "title_playoff"},"outcome":"SCLX disqualified for fielding ineligible player during Series 1 matches"},
-        
+
         {"home":"HLBN","away":"SCLX","score":"1-1" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"SCLX","away":"HLBN","score":"3-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"SCLX","away":"RACL","score":"2-2" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
@@ -97,7 +113,7 @@
         {"home":"RACL","away":"SCLX","score":"3-1" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"DEIC","away":"SCLX","score":"1-5" , "season": "1911-12", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"HLBN","away":"SCLX","score":"-", "outcome": "SCLX did not attend (thinking they won the league on goal difference) - HLBN declared champions", "season": "1911-12", "competition":{"type":"playoff","playoff":"title"}},
-                
+
         {"home":"SCLX","away":"SDIF","score":"3-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"SCLX","away":"HLBN","score":"3-1", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},
         {"home":"SCLX","away":"MANC","score":"4-0", "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}},

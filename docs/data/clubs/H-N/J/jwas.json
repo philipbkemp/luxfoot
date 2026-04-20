@@ -1,0 +1,15 @@
+{
+    "name": "Jeunesse Waasserbillig",
+    "founded": "1919-08-25",
+    "history": [{
+        "season": "1919-20",
+        "event": "FOUNDED"
+    },{
+        "season": "1993-94",
+        "event": "MERGE",
+        "new_name": "UNMW"
+    }],
+    "league": [
+        {"place": 3, "team": "JWAS", "w": 5, "d": 2, "l": 3, "f": 19, "a": 18, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
+    ]
+}

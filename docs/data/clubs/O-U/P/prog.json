@@ -9,6 +9,7 @@
         "new_name": "YGGC"
     }],
     "league": [
+        {"place": 4, "team": "PROG", "w":  6, "d": 4, "l":  4, "f": 27, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
         {"place": 1, "team": "PROG", "w": 8, "d": 3, "l":  1, "f": 34, "a": 11, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true}
     ]
 }

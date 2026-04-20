@@ -17,6 +17,7 @@
         "new_name": "TRIG"
     }],
     "league": [
+        {"place": 1, "team": "TRIM", "w": 10, "d": 2, "l":  2, "f": 34, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
         {"place": 2, "team": "TRIM", "w": 7, "d": 4, "l":  1, "f": 26, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "playoff": "promotion_3", "promoted": true}
     ],
     "matches": [

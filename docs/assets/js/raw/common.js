@@ -1,6 +1,6 @@
 let clubsPos = [];
 
-function handleError(err) {    
+function handleError(err) {
     let errorP = document.createElement("P");
     errorP.classList.add("error");
     errorP.textContent = "Something broke";
@@ -19,7 +19,7 @@ function getClubsPipe() {
 }
 
 function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,options={}) {
-    const {compSeries=0,isSeason=true,checkSeason=""} = options;
+    const {compSeries=0,isSeason=true,checkSeason="",club=""} = options;
     const dataContainer = document.getElementById("dataContainer");
 
     let playoffsNeeded = [];
@@ -29,14 +29,14 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
 
     let thead = document.createElement("THEAD");
     let trHead = document.createElement("TR");
-    
+
     if ( ! isSeason ) {
         let thSeason = document.createElement("TH");
         thSeason.innerHTML = "Season";
         trHead.append(thSeason);
         table.classList.add("standings-history");
     }
-    
+
     let thPlace = document.createElement("TH");
     thPlace.innerHTML = "#";
     trHead.append(thPlace);
@@ -44,7 +44,7 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
         thPlace.innerHTML = "Level / #";
         thPlace.setAttribute("colspan",6);
     }
-    
+
     let thTeam = document.createElement("TH");
     thTeam.innerHTML = "Team";
     trHead.append(thTeam);
@@ -111,7 +111,7 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
             tr.append(gapTd);
             window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.gap`);
         } else {
-            
+
             if ( ! isSeason ) {
                 let tdSeason = document.createElement("TD");
                 tdSeason.innerHTML = standing.season;
@@ -224,8 +224,8 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
                 tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "Removed";
                 hasNotes = true;
             }
-            
-            
+
+
             if ( standing.note ) {
                 tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | ") + standing.note;
                 hasNotes = true;
@@ -235,7 +235,7 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
                 if ( (index+1) !== standing.place ) {
                     console.warn("inconsistent place value",index,standing.place);
                 }
-                
+
                 if ( checkSeason !== standing.season ) {
                     console.warn("inconsistent season value",checkSeason,standing.season);
                 }
@@ -252,6 +252,10 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
                     console.warn("inconsistent competition league series",compSeries,standing.competition.series);
                 }
             }
+        }
+
+        if ( ! isSeason && ! standing.gap && standing.team !== club ) {
+            console.warn("Inconsistent club",standing.season,standing.team,club);
         }
 
         tbody.append(tr);
@@ -293,11 +297,11 @@ function getPlayoffName(po) {
         case "title":
             poName = "Title decider";
             break;
-            
+
         case "title_3_S":
             poName = "Title decider (3. Division Series South)";
             break;
-        
+
         case "title_playoff":
             poName = "Title playoff";
             break;
@@ -374,15 +378,24 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             hasDates = true;
         }
         tr.append(tdDate);
-        
+
         if ( compColumn ) {
             let tdCategory = document.createElement("TD");
             tdCategory.innerHTML = getMatchCategory(match.category);
-            tr.append(tdCategory);            
+            tr.append(tdCategory);
             window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.category`);
-            
+
             let tdComp = document.createElement("TD");
-            tdComp.innerHTML = match.competition[ match.competition.type ];
+            if ( match.competition.edition && match.competition.round ) {
+                let compAbbr = document.createElement("ABBR");
+                compAbbr.innerHTML = match.competition[ match.competition.type ];
+                compAbbr.setAttribute("title",match.competition.edition + " " + match.competition[ match.competition.type ] + ": " + match.competition.round);
+                tdComp.append(compAbbr);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.edition`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
+            } else {
+                tdComp.innerHTML = match.competition[ match.competition.type ];
+            }
             tr.append(tdComp);
             table.classList.add("matches-withcomp");
         }
@@ -441,19 +454,19 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             const mePlayer = match.players.find(key => key.player === focusPlayer);
             window.dataKeySet = [...window.dataKeySet,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.gk`);
-            
+
             if ( mePlayer.captain ) {
                 tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Captain";
                 hasNotes = true;
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.captain`);
             }
-            
+
             if ( mePlayer.goals ) {
                 tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Goals ("+mePlayer.goals.length+"): " + mePlayer.goals.join("', ") + "'";
                 hasNotes = true;
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.goals`);
             }
-            
+
             window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players`);
             window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.player`);
             window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.cap`);
@@ -473,17 +486,29 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
 
             hasNotes = true;
             tdNotes.innerHTML = match.stadium + ", " + match.location;
+            if ( match.country ) {
+                tdNotes.innerHTML += " (" + allTeams[match.country].name;
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.country`);
+            }
 
             let trTwo = document.createElement("TR");
 
             let tdComp = document.createElement("TD");
             tdComp.innerHTML = match.competition.international;
+            if ( match.competition.edition ) {
+                tdComp.innerHTML = match.competition.edition + "<br />" + tdComp.innerHTML;
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.edition`);
+            }
+            if ( match.competition.round ) {
+                tdComp.innerHTML += "<br />" + match.competition.round;
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
+            }
             trTwo.append(tdComp);
 
             let tdGoalsHome = document.createElement("TD");
             let tdGoalsSpacer = document.createElement("TD");
             let tdGoalsAway = document.createElement("TD");
-            
+
             match.goals.forEach(g=>{
                 window.dataKeySet = [...window.dataKeySet,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
 
@@ -548,6 +573,8 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.competition`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.opponent`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.date`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.comp_edition`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.comp_round`);
                 if ( p.cap.competition !== match.competition.international ) {
                     console.warn("Inconsistent international competition",p.cap.competition,match.competition.international);
                 }

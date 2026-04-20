@@ -1,0 +1,13 @@
+{
+    "name": "Young Boys Zolver",
+    "history": [{
+        "season": "1919-20",
+        "event": "FOUNDED"
+    },{
+        "season": "1925-26",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 5, "team": "YBSL", "w": 2, "d": 2, "l": 6, "f": 13, "a": 26, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
+    ]
+}

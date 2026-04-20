@@ -1,0 +1,17 @@
+{
+    "name": "FC Oberkorn",
+    "history": [{
+        "season": "1920-21",
+        "event": "FOUNDED"
+    },{
+        "season": "1926-27",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 1, "team": "FCOB", "w": 9, "d": 1, "l": 0, "f": 32, "a":  5, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"},"playoff":"promotion_3"}
+    ],
+    "matches": [
+        {"home":"RBPF","away":"FCOB","score":"3-1","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}},
+        {"home":"ECBT","away":"FCOB","score":"9-0","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}}
+    ]
+}

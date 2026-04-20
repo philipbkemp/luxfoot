@@ -1,0 +1,15 @@
+{
+    "name": "AS Luxembourg",
+    "founded": "1919-05-18",
+    "history": [{
+        "season": "1918-19",
+        "event": "FOUNDED"
+    },{
+        "season": "2024-25",
+        "event": "MERGE",
+        "new_name": "ASRB"
+    }],
+    "league": [
+        {"place": 2, "team": "ASLX", "w": 6, "d": 2, "l": 2, "f": 20, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
+    ]
+}

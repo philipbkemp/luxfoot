@@ -28,7 +28,7 @@ try {
 
 function doneFetch(data) {
     window.dataKeySet = [...window.dataKeySet,...Object.keys(data)];
-    
+
     document.getElementsByTagName("H1")[0].innerHTML += data.name;
     document.title += " | " + data.name;
     window.dataKeySet = window.dataKeySet.filter(key => key !== 'name');
@@ -43,13 +43,13 @@ function doneFetch(data) {
             thisSectionNavHistory.classList.add("active");
             drawHistory(data.history,data.founded,data.refounded);
         }
-        sectionNav.append(thisSectionNavLiHistory);                        
-        
+        sectionNav.append(thisSectionNavLiHistory);
+
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'history');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'founded');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'refounded');
     }
-    
+
     if ( data.league ) {
         let thisSectionNavLeague = document.createElement("A");
         thisSectionNavLeague.href = "club.html?club="+club+"&show=league";
@@ -58,10 +58,10 @@ function doneFetch(data) {
         thisSectionNavLiLeague.append(thisSectionNavLeague);
         if ( showSection === "league" ) {
             thisSectionNavLeague.classList.add("active");
-            drawStandingsTable(data.league,"league",null,null,null,{compSeries:null,isSeason:false});
+            drawStandingsTable(data.league,"league",null,null,null,{compSeries:null,isSeason:false,club:club});
         }
         sectionNav.append(thisSectionNavLiLeague);
-        
+
         let thisSectionNavPosition = document.createElement("A");
         thisSectionNavPosition.href = "club.html?club="+club+"&show=chart";
         thisSectionNavPosition.innerHTML = "Position History";
@@ -71,11 +71,11 @@ function doneFetch(data) {
             thisSectionNavPosition.classList.add("active");
             drawChart(club);
         }
-        sectionNav.append(thisSectionNavLiPosition);     
-        
+        sectionNav.append(thisSectionNavLiPosition);
+
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'league');
     }
-    
+
     if ( data.matches ) {
         let thisSectionNavMatches = document.createElement("A");
         thisSectionNavMatches.href = "club.html?club="+club+"&show=matches";
@@ -86,11 +86,11 @@ function doneFetch(data) {
             thisSectionNavMatches.classList.add("active");
             drawMatchRecord(data.matches);
         }
-        sectionNav.append(thisSectionNavLiMatches);                        
-        
+        sectionNav.append(thisSectionNavLiMatches);
+
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches');
     }
-    
+
     if ( window.dataKeySet.length !== 0 ) {
         console.error(window.dataKeySet.join(", "));
         console.log(data);
@@ -102,31 +102,31 @@ function drawHistory(history,founded,refounded) {
     historyTable.classList.add("club-history");
     let historyTableHead = document.createElement("THEAD");
     let historyTableHeadRow = document.createElement("TR");
-    
+
     let historyTableHeadSeason = document.createElement("TH");
     historyTableHeadSeason.innerHTML = "Season";
     historyTableHeadRow.append(historyTableHeadSeason);
     let historyTableHeadEvent = document.createElement("TH");
     historyTableHeadEvent.innerHTML = "Event";
     historyTableHeadRow.append(historyTableHeadEvent);
-    
+
     historyTableHead.append(historyTableHeadRow);
     historyTable.append(historyTableHead);
-    
+
     let historyTableBody = document.createElement("TBODY");
-    
+
     history.reverse();
-    
+
     history.forEach(h=>{
         window.dataKeySet = [...window.dataKeySet,...Object.keys(h).map(key => `history.${key}`)];
-        
+
         let hRow = document.createElement("TR");
-        
+
         let hSeason = document.createElement("TD");
         hSeason.innerHTML = h.season;
         hRow.append(hSeason);
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.season');
-        
+
         let hEvent = document.createElement("TD");
         switch (h.event) {
             case "FOUNDED":
@@ -183,27 +183,30 @@ function drawHistory(history,founded,refounded) {
                 break;
         }
         hRow.append(hEvent);
-        
+
         historyTableBody.append(hRow);
     });
-    
+
     historyTable.append(historyTableBody);
     dataContainer.append(historyTable);
 }
 
 function drawMatchRecord(matches) {
     let opponents = {};
-    
+
     matches.forEach(m=>{
         window.dataKeySet = [...window.dataKeySet,...Object.keys(m).map(key => `matches.${key}`)];
-        
+
         let opp = "____";
         if ( m.home === club ) {
             opp = m.away;
         } else if ( m.away === club ) {
             opp = m.home;
+        } else {
+            console.warn("Inconsistent match - team not found",m);
+            return;
         }
-        
+
         if ( ! opponents[opp] ) {
             opponents[opp] = {
                 "_name": window.allTeams[opp].name,
@@ -214,7 +217,7 @@ function drawMatchRecord(matches) {
                 "a":0
             }
         }
-        
+
         const score = m.score.split("-");
         let homeScoreParsed = Number.parseInt(score[0]);
         let awayScoreParsed = Number.parseInt(score[1]);
@@ -243,11 +246,11 @@ function drawMatchRecord(matches) {
                 }
             }
         }
-        
+
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.home')
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.away');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.score');
-        
+
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.season');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.competition');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.date');
@@ -255,16 +258,16 @@ function drawMatchRecord(matches) {
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.forfeit');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.note');
     });
-    
+
     let mt = document.createElement("TABLE");
     mt.classList.add("opponents");
     let mtHead = document.createElement("THEAD");
     let mtHeadRow = document.createElement("TR");
-    
+
     let mtHeadOpp = document.createElement("TH");
     mtHeadOpp.innerHTML = "Opponent";
     mtHeadRow.append(mtHeadOpp);
-    
+
     const cols = ["P","W","D","L","F","A","Pts","GD","W%","PPG"];
     const colsAbbr = ["Played","Won","Drawn","Lost","For","Against","Points","Goal difference","Win Percentage","Points Per Game"];
     for ( let i=0 ; i<cols.length ; i++ ) {
@@ -272,61 +275,61 @@ function drawMatchRecord(matches) {
         thCol.innerHTML = "<abbr title='"+colsAbbr[i]+"'>"+cols[i]+"</abbr>";
         mtHeadRow.append(thCol);
     }
-    
+
     mtHead.append(mtHeadRow);
     mt.append(mtHead);
     let mtBody = document.createElement("TBODY");
-    
+
     Object.keys(opponents)
     .sort((a, b) => opponents[a]._name.localeCompare(opponents[b]._name))
     .forEach(opp=>{
-        
+
         const played = opponents[opp].w + opponents[opp].d +opponents[opp].l;
-        if ( played !== 0 ) {                    
+        if ( played !== 0 ) {
             let oppRow = document.createElement("TR");
-            
+
             let oppName = document.createElement("TD");
             oppName.innerHTML = opponents[opp]._name;
             oppRow.append(oppName);
-            
+
             const points = (opponents[opp].w * 3) + opponents[opp].d;
-            
+
             let oppPlayed = document.createElement("TD");
             oppPlayed.innerHTML = played;
             oppRow.append(oppPlayed);
-            
+
             ["w","d","l","f","a"].forEach(col=>{
                 let oppStat = document.createElement("TD");
                 oppStat.innerHTML = opponents[opp][col];
                 oppRow.append(oppStat);
             });
-            
+
             let oppPoints = document.createElement("TD");
             oppPoints.innerHTML = points;
             oppRow.append(oppPoints);
-            
+
             let oppDiff = document.createElement("TD");
             oppDiff.innerHTML = opponents[opp].f - opponents[opp].a;
             oppRow.append(oppDiff);
-            
+
             let oppWinPerc = document.createElement("TD");
             oppWinPerc.innerHTML = ((opponents[opp].w / played) * 100).toFixed(2);
             oppRow.append(oppWinPerc);
-            
+
             let oppPpg = document.createElement("TD");
             oppPpg.innerHTML = (points / played).toFixed(2);
             oppRow.append(oppPpg);
-            
+
             mtBody.append(oppRow);
-        }                    
+        }
     });
-    
+
     mt.append(mtBody);
-    
+
     let note = document.createElement("P");
     note.innerHTML = "Note: Assumes 3 points for a win for all matches";
     dataContainer.append(note);
-    
+
     dataContainer.append(mt);
 }
 

@@ -1,0 +1,28 @@
+{
+    "name": [
+        "Robert",
+        "Elter"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "MF",
+    "born": "1899-04-20",
+    "died": "1991-05-02",
+    "matches": [{
+        "category": "M",
+        "season": "1920-21",
+        "date": "1920-08-28",
+        "competition": {"type":"international","international":"Olympics", "edition": "1920", "round": "R1"},
+        "home": "_NLD",
+        "away": "_LUX",
+        "score": "3-0",
+        "result": "L",
+        "players": [
+            {"player":"ELTE_ROB","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}}
+        ]
+    }]
+}

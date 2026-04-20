@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place": 8, "team": "URUM", "w": 0, "d": 0, "l": 14, "f": 11, "a": 86, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "relegated": true},
         {"place": 2, "team": "URUM", "w": 5, "d": 3, "l": 2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true},
         {"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f": 12, "a": 39, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":2, "league":"2. Division"}},
         {"place": 4, "team": "URUM", "w": 2, "d": 0, "l": 6, "f":  7, "a": 31, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
@@ -14,9 +15,24 @@
         {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"JESH","away":"URUM","score":"4-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"FOLA","away":"URUM","score":"13-0","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"HLBN","away":"URUM","score":"5-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SDUD","away":"URUM","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"RBDF","away":"URUM","score":"13-0","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"SCLX","away":"URUM","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "forfeit" :true},
+        {"home":"RACL","away":"URUM","score":"5-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"JESH","score":"3-7","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"FOLA","score":"1-8","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"HLBN","score":"3-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"SDUD","score":"0-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "forfeit": true},
+        {"home":"URUM","away":"RBDF","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"SCLX","score":"2-12","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+        {"home":"URUM","away":"RACL","score":"1-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+
         {"home":"RBDF","away":"URUM","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
         {"home":"URUM","away":"NSCH","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
-        
+
         {"home":"URUM","away":"AVBG","score":"6-2","outcome":"URUM promoted", "season": "1916-17", "competition": {"type":"playoff","playoff": "promotion_3"}}
     ]
 }

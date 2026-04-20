@@ -1,0 +1,13 @@
+{
+    "name": "The International Esch",
+    "history": [{
+        "season": "1919-20",
+        "event": "FOUNDED"
+    },{
+        "season": "1925-26",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 3, "team": "IESH", "w": 4, "d": 1, "l": 3, "f": 11, "a":  8, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}}
+    ]
+}

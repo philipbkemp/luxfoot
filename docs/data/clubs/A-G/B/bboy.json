@@ -1,0 +1,13 @@
+{
+    "name": "Black Boys Bascharage",
+    "history": [{
+        "season": "1919-20",
+        "event": "FOUNDED"
+    },{
+        "season": "1924-25",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 3, "team": "BBOY", "w": 3, "d": 4, "l": 3, "f": 20, "a": 21, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
+    ]
+}

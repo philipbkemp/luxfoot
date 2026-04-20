@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place": 6, "team": "JSTF", "w":  4, "d": 1, "l":  9, "f": 19, "a": 37, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
         {"place": 1, "team": "JSTF", "w": 7, "d": 1, "l": 0, "f": 26, "a":  6, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "promoted": true},
         {"place":2,"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3"}
     ],

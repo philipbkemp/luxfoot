@@ -1,0 +1,13 @@
+{
+    "name": "Enfants de la Source Mondorf",
+    "history": [{
+        "season": "1920-21",
+        "event": "FOUNDED"
+    },{
+        "season": "1924-25",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 4, "team": "ENFM", "w": 1, "d": 0, "l": 7, "f":  7, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}}
+    ]
+}

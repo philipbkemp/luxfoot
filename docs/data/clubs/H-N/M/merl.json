@@ -1,0 +1,13 @@
+{
+    "name": "US Merl",
+    "history": [{
+        "season": "1919-20",
+        "event": "FOUNDED"
+    },{
+        "season": "1923-24",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place": 5, "team": "MERL", "w": 2, "d": 1, "l": 7, "f": 13, "a": 37, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "season": "1920-21",
+    "next": "1921-22",
+    "prev": "1919-20",
+    "league": [{
+        "level": 1,
+        "name": "1. Division",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "JESH", "w": 8, "d": 4, "l":  2, "f": 38, "a": 21, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "champion": true},
+            {"place": 2, "team": "FOLA", "w": 9, "d": 1, "l":  4, "f": 47, "a": 15, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 3, "team": "HLBN", "w": 8, "d": 2, "l":  4, "f": 26, "a": 16, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 4, "team": "SDUD", "w": 8, "d": 1, "l":  5, "f": 28, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 5, "team": "RBDF", "w": 6, "d": 2, "l":  6, "f": 42, "a": 31, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 6, "team": "SCLX", "w": 6, "d": 2, "l":  6, "f": 35, "a": 29, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 7, "team": "RACL", "w": 4, "d": 2, "l":  8, "f": 23, "a": 28, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "relegated": true},
+            {"place": 8, "team": "URUM", "w": 0, "d": 0, "l": 14, "f": 11, "a": 86, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "relegated": true}
+        ],
+        "matches": [
+            {"home":"JESH","away":"FOLA","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"JESH","away":"HLBN","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"JESH","away":"SDUD","score":"1-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"JESH","away":"RBDF","score":"4-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"JESH","away":"SCLX","score":"4-5","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"JESH","away":"RACL","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"JESH","away":"URUM","score":"4-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"JESH","score":"2-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"HLBN","score":"1-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"SDUD","score":"0-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"RBDF","score":"4-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"RACL","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"FOLA","away":"URUM","score":"13-0","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"JESH","score":"0-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"FOLA","score":"0-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"SDUD","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"RBDF","score":"0-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"SCLX","score":"1-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"RACL","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"HLBN","away":"URUM","score":"5-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"JESH","score":"3-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"FOLA","score":"0-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"HLBN","score":"1-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"RBDF","score":"4-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"RACL","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SDUD","away":"URUM","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RBDF","away":"JESH","score":"4-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RBDF","away":"FOLA","score":"2-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "note": "Replayed after protest. Original match ended 3-4"},
+            {"home":"RBDF","away":"HLBN","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RBDF","away":"SDUD","score":"2-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RBDF","away":"SCLX","score":"7-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RBDF","away":"RACL","score":"2-5","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RBDF","away":"URUM","score":"13-0","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"JESH","score":"2-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"FOLA","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"HLBN","score":"1-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"SDUD","score":"6-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"RBDF","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"RACL","score":"2-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"SCLX","away":"URUM","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "forfeit" :true},
+            {"home":"RACL","away":"JESH","score":"0-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RACL","away":"FOLA","score":"1-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RACL","away":"HLBN","score":"0-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RACL","away":"SDUD","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RACL","away":"RBDF","score":"2-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RACL","away":"SCLX","score":"3-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"RACL","away":"URUM","score":"5-1","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"URUM","away":"JESH","score":"3-7","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"URUM","away":"FOLA","score":"1-8","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"URUM","away":"HLBN","score":"3-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"URUM","away":"SDUD","score":"0-3","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "forfeit": true},
+            {"home":"URUM","away":"RBDF","score":"0-2","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"URUM","away":"SCLX","score":"2-12","season":"1920-21","competition": {"type":"league","level": 1, "league": "1. Division"}},
+            {"home":"URUM","away":"RACL","score":"1-4","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}}
+        ]
+    },{
+        "level": 2,
+        "name": "The Promotion",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "TRIM", "w": 10, "d": 2, "l":  2, "f": 34, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
+            {"place": 2, "team": "NSCH", "w":  9, "d": 3, "l":  2, "f": 41, "a": 18, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
+            {"place": 3, "team": "CROD", "w":  9, "d": 1, "l":  4, "f": 34, "a": 23, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 4, "team": "PROG", "w":  6, "d": 4, "l":  4, "f": 27, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 5, "team": "CPET", "w":  4, "d": 5, "l":  5, "f": 29, "a": 26, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 6, "team": "JSTF", "w":  4, "d": 1, "l":  9, "f": 19, "a": 37, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 7, "team": "AVBG", "w":  3, "d": 2, "l":  9, "f": 18, "a": 38, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true},
+            {"place": 8, "team": "BLVL", "w":  1, "d": 2, "l": 11, "f": 14, "a": 39, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true}
+        ]
+    },{
+        "level": 3,
+        "name": "2. Division",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "STET", "w": 12, "d": 1, "l":  1, "f": 56, "a": 12, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "promoted": true},
+            {"place": 2, "team": "UESH", "w": 10, "d": 0, "l":  4, "f": 53, "a": 27, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "promoted": true},
+            {"place": 3, "team": "PRON", "w":  9, "d": 1, "l":  4, "f": 42, "a": 20, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
+            {"place": 4, "team": "CSHL", "w":  7, "d": 1, "l":  6, "f": 45, "a": 28, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
+            {"place": 5, "team": "ADUD", "w":  6, "d": 2, "l":  6, "f": 25, "a": 48, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
+            {"place": 6, "team": "MANC", "w":  4, "d": 2, "l":  8, "f": 29, "a": 44, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
+            {"place": 7, "team": "ETZE", "w":  1, "d": 3, "l": 10, "f": 12, "a": 51, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "relegated": true},
+            {"place": 8, "team": "JHTC", "w":  2, "d": 0, "l": 12, "f": 10, "a": 42, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "relegated": true}
+        ]
+    },{
+        "level": 4,
+        "name": "3. Division",
+        "pts_win": 2,
+        "series": [{
+            "serie": 1,
+            "name": "Series Luxembourg",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "RBPF", "w": 8, "d": 0, "l": 2, "f": 37, "a": 16, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true},
+                {"place": 2, "team": "ASLX", "w": 6, "d": 2, "l": 2, "f": 20, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}},
+                {"place": 3, "team": "JWAS", "w": 5, "d": 2, "l": 3, "f": 19, "a": 18, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}},
+                {"place": 4, "team": "JVRL", "w": 5, "d": 1, "l": 4, "f": 26, "a": 17, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}},
+                {"place": 5, "team": "MERL", "w": 2, "d": 1, "l": 7, "f": 13, "a": 37, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}},
+                {"place": 6, "team": "SWFT", "w": 0, "d": 2, "l": 8, "f": 11, "a": 27, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
+            ]
+        },{
+            "serie": 2,
+            "name": "Series South",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "ECBT", "w": 6, "d": 2, "l": 0, "f": 27, "a":  2, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}, "playoff":"promotion_3","promoted": true},
+                {"place": 2, "team": "USDD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  7, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}},
+                {"place": 3, "team": "IESH", "w": 4, "d": 1, "l": 3, "f": 11, "a":  8, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}},
+                {"place": 4, "team": "ENFM", "w": 1, "d": 0, "l": 7, "f":  7, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}},
+                {"place": 5, "team": "JMON", "w": 1, "d": 0, "l": 7, "f":  6, "a": 32, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}}
+            ]
+        },{
+            "serie": 3,
+            "name": "Series South West",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "FCOB", "w": 9, "d": 1, "l": 0, "f": 32, "a":  5, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"},"playoff":"promotion_3"},
+                {"place": 2, "team": "OYMP", "w": 5, "d": 2, "l": 3, "f": 18, "a": 13, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}},
+                {"place": 3, "team": "BBOY", "w": 3, "d": 4, "l": 3, "f": 20, "a": 21, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}},
+                {"place": 4, "team": "HAGN", "w": 3, "d": 3, "l": 4, "f": 25, "a": 21, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}},
+                {"place": 5, "team": "YBSL", "w": 2, "d": 2, "l": 6, "f": 13, "a": 26, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}},
+                {"place": 6, "team": "JSNM", "w": 1, "d": 2, "l": 7, "f": 12, "a": 34, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
+            ]
+        }]
+    }],
+    "playoffs": {
+        "promotion_3": {
+            "matches": [
+                {"home":"RBPF","away":"ECBT","score":"3-0","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}},
+                {"home":"RBPF","away":"FCOB","score":"3-1","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}},
+                {"home":"ECBT","away":"FCOB","score":"9-0","season":"1920-21","competition": {"type":"playoff","playoff": "promotion_3"}}
+            ],
+            "noteTeams": ["RBPF","ECBT"],
+            "note": "RBPF and ECBT promoted"
+        }
+    },
+    "international": {
+        "men": {
+            "matches": [{
+                "season": "1920-21",
+                "date": "1920-08-28",
+                "competition": {"type":"international","international":"Olympics", "edition": "1920", "round": "R1"},
+                "home": "_NLD",
+                "away": "_LUX",
+                "score": "3-0",
+                "result": "L",
+                "goals": [
+                    {"team":"_NLD","min":30,"player":"Bulder"},
+                    {"team":"_NLD","min":47,"player":"Groosjohan"},
+                    {"team":"_NLD","min":85,"player":"Groosjohan"}
+                ],
+                "stadium": "La Butte",
+                "location": "Brussels",
+                "country": "_BEL",
+                "attendance": 3000,
+                "players": [
+                    {"player":"KRUG_CHA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"},"gk":true},
+                    {"player":"SCHM_THO","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"},"captain":true},
+                    {"player":"KOET_JOS","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"HAMI_EMI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"UNGE_MIC","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"SCHU_CAM","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"METZ_LEO","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"LANG_MAR","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"ELTE_ROB","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"MASS_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                    {"player":"LEES_ART","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}}
+                ]
+            }]
+        }
+    }
+}

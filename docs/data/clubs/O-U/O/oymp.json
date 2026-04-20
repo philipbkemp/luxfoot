@@ -1,0 +1,14 @@
+{
+    "name": "Olympique Äischen",
+    "history": [{
+        "season": "1917-18",
+        "event": "FOUNDED"
+    },{
+        "season": "2006-07",
+        "event": "MERGE",
+        "new_name": "AAHE"
+    }],
+    "league": [
+        {"place": 2, "team": "OYMP", "w": 5, "d": 2, "l": 3, "f": 18, "a": 13, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
+    ]
+}
