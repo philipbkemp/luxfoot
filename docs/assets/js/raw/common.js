@@ -14,8 +14,58 @@ function getClubsPipe() {
         if ( cp ) {
             pipe.push('"'+cp.join("|")+'"');
         }
+        cp.forEach(club=>{
+            let clubMatches = "";
+            let clubStanding = "";
+            window.rawData.league.forEach(a=>{
+                if ( a.matches ) {
+                    a.matches.forEach(b=>{
+                        if ( b.home === club || b.away === club ) {
+                            clubMatches += JSON.stringify(b) + ",\n";
+                        }
+                    });
+                }
+                if ( a.standings ) {
+                    a.standings.forEach(b=>{
+                        if ( b.team === club ) {
+                            clubStanding = JSON.stringify(b);
+                        }
+                    });
+                }
+                if ( a.series ) {
+                    a.series.forEach(b=>{
+                        if ( b.matches ) {
+                            b.matches.forEach(c=>{
+                                if ( c.home === club || c.away === club ) {
+                                    clubMatches += JSON.stringify(c) + ",\n";
+                                }
+                            });
+                        }
+                        if ( b.standings ) {
+                            b.standings.forEach(c=>{
+                                if ( c.team === club ) {
+                                    clubStanding = JSON.stringify(c);
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+            Object.keys(window.rawData.cup).forEach(a=>{
+                window.rawData.cup[a].rounds.forEach(b=>{
+                    b.matches.forEach(c=>{
+                        if ( (c.home && c.home === club) || ( c.away && c.away === club ) ) {
+                            clubMatches += JSON.stringify(c) + ",\n";
+                        }
+                    });
+                });
+            });
+            console.warn(club);
+            if ( clubStanding !== "" ) { console.log(clubStanding) };
+            if ( clubMatches !== "" ) { console.log(clubMatches); }
+        });
     });
-    return "["+pipe.join(",")+"]";
+    console.log("["+pipe.join(",")+"]");
 }
 
 function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,options={}) {
@@ -326,7 +376,7 @@ function getMatchCategory(cat) {
 }
 
 function drawMatches(matches,keyPrefix,comp,options={}) {
-    const {hasIntData=false,isSeason=true,compColumn=false,focusPlayer="",season=""} = options;
+    const {hasIntData=false,isSeason=true,compColumn=false,focusPlayer="",season="",showDiv=false,highlightWinner=false} = options;
     const dataContainer = document.getElementById("dataContainer");
 
     let table = document.createElement("TABLE");
@@ -366,236 +416,286 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             } else if ( match.competition.type === "international" ) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.international`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.category`);
+            } else if ( match.competition.type === "cup" ) {
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.homeDivision`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.awayDivision`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.cup`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.cup_code`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round_code`);
             }
         }
 
         let tr = document.createElement("TR");
 
-        let tdDate = document.createElement("TD");
-        tdDate.innerHTML = "";
-        if ( match.date ) {
-            tdDate.innerHTML = match.date;
-            hasDates = true;
-        }
-        tr.append(tdDate);
+        if ( match.bye ) {
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.bye`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.byeDivision`);
 
-        if ( compColumn ) {
-            let tdCategory = document.createElement("TD");
-            tdCategory.innerHTML = getMatchCategory(match.category);
-            tr.append(tdCategory);
-            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.category`);
+            let tdBye = document.createElement("TD");
+            tdBye.setAttribute("colspan",10);
+            tdBye.classList.add("match-bye");
+            tdBye.innerHTML = "Bye: " + window.allTeams[match.bye].name + " (" + match.byeDivision + ")";
+            tr.append(tdBye);
 
-            let tdComp = document.createElement("TD");
-            if ( match.competition.edition && match.competition.round ) {
-                let compAbbr = document.createElement("ABBR");
-                compAbbr.innerHTML = match.competition[ match.competition.type ];
-                compAbbr.setAttribute("title",match.competition.edition + " " + match.competition[ match.competition.type ] + ": " + match.competition.round);
-                tdComp.append(compAbbr);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.edition`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
-            } else {
-                tdComp.innerHTML = match.competition[ match.competition.type ];
-            }
-            tr.append(tdComp);
-            table.classList.add("matches-withcomp");
-        }
+            table.append(tr);
 
-        let tdHome = document.createElement("TD");
-        tdHome.innerHTML = window.allTeams[match.home].name;
-        tr.append(tdHome);
-
-        let tdScore = document.createElement("TD");
-        if ( match.result ) {
-            switch(match.result) {
-                case "W": tdScore.classList.add("match-iswin"); break;
-                case "D": tdScore.classList.add("match-isdraw"); break;
-                case "L": tdScore.classList.add("match-isloss"); break;
-            }
-        }
-        if ( match.forfeit ) {
-            let tdScoreFF = document.createElement("ABBR");
-            tdScoreFF.title = "Match forfeited";
-            tdScoreFF.innerHTML = match.score;
-            tdScore.append(tdScoreFF);
         } else {
-            tdScore.innerHTML = match.score;
-        }
-        tr.append(tdScore);
 
-        let tdAway = document.createElement("TD");
-        tdAway.innerHTML = window.allTeams[match.away].name;
-        tr.append(tdAway);
-
-        if ( isSeason ) {
-            if ( season !== match.season ) {
-                console.warn("inconsistent season value",season,match.season);
+            let tdDate = document.createElement("TD");
+            tdDate.innerHTML = "";
+            if ( match.date ) {
+                tdDate.innerHTML = match.date;
+                hasDates = true;
             }
+            tr.append(tdDate);
 
-            if ( comp.type === "international" ) {
-                // no checks
-            } else if ( comp.type === "playoff" && comp.playoff !== match.competition.playoff ) {
-                console.warn("inconsistent playoff competition",comp,match.competition.playoff);
-            } else if ( ! ["international","playoff"].includes(comp.type)) {
-                console.warn("validate match competition data",comp,match.competition);
-            }
-        }
+            if ( compColumn ) {
+                let tdCategory = document.createElement("TD");
+                tdCategory.innerHTML = getMatchCategory(match.category);
+                tr.append(tdCategory);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.category`);
 
-        let tdNotes = document.createElement("TD");
-        tdNotes.innerHTML = "";
-        if ( match.outcome ) {
-            tdNotes.innerHTML = match.outcome
-                .replaceAll(match.home,window.allTeams[match.home].name)
-                .replaceAll(match.away,window.allTeams[match.away].name)
-                .replaceAll("|","<br />")
-                ;
-            hasNotes = true;
-        }
-        if ( focusPlayer !== "" ) {
-            const mePlayer = match.players.find(key => key.player === focusPlayer);
-            window.dataKeySet = [...window.dataKeySet,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.gk`);
-
-            if ( mePlayer.captain ) {
-                tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Captain";
-                hasNotes = true;
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.captain`);
-            }
-
-            if ( mePlayer.goals ) {
-                tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Goals ("+mePlayer.goals.length+"): " + mePlayer.goals.join("', ") + "'";
-                hasNotes = true;
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.goals`);
-            }
-
-            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players`);
-            window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.player`);
-            window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.cap`);
-        }
-        if ( match.note ) {
-            if ( tdNotes.innerHTML !== "" ) {
-                tdNotes.innerHTML += "<br />";
-            }
-            tdNotes.innerHTML+= match.note;
-            hasNotes = true;
-        }
-        tr.append(tdNotes);
-
-        table.append(tr);
-
-        if ( hasIntData ) {
-
-            hasNotes = true;
-            tdNotes.innerHTML = match.stadium + ", " + match.location;
-            if ( match.country ) {
-                tdNotes.innerHTML += " (" + allTeams[match.country].name;
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.country`);
-            }
-
-            let trTwo = document.createElement("TR");
-
-            let tdComp = document.createElement("TD");
-            tdComp.innerHTML = match.competition.international;
-            if ( match.competition.edition ) {
-                tdComp.innerHTML = match.competition.edition + "<br />" + tdComp.innerHTML;
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.edition`);
-            }
-            if ( match.competition.round ) {
-                tdComp.innerHTML += "<br />" + match.competition.round;
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
-            }
-            trTwo.append(tdComp);
-
-            let tdGoalsHome = document.createElement("TD");
-            let tdGoalsSpacer = document.createElement("TD");
-            let tdGoalsAway = document.createElement("TD");
-
-            match.goals.forEach(g=>{
-                window.dataKeySet = [...window.dataKeySet,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
-
-                tdGoalsSpacer.innerHTML += g.min + "<br />";
-
-                let playerEntry = g.player;
-                if ( g.team === "_LUX" ) {
-                    playerEntry = window.intPlayers[playerEntry].name[0][0] + " " + window.intPlayers[playerEntry].name[1];
-                }
-                if ( g.penalty ) {
-                    playerEntry += " (pen)";
-                }
-
-                if ( g.team === match.home ) {
-                    tdGoalsHome.innerHTML += playerEntry + "<br />";
-                    tdGoalsAway.innerHTML += "" + "<br />";
+                let tdComp = document.createElement("TD");
+                if ( match.competition.edition && match.competition.round ) {
+                    let compAbbr = document.createElement("ABBR");
+                    compAbbr.innerHTML = match.competition[ match.competition.type ];
+                    compAbbr.setAttribute("title",match.competition.edition + " " + match.competition[ match.competition.type ] + ": " + match.competition.round);
+                    tdComp.append(compAbbr);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.edition`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
                 } else {
-                    tdGoalsAway.innerHTML += playerEntry + "<br />";
-                    tdGoalsHome.innerHTML += "" + "<br />";
+                    tdComp.innerHTML = match.competition[ match.competition.type ];
+                }
+                tr.append(tdComp);
+                table.classList.add("matches-withcomp");
+            }
+
+            let tdHome = document.createElement("TD");
+            tdHome.innerHTML = window.allTeams[match.home].name;
+            if ( showDiv ) {
+                tdHome.innerHTML += " ("+match.homeDivision+")";
+            }
+            tr.append(tdHome);
+
+            let tdScore = document.createElement("TD");
+            if ( match.result ) {
+                switch(match.result) {
+                    case "W": tdScore.classList.add("match-iswin"); break;
+                    case "D": tdScore.classList.add("match-isdraw"); break;
+                    case "L": tdScore.classList.add("match-isloss"); break;
+                }
+            }
+            if ( match.forfeit ) {
+                let tdScoreFF = document.createElement("ABBR");
+                tdScoreFF.title = "Match forfeited";
+                tdScoreFF.innerHTML = match.score;
+                tdScore.append(tdScoreFF);
+            } else {
+                tdScore.innerHTML = match.score;
+            }
+            tr.append(tdScore);
+
+            let tdAway = document.createElement("TD");
+            tdAway.innerHTML = window.allTeams[match.away].name;
+            if ( showDiv ) {
+                tdAway.innerHTML = "("+match.awayDivision+") " + tdAway.innerHTML;
+            }
+            tr.append(tdAway);
+
+            if ( highlightWinner ) {
+                const score = match.score.split("-");
+                let homeScoreParsed = Number.parseInt(score[0]);
+                let awayScoreParsed = Number.parseInt(score[1]);
+                if ( homeScoreParsed > awayScoreParsed ) {
+                    tdAway.classList.add("match-loser");
+                } else if ( homeScoreParsed < awayScoreParsed ) {
+                    tdHome.classList.add("match-loser");
+                } else {
+                    console.warn("No winner?",match);
+                }
+            }
+
+            if ( isSeason ) {
+                if ( season !== match.season ) {
+                    console.warn("inconsistent season value",season,match.season);
                 }
 
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.min`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.team`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.player`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.penalty`);
-            });
+                if ( comp.type === "international" ) {
+                    // no checks
+                } else if ( comp.type === "playoff" && comp.playoff !== match.competition.playoff ) {
+                    console.warn("inconsistent playoff competition",comp,match.competition.playoff);
+                } else if ( comp.type === "cup" && (
+                    comp.cup !== match.competition.cup
+                    || comp.round !== match.competition.round
+                    || comp.cup_code !== match.competition.cup_code
+                    || comp.round !== match.competition.round
+                    )) {
+                    console.warn("inconsistent cup competition",comp.cup_code,match.competition.cup_code);
+                } else if ( ! ["international","playoff","cup"].includes(comp.type)) {
+                    console.warn("validate match competition data",comp,match.competition);
+                }
+            }
 
-            trTwo.append(tdGoalsHome);
-            trTwo.append(tdGoalsSpacer);
-            trTwo.append(tdGoalsAway);
+            let tdNotes = document.createElement("TD");
+            tdNotes.innerHTML = "";
+            if ( match.outcome ) {
+                tdNotes.innerHTML = match.outcome
+                    .replaceAll(match.home,window.allTeams[match.home].name)
+                    .replaceAll(match.away,window.allTeams[match.away].name)
+                    .replaceAll("|","<br />")
+                    ;
+                hasNotes = true;
+            }
+            if ( focusPlayer !== "" ) {
+                const mePlayer = match.players.find(key => key.player === focusPlayer);
+                window.dataKeySet = [...window.dataKeySet,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.gk`);
 
-            let tdMatchNotes = document.createElement("TD");
-            tdMatchNotes.innerHTML = "Attendance: " + Number(match.attendance).toLocaleString("en-GB");
-            trTwo.append(tdMatchNotes);
+                if ( mePlayer.captain ) {
+                    tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Captain";
+                    hasNotes = true;
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.captain`);
+                }
 
-            table.append(trTwo);
+                if ( mePlayer.goals ) {
+                    tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Goals ("+mePlayer.goals.length+"): " + mePlayer.goals.join("', ") + "'";
+                    hasNotes = true;
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.goals`);
+                }
 
-            let trThree = document.createElement("TR");
-
-            let tdSquad = document.createElement("TD");
-            tdSquad.colSpan = 4;
-            tdSquad.innerHTML = "";
-            match.players.forEach(p=>{
-                window.dataKeySet = [...window.dataKeySet,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
-                window.dataKeySet = [...window.dataKeySet,...Object.keys(p.cap).map(key => `${keyPrefix}.players.cap.${key}`)];
-
-                tdSquad.innerHTML +=
-                    (tdSquad.innerHTML === "" ? "" : "; ")
-                    + window.intPlayers[p.player].name[0][0]
-                    + " "
-                    + window.intPlayers[p.player].name[1]
-                    + (p.gk ? " (GK)" : "")
-                    + (p.captain ? " (C)" : "")
-                ;
-
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.player`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.goals`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.captain`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.gk`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.competition`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.opponent`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.date`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.comp_edition`);
-                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.comp_round`);
-                if ( p.cap.competition !== match.competition.international ) {
-                    console.warn("Inconsistent international competition",p.cap.competition,match.competition.international);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.player`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.cap`);
+            }
+            if ( match.note ) {
+                if ( tdNotes.innerHTML !== "" ) {
+                    tdNotes.innerHTML += "<br />";
                 }
-                if (
-                    (match.home === "_LUX" && p.cap.opponent !== match.away )
-                    || (match.away === "_LUX" && p.cap.opponent !== match.home )
-                ) {
-                    console.warn("Inconsistent international opponent",p.cap.opponent,match.home,match.away);
-                }
-                if ( p.cap.date !== match.date ) {
-                    console.warn("Inconsistent international date",p.cap.date,match.date);
+                tdNotes.innerHTML+= match.note;
+                hasNotes = true;
+            }
+            tr.append(tdNotes);
+
+            table.append(tr);
+
+            if ( hasIntData ) {
+
+                hasNotes = true;
+                tdNotes.innerHTML = match.stadium + ", " + match.location;
+                if ( match.country ) {
+                    tdNotes.innerHTML += " (" + allTeams[match.country].name;
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.country`);
                 }
 
-            });
+                let trTwo = document.createElement("TR");
 
-            let tdEmpty1 = document.createElement("TD");
-            tdEmpty1.innerHTML = "";
-            trThree.append(tdEmpty1);
-            trThree.append(tdSquad);
+                let tdComp = document.createElement("TD");
+                tdComp.innerHTML = match.competition.international;
+                if ( match.competition.edition ) {
+                    tdComp.innerHTML = match.competition.edition + "<br />" + tdComp.innerHTML;
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.edition`);
+                }
+                if ( match.competition.round ) {
+                    tdComp.innerHTML += "<br />" + match.competition.round;
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
+                }
+                trTwo.append(tdComp);
 
-            table.append(trThree);
+                let tdGoalsHome = document.createElement("TD");
+                let tdGoalsSpacer = document.createElement("TD");
+                let tdGoalsAway = document.createElement("TD");
+
+                match.goals.forEach(g=>{
+                    window.dataKeySet = [...window.dataKeySet,...Object.keys(g).map(key => `${keyPrefix}.goals.${key}`)];
+
+                    tdGoalsSpacer.innerHTML += g.min + "<br />";
+
+                    let playerEntry = g.player;
+                    if ( g.team === "_LUX" ) {
+                        playerEntry = window.intPlayers[playerEntry].name[0][0] + " " + window.intPlayers[playerEntry].name[1];
+                    }
+                    if ( g.penalty ) {
+                        playerEntry += " (pen)";
+                    }
+
+                    if ( g.team === match.home ) {
+                        tdGoalsHome.innerHTML += playerEntry + "<br />";
+                        tdGoalsAway.innerHTML += "" + "<br />";
+                    } else {
+                        tdGoalsAway.innerHTML += playerEntry + "<br />";
+                        tdGoalsHome.innerHTML += "" + "<br />";
+                    }
+
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.min`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.team`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.player`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.goals.penalty`);
+                });
+
+                trTwo.append(tdGoalsHome);
+                trTwo.append(tdGoalsSpacer);
+                trTwo.append(tdGoalsAway);
+
+                let tdMatchNotes = document.createElement("TD");
+                tdMatchNotes.innerHTML = "Attendance: " + Number(match.attendance).toLocaleString("en-GB");
+                trTwo.append(tdMatchNotes);
+
+                table.append(trTwo);
+
+                let trThree = document.createElement("TR");
+
+                let tdSquad = document.createElement("TD");
+                tdSquad.colSpan = 4;
+                tdSquad.innerHTML = "";
+                match.players.forEach(p=>{
+                    window.dataKeySet = [...window.dataKeySet,...Object.keys(p).map(key => `${keyPrefix}.players.${key}`)];
+                    window.dataKeySet = [...window.dataKeySet,...Object.keys(p.cap).map(key => `${keyPrefix}.players.cap.${key}`)];
+
+                    tdSquad.innerHTML +=
+                        (tdSquad.innerHTML === "" ? "" : "; ")
+                        + window.intPlayers[p.player].name[0][0]
+                        + " "
+                        + window.intPlayers[p.player].name[1]
+                        + (p.gk ? " (GK)" : "")
+                        + (p.captain ? " (C)" : "")
+                    ;
+
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.player`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.goals`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.captain`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.gk`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.competition`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.opponent`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.date`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.comp_edition`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.players.cap.comp_round`);
+                    if ( p.cap.competition !== match.competition.international ) {
+                        console.warn("Inconsistent international competition",p.cap.competition,match.competition.international);
+                    }
+                    if (
+                        (match.home === "_LUX" && p.cap.opponent !== match.away )
+                        || (match.away === "_LUX" && p.cap.opponent !== match.home )
+                    ) {
+                        console.warn("Inconsistent international opponent",p.cap.opponent,match.home,match.away);
+                    }
+                    if ( p.cap.date !== match.date ) {
+                        console.warn("Inconsistent international date",p.cap.date,match.date);
+                    }
+
+                });
+
+                let tdEmpty1 = document.createElement("TD");
+                tdEmpty1.innerHTML = "";
+                trThree.append(tdEmpty1);
+                trThree.append(tdSquad);
+
+                table.append(trThree);
+            }
         }
     });
 

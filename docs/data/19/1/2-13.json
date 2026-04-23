@@ -10,6 +10,7 @@
     "international": {
         "men": {
             "matches": [{
+                "category": "M",
                 "season": "1912-13",
                 "date": "1913-04-20",
                 "competition": {"type":"international","international":"Friendly"},

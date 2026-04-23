@@ -10,11 +10,15 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":1,"team":"USDD","w":12,"d":1,"l":1,"f":58,"a":6,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"},"promoted":true},
         {"place": 2, "team": "USDD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  7, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}},
         {"gap":true},
         {"place":2, "team": "USDD", "w": 0, "d": 0, "l": 2, "f":  2, "a": 12, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2}
     ],
     "matches": [
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ASLX","homeDivision":4,"away":"USDD","awayDivision":4,"score":"0-8"},
+        {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"HLBN","homeDivision":1,"away":"USDD","awayDivision":4,"score":"2-1"},
+
         {"home":"SDUD","away":"USDD","score":"6-1", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}},
         {"home":"USDD","away":"SDUD","score":"1-6", "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}}
     ]

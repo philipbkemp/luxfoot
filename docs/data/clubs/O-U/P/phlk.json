@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":4,"team":"PHLK","w":4,"d":1,"l":5,"f":12,"a":19,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series South West"}},
         {"place":1, "team":"PHLK", "w":1, "d":1, "l":0, "f":4, "a":3, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":1,"league":"2. Division Series 1"}, "pts_win":2}
     ]
 }

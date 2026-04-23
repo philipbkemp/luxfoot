@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":7,"team":"UESH","w":5,"d":0,"l":9,"f":32,"a":48,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place": 8, "team": "NESH", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ]
 }

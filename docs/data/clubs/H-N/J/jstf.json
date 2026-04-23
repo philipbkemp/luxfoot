@@ -8,11 +8,14 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":8,"team":"JSTF","w":0,"d":0,"l":14,"f":2,"a":48,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place": 6, "team": "JSTF", "w":  4, "d": 1, "l":  9, "f": 19, "a": 37, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
         {"place": 1, "team": "JSTF", "w": 7, "d": 1, "l": 0, "f": 26, "a":  6, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "promoted": true},
         {"place":2,"team": "JSTF", "w": 2, "d": 1, "l": 1, "f":  6, "a":  6, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"URUM","homeDivision":2,"away":"JSTF","awayDivision":2,"score":"3-0","forfeit":true},
+
         {"home":"CSHL","away":"JSTF","score":"5-0","outcome":"Series 1 Playoff: CSHL promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}
     ]
 }

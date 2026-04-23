@@ -3,11 +3,18 @@
         "first": "1909-10",
         "not_awarded": ["1912-13"],
         "winners": [
-            {"team":"FOLA","seasons":["1917-18","1919-20"]},
+            {"team":"FOLA","seasons":["1917-18","1919-20","1921-22"]},
             {"team":"HLBN","seasons":["1911-12","1913-14","1914-15","1915-16","1916-17"]},
             {"team":"JESH","seasons":["1920-21"]},
             {"team":"RACL","seasons":["1909-10"]},
             {"team":"SCLX","seasons":["1910-11","1918-19"]}
+        ]
+    },
+    "cup_luxembourg": {
+        "first": "1921-22",
+        "not_awarded": [],
+        "winners": [
+            {"team":"RACL","seasons":["1921-22"]}
         ]
     }
 }

@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":3,"team":"JKYL","w":10,"d":1,"l":3,"f":47,"a":19,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}},
         {"place":2, "team":"JKYL", "w":0, "d":0, "l":2, "f":3, "a":7, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}, "pts_win":2}
     ]
 }

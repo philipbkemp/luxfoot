@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place":8,"team":"NSCH","w":1,"d":2,"l":11,"f":10,"a":53,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place": 2, "team": "NSCH", "w":  9, "d": 3, "l":  2, "f": 41, "a": 18, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
         {"place": 3, "team": "NSCH", "w": 4, "d": 5, "l": 1, "f": 27, "a": 20, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2"},
         {"place": 2, "team": "NSCH", "w": 6, "d": 1, "l": 1, "f": 22, "a": 13, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "playoff": "promotion_3", "promoted": true},
@@ -17,6 +18,21 @@
         {"place":2,"team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"home":"FOLA","away":"NSCH","score":"5-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"NSCH","score":"7-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"NSCH","score":"6-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SCLX","away":"NSCH","score":"5-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"NSCH","score":"0-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"NSCH","score":"4-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"TRIM","away":"NSCH","score":"2-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"FOLA","score":"0-3","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"HLBN","score":"0-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"JESH","score":"3-4","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"SCLX","score":"0-9","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"SDUD","score":"0-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"RBDF","score":"1-5","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"TRIM","score":"1-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+
         {"home":"URUM","away":"NSCH","score":"2-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
         {"home":"RBDF","away":"NSCH","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_2"}},
 

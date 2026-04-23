@@ -10,10 +10,15 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":4,"team":"CROD","w":7,"d":1,"l":6,"f":23,"a":33,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place": 3, "team": "CROD", "w":  9, "d": 1, "l":  4, "f": 34, "a": 23, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
         {"place": 4, "team": "CROD", "w": 5, "d": 2, "l": 3, "f": 23, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},
         {"place": 1, "team": "CROD", "w": 7, "d": 0, "l": 1, "f": 26, "a":  6, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "promoted": true},
         {"gap":true},
         {"place": 7, "team": "CROD", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+    ],
+    "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"CROD","homeDivision":2,"away":"ASDF","awayDivision":4,"score":"4-3"},
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"CROD","homeDivision":2,"away":"AVBG","awayDivision":3,"score":"0-3","forfeit":true}
     ]
 }

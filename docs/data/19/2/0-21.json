@@ -157,6 +157,7 @@
     "international": {
         "men": {
             "matches": [{
+                "category": "M",
                 "season": "1920-21",
                 "date": "1920-08-28",
                 "competition": {"type":"international","international":"Olympics", "edition": "1920", "round": "R1"},

@@ -1,0 +1,37 @@
+{
+    "name": "Netherlands",
+    "matches": {
+        "men": [{
+            "category": "M",
+            "season": "1920-21",
+            "date": "1920-08-28",
+            "competition": {"type":"international","international":"Olympics", "edition": "1920", "round": "R1"},
+            "home": "_NLD",
+            "away": "_LUX",
+            "score": "3-0",
+            "result": "L",
+            "goals": [
+                {"team":"_NLD","min":30,"player":"Bulder"},
+                {"team":"_NLD","min":47,"player":"Groosjohan"},
+                {"team":"_NLD","min":85,"player":"Groosjohan"}
+            ],
+            "stadium": "La Butte",
+            "location": "Brussels",
+            "country": "_BEL",
+            "attendance": 3000,
+            "players": [
+                {"player":"KRUG_CHA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"},"gk":true},
+                {"player":"SCHM_THO","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"},"captain":true},
+                {"player":"KOET_JOS","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"HAMI_EMI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"UNGE_MIC","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"SCHU_CAM","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"METZ_LEO","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"LANG_MAR","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"ELTE_ROB","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"MASS_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}},
+                {"player":"LEES_ART","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_NLD","date":"1920-08-28"}}
+            ]
+        }]
+    }
+}

@@ -37,7 +37,8 @@
         "name": "AS Schifflange"
     },
     "ASDF": {
-        "name": "AS Differdange"
+        "name": "AS Differdange",
+        "level": -1
     },
     "ASLX": {
         "name": "AS Luxembourg",
@@ -271,7 +272,8 @@
         "level": -1
     },
     "GOLD": {
-        "name": "Gold a Ro't Wiltz"
+        "name": "Gold a Ro't Wiltz",
+        "level": -1
     },
     "GRAU": {
         "name": "US Graulinster"
@@ -472,7 +474,8 @@
         "level": -1
     },
     "MARM": {
-        "name": "Marisca Mersch"
+        "name": "Marisca Mersch",
+        "level": 2
     },
     "MDCG": {
         "name": "FC Mondercange"
@@ -488,7 +491,8 @@
         "name": "Les Montagnards Weiswampach"
     },
     "MINL": {
-        "name": "Minerva Lintgen"
+        "name": "Minerva Lintgen",
+        "level": 3
     },
     "MLSV": {
         "name": "Minière Lasauvage"
@@ -603,7 +607,8 @@
         "level": -1
     },
     "RPDN": {
-        "name": "Rapid Neudorf"
+        "name": "Rapid Neudorf",
+        "level": -1
     },
     "RPLL": {
         "name": "Rupensia Lusitanos Larochette"
@@ -660,7 +665,8 @@
         "name": "SC Ell"
     },
     "SGRV": {
-        "name": "Stade Mosellan Grevenmacher"
+        "name": "Stade Mosellan Grevenmacher",
+        "level": -1
     },
     "SHGN": {
         "name": "FC Schengen"
@@ -723,7 +729,8 @@
         "name": "Union 05 Kayl/Tétange"
     },
     "UBEK": {
-        "name": "Union Beckerich"
+        "name": "Union Beckerich",
+        "level": -1
     },
     "UBSH": {
         "name": "US Bascharage"
@@ -771,7 +778,8 @@
         "name": "US Moutfort/Medingen"
     },
     "USND": {
-        "name": "US Niederwiltz"
+        "name": "US Niederwiltz",
+        "level": -1
     },
     "UWLD": {
         "name": "US Waldbillig"
@@ -819,15 +827,19 @@
         "name": "Yougo Grund-Cessange"
     },
     "_BEL": {
-        "name": "Belgium"
+        "name": "Belgium",
+        "matches": false
     },
     "_FRA": {
-        "name": "France"
+        "name": "France",
+        "matches": true
     },
     "_LUX": {
-        "name": "Luxembourg"
+        "name": "Luxembourg",
+        "matches": false
     },
     "_NLD": {
-        "name": "Netherlands"
+        "name": "Netherlands",
+        "matches": true
     }
 }

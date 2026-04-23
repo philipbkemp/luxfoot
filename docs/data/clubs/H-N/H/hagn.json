@@ -14,6 +14,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":2,"team":"HAGN","w":7,"d":0,"l":3,"f":27,"a":10,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series South West"},"promoted":true},
         {"place": 4, "team": "HAGN", "w": 3, "d": 3, "l": 4, "f": 25, "a": 21, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
     ]
 }

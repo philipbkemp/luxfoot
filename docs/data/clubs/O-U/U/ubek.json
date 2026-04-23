@@ -1,0 +1,16 @@
+{
+    "name": "Union Beckerich",
+    "history": [{
+        "season": "1919-20",
+        "event": "FOUNDED"
+    },{
+        "season": "1922-23",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":6,"team":"UBEK","w":0,"d":1,"l":9,"f":4,"a":26,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series South West"}}
+    ],
+    "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"UBEK","homeDivision":4,"away":"STET","awayDivision":2,"score":"0-3","forfeit":true}
+    ]
+}

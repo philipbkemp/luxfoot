@@ -6,12 +6,17 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"BLVL","w":6,"d":1,"l":7,"f":35,"a":27,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
         {"place": 8, "team": "BLVL", "w":  1, "d": 2, "l": 11, "f": 14, "a": 39, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true},
         {"place": 1, "team": "BLVL", "w": 6, "d": 0, "l": 2, "f": 22, "a": 15, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}, "playoff":"title_3_S", "promoted": true},
         {"gap": true},
         {"place":4, "team": "BLVL", "w": 1, "d": 0, "l": 5, "f": 15, "a": 23, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 2, "league":"3. Division Series Esch"}, "pts_win":2,"removed":true,"note":"Did not compete next season"}
     ],
     "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"BLVL","homeDivision":3,"away":"CSHL","awayDivision":3,"score":"3-0"},
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"MARM","homeDivision":4,"away":"BLVL","awayDivision":3,"score":"1-4"},
+        {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"JESH","homeDivision":1,"away":"BLVL","awayDivision":3,"score":"6-0"},
+
         {"home":"BLVL","away":"STET","score":"2-1","season":"1919-20","competition": {"type":"playoff","playoff": "title_3_S"},"outcome":"BLVL declared Series South winners and promoted|STET qualified for 3. Division Promotion playoffs"}
     ]
 }

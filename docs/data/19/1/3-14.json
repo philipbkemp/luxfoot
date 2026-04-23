@@ -18,6 +18,7 @@
     "international": {
         "men": {
             "matches": [{
+                "category": "M",
                 "season": "1913-14",
                 "date": "1914-02-08",
                 "competition": {"type":"international","international":"Friendly"},

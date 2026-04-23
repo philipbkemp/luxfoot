@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":8,"team":"ENFM","w":0,"d":0,"l":14,"f":2,"a":48,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}},
         {"place": 4, "team": "ENFM", "w": 1, "d": 0, "l": 7, "f":  7, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}}
     ]
 }

@@ -8,6 +8,10 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":6,"team":"MERL","w":3,"d":0,"l":11,"f":9,"a":28,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}},
         {"place": 5, "team": "MERL", "w": 2, "d": 1, "l": 7, "f": 13, "a": 37, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
+    ],
+    "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ECBT","homeDivision":3,"away":"MERL","awayDivision":4,"score":"2-0"}
     ]
 }

@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":7,"team":"JMON","w":1,"d":3,"l":10,"f":10,"a":38,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}},
         {"place": 5, "team": "JMON", "w": 1, "d": 0, "l": 7, "f":  6, "a": 32, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}}
     ]
 }

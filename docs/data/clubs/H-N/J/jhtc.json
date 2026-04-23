@@ -15,7 +15,11 @@
         "new_name": "KAER"
     }],
     "league": [
+        {"place":1,"team":"JHTC","w":9,"d":1,"l":0,"f":32,"a":7,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series South West"},"promoted":true},
         {"place": 8, "team": "JHTC", "w":  2, "d": 0, "l": 12, "f": 10, "a": 42, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "relegated": true},
         {"place": 3, "team": "JHTC", "w": 3, "d": 3, "l": 2, "f": 13, "a":  9, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}}
+    ],
+    "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"AVBG","homeDivision":3,"away":"JHTC","awayDivision":4,"score":"7-1"}
     ]
 }

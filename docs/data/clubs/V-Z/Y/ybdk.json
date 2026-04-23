@@ -6,6 +6,8 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"YBDK","w":8,"d":1,"l":1,"f":33,"a":13,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"},"promoted":true},
+        {"gap": true},
         {"place": 6, "team": "YBDK", "w": 0, "d": 3, "l": 7, "f":  4, "a": 25, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}, "relegated": true},
         {"place": 4, "team": "YBDK", "w": 4, "d": 1, "l": 5, "f": 25, "a": 18, "season": "1917-18", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win": 2},
         {"place":5, "team": "YBDK", "w":  2, "d": 2, "l": 6, "f": 14, "a": 28, "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
@@ -13,6 +15,8 @@
         {"place":1, "team": "YBDK", "w": 2, "d": 0, "l": 0, "f": 10, "a":  0, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"}, "pts_win":2,"playoff": "title_playoff"}
     ],
     "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ASLX","homeDivision":4,"away":"YBDK","awayDivision":4,"score":"5-2"},
+
         {"home":"SCLX","away":"YBDK","score":"1-0","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"FOLA","away":"YBDK","score":"2-1","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"home":"JESH","away":"YBDK","score":"7-0","season":"1918-19","competition": {"type":"league", "level":1, "league":"1. Division"}},

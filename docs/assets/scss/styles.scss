@@ -164,6 +164,13 @@ table.matches {
     &.dates__none td:first-child {
         display: none;
     }
+    .match-bye {
+        display: table-cell !important;
+        text-align: left;
+    }
+    .match-loser {
+        opacity: 0.5;
+    }
     &.matches-withcomp {
         td:nth-child(2),
         td:nth-child(3) {

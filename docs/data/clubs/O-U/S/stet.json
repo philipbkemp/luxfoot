@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":2,"team":"STET","w":9,"d":0,"l":5,"f":37,"a":29,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place": 1, "team": "STET", "w": 12, "d": 1, "l":  1, "f": 56, "a": 12, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "promoted": true},
         {"place": 2, "team": "STET", "w": 6, "d": 0, "l": 2, "f": 34, "a": 10, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}, "playoff":"title_3_S"},
         {"place": 4, "team": "STET", "w": 2, "d": 0, "l": 6, "f": 26, "a": 25, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}},
@@ -16,6 +17,9 @@
         {"place":3, "team": "STET", "w": 1, "d": 1, "l": 4, "f":  9, "a": 18, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 2, "league":"3. Division Series Esch"}, "pts_win":2}
     ],
     "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"UBEK","homeDivision":4,"away":"STET","awayDivision":2,"score":"0-3","forfeit":true},
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"STET","homeDivision":2,"away":"HLBN","awayDivision":1,"score":"0-2"},
+
         {"home":"BLVL","away":"STET","score":"2-1","season":"1919-20","competition": {"type":"playoff","playoff": "title_3_S"},"outcome":"BLVL declared Series South winners and promoted|STET qualified for 3. Division Promotion playoffs"},
         {"home":"TRIM","away":"STET","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}},
         {"home":"PRON","away":"STET","score":"P-P","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"},"note":"Match not played as playoff winner already decided"},

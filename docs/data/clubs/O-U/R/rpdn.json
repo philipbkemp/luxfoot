@@ -1,0 +1,18 @@
+{
+    "name": "Rapid Neudorf",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1985-86",
+        "event": "MERGE",
+        "new_name": "RMLX"
+    }],
+    "league": [
+        {"place":2,"team":"RPDN","w":10,"d":2,"l":2,"f":40,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"},"promoted":true}
+    ],
+    "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"RPDN","homeDivision":4,"away":"JVRL","awayDivision":4,"score":"3-0","forfeit":true},
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"RPDN","homeDivision":4,"away":"PRON","awayDivision":3,"score":"2-3"}
+    ]
+}

@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":5,"team":"YBSL","w":4,"d":3,"l":7,"f":18,"a":41,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}},
         {"place": 5, "team": "YBSL", "w": 2, "d": 2, "l": 6, "f": 13, "a": 26, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}
     ]
 }

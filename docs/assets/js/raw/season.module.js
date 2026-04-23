@@ -11,6 +11,8 @@ window.intPlayers = null;
 let contentShown = false;
 window.dataKeySet = [];
 
+window.rawData = {};
+
 try {
     const [rTeams,rIntPlayers,rSeason] = await Promise.all([
         fetch("data/teams.json"),
@@ -32,6 +34,7 @@ try {
 }
 
 function doneFetch(data) {
+    window.rawData = data;
     window.dataKeySet = [...window.dataKeySet,...Object.keys(data)];
 
     document.getElementsByTagName("H1")[0].innerHTML += data.season;
@@ -97,6 +100,13 @@ function doneFetch(data) {
         });
     }
 
+    if ( data.cup ) {
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'cup');
+        Object.keys(data.cup).forEach(cupData=>{
+            drawCup(cupData,data.cup[cupData]);
+        });
+    }
+
     if ( ! contentShown ) {
         let errorP = document.createElement("P");
         errorP.classList.add("error");
@@ -116,6 +126,90 @@ function doneFetch(data) {
     }
 }
 
+function drawCup(cupKey,cupData) {
+    window.dataKeySet = [...window.dataKeySet,...Object.keys(cupData).map(key => `cup.${cupKey}.${key}`)];
+
+    const thisComp = "cup:" + cupKey;
+    let thisCupNav = document.createElement("A");
+    thisCupNav.href = "season.html?year="+season+"&comp="+thisComp;
+    thisCupNav.innerHTML = cupData.name
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.name`);
+    if ( thisComp === showComp ) {
+        thisCupNav.classList.add("active");
+    }
+    let thisCupLi = document.createElement("LI");
+    thisCupLi.append(thisCupNav);
+    compNav.append(thisCupLi);
+
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.rounds`);
+
+    if ( showComp !== thisComp ) {
+        return;
+    }
+    contentShown = true;
+
+    let clubDivisions = {};
+
+    cupData.rounds.forEach(round=>{
+        window.dataKeySet = [...window.dataKeySet,...Object.keys(round).map(key => `cup.${cupKey}.round.${key}`)];
+
+        let cupTitle = document.createElement("H2");
+        cupTitle.innerHTML = round.name;
+        dataContainer.append(cupTitle);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.round.name`);
+
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.round.matches`);
+        drawMatches(round.matches,`cup.${cupKey}.round.match`,{type:"cup",cup:cupData.name,cup_code:cupKey,round:round.name},{season:season,showDiv:true,highlightWinner:true});
+
+        round.matches.forEach(m=>{
+            if ( m.bye ) {
+                if ( clubDivisions[m.bye] === undefined ) {
+                    clubDivisions[m.bye] = getTeamLevel(m.bye);
+                }
+                if ( m.byeDivision !== clubDivisions[m.bye] ) {
+                    console.warn("Inconsistent division in " + m.competition.round_code,m.bye);
+                }
+            } else {
+                if ( clubDivisions[m.home] === undefined ) {
+                    clubDivisions[m.home] = getTeamLevel(m.home);
+                }
+                if ( m.homeDivision !== clubDivisions[m.home] ) {
+                    console.warn("Inconsistent division in " + m.competition.round_code,m.home);
+                }
+                if ( clubDivisions[m.away] === undefined ) {
+                    clubDivisions[m.away] = getTeamLevel(m.away);
+                }
+                if ( m.awayDivision !== clubDivisions[m.away] ) {
+                    console.warn("Inconsistent division in " + m.competition.round_code,m.away);
+                }
+            }
+        });
+
+    });
+
+}
+
+function getTeamLevel(searchTeam) {
+    for ( const l of window.rawData.league ) {
+        if ( l.standings ) {
+            for ( const tt of l.standings ) {
+                if ( tt.team === searchTeam ) {
+                    return tt.competition.level;
+                }
+            };
+        } else if ( l.series ) {
+            for ( const s of l.series ) {
+                for ( const ts of s.standings ) {
+                    if ( ts.team === searchTeam ) {
+                        return ts.competition.level;
+                    }
+                };
+            };
+        }
+    };
+    console.error("Cannot find league",searchTeam);
+}
+
 function drawInternational(intKey,intData) {
     window.dataKeySet = [...window.dataKeySet,...Object.keys(intData).map(key => `international.${intKey}.${key}`)];
     window.dataKeySet = window.dataKeySet.filter(key => key !== `international.${intKey}.matches`);
@@ -130,7 +224,7 @@ function drawInternational(intKey,intData) {
             break;
         case "women":
             thisLeagueNav.innerHTML = "Women's National Team";
-            window.dataKeySet = window.dataKeySet.filter(key => key !== 'international.men');
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'international.women');
             break;
     }
     if ( thisComp === showComp ) {

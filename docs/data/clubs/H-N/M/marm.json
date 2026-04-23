@@ -1,0 +1,14 @@
+{
+    "name": "Marisca Mersch",
+    "history": [{
+        "season": "1907-08",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":2,"team":"MARM","w":6,"d":0,"l":4,"f":28,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"},"promoted":true}
+    ],
+    "matches": [
+        {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"MARM","homeDivision":4,"away":"GOLD","awayDivision":4,"score":"3-2"},
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"MARM","homeDivision":4,"away":"BLVL","awayDivision":3,"score":"1-4"}
+    ]
+}

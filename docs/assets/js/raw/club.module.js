@@ -178,6 +178,10 @@ function drawHistory(history,founded,refounded) {
                 hEvent.innerHTML = "Absorbed " + window.allTeams[h.old_name].name + " into club";
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.old_name');
                 break;
+            case "CUPWINNER":
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Cup Winners";
+                break;
             default:
                 console.warn("unknown event",h.event);
                 break;
@@ -197,7 +201,7 @@ function drawMatchRecord(matches) {
     matches.forEach(m=>{
         window.dataKeySet = [...window.dataKeySet,...Object.keys(m).map(key => `matches.${key}`)];
 
-        let opp = "____";
+        let opp;
         if ( m.home === club ) {
             opp = m.away;
         } else if ( m.away === club ) {
@@ -257,6 +261,8 @@ function drawMatchRecord(matches) {
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.outcome');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.forfeit');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.note');
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.homeDivision');
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.awayDivision');
     });
 
     let mt = document.createElement("TABLE");

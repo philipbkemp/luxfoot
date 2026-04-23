@@ -1,0 +1,10 @@
+{
+    "name": "Minerva Lintgen",
+    "history": [{
+        "season": "1909-10",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":3,"team":"MINL","w":5,"d":1,"l":4,"f":26,"a":14,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
+    ]
+}

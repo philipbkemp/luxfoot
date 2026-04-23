@@ -3,7 +3,7 @@ window.location.search.replace("?","").split("&").forEach(param=>{const parts=pa
 const showComp = params.comp ?? "league";
 
 let allTeams = null;
-            
+
 const compNav = document.getElementById("competitions");
 let allSeasons = [];
 
@@ -23,10 +23,10 @@ try {
 function doneFetch(data) {
     const firstSeason = data[showComp].first;
     const notAwarded = data[showComp].not_awarded;
-    
+
     let firstSeasonIndex = allSeasons.indexOf(firstSeason);
     allSeasons = firstSeasonIndex === -1 ? allSeasons : allSeasons.slice(firstSeasonIndex);
-    
+
     if ( data.league ) {
         let navLeague = document.createElement("A");
         navLeague.href = "winners.html?comp=league";
@@ -39,7 +39,20 @@ function doneFetch(data) {
         navLeagueLi.append(navLeague);
         compNav.append(navLeagueLi);
     }
-    
+
+    if ( data.cup_luxembourg ) {
+        let navLeague = document.createElement("A");
+        navLeague.href = "winners.html?comp=cup_luxembourg";
+        navLeague.innerHTML = "Luxembourg Cup";
+        if ( "cup_luxembourg" === showComp ) {
+            navLeague.classList.add("active");
+            drawWinnersList(data.cup_luxembourg.winners);
+        }
+        let navLeagueLi = document.createElement("LI");
+        navLeagueLi.append(navLeague);
+        compNav.append(navLeagueLi);
+    }
+
     notAwarded.forEach(s=>{
         allSeasons = allSeasons.filter(key => key !== s);
     });
@@ -53,7 +66,7 @@ function doneFetch(data) {
 
 function drawWinnersList(data) {
     const dataContainer = document.getElementById("dataContainer");
-    
+
     let table = document.createElement("TABLE");
     table.classList.add("winners");
     let thead = document.createElement("THEAD");
@@ -72,7 +85,7 @@ function drawWinnersList(data) {
     trHead.append(thYears);
     thead.append(trHead);
     table.append(thead);
-    
+
     let tbody = document.createElement("TBODY");
     let pos = 1;
     let prevCount = -1;
@@ -84,34 +97,34 @@ function drawWinnersList(data) {
         if ( entry.team ) {
             let row = document.createElement("TR");
             const thisCount = entry.seasons.length;
-            
+
             let place = document.createElement("TD");
             place.innerHTML = prevCount === thisCount ? "=" : pos;
             row.append(place);
-            
+
             let teamName = document.createElement("TD");
             teamName.innerHTML = allTeams[entry.team].name;
             row.append(teamName);
-            
+
             let count = document.createElement("TD");
             count.innerHTML = thisCount;
             row.append(count);
-            
+
             let seasons = document.createElement("TD");
             seasons.innerHTML = entry.seasons.join(", ");
             row.append(seasons);
-            
+
             prevCount = thisCount;
-            
+
             tbody.append(row);
             pos++;
         }
-        
+
         entry.seasons.forEach(s=>{
             allSeasons = allSeasons.filter(key => key !== s);
         });
     });
     table.append(tbody);
-    
+
     dataContainer.append(table);
 }

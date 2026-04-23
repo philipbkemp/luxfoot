@@ -9,6 +9,7 @@
         "event": "CHAMPION"
     }],
     "league": [
+        {"place":3,"team":"JESH","w":8,"d":0,"l":6,"f":50,"a":30,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place": 1, "team": "JESH", "w": 8, "d": 4, "l":  2, "f": 38, "a": 21, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "champion": true},
         {"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
         {"place": 3, "team": "JESH", "w": 4, "d": 4, "l": 2, "f": 24, "a": 12, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}},
@@ -21,6 +22,26 @@
         {"place": 4, "team": "JESH", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"FOLA","away":"JESH","score":"5-4","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"JESH","score":"4-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"FOLA","score":"7-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"HLBN","score":"2-3","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"SCLX","score":"2-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"SDUD","score":"4-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"RBDF","score":"3-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"TRIM","score":"3-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"NSCH","score":"6-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SCLX","away":"JESH","score":"4-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"JESH","score":"3-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"JESH","score":"2-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"TRIM","away":"JESH","score":"0-9","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"JESH","score":"3-4","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"JESH","homeDivision":1,"away":"FOLA","awayDivision":1,"score":"4-2"},
+        {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"JESH","homeDivision":1,"away":"BLVL","awayDivision":3,"score":"6-0"},
+        {"date":"1922-02-05","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"4th Round","round_code":"R4"},"home":"JESH","homeDivision":1,"away":"URUM","awayDivision":2,"score":"3-1"},
+        {"date":"1922-04-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Semi Final","round_code":"SF"},"home":"JESH","homeDivision":1,"away":"HLBN","awayDivision":1,"score":"8-1"},
+        {"date":"1922-05-21","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Final","round_code":"F"},"home":"RACL","homeDivision":2,"away":"JESH","awayDivision":1,"score":"2-0"},
+
         {"home":"JESH","away":"FOLA","score":"3-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
         {"home":"JESH","away":"HLBN","score":"0-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
         {"home":"JESH","away":"SDUD","score":"1-0","season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},

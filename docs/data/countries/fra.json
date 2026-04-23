@@ -1,0 +1,109 @@
+{
+    "name": "France",
+    "matches": {
+        "men": [{
+            "category": "M",
+            "season": "1913-14",
+            "date": "1914-02-08",
+            "competition": {"type":"international","international":"Friendly"},
+            "home": "_LUX",
+            "away": "_FRA",
+            "score": "5-4",
+            "result": "W",
+            "goals": [
+                {"team":"_LUX","min": 4,"player":"MASS_JEA","penalty":true},
+                {"team":"_FRA","min":13,"player":"Bard"},
+                {"team":"_LUX","min":20,"player":"MASS_JEA","penalty":true},
+                {"team":"_FRA","min":22,"player":"Ducret","penalty":true},
+                {"team":"_FRA","min":41,"player":"Géronimi"},
+                {"team":"_LUX","min":46,"player":"MASS_JEA"},
+                {"team":"_LUX","min":47,"player":"BERN_ZEN"},
+                {"team":"_LUX","min":81,"player":"MASS_JEA"},
+                {"team":"_FRA","min":85,"player":"Triboulet"}
+            ],
+            "stadium": "Stade Racing Club",
+            "location": "Luxembourg City",
+            "attendance": 3000,
+            "players": [
+                {"player":"DIDI_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"gk":true},
+                {"player":"SCHM_THO","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"WIRT_BER","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"FABE_JOS","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"VOEL_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"HOFF_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"THIL_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":[4,20,46,81]},
+                {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"goals":[47]},
+                {"player":"RIZZ_AUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"}},
+                {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1914-02-08"},"captain":true}
+            ]
+        },{
+            "category": "M",
+            "season": "1912-13",
+            "date": "1913-04-20",
+            "competition": {"type":"international","international":"Friendly"},
+            "home": "_FRA",
+            "away": "_LUX",
+            "score": "8-0",
+            "result": "L",
+            "goals": [
+                {"team":"_FRA","min":28,"player":"Maës"},
+                {"team":"_FRA","min":30,"player":"Poullain"},
+                {"team":"_FRA","min":56,"player":"Maës"},
+                {"team":"_FRA","min":68,"player":"Maës"},
+                {"team":"_FRA","min":78,"player":"Romano"},
+                {"team":"_FRA","min":83,"player":"Ducret"},
+                {"team":"_FRA","min":86,"player":"Maës"},
+                {"team":"_FRA","min":88,"player":"Maës"}
+            ],
+            "stadium": "Stade Bauer",
+            "location": "Saint-Ouen-sur-Seine, Paris",
+            "attendance": 3000,
+            "players": [
+                {"player":"STUM_ROB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"},"gk":true},
+                {"player":"LANG_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"KREB_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"UNGE_MIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"FABE_JOS","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"THIL_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"MASS_JEA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"},"captain":true},
+                {"player":"RECK_ADY","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}},
+                {"player":"BECK_EUG","cap":{"competition":"Friendly","opponent":"_FRA","date":"1913-04-20"}}
+            ]
+        },{
+            "category": "M",
+            "season": "1911-12",
+            "date": "1911-10-29",
+            "competition": {"type":"international","international":"Friendly"},
+            "home": "_LUX",
+            "away": "_FRA",
+            "score": "1-4",
+            "result": "L",
+            "goals": [
+                {"team":"_LUX","min":15,"player":"ELTE_ALB"},
+                {"team":"_FRA","min":26,"player":"Viallemonteil"},
+                {"team":"_FRA","min":32,"player":"Mesnier"},
+                {"team":"_FRA","min":80,"player":"Mesnier","penalty":true},
+                {"team":"_FRA","min":85,"player":"Gravier"}
+            ],
+            "stadium": "Stade Racing Club",
+            "location": "Luxembourg City",
+            "attendance": 2400,
+            "players": [
+                {"player":"WEIC_ALP","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"gk":true},
+                {"player":"LANG_FRA","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"MICH_NIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"SCHW_HEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"UNGE_MIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"FABE_JOS","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"ELTE_ALB","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"goals":[15]},
+                {"player":"KUBO_EMI","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"BECK_JEM","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}},
+                {"player":"KAUT_VIC","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"},"captain":true},
+                {"player":"BERN_ZEN","cap":{"competition":"Friendly","opponent":"_FRA","date":"1911-10-29"}}
+            ]
+        }]
+    }
+}
