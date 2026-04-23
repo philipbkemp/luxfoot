@@ -32,7 +32,7 @@ function doneFetch(data) {
     divClubs.classList.add("no-margin");
 
     countries
-    .sort((a, b) => a.name.localeCompare(b.name))
+    .toSorted((a, b) => a.name.localeCompare(b.name))
     .forEach(ctry=>{
         let clubLi = document.createElement("LI");
         let clubLink = document.createElement("A");
