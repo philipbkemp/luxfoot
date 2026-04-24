@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":3,"team":"MINL","w":0,"d":3,"l":1,"f":3,"a":4,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":3,"team":"MINL","w":5,"d":1,"l":4,"f":26,"a":14,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ]
 }

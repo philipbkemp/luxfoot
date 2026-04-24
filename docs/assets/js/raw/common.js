@@ -55,13 +55,13 @@ function getClubsPipe() {
                 window.rawData.cup[a].rounds.forEach(b=>{
                     b.matches.forEach(c=>{
                         if ( (c.home && c.home === club) || ( c.away && c.away === club ) ) {
-                            clubMatches += JSON.stringify(c) + ",\n";
+                            clubMatches += JSON.stringify(c) + ",\n\t\t";
                         }
                     });
                 });
             });
             console.warn(club);
-            if ( clubStanding !== "" ) { console.log(clubStanding) };
+            if ( clubStanding !== "" ) { console.log(clubStanding+",") };
             if ( clubMatches !== "" ) { console.log(clubMatches); }
         });
     });
@@ -344,6 +344,10 @@ function getPlayoffName(po) {
             poName = "Promotion playoff";
             break;
 
+        case "relegation_2":
+            poName = "Relegation playoff";
+            break;
+
         case "title":
             poName = "Title decider";
             break;
@@ -513,6 +517,17 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                     tdAway.classList.add("match-loser");
                 } else if ( homeScoreParsed < awayScoreParsed ) {
                     tdHome.classList.add("match-loser");
+                } else if ( match.replay ) {
+                    const replayScore = match.replay.score.split("-");
+                    let homeReplayScoreParsed = Number.parseInt(replayScore[0]);
+                    let awayReplayScoreParsed = Number.parseInt(replayScore[1]);
+                    if ( homeReplayScoreParsed > awayReplayScoreParsed ) {
+                        tdAway.classList.add("match-loser");
+                    } else if ( homeReplayScoreParsed < awayReplayScoreParsed ) {
+                        tdHome.classList.add("match-loser");
+                    } else {
+                        console.warn("No winner after replay?",match);
+                    }
                 } else {
                     console.warn("No winner?",match);
                 }
@@ -531,9 +546,8 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                     comp.cup !== match.competition.cup
                     || comp.round !== match.competition.round
                     || comp.cup_code !== match.competition.cup_code
-                    || comp.round !== match.competition.round
                     )) {
-                    console.warn("inconsistent cup competition",comp.cup_code,match.competition.cup_code);
+                    console.warn("inconsistent cup competition",comp,match.competition);
                 } else if ( ! ["international","playoff","cup"].includes(comp.type)) {
                     console.warn("validate match competition data",comp,match.competition);
                 }
@@ -552,7 +566,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             if ( focusPlayer !== "" ) {
                 const mePlayer = match.players.find(key => key.player === focusPlayer);
                 window.dataKeySet = [...window.dataKeySet,...Object.keys(mePlayer).map(key => `ME_PLAYER.${key}`)];
-                    window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.gk`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.gk`);
 
                 if ( mePlayer.captain ) {
                     tdNotes.innerHTML += (tdNotes.innerHTML === "" ? "" : " | " ) + "Captain";
@@ -570,6 +584,38 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.player`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `ME_PLAYER.cap`);
             }
+
+            let trReplay = null;
+            if ( match.replay ) {
+                window.dataKeySet = [...window.dataKeySet,...Object.keys(match.replay).map(key => `${keyPrefix}.replay.${key}`)];
+
+                trReplay = document.createElement("TR");
+                let tdReplayDate = document.createElement("TD");
+                tdReplayDate.innerHTML = match.replay.date ? match.replay.date : "Replay";
+                trReplay.append(tdReplayDate);
+
+                if ( ! match.replay.home ) {
+                    tdHome.setAttribute("rowspan",2);
+                }
+
+                let tdReplayScore = document.createElement("TD");
+                tdReplayScore.innerHTML = match.replay.score;
+                tdReplayScore.classList.add("replay-score");
+                trReplay.append(tdReplayScore);
+
+                if ( ! match.replay.away ) {
+                    tdAway.setAttribute("rowspan",2);
+                }
+
+                let tdReplayNotes = document.createElement("TD");
+                tdReplayNotes.innerHTML = "";
+                trReplay.append(tdReplayNotes);
+
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.date`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.score`);
+            }
+
             if ( match.note ) {
                 if ( tdNotes.innerHTML !== "" ) {
                     tdNotes.innerHTML += "<br />";
@@ -580,6 +626,9 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             tr.append(tdNotes);
 
             table.append(tr);
+            if ( match.replay ) {
+                table.append(trReplay);
+            }
 
             if ( hasIntData ) {
 

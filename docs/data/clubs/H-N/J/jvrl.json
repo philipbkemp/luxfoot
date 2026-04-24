@@ -9,6 +9,7 @@
         "new_name": "HLBN"
     }],
     "league": [
+        {"place":2,"team":"JVRL","w":4,"d":1,"l":3,"f":16,"a":14,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":5,"team":"JVRL","w":7,"d":0,"l":7,"f":26,"a":30,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}},
         {"place": 4, "team": "JVRL", "w": 5, "d": 1, "l": 4, "f": 26, "a": 17, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}},
         {"place": 5, "team": "JVRL", "w": 2, "d": 6, "l":  4, "f": 16, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "relegated": true}

@@ -5,11 +5,18 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":3,"team":"UESH","w":3,"d":2,"l":3,"f":29,"a":11,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
         {"place": 2, "team": "UESH", "w": 10, "d": 0, "l":  4, "f": 53, "a": 27, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "promoted": true},
         {"place": 4, "team": "UESH", "w": 2, "d": 0, "l": 6, "f": 18, "a": 38, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
         {"gap": true},
         {"place":5, "team": "UESH", "w": 1, "d": 0, "l": 7, "f":  6, "a": 41, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
         {"gap": true},
         {"place":1, "team":"UESH", "w":2, "d":0, "l":0, "f":7, "a":3, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}, "pts_win":2}
+    ],
+    "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"UESH","homeDivision":3,"away":"TRIM","awayDivision":2,"score":"4-2"},
+		{"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"UESH","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"4-0"},
+		{"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ROLG","homeDivision":4,"away":"UESH","awayDivision":3,"score":"1-7"},
+		{"date":"1923-01-07","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Quarter Final","round_code":"QF"},"home":"JESH","homeDivision":1,"away":"UESH","awayDivision":3,"score":"2-2","replay":{"score":"3-1"}}
     ]
 }

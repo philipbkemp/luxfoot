@@ -9,8 +9,8 @@
         "new_name": "ALLX"
     }],
     "league": [
-        {"place":6,"team":"CSHL","w":6,"d":1,"l":7,"f":19,"a":40,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}}
-,
+        {"place":4,"team":"CSHL","w":3,"d":0,"l":5,"f":12,"a":24,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
+        {"place":6,"team":"CSHL","w":6,"d":1,"l":7,"f":19,"a":40,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
         {"place": 4, "team": "CSHL", "w":  7, "d": 1, "l":  6, "f": 45, "a": 28, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
         {"place": 4, "team": "CSHL", "w": 6, "d": 2, "l":  4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
         {"gap":true},
@@ -19,6 +19,8 @@
         {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3", "promoted": true}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"CSHL","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"1-4"},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"BLVL","homeDivision":3,"away":"CSHL","awayDivision":3,"score":"3-0"},
 
         {"home":"CSHL","away":"JSTF","score":"5-0","outcome":"Series 1 Playoff: CSHL promoted", "season": "1915-16", "competition": {"type":"playoff","playoff": "promotion_3"}}

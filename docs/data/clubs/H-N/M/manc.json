@@ -17,6 +17,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":2,"team":"MANC","w":4,"d":1,"l":3,"f":22,"a":20,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"MANC","w":1,"d":0,"l":13,"f":8,"a":47,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
         {"place": 6, "team": "MANC", "w":  4, "d": 2, "l":  8, "f": 29, "a": 44, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
         {"place": 3, "team": "MANC", "w": 6, "d": 4, "l":  2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},

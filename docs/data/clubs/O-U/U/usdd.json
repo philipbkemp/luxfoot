@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":1,"team":"USDD","w":7,"d":1,"l":0,"f":37,"a":9,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":1,"team":"USDD","w":12,"d":1,"l":1,"f":58,"a":6,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"},"promoted":true},
         {"place": 2, "team": "USDD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  7, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}},
         {"gap":true},

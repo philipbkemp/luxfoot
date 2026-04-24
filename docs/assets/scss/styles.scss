@@ -193,7 +193,7 @@ table.matches {
         }
     }
     &:not(.matches-withcomp) {
-        td:nth-child(2) {
+        td:nth-child(2):not(.replay-score) {
             width: 250px;
             text-align: right;
         }

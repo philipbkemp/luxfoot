@@ -1,0 +1,25 @@
+{
+    "name": "D'Rief Schwebsange",
+    "history": [{
+        "season": "1909-10",
+        "event": "FOUNDED"
+    },{
+        "season": "1920-21",
+        "event": "DISSOLVED"
+    },{
+        "season": "1921-22",
+        "event": "REFOUNDED"
+    },{
+        "season": "1928-29",
+        "event": "DISSOLVED"
+    },{
+        "season": "1938-39",
+        "event": "REFOUNDED"
+    },{
+        "season": "1940-41",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":3,"team":"RIEF","w":2,"d":1,"l":3,"f":14,"a":13,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}}
+    ]
+}

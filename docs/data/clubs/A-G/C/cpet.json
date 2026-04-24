@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":8,"team":"CPET","w":0,"d":0,"l":14,"f":1,"a":44,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":5,"team":"CPET","w":7,"d":0,"l":7,"f":30,"a":40,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place": 5, "team": "CPET", "w":  4, "d": 5, "l":  5, "f": 29, "a": 26, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
         {"place": 5, "team": "CPET", "w": 2, "d": 2, "l": 6, "f": 21, "a": 23, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},

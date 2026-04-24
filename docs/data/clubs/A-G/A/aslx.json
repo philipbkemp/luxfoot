@@ -10,10 +10,15 @@
         "new_name": "ASRB"
     }],
     "league": [
+        {"place":1,"team":"ASLX","w":5,"d":0,"l":1,"f":20,"a":10,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place":3,"team":"ASLX","w":10,"d":1,"l":3,"f":45,"a":22,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}},
         {"place": 2, "team": "ASLX", "w": 6, "d": 2, "l": 2, "f": 20, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ASLX","homeDivision":4,"away":"BLVL","awayDivision":3,"score":"3-1"},
+		{"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"ASLX","homeDivision":4,"away":"PRON","awayDivision":3,"score":"3-4"},
+		{"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ASLX","homeDivision":4,"away":"FOLA","awayDivision":1,"score":"0-14"},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ASLX","homeDivision":4,"away":"YBDK","awayDivision":4,"score":"5-2"},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ASLX","homeDivision":4,"away":"USDD","awayDivision":4,"score":"0-8"}
     ]

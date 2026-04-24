@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":2,"team":"IESH","w":3,"d":0,"l":3,"f":14,"a":19,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
         {"place":6,"team":"IESH","w":4,"d":1,"l":9,"f":12,"a":34,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}},
         {"place": 3, "team": "IESH", "w": 4, "d": 1, "l": 3, "f": 11, "a":  8, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series South"}}
     ]

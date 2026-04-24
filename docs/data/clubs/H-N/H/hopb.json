@@ -1,0 +1,16 @@
+{
+    "name": "Hoping Burange",
+    "history": [{
+        "season": "1920-21",
+        "event": "FOUNDED"
+    },{
+        "season": "1923-24",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":3,"team":"HOPB","w":2,"d":2,"l":2,"f":13,"a":14,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"}}
+    ],
+    "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"HOPB","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"1-14"}
+    ]
+}

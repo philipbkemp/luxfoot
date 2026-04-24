@@ -305,7 +305,8 @@
         "name": "CS Hobscheid"
     },
     "HOPB": {
-        "name": "Hoping Burange"
+        "name": "Hoping Burange",
+        "level": -1
     },
     "HOSC": {
         "name": "FC Hoscheid"
@@ -585,7 +586,8 @@
         "name": "Racing Heiderscheid/Eschdorf"
     },
     "RIEF": {
-        "name": "D'Rief Schwebsange"
+        "name": "D'Rief Schwebsange",
+        "level": -1
     },
     "RLCN": {
         "name": "Ro'de Le'w Consthum"

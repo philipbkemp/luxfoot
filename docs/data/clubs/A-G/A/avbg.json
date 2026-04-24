@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"AVBG","w":1,"d":1,"l":6,"f":11,"a":32,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":7,"team":"AVBG","w":1,"d":0,"l":13,"f":21,"a":85,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
         {"place": 7, "team": "AVBG", "w":  3, "d": 2, "l":  9, "f": 18, "a": 38, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true},
         {"place": 6, "team": "AVBG", "w": 1, "d": 1, "l": 8, "f": 11, "a": 43, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}},
@@ -14,6 +15,9 @@
         {"place":1, "team": "AVBG", "w": 6, "d": 0, "l": 0, "f": 51, "a":  5, "season": "1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "pts_win":2, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"CSHL","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"1-4"},
+		{"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"UESH","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"4-0"},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"AVBG","homeDivision":3,"away":"JHTC","awayDivision":4,"score":"7-1"},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"CROD","homeDivision":2,"away":"AVBG","awayDivision":3,"score":"0-3","forfeit":true},
         {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"PRON","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"3-0","forfeit":true},

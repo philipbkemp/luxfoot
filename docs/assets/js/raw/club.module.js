@@ -251,9 +251,44 @@ function drawMatchRecord(matches) {
             }
         }
 
+        if ( m.replay ) {
+            window.dataKeySet = [...window.dataKeySet,...Object.keys(m.replay).map(key => `matches.replay.${key}`)];
+            const rScore = m.replay.score.split("-");
+            let homeReplayScoreParsed = Number.parseInt(rScore[0]);
+            let awayReplayScoreParsed = Number.parseInt(rScore[1]);
+            let homeRScore = Number.isNaN(homeReplayScoreParsed) ? -1 : homeReplayScoreParsed;
+            let awayRScore = Number.isNaN(awayReplayScoreParsed) ? -1 : awayReplayScoreParsed;
+            if ( homeRScore !== -1 && awayRScore !== -1 ) {
+                if ( m.home === club ) {
+                    opponents[opp].f += homeRScore;
+                    opponents[opp].a += awayRScore;
+                    if ( homeRScore > awayRScore ) {
+                        opponents[opp].w++;
+                    } else if ( homeRScore < awayRScore ) {
+                        opponents[opp].l++;
+                    } else if ( homeRScore === awayRScore) {
+                        opponents[opp].d++;
+                    }
+                } else if ( m.away === club ) {
+                    opponents[opp].f += awayRScore;
+                    opponents[opp].a += homeRScore;
+                    if ( homeRScore > awayRScore ) {
+                        opponents[opp].l++;
+                    } else if ( homeRScore < awayRScore ) {
+                        opponents[opp].w++;
+                    } else if ( homeRScore === awayRScore) {
+                        opponents[opp].d++;
+                    }
+                }
+            }
+        }
+
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.home')
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.away');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.score');
+
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay');
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.score');
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.season');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.competition');

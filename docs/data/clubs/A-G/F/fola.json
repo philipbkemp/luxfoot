@@ -13,8 +13,12 @@
     },{
         "season": "1921-22",
         "event": "CHAMPION"
+    },{
+        "season": "1922-23",
+        "event": "CUPWINNER"
     }],
     "league": [
+        {"place":3,"team":"FOLA","w":7,"d":2,"l":5,"f":44,"a":27,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":1,"team":"FOLA","w":10,"d":2,"l":2,"f":48,"a":24,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
         {"place": 2, "team": "FOLA", "w": 9, "d": 1, "l":  4, "f": 47, "a": 15, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
         {"place": 1, "team": "FOLA", "w": 8, "d": 1, "l": 1, "f": 32, "a": 14, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}, "champion": true},
@@ -25,6 +29,25 @@
         {"place":2, "team": "FOLA", "w": 0, "d":  1, "l": 1, "f": 4, "a": 5, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}, "pts_win":2}
     ],
     "matches": [
+        {"home":"RBDF","away":"FOLA","score":"1-4","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"FOLA","score":"2-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"RBDF","score":"3-4","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"SDUD","score":"3-4","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"JESH","score":"6-3","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"HLBN","score":"10-3","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"SCLX","score":"0-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"RACL","score":"2-2","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"STET","score":"4-0","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"FOLA","score":"2-3","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"FOLA","score":"1-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SCLX","away":"FOLA","score":"3-2","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"FOLA","score":"0-2","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"STET","away":"FOLA","score":"1-3","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ASLX","homeDivision":4,"away":"FOLA","awayDivision":1,"score":"0-14"},
+        {"date":"1923-01-07","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Quarter Final","round_code":"QF"},"home":"FOLA","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"4-1"},
+        {"date":"1922-04-15","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Semi Final","round_code":"SF"},"home":"FOLA","homeDivision":1,"away":"JESH","awayDivision":1,"score":"1-0"},
+        {"date":"1922-04-22","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Final","round_code":"F"},"home":"FOLA","homeDivision":1,"away":"HLBN","awayDivision":1,"score":"3-0"},
+
         {"home":"FOLA","away":"HLBN","score":"3-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"FOLA","away":"JESH","score":"5-4","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"FOLA","away":"SCLX","score":"3-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},

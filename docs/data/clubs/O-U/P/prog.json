@@ -9,11 +9,16 @@
         "new_name": "YGGC"
     }],
     "league": [
+        {"place":3,"team":"PROG","w":7,"d":1,"l":6,"f":30,"a":27,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":6,"team":"PROG","w":6,"d":0,"l":8,"f":36,"a":33,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place": 4, "team": "PROG", "w":  6, "d": 4, "l":  4, "f": 27, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
         {"place": 1, "team": "PROG", "w": 8, "d": 3, "l":  1, "f": 34, "a": 11, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"PROG","homeDivision":2,"away":"RPDN","awayDivision":3,"score":"4-0"},
+        {"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"ADUD","homeDivision":3,"away":"PROG","awayDivision":2,"score":"1-0"},
+        {"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"SCLX","homeDivision":1,"away":"PROG","awayDivision":2,"score":"3-2"},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"PROG","homeDivision":2,"away":"RBPF","awayDivision":3,"score":"0-2"}
     ]
 }

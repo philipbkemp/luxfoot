@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"URUM","w":6,"d":3,"l":5,"f":28,"a":25,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":3,"team":"URUM","w":7,"d":1,"l":6,"f":33,"a":28,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place": 8, "team": "URUM", "w": 0, "d": 0, "l": 14, "f": 11, "a": 86, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "relegated": true},
         {"place": 2, "team": "URUM", "w": 5, "d": 3, "l": 2, "f": 29, "a": 16, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true},
@@ -16,6 +17,8 @@
         {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"URUM","homeDivision":2,"away":"ROLG","awayDivision":4,"score":"0-3","forfeit":true},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"URUM","homeDivision":2,"away":"JSTF","awayDivision":2,"score":"3-0","forfeit":true},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ECBT","homeDivision":3,"away":"URUM","awayDivision":2,"score":"2-3"},
         {"date":"1922-02-05","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"4th Round","round_code":"R4"},"home":"JESH","homeDivision":1,"away":"URUM","awayDivision":2,"score":"3-1"},

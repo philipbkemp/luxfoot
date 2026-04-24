@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place":7,"team":"NSCH","w":5,"d":4,"l":5,"f":26,"a":32,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"relegation_2","relegated":true},
         {"place":8,"team":"NSCH","w":1,"d":2,"l":11,"f":10,"a":53,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place": 2, "team": "NSCH", "w":  9, "d": 3, "l":  2, "f": 41, "a": 18, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
         {"place": 3, "team": "NSCH", "w": 4, "d": 5, "l": 1, "f": 27, "a": 20, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2"},
@@ -18,6 +19,10 @@
         {"place":2,"team": "NSCH", "w": 3, "d": 0, "l": 1, "f": 12, "a": 12, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "pts_win":2, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"NSCH","homeDivision":2,"away":"MARM","awayDivision":3,"score":"7-1"},
+        {"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"ROLG","homeDivision":4,"away":"NSCH","awayDivision":2,"score":"1-2"},
+        {"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"SDUD","homeDivision":1,"away":"NSCH","awayDivision":2,"score":"3-0","forfeit":true},
+
         {"home":"FOLA","away":"NSCH","score":"5-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"HLBN","away":"NSCH","score":"7-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"JESH","away":"NSCH","score":"6-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},

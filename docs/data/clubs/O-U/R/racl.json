@@ -16,6 +16,7 @@
         "new_name": "SPOR"
     }],
     "league": [
+        {"place":7,"team":"RACL","w":4,"d":3,"l":7,"f":31,"a":27,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":1,"team":"RACL","w":14,"d":0,"l":0,"f":75,"a":9,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place": 7, "team": "RACL", "w": 4, "d": 2, "l":  8, "f": 23, "a": 28, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "relegated": true},
         {"place": 6, "team": "RACL", "w": 2, "d": 0, "l": 8, "f": 17, "a": 36, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
@@ -31,6 +32,22 @@
         {"place": 1, "team": "RACL", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}, "playoff": "title", "champion": true}
     ],
     "matches": [
+        {"home":"RBDF","away":"RACL","score":"5-0","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"RACL","score":"3-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"RACL","score":"2-2","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"RACL","score":"1-0","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"RACL","score":"2-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SCLX","away":"RACL","score":"1-0","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"RBDF","score":"2-2","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"SDUD","score":"1-4","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"FOLA","score":"0-2","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"JESH","score":"5-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"HLBN","score":"3-3","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"SCLX","score":"2-0","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RACL","away":"STET","score":"6-0","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"STET","away":"RACL","score":"1-8","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"RACL","homeDivision":1,"away":"HLBN","awayDivision":1,"score":"0-3","forfeit":true},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"RACL","homeDivision":2,"away":"USND","awayDivision":4,"score":"11-1"},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"RACL","homeDivision":2,"away":"RBPF","awayDivision":3,"score":"3-0"},
         {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"SCLX","homeDivision":1,"away":"RACL","awayDivision":2,"score":"1-6"},

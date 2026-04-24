@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":3,"team":"ADUD","w":4,"d":0,"l":4,"f":19,"a":17,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"ADUD","w":6,"d":2,"l":6,"f":30,"a":35,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
         {"place": 5, "team": "ADUD", "w":  6, "d": 2, "l":  6, "f": 25, "a": 48, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
         {"place": 3, "team": "ADUD", "w": 4, "d": 1, "l": 3, "f": 22, "a": 25, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
@@ -17,6 +18,10 @@
         {"place": 4, "team": "ADUD", "w": 1, "d": 0, "l": 5, "f":  7, "a": 21, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "pts_win": 2}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ECBT","homeDivision":2,"away":"ADUD","awayDivision":3,"score":"0-3","forfeit":true},
+		{"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"ADUD","homeDivision":3,"away":"PROG","awayDivision":2,"score":"1-0"},
+		{"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ADUD","homeDivision":3,"away":"RBDF","awayDivision":1,"score":"0-3","forfeit":true},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ADUD","homeDivision":3,"away":"SGRV","awayDivision":4,"score":"3-2"},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"SCLX","homeDivision":1,"away":"ADUD","awayDivision":3,"score":"3-0","forfeit":true}
     ]

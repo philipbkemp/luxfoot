@@ -9,9 +9,13 @@
         "new_name": "DIFF"
     }],
     "league": [
+        {"place":1,"team":"ASDF","w":6,"d":0,"l":0,"f":32,"a":5,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"promoted":true},
         {"place":4,"team":"ASDF","w":8,"d":3,"l":3,"f":33,"a":19,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"JKYL","homeDivision":4,"away":"ASDF","awayDivision":4,"score":"2-4"},
+		{"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"ASDF","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"2-3"},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"CROD","homeDivision":2,"away":"ASDF","awayDivision":4,"score":"4-3"}
     ]
 }

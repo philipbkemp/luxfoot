@@ -17,11 +17,14 @@
         "new_name": "TRIG"
     }],
     "league": [
+        {"place":5,"team":"TRIM","w":6,"d":3,"l":5,"f":28,"a":28,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":7,"team":"TRIM","w":2,"d":1,"l":11,"f":17,"a":63,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place": 1, "team": "TRIM", "w": 10, "d": 2, "l":  2, "f": 34, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
         {"place": 2, "team": "TRIM", "w": 7, "d": 4, "l":  1, "f": 26, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "playoff": "promotion_3", "promoted": true}
     ],
     "matches": [
+        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"UESH","homeDivision":3,"away":"TRIM","awayDivision":2,"score":"4-2"},
+
         {"home":"FOLA","away":"TRIM","score":"8-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"HLBN","away":"TRIM","score":"7-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"JESH","away":"TRIM","score":"3-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
