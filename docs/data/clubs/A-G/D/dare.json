@@ -1,0 +1,12 @@
+{
+    "name": "Daring Club Echternach",
+    "founded": "1921-03-08",
+    "history": [{
+        "season": "1920-21",
+        "event": "RENAME_FROM",
+        "old_name": "CECH"
+    }],
+    "league": [
+        {"place":6,"team":"DARE","w":2,"d":0,"l":8,"f":9,"a":64,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

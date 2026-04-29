@@ -1,9 +1,12 @@
 {
+    "doubles": [
+        "1923-24"
+    ],
     "league": {
         "first": "1909-10",
         "not_awarded": ["1912-13"],
         "winners": [
-            {"team":"FOLA","seasons":["1917-18","1919-20","1921-22"]},
+            {"team":"FOLA","seasons":["1917-18","1919-20","1921-22","1923-24"]},
             {"team":"HLBN","seasons":["1911-12","1913-14","1914-15","1915-16","1916-17"]},
             {"team":"JESH","seasons":["1920-21"]},
             {"team":"RACL","seasons":["1909-10"]},
@@ -15,7 +18,7 @@
         "first": "1921-22",
         "not_awarded": [],
         "winners": [
-            {"team":"FOLA","seasons":["1922-23"]},
+            {"team":"FOLA","seasons":["1922-23","1923-24"]},
             {"team":"RACL","seasons":["1921-22"]}
         ]
     }

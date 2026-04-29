@@ -33,7 +33,7 @@ function doneFetch(data) {
         navLeague.innerHTML = "League";
         if ( "league" === showComp ) {
             navLeague.classList.add("active");
-            drawWinnersList(data.league.winners);
+            drawWinnersList(data.league.winners,data.doubles);
         }
         let navLeagueLi = document.createElement("LI");
         navLeagueLi.append(navLeague);
@@ -46,7 +46,7 @@ function doneFetch(data) {
         navLeague.innerHTML = "Luxembourg Cup";
         if ( "cup_luxembourg" === showComp ) {
             navLeague.classList.add("active");
-            drawWinnersList(data.cup_luxembourg.winners);
+            drawWinnersList(data.cup_luxembourg.winners,data.doubles);
         }
         let navLeagueLi = document.createElement("LI");
         navLeagueLi.append(navLeague);
@@ -64,7 +64,7 @@ function doneFetch(data) {
     }
 }
 
-function drawWinnersList(data) {
+function drawWinnersList(data,doubles) {
     const dataContainer = document.getElementById("dataContainer");
 
     let table = document.createElement("TABLE");
@@ -112,6 +112,11 @@ function drawWinnersList(data) {
 
             let seasons = document.createElement("TD");
             seasons.innerHTML = entry.seasons.join(", ");
+            doubles.forEach(d=>{
+                if ( entry.seasons.includes(d) ) {
+                    seasons.innerHTML = seasons.innerHTML.replace(d,"<abbr title='Double'>"+d+"</abbr>");
+                }
+            });
             row.append(seasons);
 
             prevCount = thisCount;

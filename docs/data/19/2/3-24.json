@@ -1,0 +1,255 @@
+{
+    "season": "1923-24",
+    "next": "1924-25",
+    "prev": "1922-23",
+    "league": [{
+        "level": 1,
+        "name": "1. Division",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "FOLA", "w": 11, "d": 1, "l":  2, "f": 45, "a": 14, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}, "champion": true},
+            {"place": 2, "team": "SPOR", "w":  9, "d": 2, "l":  3, "f": 41, "a": 24, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}},
+            {"place": 3, "team": "RBDF", "w":  8, "d": 2, "l":  4, "f": 28, "a": 13, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}},
+            {"place": 4, "team": "JESH", "w":  6, "d": 3, "l":  5, "f": 27, "a": 25, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}},
+            {"place": 5, "team": "SDUD", "w":  6, "d": 2, "l":  6, "f": 26, "a": 28, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}},
+            {"place": 6, "team": "HLBN", "w":  3, "d": 3, "l":  8, "f": 21, "a": 27, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}},
+            {"place": 7, "team": "RBPF", "w":  3, "d": 2, "l":  9, "f": 18, "a": 42, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}, "relegated": true},
+            {"place": 8, "team": "ECBT", "w":  1, "d": 3, "l": 10, "f": 18, "a": 51, "pts_win": 2, "season": "1923-24", "competition": {"type":"league","level":1,"league":"1. Division"}, "relegated": true}
+        ],
+        "matches": [
+            {"home":"FOLA","away":"SPOR","score":"3-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"RBDF","score":"2-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"JESH","score":"3-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"SDUD","score":"6-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"HLBN","score":"3-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"RBPF","score":"9-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"ECBT","score":"5-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"FOLA","score":"2-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"RBDF","score":"1-4","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"JESH","score":"3-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"SDUD","score":"1-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"HLBN","score":"6-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"RBPF","score":"4-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"ECBT","score":"2-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"FOLA","score":"1-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"SPOR","score":"2-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"JESH","score":"2-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"SDUD","score":"3-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"HLBN","score":"0-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"RBPF","score":"1-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"ECBT","score":"7-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"FOLA","score":"1-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"SPOR","score":"1-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"RBDF","score":"3-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"SDUD","score":"2-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"HLBN","score":"2-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"RBPF","score":"1-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"ECBT","score":"7-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"FOLA","score":"2-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"SPOR","score":"1-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"RBDF","score":"0-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"JESH","score":"4-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"HLBN","score":"3-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"RBPF","score":"3-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"ECBT","score":"3-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"FOLA","score":"3-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"SPOR","score":"3-4","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"RBDF","score":"1-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"JESH","score":"1-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"SDUD","score":"1-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"RBPF","score":"1-2","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"HLBN","away":"ECBT","score":"1-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"FOLA","score":"0-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"SPOR","score":"1-7","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"RBDF","score":"0-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"JESH","score":"3-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"SDUD","score":"3-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"HLBN","score":"1-4","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"ECBT","score":"1-0","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ECBT","away":"FOLA","score":"0-6","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ECBT","away":"SPOR","score":"2-5","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ECBT","away":"RBDF","score":"1-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ECBT","away":"JESH","score":"2-4","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ECBT","away":"SDUD","score":"0-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"},"forfeit":true},
+            {"home":"ECBT","away":"HLBN","score":"2-1","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ECBT","away":"RBPF","score":"2-3","season":"1923-24","competition":{"type":"league","level": 1,"league": "1. Division"}}
+        ]
+    },{
+        "level": 2,
+        "name": "The Promotion",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "PROG", "w": 9, "d": 2, "l":  3, "f": 32, "a": 16, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
+            {"place": 2, "team": "USDD", "w": 8, "d": 3, "l":  3, "f": 27, "a": 16, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}, "playoff":"promotion_p", "promoted": true},
+            {"place": 3, "team": "STET", "w": 7, "d": 5, "l":  2, "f": 23, "a": 17, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}, "playoff":"promotion_p"},
+            {"place": 4, "team": "URUM", "w": 7, "d": 3, "l":  4, "f": 29, "a": 15, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 5, "team": "PRON", "w": 6, "d": 3, "l":  5, "f": 20, "a": 17, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 6, "team": "CROD", "w": 5, "d": 4, "l":  5, "f": 24, "a": 27, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 7, "team": "RPDN", "w": 1, "d": 3, "l": 10, "f": 12, "a": 32, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}, "relegated": true},
+            {"place": 8, "team": "TRIM", "w": 1, "d": 1, "l": 12, "f":  8, "a": 35, "pts_win": 2, "season": "1923-24", "competition": { "type":"league","level": 2, "league": "The Promotion"}, "relegated": true}
+        ]
+    },{
+        "level": 3,
+        "name": "2. Division",
+        "pts_win": 2,
+        "series": [{
+            "serie": 1,
+            "name": "Series 1",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "YBDK", "w": 7, "d": 1, "l": 0, "f": 32, "a": 10, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"},"playoff":"promotion_2","promoted":true},
+                {"place": 2, "team": "ETZE", "w": 3, "d": 2, "l": 3, "f": 13, "a": 15, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 3, "team": "ASLX", "w": 3, "d": 2, "l": 3, "f": 11, "a": 20, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 4, "team": "SGRV", "w": 3, "d": 1, "l": 4, "f": 14, "a": 16, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"},"playoff":"relegation_2", "relegated": true},
+                {"place": 5, "team": "CSHL", "w": 1, "d": 0, "l": 7, "f": 11, "a": 20, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}, "relegated": true}
+            ]
+        },{
+            "serie": 2,
+            "name": "Series 2",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "MANC", "w": 6, "d": 1, "l": 1, "f": 20, "a": 11, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"},"playoff":"title_2_2"},
+                {"place": 2, "team": "ADUD", "w": 6, "d": 1, "l": 1, "f": 22, "a":  9, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"},"playoff":"title_2_2"},
+                {"place": 3, "team": "NSCH", "w": 3, "d": 1, "l": 4, "f": 10, "a": 12, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 4, "team": "JKYL", "w": 2, "d": 1, "l": 5, "f": 12, "a": 21, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"},"playoff":"relegation_2"},
+                {"place": 5, "team": "JVRL", "w": 1, "d": 0, "l": 7, "f": 10, "a": 21, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}, "relegated": true}
+            ]
+        },{
+            "serie": 3,
+            "name": "Series 3",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "UESH", "w": 5, "d": 0, "l": 1, "f": 14, "a":  3, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 3, "league": "2. Division Series 3"},"playoff":"promotion_2","promoted":true},
+                {"place": 2, "team": "BLVL", "w": 3, "d": 0, "l": 3, "f":  8, "a": 10, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 3, "league": "2. Division Series 3"}},
+                {"place": 3, "team": "CPET", "w": 2, "d": 0, "l": 4, "f":  8, "a": 18, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 3, "league": "2. Division Series 3"},"playoff":"relegation_2_3"},
+                {"place": 4, "team": "ASDF", "w": 2, "d": 0, "l": 4, "f": 12, "a": 11, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 3, "league": "2. Division Series 3"},"playoff":"relegation_2_3"},
+                {"place": 5, "team": "FCOB", "missing": true, "pts_win": 2, "season": "1923-24", "competition": {"type":"league_series","level": 3, "series": 3, "league": "2. Division Series 3"},"relegated": true}
+            ]
+        }]
+    },{
+        "level": 4,
+        "name": "3. Division",
+        "pts_win": 2,
+        "series": [{
+            "serie": 1,
+            "name": "Series 1",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "MINL", "w": 6, "d": 0, "l": 0, "f": 23, "a":  1, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"},"removed":true,"note": "Withdrew"},
+                {"place": 2, "team": "RIEF", "w": 3, "d": 1, "l": 2, "f": 10, "a": 14, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}, "promoted": true},
+                {"place": 3, "team": "GOLD", "w": 2, "d": 1, "l": 3, "f": 12, "a": 20, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}, "playoff":"promotion_3", "promoted": true},
+                {"place": 4, "team": "JWAS", "w": 0, "d": 0, "l": 6, "f":  7, "a": 17, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}}
+            ]
+        },{
+            "serie": 2,
+            "name": "Series 2",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "AVBG", "w": 5, "d": 1, "l": 2, "f": 26, "a": 14, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}, "promoted": true},
+                {"place": 2, "team": "JHTC", "w": 4, "d": 2, "l": 2, "f": 20, "a": 12, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}, "playoff":"promotion_3"},
+                {"place": 3, "team": "UNAS", "w": 4, "d": 1, "l": 3, "f": 11, "a": 11, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}},
+                {"place": 4, "team": "OYMP", "w": 4, "d": 0, "l": 4, "f": 10, "a": 18, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}},
+                {"place": 5, "team": "SPST", "w": 1, "d": 0, "l": 7, "f":  8, "a": 20, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}}
+            ]
+        },{
+            "serie": 3,
+            "name": "Series 3",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "ARIS", "w": 8, "d": 1, "l": 1, "f": 67, "a": 15, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 3, "league": "3. Division Series 3"}, "promoted": true},
+                {"place": 2, "team": "SWFT", "w": 7, "d": 2, "l": 1, "f": 55, "a": 20, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 3, "league": "3. Division Series 3"}, "promoted": true},
+                {"place": 3, "team": "AZST", "w": 6, "d": 1, "l": 3, "f": 40, "a": 22, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 3, "league": "3. Division Series 3"}, "playoff":"promotion_3"},
+                {"place": 4, "team": "RSSW", "w": 2, "d": 1, "l": 7, "f": 15, "a": 37, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 3, "league": "3. Division Series 3"}},
+                {"place": 5, "team": "ESLX", "w": 1, "d": 3, "l": 6, "f": 12, "a": 40, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 3, "league": "3. Division Series 3"}},
+                {"place": 6, "team": "DARE", "w": 2, "d": 0, "l": 8, "f":  9, "a": 64, "pts_win": 2, "season": "1923-24", "competition":{"type":"league_series","level": 4, "series": 3, "league": "3. Division Series 3"}}
+            ]
+        }]
+    }],
+    "playoffs": {
+        "promotion_p": {
+            "matches": [
+                {"home":"USDD","away":"STET","score":"1-1","aet":true,"replay":{"score":"1-0"},"season":"1923-24","competition":{"type":"playoff","playoff": "promotion_p"},"outcome":"USDD promoted"}
+            ]
+        },
+        "title_2_2": {
+            "matches": [
+                {"home":"MANC","away":"ADUD","score":"6-4","season":"1923-24","competition":{"type":"playoff","playoff":"title_2_2"},"outcome":"MANC qualified for Promotion Playoffs"}
+            ]
+        },
+        "relegation_2_3": {
+            "matches": [
+                {"home":"CPET","away":"ASDF","score":"6-3","season":"1923-24","competition":{"type":"playoff","playoff":"relegation_2_3"},"outcome":"ASDF qualified for Relegation Playoffs"}
+            ]
+        },
+        "promotion_2": {
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"YBDK","teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"},"w":1,"d":1,"l":0,"f": 5,"a":2,"pts_win":2,"season":"1923-24","competition":{"type":"playoff","playoff":"promotion_2"}, "promoted": true},
+                {"place":2,"team":"UESH","teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"},"w":1,"d":0,"l":1,"f": 4,"a":4,"pts_win":2,"season":"1923-24","competition":{"type":"playoff","playoff":"promotion_2"}, "promoted": true},
+                {"place":3,"team":"MANC","teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"},"w":0,"d":1,"l":1,"f": 3,"a":6,"pts_win":2,"season":"1923-24","competition":{"type":"playoff","playoff":"promotion_2"}}
+            ]
+        },
+        "relegation_2": {
+            "pts_win": 2,
+            "standings": [
+                {"place":1,"team":"ASDF","teamDivision": {"level":3,"series":3,"name":"2. Division Series 3"},"w":1,"d":1,"l":0,"f": 5,"a":3,"pts_win":2,"season":"1923-24","competition":{"type":"playoff","playoff":"relegation_2"}},
+                {"place":2,"team":"JKYL","teamDivision": {"level":3,"series":2,"name":"2. Division Series 2"},"w":1,"d":0,"l":1,"f": 7,"a":5,"pts_win":2,"season":"1923-24","competition":{"type":"playoff","playoff":"relegation_2"}},
+                {"place":3,"team":"SGRV","teamDivision": {"level":3,"series":1,"name":"2. Division Series 1"},"w":0,"d":1,"l":1,"f": 4,"a":8,"pts_win":2,"season":"1923-24","competition":{"type":"playoff","playoff":"relegation_2"},"relegated":true}
+            ]
+        },
+        "promotion_3": {
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "GOLD","teamDivision": {"level":4,"series":1,"name":"3. Division Series 1"}, "w": 1, "d": 1, "l": 0, "f": 4, "a": 2, "pts_win": 2, "season": "1923-24", "competition": {"type":"playoff","playoff":"promotion_3"}, "promoted": true},
+                {"place": 2, "team": "JHTC","teamDivision": {"level":4,"series":2,"name":"3. Division Series 2"}, "w": 1, "d": 0, "l": 1, "f": 3, "a": 3, "pts_win": 2, "season": "1923-24", "competition": {"type":"playoff","playoff":"promotion_3"}},
+                {"place": 3, "team": "AZST","teamDivision": {"level":4,"series":3,"name":"3. Division Series 3"}, "w": 0, "d": 1, "l": 1, "f": 2, "a": 4, "pts_win": 2, "season": "1923-24", "competition": {"type":"playoff","playoff":"promotion_3"}}
+            ]
+        }
+    },
+    "cup": {
+        "luxembourg": {
+            "name": "Luxembourg Cup",
+            "rounds": [{
+                "name": "Preliminary Round",
+                "matches": [
+                    {"date":"1923-09-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home": "TRIM", "homeDivision": 2,"away": "GOLD", "awayDivision": 4,"score":"3-0","forfeit":true},
+                    {"date":"1923-09-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home": "URUM", "homeDivision": 2,"away": "MANC", "awayDivision": 3,"score":"2-1"},
+                    {"date":"1923-09-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home": "CSHL", "homeDivision": 3,"away": "STET", "awayDivision": 2,"score":"1-4"},
+                    {"date":"1923-09-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home": "UESH", "homeDivision": 3,"away": "PRON", "awayDivision": 2,"score":"4-2"},
+                    {"date":"1923-09-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home": "ASDF", "homeDivision": 3,"away": "ADUD", "awayDivision": 3,"score":"1-3"}
+                ]
+            },{
+                "name": "1st Round",
+                "matches": [
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "SDUD", "homeDivision": 1,"away": "HLBN", "awayDivision": 1,"score":"3-0","forfeit":true},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "ADUD", "homeDivision": 3,"away": "TRIM", "awayDivision": 2,"score":"3-0","forfeit":true},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "URUM", "homeDivision": 2,"away": "UESH", "awayDivision": 3,"score":"3-2"},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "FOLA", "homeDivision": 1,"away": "ARIS", "awayDivision": 4,"score":"5-0"},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "RBDF", "homeDivision": 1,"away": "RBPF", "awayDivision": 1,"score":"3-0","forfeit":true},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "ASDF", "homeDivision": 3,"away": "STET", "awayDivision": 2,"score":"5-2"},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "SPOR", "homeDivision": 1,"away": "PRON", "awayDivision": 2,"score":"6-1"},
+                    {"date":"1923-10-07", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "JESH", "homeDivision": 1,"away": "CSHL", "awayDivision": 3,"score":"3-0","forfeit":true}
+                ]
+            },{
+                "name": "Quarter Final",
+                "matches": [
+                    {"date":"1923-12-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "SDUD", "homeDivision": 1,"away": "ADUD", "awayDivision": 3,"score":"5-1"},
+                    {"date":"1923-12-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "RBDF", "homeDivision": 1,"away": "SPOR", "awayDivision": 1,"score":"2-1"},
+                    {"date":"1923-12-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "URUM", "homeDivision": 2,"away": "ASDF", "awayDivision": 3,"score":"4-0"},
+                    {"date":"1923-12-02", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "JESH", "homeDivision": 1,"away": "FOLA", "awayDivision": 1,"score":"1-2"}
+                ]
+            },{
+                "name": "Semi Final",
+                "matches": [
+                    {"date":"1924-02-03","season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home": "SDUD", "homeDivision": 1,"away": "RBDF", "awayDivision": 1,"score":"1-2"},
+                    {"date":"1924-02-17","season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home": "URUM", "homeDivision": 2,"away": "FOLA", "awayDivision": 1,"score":"0-2"}
+                ]
+            },{
+                "name": "Final",
+                "matches": [
+                    {"date":"1924-04-06", "season": "1923-24","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Final","round_code":"F"},"home": "FOLA", "homeDivision": 1,"away": "RBDF", "awayDivision": 1,"score":"2-0"}
+                ]
+            }]
+        }
+    }
+}

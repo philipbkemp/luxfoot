@@ -164,6 +164,10 @@ function drawHistory(history,founded,refounded) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
                 hEvent.innerHTML = "League Champions";
                 break;
+            case "DOUBLE":
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Double Winners";
+                break;
             case "MERGE":
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.new_name');

@@ -20,6 +20,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":2,"team":"RIEF","w":3,"d":1,"l":2,"f":10,"a":14,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place":3,"team":"RIEF","w":2,"d":1,"l":3,"f":14,"a":13,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}}
     ]
 }

@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"SWFT","w":7,"d":2,"l":1,"f":55,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"promoted":true},
         {"place":4,"team":"SWFT","w":0,"d":1,"l":5,"f":8,"a":25,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":7,"team":"SWFT","w":2,"d":0,"l":12,"f":4,"a":46,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}},
         {"place": 6, "team": "SWFT", "w": 0, "d": 2, "l": 8, "f": 11, "a": 27, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}},

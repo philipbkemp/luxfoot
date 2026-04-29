@@ -150,6 +150,10 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
             if ( standing.competition.type === "league_series" ) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.series`);
             }
+            if ( standing.competition.type === "playoff" ) {
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.playoff`);
+            }
         }
 
         let tr = document.createElement("TR");
@@ -172,10 +176,12 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
                 let tdPlace = document.createElement("TD");
                 tdPlace.innerHTML = standing.place;
                 tr.append(tdPlace);
-                if ( ! clubsPos[standing.place] ) {
-                    clubsPos[standing.place] = [];
+                if ( compType !== "playoff" ) {
+                    if ( ! clubsPos[standing.place] ) {
+                        clubsPos[standing.place] = [];
+                    }
+                    clubsPos[standing.place].push(standing.team);
                 }
-                clubsPos[standing.place].push(standing.team);
             } else {
                 for ( let i=1 ; i<7 ; i++ ) {
                     let tdPlace = document.createElement("TD");
@@ -189,6 +195,10 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
             let tdTeam = document.createElement("TD");
             if ( isSeason ) {
                 tdTeam.innerHTML = window.allTeams[standing.team].name;
+                if ( standing.teamDivision ) {
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.teamDivision`);
+                    tdTeam.innerHTML += "<br /><em>" + standing.teamDivision.name + "</em>";
+                }
             } else {
                 tdTeam.innerHTML = standing.competition.league;
             }
@@ -339,6 +349,7 @@ function getPlayoffName(po) {
     let poName = po;
 
     switch (po) {
+        case "promotion_p":
         case "promotion_2":
         case "promotion_3":
             poName = "Promotion playoff";
@@ -348,8 +359,16 @@ function getPlayoffName(po) {
             poName = "Relegation playoff";
             break;
 
+        case "relegation_2_3":
+            poName = "Relegation decider (2. Division Series 3)";
+            break;
+
         case "title":
             poName = "Title decider";
+            break;
+
+        case "title_2_2":
+            poName = "Title decider (2. Division Series 2)";
             break;
 
         case "title_3_S":
@@ -500,6 +519,10 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             } else {
                 tdScore.innerHTML = match.score;
             }
+            if ( match.aet ) {
+                tdScore.innerHTML += " (aet)";
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.aet`);
+            }
             tr.append(tdScore);
 
             let tdAway = document.createElement("TD");
@@ -588,6 +611,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             let trReplay = null;
             if ( match.replay ) {
                 window.dataKeySet = [...window.dataKeySet,...Object.keys(match.replay).map(key => `${keyPrefix}.replay.${key}`)];
+                hasDates = true;
 
                 trReplay = document.createElement("TR");
                 let tdReplayDate = document.createElement("TD");

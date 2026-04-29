@@ -16,11 +16,28 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":7,"team":"RBPF","w":3,"d":2,"l":9,"f":18,"a":42,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":1,"team":"RBPF","w":11,"d":0,"l":3,"f":47,"a":19,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":1,"team":"RBPF","w":13,"d":1,"l":0,"f":71,"a":15,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"},"promoted":true},
         {"place": 1, "team": "RBPF", "w": 8, "d": 0, "l": 2, "f": 37, "a": 16, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true}
     ],
     "matches": [
+        {"home":"FOLA","away":"RBPF","score":"9-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"RBPF","score":"4-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"RBPF","score":"1-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"RBPF","score":"1-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"RBPF","score":"3-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"RBPF","score":"1-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"FOLA","score":"0-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"SPOR","score":"1-7","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"RBDF","score":"0-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"JESH","score":"3-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"SDUD","score":"3-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"HLBN","score":"1-4","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"ECBT","score":"1-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ECBT","away":"RBPF","score":"2-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1923-10-07","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"RBDF","homeDivision":1,"away":"RBPF","awayDivision":1,"score":"3-0","forfeit":true},
+
         {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"HOPB","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"1-14"},
         {"date":"1922-10-01","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Intermediate Round","round_code":"INT"},"home":"ASDF","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"2-3"},
         {"date":"1922-12-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"JESH","homeDivision":1,"away":"RBPF","awayDivision":2,"score":"3-2"},

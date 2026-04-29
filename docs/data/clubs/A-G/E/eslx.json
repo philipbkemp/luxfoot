@@ -1,0 +1,13 @@
+{
+    "name": "Etoile Sportive Luxembourg",
+    "history": [{
+        "season": "1922-23",
+        "event": "FOUNDED"
+    },{
+        "season": "1927-28",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":5,"team":"ESLX","w":1,"d":3,"l":6,"f":12,"a":40,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

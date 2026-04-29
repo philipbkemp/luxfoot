@@ -28,7 +28,8 @@
         "name": "AS Remich"
     },
     "ARIS": {
-        "name": "Aris Bonnevoie"
+        "name": "Aris Bonnevoie",
+        "level": -1
     },
     "ASCB": {
         "name": "AS Colmar-Berg"
@@ -61,7 +62,8 @@
         "name": "Arminia Weidingen"
     },
     "AZST": {
-        "name": "L'Alzette Steinsel"
+        "name": "L'Alzette Steinsel",
+        "level": -1
     },
     "BAST": {
         "name": "FC 47 Bastendorf"
@@ -168,7 +170,8 @@
         "name": "US Dahl"
     },
     "DARE": {
-        "name": "Daring Club Echternach"
+        "name": "Daring Club Echternach",
+        "level": 3
     },
     "DEIC": {
         "name": "Daring Club Eich",
@@ -625,7 +628,8 @@
         "name": "Red Star Merl"
     },
     "RSSW": {
-        "name": "Red Star Sandweiler"
+        "name": "Red Star Sandweiler",
+        "level": -1
     },
     "RUPL": {
         "name": "Rupensia Larochette"
@@ -683,10 +687,12 @@
         "name": "Sparta Dudelange"
     },
     "SPOR": {
-        "name": "Spora Luxembourg"
+        "name": "Spora Luxembourg",
+        "level": -1
     },
     "SPST": {
-        "name": "Sporting Steinfort"
+        "name": "Sporting Steinfort",
+        "level": -1
     },
     "SRED": {
         "name": "SC Rédange"
@@ -754,7 +760,8 @@
         "name": "US Mertert"
     },
     "UNAS": {
-        "name": "UNA Strassen"
+        "name": "UNA Strassen",
+        "level": 1
     },
     "UNMW": {
         "name": "Union Mertert/Wasserbillig"

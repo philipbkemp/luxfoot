@@ -9,6 +9,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":7,"team":"RPDN","w":1,"d":3,"l":10,"f":12,"a":32,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":1,"team":"RPDN","w":7,"d":0,"l":1,"f":21,"a":8,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":2,"team":"RPDN","w":10,"d":2,"l":2,"f":40,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"},"promoted":true}
     ],

@@ -10,6 +10,7 @@
         "new_name": "CGRV"
     }],
     "league": [
+        {"place":4,"team":"SGRV","w":3,"d":1,"l":4,"f":14,"a":16,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"relegation_2","relegated":true},
         {"place":2,"team":"SGRV","w":3,"d":2,"l":1,"f":19,"a":13,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place":8,"team":"SGRV","w":1,"d":0,"l":13,"f":1,"a":37,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}}
     ],

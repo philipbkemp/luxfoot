@@ -1,0 +1,14 @@
+{
+    "name": "Sporting Steinfort",
+    "history": [{
+        "season": "1922-23",
+        "event": "FOUNDED"
+    },{
+        "season": "2019-20",
+        "event": "RENAME",
+        "new_name": "STNG"
+    }],
+    "league": [
+        {"place":5,"team":"SPST","w":1,"d":0,"l":7,"f":8,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

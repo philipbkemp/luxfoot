@@ -10,6 +10,7 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":6,"team":"CROD","w":5,"d":4,"l":5,"f":24,"a":27,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":6,"team":"CROD","w":5,"d":4,"l":5,"f":20,"a":19,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"relegation_2"},
         {"place":4,"team":"CROD","w":7,"d":1,"l":6,"f":23,"a":33,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place": 3, "team": "CROD", "w":  9, "d": 1, "l":  4, "f": 34, "a": 23, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},

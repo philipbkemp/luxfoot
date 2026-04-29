@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"ETZE","w":3,"d":2,"l":3,"f":13,"a":15,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":1,"team":"ETZE","w":2,"d":1,"l":1,"f":8,"a":6,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"promoted":true},
         {"place":4,"team":"ETZE","w":5,"d":1,"l":4,"f":17,"a":13,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}},
         {"place": 7, "team": "ETZE", "w":  1, "d": 3, "l": 10, "f": 12, "a": 51, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "relegated": true},

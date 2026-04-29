@@ -249,18 +249,24 @@ function drawInternational(intKey,intData) {
 }
 
 function drawPlayoff(code,po,isShown,keyPrefix) {
-    window.dataKeySet = [...window.dataKeySet,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
-    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.matches`);
-    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.note`);
-    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.noteTeams`);
-
     if ( ! isShown ) {
         return;
     }
 
+    window.dataKeySet = [...window.dataKeySet,...Object.keys(po).map(key => `${keyPrefix}.${key}`)];
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.matches`);
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.note`);
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.noteTeams`);
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.pts_win`);
+
     let playoffTitle = document.createElement("H2");
     playoffTitle.innerHTML = getPlayoffName(code);
     dataContainer.append(playoffTitle);
+
+    if ( po.standings ) {
+        drawStandingsTable(po.standings,keyPrefix+".standings","playoff","",code,{checkSeason:season});
+        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.standings`);
+    }
 
     if ( po.matches ) {
         drawMatches(po.matches,keyPrefix+".matches",{"type":"playoff","playoff":code},{season:season});

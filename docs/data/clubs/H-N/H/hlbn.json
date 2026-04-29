@@ -29,6 +29,7 @@
         "new_name": "ULUX"
     }],
     "league": [
+        {"place":6,"team":"HLBN","w":3,"d":3,"l":8,"f":21,"a":27,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":5,"team":"HLBN","w":6,"d":2,"l":6,"f":29,"a":41,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":2,"team":"HLBN","w":9,"d":2,"l":3,"f":46,"a":21,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place": 3, "team": "HLBN", "w": 8, "d": 2, "l":  4, "f": 26, "a": 16, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}},
@@ -46,6 +47,22 @@
         {"place": 2, "team": "HLBN", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}, "playoff": "title"}
     ],
     "matches": [
+        {"home":"FOLA","away":"HLBN","score":"3-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"HLBN","score":"6-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"HLBN","score":"0-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"HLBN","score":"2-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"HLBN","score":"3-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"FOLA","score":"3-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"SPOR","score":"3-4","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"RBDF","score":"1-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"JESH","score":"1-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"SDUD","score":"1-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"RBPF","score":"1-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"ECBT","score":"1-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"HLBN","score":"1-4","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ECBT","away":"HLBN","score":"2-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1923-10-07","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"SDUD","homeDivision":1,"away":"HLBN","awayDivision":1,"score":"3-0","forfeit":true},
+
         {"home":"RBDF","away":"HLBN","score":"5-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SDUD","away":"HLBN","score":"6-1","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"FOLA","away":"HLBN","score":"10-3","season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},

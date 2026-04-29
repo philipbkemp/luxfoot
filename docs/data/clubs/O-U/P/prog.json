@@ -9,6 +9,7 @@
         "new_name": "YGGC"
     }],
     "league": [
+        {"place":1,"team":"PROG","w":9,"d":2,"l":3,"f":32,"a":16,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":3,"team":"PROG","w":7,"d":1,"l":6,"f":30,"a":27,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":6,"team":"PROG","w":6,"d":0,"l":8,"f":36,"a":33,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place": 4, "team": "PROG", "w":  6, "d": 4, "l":  4, "f": 27, "a": 24, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}},

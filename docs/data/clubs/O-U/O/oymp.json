@@ -9,6 +9,7 @@
         "new_name": "AAHE"
     }],
     "league": [
+        {"place":4,"team":"OYMP","w":4,"d":0,"l":4,"f":10,"a":18,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":3,"team":"OYMP","w":3,"d":0,"l":3,"f":10,"a":14,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
         {"place":5,"team":"OYMP","w":3,"d":0,"l":7,"f":8,"a":24,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series South West"}},
         {"place": 2, "team": "OYMP", "w": 5, "d": 2, "l": 3, "f": 18, "a": 13, "pts_win": 2, "season": "1920-21", "competition": { "type":"league_series","level": 4, "series": 3, "league": "3. Division Series South West"}}

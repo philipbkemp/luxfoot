@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"YBDK","w":7,"d":1,"l":0,"f":32,"a":10,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"promotion_2","promoted":true},
         {"place":3,"team":"YBDK","w":3,"d":0,"l":5,"f":20,"a":14,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":1,"team":"YBDK","w":8,"d":1,"l":1,"f":33,"a":13,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"},"promoted":true},
         {"gap": true},

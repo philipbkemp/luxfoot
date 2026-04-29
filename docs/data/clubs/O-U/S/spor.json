@@ -1,0 +1,34 @@
+{
+    "name": "Spora Luxembourg",
+    "founded": "1923-05-29",
+    "history": [{
+        "season": "1922-23",
+        "event": "FOUNDED_MERGE",
+        "clubs": ["RACL","SCLX"]
+    },{
+        "season": "2004-05",
+        "event": "MERGE",
+        "new_name": "RACE"
+    }],
+    "league": [
+        {"place":2,"team":"SPOR","w":9,"d":2,"l":3,"f":41,"a":24,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}}
+    ],
+    "matches": [
+        {"home":"FOLA","away":"SPOR","score":"3-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"FOLA","score":"2-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"RBDF","score":"1-4","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"JESH","score":"3-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"SDUD","score":"1-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"HLBN","score":"6-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"RBPF","score":"4-0","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"ECBT","score":"2-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"SPOR","score":"2-3","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"SPOR","score":"1-1","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"SPOR","score":"1-2","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"SPOR","score":"3-4","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"SPOR","score":"1-7","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ECBT","away":"SPOR","score":"2-5","season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1923-10-07","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"SPOR","homeDivision":1,"away":"PRON","awayDivision":2,"score":"6-1"},
+		{"date":"1923-12-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"RBDF","homeDivision":1,"away":"SPOR","awayDivision":1,"score":"2-1"}
+    ]
+}

@@ -10,6 +10,7 @@
         "new_name": "ASRB"
     }],
     "league": [
+        {"place":3,"team":"ASLX","w":3,"d":2,"l":3,"f":11,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":1,"team":"ASLX","w":5,"d":0,"l":1,"f":20,"a":10,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place":3,"team":"ASLX","w":10,"d":1,"l":3,"f":45,"a":22,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}},
         {"place": 2, "team": "ASLX", "w": 6, "d": 2, "l": 2, "f": 20, "a": 11, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}

@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"AVBG","w":5,"d":1,"l":2,"f":26,"a":14,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"promoted":true},
         {"place":5,"team":"AVBG","w":1,"d":1,"l":6,"f":11,"a":32,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":7,"team":"AVBG","w":1,"d":0,"l":13,"f":21,"a":85,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
         {"place": 7, "team": "AVBG", "w":  3, "d": 2, "l":  9, "f": 18, "a": 38, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true},

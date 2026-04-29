@@ -10,10 +10,13 @@
         "new_name": "WLTZ"
     }],
     "league": [
+        {"place":3,"team":"GOLD","w":2,"d":1,"l":3,"f":12,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"playoff":"promotion_3","promoted":true},
         {"place":2,"team":"GOLD","w":1,"d":2,"l":1,"f":3,"a":4,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":5,"team":"GOLD","w":3,"d":2,"l":5,"f":9,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ],
     "matches": [
+        {"date":"1923-09-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home":"TRIM","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"3-0","forfeit":true},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"MARM","homeDivision":4,"away":"GOLD","awayDivision":4,"score":"3-2"}
     ]
 }
