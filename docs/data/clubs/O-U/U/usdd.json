@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":8,"team":"USDD","w":0,"d":0,"l":14,"f":4,"a":63,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":2,"team":"USDD","w":8,"d":3,"l":3,"f":27,"a":16,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"promotion_p","promoted":true},
         {"place":1,"team":"USDD","w":7,"d":1,"l":0,"f":37,"a":9,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":1,"team":"USDD","w":12,"d":1,"l":1,"f":58,"a":6,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"},"promoted":true},
@@ -18,6 +19,21 @@
         {"place":2, "team": "USDD", "w": 0, "d": 0, "l": 2, "f":  2, "a": 12, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2}
     ],
     "matches": [
+        {"home":"SPOR","away":"USDD","score":"9-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"USDD","score":"10-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"USDD","score":"7-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"USDD","score":"3-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"},"forfeit":true},
+        {"home":"RBDF","away":"USDD","score":"5-1","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"HLBN","away":"USDD","score":"5-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PROG","away":"USDD","score":"3-1","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"SPOR","score":"0-1","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"SDUD","score":"1-2","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"JESH","score":"0-6","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"FOLA","score":"0-5","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"RBDF","score":"0-1","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"HLBN","score":"0-4","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"PROG","score":"1-2","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
+
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"ASLX","homeDivision":4,"away":"USDD","awayDivision":4,"score":"0-8"},
         {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"HLBN","homeDivision":1,"away":"USDD","awayDivision":4,"score":"2-1"},
 

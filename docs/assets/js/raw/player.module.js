@@ -3,7 +3,7 @@ window.location.search.replace("?","").split("&").forEach(param=>{const parts=pa
 const dataContainer = document.getElementById("dataContainer");
 window.allTeams = [];
 window.dataKeySet = [];
-    
+
 try {
     const [rTeams,rPlayer] = await Promise.all([
         fetch("data/teams.json"),
@@ -82,7 +82,7 @@ function doneFetch(data) {
     let h2 = document.createElement("H2");
     h2.innerHTML = "Matches";
     dataContainer.append(h2);
-    drawMatches(data.matches,"matches",null,{isSeason:false,compColumn:true,focusPlayer:params.who});
+    drawMatches(data.matches,"matches",null,{isSeason:false,compColumn:true,focusPlayer:params.who.toUpperCase()});
     window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches');
 
     if ( window.dataKeySet.length !== 0 ) {
@@ -102,7 +102,7 @@ function drawCapGoals(total,pos) {
 
 
 function getFolder(name) {
-    const c = name[0];
+    const c = name[0].toUpperCase();
     let range;
     if (c <= 'G') range = 'A-G';
     else if (c <= 'N') range = 'H-N';
@@ -117,6 +117,6 @@ function getPosition(pos) {
         case "GK": pos = "Goalkeeper"; break;
         case "FW": pos = "Forward"; break;
     }
-    
+
     return pos;
 }

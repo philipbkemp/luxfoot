@@ -1,0 +1,28 @@
+{
+    "name": [
+        "Jean-Pierre",
+        "Weisgerber"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "FW",
+    "born": "1905-03-28",
+    "died": "1994-04-04",
+    "matches": [{
+        "category": "M",
+        "season": "1924-25",
+        "date": "1924-05-29",
+        "competition": {"type":"international","international":"Olympics", "edition": "1924", "round": "R16"},
+        "home": "_ITA",
+        "away": "_LUX",
+        "score": "2-0",
+        "result": "L",
+        "players": [
+            {"player":"WEIS_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}}
+        ]
+    }]
+}

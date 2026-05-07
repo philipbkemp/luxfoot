@@ -472,6 +472,12 @@ function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSerie
             grid[match.home][match.away] = match.score;
         }
 
+        let forceResultTo = "";
+        if ( match.declare ) {
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.declare`);
+            forceResultTo = match.declare;
+        }
+
         if ( season !== match.season ) {
             console.warn("inconsistent season value",season,match.season);
         }
@@ -513,10 +519,10 @@ function drawMatchesGrid(matches,keyPrefix,compType,compLevel,compName,compSerie
         expectedStandings[match.home].a += awayScore;
         expectedStandings[match.away].f += awayScore;
         expectedStandings[match.away].a += homeScore;
-        if ( homeScore > awayScore ) {
+        if ( homeScore > awayScore || forceResultTo === match.home ) {
             expectedStandings[match.home].w++;
             expectedStandings[match.away].l++;
-        } else if ( homeScore < awayScore ) {
+        } else if ( homeScore < awayScore || forceResultTo === match.away ) {
             expectedStandings[match.home].l++;
             expectedStandings[match.away].w++;
         } else {

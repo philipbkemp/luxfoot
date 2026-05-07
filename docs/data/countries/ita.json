@@ -1,0 +1,36 @@
+{
+    "name": "Italy",
+    "matches": {
+        "men": [{
+            "category": "M",
+            "season": "1924-25",
+            "date": "1924-05-29",
+            "competition": {"type":"international","international":"Olympics", "edition": "1924", "round": "R16"},
+            "home": "_ITA",
+            "away": "_LUX",
+            "score": "2-0",
+            "result": "L",
+            "goals": [
+                {"team":"_ITA","min":20,"player":"Baloncieri"},
+                {"team":"_ITA","min":38,"player":"Della Valle"}
+            ],
+            "stadium": "Stade Pershing",
+            "location": "Paris",
+            "country": "_FRA",
+            "attendance": 4254,
+            "players": [
+                {"player":"BAUS_ETI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"},"gk":true},
+                {"player":"KOLB_EMI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"KIRC_NIC","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"FEIE_PAU","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"KOET_JOS","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"SCHU_MAN","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"},"captain":true},
+                {"player":"WEBE_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"WEIS_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"KIEF_ALF","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"LANG_MAR","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"MASS_ALB","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}}
+            ]
+        }]
+    }
+}

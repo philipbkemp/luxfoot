@@ -1,0 +1,28 @@
+{
+    "name": [
+        "Étienne",
+        "Bausch"
+    ],
+    "total": {
+        "M": {
+            "caps": 1,
+            "goals": 0
+        }
+    },
+    "position": "GK",
+    "born": "1901-06-17",
+    "died": "1970-01-25",
+    "matches": [{
+        "category": "M",
+        "season": "1924-25",
+        "date": "1924-05-29",
+        "competition": {"type":"international","international":"Olympics", "edition": "1924", "round": "R16"},
+        "home": "_ITA",
+        "away": "_LUX",
+        "score": "2-0",
+        "result": "L",
+        "players": [
+            {"player":"BAUS_ETI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"},"gk":true}
+        ]
+    }]
+}

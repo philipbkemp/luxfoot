@@ -5,8 +5,10 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"UESH","w":10,"d":1,"l":3,"f":41,"a":19,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":1,"team":"UESH","w":5,"d":0,"l":1,"f":14,"a":3,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"},"playoff":"promotion_2","promoted":true},
         {"place":3,"team":"UESH","w":3,"d":2,"l":3,"f":29,"a":11,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
+        {"place":7,"team":"UESH","w":5,"d":0,"l":9,"f":32,"a":48,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place": 2, "team": "UESH", "w": 10, "d": 0, "l":  4, "f": 53, "a": 27, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}, "promoted": true},
         {"place": 4, "team": "UESH", "w": 2, "d": 0, "l": 6, "f": 18, "a": 38, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
         {"gap": true},

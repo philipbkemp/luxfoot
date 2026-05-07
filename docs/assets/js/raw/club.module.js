@@ -226,6 +226,12 @@ function drawMatchRecord(matches) {
             }
         }
 
+        let forceWinTo = "";
+        if ( m.declare ) {
+            forceWinTo = m.declare;
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.declare')
+        }
+
         const score = m.score.split("-");
         let homeScoreParsed = Number.parseInt(score[0]);
         let awayScoreParsed = Number.parseInt(score[1]);
@@ -235,9 +241,9 @@ function drawMatchRecord(matches) {
             if ( m.home === club ) {
                 opponents[opp].f += homeScore;
                 opponents[opp].a += awayScore;
-                if ( homeScore > awayScore ) {
+                if ( homeScore > awayScore || forceWinTo === club ) {
                     opponents[opp].w++;
-                } else if ( homeScore < awayScore ) {
+                } else if ( homeScore < awayScore || (forceWinTo!=="" && forceWinTo!==club) ) {
                     opponents[opp].l++;
                 } else if ( homeScore === awayScore) {
                     opponents[opp].d++;
@@ -245,9 +251,9 @@ function drawMatchRecord(matches) {
             } else if ( m.away === club ) {
                 opponents[opp].f += awayScore;
                 opponents[opp].a += homeScore;
-                if ( homeScore > awayScore ) {
+                if ( homeScore > awayScore || (forceWinTo!=="" && forceWinTo!==club) ) {
                     opponents[opp].l++;
-                } else if ( homeScore < awayScore ) {
+                } else if ( homeScore < awayScore || forceWinTo === club ) {
                     opponents[opp].w++;
                 } else if ( homeScore === awayScore) {
                     opponents[opp].d++;
@@ -293,6 +299,10 @@ function drawMatchRecord(matches) {
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.score');
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.date');
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.forfeit');
+
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.aet');
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.season');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.competition');

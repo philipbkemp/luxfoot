@@ -17,6 +17,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":2,"team":"MANC","w":5,"d":0,"l":3,"f":21,"a":13,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":1,"team":"MANC","w":6,"d":1,"l":1,"f":20,"a":11,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"title_2_2"},
         {"place":2,"team":"MANC","w":4,"d":1,"l":3,"f":22,"a":20,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"MANC","w":1,"d":0,"l":13,"f":8,"a":47,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
@@ -26,6 +27,11 @@
         {"place":4, "team": "MANC", "w": 0, "d":  0, "l": 6, "f":  1, "a": 15, "season": "1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}, "pts_win":2}
     ],
     "matches": [
+        {"date":"1924-09-07","season":"1924-25","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Preliminary Round","round_code":"PR"},"home":"MANC","homeDivision":3,"away":"PRON","awayDivision":2,"score":"3-2"},
+		{"date":"1924-12-07","season":"1924-25","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"MANC","homeDivision":3,"away":"ECBT","awayDivision":2,"score":"6-3"},
+		{"season":"1924-25","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Quarter Final","round_code":"QF"},"home":"MANC","homeDivision":3,"away":"CPET","awayDivision":3,"score":"2-1"},
+		{"date":"1925-03-08","season":"1924-25","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Semi Final","round_code":"SF"},"home":"SPOR","homeDivision":1,"away":"MANC","awayDivision":3,"score":"2-0"},
+
         {"date":"1923-09-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home":"URUM","homeDivision":2,"away":"MANC","awayDivision":3,"score":"2-1"},
 
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"PRON","homeDivision":3,"away":"MANC","awayDivision":3,"score":"3-0","forfeit":true},

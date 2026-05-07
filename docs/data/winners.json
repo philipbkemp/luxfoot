@@ -11,7 +11,8 @@
             {"team":"JESH","seasons":["1920-21"]},
             {"team":"RACL","seasons":["1909-10"]},
             {"team":"RBDF","seasons":["1922-23"]},
-            {"team":"SCLX","seasons":["1910-11","1918-19"]}
+            {"team":"SCLX","seasons":["1910-11","1918-19"]},
+            {"team":"SPOR","seasons":["1924-25"]}
         ]
     },
     "cup_luxembourg": {
@@ -19,7 +20,8 @@
         "not_awarded": [],
         "winners": [
             {"team":"FOLA","seasons":["1922-23","1923-24"]},
-            {"team":"RACL","seasons":["1921-22"]}
+            {"team":"RACL","seasons":["1921-22"]},
+            {"team":"RBDF","seasons":["1924-25"]}
         ]
     }
 }

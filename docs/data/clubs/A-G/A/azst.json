@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":5,"team":"AZST","w":3,"d":1,"l":6,"f":13,"a":29,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":3,"team":"AZST","w":6,"d":1,"l":3,"f":40,"a":22,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"playoff":"promotion_3"}
     ]
 }

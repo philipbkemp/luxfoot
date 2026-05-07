@@ -371,6 +371,10 @@ function getPlayoffName(po) {
             poName = "Title decider (2. Division Series 2)";
             break;
 
+        case "title_3_2":
+            poName = "Title decider (3. Division Series 2)";
+            break;
+
         case "title_3_S":
             poName = "Title decider (3. Division Series South)";
             break;
@@ -623,8 +627,16 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                 }
 
                 let tdReplayScore = document.createElement("TD");
-                tdReplayScore.innerHTML = match.replay.score;
                 tdReplayScore.classList.add("replay-score");
+                if ( match.replay.forfeit ) {
+                    let tdScoreReplayFF = document.createElement("ABBR");
+                    tdScoreReplayFF.title = "Match forfeited";
+                    tdScoreReplayFF.innerHTML = match.replay.score;
+                    tdReplayScore.append(tdScoreReplayFF);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.forfeit`);
+                } else {
+                    tdReplayScore.innerHTML = match.replay.score;
+                }
                 trReplay.append(tdReplayScore);
 
                 if ( ! match.replay.away ) {

@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"BLVL","w":1,"d":1,"l":6,"f":12,"a":24,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"},"playoff":"relegation_2","relegated":true},
         {"place":2,"team":"BLVL","w":3,"d":0,"l":3,"f":8,"a":10,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
         {"place":4,"team":"BLVL","w":3,"d":0,"l":5,"f":14,"a":20,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
         {"place":5,"team":"BLVL","w":6,"d":1,"l":7,"f":35,"a":27,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},

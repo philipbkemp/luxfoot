@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":1,"team":"ADUD","w":6,"d":1,"l":1,"f":29,"a":8,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"promotion_2"},
         {"place":2,"team":"ADUD","w":6,"d":1,"l":1,"f":22,"a":9,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"title_2_2"},
         {"place":3,"team":"ADUD","w":4,"d":0,"l":4,"f":19,"a":17,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"ADUD","w":6,"d":2,"l":6,"f":30,"a":35,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},

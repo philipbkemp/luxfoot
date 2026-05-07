@@ -17,10 +17,13 @@ try {
 
 function doneFetch(data) {
     Object.keys(data).forEach(t=>{
-        if ( t.startsWith("_") && data[t].matches ) {
-            let thisCountry = data[t];
-            thisCountry.code = t.replace("_","");
-            countries.push(thisCountry);
+        if ( t.startsWith("_") ) {
+            let hasMatches = (typeof data[t].matches !== 'undefined') ? data[t].matches : true;
+            if ( hasMatches ) {
+                let thisCountry = data[t];
+                thisCountry.code = t.replace("_","");
+                countries.push(thisCountry);
+            }
         }
     });
 
