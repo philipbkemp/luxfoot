@@ -754,7 +754,8 @@
         "name": "US Feulen"
     },
     "ULUX": {
-        "name": "Union Luxembourg"
+        "name": "Union Luxembourg",
+        "level": -1
     },
     "UMRT": {
         "name": "US Mertert"

@@ -9,6 +9,7 @@
         "new_name": "STNG"
     }],
     "league": [
+        {"place":2,"team":"SPST","w":5,"d":0,"l":3,"f":19,"a":11,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":3,"team":"SPST","w":3,"d":1,"l":4,"f":12,"a":18,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":5,"team":"SPST","w":1,"d":0,"l":7,"f":8,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
     ]

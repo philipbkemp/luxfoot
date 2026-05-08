@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":5,"team":"STET","w":1,"d":1,"l":6,"f":12,"a":28,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"relegation_2","relegated":true},
         {"place":8,"team":"STET","w":3,"d":0,"l":11,"f":24,"a":50,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":3,"team":"STET","w":7,"d":5,"l":2,"f":23,"a":17,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"promotion_p"},
         {"place":8,"team":"STET","w":0,"d":0,"l":14,"f":10,"a":57,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},

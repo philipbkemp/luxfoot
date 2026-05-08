@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":3,"team":"FCOB","w":4,"d":0,"l":4,"f":19,"a":20,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":5,"team":"FCOB","missing":true,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"},"relegated":true},
         {"place":2,"team":"FCOB","w":3,"d":3,"l":2,"f":17,"a":15,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
         {"place":2,"team":"FCOB","w":11,"d":0,"l":3,"f":45,"a":20,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"},"promoted":true},

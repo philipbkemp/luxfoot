@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"SWFT","w":2,"d":1,"l":5,"f":11,"a":19,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":5,"team":"SWFT","w":1,"d":1,"l":6,"f":13,"a":36,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"relegation_2","relegated":true},
         {"place":2,"team":"SWFT","w":7,"d":2,"l":1,"f":55,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"promoted":true},
         {"place":4,"team":"SWFT","w":0,"d":1,"l":5,"f":8,"a":25,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},

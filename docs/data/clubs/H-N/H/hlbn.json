@@ -21,11 +21,7 @@
         "event": "CHAMPION"
     },{
         "season": "1925-26",
-        "event": "ABSORB",
-        "old_name": "JVRL"
-    },{
-        "season": "1944-45",
-        "event": "RENAME",
+        "event": "MERGE",
         "new_name": "ULUX"
     }],
     "league": [

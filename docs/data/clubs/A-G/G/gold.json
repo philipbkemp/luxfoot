@@ -10,6 +10,7 @@
         "new_name": "WLTZ"
     }],
     "league": [
+        {"place":4,"team":"GOLD","w":2,"d":3,"l":3,"f":15,"a":16,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
         {"place":5,"team":"GOLD","w":0,"d":1,"l":7,"f":8,"a":29,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"relegation_2"},
         {"place":3,"team":"GOLD","w":2,"d":1,"l":3,"f":12,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"playoff":"promotion_3","promoted":true},
         {"place":2,"team":"GOLD","w":1,"d":2,"l":1,"f":3,"a":4,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
