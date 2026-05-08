@@ -671,7 +671,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                 hasNotes = true;
                 tdNotes.innerHTML = match.stadium + ", " + match.location;
                 if ( match.country ) {
-                    tdNotes.innerHTML += " (" + allTeams[match.country].name;
+                    tdNotes.innerHTML += " (" + allTeams[match.country].name + ")";
                     window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.country`);
                 }
 

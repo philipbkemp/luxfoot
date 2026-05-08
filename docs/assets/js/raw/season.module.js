@@ -93,17 +93,17 @@ function doneFetch(data) {
         });
     }
 
-    if ( data.international ) {
-        window.dataKeySet = window.dataKeySet.filter(key => key !== 'international');
-        Object.keys(data.international).forEach(int=>{
-            drawInternational(int,data.international[int]);
-        });
-    }
-
     if ( data.cup ) {
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'cup');
         Object.keys(data.cup).forEach(cupData=>{
             drawCup(cupData,data.cup[cupData]);
+        });
+    }
+
+    if ( data.international ) {
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'international');
+        Object.keys(data.international).forEach(int=>{
+            drawInternational(int,data.international[int]);
         });
     }
 

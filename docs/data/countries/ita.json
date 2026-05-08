@@ -21,10 +21,10 @@
             "players": [
                 {"player":"BAUS_ETI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"},"gk":true},
                 {"player":"KOLB_EMI","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
-                {"player":"KIRC_NIC","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
+                {"player":"KIRS_NIC","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
                 {"player":"FEIE_PAU","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
                 {"player":"KOET_JOS","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
-                {"player":"SCHU_MAN","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"},"captain":true},
+                {"player":"SCHU_MAR","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"},"captain":true},
                 {"player":"WEBE_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
                 {"player":"WEIS_JEA","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
                 {"player":"KIEF_ALF","cap":{"competition":"Olympics","comp_edition":"1920","comp_round":"R1","opponent":"_ITA","date":"1924-05-29"}},
