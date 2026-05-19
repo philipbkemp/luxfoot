@@ -10,8 +10,10 @@
         "new_name": "WLTZ"
     }],
     "league": [
+        {"place":2,"team":"USND","w":6,"d":0,"l":2,"f":27,"a":11,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"playoff":"promotion_3"},
         {"place":3,"team":"USND","w":1,"d":3,"l":2,"f":10,"a":10,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":4,"team":"USND","w":3,"d":0,"l":5,"f":16,"a":20,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"gap":true},
         {"place":6,"team":"USND","w":0,"d":1,"l":9,"f":4,"a":41,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ],
     "matches": [

@@ -346,7 +346,10 @@ tr.is-promoted,
 td.match-iswin {
     background: #bedf7c;
 }
-tr.to-playoff--relegation_2 {
+tr.to-playoff--relegation,
+tr.to-playoff--relegation_2,
+tr.to-playoff--relegation_2_2,
+tr.to-playoff--relegation_2_3 {
     background: #e1928455;
 }
 tr.is-relegated,

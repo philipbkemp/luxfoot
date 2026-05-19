@@ -14,11 +14,28 @@
         "new_name": "RACE"
     }],
     "league": [
+        {"place":3,"team":"SPOR","w":6,"d":5,"l":3,"f":37,"a":25,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":2,"team":"SPOR","w":10,"d":1,"l":3,"f":27,"a":21,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":1,"team":"SPOR","w":9,"d":3,"l":2,"f":41,"a":14,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
         {"place":2,"team":"SPOR","w":9,"d":2,"l":3,"f":41,"a":24,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"home":"ULUX","away":"SPOR","score":"3-3","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"SPOR","score":"3-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"ULUX","score":"1-5","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"RBDF","score":"2-2","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"JESH","score":"6-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"FOLA","score":"4-3","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"RBPF","score":"5-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"ARIS","score":"5-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"PRON","score":"2-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"SPOR","score":"0-6","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"SPOR","score":"1-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"SPOR","score":"0-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ARIS","away":"SPOR","score":"2-2","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PRON","away":"SPOR","score":"3-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1926-11-07","season":"1926-27","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Quarter Final","round_code":"QR"},"home":"SPOR","homeDivision":1,"away":"JESH","awayDivision":1,"score":"1-2"},
+
         {"home":"RBDF","away":"SPOR","score":"2-3","season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"RBDF","score":"0-6","season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"FOLA","score":"2-0","season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},

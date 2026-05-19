@@ -1,0 +1,19 @@
+{
+    "name": "Jeunesse Wilwerdingen",
+    "history": [{
+        "season": "1925-26",
+        "event": "FOUNDED"
+    },{
+        "season": "1929-30",
+        "event": "DISSOLVED"
+    },{
+        "season": "1944-45",
+        "event": "REFOUNDED"
+    },{
+        "season": "1947-48",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":5,"team":"JWIL","w":2,"d":0,"l":6,"f":11,"a":23,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}}
+    ]
+}
