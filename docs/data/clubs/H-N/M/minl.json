@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"MINL","w":3,"d":1,"l":2,"f":10,"a":6,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":4,"team":"MINL","w":2,"d":1,"l":5,"f":14,"a":19,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"gap":true},
         {"place":1,"team":"MINL","w":6,"d":0,"l":0,"f":23,"a":1,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"removed":true,"note":"Withdrew"},

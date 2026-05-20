@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"URUM","w":7,"d":5,"l":2,"f":48,"a":24,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":3,"team":"URUM","w":9,"d":1,"l":4,"f":46,"a":27,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":2,"team":"URUM","w":4,"d":2,"l":2,"f":24,"a":14,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":7,"team":"URUM","w":2,"d":3,"l":9,"f":21,"a":33,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},

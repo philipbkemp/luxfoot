@@ -22,6 +22,7 @@
         "new_name": "DIFF"
     }],
     "league": [
+        {"place":3,"team":"RBDF","w":6,"d":3,"l":5,"f":41,"a":34,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":2,"team":"RBDF","w":7,"d":4,"l":3,"f":47,"a":21,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":1,"team":"RBDF","w":11,"d":0,"l":3,"f":52,"a":23,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
         {"place":5,"team":"RBDF","w":7,"d":2,"l":5,"f":36,"a":27,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -32,6 +33,24 @@
         {"place": 1, "team": "RBDF", "w": 4, "d": 5, "l": 1, "f": 20, "a": 13, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true}
     ],
     "matches": [
+        {"home":"SPOR","away":"RBDF","score":"4-2","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"RBDF","score":"5-0","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"SPOR","score":"1-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"SDUD","score":"6-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"RBPF","score":"1-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"JESH","score":"5-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"FOLA","score":"2-3","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"PROG","score":"4-0","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"RBDF","score":"3-2","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"RBDF","score":"2-4","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"RBDF","score":"1-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PROG","away":"RBDF","score":"7-2","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"RBDF","score":"4-7","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1927-11-06","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"RBDF","homeDivision":1,"away":"ASDF","awayDivision":2,"score":"3-0"},
+		{"date":"1927-12-04","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":2,"score":"0-0","replay":{"date":"1928-01-01","score":"3-1"}},
+		{"date":"1928-01-08","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"SDUD","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"1-0"},
+
         {"home":"ULUX","away":"RBDF","score":"1-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"ULUX","score":"5-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"SPOR","score":"3-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},

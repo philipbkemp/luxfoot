@@ -9,6 +9,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":7,"team":"RPDN","w":3,"d":2,"l":9,"f":27,"a":46,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":6,"team":"RPDN","w":2,"d":6,"l":6,"f":14,"a":38,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":2,"team":"RPDN","w":5,"d":0,"l":3,"f":27,"a":14,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"RPDN","w":2,"d":0,"l":6,"f":5,"a":21,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},

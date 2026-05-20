@@ -556,6 +556,17 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                         tdAway.classList.add("match-loser");
                     } else if ( homeReplayScoreParsed < awayReplayScoreParsed ) {
                         tdHome.classList.add("match-loser");
+                    } else if ( match.replay.replay ) {
+                        const secondReplayScore = match.replay.replay.score.split("-");
+                        let homeSecondReplayScoreParsed = Number.parseInt(secondReplayScore[0]);
+                        let awaySecondReplayScoreParsed = Number.parseInt(secondReplayScore[1]);
+                        if ( homeSecondReplayScoreParsed > awaySecondReplayScoreParsed ) {
+                            tdAway.classList.add("match-loser");
+                        } else if ( homeSecondReplayScoreParsed < awaySecondReplayScoreParsed ) {
+                            tdHome.classList.add("match-loser");
+                        } else {
+                            console.warn("No winner after second replay?",match);
+                        }
                     } else {
                         console.warn("No winner after replay?",match);
                     }
@@ -617,6 +628,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             }
 
             let trReplay = null;
+            let trSecondReplay = null;
             if ( match.replay ) {
                 window.dataKeySet = [...window.dataKeySet,...Object.keys(match.replay).map(key => `${keyPrefix}.replay.${key}`)];
                 hasDates = true;
@@ -638,6 +650,9 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                     tdScoreReplayFF.innerHTML = match.replay.score;
                     tdReplayScore.append(tdScoreReplayFF);
                     window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.forfeit`);
+                } else if ( match.replay.aet ) {
+                    tdReplayScore.innerHTML = match.replay.score + " (aet)";
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.aet`);
                 } else {
                     tdReplayScore.innerHTML = match.replay.score;
                 }
@@ -654,6 +669,48 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.date`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.score`);
+
+                if ( match.replay.replay ) {
+                    window.dataKeySet = [...window.dataKeySet,...Object.keys(match.replay.replay).map(key => `${keyPrefix}.replay.replay.${key}`)];
+                    hasDates = true;
+
+                    trSecondReplay = document.createElement("TR");
+                    let tdSecondReplayDate = document.createElement("TD");
+                    tdSecondReplayDate.innerHTML = match.replay.replay.date ? match.replay.replay.date : "Second Replay";
+                    trSecondReplay.append(tdSecondReplayDate);
+
+                    if ( ! match.replay.replay.home ) {
+                        tdHome.setAttribute("rowspan",3);
+                    }
+
+                    let tdSecondReplayScore = document.createElement("TD");
+                    tdSecondReplayScore.classList.add("replay-score");
+                    if ( match.replay.replay.forfeit ) {
+                        let tdScoreRSecondeplayFF = document.createElement("ABBR");
+                        tdSecondScoreReplayFF.title = "Match forfeited";
+                        tdSecondScoreReplayFF.innerHTML = match.replay.replay.score;
+                        tdSecondReplayScore.append(tdSecondScoreReplayFF);
+                        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay.forfeit`);
+                    } else if ( match.replay.replay.aet ) {
+                        tdSecondReplayScore.innerHTML = match.replay.replay.score + " (aet)";
+                        window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay.aet`);
+                    } else {
+                        tdSecondReplayScore.innerHTML = match.replay.replay.score;
+                    }
+                    trSecondReplay.append(tdSecondReplayScore);
+
+                    if ( ! match.replay.replay.away ) {
+                        tdAway.setAttribute("rowspan",3);
+                    }
+
+                    let tdSecondReplayNotes = document.createElement("TD");
+                    tdSecondReplayNotes.innerHTML = "";
+                    trSecondReplay.append(tdSecondReplayNotes);
+
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay.date`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay.score`);
+                }
             }
 
             if ( match.note ) {
@@ -668,6 +725,9 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             table.append(tr);
             if ( match.replay ) {
                 table.append(trReplay);
+                if ( match.replay.replay ) {
+                    table.append(trSecondReplay);
+                }
             }
 
             if ( hasIntData ) {

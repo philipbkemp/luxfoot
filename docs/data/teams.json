@@ -194,13 +194,15 @@
         "name": "Etoile Bleu Dudelange"
     },
     "EGWM": {
-        "name": "Egalité Weimerskirch"
+        "name": "Egalité Weimerskirch",
+        "level": -1
     },
     "EHLR": {
         "name": "FC Ehlerange"
     },
     "EITZ": {
-        "name": "Excelsior Itzig"
+        "name": "Excelsior Itzig",
+        "level": -1
     },
     "ENFM": {
         "name": "Enfants de la Source Mondorf",

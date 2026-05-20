@@ -9,10 +9,28 @@
         "event": "CHAMPION"
     }],
     "league": [
+        {"place":8,"team":"ULUX","w":1,"d":3,"l":10,"f":25,"a":47,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":1,"team":"ULUX","w":9,"d":3,"l":2,"f":41,"a":25,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
         {"place":5,"team":"ULUX","w":7,"d":0,"l":7,"f":36,"a":24,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"home":"SPOR","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"ULUX","score":"5-3","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"ULUX","score":"3-0","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"},"note":"Replayed after original 2-5 score"},
+        {"home":"JESH","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"ULUX","score":"1-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PROG","away":"ULUX","score":"2-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"SPOR","score":"2-4","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"SDUD","score":"2-4","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"RBDF","score":"4-7","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"RBPF","score":"3-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"JESH","score":"1-3","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"FOLA","score":"2-2","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"PROG","score":"3-3","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1927-12-04","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"ULUX","homeDivision":1,"away":"PROG","awayDivision":1,"score":"4-0"},
+		{"date":"1928-01-08","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"SPOR","homeDivision":1,"away":"ULUX","awayDivision":1,"score":"12-0"},
+
         {"home":"ULUX","away":"RBDF","score":"1-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"ULUX","away":"SPOR","score":"3-3","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"ULUX","away":"JESH","score":"7-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},

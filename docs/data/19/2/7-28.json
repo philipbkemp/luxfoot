@@ -1,0 +1,193 @@
+{
+    "season": "1927-28",
+    "next": "1928-29",
+    "prev": "1926-27",
+    "league": [{
+        "level": 1,
+        "name": "1. Division",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "SPOR", "w": 11, "d": 2, "l":  1, "f": 53, "a": 20, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}, "champion": true},
+            {"place": 2, "team": "SDUD", "w":  8, "d": 0, "l":  6, "f": 34, "a": 27, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 3, "team": "RBDF", "w":  6, "d": 3, "l":  5, "f": 41, "a": 34, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 4, "team": "RBPF", "w":  6, "d": 2, "l":  6, "f": 25, "a": 23, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 5, "team": "JESH", "w":  6, "d": 2, "l":  6, "f": 37, "a": 44, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 6, "team": "FOLA", "w":  4, "d": 5, "l":  5, "f": 33, "a": 38, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}},
+            {"place": 7, "team": "PROG", "w":  5, "d": 1, "l":  8, "f": 29, "a": 44, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}, "relegated": true},
+            {"place": 8, "team": "ULUX", "w":  1, "d": 3, "l": 10, "f": 25, "a": 47, "pts_win": 2, "season": "1927-28", "competition":{"type":"league","level": 1, "league": "1. Division"}, "relegated": true}
+        ],
+        "matches": [
+            {"home":"SPOR","away":"SDUD","score":"4-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"RBDF","score":"4-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"RBPF","score":"2-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"JESH","score":"4-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"FOLA","score":"3-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"PROG","score":"7-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SPOR","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"SPOR","score":"1-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"RBDF","score":"5-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"RBPF","score":"2-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"JESH","score":"5-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"FOLA","score":"4-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"SDUD","away":"PROG","score":"0-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"},"note":"Replayed after original 2-1 score"},
+            {"home":"SDUD","away":"ULUX","score":"5-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"SPOR","score":"1-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"SDUD","score":"6-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"RBPF","score":"1-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"JESH","score":"5-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"FOLA","score":"2-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"PROG","score":"4-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBDF","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"SPOR","score":"0-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"SDUD","score":"2-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"RBDF","score":"3-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"JESH","score":"5-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"FOLA","score":"1-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"PROG","score":"2-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"RBPF","away":"ULUX","score":"3-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"},"note":"Replayed after original 2-5 score"},
+            {"home":"JESH","away":"SPOR","score":"4-4","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"SDUD","score":"2-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"RBDF","score":"2-4","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"RBPF","score":"2-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"FOLA","score":"4-4","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"PROG","score":"5-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"JESH","away":"ULUX","score":"4-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"SPOR","score":"2-7","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"SDUD","score":"2-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"RBDF","score":"1-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"RBPF","score":"1-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"JESH","score":"4-6","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"PROG","score":"6-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"FOLA","away":"ULUX","score":"1-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"PROG","away":"SPOR","score":"1-6","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"PROG","away":"SDUD","score":"0-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"PROG","away":"RBDF","score":"7-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"PROG","away":"RBPF","score":"2-4","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"PROG","away":"JESH","score":"3-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"PROG","away":"FOLA","score":"3-0","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"},"forfeit":true},
+            {"home":"PROG","away":"ULUX","score":"2-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"SPOR","score":"2-4","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"SDUD","score":"2-4","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"RBDF","score":"4-7","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"RBPF","score":"3-1","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"JESH","score":"1-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"FOLA","score":"2-2","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}},
+            {"home":"ULUX","away":"PROG","score":"3-3","season":"1927-28","competition":{"type":"league","level": 1,"league": "1. Division"}}
+        ]
+    },{
+        "level": 2,
+        "name": "The Promotion",
+        "pts_win": 2,
+        "standings": [
+            {"place": 1, "team": "ASDF", "w": 11, "d": 0, "l":  3, "f": 53, "a": 18, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
+            {"place": 2, "team": "PRON", "w":  9, "d": 3, "l":  2, "f": 61, "a": 20, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"},"playoff":"promotion_p","promoted":true},
+            {"place": 3, "team": "ARIS", "w": 10, "d": 1, "l":  3, "f": 51, "a": 27, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"},"playoff":"promotion_p"},
+            {"place": 4, "team": "NSCH", "w":  8, "d": 1, "l":  5, "f": 38, "a": 36, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 5, "team": "CPET", "w":  6, "d": 2, "l":  6, "f": 32, "a": 48, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 6, "team": "USDD", "w":  4, "d": 1, "l":  9, "f": 47, "a": 37, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"}},
+            {"place": 7, "team": "MANC", "w":  2, "d": 0, "l": 12, "f": 17, "a": 65, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true},
+            {"place": 8, "team": "YBDK", "w":  2, "d": 0, "l": 12, "f": 10, "a": 58, "pts_win": 2, "season": "1927-28", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "relegated": true}
+        ]
+    },{
+        "level": 3,
+        "name": "2. Division",
+        "pts_win": 2,
+        "series": [{
+            "serie": 1,
+            "name": "Series 1",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "SWFT", "w": 13, "d": 0, "l":  1, "f": 64, "a": 20, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}, "promoted": true},
+                {"place": 2, "team": "ETZE", "w": 11, "d": 0, "l":  3, "f": 52, "a": 23, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 3, "team": "AVBG", "w":  8, "d": 1, "l":  5, "f": 49, "a": 40, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 4, "team": "ASLX", "w":  6, "d": 0, "l":  8, "f": 35, "a": 50, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 5, "team": "UNAS", "w":  5, "d": 1, "l":  8, "f": 35, "a": 45, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 6, "team": "GOLD", "w":  5, "d": 0, "l":  9, "f": 38, "a": 43, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 7, "team": "RPDN", "w":  3, "d": 2, "l":  9, "f": 27, "a": 46, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}},
+                {"place": 8, "team": "OYMP", "w":  3, "d": 0, "l": 11, "f": 14, "a": 47, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 1, "league": "2. Division Series 1"}, "relegated": true}
+            ]
+        },{
+            "serie": 2,
+            "name": "Series 2",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "ADUD", "w": 11, "d": 3, "l":  0, "f": 68, "a": 28, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}, "promoted": true},
+                {"place": 2, "team": "URUM", "w":  7, "d": 5, "l":  2, "f": 48, "a": 24, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 3, "team": "JKYL", "w":  7, "d": 2, "l":  5, "f": 40, "a": 32, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 4, "team": "CROD", "w":  5, "d": 5, "l":  4, "f": 30, "a": 30, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 5, "team": "CSHL", "w":  5, "d": 2, "l":  7, "f": 31, "a": 38, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 6, "team": "STET", "w":  3, "d": 5, "l":  6, "f": 31, "a": 38, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 7, "team": "UESH", "w":  2, "d": 4, "l":  8, "f": 28, "a": 40, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}},
+                {"place": 8, "team": "ESLX", "w":  2, "d": 2, "l": 10, "f": 18, "a": 64, "pts_win": 2, "season": "1927-28", "competition":{"type":"league_series","level": 3, "series": 2, "league": "2. Division Series 2"}, "relegated": true}
+            ]
+        }]
+    },{
+        "level": 4,
+        "name": "3. Division",
+        "pts_win": 2,
+        "series": [{
+            "serie": 1,
+            "name": "Series 1",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "USND", "w": 5, "d": 1, "l": 0, "f": 20, "a":  4, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}, "promoted": true},
+                {"place": 2, "team": "MINL", "w": 3, "d": 1, "l": 2, "f": 10, "a":  6, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}},
+                {"place": 3, "team": "MARM", "w": 3, "d": 0, "l": 3, "f": 13, "a": 11, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}},
+                {"place": 4, "team": "JWIL", "w": 0, "d": 0, "l": 6, "f":  4, "a": 26, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series 1"}}
+            ]
+        },{
+            "serie": 2,
+            "name": "Series 2",
+            "pts_win": 2,
+            "standings": [
+                {"place": 1, "team": "SPST", "w": 7, "d": 0, "l": 1, "f": 29, "a": 11, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}, "promoted": true},
+                {"place": 2, "team": "EGWM", "w": 5, "d": 0, "l": 3, "f": 32, "a": 23, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}, "promoted": true},
+                {"place": 3, "team": "JHTC", "w": 4, "d": 0, "l": 4, "f": 35, "a": 26, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}},
+                {"place": 4, "team": "WALF", "w": 4, "d": 0, "l": 4, "f": 23, "a": 22, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}},
+                {"place": 5, "team": "EITZ", "w": 0, "d": 0, "l": 8, "f": 13, "a": 50, "pts_win": 2, "season": "1927-28", "competition": {"type":"league_series","level": 4, "series": 2, "league": "3. Division Series 2"}}
+            ]
+        }]
+    }],
+    "playoffs": {
+        "promotion_p": {
+            "matches": [
+                {"home":"PRON","away":"ARIS","score":"4-0","season":"1927-28","competition":{"type":"playoff","playoff":"promotion_p"},"outcome":"PRON relegated"}
+            ]
+        }
+    },
+    "cup": {
+        "luxembourg": {
+            "name": "Luxembourg Cup",
+            "rounds": [{
+                "name": "Preliminary round",
+                "matches": [
+                    {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round", "round_code":"PR"},"home": "MANC", "homeDivision": 2,"away": "PROG", "awayDivision": 1,"score":"1-8"},
+                    {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round", "round_code":"PR"},"home": "RBPF", "homeDivision": 1,"away": "PRON", "awayDivision": 2,"score":"0-3"},
+                    {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round", "round_code":"PR"},"home": "RBDF", "homeDivision": 1,"away": "ASDF", "awayDivision": 2,"score":"3-0"},
+                    {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round", "round_code":"PR"},"home": "CPET", "homeDivision": 2,"away": "FOLA", "awayDivision": 1,"score":"1-5"},
+                    {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round", "round_code":"PR"},"home": "SDUD", "homeDivision": 1,"away": "SWFT", "awayDivision": 3,"score":"8-2"},
+                    {"date":"1927-11-06", "season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round", "round_code":"PR"},"home": "ARIS", "homeDivision": 2,"away": "SPOR", "awayDivision": 1,"score":"0-1"}
+                ]
+            },{
+                "name": "Quarter Final",
+                "matches": [
+                    {"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home": "FOLA", "homeDivision": 1,"away": "SDUD", "awayDivision": 1,"score":"0-3"},
+                    {"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home": "ULUX", "homeDivision": 1,"away": "PROG", "awayDivision": 1,"score":"4-0"},
+                    {"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home": "JESH", "homeDivision": 1,"away": "SPOR", "awayDivision": 1,"score":"1-1","replay":{"date":"1928-01-01","score":"1-3"}},
+                    {"date":"1927-12-04","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home": "RBDF", "homeDivision": 1,"away": "PRON", "awayDivision": 2,"score":"0-0","replay":{"date":"1928-01-01","score":"3-1"}}
+                ]
+            },{
+                "name": "Semi Final",
+                "matches": [
+                    {"date":"1928-01-08","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home": "SPOR", "homeDivision": 1,"away": "ULUX", "awayDivision": 1,"score":"12-0"},
+                    {"date":"1928-01-08","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home": "SDUD", "homeDivision": 1,"away": "RBDF", "awayDivision": 1,"score":"1-0"}
+                ]
+            },{
+                "name": "Final",
+                "matches": [
+                    {"date":"1928-03-18","season": "1927-28","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"F","round":"Final"},"home": "SPOR", "homeDivision": 1,"away": "SDUD", "awayDivision": 1,"score":"2-2","aet":true,"replay":{"date":"1928-04-29","score":"3-3","aet":true,"replay":{"date":"1928-05-17","score":"5-2"}}}
+                ]
+            }]
+        }
+    }
+}

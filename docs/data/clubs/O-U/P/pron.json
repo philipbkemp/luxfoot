@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"PRON","w":9,"d":3,"l":2,"f":61,"a":20,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"promotion_p","promoted":true},
         {"place":8,"team":"PRON","w":3,"d":0,"l":11,"f":22,"a":49,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":2,"team":"PRON","w":9,"d":3,"l":2,"f":42,"a":18,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":6,"team":"PRON","w":5,"d":2,"l":7,"f":29,"a":34,"pts_win":2,"season":"1924-25","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -16,6 +17,9 @@
         {"place": 2, "team": "PRON", "w": 4, "d": 3, "l": 1, "f": 19, "a":  9, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "playoff": "promotion_3"}
     ],
     "matches": [
+        {"date":"1927-11-06","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"RBPF","homeDivision":1,"away":"PRON","awayDivision":2,"score":"0-3"},
+		{"date":"1927-12-04","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":2,"score":"0-0","replay":{"date":"1928-01-01","score":"3-1"}},
+
         {"home":"ULUX","away":"PRON","score":"2-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"PRON","score":"8-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"PRON","score":"2-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
