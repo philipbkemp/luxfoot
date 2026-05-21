@@ -628,7 +628,8 @@
         "name": "Red Star Merl/Belair"
     },
     "RSML": {
-        "name": "Red Star Merl"
+        "name": "Red Star Merl",
+        "level": -1
     },
     "RSSW": {
         "name": "Red Star Sandweiler",

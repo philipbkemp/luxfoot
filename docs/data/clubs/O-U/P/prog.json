@@ -9,6 +9,7 @@
         "new_name": "YGGC"
     }],
     "league": [
+        {"place":4,"team":"PROG","w":7,"d":1,"l":6,"f":42,"a":31,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":7,"team":"PROG","w":5,"d":1,"l":8,"f":29,"a":44,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":2,"team":"PROG","w":9,"d":2,"l":3,"f":42,"a":27,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":4,"team":"PROG","w":6,"d":4,"l":4,"f":45,"a":35,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -20,6 +21,8 @@
         {"place": 1, "team": "PROG", "w": 8, "d": 3, "l":  1, "f": 34, "a": 11, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true}
     ],
     "matches": [
+        {"date":"1928-10-07","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"PROG","homeDivision":2,"away":"ARIS","awayDivision":2,"score":"1-1","replay":{"date":"1928-11-04","score":"2-3"}},
+
         {"home":"SPOR","away":"PROG","score":"7-2","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SDUD","away":"PROG","score":"0-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"},"note":"Replayed after original 2-1 score"},
         {"home":"RBDF","away":"PROG","score":"4-0","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},

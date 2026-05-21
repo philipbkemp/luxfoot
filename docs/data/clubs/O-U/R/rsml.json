@@ -1,0 +1,15 @@
+{
+    "name": "Red Star Merl",
+    "founded": "1927-04-09",
+    "history": [{
+        "season": "1926-27",
+        "event": "FOUNDED"
+    },{
+        "season": "1969-70",
+        "event": "RENAME",
+        "new_name":"RSMB"
+    }],
+    "league": [
+        {"place":6,"team":"RSML","w":1,"d":3,"l":6,"f":22,"a":33,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}}
+    ]
+}

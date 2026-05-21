@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":2,"team":"USDD","w":9,"d":2,"l":3,"f":50,"a":22,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":6,"team":"USDD","w":4,"d":1,"l":9,"f":47,"a":37,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":4,"team":"USDD","w":4,"d":5,"l":5,"f":35,"a":39,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":6,"team":"USDD","w":5,"d":0,"l":9,"f":31,"a":47,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -22,6 +23,9 @@
         {"place":2, "team": "USDD", "w": 0, "d": 0, "l": 2, "f":  2, "a": 12, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}, "pts_win":2}
     ],
     "matches": [
+        {"date":"1928-10-07","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"USDD","homeDivision":2,"away":"CROD","awayDivision":3,"score":"3-0","forfeit":true},
+		{"date":"1928-12-02","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"JESH","homeDivision":1,"away":"USDD","awayDivision":2,"score":"4-4","replay":{"date":"1929-02-03","score":"3-2"}},
+
         {"home":"SPOR","away":"USDD","score":"9-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SDUD","away":"USDD","score":"10-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"JESH","away":"USDD","score":"7-0","season":"1924-25","competition":{"type":"league","level":1,"league":"1. Division"}},

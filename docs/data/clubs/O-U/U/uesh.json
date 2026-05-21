@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"UESH","w":9,"d":2,"l":3,"f":38,"a":17,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":7,"team":"UESH","w":2,"d":4,"l":8,"f":28,"a":40,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"UESH","w":2,"d":1,"l":11,"f":22,"a":60,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":8,"team":"UESH","w":1,"d":3,"l":10,"f":17,"a":58,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
@@ -20,6 +21,9 @@
         {"place":1, "team":"UESH", "w":2, "d":0, "l":0, "f":7, "a":3, "season": "1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}, "pts_win":2}
     ],
     "matches": [
+        {"date":"1928-10-07","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"UESH","homeDivision":3,"away":"JHTC","awayDivision":4,"score":"5-0"},
+		{"date":"1928-12-02","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"SDUD","homeDivision":1,"away":"UESH","awayDivision":3,"score":"2-0"},
+
         {"home":"RBDF","away":"UESH","score":"7-0","season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"UESH","score":"0-0","season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"FOLA","away":"UESH","score":"3-0","season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},

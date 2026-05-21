@@ -14,6 +14,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":5,"team":"JWIL","w":2,"d":1,"l":7,"f":23,"a":51,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}},
         {"place":4,"team":"JWIL","w":0,"d":0,"l":6,"f":4,"a":26,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":5,"team":"JWIL","w":2,"d":0,"l":6,"f":11,"a":23,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}}
     ]

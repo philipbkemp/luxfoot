@@ -16,6 +16,7 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":6,"team":"RBPF","w":4,"d":5,"l":5,"f":20,"a":25,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":4,"team":"RBPF","w":6,"d":2,"l":6,"f":25,"a":23,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":6,"team":"RBPF","w":3,"d":5,"l":6,"f":14,"a":26,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":6,"team":"RBPF","w":4,"d":3,"l":7,"f":17,"a":26,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -26,6 +27,23 @@
         {"place": 1, "team": "RBPF", "w": 8, "d": 0, "l": 2, "f": 37, "a": 16, "pts_win": 2, "season": "1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true}
     ],
     "matches": [
+        {"home":"SPOR","away":"RBPF","score":"1-1","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"RBPF","score":"1-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBDF","away":"RBPF","score":"4-0","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"JESH","away":"RBPF","score":"2-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PRON","away":"RBPF","score":"1-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"SPOR","score":"2-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"FOLA","score":"1-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"RBDF","score":"0-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"JESH","score":"1-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"PRON","score":"2-2","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"ASDF","score":"2-0","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"SDUD","score":"2-0","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ASDF","away":"RBPF","score":"3-0","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"},"forfeit":true},
+        {"home":"SDUD","away":"RBPF","score":"3-3","season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1928-12-02","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"RBPF","homeDivision":1,"away":"ADUD","awayDivision":2,"score":"4-0"},
+		{"date":"1929-03-10","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"RBPF","homeDivision":1,"away":"PRON","awayDivision":1,"score":"0-2"},
+
         {"home":"SPOR","away":"RBPF","score":"2-0","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SDUD","away":"RBPF","score":"2-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"RBPF","score":"1-1","season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},

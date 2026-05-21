@@ -10,6 +10,7 @@
         "new_name": "ASRB"
     }],
     "league": [
+        {"place":6,"team":"ASLX","w":4,"d":0,"l":10,"f":34,"a":60,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"ASLX","w":6,"d":0,"l":8,"f":35,"a":50,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":5,"team":"ASLX","w":4,"d":5,"l":5,"f":18,"a":31,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":3,"team":"ASLX","w":2,"d":3,"l":3,"f":18,"a":21,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":3,"league":"2. Division Series 3"}},
