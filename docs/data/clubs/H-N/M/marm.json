@@ -5,11 +5,16 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"MARM","w":5,"d":1,"l":6,"f":23,"a":51,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
+        {"gap":true},
         {"place":3,"team":"MARM","w":3,"d":0,"l":3,"f":13,"a":11,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":4,"team":"MARM","w":2,"d":1,"l":5,"f":13,"a":24,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":2,"team":"MARM","w":6,"d":0,"l":4,"f":28,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"},"promoted":true}
     ],
     "matches": [
+        {"date":"1929-09-01","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"MARM","homeDivision":4,"away":"UESH","awayDivision":3,"score":"1-2"},
+		{"date":"1929-11-03","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"MARM","homeDivision":4,"away":"ULUX","awayDivision":1,"score":"0-12"},
+
         {"place":4,"team":"MARM","w":4,"d":3,"l":3,"f":37,"a":24,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}},
 
         {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"NSCH","homeDivision":2,"away":"MARM","awayDivision":3,"score":"7-1"},

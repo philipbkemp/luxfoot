@@ -10,6 +10,7 @@
         "new_name":"RSMB"
     }],
     "league": [
+        {"place":1,"team":"RSML","w":9,"d":0,"l":1,"f":53,"a":9,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place":6,"team":"RSML","w":1,"d":3,"l":6,"f":22,"a":33,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}}
     ]
 }

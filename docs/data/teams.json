@@ -745,7 +745,8 @@
         "level": -1
     },
     "UBSH": {
-        "name": "US Bascharage"
+        "name": "US Bascharage",
+        "level": -1
     },
     "UEDF": {
         "name": "US Eschdorf"
@@ -809,7 +810,8 @@
         "level": 2
     },
     "WGLW": {
-        "name": "White-Green Lorentzweiler"
+        "name": "White-Green Lorentzweiler",
+        "level": -1
     },
     "WINC": {
         "name": "AS Wincrange"

@@ -10,6 +10,7 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":5,"team":"CROD","w":8,"d":0,"l":6,"f":70,"a":38,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"CROD","w":8,"d":3,"l":3,"f":38,"a":20,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"CROD","w":5,"d":5,"l":4,"f":30,"a":30,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":2,"team":"CROD","w":11,"d":1,"l":2,"f":78,"a":24,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},

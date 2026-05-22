@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":2,"team":"CPET","w":9,"d":2,"l":3,"f":53,"a":34,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":7,"team":"CPET","w":1,"d":3,"l":10,"f":18,"a":56,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":5,"team":"CPET","w":6,"d":2,"l":6,"f":32,"a":48,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":6,"team":"CPET","w":2,"d":5,"l":7,"f":23,"a":53,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"relegation_p"},
@@ -28,6 +29,10 @@
         {"place":6, "team": "CPET", "missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"date":"1929-09-01","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"CPET","homeDivision":3,"away":"URUM","awayDivision":2,"score":"4-3"},
+		{"date":"1929-11-03","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"CPET","homeDivision":3,"away":"FOLA","awayDivision":1,"score":"3-0","forfeit":true},
+		{"date":"1930-01-05","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"PRON","homeDivision":1,"away":"CPET","awayDivision":3,"score":"4-1"},
+
         {"date":"1928-10-07","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"SWFT","homeDivision":2,"away":"CPET","awayDivision":2,"score":"4-2"},
 		{"date":"1928-12-02","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"RBDF","homeDivision":1,"away":"CPET","awayDivision":2,"score":"13-2"},
 

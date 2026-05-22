@@ -1,0 +1,13 @@
+{
+    "name": "White-Green Lorentzweiler",
+    "history": [{
+        "season": "1927-28",
+        "event": "FOUNDED"
+    },{
+        "season": "1933-34",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":6,"team":"WGLW","w":4,"d":0,"l":8,"f":23,"a":29,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

@@ -7,6 +7,8 @@
         "old_name": "CECH"
     }],
     "league": [
+        {"place":2,"team":"DARE","w":6,"d":2,"l":2,"f":27,"a":9,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"gap":true},
         {"place":8,"team":"DARE","w":1,"d":3,"l":10,"f":11,"a":43,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"relegation_2_2","relegated":true},
         {"place":1,"team":"DARE","w":5,"d":1,"l":0,"f":33,"a":3,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"gap":true},

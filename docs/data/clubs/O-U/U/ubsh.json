@@ -1,0 +1,17 @@
+{
+    "name": "US Bascharage",
+    "history": [{
+        "season": "1927-28",
+        "event": "FOUNDED"
+    },{
+        "season":"1996-97",
+        "event": "MERGE",
+        "new_name": "KAER"
+    }],
+    "league": [
+        {"place":5,"team":"UBSH","w":4,"d":2,"l":6,"f":16,"a":25,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+    ],
+    "matches": [
+        {"date":"1929-09-01","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"UBSH","homeDivision":4,"away":"PROG","awayDivision":2,"score":"2-8"}
+    ]
+}
