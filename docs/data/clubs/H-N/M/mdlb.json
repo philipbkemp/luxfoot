@@ -1,0 +1,10 @@
+{
+    "name": "US Mondorf-les-Bains",
+    "history": [{
+        "season": "1915-16",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":5,"team":"MDLB","w":2,"d":1,"l":7,"f":23,"a":39,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}}
+    ]
+}

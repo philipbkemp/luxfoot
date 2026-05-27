@@ -356,6 +356,7 @@ function getPlayoffName(po) {
             break;
 
         case "relegation_p":
+        case "relegation_1":
         case "relegation_2":
             poName = "Relegation playoff";
             break;

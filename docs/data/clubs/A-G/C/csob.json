@@ -1,0 +1,10 @@
+{
+    "name": "CS Oberkorn",
+    "history": [{
+        "season": "1929-30",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":2,"team":"CSOB","w":7,"d":1,"l":2,"f":54,"a":19,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

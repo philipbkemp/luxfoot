@@ -9,13 +9,30 @@
         "event": "CHAMPION"
     }],
     "league": [
-        {"place":6,"team":"ULUX","w":5,"d":2,"l":7,"f":22,"a":40,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"place":1,"team":"ULUX","w":12,"d":0,"l":2,"f":66,"a":27,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
-        {"place":8,"team":"ULUX","w":1,"d":3,"l":10,"f":25,"a":47,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
-        {"place":1,"team":"ULUX","w":9,"d":3,"l":2,"f":41,"a":25,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
-        {"place":5,"team":"ULUX","w":7,"d":0,"l":7,"f":36,"a":24,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}}
+        {"place":5,"team":"ULUX","w": 5,"d":2,"l": 7,"f":28,"a":43,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"place":6,"team":"ULUX","w": 5,"d":2,"l": 7,"f":22,"a":40,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"place":1,"team":"ULUX","w":12,"d":0,"l": 2,"f":66,"a":27,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
+        {"place":8,"team":"ULUX","w": 1,"d":3,"l":10,"f":25,"a":47,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
+        {"place":1,"team":"ULUX","w": 9,"d":3,"l": 2,"f":41,"a":25,"pts_win":2,"season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
+        {"place":5,"team":"ULUX","w": 7,"d":0,"l": 7,"f":36,"a":24,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"home":"RBDF","away":"ULUX","score":"5-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"ULUX","score":"8-0","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PRON","away":"ULUX","score":"1-1","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"ULUX","score":"2-4","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"RBDF","score":"0-6","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"SPOR","score":"0-4","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"PRON","score":"1-3","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"FOLA","score":"3-5","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"NSCH","score":"3-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"SDUD","score":"6-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"RBPF","score":"1-1","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"ULUX","score":"3-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SDUD","away":"ULUX","score":"1-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"RBPF","away":"ULUX","score":"0-3","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"date":"1930-10-05","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"PROG","homeDivision":2,"away":"ULUX","awayDivision":1,"score":"4-1"},
+
         {"home":"FOLA","away":"ULUX","score":"2-0","season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"ULUX","score":"3-4","season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"ULUX","score":"1-2","season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},

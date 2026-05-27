@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place":5,"team":"CSHL","w":1,"d":1,"l":6,"f":13,"a":37,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":5,"team":"CSHL","w":3,"d":0,"l":7,"f":13,"a":39,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"gap":true},
         {"place":5,"team":"CSHL","w":5,"d":2,"l":7,"f":31,"a":38,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
@@ -18,12 +19,12 @@
         {"place":5,"team":"CSHL","w":1,"d":0,"l":7,"f":11,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":4,"team":"CSHL","w":3,"d":0,"l":5,"f":12,"a":24,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":6,"team":"CSHL","w":6,"d":1,"l":7,"f":19,"a":40,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
-        {"place": 4, "team": "CSHL", "w":  7, "d": 1, "l":  6, "f": 45, "a": 28, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
-        {"place": 4, "team": "CSHL", "w": 6, "d": 2, "l":  4, "f": 27, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
+        {"place":4,"team":"CSHL","w":7,"d":1,"l":6,"f":45,"a":28,"pts_win":2,"season":"1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
+        {"place":4,"team":"CSHL","w":6,"d":2,"l":4,"f":27,"a":22,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
         {"gap":true},
-        {"place": 5, "team": "CSHL", "w": 2, "d": 0, "l": 6, "f":  7, "a": 37, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2},
-        {"place":4, "team": "CSHL", "w": 2, "d": 1, "l": 5, "f": 15, "a": 28, "season": "1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win":2},
-        {"place":1,"team": "CSHL", "w": 2, "d": 1, "l": 1, "f": 14, "a":  9, "season": "1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "pts_win":2, "playoff":"promotion_3", "promoted": true}
+        {"place":5,"team":"CSHL","w":2,"d":0,"l":6,"f": 7,"a":37,"pts_win":2,"season":"1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}},
+        {"place":4,"team":"CSHL","w":2,"d":1,"l":5,"f":15,"a":28,"pts_win":2,"season":"1916-17", "competition": {"type":"league", "level":2, "league":"2. Division"}},
+        {"place":1,"team":"CSHL","w":2,"d":1,"l":1,"f":14,"a": 9,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "playoff":"promotion_3", "promoted": true}
     ],
     "matches": [
         {"date":"1923-09-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home":"CSHL","homeDivision":3,"away":"STET","awayDivision":2,"score":"1-4"},

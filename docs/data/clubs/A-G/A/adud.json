@@ -10,21 +10,26 @@
         "new_name": "F91D"
     }],
     "league": [
-        {"place":7,"team":"ADUD","w":5,"d":1,"l":8,"f":24,"a":45,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
-        {"place":6,"team":"ADUD","w":6,"d":0,"l":8,"f":32,"a":47,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"}},
+        {"place":1,"team":"ADUD","w":12,"d":2,"l":0,"f":68,"a":22,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
+        {"place":7,"team":"ADUD","w": 5,"d":1,"l":8,"f":24,"a":45,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
+        {"place":6,"team":"ADUD","w": 6,"d":0,"l":8,"f":32,"a":47,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":1,"team":"ADUD","w":11,"d":3,"l":0,"f":68,"a":28,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
-        {"place":4,"team":"ADUD","w":6,"d":2,"l":6,"f":43,"a":52,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
-        {"place":3,"team":"ADUD","w":2,"d":3,"l":3,"f":21,"a":17,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
-        {"place":1,"team":"ADUD","w":6,"d":1,"l":1,"f":29,"a":8,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"promotion_2"},
-        {"place":2,"team":"ADUD","w":6,"d":1,"l":1,"f":22,"a":9,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"title_2_2"},
-        {"place":3,"team":"ADUD","w":4,"d":0,"l":4,"f":19,"a":17,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
-        {"place":4,"team":"ADUD","w":6,"d":2,"l":6,"f":30,"a":35,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
-        {"place": 5, "team": "ADUD", "w":  6, "d": 2, "l":  6, "f": 25, "a": 48, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
-        {"place": 3, "team": "ADUD", "w": 4, "d": 1, "l": 3, "f": 22, "a": 25, "pts_win": 2, "season": "1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
-        {"place": 5, "team": "ADUD", "w": 2, "d": 0, "l": 6, "f":  9, "a": 28, "pts_win": 2, "season": "1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}},
-        {"place": 4, "team": "ADUD", "w": 1, "d": 0, "l": 5, "f":  7, "a": 21, "season": "1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}, "pts_win": 2}
+        {"place":4,"team":"ADUD","w": 6,"d":2,"l":6,"f":43,"a":52,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
+        {"place":3,"team":"ADUD","w": 2,"d":3,"l":3,"f":21,"a":17,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
+        {"place":1,"team":"ADUD","w": 6,"d":1,"l":1,"f":29,"a": 8,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"promotion_2"},
+        {"place":2,"team":"ADUD","w": 6,"d":1,"l":1,"f":22,"a": 9,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"title_2_2"},
+        {"place":3,"team":"ADUD","w": 4,"d":0,"l":4,"f":19,"a":17,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
+        {"place":4,"team":"ADUD","w": 6,"d":2,"l":6,"f":30,"a":35,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":3,"league":"2. Division"}},
+        {"place":5,"team":"ADUD","w": 6,"d":2,"l":6,"f":25,"a":48,"pts_win":2,"season":"1920-21", "competition": {"type":"league","level": 3, "league": "2. Division"}},
+        {"place":3,"team":"ADUD","w": 4,"d":1,"l":3,"f":22,"a":25,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series South"}},
+        {"place":5,"team":"ADUD","w": 2,"d":0,"l":6,"f": 9,"a":28,"pts_win":2,"season":"1918-19", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}},
+        {"place":4,"team":"ADUD","w": 1,"d":0,"l":5,"f": 7,"a":21,"pts_win":2,"season":"1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}}
     ],
     "matches": [
+        {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ADUD","homeDivision":3,"away":"UNAS","awayDivision":3,"score":"3-0","forfeit":true},
+		{"date":"1930-10-05","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"RBPF","homeDivision":1,"away":"ADUD","awayDivision":3,"score":"2-3"},
+		{"date":"1930-12-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"JESH","homeDivision":2,"away":"ADUD","awayDivision":3,"score":"7-2"},
+
         {"date":"1928-10-07","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"ULUX","homeDivision":2,"away":"ADUD","awayDivision":2,"score":"7-1"},
 		{"date":"1928-12-02","season":"1928-29","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"RBPF","homeDivision":1,"away":"ADUD","awayDivision":2,"score":"4-0"},
 

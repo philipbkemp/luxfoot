@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":4,"team":"WGLW","w":3,"d":1,"l":6,"f":29,"a":32,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":6,"team":"WGLW","w":4,"d":0,"l":8,"f":23,"a":29,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
     ]
 }

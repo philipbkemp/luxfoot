@@ -138,7 +138,8 @@
         "name": "Cessange FC"
     },
     "CGRV": {
-        "name": "CS Grevenmacher"
+        "name": "CS Grevenmacher",
+        "level": 3
     },
     "CLMC": {
         "name": "ES Clemency",
@@ -164,7 +165,8 @@
         "level": -1
     },
     "CSOB": {
-        "name": "CS Oberkorn"
+        "name": "CS Oberkorn",
+        "level": 3
     },
     "DAHL": {
         "name": "US Dahl"
@@ -488,7 +490,8 @@
         "name": "FC Mondercange"
     },
     "MDLB": {
-        "name": "US Mondorf-les-Bains"
+        "name": "US Mondorf-les-Bains",
+        "level": 1
     },
     "MERL": {
         "name": "US Merl",
@@ -651,7 +654,8 @@
         "name": "Sporting Bertrange"
     },
     "SCBT": {
-        "name": "SC Bettembourg"
+        "name": "SC Bettembourg",
+        "level": 2
     },
     "SCHF": {
         "name": "Schifflange 95"

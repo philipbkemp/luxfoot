@@ -270,6 +270,12 @@ function drawPlayoff(code,po,isShown,keyPrefix) {
         window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.standings`);
     }
 
+    if ( po.standings && po.matches ) {
+        let poMatches = document.createElement("H3");
+        poMatches.innerHTML = "Matches";
+        dataContainer.append(poMatches);
+    }
+
     if ( po.matches ) {
         drawMatches(po.matches,keyPrefix+".matches",{"type":"playoff","playoff":code},{season:season});
     }

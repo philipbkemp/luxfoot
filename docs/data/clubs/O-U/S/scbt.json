@@ -1,0 +1,12 @@
+{
+    "name": "SC Bettembourg",
+    "refounded": "1927-10-28",
+    "history": [{
+        "season": "1927-28",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":1,"team":"SCBT","w":9,"d":0,"l":1,"f":86,"a":10,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"playoff":"promotion_3","promoted":true},
+        {"place":2,"team":"SCBT","w":8,"d":1,"l":3,"f":44,"a":23,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

@@ -9,6 +9,7 @@
         "event": "CHAMPION"
     }],
     "league": [
+        {"place":4,"team":"JESH","w":8,"d":1,"l":5,"f":35,"a":28,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":8,"team":"JESH","w":3,"d":2,"l":9,"f":24,"a":41,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":4,"team":"JESH","w":6,"d":3,"l":5,"f":27,"a":27,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":5,"team":"JESH","w":6,"d":2,"l":6,"f":37,"a":44,"pts_win":2,"season":"1927-28","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -18,18 +19,23 @@
         {"place":4,"team":"JESH","w":6,"d":3,"l":5,"f":27,"a":25,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":4,"team":"JESH","w":6,"d":2,"l":6,"f":32,"a":36,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":3,"team":"JESH","w":8,"d":0,"l":6,"f":50,"a":30,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"place": 1, "team": "JESH", "w": 8, "d": 4, "l":  2, "f": 38, "a": 21, "pts_win": 2, "season": "1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "champion": true},
-        {"place": 5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 18, "a": 22, "pts_win": 2, "season": "1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
-        {"place": 3, "team": "JESH", "w": 4, "d": 4, "l": 2, "f": 24, "a": 12, "pts_win": 2, "season": "1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}},
-        {"place": 1, "team": "JESH", "w": 7, "d": 0, "l": 1, "f": 31, "a":  8, "season": "1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "pts_win": 2, "promoted": true},
-        {"place":6, "team": "JESH", "w":  3, "d": 0, "l": 7, "f": 18, "a": 26, "season": "1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2, "relegated": true},
-        {"place":5, "team": "JESH", "w": 3, "d": 1, "l": 6, "f": 15, "a": 34, "season": "1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}, "pts_win":2},
-        {"place":1, "team": "JESH", "w": 1, "d":  1, "l": 0, "f": 5, "a": 4, "season": "1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}, "pts_win":2, "playoff": "title_playoff|title"},
-        {"place":5, "team": "JESH", "missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"place":1,"team":"JESH","w":8,"d":4,"l":2,"f":38,"a":21,"pts_win":2,"season":"1920-21", "competition": {"type":"league","level": 1, "league": "1. Division"}, "champion": true},
+        {"place":5,"team":"JESH","w":3,"d":1,"l":6,"f":18,"a":22,"pts_win":2,"season":"1919-20", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"place":3,"team":"JESH","w":4,"d":4,"l":2,"f":24,"a":12,"pts_win":2,"season":"1918-19", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"place":1,"team":"JESH","w":7,"d":0,"l":1,"f":31,"a": 8,"pts_win":2,"season":"1917-18", "competition": {"type":"league", "level":2, "league":"2. Division"}, "promoted": true},
+        {"place":6,"team":"JESH","w":3,"d":0,"l":7,"f":18,"a":26,"pts_win":2,"season":"1916-17", "competition": {"type":"league", "level":1, "league":"1. Division"}, "relegated": true},
+        {"place":5,"team":"JESH","w":3,"d":1,"l":6,"f":15,"a":34,"pts_win":2,"season":"1915-16", "competition": {"type":"league", "level":1, "league":"1. Division"}},
+        {"place":1,"team":"JESH","w":1,"d":1,"l":0,"f": 5,"a": 4,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}, "playoff": "title_playoff|title"},
+        {"place":5,"team":"JESH","missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"gap": true},
-        {"place": 4, "team": "JESH", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
+        {"place":4,"team":"JESH","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ETZE","homeDivision":3,"away":"JESH","awayDivision":2,"score":"0-3"},
+		{"date":"1930-10-05","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"JESH","homeDivision":2,"away":"ASDF","awayDivision":2,"score":"6-2"},
+		{"date":"1930-12-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"JESH","homeDivision":2,"away":"ADUD","awayDivision":3,"score":"7-2"},
+		{"date":"1931-01-04","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home":"JESH","homeDivision":2,"away":"SPOR","awayDivision":1,"score":"1-5"},
+
         {"home":"FOLA","away":"JESH","score":"1-0","season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"JESH","score":"8-1","season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"JESH","score":"4-2","season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"}},
