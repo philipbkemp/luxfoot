@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place":5,"team":"CSHL","w":4,"d":1,"l":5,"f":28,"a":25,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"relegated":true},
         {"place":5,"team":"CSHL","w":1,"d":1,"l":6,"f":13,"a":37,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":5,"team":"CSHL","w":3,"d":0,"l":7,"f":13,"a":39,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"gap":true},

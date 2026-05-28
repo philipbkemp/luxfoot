@@ -9,6 +9,7 @@
         "new_name": "DIFF"
     }],
     "league": [
+        {"place":5,"team":"ASDF","w": 5,"d":5,"l":4,"f":25,"a":23,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":5,"team":"ASDF","w": 7,"d":1,"l":6,"f":32,"a":21,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":3,"team":"ASDF","w": 8,"d":2,"l":4,"f":37,"a":16,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":7,"team":"ASDF","w": 4,"d":3,"l":7,"f":22,"a":29,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
@@ -21,6 +22,9 @@
         {"place":4,"team":"ASDF","w": 8,"d":3,"l":3,"f":33,"a":19,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}}
     ],
     "matches": [
+        {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ASDF","homeDivision":2,"away":"USND","awayDivision":3,"score":"3-1"},
+		{"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"SDUD","homeDivision":2,"away":"ASDF","awayDivision":2,"score":"2-0"},
+
         {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ASDF","homeDivision":2,"away":"RSML","awayDivision":3,"score":"1-0"},
 		{"date":"1930-10-05","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"JESH","homeDivision":2,"away":"ASDF","awayDivision":2,"score":"6-2"},
 

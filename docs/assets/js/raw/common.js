@@ -273,6 +273,11 @@ function drawStandingsTable(standings,keyPrefix,compType,compLevel,compName,opti
                 tr.classList.add("is-relegated");
                 tdNotes.innerHTML += (tdNotes.innerHTML == "" ? "" : " | ") + "Relegated";
                 hasNotes = true;
+                if ( standing.relegated_twice ) {
+                    tr.classList.add("is-relegated-twice");
+                    tdNotes.innerHTML += " (twice)";
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.relegated_twice`);
+                }
             }
             if ( standing.promoted ) {
                 tr.classList.add("is-promoted");
@@ -355,6 +360,7 @@ function getPlayoffName(po) {
             poName = "Promotion playoff";
             break;
 
+        case "relegation":
         case "relegation_p":
         case "relegation_1":
         case "relegation_2":

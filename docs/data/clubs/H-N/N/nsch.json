@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place":5,"team":"NSCH","w": 5,"d":3,"l": 6,"f":30,"a":32,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":6,"team":"NSCH","w": 4,"d":2,"l": 8,"f":29,"a":41,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"relegation_1"},
         {"place":1,"team":"NSCH","w":11,"d":0,"l": 3,"f":63,"a":17,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":5,"team":"NSCH","w": 6,"d":3,"l": 5,"f":38,"a":32,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -27,6 +28,22 @@
         {"place":2,"team":"NSCH","w": 3,"d":0,"l": 1,"f":12,"a":12,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"home":"RBDF","away":"NSCH","score":"4-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"PRON","away":"NSCH","score":"1-3","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"SPOR","away":"NSCH","score":"3-1","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ULUX","away":"NSCH","score":"2-3","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"RBDF","score":"1-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"PRON","score":"1-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"SPOR","score":"5-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"ULUX","score":"2-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"FOLA","score":"2-1","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"USDD","score":"1-3","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"NSCH","away":"ARIS","score":"1-1","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"FOLA","away":"NSCH","score":"1-1","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"USDD","away":"NSCH","score":"6-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"home":"ARIS","away":"NSCH","score":"2-5","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
+        {"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"3rd Round","round_code":"R3"},"home":"URUM","homeDivision":2,"away":"NSCH","awayDivision":1,"score":"3-1"},
+
         {"home":"RBDF","away":"NSCH","score":"6-1","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"NSCH","score":"5-3","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"PRON","away":"NSCH","score":"3-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},

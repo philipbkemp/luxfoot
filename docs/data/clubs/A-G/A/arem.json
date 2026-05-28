@@ -1,0 +1,14 @@
+{
+    "name": "AS Remich",
+    "history": [{
+        "season": "1930-31",
+        "event": "FOUNDED"
+    },{
+        "season": "2009-10",
+        "event": "MERGE",
+        "new_name": "UNRB"
+    }],
+    "league": [
+        {"place":1,"team":"AREM","w":7,"d":1,"l":2,"f":30,"a":9,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

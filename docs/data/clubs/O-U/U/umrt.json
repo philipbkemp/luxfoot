@@ -1,0 +1,14 @@
+{
+    "name": "US Mertert",
+    "history": [{
+        "season": "1908-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1993-94",
+        "event": "MERGE",
+        "new_name": "UNMW"
+    }],
+    "league": [
+        {"place":3,"team":"UMRT","w":2,"d":0,"l":4,"f":17,"a":21,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"},"relegated":true}
+    ]
+}

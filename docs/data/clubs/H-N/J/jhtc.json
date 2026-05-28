@@ -15,6 +15,7 @@
         "new_name": "KAER"
     }],
     "league": [
+        {"place":2,"team":"JHTC","w":6,"d":1,"l": 3,"f":33,"a":25,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"place":3,"team":"JHTC","w":6,"d":1,"l": 3,"f":25,"a":24,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
         {"place":3,"team":"JHTC","w":7,"d":1,"l": 4,"f":37,"a":27,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"place":3,"team":"JHTC","w":4,"d":3,"l": 3,"f":29,"a":24,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}},
@@ -29,6 +30,8 @@
         {"place":3,"team":"JHTC","w":3,"d":3,"l": 2,"f":13,"a": 9,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}}
     ],
     "matches": [
+        {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"PROG","homeDivision":2,"away":"JHTC","awayDivision":4,"score":"4-0"},
+
         {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"JHTC","homeDivision":4,"away":"USDD","awayDivision":2,"score":"0-11"},
 
         {"date":"1929-09-01","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"JHTC","homeDivision":4,"away":"SWFT","awayDivision":3,"score":"3-5"},

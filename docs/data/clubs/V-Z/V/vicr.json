@@ -1,0 +1,20 @@
+{
+    "name": "Victoria Rosport",
+    "founded": "1928-10-01",
+    "history": [{
+        "season": "1928-29",
+        "event": "FOUNDED"
+    },{
+        "season": "1940-41",
+        "event": "DISSOLVED"
+    },{
+        "season": "1944-45",
+        "event": "REFOUNDED"
+    }],
+    "league": [
+        {"place":4,"team":"VICR","w":1,"d":0,"l":5,"f":10,"a":30,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"},"relegated":true}
+    ],
+    "matches": [
+        {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"TRIM","homeDivision":4,"away":"VICR","awayDivision":4,"score":"3-1"}
+    ]
+}

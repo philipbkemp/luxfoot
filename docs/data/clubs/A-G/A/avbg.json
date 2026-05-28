@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":8,"team":"AVBG","w": 1,"d":1,"l":12,"f":20,"a":64,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":1,"team":"AVBG","w":12,"d":0,"l": 2,"f":65,"a":20,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"promotion_2","promoted":true},
         {"place":4,"team":"AVBG","w": 5,"d":4,"l": 5,"f":45,"a":23,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":2,"team":"AVBG","w": 9,"d":2,"l": 3,"f":53,"a":16,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},

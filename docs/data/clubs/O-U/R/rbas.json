@@ -1,0 +1,14 @@
+{
+    "name": "Red Boys Aspelt",
+    "founded": "1927-04-10",
+    "history": [{
+        "season": "1927-28",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":4,"team":"RBAS","w":4,"d":2,"l":4,"f":27,"a":29,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"relegated":true}
+    ],
+    "matches": [
+        {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"MANC","homeDivision":4,"away":"RBAS","awayDivision":4,"score":"6-1"}
+    ]
+}

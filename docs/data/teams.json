@@ -25,7 +25,8 @@
         "name": "Arantia Berdorf"
     },
     "AREM": {
-        "name": "AS Remich"
+        "name": "AS Remich",
+        "level": -1
     },
     "ARIS": {
         "name": "Aris Bonnevoie",
@@ -572,7 +573,8 @@
         "name": "US Rambrouch"
     },
     "RBAS": {
-        "name": "Red Boys Aspelt"
+        "name": "Red Boys Aspelt",
+        "level": 3
     },
     "RBDF": {
         "name": "Red Boys Differdange",
@@ -767,7 +769,8 @@
         "level": -1
     },
     "UMRT": {
-        "name": "US Mertert"
+        "name": "US Mertert",
+        "level": -1
     },
     "UNAS": {
         "name": "UNA Strassen",
@@ -804,7 +807,8 @@
         "name": "US Waldbillig"
     },
     "VICR": {
-        "name": "Victoria Rosport"
+        "name": "Victoria Rosport",
+        "level": 1
     },
     "VINE": {
         "name": "Vinesca Ehnen"

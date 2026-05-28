@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"YBDK","w":6,"d":2,"l": 6,"f":36,"a":37,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":6,"team":"YBDK","w":4,"d":2,"l": 8,"f":33,"a":48,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":2,"team":"YBDK","w":7,"d":4,"l": 3,"f":37,"a":24,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":4,"team":"YBDK","w":6,"d":1,"l": 7,"f":32,"a":33,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
@@ -24,6 +25,8 @@
         {"place":1,"team":"YBDK","w":2,"d":0,"l": 0,"f":10,"a": 0,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"YBDK","homeDivision":3,"away":"CROD","awayDivision":3,"score":"2-2","replay":{"score":"0-10"}},
+
         {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"PRON","homeDivision":3,"away":"YBDK","awayDivision":3,"score":"3-0","forfeit":true},
 
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"ASLX","homeDivision":4,"away":"YBDK","awayDivision":4,"score":"5-2"},
