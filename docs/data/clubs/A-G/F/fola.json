@@ -59,6 +59,7 @@
         {"home":"USDD","away":"FOLA","score":"2-4","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"ARIS","away":"FOLA","score":"0-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"3rd Round","round_code":"R3"},"home":"SDUD","homeDivision":2,"away":"FOLA","awayDivision":1,"score":"3-3","replay":{"score":"3-1"}},
+        {"home":"FOLA","away":"USDD","score":"4-1","season":"1931-32","competition":{"type":"playoff","playoff":"relegation"},"outcome":"USDD relegated"},
 
         {"home":"RBDF","away":"FOLA","score":"5-1","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"FOLA","score":"7-0","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},

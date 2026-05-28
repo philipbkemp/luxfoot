@@ -18,5 +18,9 @@
         {"place":5,"team":"JWAS","w": 2,"d":1,"l":5,"f":12,"a":21,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":1,"team":"JWAS","w":11,"d":1,"l":2,"f":51,"a":12,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"},"promoted":true},
         {"place":3,"team":"JWAS","w": 5,"d":2,"l":3,"f":19,"a":18,"pts_win":2,"season":"1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
+    ],
+    "matches": [
+        {"season":"1930-31","competition":{"type":"playoff","playoff":"promotion_3"},"home":"SCBT","away":"JWAS","score":"1-1"},
+		{"season":"1930-31","competition":{"type":"playoff","playoff":"promotion_3"},"home":"MANC","away":"JWAS","score":"2-2"}
     ]
 }

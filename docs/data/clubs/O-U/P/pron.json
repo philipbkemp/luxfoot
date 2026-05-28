@@ -37,6 +37,7 @@
         {"home":"ARIS","away":"PRON","score":"2-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"3rd Round","round_code":"R3"},"home":"PRON","homeDivision":1,"away":"SCBT","awayDivision":3,"score":"11-0"},
 		{"date":"1932-03-06","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":1,"score":"2-0"},
+        {"home":"RBDF","away":"PRON","score":"4-1","season":"1931-32","competition":{"type":"playoff","playoff":"title"},"outcome":"RBDF declared champion"},
 
         {"home":"RBDF","away":"PRON","score":"5-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"PRON","score":"7-3","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -93,6 +94,7 @@
 
         {"date":"1927-11-06","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"RBPF","homeDivision":1,"away":"PRON","awayDivision":2,"score":"0-3"},
 		{"date":"1927-12-04","season":"1927-28","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":2,"score":"0-0","replay":{"date":"1928-01-01","score":"3-1"}},
+        {"home":"PRON","away":"ARIS","score":"4-0","season":"1927-28","competition":{"type":"playoff","playoff":"promotion_p"},"outcome":"PRON relegated"},
 
         {"home":"ULUX","away":"PRON","score":"2-1","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"PRON","score":"8-0","season":"1926-27","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -129,6 +131,9 @@
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"PRON","homeDivision":3,"away":"MANC","awayDivision":3,"score":"3-0","forfeit":true},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"RPDN","homeDivision":4,"away":"PRON","awayDivision":3,"score":"2-3"},
         {"date":"1921-11-06","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"3rd Round","round_code":"R3"},"home":"PRON","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"3-0","forfeit":true},
-        {"date":"1922-02-05","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"4th Round","round_code":"R4"},"home":"HLBN","homeDivision":1,"away":"PRON","awayDivision":3,"score":"2-1"}
+        {"date":"1922-02-05","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"4th Round","round_code":"R4"},"home":"HLBN","homeDivision":1,"away":"PRON","awayDivision":3,"score":"2-1"},
+
+        {"home":"TRIM","away":"PRON","score":"6-1","season":"1919-20","competition":{"type":"playoff","playoff":"promotion_3"}},
+		{"home":"PRON","away":"STET","score":"P-P","season":"1919-20","competition":{"type":"playoff","playoff":"promotion_3"},"note":"Match not played as playoff winner already decided"}
     ]
 }

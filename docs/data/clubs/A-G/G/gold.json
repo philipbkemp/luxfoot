@@ -25,6 +25,8 @@
     "matches": [
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"GOLD","homeDivision":3,"away":"RBPF","awayDivision":2,"score":"0-3"},
 
+        {"home":"GOLD","away":"DARE","score":"3-1","season":"1926-27","competition":{"type":"playoff","playoff":"relegation_2_2"},"outcome":"DARE relegated"},
+
         {"date":"1923-09-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home":"TRIM","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"3-0","forfeit":true},
 
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"MARM","homeDivision":4,"away":"GOLD","awayDivision":4,"score":"3-2"}

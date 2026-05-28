@@ -42,6 +42,8 @@
         {"date":"1924-09-07","season":"1924-25","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"Preliminary Round","round_code":"PR"},"home":"ASDF","homeDivision":3,"away":"CROD","awayDivision":2,"score":"5-1"},
 		{"date":"1924-12-07","season":"1924-25","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"CROD","homeDivision":2,"away":"SWFT","awayDivision":3,"score":"1-2"},
 
+        {"home":"CROD","away":"NSCH","score":"4-0","season":"1922-23","competition":{"type":"playoff","playoff":"relegation_2"},"outcome":"NSCH relegated"},
+
         {"date":"1921-09-04","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"CROD","homeDivision":2,"away":"ASDF","awayDivision":4,"score":"4-3"},
         {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"CROD","homeDivision":2,"away":"AVBG","awayDivision":3,"score":"0-3","forfeit":true}
     ]

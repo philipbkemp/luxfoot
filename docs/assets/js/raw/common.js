@@ -60,6 +60,17 @@ function getClubsPipe() {
                     });
                 });
             });
+            if ( window.rawData.playoffs ) {
+                Object.keys(window.rawData.playoffs).forEach(a=>{
+                    if ( window.rawData.playoffs[a].matches ) {
+                        window.rawData.playoffs[a].matches.forEach(b=>{
+                            if ( b.home === club || b.away === club ) {
+                                clubMatches += JSON.stringify(b) + ",\n\t\t";
+                            }
+                        });
+                    }
+                });
+            }
             console.warn(club);
             if ( clubStanding !== "" ) { console.log(clubStanding+",") };
             if ( clubMatches !== "" ) { console.log(clubMatches); }

@@ -28,6 +28,8 @@
         {"place":1,"team":"CSHL","w":2,"d":1,"l":1,"f":14,"a": 9,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "playoff":"promotion_3", "promoted": true}
     ],
     "matches": [
+        {"home":"CSHL","away":"UNAS","score":"7-1","season":"1924-25","competition":{"type":"playoff","playoff":"title_3_2"},"outcome":"CSHL declared winner of Series 2"},
+
         {"date":"1923-09-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home":"CSHL","homeDivision":3,"away":"STET","awayDivision":2,"score":"1-4"},
 		{"date":"1923-10-07","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"JESH","homeDivision":1,"away":"CSHL","awayDivision":3,"score":"3-0","forfeit":true},
 

@@ -67,6 +67,7 @@
 		{"date":"1932-03-06","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":1,"score":"2-0"},
 		{"date":"1932-04-04","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home":"ARIS","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"0-7"},
 		{"date":"1932-04-17","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Final","round_code":"F"},"home":"SPOR","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"2-1"},
+        {"home":"RBDF","away":"PRON","score":"4-1","season":"1931-32","competition":{"type":"playoff","playoff":"title"},"outcome":"RBDF declared champion"},
 
         {"home":"RBDF","away":"SPOR","score":"2-1","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"RBDF","away":"PRON","score":"5-2","season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},

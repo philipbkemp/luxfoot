@@ -53,6 +53,7 @@
         {"date":"1930-10-05","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"SDUD","homeDivision":1,"away":"BLVL","awayDivision":3,"score":"5-2"},
 		{"date":"1930-12-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home":"SDUD","homeDivision":1,"away":"PRON","awayDivision":1,"score":"5-3"},
 		{"date":"1931-01-04","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home":"RBDF","homeDivision":1,"away":"SDUD","awayDivision":1,"score":"3-1"},
+        {"home":"NSCH","away":"SDUD","score":"2-1","season":"1930-31","competition":{"type":"playoff","playoff":"relegation_1"},"outcome":"SDUD relegated"},
 
         {"date":"1929-09-01","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary round","round_code":"PR"},"home":"SDUD","homeDivision":2,"away":"NSCH","awayDivision":2,"score":"2-1"},
 		{"date":"1929-11-03","season":"1929-30","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"RBDF","homeDivision":1,"away":"SDUD","awayDivision":2,"score":"1-1","replay":{"date":"1929-12-08","score":"5-0"}},
