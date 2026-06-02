@@ -1,0 +1,19 @@
+{
+    "name": "FC Weiswampach",
+    "history": [{
+        "season": "1931-32",
+        "event": "FOUNDED"
+    },{
+        "season": "1936-37",
+        "event": "DISSOLVED"
+    },{
+        "season": "1945-46",
+        "event": "REFOUNDED"
+    },{
+        "season": "1953-54",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":3,"team":"WWMP","w":9,"d":1,"l":4,"f":45,"a":31,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}}
+    ]
+}

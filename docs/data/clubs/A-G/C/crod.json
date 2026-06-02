@@ -10,6 +10,7 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":1,"team":"CROD","w": 9,"d":4,"l":1,"f":39,"a":13,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":2,"team":"CROD","w": 6,"d":6,"l":2,"f":48,"a":23,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":3,"team":"CROD","w": 8,"d":1,"l":5,"f":45,"a":26,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":5,"team":"CROD","w": 8,"d":0,"l":6,"f":70,"a":38,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
@@ -28,6 +29,10 @@
         {"place":7,"team":"CROD","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CROD","homeDivision":3,"away":"SCBT","awayDivision":2,"score":"5-2"},
+		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CROD","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"4-3"},
+		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"FOLA","homeDivision":1,"away":"CROD","awayDivision":3,"score":"3-1"},
+
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"YBDK","homeDivision":3,"away":"CROD","awayDivision":3,"score":"2-2","replay":{"score":"0-10"}},
 		{"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"MANC","homeDivision":4,"away":"CROD","awayDivision":3,"score":"0-2"},
 		{"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"3rd Round","round_code":"R3"},"home":"RBDF","homeDivision":1,"away":"CROD","awayDivision":3,"score":"8-1"},

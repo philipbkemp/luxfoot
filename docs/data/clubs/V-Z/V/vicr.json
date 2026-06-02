@@ -12,6 +12,7 @@
         "event": "REFOUNDED"
     }],
     "league": [
+        {"place":4,"team":"VICR","w":7,"d":1,"l":6,"f":34,"a":34,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":4,"team":"VICR","w":1,"d":0,"l":5,"f":10,"a":30,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"},"relegated":true}
     ],
     "matches": [

@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":7,"team":"SDUD","w": 4,"d":3,"l": 7,"f":18,"a":37,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":1,"team":"SDUD","w": 8,"d":4,"l": 2,"f":30,"a":13,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":7,"team":"SDUD","w": 3,"d":4,"l": 7,"f":23,"a":38,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"relegation_1","relegated":true},
         {"place":2,"team":"SDUD","w":10,"d":1,"l": 3,"f":59,"a":24,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
@@ -30,6 +31,23 @@
         {"place":1,"team":"SDUD","w": 2,"d":0,"l": 0,"f":12,"a": 2,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"home":"RBDF","away":"SDUD","score":"12-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SPOR","away":"SDUD","score":"2-2","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"SDUD","score":"0-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"SDUD","score":"2-3","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"SDUD","score":"2-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"SDUD","score":"3-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"RBDF","score":"1-4","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"SPOR","score":"2-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"PRON","score":"0-2","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"NSCH","score":"0-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"FOLA","score":"3-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"ULUX","score":"3-2","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"RBPF","score":"1-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"SDUD","score":"5-2","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":1,"away":"PROG","awayDivision":2,"score":"4-3"},
+		{"date":"1933-03-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"ULUX","homeDivision":1,"away":"SDUD","awayDivision":1,"score":"3-3","replay":{"score":"2-1","date":"1933-03-26"}},
+
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"SDUD","homeDivision":2,"away":"ASLX","awayDivision":4,"score":"11-0"},
 		{"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"SDUD","homeDivision":2,"away":"ASDF","awayDivision":2,"score":"2-0"},
 		{"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"3rd Round","round_code":"R3"},"home":"SDUD","homeDivision":2,"away":"FOLA","awayDivision":1,"score":"3-3","replay":{"score":"3-1"}},

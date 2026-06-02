@@ -219,7 +219,8 @@
         "name": "FC Erpeldange 72"
     },
     "ESHW": {
-        "name": "ES Schouweiler"
+        "name": "ES Schouweiler",
+        "level": 4
     },
     "ESLX": {
         "name": "Etoile Sportive Luxembourg"
@@ -383,7 +384,8 @@
         "level": -1
     },
     "JMAM": {
-        "name": "Jeunesse Mamer"
+        "name": "Jeunesse Mamer",
+        "level": -1
     },
     "JMON": {
         "name": "Jeunesse Mondercange",
@@ -831,7 +833,8 @@
         "name": "Weiss a Ro't Michelau"
     },
     "WWMP": {
-        "name": "FC Weiswampach"
+        "name": "FC Weiswampach",
+        "level": -1
     },
     "YBDK": {
         "name": "Young Boys Diekirch",

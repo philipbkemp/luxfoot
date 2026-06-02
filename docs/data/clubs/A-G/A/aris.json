@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place":3,"team":"ARIS","w":10,"d":0,"l":4,"f":56,"a":18,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":8,"team":"ARIS","w": 2,"d":3,"l":9,"f":19,"a":47,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":2,"team":"ARIS","w": 9,"d":0,"l":5,"f":55,"a":21,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"promotion_p","promoted":true},
         {"place":4,"team":"ARIS","w": 6,"d":2,"l":6,"f":40,"a":34,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -20,6 +21,9 @@
         {"place":1,"team":"ARIS","w": 8,"d":1,"l":1,"f":67,"a":15,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"promoted":true}
     ],
     "matches": [
+        {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ARIS","homeDivision":2,"away":"SWFT","awayDivision":3,"score":"7-2"},
+		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JHTC","homeDivision":4,"away":"ARIS","awayDivision":2,"score":"3-2"},
+
         {"home":"RBDF","away":"ARIS","score":"7-1","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"PRON","away":"ARIS","score":"1-0","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"ARIS","score":"7-0","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},

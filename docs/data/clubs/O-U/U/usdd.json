@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":1,"team":"USDD","w":12,"d":0,"l": 2,"f":65,"a":12,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":7,"team":"USDD","w": 4,"d":3,"l": 7,"f":28,"a":33,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"relegation","relegated":true},
         {"place":1,"team":"USDD","w":12,"d":0,"l": 2,"f":69,"a":22,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":7,"team":"USDD","w": 3,"d":3,"l": 8,"f":23,"a":37,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
@@ -26,6 +27,10 @@
         {"place":2,"team":"USDD","w": 0,"d":0,"l": 2,"f": 2,"a":12,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}}
     ],
     "matches": [
+        {"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USDD","homeDivision":2,"away":"ADUD","awayDivision":2,"score":"2-1"},
+		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SPOR","homeDivision":1,"away":"USDD","awayDivision":2,"score":"1-3"},
+		{"date":"1933-03-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"NSCH","homeDivision":1,"away":"USDD","awayDivision":2,"score":"4-1"},
+
         {"home":"RBDF","away":"USDD","score":"1-0","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"PRON","away":"USDD","score":"3-0","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"home":"SPOR","away":"USDD","score":"2-2","season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},

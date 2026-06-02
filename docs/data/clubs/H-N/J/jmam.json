@@ -1,0 +1,14 @@
+{
+    "name": "Jeunesse Mamer",
+    "history": [{
+        "season": "1931-32",
+        "event": "FOUNDED"
+    },{
+        "season": "1933-34",
+        "event": "RENAME",
+        "new_name": "MAMR"
+    }],
+    "league": [
+        {"place":2,"team":"JMAM","w":9,"d":0,"l":5,"f":38,"a":30,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true}
+    ]
+}

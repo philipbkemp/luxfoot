@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"RBAS","w":7,"d":1,"l":6,"f":38,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":4,"team":"RBAS","w":4,"d":2,"l":4,"f":27,"a":29,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"relegated":true}
     ],
     "matches": [

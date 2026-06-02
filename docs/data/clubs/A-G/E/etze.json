@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"ETZE","w": 6,"d":2,"l": 6,"f":23,"a":22,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":1,"team":"ETZE","w": 9,"d":1,"l": 0,"f":52,"a":12,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
         {"place":8,"team":"ETZE","w": 3,"d":3,"l": 8,"f":24,"a":40,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":3,"team":"ETZE","w": 7,"d":2,"l": 5,"f":29,"a":24,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},

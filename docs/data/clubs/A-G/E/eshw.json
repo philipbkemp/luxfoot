@@ -1,0 +1,10 @@
+{
+    "name": "ES Schouweiler",
+    "history": [{
+        "season": "1932-33",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":8,"team":"ESHW","w":0,"d":0,"l":14,"f":10,"a":59,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

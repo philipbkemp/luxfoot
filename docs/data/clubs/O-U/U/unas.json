@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":3,"team":"UNAS","w": 7,"d":2,"l": 5,"f":32,"a":34,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":8,"team":"UNAS","w": 2,"d":1,"l":11,"f":16,"a":47,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true,"relegated_twice":true},
         {"place":4,"team":"UNAS","w": 7,"d":1,"l": 6,"f":44,"a":48,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":6,"team":"UNAS","w": 5,"d":0,"l": 9,"f":21,"a":35,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},

@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":5,"team":"ADUD","w": 6,"d":0,"l":8,"f":27,"a":45,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":6,"team":"ADUD","w": 4,"d":5,"l":5,"f":29,"a":34,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":1,"team":"ADUD","w":12,"d":2,"l":0,"f":68,"a":22,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":7,"team":"ADUD","w": 5,"d":1,"l":8,"f":24,"a":45,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
@@ -27,6 +28,9 @@
         {"place":4,"team":"ADUD","w": 1,"d":0,"l":5,"f": 7,"a":21,"pts_win":2,"season":"1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}}
     ],
     "matches": [
+        {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"URUM","awayDivision":3,"score":"4-2"},
+		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USDD","homeDivision":2,"away":"ADUD","awayDivision":2,"score":"2-1"},
+
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"BLVL","homeDivision":3,"away":"ADUD","awayDivision":2,"score":"6-0"},
 
         {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ADUD","homeDivision":3,"away":"UNAS","awayDivision":3,"score":"3-0","forfeit":true},
