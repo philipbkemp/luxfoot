@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":3,"team":"SDUD","w": 9,"d":1,"l": 4,"f":34,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":7,"team":"SDUD","w": 4,"d":3,"l": 7,"f":18,"a":37,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":1,"team":"SDUD","w": 8,"d":4,"l": 2,"f":30,"a":13,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":7,"team":"SDUD","w": 3,"d":4,"l": 7,"f":23,"a":38,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"relegation_1","relegated":true},
@@ -31,6 +32,10 @@
         {"place":1,"team":"SDUD","w": 2,"d":0,"l": 0,"f":12,"a": 2,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"UBSH","homeDivision":4,"away":"SDUD","awayDivision":2,"score":"3-4"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ADUD","homeDivision":2,"away":"SDUD","awayDivision":2,"score":"5-0"},
+		{"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"JESH","homeDivision":1,"away":"SDUD","awayDivision":2,"score":"2-0"},
+
         {"home":"RBDF","away":"SDUD","score":"12-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SPOR","away":"SDUD","score":"2-2","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"PRON","away":"SDUD","score":"0-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},

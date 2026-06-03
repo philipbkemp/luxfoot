@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"AVBG","w":10,"d":2,"l": 2,"f":41,"a":31,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":6,"team":"AVBG","w": 5,"d":1,"l": 8,"f":36,"a":46,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":8,"team":"AVBG","w": 1,"d":1,"l":12,"f":20,"a":64,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
         {"place":1,"team":"AVBG","w":12,"d":0,"l": 2,"f":65,"a":20,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"promotion_2","promoted":true},
@@ -25,6 +26,11 @@
         {"place":1,"team":"AVBG","w": 6,"d":0,"l": 0,"f":51,"a": 5,"pts_win":2,"season":"1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"AVBG","homeDivision":3,"away":"MINL","awayDivision":5,"score":"3-0","forfeit":true},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"AVBG","homeDivision":3,"away":"SCBT","awayDivision":3,"score":"7-1"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"JHTC","homeDivision":5,"away":"AVBG","awayDivision":3,"score":"2-3"},
+		{"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ULUX","homeDivision":1,"away":"AVBG","awayDivision":3,"score":"5-1"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"AVBG","homeDivision":3,"away":"GOLD","awayDivision":3,"score":"3-0","forfeit":true},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CROD","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"4-3"},
 

@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":5,"team":"JKYL","w": 5,"d":2,"l": 7,"f":30,"a":45,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"JKYL","w": 1,"d":2,"l":11,"f":24,"a":55,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":4,"team":"JKYL","w": 6,"d":3,"l": 5,"f":36,"a":30,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":7,"team":"JKYL","w": 2,"d":4,"l": 8,"f":28,"a":55,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
@@ -25,6 +26,8 @@
         {"place":2,"team":"JKYL","w": 0,"d":0,"l": 2,"f": 3,"a": 7,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":4,"away":"JKYL","awayDivision":4,"score":"3-1"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JKYL","homeDivision":3,"away":"TRIM","awayDivision":4,"score":"8-5"},
 
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"JKYL","homeDivision":3,"away":"RSML","awayDivision":3,"score":"1-2"},

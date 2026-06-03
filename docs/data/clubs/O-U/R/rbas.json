@@ -6,10 +6,13 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"RBAS","w":7,"d":1,"l":2,"f":28,"a":16,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true},
         {"place":4,"team":"RBAS","w":7,"d":1,"l":6,"f":38,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":4,"team":"RBAS","w":4,"d":2,"l":4,"f":27,"a":29,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"relegated":true}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBAS","homeDivision":5,"away":"ASLX","awayDivision":4,"score":"0-1"},
+
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"MANC","homeDivision":4,"away":"RBAS","awayDivision":4,"score":"6-1"}
     ]
 }

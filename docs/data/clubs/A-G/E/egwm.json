@@ -9,6 +9,7 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":2,"team":"EGWM","w":8,"d":0,"l": 2,"f":35,"a":11,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"playoff":"promotion_3","promoted":true},
         {"place":8,"team":"EGWM","w":1,"d":1,"l":12,"f":17,"a":44,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":7,"team":"EGWM","w":3,"d":2,"l": 9,"f":19,"a":48,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":8,"team":"EGWM","w":0,"d":0,"l":14,"f":11,"a":91,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
@@ -17,6 +18,10 @@
         {"place":2,"team":"EGWM","w":5,"d":0,"l": 3,"f":32,"a":23,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"promoted":true}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"EGWM","awayDivision":5,"score":"5-3"},
+		{"home":"VICR","away":"EGWM","score":"2-6","season":"1933-34","competition":{"type":"playoff","playoff":"promotion_3"}},
+		{"home":"EGWM","away":"UNAS","score":"5-2","season":"1933-34","competition":{"type":"playoff","playoff":"promotion_3"}},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"EGWM","homeDivision":4,"away":"BLVL","awayDivision":2,"score":"3-4"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"AREM","homeDivision":4,"away":"EGWM","awayDivision":4,"score":"8-2"},
 

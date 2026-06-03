@@ -73,7 +73,8 @@
         "name": "Blue Boys Erpeldingen/Ettelbrück"
     },
     "BBML": {
-        "name": "Blue Boys Muhlenbach"
+        "name": "Blue Boys Muhlenbach",
+        "level": -1
     },
     "BBOY": {
         "name": "Black Boys Bascharage",
@@ -446,7 +447,8 @@
         "name": "FC Koeppchen"
     },
     "KOPS": {
-        "name": "FC Kopstal 33"
+        "name": "FC Kopstal 33",
+        "level": 3
     },
     "KOSM": {
         "name": "FC Koerich"
@@ -467,7 +469,8 @@
         "name": "Les Ardoisiers Perlé"
     },
     "LLMP": {
-        "name": "FC Luxembourg Limpertsberg"
+        "name": "FC Luxembourg Limpertsberg",
+        "level": -1
     },
     "LRNZ": {
         "name": "FC Lorentzweiler"
@@ -479,7 +482,8 @@
         "name": "FC Luxembourg City"
     },
     "MAMR": {
-        "name": "Mamer 32"
+        "name": "Mamer 32",
+        "level": 1
     },
     "MANC": {
         "name": "Mansfeldia Clausen",
@@ -629,7 +633,8 @@
         "name": "Rupensia Lusitanos Larochette"
     },
     "RROD": {
-        "name": "Racing Rodange"
+        "name": "Racing Rodange",
+        "level": -1
     },
     "RSMB": {
         "name": "Red Star Merl/Belair"

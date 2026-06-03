@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place":7,"team":"NSCH","w": 2,"d":7,"l": 5,"f":18,"a":27,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":5,"team":"NSCH","w": 5,"d":3,"l": 6,"f":23,"a":19,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":5,"team":"NSCH","w": 5,"d":3,"l": 6,"f":30,"a":32,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
         {"place":6,"team":"NSCH","w": 4,"d":2,"l": 8,"f":29,"a":41,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"relegation_1"},
@@ -29,6 +30,22 @@
         {"place":2,"team":"NSCH","w": 3,"d":0,"l": 1,"f":12,"a":12,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"home":"SPOR","away":"NSCH","score":"6-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"NSCH","score":"3-3","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"NSCH","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"NSCH","score":"1-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"NSCH","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"NSCH","score":"0-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"SPOR","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"RBDF","score":"0-5","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"USDD","score":"2-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"ULUX","score":"2-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"JESH","score":"3-4","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"PRON","score":"1-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"FOLA","score":"4-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"NSCH","score":"1-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"NSCH","homeDivision":1,"away":"ARIS","awayDivision":2,"score":"0-4"},
+
         {"home":"RBDF","away":"NSCH","score":"2-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SPOR","away":"NSCH","score":"2-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"PRON","away":"NSCH","score":"0-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},

@@ -1,0 +1,13 @@
+{
+    "name": "FC Luxembourg Limpertsberg",
+    "history": [{
+        "season": "1932-33",
+        "event": "FOUNDED"
+    },{
+        "season": "1940-41",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":6,"team":"LLMP","w":0,"d":0,"l":10,"f":6,"a":48,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

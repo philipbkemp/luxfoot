@@ -1,0 +1,18 @@
+{
+    "name": "Racing Rodange",
+    "founded": "1932-08-07",
+    "history": [{
+        "season": "1932-33",
+        "event": "FOUNDED"
+    },{
+        "season": "1990-91",
+        "event": "MERGE",
+        "new_name": "RODG"
+    }],
+    "league": [
+        {"place":3,"team":"RROD","w":4,"d":3,"l":3,"f":20,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
+    ],
+    "matches": [
+        {"place":3,"team":"RROD","w":4,"d":3,"l":3,"f":20,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

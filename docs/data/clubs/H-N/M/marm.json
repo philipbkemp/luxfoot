@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"MARM","w":5,"d":0,"l":5,"f":26,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":6,"team":"MARM","w":5,"d":1,"l":8,"f":27,"a":39,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":4,"team":"MARM","w":3,"d":0,"l":7,"f":26,"a":36,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"relegated":true},
         {"place":6,"team":"MARM","w":2,"d":0,"l":8,"f":11,"a":70,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},

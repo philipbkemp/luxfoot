@@ -644,24 +644,28 @@ function toString() {
                 output += '\t\t\t\t"matches": [\n';
                 r.matches.forEach((m,midx)=>{
                     output += '\t\t\t\t\t{';
-                    output += '"season": "'+m.season+'"';
-                    output += ', "competition": {';
-                    output += '"type": "'+m.competition.type+'"';
-                    output += ', "cup_code": "'+m.competition.cup_code+'"';
-                    output += ', "cup": "'+m.competition.cup+'"';
-                    output += ', "round_code": "'+m.competition.round_code+'"';
-                    output += ', "round": "'+m.competition.round+'"';
-                    output += '}';
-                    output += ', "home": "'+m.home+'"';
-                    output += ', "homeDivision": '+m.homeDivision;
-                    output += ', "away": "'+m.away+'"';
-                    output += ', "awayDivision": '+m.awayDivision;
-                    output += ', "score": "'+m.score+'"';
-                    if ( m.forfeit ) {
-                        output += ', "forfeit": true';
-                    }
-                    if ( m.replay ) {
-                        output += ', "replay": {"score": "'+m.replay.score+'"}';
+                    if ( m.bye ) {
+                        output += '"bye": "'+m.bye+'", "byeDivision": '+m.byeDivision;
+                    } else {
+                        output += '"season": "'+m.season+'"';
+                        output += ', "competition": {';
+                        output += '"type": "'+m.competition.type+'"';
+                        output += ', "cup_code": "'+m.competition.cup_code+'"';
+                        output += ', "cup": "'+m.competition.cup+'"';
+                        output += ', "round_code": "'+m.competition.round_code+'"';
+                        output += ', "round": "'+m.competition.round+'"';
+                        output += '}';
+                        output += ', "home": "'+m.home+'"';
+                        output += ', "homeDivision": '+m.homeDivision;
+                        output += ', "away": "'+m.away+'"';
+                        output += ', "awayDivision": '+m.awayDivision;
+                        output += ', "score": "'+m.score+'"';
+                        if ( m.forfeit ) {
+                            output += ', "forfeit": true';
+                        }
+                        if ( m.replay ) {
+                            output += ', "replay": {"score": "'+m.replay.score+'"}';
+                        }
                     }
                     output += '}';
                     if ( (midx+1) !== r.matches.length ) {

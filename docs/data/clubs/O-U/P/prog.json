@@ -9,6 +9,7 @@
         "new_name": "YGGC"
     }],
     "league": [
+        {"place":7,"team":"PROG","w":3,"d":2,"l": 9,"f":22,"a":48,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"relegation_1","relegated":true},
         {"place":6,"team":"PROG","w":5,"d":1,"l": 8,"f":20,"a":43,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":3,"team":"PROG","w":8,"d":3,"l": 3,"f":30,"a":16,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":3,"team":"PROG","w":9,"d":0,"l": 5,"f":38,"a":19,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"promotion_p"},
@@ -25,6 +26,10 @@
         {"place":1,"team":"PROG","w":8,"d":3,"l": 1,"f":34,"a":11,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"PROG","homeDivision":2,"away":"UESH","awayDivision":5,"score":"3-2"},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ARIS","homeDivision":2,"away":"PROG","awayDivision":2,"score":"4-1"},
+		{"home":"CROD","away":"PROG","score":"2-1","outcome":"PROG relegated","season":"1933-34","competition":{"type":"playoff","playoff":"relegation_1"}},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"PROG","homeDivision":2,"away":"RPDN","awayDivision":4,"score":"1-1","replay":{"score":"2-1","date":"1932-12-18"}},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSHL","homeDivision":5,"away":"PROG","awayDivision":2,"score":"1-2"},
 		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":1,"away":"PROG","awayDivision":2,"score":"4-3"},

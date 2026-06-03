@@ -1,0 +1,14 @@
+{
+    "name": "Blue Boys Muhlenbach",
+    "history": [{
+        "season": "1932-33",
+        "event": "FOUNDED"
+    },{
+        "season": "2019-20",
+        "event": "MERGE",
+        "new_name": "BENF"
+    }],
+    "league": [
+        {"place":3,"team":"BBML","w":5,"d":2,"l":3,"f":44,"a":22,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

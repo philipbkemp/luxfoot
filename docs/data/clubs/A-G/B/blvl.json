@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":3,"team":"BLVL","w": 6,"d":4,"l": 4,"f":31,"a":22,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":7,"team":"BLVL","w": 2,"d":1,"l":11,"f":12,"a":49,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":1,"team":"BLVL","w":12,"d":1,"l": 1,"f":47,"a":15,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":2,"team":"BLVL","w": 8,"d":2,"l": 4,"f":34,"a":17,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
@@ -23,6 +24,8 @@
         {"place":4,"team":"BLVL","w": 1,"d":0,"l": 5,"f":15,"a":23,"pts_win":2,"season":"1916-17", "competition": {"type":"league_series", "level":3, "series": 2, "league":"3. Division Series Esch"},"removed":true,"note":"Did not compete next season"}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ETZE","homeDivision":4,"away":"BLVL","awayDivision":3,"score":"3-0"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"EGWM","homeDivision":4,"away":"BLVL","awayDivision":2,"score":"3-4"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":4,"away":"BLVL","awayDivision":2,"score":"2-2","replay":{"score":"1-2","date":"1933-01-22"}},
 		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ULUX","homeDivision":1,"away":"BLVL","awayDivision":2,"score":"7-1"},

@@ -9,6 +9,7 @@
         "event": "CHAMPION"
     }],
     "league": [
+        {"place":5,"team":"JESH","w": 4,"d":5,"l":5,"f":21,"a":33,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":2,"team":"JESH","w":11,"d":1,"l":2,"f":42,"a":15,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":4,"team":"JESH","w": 7,"d":3,"l":4,"f":45,"a":26,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":4,"team":"JESH","w": 8,"d":1,"l":5,"f":35,"a":28,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -33,6 +34,23 @@
         {"place":4,"team":"JESH","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"SPOR","away":"JESH","score":"3-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"JESH","score":"6-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"JESH","score":"5-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"JESH","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"SPOR","score":"1-3","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"RBDF","score":"2-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"USDD","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"ULUX","score":"2-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"PRON","score":"3-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"NSCH","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"FOLA","score":"2-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"JESH","score":"5-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"JESH","score":"3-4","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"JESH","score":"0-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"JESH","homeDivision":1,"away":"SDUD","awayDivision":2,"score":"2-0"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"FOLA","homeDivision":1,"away":"JESH","awayDivision":1,"score":"1-0"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JESH","homeDivision":2,"away":"AREM","awayDivision":4,"score":"3-1"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JESH","homeDivision":2,"away":"CSOB","awayDivision":4,"score":"5-0"},
 		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"RBPF","homeDivision":1,"away":"JESH","awayDivision":2,"score":"3-4"},

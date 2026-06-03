@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place":2,"team":"CSHL","w": 9,"d":2,"l":3,"f":42,"a":19,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":1,"team":"CSHL","w":12,"d":1,"l":1,"f":62,"a":11,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true},
         {"place":5,"team":"CSHL","w": 4,"d":1,"l":5,"f":28,"a":25,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"relegated":true},
         {"place":5,"team":"CSHL","w": 1,"d":1,"l":6,"f":13,"a":37,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
@@ -29,6 +30,8 @@
         {"place":1,"team":"CSHL","w": 2,"d":1,"l":1,"f":14,"a": 9,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "playoff":"promotion_3", "promoted": true}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SCBT","homeDivision":3,"away":"CSHL","awayDivision":4,"score":"4-3"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSHL","homeDivision":5,"away":"ASDF","awayDivision":2,"score":"2-1"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSHL","homeDivision":5,"away":"PROG","awayDivision":2,"score":"1-2"},
 

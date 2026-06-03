@@ -16,6 +16,7 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":1,"team":"RBPF","w":10,"d":1,"l": 3,"f":49,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":8,"team":"RBPF","w": 1,"d":3,"l":10,"f":11,"a":38,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":2,"team":"RBPF","w": 8,"d":4,"l": 2,"f":30,"a":14,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
         {"place":8,"team":"RBPF","w": 2,"d":5,"l": 7,"f":16,"a":30,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
@@ -31,6 +32,11 @@
         {"place":1,"team":"RBPF","w": 8,"d":0,"l": 2,"f":37,"a":16,"pts_win":2,"season":"1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"URUM","homeDivision":2,"away":"RBPF","awayDivision":2,"score":"2-2","replay":{"score":"1-5","date":"1933-11-19"}},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"5-5","replay":{"score":"0-5","date":"1933-12-17"}},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ASDF","homeDivision":2,"away":"RBPF","awayDivision":2,"score":"1-2"},
+		{"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"PRON","homeDivision":1,"away":"RBPF","awayDivision":2,"score":"5-2"},
+
         {"home":"RBDF","away":"RBPF","score":"6-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SPOR","away":"RBPF","score":"7-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"PRON","away":"RBPF","score":"2-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},

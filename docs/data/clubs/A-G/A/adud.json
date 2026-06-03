@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":5,"team":"ADUD","w": 7,"d":0,"l":7,"f":32,"a":42,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"ADUD","w": 6,"d":0,"l":8,"f":27,"a":45,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":6,"team":"ADUD","w": 4,"d":5,"l":5,"f":29,"a":34,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
         {"place":1,"team":"ADUD","w":12,"d":2,"l":0,"f":68,"a":22,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"promoted":true},
@@ -28,6 +29,12 @@
         {"place":4,"team":"ADUD","w": 1,"d":0,"l":5,"f": 7,"a":21,"pts_win":2,"season":"1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"EGWM","awayDivision":5,"score":"5-3"},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RPDN","homeDivision":4,"away":"ADUD","awayDivision":2,"score":"0-2"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ADUD","homeDivision":2,"away":"SDUD","awayDivision":2,"score":"5-0"},
+		{"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ADUD","homeDivision":2,"away":"USDD","awayDivision":1,"score":"4-2"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"ADUD","homeDivision":2,"away":"ARIS","awayDivision":2,"score":"1-3"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"URUM","awayDivision":3,"score":"4-2"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USDD","homeDivision":2,"away":"ADUD","awayDivision":2,"score":"2-1"},
 

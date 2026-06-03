@@ -32,11 +32,15 @@
         "season": "1932-33",
         "event": "CHAMPION"
     },{
+        "season": "1933-34",
+        "event": "CUPWINNER"
+    },{
         "season": "2002-03",
         "event": "MERGE",
         "new_name": "DIFF"
     }],
     "league": [
+        {"place":2,"team":"RBDF","w": 8,"d":2,"l":4,"f":43,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":1,"team":"RBDF","w":13,"d":1,"l":0,"f":61,"a": 8,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"},"champion":true},
         {"place":1,"team":"RBDF","w": 9,"d":3,"l":2,"f":39,"a":19,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"title","champion":true},
         {"place":1,"team":"RBDF","w":12,"d":1,"l":1,"f":54,"a":12,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"},"champion":true},
@@ -53,6 +57,25 @@
         {"place":1,"team":"RBDF","w": 4,"d":5,"l":1,"f":20,"a":13,"pts_win":2,"season":"1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true}
     ],
     "matches": [
+        {"home":"SPOR","away":"RBDF","score":"4-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"SPOR","score":"4-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"USDD","score":"2-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"ULUX","score":"4-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"JESH","score":"6-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"PRON","score":"3-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"NSCH","score":"3-3","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"FOLA","score":"3-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"RBDF","score":"4-3","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"RBDF","score":"0-4","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"RBDF","score":"2-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"RBDF","score":"3-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"RBDF","score":"0-5","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"RBDF","score":"2-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"RBDF","homeDivision":1,"away":"JHTC","awayDivision":5,"score":"12-0"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":1,"score":"4-3"},
+		{"date":"1934-04-08","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"FOLA","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"0-2"},
+		{"date":"1934-06-24","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"F","round":"Final"},"home":"RBDF","homeDivision":1,"away":"SPOR","awayDivision":1,"score":"5-2"},
+
         {"home":"RBDF","away":"SPOR","score":"3-1","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"PRON","score":"1-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"NSCH","score":"2-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},

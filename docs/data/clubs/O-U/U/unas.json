@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"UNAS","w": 6,"d":1,"l": 3,"f":21,"a":13,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"playoff":"promotion_3"},
         {"place":3,"team":"UNAS","w": 7,"d":2,"l": 5,"f":32,"a":34,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":8,"team":"UNAS","w": 2,"d":1,"l":11,"f":16,"a":47,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true,"relegated_twice":true},
         {"place":4,"team":"UNAS","w": 7,"d":1,"l": 6,"f":44,"a":48,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
@@ -17,6 +18,9 @@
         {"place":3,"team":"UNAS","w": 4,"d":1,"l": 3,"f":11,"a":11,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
     ],
     "matches": [
+        {"home":"EGWM","away":"UNAS","score":"5-2","season":"1933-34","competition":{"type":"playoff","playoff":"promotion_3"}},
+		{"home":"VICR","away":"UNAS","score":"P-P","season":"1933-34","competition":{"type":"playoff","playoff":"promotion_3"},"note":"Match not played as playoff winner already decided"},
+
         {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ADUD","homeDivision":3,"away":"UNAS","awayDivision":3,"score":"3-0","forfeit":true},
 
         {"home":"CSHL","away":"UNAS","score":"7-1","season":"1924-25","competition":{"type":"playoff","playoff":"title_3_2"},"outcome":"CSHL declared winner of Series 2"}

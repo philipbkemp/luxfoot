@@ -1,0 +1,10 @@
+{
+    "name": "Kopstal 33",
+    "history": [{
+        "season": "1932-33",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":6,"team":"KOPS","w":0,"d":0,"l":10,"f":11,"a":58,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}}
+    ]
+}

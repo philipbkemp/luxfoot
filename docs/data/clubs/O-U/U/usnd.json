@@ -10,6 +10,7 @@
         "new_name": "WLTZ"
     }],
     "league": [
+        {"place":4,"team":"USND","w":9,"d":2,"l":3,"f":42,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":6,"team":"USND","w":4,"d":5,"l":5,"f":26,"a":25,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":6,"team":"USND","w":4,"d":1,"l":9,"f":20,"a":35,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":5,"team":"USND","w":5,"d":1,"l":8,"f":25,"a":46,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
@@ -23,6 +24,10 @@
         {"place":6,"team":"USND","w":0,"d":1,"l":9,"f": 4,"a":41,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"USND","homeDivision":4,"away":"MDLB","awayDivision":5,"score":"4-1"},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USND","homeDivision":4,"away":"ASLX","awayDivision":4,"score":"3-2"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ARIS","homeDivision":2,"away":"USND","awayDivision":4,"score":"4-1"},
+
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ASDF","homeDivision":2,"away":"USND","awayDivision":3,"score":"3-1"},
 
         {"date":"1930-09-07","season":"1930-31","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"URUM","homeDivision":2,"away":"USND","awayDivision":3,"score":"4-1"},

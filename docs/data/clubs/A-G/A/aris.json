@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place":2,"team":"ARIS","w":10,"d":1,"l":3,"f":40,"a":22,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":3,"team":"ARIS","w":10,"d":0,"l":4,"f":56,"a":18,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":8,"team":"ARIS","w": 2,"d":3,"l":9,"f":19,"a":47,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
         {"place":2,"team":"ARIS","w": 9,"d":0,"l":5,"f":55,"a":21,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":2,"league":"The Promotion"},"playoff":"promotion_p","promoted":true},
@@ -21,6 +22,13 @@
         {"place":1,"team":"ARIS","w": 8,"d":1,"l":1,"f":67,"a":15,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"promoted":true}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ARIS","homeDivision":2,"away":"STET","awayDivision":4,"score":"9-0"},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ARIS","homeDivision":2,"away":"PROG","awayDivision":2,"score":"4-1"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ARIS","homeDivision":2,"away":"USND","awayDivision":4,"score":"4-1"},
+		{"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"NSCH","homeDivision":1,"away":"ARIS","awayDivision":2,"score":"0-4"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"ADUD","homeDivision":2,"away":"ARIS","awayDivision":2,"score":"1-3"},
+		{"date":"1934-04-08","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"SPOR","homeDivision":1,"away":"ARIS","awayDivision":2,"score":"4-1"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ARIS","homeDivision":2,"away":"SWFT","awayDivision":3,"score":"7-2"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JHTC","homeDivision":4,"away":"ARIS","awayDivision":2,"score":"3-2"},
 

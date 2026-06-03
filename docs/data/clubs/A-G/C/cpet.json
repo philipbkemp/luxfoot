@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":1,"team":"CPET","w":10,"d":3,"l": 1,"f":48,"a":18,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":3,"team":"CPET","w": 9,"d":0,"l": 5,"f":55,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":2,"team":"CPET","w":11,"d":1,"l": 2,"f":47,"a":20,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
         {"place":2,"team":"CPET","w":12,"d":0,"l": 2,"f":57,"a":17,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"playoff":"promotion_2"},
@@ -32,6 +33,9 @@
         {"place":6,"team":"CPET","missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSOB","homeDivision":4,"away":"CPET","awayDivision":3,"score":"1-3"},
+		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ETZE","homeDivision":4,"away":"CPET","awayDivision":3,"score":"5-1"},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CPET","homeDivision":3,"away":"UESH","awayDivision":4,"score":"5-1"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"STET","homeDivision":4,"away":"CPET","awayDivision":3,"score":"1-4"},
 		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"RBDF","homeDivision":1,"away":"CPET","awayDivision":3,"score":"16-0"},

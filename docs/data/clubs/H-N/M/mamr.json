@@ -1,0 +1,11 @@
+{
+    "name": "Mamer 32",
+    "history": [{
+        "season": "1933-34",
+        "event": "RENAME_FROM",
+        "old_name": "JMAM"
+    }],
+    "league": [
+        {"place":4,"team":"MAMR","w":7,"d":1,"l":6,"f":41,"a":31,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}}
+    ]
+}

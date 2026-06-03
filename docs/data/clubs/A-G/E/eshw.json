@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"ESHW","w":2,"d":0,"l": 8,"f":15,"a":38,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":8,"team":"ESHW","w":0,"d":0,"l":14,"f":10,"a":59,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
     ]
 }

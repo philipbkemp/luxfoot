@@ -9,6 +9,7 @@
         "event": "CUPWINNER"
     }],
     "league": [
+        {"place":6,"team":"PRON","w": 4,"d":4,"l": 6,"f":22,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":3,"team":"PRON","w": 7,"d":1,"l": 6,"f":20,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":2,"team":"PRON","w":10,"d":1,"l": 3,"f":34,"a":22,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"title"},
         {"place":3,"team":"PRON","w": 6,"d":2,"l": 6,"f":27,"a":31,"pts_win":2,"season":"1930-31","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -25,6 +26,23 @@
         {"place":2,"team":"PRON","w": 4,"d":3,"l": 1,"f":19,"a": 9,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "playoff": "promotion_3"}
     ],
     "matches": [
+        {"home":"SPOR","away":"PRON","score":"1-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"PRON","score":"3-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"PRON","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"PRON","score":"5-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"PRON","score":"3-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"SPOR","score":"0-4","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"RBDF","score":"3-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"USDD","score":"5-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"ULUX","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"JESH","score":"5-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"NSCH","score":"0-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"FOLA","score":"0-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"PRON","score":"1-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"PRON","score":"2-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1934-02-04","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"PRON","homeDivision":1,"away":"RBPF","awayDivision":2,"score":"5-2"},
+		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"RBDF","homeDivision":1,"away":"PRON","awayDivision":1,"score":"4-3"},
+
         {"home":"RBDF","away":"PRON","score":"1-0","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SPOR","away":"PRON","score":"1-3","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"PRON","away":"RBDF","score":"0-2","season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},

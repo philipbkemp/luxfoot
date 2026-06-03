@@ -10,6 +10,7 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":6,"team":"CROD","w": 3,"d":2,"l":9,"f":31,"a":39,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"relegation_1"},
         {"place":1,"team":"CROD","w": 9,"d":4,"l":1,"f":39,"a":13,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":2,"team":"CROD","w": 6,"d":6,"l":2,"f":48,"a":23,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
         {"place":3,"team":"CROD","w": 8,"d":1,"l":5,"f":45,"a":26,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
@@ -29,6 +30,9 @@
         {"place":7,"team":"CROD","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":4,"away":"CROD","awayDivision":2,"score":"2-1"},
+		{"home":"CROD","away":"PROG","score":"2-1","outcome":"PROG relegated","season":"1933-34","competition":{"type":"playoff","playoff":"relegation_1"}},
+
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CROD","homeDivision":3,"away":"SCBT","awayDivision":2,"score":"5-2"},
 		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CROD","homeDivision":3,"away":"AVBG","awayDivision":3,"score":"4-3"},
 		{"date":"1933-02-05","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"FOLA","homeDivision":1,"away":"CROD","awayDivision":3,"score":"3-1"},
