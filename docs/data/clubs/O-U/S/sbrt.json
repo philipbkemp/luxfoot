@@ -1,0 +1,13 @@
+{
+    "name": "Sporting Bertrange",
+    "history": [{
+        "season": "1933-34",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":5,"team":"SBRT","w":4,"d":2,"l":6,"f":33,"a":37,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"}}
+    ],
+    "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SBRT","homeDivision":5,"away":"CSHL","awayDivision":4,"score":"1-3"}
+    ]
+}

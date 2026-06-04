@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place":3,"team":"NSCH","w": 9,"d":1,"l": 4,"f":40,"a":14,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage","promoted":true},
         {"place":7,"team":"NSCH","w": 2,"d":7,"l": 5,"f":18,"a":27,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":5,"team":"NSCH","w": 5,"d":3,"l": 6,"f":23,"a":19,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":5,"team":"NSCH","w": 5,"d":3,"l": 6,"f":30,"a":32,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"}},
@@ -30,6 +31,16 @@
         {"place":2,"team":"NSCH","w": 3,"d":0,"l": 1,"f":12,"a":12,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"STET","homeDivision":4,"away":"NSCH","awayDivision":2,"score":"1-6"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"NSCH","homeDivision":2,"away":"CSOB","awayDivision":3,"score":"5-0"},
+		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"NSCH","homeDivision":2,"away":"CSHL","awayDivision":4,"score":"4-0"},
+		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"NSCH","homeDivision":2,"away":"RBPF","awayDivision":1,"score":"2-2","replay":{"score":"2-3","date":"1935-01-27"}},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"promotion_1"},"home":"ASDF","away":"NSCH","score":"2-2"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"promotion_1"},"home":"SDUD","away":"NSCH","score":"2-1"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage"},"home":"NSCH","away":"SDUD","score":"2-1"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage"},"home":"NSCH","away":"PRON","score":"3-2"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage"},"home":"ARIS","away":"NSCH","score":"P-P","note":"Match not played as playoff winner already decided"},
+
         {"home":"SPOR","away":"NSCH","score":"6-0","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"NSCH","score":"3-3","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"USDD","away":"NSCH","score":"1-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},

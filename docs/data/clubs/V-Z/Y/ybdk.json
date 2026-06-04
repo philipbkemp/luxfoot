@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"YBDK","w":5,"d":4,"l": 5,"f":25,"a":23,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":7,"team":"YBDK","w":4,"d":2,"l": 8,"f":29,"a":38,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":4,"team":"YBDK","w":6,"d":2,"l": 6,"f":32,"a":43,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":4,"team":"YBDK","w":6,"d":2,"l": 6,"f":36,"a":37,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},

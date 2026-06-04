@@ -9,6 +9,11 @@
         "new_name": "BENF"
     }],
     "league": [
+        {"place":3,"team":"BBML","w":6,"d":2,"l":4,"f":38,"a":19,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"},"promoted":true},
         {"place":3,"team":"BBML","w":5,"d":2,"l":3,"f":44,"a":22,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
+    ],
+    "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"BBML","homeDivision":5,"away":"CPET","awayDivision":2,"score":"5-3"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"BBML","homeDivision":5,"away":"SDUD","awayDivision":2,"score":"3-4"}
     ]
 }

@@ -9,6 +9,7 @@
         "new_name": "DIFF"
     }],
     "league": [
+        {"place":2,"team":"ASDF","w": 8,"d":3,"l":3,"f":36,"a":18,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1","promoted":true},
         {"place":4,"team":"ASDF","w": 6,"d":2,"l":6,"f":25,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":4,"team":"ASDF","w": 7,"d":1,"l":6,"f":30,"a":26,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"ASDF","w": 5,"d":5,"l":4,"f":25,"a":23,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -24,6 +25,13 @@
         {"place":4,"team":"ASDF","w": 8,"d":3,"l":3,"f":33,"a":19,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"URUM","homeDivision":3,"away":"ASDF","awayDivision":2,"score":"1-2"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ASDF","homeDivision":2,"away":"CROD","awayDivision":2,"score":"1-0"},
+		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ASDF","homeDivision":2,"away":"JHTC","awayDivision":5,"score":"11-1"},
+		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SPOR","homeDivision":1,"away":"ASDF","awayDivision":2,"score":"7-2"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"promotion_1"},"home":"ASDF","away":"SDUD","score":"4-0"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"promotion_1"},"home":"ASDF","away":"NSCH","score":"2-2"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"MANC","homeDivision":5,"away":"ASDF","awayDivision":2,"score":"1-6"},
 		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RSML","homeDivision":3,"away":"ASDF","awayDivision":2,"score":"1-0"},
 		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ASDF","homeDivision":2,"away":"RBPF","awayDivision":2,"score":"1-2"},

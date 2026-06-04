@@ -1,0 +1,13 @@
+{
+    "name": "Green Star Wilwerdingen",
+    "history": [{
+        "season":"1933-34",
+        "event": "FOUNDED"
+    },{
+        "season": "1948-49",
+        "event": "DISSOLVED"
+    }],
+    "league": [
+        {"place":1,"team":"GSWW","w":11,"d":2,"l":1,"f":42,"a":8,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"},"promoted":true}
+    ]
+}

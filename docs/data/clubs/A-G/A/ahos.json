@@ -1,0 +1,23 @@
+{
+    "name": "AS Hosingen",
+    "rerefounded": "1967-12-27",
+    "history": [{
+        "season": "1903-04",
+        "event": "FOUNDED"
+    },{
+        "season": "1939-40",
+        "event": "DISSOLVED"
+    },{
+        "season": "1955-56",
+        "event": "REFOUNDED"
+    },{
+        "season": "1961-62",
+        "event": "DISSOLVED"
+    },{
+        "season": "1967-68",
+        "event": "REREFOUNDED"
+    }],
+    "league": [
+        {"place":6,"team":"AHOS","w":4,"d":0,"l":10,"f":13,"a":45,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"}}
+    ]
+}

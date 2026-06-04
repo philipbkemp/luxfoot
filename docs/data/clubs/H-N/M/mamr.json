@@ -6,6 +6,7 @@
         "old_name": "JMAM"
     }],
     "league": [
+        {"place":6,"team":"MAMR","w":4,"d":4,"l":6,"f":33,"a":36,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"MAMR","w":7,"d":1,"l":6,"f":41,"a":31,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}}
     ]
 }

@@ -10,7 +10,8 @@
         "name": "Avenir Flaxweiler"
     },
     "AHOS": {
-        "name": "AS Hosingen"
+        "name": "AS Hosingen",
+        "level": 3
     },
     "ALCR": {
         "name": "Alzetta Cruchten"
@@ -60,7 +61,8 @@
         "level": 3
     },
     "AWDG": {
-        "name": "Arminia Weidingen"
+        "name": "Arminia Weidingen",
+        "level": -1
     },
     "AZST": {
         "name": "L'Alzette Steinsel",
@@ -84,7 +86,8 @@
         "name": "Berdenia Berbourg"
     },
     "BECH": {
-        "name": "Red Rovers Bech"
+        "name": "Red Rovers Bech",
+        "level": -1
     },
     "BENF": {
         "name": "RM Hamm Benfica"
@@ -103,7 +106,8 @@
         "level": 2
     },
     "BOUS": {
-        "name": "US Bous"
+        "name": "US Bous",
+        "level": -1
     },
     "BRAC": {
         "name": "Bracarense Grund"
@@ -292,7 +296,8 @@
         "name": "CS Greiveldange"
     },
     "GSWW": {
-        "name": "Green Star Wilwerdingen"
+        "name": "Green Star Wilwerdingen",
+        "level": -1
     },
     "HAGN": {
         "name": "US Hagen",
@@ -359,10 +364,12 @@
         "name": "Jeunesse Flaxweiler"
     },
     "JGIL": {
-        "name": "Jeunesse Gilsdorf"
+        "name": "Jeunesse Gilsdorf",
+        "level": 3
     },
     "JGOB": {
-        "name": "Jeunesse Goeblange"
+        "name": "Jeunesse Goeblange",
+        "level": -1
     },
     "JGOS": {
         "name": "Jeunesse Goesdorf"
@@ -399,7 +406,8 @@
         "name": "Jeunesse Schieren"
     },
     "JSCV": {
-        "name": "Jeunesse Sportive Clervalloise"
+        "name": "Jeunesse Sportive Clervalloise",
+        "level": -1
     },
     "JSKH": {
         "name": "JS Koerich"
@@ -463,7 +471,8 @@
         "name": "Les Aiglons Dalheim"
     },
     "LAHD": {
-        "name": "Les Ardennais Huldange"
+        "name": "Les Ardennais Huldange",
+        "level": -1
     },
     "LARD": {
         "name": "Les Ardoisiers Perlé"
@@ -493,9 +502,6 @@
         "name": "Marisca Mersch",
         "level": 2
     },
-    "MDCG": {
-        "name": "FC Mondercange"
-    },
     "MDLB": {
         "name": "US Mondorf-les-Bains",
         "level": 1
@@ -513,6 +519,10 @@
     },
     "MLSV": {
         "name": "Minière Lasauvage"
+    },
+    "MOND": {
+        "name": "FC Mondercange",
+        "level": 2
     },
     "MONF": {
         "name": "Le Monflin Bigonville"
@@ -660,7 +670,8 @@
         "name": "Sporting Bellain"
     },
     "SBRT": {
-        "name": "Sporting Bertrange"
+        "name": "Sporting Bertrange",
+        "level": 3
     },
     "SCBT": {
         "name": "SC Bettembourg",
@@ -670,7 +681,8 @@
         "name": "Schifflange 95"
     },
     "SCHR": {
-        "name": "FC Schieren"
+        "name": "FC Schieren",
+        "level": -1
     },
     "SCLX": {
         "name": "SC Luxembourg",
@@ -722,7 +734,8 @@
         "level": -1
     },
     "SURA": {
-        "name": "Sura Esch/Sauer"
+        "name": "Sura Esch/Sauer",
+        "level": -1
     },
     "SURM": {
         "name": "Sura Michelau"
@@ -745,7 +758,8 @@
         "level": -1
     },
     "TSVG": {
-        "name": "Racing Troisvierges"
+        "name": "Racing Troisvierges",
+        "level": 4
     },
     "TWTC": {
         "name": "Tarwat Tarchamps"
@@ -835,7 +849,8 @@
         "name": "FC Wiltz 71"
     },
     "WRMC": {
-        "name": "Weiss a Ro't Michelau"
+        "name": "Weiss a Ro't Michelau",
+        "level": -1
     },
     "WWMP": {
         "name": "FC Weiswampach",

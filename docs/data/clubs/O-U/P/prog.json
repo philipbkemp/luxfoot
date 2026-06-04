@@ -9,6 +9,7 @@
         "new_name": "YGGC"
     }],
     "league": [
+        {"place":4,"team":"PROG","w":6,"d":4,"l": 4,"f":38,"a":25,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":7,"team":"PROG","w":3,"d":2,"l": 9,"f":22,"a":48,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"relegation_1","relegated":true},
         {"place":6,"team":"PROG","w":5,"d":1,"l": 8,"f":20,"a":43,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":3,"team":"PROG","w":8,"d":3,"l": 3,"f":30,"a":16,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -26,6 +27,9 @@
         {"place":1,"team":"PROG","w":8,"d":3,"l": 1,"f":34,"a":11,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "promoted": true}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SWFT","homeDivision":3,"away":"PROG","awayDivision":3,"score":"0-5"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JHTC","homeDivision":5,"away":"PROG","awayDivision":3,"score":"5-1"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"PROG","homeDivision":2,"away":"UESH","awayDivision":5,"score":"3-2"},
 		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ARIS","homeDivision":2,"away":"PROG","awayDivision":2,"score":"4-1"},
 		{"home":"CROD","away":"PROG","score":"2-1","outcome":"PROG relegated","season":"1933-34","competition":{"type":"playoff","playoff":"relegation_1"}},

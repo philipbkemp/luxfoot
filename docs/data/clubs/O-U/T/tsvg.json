@@ -1,0 +1,10 @@
+{
+    "name": "Racing Troisvierges",
+    "history": [{
+        "season": "1933-34",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":4,"team":"TSVG","w":7,"d":1,"l":6,"f":43,"a":23,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"}}
+    ]
+}

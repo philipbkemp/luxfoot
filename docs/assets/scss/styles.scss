@@ -330,12 +330,16 @@ table.int-caps {
     }
 }
 
+tr.to-playoff--barrage {
+    background: #ffe07b55;
+}
 tr.to-playoff--title,
 tr.to-playoff--title_playoff,
 td.match-isdraw {
     background: #aad9f555;
 }
 tr.to-playoff--promotion_p,
+tr.to-playoff--promotion_1,
 tr.to-playoff--promotion_2,
 tr.to-playoff--promotion_3 {
     background: #bedf7c55;

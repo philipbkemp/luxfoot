@@ -10,6 +10,7 @@
         "new_name": "UNMW"
     }],
     "league": [
+        {"place":6,"team":"JWAS","w": 2,"d":4,"l":8,"f":20,"a":43,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":4,"team":"JWAS","w": 5,"d":4,"l":5,"f":31,"a":33,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":1,"team":"JWAS","w": 9,"d":4,"l":1,"f":35,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":6,"team":"JWAS","w": 5,"d":1,"l":8,"f":44,"a":48,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true},

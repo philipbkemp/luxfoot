@@ -24,6 +24,7 @@
         "event": "CHAMPION"
     }],
     "league": [
+        {"place":1,"team":"FOLA","w":10,"d":2,"l":2,"f":60,"a":22,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":8,"team":"FOLA","w": 3,"d":2,"l":9,"f":14,"a":33,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":4,"team":"FOLA","w": 6,"d":1,"l":7,"f":24,"a":36,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":6,"team":"FOLA","w": 4,"d":3,"l":7,"f":25,"a":28,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":1,"league":"1. Division"},"playoff":"relegation"},
@@ -46,6 +47,11 @@
         {"place":2,"team":"FOLA","w": 0,"d":1,"l":1,"f": 4,"a": 5,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":2,"league":"1. Division Series 2"}}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"FOLA","homeDivision":2,"away":"MANC","awayDivision":4,"score":"9-1"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USND","homeDivision":4,"away":"FOLA","awayDivision":2,"score":"1-10"},
+		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"RBAS","homeDivision":4,"away":"FOLA","awayDivision":2,"score":"2-9"},
+		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"FOLA","homeDivision":2,"away":"ULUX","awayDivision":1,"score":"1-2"},
+
         {"home":"SPOR","away":"FOLA","score":"2-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"FOLA","score":"3-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"USDD","away":"FOLA","score":"11-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},

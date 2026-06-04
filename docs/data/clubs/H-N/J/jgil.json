@@ -1,0 +1,10 @@
+{
+    "name": "Jeunesse Gilsdorf",
+    "history": [{
+        "season": "1909-10",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":3,"team":"JGIL","w":5,"d":0,"l":5,"f":28,"a":19,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}}
+    ]
+}

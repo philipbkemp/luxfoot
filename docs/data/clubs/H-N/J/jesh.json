@@ -7,8 +7,12 @@
     },{
         "season": "1920-21",
         "event": "CHAMPION"
+    },{
+        "season": "1934-35",
+        "event": "CUPWINNER"
     }],
     "league": [
+        {"place":3,"team":"JESH","w": 6,"d":2,"l":6,"f":27,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":5,"team":"JESH","w": 4,"d":5,"l":5,"f":21,"a":33,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":2,"team":"JESH","w":11,"d":1,"l":2,"f":42,"a":15,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":4,"team":"JESH","w": 7,"d":3,"l":4,"f":45,"a":26,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"}},
@@ -34,6 +38,25 @@
         {"place":4,"team":"JESH","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"SPOR","away":"JESH","score":"4-1","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"JESH","score":"4-1","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"SPOR","score":"0-0","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"RBDF","score":"2-0","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"USDD","score":"7-1","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"RBPF","score":"2-0","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"ULUX","score":"1-2","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"ARIS","score":"4-2","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"PRON","score":"3-1","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"JESH","score":"4-3","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"JESH","score":"1-1","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"JESH","score":"1-2","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ARIS","away":"JESH","score":"2-0","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"JESH","score":"2-0","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"JESH","homeDivision":1,"away":"RBAS","awayDivision":4,"score":"5-0"},
+		{"date":"1935-02-03","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"JESH","homeDivision":1,"away":"RBPF","awayDivision":1,"score":"3-0"},
+		{"date":"1935-03-03","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"SPOR","homeDivision":1,"away":"JESH","awayDivision":1,"score":"0-2"},
+		{"date":"1935-04-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"F","round":"Final"},"home":"JESH","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"4-2"},
+
         {"home":"SPOR","away":"JESH","score":"3-2","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"JESH","score":"6-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"USDD","away":"JESH","score":"5-1","season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},

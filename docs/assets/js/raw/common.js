@@ -365,7 +365,12 @@ function getPlayoffName(po) {
     let poName = po;
 
     switch (po) {
+        case "barrage":
+            poName = "Barrage";
+            break;
+
         case "promotion_p":
+        case "promotion_1":
         case "promotion_2":
         case "promotion_3":
             poName = "Promotion playoff";
@@ -407,7 +412,11 @@ function getPlayoffName(po) {
 
         default:
             if ( po.includes("|") ) {
-                return getPlayoffName(po.split("|")[0]);
+                str = [];
+                po.split("|").forEach(poSplit=>{
+                    str.push(getPlayoffName(poSplit));
+                });
+                return str.join(" -> ");
             } else {
                 console.warn("Unsupported playoff",po);
             }

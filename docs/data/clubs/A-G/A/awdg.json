@@ -1,0 +1,15 @@
+{
+    "name": "Arminia Weidingen",
+    "founded": "1934-01-01",
+    "history": [{
+        "season": "1933-34",
+        "event": "FOUNDED"
+    },{
+        "season": "1978-79",
+        "event": "MERGE",
+        "new_name": "WLTZ"
+    }],
+    "league": [
+        {"place":2,"team":"AWDG","w":10,"d":3,"l":1,"f":47,"a":18,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"},"promoted":true}
+    ]
+}

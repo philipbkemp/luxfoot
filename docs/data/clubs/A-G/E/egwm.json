@@ -9,6 +9,7 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":1,"team":"EGWM","w":9,"d":2,"l": 3,"f":55,"a":16,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":2,"team":"EGWM","w":8,"d":0,"l": 2,"f":35,"a":11,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"playoff":"promotion_3","promoted":true},
         {"place":8,"team":"EGWM","w":1,"d":1,"l":12,"f":17,"a":44,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":7,"team":"EGWM","w":3,"d":2,"l": 9,"f":19,"a":48,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
@@ -18,6 +19,11 @@
         {"place":2,"team":"EGWM","w":5,"d":0,"l": 3,"f":32,"a":23,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"promoted":true}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RSML","homeDivision":3,"away":"EGWM","awayDivision":4,"score":"2-6"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RROD","homeDivision":5,"away":"EGWM","awayDivision":4,"score":"3-4"},
+		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"EGWM","homeDivision":4,"away":"SDUD","awayDivision":2,"score":"5-4"},
+		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"EGWM","homeDivision":4,"away":"RBDF","awayDivision":1,"score":"1-4"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"EGWM","awayDivision":5,"score":"5-3"},
 		{"home":"VICR","away":"EGWM","score":"2-6","season":"1933-34","competition":{"type":"playoff","playoff":"promotion_3"}},
 		{"home":"EGWM","away":"UNAS","score":"5-2","season":"1933-34","competition":{"type":"playoff","playoff":"promotion_3"}},

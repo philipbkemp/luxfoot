@@ -1,0 +1,14 @@
+{
+    "name": "FC Mondercange",
+    "founded": "1933-09-03",
+    "history": [{
+        "season": "1933-34",
+        "event": "FOUNDED"
+    }],
+    "league": [
+        {"place":3,"team":"MOND","w":7,"d":1,"l":4,"f":44,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true}
+    ],
+    "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBAS","homeDivision":4,"away":"MOND","awayDivision":5,"score":"1-0"}
+    ]
+}

@@ -9,6 +9,7 @@
         "new_name": "STNG"
     }],
     "league": [
+        {"place":4,"team":"SPST","w":5,"d":3,"l": 4,"f":38,"a":25,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true},
         {"place":8,"team":"SPST","w":1,"d":0,"l":13,"f":16,"a":47,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":5,"team":"SPST","w":5,"d":3,"l": 6,"f":21,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":5,"team":"SPST","w":5,"d":3,"l": 6,"f":34,"a":31,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},

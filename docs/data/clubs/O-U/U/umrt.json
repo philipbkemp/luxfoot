@@ -9,6 +9,7 @@
         "new_name": "UNMW"
     }],
     "league": [
+        {"place":3,"team":"UMRT","w":4,"d":0,"l": 6,"f":43,"a":42,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division East"}},
         {"place":8,"team":"UMRT","w":1,"d":0,"l":13,"f":16,"a":63,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":1,"team":"UMRT","w":9,"d":3,"l": 2,"f":57,"a":25,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place":3,"team":"UMRT","w":2,"d":0,"l": 4,"f":17,"a":21,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"},"relegated":true}

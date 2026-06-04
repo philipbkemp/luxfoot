@@ -41,13 +41,14 @@ function doneFetch(data) {
         thisSectionNavLiHistory.append(thisSectionNavHistory);
         if ( showSection === "history" ) {
             thisSectionNavHistory.classList.add("active");
-            drawHistory(data.history,data.founded,data.refounded);
+            drawHistory(data.history,data.founded,data.refounded,data.rerefounded);
         }
         sectionNav.append(thisSectionNavLiHistory);
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'history');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'founded');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'refounded');
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'rerefounded');
     }
 
     if ( data.league ) {
@@ -97,7 +98,7 @@ function doneFetch(data) {
     }
 }
 
-function drawHistory(history,founded,refounded) {
+function drawHistory(history,founded,refounded,rerefounded) {
     let historyTable = document.createElement("TABLE");
     historyTable.classList.add("club-history");
     let historyTableHead = document.createElement("THEAD");
@@ -136,6 +137,10 @@ function drawHistory(history,founded,refounded) {
             case "REFOUNDED":
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
                 hEvent.innerHTML = "Club re-formed" + (refounded ? (" " + refounded) : "");
+                break;
+            case "REREFOUNDED":
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "Club re-formed" + (rerefounded ? (" " + rerefounded) : "");
                 break;
             case "FOUNDED_MERGE":
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');

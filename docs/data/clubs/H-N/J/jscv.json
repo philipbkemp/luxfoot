@@ -1,0 +1,14 @@
+{
+    "name": "Jeunesse Sportive Clervalloise",
+    "history": [{
+        "season": "1910-09",
+        "event": "FOUNDED"
+    },{
+        "season": "1937-38",
+        "event": "RENAME",
+        "new_name": "CLVX"
+    }],
+    "league": [
+        {"place":7,"team":"JSCV","w":1,"d":0,"l":13,"f":6,"a":43,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"}}
+    ]
+}

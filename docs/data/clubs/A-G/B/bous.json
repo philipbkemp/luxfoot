@@ -1,0 +1,14 @@
+{
+    "name": "US Bous",
+    "history": [{
+        "season": "1933-34",
+        "event": "FOUNDED"
+    },{
+        "season": "2009-10",
+        "event": "MERGE",
+        "new_name": "UNRB"
+    }],
+    "league": [
+        {"place":4,"team":"BOUS","w":4,"d":0,"l":6,"f":20,"a":43,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division East"}}
+    ]
+}

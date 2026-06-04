@@ -6,6 +6,7 @@
         "old_name": "SGRV"
     }],
     "league": [
+        {"place":7,"team":"CGRV","w":5,"d":1,"l":8,"f":27,"a":38,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":6,"team":"CGRV","w":4,"d":2,"l":8,"f":28,"a":34,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"playoff":"relegation_2_2"},
         {"place":3,"team":"CGRV","w":5,"d":5,"l":4,"f":35,"a":30,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":1,"team":"CGRV","w":5,"d":0,"l":1,"f":28,"a":13,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"}},

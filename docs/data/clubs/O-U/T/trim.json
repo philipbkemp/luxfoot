@@ -17,6 +17,7 @@
         "new_name": "TRIG"
     }],
     "league": [
+        {"place":3,"team":"TRIM","w": 7,"d":4,"l": 3,"f":22,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":1,"team":"TRIM","w":11,"d":0,"l": 3,"f":48,"a":19,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":2,"team":"TRIM","w": 8,"d":4,"l": 2,"f":36,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":2,"team":"TRIM","w": 6,"d":2,"l": 2,"f":23,"a":14,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
@@ -29,6 +30,8 @@
         {"place":2,"team":"TRIM","w": 7,"d":4,"l": 1,"f":26,"a":13,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "playoff": "promotion_3", "promoted": true}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"MDLB","homeDivision":5,"away":"TRIM","awayDivision":3,"score":"2-1"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":4,"away":"CROD","awayDivision":2,"score":"2-1"},
 		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"5-5","replay":{"score":"0-5","date":"1933-12-17"}},
 

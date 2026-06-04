@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"URUM","w":10,"d":1,"l": 3,"f":42,"a":16,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":8,"team":"URUM","w": 3,"d":1,"l":10,"f":23,"a":42,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":2,"team":"URUM","w": 9,"d":2,"l": 3,"f":37,"a":16,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":7,"team":"URUM","w": 1,"d":3,"l":10,"f":25,"a":44,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
@@ -28,6 +29,8 @@
         {"place": 5, "team": "URUM", "missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"URUM","homeDivision":3,"away":"ASDF","awayDivision":2,"score":"1-2"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"URUM","homeDivision":2,"away":"RBPF","awayDivision":2,"score":"2-2","replay":{"score":"1-5","date":"1933-11-19"}},
 
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"URUM","awayDivision":3,"score":"4-2"},

@@ -15,6 +15,7 @@
         "new_name": "KAER"
     }],
     "league": [
+        {"place":2,"team":"JHTC","w":9,"d":1,"l": 2,"f":41,"a":11,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"}},
         {"place":4,"team":"JHTC","w":4,"d":2,"l": 4,"f":19,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":7,"team":"JHTC","w":4,"d":1,"l": 9,"f":24,"a":46,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":2,"team":"JHTC","w":6,"d":1,"l": 3,"f":33,"a":25,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
@@ -32,6 +33,11 @@
         {"place":3,"team":"JHTC","w":3,"d":3,"l": 2,"f":13,"a": 9,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}}
     ],
     "matches": [
+        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JHTC","homeDivision":5,"away":"ESHW","awayDivision":5,"score":"4-3"},
+		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JHTC","homeDivision":5,"away":"PROG","awayDivision":3,"score":"5-1"},
+		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ASDF","homeDivision":2,"away":"JHTC","awayDivision":5,"score":"11-1"},
+		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"PRON","homeDivision":1,"away":"JHTC","awayDivision":5,"score":"3-1"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JHTC","homeDivision":5,"away":"SWFT","awayDivision":3,"score":"2-1"},
 		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JHTC","homeDivision":5,"away":"SPST","awayDivision":4,"score":"2-0"},
 		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"JHTC","homeDivision":5,"away":"AVBG","awayDivision":3,"score":"2-3"},
