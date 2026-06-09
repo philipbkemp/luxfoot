@@ -10,7 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
-        {"place":4,"team":"SDUD","w": 9,"d":1,"l": 4,"f":36,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage"},
+        {"place":4,"team":"SDUD","w": 9,"d":1,"l": 4,"f":36,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage_dh1"},
         {"place":3,"team":"SDUD","w": 9,"d":1,"l": 4,"f":34,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":7,"team":"SDUD","w": 4,"d":3,"l": 7,"f":18,"a":37,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":1,"team":"SDUD","w": 8,"d":4,"l": 2,"f":30,"a":13,"pts_win":2,"season":"1931-32","competition":{"type":"league","level":2,"league":"The Promotion"},"promoted":true},
@@ -38,9 +38,9 @@
 		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"EGWM","homeDivision":4,"away":"SDUD","awayDivision":2,"score":"5-4"},
 		{"season":"1934-35","competition":{"type":"playoff","playoff":"promotion_1"},"home":"ASDF","away":"SDUD","score":"4-0"},
 		{"season":"1934-35","competition":{"type":"playoff","playoff":"promotion_1"},"home":"SDUD","away":"NSCH","score":"2-1"},
-		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage"},"home":"NSCH","away":"SDUD","score":"2-1"},
-		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage"},"home":"PRON","away":"SDUD","score":"4-1"},
-		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage"},"home":"ARIS","away":"SDUD","score":"5-1"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage_dh1"},"home":"NSCH","away":"SDUD","score":"2-1"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage_dh1"},"home":"PRON","away":"SDUD","score":"4-1"},
+		{"season":"1934-35","competition":{"type":"playoff","playoff":"barrage_dh1"},"home":"ARIS","away":"SDUD","score":"5-1"},
 
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"UBSH","homeDivision":4,"away":"SDUD","awayDivision":2,"score":"3-4"},
 		{"season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ADUD","homeDivision":2,"away":"SDUD","awayDivision":2,"score":"5-0"},

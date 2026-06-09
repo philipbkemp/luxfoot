@@ -13,8 +13,8 @@
 			{"place": 4, "team": "USDD", "w": 6, "d": 2, "l": 6, "f": 35, "a": 40, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
 			{"place": 5, "team": "RBPF", "w": 4, "d": 5, "l": 5, "f": 21, "a": 23, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
 			{"place": 6, "team": "ULUX", "w": 5, "d": 3, "l": 6, "f": 27, "a": 31, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
-			{"place": 7, "team": "ARIS", "w": 5, "d": 1, "l": 8, "f": 27, "a": 39, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "playoff": "barrage"},
-			{"place": 8, "team": "PRON", "w": 4, "d": 2, "l": 8, "f": 20, "a": 31, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "playoff": "barrage", "relegated": true}
+			{"place": 7, "team": "ARIS", "w": 5, "d": 1, "l": 8, "f": 27, "a": 39, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "playoff": "barrage_dh1"},
+			{"place": 8, "team": "PRON", "w": 4, "d": 2, "l": 8, "f": 20, "a": 31, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "playoff": "barrage_dh1", "relegated": true}
 		],
 		"matches": [
 			{ "home": "SPOR", "away": "RBDF", "score": "2-2", "season": "1934-35", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
@@ -81,8 +81,8 @@
 		"standings": [
 			{"place": 1, "team": "FOLA", "w": 10, "d": 2, "l": 2, "f": 60, "a": 22, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
 			{"place": 2, "team": "ASDF", "w": 8, "d": 3, "l": 3, "f": 36, "a": 18, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" },"playoff":"promotion_1","promoted":true},
-			{"place": 3, "team": "NSCH", "w": 9, "d": 1, "l": 4, "f": 40, "a": 14, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" },"playoff":"promotion_1|barrage","promoted":true},
-			{"place": 4, "team": "SDUD", "w": 9, "d": 1, "l": 4, "f": 36, "a": 21, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" },"playoff":"promotion_1|barrage"},
+			{"place": 3, "team": "NSCH", "w": 9, "d": 1, "l": 4, "f": 40, "a": 14, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" },"playoff":"promotion_1|barrage_dh1","promoted":true},
+			{"place": 4, "team": "SDUD", "w": 9, "d": 1, "l": 4, "f": 36, "a": 21, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" },"playoff":"promotion_1|barrage_dh1"},
 			{"place": 5, "team": "CPET", "w": 3, "d": 4, "l": 7, "f": 28, "a": 51, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
 			{"place": 6, "team": "CROD", "w": 4, "d": 1, "l": 9, "f": 26, "a": 42, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
 			{"place": 7, "team": "ADUD", "w": 3, "d": 1, "l": 10, "f": 33, "a": 56, "pts_win": 2, "season": "1934-35", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
@@ -209,8 +209,8 @@
         "promotion_1": {
             "standings": [
                 {"place": 1, "team": "ASDF", "w": 1, "d": 1, "l": 0, "f": 6, "a": 2, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "promotion_1" },"promoted":true},
-                {"place": 2, "team": "SDUD", "w": 1, "d": 0, "l": 1, "f": 2, "a": 5, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "promotion_1" },"playoff":"barrage"},
-                {"place": 3, "team": "NSCH", "w": 0, "d": 1, "l": 1, "f": 3, "a": 4, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "promotion_1" },"playoff":"barrage"}
+                {"place": 2, "team": "SDUD", "w": 1, "d": 0, "l": 1, "f": 2, "a": 5, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "promotion_1" },"playoff":"barrage_dh1"},
+                {"place": 3, "team": "NSCH", "w": 0, "d": 1, "l": 1, "f": 3, "a": 4, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "promotion_1" },"playoff":"barrage_dh1"}
             ],
             "matches": [
                 {"season": "1934-35", "competition": {"type": "playoff", "playoff": "promotion_1"}, "home": "ASDF", "away": "SDUD", "score": "4-0"},
@@ -218,20 +218,20 @@
                 {"season": "1934-35", "competition": {"type": "playoff", "playoff": "promotion_1"}, "home": "SDUD", "away": "NSCH", "score": "2-1"}
             ]
         },
-        "barrage": {
+        "barrage_dh1": {
             "standings": [
-                {"place": 1, "team": "ARIS", "w": 2, "d": 0, "l": 0, "f": 8, "a": 2, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage" },"note": "Remained in Division of Honour"},
-                {"place": 2, "team": "NSCH", "w": 2, "d": 0, "l": 0, "f": 5, "a": 3, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage" },"promoted":true},
-                {"place": 3, "team": "PRON", "w": 1, "d": 0, "l": 2, "f": 7, "a": 7, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage" },"relegated":true},
-                {"place": 4, "team": "SDUD", "w": 0, "d": 0, "l": 3, "f": 3, "a":11, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage" },"note":"Remained in 1. Division"}
+                {"place": 1, "team": "ARIS", "w": 2, "d": 0, "l": 0, "f": 8, "a": 2, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barragbarrage_dh1e" },"note": "Remained in Division of Honour"},
+                {"place": 2, "team": "NSCH", "w": 2, "d": 0, "l": 0, "f": 5, "a": 3, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage_dh1" },"promoted":true},
+                {"place": 3, "team": "PRON", "w": 1, "d": 0, "l": 2, "f": 7, "a": 7, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage_dh1" },"relegated":true},
+                {"place": 4, "team": "SDUD", "w": 0, "d": 0, "l": 3, "f": 3, "a":11, "pts_win": 2, "season": "1934-35", "competition": { "type": "playoff", "playoff": "barrage_dh1" },"note":"Remained in 1. Division"}
             ],
             "matches": [
-                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage"}, "home": "NSCH", "away": "SDUD", "score": "2-1"},
-                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage"}, "home": "PRON", "away": "SDUD", "score": "4-1"},
-                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage"}, "home": "NSCH", "away": "PRON", "score": "3-2"},
-                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage"}, "home": "ARIS", "away": "PRON", "score": "3-1"},
-                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage"}, "home": "ARIS", "away": "SDUD", "score": "5-1"},
-                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage"}, "home": "ARIS", "away": "NSCH", "score": "P-P","note":"Match not played as playoff winner already decided"}
+                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage_dh1"}, "home": "NSCH", "away": "SDUD", "score": "2-1"},
+                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage_dh1"}, "home": "PRON", "away": "SDUD", "score": "4-1"},
+                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage_dh1"}, "home": "NSCH", "away": "PRON", "score": "3-2"},
+                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage_dh1"}, "home": "ARIS", "away": "PRON", "score": "3-1"},
+                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage_dh1"}, "home": "ARIS", "away": "SDUD", "score": "5-1"},
+                {"season": "1934-35", "competition": {"type": "playoff", "playoff": "barrage_dh1"}, "home": "ARIS", "away": "NSCH", "score": "P-P","note":"Match not played as playoff winner already decided"}
             ]
         }
     },

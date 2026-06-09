@@ -365,8 +365,8 @@ function getPlayoffName(po) {
     let poName = po;
 
     switch (po) {
-        case "barrage":
-            poName = "Barrage";
+        case "barrage_dh1":
+            poName = "Barrage DH/1";
             break;
 
         case "promotion_p":
