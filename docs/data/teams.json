@@ -51,7 +51,8 @@
         "name": "AS Red Black Luxembourg"
     },
     "ASTN": {
-        "name": "Alisontia Steinsel"
+        "name": "Alisontia Steinsel",
+        "level": 2
     },
     "ATBS": {
         "name": "Atert Bissen"
@@ -192,7 +193,8 @@
         "name": "FC Doncols"
     },
     "DRZV": {
-        "name": "Diables Rouges Zolver"
+        "name": "Diables Rouges Zolver",
+        "level": -1
     },
     "ECBT": {
         "name": "Eclair Bettembourg",
@@ -273,7 +275,8 @@
         "name": "US Folschette"
     },
     "FRTA": {
-        "name": "Forta Beaufort"
+        "name": "Forta Beaufort",
+        "level": -1
     },
     "GBHT": {
         "name": "GB Harlange/Tarchamps"
@@ -317,7 +320,8 @@
         "level": -1
     },
     "HOBS": {
-        "name": "CS Hobscheid"
+        "name": "CS Hobscheid",
+        "level": -1
     },
     "HOPB": {
         "name": "Hoping Burange",
@@ -548,7 +552,8 @@
         "level": -1
     },
     "OBCN": {
-        "name": "Old Boys Consdorf"
+        "name": "Old Boys Consdorf",
+        "level": -1
     },
     "OVND": {
         "name": "Orania Vianden"

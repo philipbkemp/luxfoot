@@ -9,12 +9,13 @@
         "new_name": "KAER"
     }],
     "league": [
-        {"place":5,"team":"UBSH","w":5,"d":1,"l": 6,"f":33,"a":35,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"}},
-        {"place":7,"team":"UBSH","w":4,"d":0,"l":10,"f":26,"a":48,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
-        {"place":5,"team":"UBSH","w":6,"d":1,"l": 7,"f":33,"a":49,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
-        {"place":3,"team":"UBSH","w":6,"d":1,"l": 3,"f":40,"a":22,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
-        {"place":4,"team":"UBSH","w":5,"d":0,"l": 5,"f":25,"a":22,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
-        {"place":5,"team":"UBSH","w":4,"d":2,"l": 6,"f":16,"a":25,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+        {"place":1,"team":"UBSH","w":12,"d":3,"l": 1,"f":63,"a":26,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"},"promoted":true},
+        {"place":5,"team":"UBSH","w": 5,"d":1,"l": 6,"f":33,"a":35,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"}},
+        {"place":7,"team":"UBSH","w": 4,"d":0,"l":10,"f":26,"a":48,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
+        {"place":5,"team":"UBSH","w": 6,"d":1,"l": 7,"f":33,"a":49,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
+        {"place":3,"team":"UBSH","w": 6,"d":1,"l": 3,"f":40,"a":22,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
+        {"place":4,"team":"UBSH","w": 5,"d":0,"l": 5,"f":25,"a":22,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
+        {"place":5,"team":"UBSH","w": 4,"d":2,"l": 6,"f":16,"a":25,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
     ],
     "matches": [
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"UBSH","homeDivision":4,"away":"SDUD","awayDivision":2,"score":"3-4"},

@@ -296,16 +296,56 @@ function drawMatchRecord(matches) {
                     }
                 }
             }
+
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay');
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.score');
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.date');
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.forfeit');
+            window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.aet');
+
+            if ( m.replay.replay ) {
+                window.dataKeySet = [...window.dataKeySet,...Object.keys(m.replay.replay).map(key => `matches.replay.replay.${key}`)];
+                const rTwoScore = m.replay.replay.score.split("-");
+                let secondHomeReplayScoreParsed = Number.parseInt(rTwoScore[0]);
+                let secondAwayReplayScoreParsed = Number.parseInt(rTwoScore[1]);
+                let homeRScoreTwo = Number.isNaN(secondHomeReplayScoreParsed) ? -1 : secondHomeReplayScoreParsed;
+                let awayRScoreTwo = Number.isNaN(secondAwayReplayScoreParsed) ? -1 : secondAwayReplayScoreParsed;
+                if ( homeRScoreTwo !== -1 && awayRScoreTwo !== -1 ) {
+                    if ( m.home === club ) {
+                        opponents[opp].f += homeRScoreTwo;
+                        opponents[opp].a += awayRScoreTwo;
+                        if ( homeRScoreTwo > awayRScoreTwo ) {
+                            opponents[opp].w++;
+                        } else if ( homeRScoreTwo < awayRScoreTwo ) {
+                            opponents[opp].l++;
+                        } else if ( homeRScoreTwo === awayRScoreTwo) {
+                            opponents[opp].d++;
+                        }
+                    } else if ( m.away === club ) {
+                        opponents[opp].f += awayRScoreTwo;
+                        opponents[opp].a += homeRScoreTwo;
+                        if ( homeRScoreTwo > awayRScoreTwo ) {
+                            opponents[opp].l++;
+                        } else if ( homeRScoreTwo < awayRScoreTwo ) {
+                            opponents[opp].w++;
+                        } else if ( homeRScoreTwo === awayRScoreTwo) {
+                            opponents[opp].d++;
+                        }
+                    }
+                }
+
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.replay');
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.replay.score');
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.replay.date');
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.replay.forfeit');
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.replay.aet');
+            }
         }
+
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.home')
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.away');
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.score');
-
-        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay');
-        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.score');
-        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.date');
-        window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.replay.forfeit');
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'matches.aet');
 

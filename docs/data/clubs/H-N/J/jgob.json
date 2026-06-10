@@ -9,6 +9,7 @@
         "new_name": "JKGB"
     }],
     "league": [
+        {"place":7,"team":"JGOB","w":3,"d":5,"l": 8,"f":25,"a":32,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}},
         {"place":7,"team":"JGOB","w":2,"d":0,"l":10,"f":19,"a":55,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"}}
     ]
 }

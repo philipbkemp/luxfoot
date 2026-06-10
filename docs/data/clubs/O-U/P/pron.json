@@ -9,6 +9,7 @@
         "event": "CUPWINNER"
     }],
     "league": [
+        {"place":1,"team":"PRON","w":14,"d":3,"l": 1,"f":70,"a":20,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":8,"team":"PRON","w": 4,"d":2,"l": 8,"f":20,"a":31,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"},"playoff":"barrage_dh1","relegated":true},
         {"place":6,"team":"PRON","w": 4,"d":4,"l": 6,"f":22,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":3,"team":"PRON","w": 7,"d":1,"l": 6,"f":20,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"}},
@@ -27,6 +28,10 @@
         {"place":2,"team":"PRON","w": 4,"d":3,"l": 1,"f":19,"a": 9,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "playoff": "promotion_3"}
     ],
     "matches": [
+        {"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"PRON","homeDivision":2,"away":"SWFT","awayDivision":4,"score":"8-0"},
+		{"date":"1936-04-19","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"SPOR","homeDivision":1,"away":"PRON","awayDivision":2,"score":"0-5"},
+		{"date":"1936-05-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"PRON","homeDivision":2,"away":"SDUD","awayDivision":2,"score":"3-4"},
+
         {"home":"SPOR","away":"PRON","score":"4-0","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"PRON","score":"1-2","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"PRON","score":"3-1","season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},

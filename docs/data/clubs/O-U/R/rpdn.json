@@ -9,6 +9,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":2,"team":"RPDN","w":14,"d":1,"l": 3,"f":74,"a":29,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":1,"team":"RPDN","w": 9,"d":2,"l": 1,"f":40,"a":16,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"},"promoted":true},
         {"place":7,"team":"RPDN","w": 4,"d":2,"l": 8,"f":31,"a":49,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"playoff":"relegation_2_2","relegated":true},
         {"place":6,"team":"RPDN","w": 5,"d":0,"l": 9,"f":31,"a":37,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
@@ -25,6 +26,9 @@
         {"place":2,"team":"RPDN","w":10,"d":2,"l": 2,"f":40,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"},"promoted":true}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":4,"away":"LLMP","awayDivision":5,"score":"3-0"},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"EGWM","homeDivision":3,"away":"RPDN","awayDivision":4,"score":"2-0"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":5,"away":"SDUD","awayDivision":2,"score":"1-6"},
 
         {"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RPDN","homeDivision":4,"away":"ADUD","awayDivision":2,"score":"0-2"},

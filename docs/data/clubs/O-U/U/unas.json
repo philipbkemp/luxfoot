@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":8,"team":"UNAS","w": 6,"d":0,"l":12,"f":46,"a":72,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":2,"team":"UNAS","w": 7,"d":1,"l": 4,"f":32,"a":28,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"},"promoted":true},
         {"place":2,"team":"UNAS","w": 6,"d":1,"l": 3,"f":21,"a":13,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"playoff":"promotion_3"},
         {"place":3,"team":"UNAS","w": 7,"d":2,"l": 5,"f":32,"a":34,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},

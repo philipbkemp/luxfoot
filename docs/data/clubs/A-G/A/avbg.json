@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"AVBG","w": 7,"d":4,"l": 7,"f":44,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":8,"team":"AVBG","w": 3,"d":1,"l":10,"f":25,"a":60,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":2,"team":"AVBG","w":10,"d":2,"l": 2,"f":41,"a":31,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":6,"team":"AVBG","w": 5,"d":1,"l": 8,"f":36,"a":46,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"}},
@@ -27,6 +28,8 @@
         {"place":1,"team":"AVBG","w": 6,"d":0,"l": 0,"f":51,"a": 5,"pts_win":2,"season":"1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":2,"away":"AVBG","awayDivision":2,"score":"4-3"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"AVBG","homeDivision":2,"away":"DARE","awayDivision":4,"score":"8-0"},
 		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"MDLB","homeDivision":5,"away":"AVBG","awayDivision":2,"score":"1-4"},
 		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"AVBG","homeDivision":2,"away":"ARIS","awayDivision":1,"score":"6-1"},

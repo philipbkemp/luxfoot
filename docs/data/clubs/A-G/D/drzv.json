@@ -1,0 +1,13 @@
+{
+    "name": "Diables Rouges Zolver",
+    "history": [
+        {"season":"1934-35","event":"FOUNDED"},
+        {"season":"1940-41","event":"DISSOLVED"}
+    ],
+    "league": [
+        {"place":3,"team":"DRZV","w":9,"d":4,"l":3,"f":55,"a":33,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}}
+    ],
+    "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"DRZV","homeDivision":5,"away":"SPST","awayDivision":4,"score":"2-2","replay":{"score":"2-4","date":"1935-09-22"}}
+    ]
+}

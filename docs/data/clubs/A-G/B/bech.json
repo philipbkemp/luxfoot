@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":7,"team":"BECH","w":1,"d":3,"l":8,"f":21,"a":46,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series East"}},
         {"place":6,"team":"BECH","w":1,"d":0,"l":9,"f":16,"a":65,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division East"}}
     ]
 }

@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
-        {"place":5,"team":"SCHR","w":4,"d":1,"l":5,"f":22,"a":37,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}}
+        {"place":7,"team":"SCHR","w":2,"d":1,"l":11,"f":19,"a":52,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"}},
+        {"place":5,"team":"SCHR","w":4,"d":1,"l": 5,"f":22,"a":37,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}}
     ]
 }

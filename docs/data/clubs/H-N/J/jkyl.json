@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":2,"team":"JKYL","w": 9,"d":6,"l": 1,"f":54,"a":28,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"},"promoted":true},
         {"place":8,"team":"JKYL","w": 1,"d":2,"l":11,"f":21,"a":56,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":5,"team":"JKYL","w": 5,"d":2,"l": 7,"f":30,"a":45,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"JKYL","w": 1,"d":2,"l":11,"f":24,"a":55,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},

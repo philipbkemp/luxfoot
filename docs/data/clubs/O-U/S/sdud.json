@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":2,"team":"SDUD","w":10,"d":6,"l": 2,"f":55,"a":18,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":4,"team":"SDUD","w": 9,"d":1,"l": 4,"f":36,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage_dh1"},
         {"place":3,"team":"SDUD","w": 9,"d":1,"l": 4,"f":34,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":7,"team":"SDUD","w": 4,"d":3,"l": 7,"f":18,"a":37,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
@@ -33,6 +34,14 @@
         {"place":1,"team":"SDUD","w": 2,"d":0,"l": 0,"f":12,"a": 2,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SDUD","homeDivision":2,"away":"SBRT","awayDivision":5,"score":"13-0"},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"SDUD","homeDivision":2,"away":"PROG","awayDivision":2,"score":"7-3"},
+		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"SDUD","homeDivision":2,"away":"RROD","awayDivision":4,"score":"9-0"},
+		{"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":2,"away":"AVBG","awayDivision":2,"score":"4-3"},
+		{"date":"1936-04-19","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"SDUD","homeDivision":2,"away":"JESH","awayDivision":1,"score":"2-1"},
+		{"date":"1936-05-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"PRON","homeDivision":2,"away":"SDUD","awayDivision":2,"score":"3-4"},
+		{"date":"1936-06-07","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"F","round":"Final"},"home":"RBDF","homeDivision":1,"away":"SDUD","awayDivision":2,"score":"2-0"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":5,"away":"SDUD","awayDivision":2,"score":"1-6"},
 		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"BBML","homeDivision":5,"away":"SDUD","awayDivision":2,"score":"3-4"},
 		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"EGWM","homeDivision":4,"away":"SDUD","awayDivision":2,"score":"5-4"},

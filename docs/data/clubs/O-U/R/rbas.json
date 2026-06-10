@@ -6,12 +6,16 @@
         "event": "FOUNDED"
     }],
     "league": [
-        {"place":4,"team":"RBAS","w":6,"d":1,"l":7,"f":35,"a":40,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
-        {"place":1,"team":"RBAS","w":7,"d":1,"l":2,"f":28,"a":16,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true},
-        {"place":4,"team":"RBAS","w":7,"d":1,"l":6,"f":38,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
-        {"place":4,"team":"RBAS","w":4,"d":2,"l":4,"f":27,"a":29,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"relegated":true}
+        {"place":7,"team":"RBAS","w":7,"d":1,"l":10,"f":37,"a":44,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
+        {"place":4,"team":"RBAS","w":6,"d":1,"l": 7,"f":35,"a":40,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
+        {"place":1,"team":"RBAS","w":7,"d":1,"l": 2,"f":28,"a":16,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true},
+        {"place":4,"team":"RBAS","w":7,"d":1,"l": 6,"f":38,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
+        {"place":4,"team":"RBAS","w":4,"d":2,"l": 4,"f":27,"a":29,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"relegated":true}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBAS","homeDivision":3,"away":"BBML","awayDivision":4,"score":"1-0"},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"YBDK","homeDivision":4,"away":"RBAS","awayDivision":3,"score":"4-1"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBAS","homeDivision":4,"away":"MOND","awayDivision":5,"score":"1-0"},
 		{"date":"1935-01-06","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"RBAS","homeDivision":4,"away":"FOLA","awayDivision":2,"score":"2-9"},
 		{"date":"1935-01-20","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"JESH","homeDivision":1,"away":"RBAS","awayDivision":4,"score":"5-0"},

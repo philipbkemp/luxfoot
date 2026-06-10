@@ -8,6 +8,7 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":2,"team":"WRMC","w":7,"d":3,"l":4,"f":31,"a":32,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"},"removed":true,"note":"Withdrew"},
         {"place":6,"team":"WRMC","w":0,"d":0,"l":10,"f":4,"a":50,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}}
     ]
 }

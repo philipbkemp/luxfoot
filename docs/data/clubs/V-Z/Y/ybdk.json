@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"YBDK","w":13,"d":3,"l":2,"f":55,"a":16,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":5,"team":"YBDK","w":5,"d":4,"l": 5,"f":25,"a":23,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":7,"team":"YBDK","w":4,"d":2,"l": 8,"f":29,"a":38,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":4,"team":"YBDK","w":6,"d":2,"l": 6,"f":32,"a":43,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"}},
@@ -28,6 +29,11 @@
         {"place":1,"team":"YBDK","w":2,"d":0,"l": 0,"f":10,"a": 0,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JWAS","homeDivision":3,"away":"YBDK","awayDivision":4,"score":"2-3"},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"YBDK","homeDivision":4,"away":"RBAS","awayDivision":3,"score":"4-1"},
+		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ARIS","homeDivision":1,"away":"YBDK","awayDivision":4,"score":"3-2"},
+		{"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"YBDK","homeDivision":4,"away":"USDD","awayDivision":1,"score":"3-8"},
+
         {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"YBDK","homeDivision":3,"away":"CROD","awayDivision":3,"score":"2-2","replay":{"score":"0-10"}},
 
         {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"PRON","homeDivision":3,"away":"YBDK","awayDivision":3,"score":"3-0","forfeit":true},

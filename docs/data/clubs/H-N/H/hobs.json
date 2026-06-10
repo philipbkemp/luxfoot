@@ -1,0 +1,11 @@
+{
+    "name": "CS Hobscheid",
+    "founded": "1932-07-03",
+    "history": [
+        {"season":"1932-33","event":"FOUNDED"},
+        {"season":"2006-07","event":"MERGE","new_name":"AAHE"}
+    ],
+    "league": [
+        {"place":9,"team":"HOBS","w":1,"d":2,"l":13,"f":22,"a":67,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}}
+    ]
+}

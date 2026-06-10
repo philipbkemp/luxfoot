@@ -10,10 +10,15 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":5,"team":"RROD","w":10,"d":1,"l":7,"f":48,"a":31,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":1,"team":"RROD","w":10,"d":1,"l":1,"f":39,"a":16,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true},
         {"place":3,"team":"RROD","w": 4,"d":3,"l":3,"f":20,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"RROD","awayDivision":4,"score":"1-2"},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RROD","homeDivision":4,"away":"FOLA","awayDivision":1,"score":"2-1"},
+		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"SDUD","homeDivision":2,"away":"RROD","awayDivision":4,"score":"9-0"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RROD","homeDivision":5,"away":"ADUD","awayDivision":2,"score":"4-2"},
 		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RROD","homeDivision":5,"away":"EGWM","awayDivision":4,"score":"3-4"},
 

@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"KOPS","w":5,"d":4,"l": 7,"f":37,"a":40,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}},
         {"place":4,"team":"KOPS","w":6,"d":0,"l": 6,"f":33,"a":31,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"}},
         {"place":6,"team":"KOPS","w":0,"d":0,"l":10,"f":11,"a":58,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}}
     ]

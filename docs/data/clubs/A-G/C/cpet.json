@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":4,"team":"CPET","w":10,"d":2,"l": 6,"f":49,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"CPET","w": 3,"d":4,"l": 7,"f":28,"a":51,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":1,"team":"CPET","w":10,"d":3,"l": 1,"f":48,"a":18,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":3,"team":"CPET","w": 9,"d":0,"l": 5,"f":55,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league","level":3,"league":"The Promotion"}},
@@ -34,6 +35,11 @@
         {"place":6,"team":"CPET","missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CPET","homeDivision":2,"away":"ASLX","awayDivision":3,"score":"3-2"},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CPET","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"3-0"},
+		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"CPET","homeDivision":2,"away":"MANC","awayDivision":3,"score":"2-1"},
+		{"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"CPET","homeDivision":2,"away":"JESH","awayDivision":1,"score":"0-4"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"BBML","homeDivision":5,"away":"CPET","awayDivision":2,"score":"5-3"},
 
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSOB","homeDivision":4,"away":"CPET","awayDivision":3,"score":"1-3"},

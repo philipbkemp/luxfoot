@@ -9,20 +9,24 @@
         "new_name": "STNG"
     }],
     "league": [
-        {"place":4,"team":"SPST","w":5,"d":3,"l": 4,"f":38,"a":25,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true},
-        {"place":8,"team":"SPST","w":1,"d":0,"l":13,"f":16,"a":47,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
-        {"place":5,"team":"SPST","w":5,"d":3,"l": 6,"f":21,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":5,"team":"SPST","w":5,"d":3,"l": 6,"f":34,"a":31,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
-        {"place":3,"team":"SPST","w":5,"d":2,"l": 7,"f":32,"a":38,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
-        {"place":8,"team":"SPST","w":0,"d":0,"l":14,"f":11,"a":98,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
-        {"place":1,"team":"SPST","w":9,"d":3,"l": 2,"f":39,"a":23,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"promoted":true},
-        {"place":1,"team":"SPST","w":7,"d":0,"l": 1,"f":29,"a":11,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"promoted":true},
-        {"place":4,"team":"SPST","w":1,"d":0,"l": 5,"f": 9,"a":22,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
-        {"place":2,"team":"SPST","w":5,"d":0,"l": 3,"f":19,"a":11,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
-        {"place":3,"team":"SPST","w":3,"d":1,"l": 4,"f":12,"a":18,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
-        {"place":5,"team":"SPST","w":1,"d":0,"l": 7,"f": 8,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
+        {"place":3,"team":"SPST","w":12,"d":2,"l": 4,"f":54,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
+        {"place":4,"team":"SPST","w": 5,"d":3,"l": 4,"f":38,"a":25,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true},
+        {"place":8,"team":"SPST","w": 1,"d":0,"l":13,"f":16,"a":47,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
+        {"place":5,"team":"SPST","w": 5,"d":3,"l": 6,"f":21,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
+        {"place":5,"team":"SPST","w": 5,"d":3,"l": 6,"f":34,"a":31,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true},
+        {"place":3,"team":"SPST","w": 5,"d":2,"l": 7,"f":32,"a":38,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
+        {"place":8,"team":"SPST","w": 0,"d":0,"l":14,"f":11,"a":98,"pts_win":2,"season":"1929-30","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
+        {"place":1,"team":"SPST","w": 9,"d":3,"l": 2,"f":39,"a":23,"pts_win":2,"season":"1928-29","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"promoted":true},
+        {"place":1,"team":"SPST","w": 7,"d":0,"l": 1,"f":29,"a":11,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"promoted":true},
+        {"place":4,"team":"SPST","w": 1,"d":0,"l": 5,"f": 9,"a":22,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
+        {"place":2,"team":"SPST","w": 5,"d":0,"l": 3,"f":19,"a":11,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
+        {"place":3,"team":"SPST","w": 3,"d":1,"l": 4,"f":12,"a":18,"pts_win":2,"season":"1924-25","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"place":5,"team":"SPST","w": 1,"d":0,"l": 7,"f": 8,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
     ],
     "matches": [
+        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"DRZV","homeDivision":5,"away":"SPST","awayDivision":4,"score":"2-2","replay":{"score":"2-4","date":"1935-09-22"}},
+		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"SWFT","homeDivision":4,"away":"SPST","awayDivision":4,"score":"3-2"},
+
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":4,"away":"JKYL","awayDivision":4,"score":"3-1"},
 		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JHTC","homeDivision":5,"away":"SPST","awayDivision":4,"score":"2-0"},
 
