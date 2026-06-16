@@ -5,20 +5,21 @@
         "event": "FOUNDED"
     }],
     "league": [
-        {"place":3,"team":"MINL","w":6,"d":4,"l": 4,"f":54,"a":49,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"},"playoff":"promotion_3","promoted":true},
-        {"place":4,"team":"MINL","w":4,"d":2,"l": 4,"f":27,"a":29,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}},
-        {"place":5,"team":"MINL","w":2,"d":0,"l": 8,"f":19,"a":35,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place":8,"team":"MINL","w":1,"d":0,"l":13,"f":25,"a":85,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place":6,"team":"MINL","w":0,"d":0,"l":10,"f": 7,"a":68,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"relegated":true},
-        {"place":3,"team":"MINL","w":4,"d":1,"l": 5,"f":23,"a":55,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
-        {"place":7,"team":"MINL","w":0,"d":1,"l":11,"f": 3,"a":42,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
+        {"place":10,"team":"MINL","w":1,"d":0,"l":17,"f":27,"a":125,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
+        {"place": 3,"team":"MINL","w":6,"d":4,"l": 4,"f":54,"a": 49,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"},"playoff":"promotion_3","promoted":true},
+        {"place": 4,"team":"MINL","w":4,"d":2,"l": 4,"f":27,"a": 29,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}},
+        {"place": 5,"team":"MINL","w":2,"d":0,"l": 8,"f":19,"a": 35,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
+        {"place": 8,"team":"MINL","w":1,"d":0,"l":13,"f":25,"a": 85,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
+        {"place": 6,"team":"MINL","w":0,"d":0,"l":10,"f": 7,"a": 68,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"},"relegated":true},
+        {"place": 3,"team":"MINL","w":4,"d":1,"l": 5,"f":23,"a": 55,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"place": 7,"team":"MINL","w":0,"d":1,"l":11,"f": 3,"a": 42,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
         {"gap":true},
-        {"place":2,"team":"MINL","w":3,"d":1,"l": 2,"f":10,"a": 6,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
-        {"place":4,"team":"MINL","w":2,"d":1,"l": 5,"f":14,"a":19,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"place": 2,"team":"MINL","w":3,"d":1,"l": 2,"f":10,"a":  6,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"place": 4,"team":"MINL","w":2,"d":1,"l": 5,"f":14,"a": 19,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"gap":true},
-        {"place":1,"team":"MINL","w":6,"d":0,"l": 0,"f":23,"a": 1,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"removed":true,"note":"Withdrew"},
-        {"place":3,"team":"MINL","w":0,"d":3,"l": 1,"f": 3,"a": 4,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
-        {"place":3,"team":"MINL","w":5,"d":1,"l": 4,"f":26,"a":14,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
+        {"place": 1,"team":"MINL","w":6,"d":0,"l": 0,"f":23,"a":  1,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"removed":true,"note":"Withdrew"},
+        {"place": 3,"team":"MINL","w":0,"d":3,"l": 1,"f": 3,"a":  4,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
+        {"place": 3,"team":"MINL","w":5,"d":1,"l": 4,"f":26,"a": 14,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ],
     "matches": [
         {"season":"1935-36","competition":{"type":"playoff","playoff":"promotion_3"},"home":"MINL","away":"TSVG","score":"3-0","forfeit":true,"outcome":"MINL promoted due to forfeit"},

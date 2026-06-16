@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place":2,"team":"CSHL","w":11,"d":2,"l": 5,"f":48,"a":28,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"playoff":"promotion_2","promoted":true},
         {"place":9,"team":"CSHL","w": 5,"d":2,"l":11,"f":52,"a":43,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":1,"team":"CSHL","w":10,"d":2,"l": 2,"f":36,"a":16,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":2,"team":"CSHL","w": 9,"d":2,"l": 3,"f":42,"a":19,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
@@ -32,6 +33,10 @@
         {"place":1,"team":"CSHL","w": 2,"d":1,"l": 1,"f":14,"a": 9,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "playoff":"promotion_3", "promoted": true}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSHL","homeDivision":4,"away":"OVND","awayDivision":"-","score":"6-1"},
+		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSHL","homeDivision":4,"away":"GOLD","awayDivision":4,"score":"1-1","replay":{"score":"0-3","date":"1936-10-18"}},
+		{"season":"1936-37","competition":{"type":"playoff","playoff":"promotion_2"},"home":"CSHL","away":"RROD","score":"2-1","outcome":"CSHL promoted"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"DARE","homeDivision":4,"away":"CSHL","awayDivision":3,"score":"1-4"},
 		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":2,"away":"CSHL","awayDivision":3,"score":"2-0"},
 

@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"SCBT","w":16,"d":1,"l": 1,"f":94,"a":26,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":3,"team":"SCBT","w":13,"d":2,"l": 3,"f":80,"a":33,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":5,"team":"SCBT","w": 5,"d":2,"l": 7,"f":33,"a":26,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"SCBT","w": 2,"d":1,"l":11,"f":25,"a":58,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},

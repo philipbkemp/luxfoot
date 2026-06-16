@@ -1,0 +1,10 @@
+{
+    "name": "Jeunesse Junglinster",
+    "founded": "1935-02-07",
+    "history": [
+        {"season":"1934-35","event":"FOUNDED"}
+    ],
+    "league": [
+        {"place":6,"team":"JUNG","w":4,"d":1,"l":9,"f":23,"a":43,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
+    ]
+}

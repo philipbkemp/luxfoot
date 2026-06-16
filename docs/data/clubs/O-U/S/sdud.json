@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":4,"team":"SDUD","w":11,"d":2,"l": 5,"f":57,"a":33,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":2,"team":"SDUD","w":10,"d":6,"l": 2,"f":55,"a":18,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":4,"team":"SDUD","w": 9,"d":1,"l": 4,"f":36,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage_dh1"},
         {"place":3,"team":"SDUD","w": 9,"d":1,"l": 4,"f":34,"a":23,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
@@ -34,6 +35,27 @@
         {"place":1,"team":"SDUD","w": 2,"d":0,"l": 0,"f":12,"a": 2,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"home":"JESH","away":"SDUD","score":"5-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"SDUD","score":"2-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"JESH","score":"2-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"USDD","score":"0-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"FOLA","score":"3-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"RBDF","score":"3-3","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"PRON","score":"5-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"ULUX","score":"5-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"SPOR","score":"1-5","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"RBPF","score":"4-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"ARIS","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"SDUD","score":"3-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"SDUD","score":"1-4","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"SDUD","score":"4-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"SDUD","score":"3-7","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SPOR","away":"SDUD","score":"0-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"SDUD","score":"1-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ARIS","away":"SDUD","score":"0-12","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1937-02-07","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"3-1"},
+		{"date":"1937-04-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"PRON","homeDivision":1,"away":"SDUD","awayDivision":1,"score":"4-0"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SDUD","homeDivision":2,"away":"SBRT","awayDivision":5,"score":"13-0"},
 		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"SDUD","homeDivision":2,"away":"PROG","awayDivision":2,"score":"7-3"},
 		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"SDUD","homeDivision":2,"away":"RROD","awayDivision":4,"score":"9-0"},

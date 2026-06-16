@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":1,"team":"ADUD","w":14,"d":2,"l": 2,"f":77,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":8,"team":"ADUD","w": 4,"d":5,"l": 9,"f":29,"a":50,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":7,"team":"ADUD","w": 3,"d":1,"l":10,"f":33,"a":56,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"ADUD","w": 7,"d":0,"l": 7,"f":32,"a":42,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"}},
@@ -31,6 +32,8 @@
         {"place":4,"team":"ADUD","w": 1,"d":0,"l": 5,"f": 7,"a":21,"pts_win":2,"season":"1917-18", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series Esch"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSOB","homeDivision":3,"away":"ADUD","awayDivision":3,"score":"4-0"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"RROD","awayDivision":4,"score":"1-2"},
 
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RROD","homeDivision":5,"away":"ADUD","awayDivision":2,"score":"4-2"},

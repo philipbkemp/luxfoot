@@ -16,6 +16,7 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":9,"team":"RBPF","w": 1,"d":2,"l":15,"f":22,"a":61,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":7,"team":"RBPF","w": 8,"d":0,"l":10,"f":34,"a":68,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":5,"team":"RBPF","w": 4,"d":5,"l": 5,"f":21,"a":23,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":1,"team":"RBPF","w":10,"d":1,"l": 3,"f":49,"a":17,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
@@ -34,6 +35,27 @@
         {"place":1,"team":"RBPF","w": 8,"d":0,"l": 2,"f":37,"a":16,"pts_win":2,"season":"1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true}
     ],
     "matches": [
+        {"home":"JESH","away":"RBPF","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"RBPF","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"RBPF","score":"4-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"RBPF","score":"3-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"RBPF","score":"5-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"RBPF","score":"6-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"RBPF","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SPOR","away":"RBPF","score":"2-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"JESH","score":"0-3","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"USDD","score":"0-6","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"SDUD","score":"1-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"FOLA","score":"1-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"RBDF","score":"3-6","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"PRON","score":"1-4","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"ULUX","score":"2-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"SPOR","score":"3-5","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBPF","away":"ARIS","score":"4-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ARIS","away":"RBPF","score":"4-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RBPF","homeDivision":1,"away":"ASLX","awayDivision":3,"score":"2-1"},
+		{"date":"1937-02-07","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ULUX","homeDivision":1,"away":"RBPF","awayDivision":1,"score":"4-0"},
+
         {"home":"SPOR","away":"RBPF","score":"11-0","season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"RBPF","score":"5-1","season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"RBPF","score":"6-1","season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},

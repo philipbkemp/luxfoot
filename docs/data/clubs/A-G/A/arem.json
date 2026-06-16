@@ -9,6 +9,7 @@
         "new_name": "UNRB"
     }],
     "league": [
+        {"place":4,"team":"AREM","w": 8,"d":4,"l":6,"f":42,"a":38,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":1,"team":"AREM","w":15,"d":0,"l":3,"f":71,"a":24,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":3,"team":"AREM","w": 7,"d":3,"l":4,"f":35,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":3,"team":"AREM","w": 7,"d":3,"l":4,"f":42,"a":32,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},

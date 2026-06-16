@@ -5,6 +5,7 @@
         {"season":"2000-01","event":"MERGE","new_name":"USBC"}
     ],
     "league": [
+        {"place":7,"team":"OBCN","w":3,"d":2,"l":9,"f":18,"a":43,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":5,"team":"OBCN","w":4,"d":3,"l":5,"f":24,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series East"}}
     ]
 }

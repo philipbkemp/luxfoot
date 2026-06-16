@@ -10,16 +10,19 @@
         "new_name":"RSMB"
     }],
     "league": [
-        {"place":10,"team":"RSML","w":0,"d":0,"l":18,"f": 7,"a":113,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
-        {"place":7,"team":"RSML","w": 2,"d":4,"l": 8,"f":26,"a": 35,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
-        {"place":6,"team":"RSML","w": 4,"d":3,"l": 7,"f":29,"a": 38,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"}},
-        {"place":1,"team":"RSML","w":10,"d":0,"l": 4,"f":42,"a": 29,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
-        {"place":7,"team":"RSML","w": 3,"d":3,"l": 8,"f":26,"a": 43,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true},
-        {"place":5,"team":"RSML","w": 5,"d":3,"l": 6,"f":34,"a": 37,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
-        {"place":1,"team":"RSML","w": 9,"d":0,"l": 1,"f":53,"a":  9,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
-        {"place":6,"team":"RSML","w": 1,"d":3,"l": 6,"f":22,"a": 33,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}}
+        {"place":10,"team":"RSML","w": 1,"d":0,"l":17,"f":12,"a": 86,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
+        {"place":10,"team":"RSML","w": 0,"d":0,"l":18,"f": 7,"a":113,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
+        {"place": 7,"team":"RSML","w": 2,"d":4,"l": 8,"f":26,"a": 35,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
+        {"place": 6,"team":"RSML","w": 4,"d":3,"l": 7,"f":29,"a": 38,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"}},
+        {"place": 1,"team":"RSML","w":10,"d":0,"l": 4,"f":42,"a": 29,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
+        {"place": 7,"team":"RSML","w": 3,"d":3,"l": 8,"f":26,"a": 43,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"relegated":true},
+        {"place": 5,"team":"RSML","w": 5,"d":3,"l": 6,"f":34,"a": 37,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"}},
+        {"place": 1,"team":"RSML","w": 9,"d":0,"l": 1,"f":53,"a":  9,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
+        {"place": 6,"team":"RSML","w": 1,"d":3,"l": 6,"f":22,"a": 33,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RSML","homeDivision":4,"away":"ASLX","awayDivision":3,"score":"2-5"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RSML","homeDivision":3,"away":"SWFT","awayDivision":4,"score":"0-2"},
 
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RSML","homeDivision":3,"away":"EGWM","awayDivision":4,"score":"2-6"},

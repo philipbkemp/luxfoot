@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":8,"team":"WALF","w": 6,"d":3,"l": 9,"f":42,"a":49,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place":6,"team":"WALF","w": 6,"d":3,"l": 9,"f":36,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":1,"team":"WALF","w":10,"d":0,"l": 0,"f":60,"a": 8,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"},"promoted":true},
         {"gap": true},

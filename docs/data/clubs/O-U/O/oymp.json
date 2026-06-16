@@ -9,6 +9,7 @@
         "new_name": "AAHE"
     }],
     "league": [
+        {"place":3,"team":"OYMP","w":8,"d":2,"l": 4,"f":56,"a":20,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":6,"team":"OYMP","w":3,"d":6,"l": 7,"f":29,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}},
         {"place":6,"team":"OYMP","w":1,"d":1,"l":10,"f":11,"a":55,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"}},
         {"place":6,"team":"OYMP","w":1,"d":0,"l": 9,"f": 9,"a":29,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},

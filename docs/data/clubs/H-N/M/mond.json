@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place": 8,"team":"MOND","w":1,"d":2,"l":11,"f":20,"a":63,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":10,"team":"MOND","w":2,"d":1,"l":15,"f":25,"a":85,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place": 3,"team":"MOND","w":7,"d":1,"l": 4,"f":44,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true}
     ],

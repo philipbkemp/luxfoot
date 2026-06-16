@@ -37,7 +37,8 @@
         "name": "AS Colmar-Berg"
     },
     "ASCH": {
-        "name": "AS Schifflange"
+        "name": "AS Schifflange",
+        "level": -1
     },
     "ASDF": {
         "name": "AS Differdange",
@@ -425,7 +426,8 @@
         "level": -1
     },
     "JUNG": {
-        "name": "Jeunesse Junglinster"
+        "name": "Jeunesse Junglinster",
+        "level": 3
     },
     "JUSE": {
         "name": "Jeunesse Useldange"
@@ -663,7 +665,8 @@
         "level": -1
     },
     "RUPL": {
-        "name": "Rupensia Larochette"
+        "name": "Rupensia Larochette",
+        "level": -1
     },
     "SAND": {
         "name": "US Sandweiler"
@@ -830,7 +833,8 @@
         "level": -1
     },
     "UWLD": {
-        "name": "US Waldbillig"
+        "name": "US Waldbillig",
+        "level": -1
     },
     "VICR": {
         "name": "Victoria Rosport",

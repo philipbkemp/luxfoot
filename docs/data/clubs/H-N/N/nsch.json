@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place": 2,"team":"NSCH","w":12,"d":3,"l": 3,"f":58,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":10,"team":"NSCH","w": 4,"d":1,"l":13,"f":27,"a":52,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place": 3,"team":"NSCH","w": 9,"d":1,"l": 4,"f":40,"a":14,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage_dh1","promoted":true},
         {"place": 7,"team":"NSCH","w": 2,"d":7,"l": 5,"f":18,"a":27,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
@@ -32,6 +33,8 @@
         {"place": 2,"team":"NSCH","w": 3,"d":0,"l": 1,"f":12,"a":12,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1937-02-07","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"PRON","homeDivision":1,"away":"NSCH","awayDivision":2,"score":"1-1","replay":{"score":"6-1","date":"1937-03-14"}},
+
         {"home":"SPOR","away":"NSCH","score":"3-0","season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"NSCH","score":"4-0","season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"RBDF","away":"NSCH","score":"4-0","season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},

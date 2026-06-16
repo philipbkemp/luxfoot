@@ -17,6 +17,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":8,"team":"MANC","w": 6,"d":3,"l": 9,"f":36,"a":46,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":3,"team":"MANC","w":12,"d":1,"l": 5,"f":51,"a":33,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":3,"team":"MANC","w": 8,"d":2,"l": 4,"f":47,"a":35,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":1,"team":"MANC","w": 8,"d":1,"l": 1,"f":30,"a":16,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"promoted":true},
@@ -38,6 +39,11 @@
         {"place":4,"team":"MANC","w": 0,"d":0,"l": 6,"f": 1,"a":15,"pts_win":2,"season":"1910-11", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":4,"away":"MANC","awayDivision":2,"score":"4-7"},
+		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"MANC","homeDivision":2,"away":"CROD","awayDivision":2,"score":"4-1"},
+		{"date":"1937-02-07","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"MANC","homeDivision":2,"away":"USND","awayDivision":3,"score":"4-3"},
+		{"date":"1937-04-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"MANC","homeDivision":2,"away":"ULUX","awayDivision":1,"score":"1-2"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"UESH","homeDivision":4,"away":"MANC","awayDivision":3,"score":"1-3"},
 		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"CPET","homeDivision":2,"away":"MANC","awayDivision":3,"score":"2-1"},
 		{"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"RBDF","homeDivision":1,"away":"MANC","awayDivision":3,"score":"6-1"},

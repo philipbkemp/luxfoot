@@ -5,14 +5,18 @@
         "event": "FOUNDED"
     }],
     "league": [
-        {"place":4,"team":"CSOB","w": 9,"d":4,"l":5,"f":50,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"}},
-        {"place":5,"team":"CSOB","w": 7,"d":1,"l":6,"f":46,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
-        {"place":1,"team":"CSOB","w":12,"d":1,"l":1,"f":59,"a":14,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
-        {"place":4,"team":"CSOB","w": 7,"d":2,"l":5,"f":46,"a":27,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
-        {"place":1,"team":"CSOB","w": 7,"d":2,"l":1,"f":36,"a": 7,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
-        {"place":2,"team":"CSOB","w": 7,"d":1,"l":2,"f":54,"a":19,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
+        {"place":8,"team":"CSOB","w": 7,"d":0,"l":11,"f":28,"a":52,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
+        {"place":4,"team":"CSOB","w": 9,"d":4,"l": 5,"f":50,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"}},
+        {"place":5,"team":"CSOB","w": 7,"d":1,"l": 6,"f":46,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
+        {"place":1,"team":"CSOB","w":12,"d":1,"l": 1,"f":59,"a":14,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
+        {"place":4,"team":"CSOB","w": 7,"d":2,"l": 5,"f":46,"a":27,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
+        {"place":1,"team":"CSOB","w": 7,"d":2,"l": 1,"f":36,"a": 7,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"place":2,"team":"CSOB","w": 7,"d":1,"l": 2,"f":54,"a":19,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSOB","homeDivision":3,"away":"ADUD","awayDivision":3,"score":"4-0"},
+		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSOB","homeDivision":3,"away":"ASDF","awayDivision":2,"score":"0-1"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ASLX","homeDivision":4,"away":"CSOB","awayDivision":3,"score":"0-6"},
 		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"NSCH","homeDivision":2,"away":"CSOB","awayDivision":3,"score":"5-0"},
 

@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":9,"team":"CPET","w": 4,"d":0,"l":14,"f":28,"a":47,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":4,"team":"CPET","w":10,"d":2,"l": 6,"f":49,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"CPET","w": 3,"d":4,"l": 7,"f":28,"a":51,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":1,"team":"CPET","w":10,"d":3,"l": 1,"f":48,"a":18,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},

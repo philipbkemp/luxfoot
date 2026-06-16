@@ -166,20 +166,20 @@ function drawCup(cupKey,cupData) {
         round.matches.forEach(m=>{
             if ( m.bye ) {
                 if ( clubDivisions[m.bye] === undefined ) {
-                    clubDivisions[m.bye] = getTeamLevel(m.bye);
+                    clubDivisions[m.bye] = getTeamLevel(m.bye,m.byeDivision);
                 }
                 if ( m.byeDivision !== clubDivisions[m.bye] ) {
                     console.warn("Inconsistent division in " + m.competition.round_code,m.bye);
                 }
             } else {
                 if ( clubDivisions[m.home] === undefined ) {
-                    clubDivisions[m.home] = getTeamLevel(m.home);
+                    clubDivisions[m.home] = getTeamLevel(m.home,m.homeDivision);
                 }
                 if ( m.homeDivision !== clubDivisions[m.home] ) {
                     console.warn("Inconsistent division in " + m.competition.round_code,m.home);
                 }
                 if ( clubDivisions[m.away] === undefined ) {
-                    clubDivisions[m.away] = getTeamLevel(m.away);
+                    clubDivisions[m.away] = getTeamLevel(m.away,m.awayDivision);
                 }
                 if ( m.awayDivision !== clubDivisions[m.away] ) {
                     console.warn("Inconsistent division in " + m.competition.round_code,m.away);
@@ -191,7 +191,10 @@ function drawCup(cupKey,cupData) {
 
 }
 
-function getTeamLevel(searchTeam) {
+function getTeamLevel(searchTeam,expectedLeague) {
+    if ( expectedLeague === "-") {
+        return expectedLeague; // non league existed. briefly.
+    }
     for ( const l of window.rawData.league ) {
         if ( l.standings ) {
             for ( const tt of l.standings ) {

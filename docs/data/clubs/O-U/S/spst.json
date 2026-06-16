@@ -9,6 +9,7 @@
         "new_name": "STNG"
     }],
     "league": [
+        {"place":6,"team":"SPST","w": 8,"d":2,"l": 8,"f":56,"a":46,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":3,"team":"SPST","w":12,"d":2,"l": 4,"f":54,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"SPST","w": 5,"d":3,"l": 4,"f":38,"a":25,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":4,"league":"3. Division South"},"promoted":true},
         {"place":8,"team":"SPST","w": 1,"d":0,"l":13,"f":16,"a":47,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
@@ -24,6 +25,8 @@
         {"place":5,"team":"SPST","w": 1,"d":0,"l": 7,"f": 8,"a":20,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":4,"away":"MANC","awayDivision":2,"score":"4-7"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"DRZV","homeDivision":5,"away":"SPST","awayDivision":4,"score":"2-2","replay":{"score":"2-4","date":"1935-09-22"}},
 		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"SWFT","homeDivision":4,"away":"SPST","awayDivision":4,"score":"3-2"},
 

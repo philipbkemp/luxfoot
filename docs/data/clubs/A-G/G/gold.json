@@ -10,6 +10,7 @@
         "new_name": "WLTZ"
     }],
     "league": [
+        {"place":3,"team":"GOLD","w":11,"d":3,"l":4,"f":59,"a":32,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"GOLD","w":12,"d":2,"l":4,"f":51,"a":24,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"GOLD","w":1,"d":3,"l":10,"f":24,"a":48,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":6,"team":"GOLD","w":4,"d":1,"l": 9,"f":18,"a":42,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
@@ -27,6 +28,10 @@
         {"place":5,"team":"GOLD","w":3,"d":2,"l": 5,"f": 9,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SWFT","homeDivision":4,"away":"GOLD","awayDivision":4,"score":"2-8"},
+		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSHL","homeDivision":4,"away":"GOLD","awayDivision":4,"score":"1-1","replay":{"score":"0-3","date":"1936-10-18"}},
+		{"date":"1937-02-07","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"GOLD","homeDivision":4,"away":"JESH","awayDivision":1,"score":"0-10"},
+
         {"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CPET","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"3-0"},
 
         {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"AVBG","homeDivision":3,"away":"GOLD","awayDivision":3,"score":"3-0","forfeit":true},

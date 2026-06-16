@@ -10,6 +10,7 @@
         "new_name": "RODG"
     }],
     "league": [
+        {"place":3,"team":"CROD","w":12,"d":2,"l":4,"f":57,"a":28,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":3,"team":"CROD","w": 8,"d":7,"l":3,"f":44,"a":28,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":6,"team":"CROD","w": 4,"d":1,"l":9,"f":26,"a":42,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":6,"team":"CROD","w": 3,"d":2,"l":9,"f":31,"a":39,"pts_win":2,"season":"1933-34","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"relegation_1"},
@@ -32,6 +33,9 @@
         {"place":7,"team":"CROD","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":3,"away":"CROD","awayDivision":2,"score":"2-2","replay":{"score":"4-7","date":"1936-09-27"}},
+		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"MANC","homeDivision":2,"away":"CROD","awayDivision":2,"score":"4-1"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JKYL","homeDivision":4,"away":"CROD","awayDivision":2,"score":"0-2"},
 		{"date":"1934-12-02","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ASDF","homeDivision":2,"away":"CROD","awayDivision":2,"score":"1-0"},
 
