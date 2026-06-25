@@ -1,0 +1,295 @@
+{
+	"season": "1937-38",
+	"next": "1938-39",
+	"prev": "1936-37",
+	"league": [{
+		"level": 1,
+		"name": "Division of Honour",
+		"pts_win": 2,
+		"standings": [
+			{"place":  1, "team": "SPOR", "w": 11, "d": 4, "l":  3, "f": 48, "a": 26, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "champion": true},
+			{"place":  2, "team": "JESH", "w": 10, "d": 4, "l":  4, "f": 40, "a": 26, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  3, "team": "SDUD", "w": 10, "d": 2, "l":  6, "f": 49, "a": 28, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  4, "team": "USDD", "w":  9, "d": 3, "l":  6, "f": 43, "a": 28, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  5, "team": "PRON", "w":  7, "d": 4, "l":  7, "f": 35, "a": 29, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  6, "team": "ULUX", "w":  8, "d": 2, "l":  8, "f": 35, "a": 38, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  7, "team": "FOLA", "w":  7, "d": 3, "l":  8, "f": 29, "a": 43, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  8, "team": "NSCH", "w":  6, "d": 1, "l": 11, "f": 35, "a": 49, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place":  9, "team": "ASDF", "w":  4, "d": 4, "l": 10, "f": 33, "a": 55, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "relegated": true},
+			{"place": 10, "team": "RBDF", "w":  3, "d": 3, "l": 12, "f": 23, "a": 48, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "relegated": true}
+		],
+		"matches": [
+			{ "home": "SPOR", "away": "JESH", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "SDUD", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "USDD", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "PRON", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "ULUX", "score": "5-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "FOLA", "score": "4-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "NSCH", "score": "6-4", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "ASDF", "score": "4-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "RBDF", "score": "5-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "SPOR", "score": "4-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "SDUD", "score": "3-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "USDD", "score": "2-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "PRON", "score": "3-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "ULUX", "score": "0-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "FOLA", "score": "5-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "NSCH", "score": "4-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "ASDF", "score": "6-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "RBDF", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "SPOR", "score": "1-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "JESH", "score": "1-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "USDD", "score": "2-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "PRON", "score": "4-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "ULUX", "score": "5-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "FOLA", "score": "5-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "NSCH", "score": "4-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "ASDF", "score": "7-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "RBDF", "score": "2-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "SPOR", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "JESH", "score": "2-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "SDUD", "score": "4-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "PRON", "score": "0-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "ULUX", "score": "4-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "FOLA", "score": "4-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "NSCH", "score": "2-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "ASDF", "score": "6-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "RBDF", "score": "5-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SPOR", "score": "2-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "JESH", "score": "0-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SDUD", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "USDD", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "ULUX", "score": "0-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "FOLA", "score": "1-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "NSCH", "score": "4-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "ASDF", "score": "5-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "RBDF", "score": "2-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SPOR", "score": "0-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "JESH", "score": "0-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SDUD", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "USDD", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "PRON", "score": "4-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "FOLA", "score": "2-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "NSCH", "score": "4-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "ASDF", "score": "4-5", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "RBDF", "score": "4-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SPOR", "score": "3-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "JESH", "score": "3-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SDUD", "score": "0-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "USDD", "score": "4-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "PRON", "score": "0-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "ULUX", "score": "2-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "NSCH", "score": "2-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "ASDF", "score": "2-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "RBDF", "score": "4-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SPOR", "score": "0-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "JESH", "score": "4-4", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SDUD", "score": "4-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "USDD", "score": "0-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "PRON", "score": "1-5", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "ULUX", "score": "2-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "FOLA", "score": "5-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "ASDF", "score": "4-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "RBDF", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "SPOR", "score": "0-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "JESH", "score": "2-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "SDUD", "score": "3-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "USDD", "score": "1-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "PRON", "score": "3-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "ULUX", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "FOLA", "score": "4-4", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "NSCH", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ASDF", "away": "RBDF", "score": "3-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "SPOR", "score": "3-2", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "JESH", "score": "0-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "SDUD", "score": "0-5", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "USDD", "score": "2-5", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "PRON", "score": "1-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "ULUX", "score": "2-3", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "FOLA", "score": "1-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "NSCH", "score": "3-1", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "ASDF", "score": "0-0", "season": "1937-38", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} }
+		]
+	},{
+		"level": 2,
+		"name": "1. Division",
+		"pts_win": 2,
+		"standings": [
+			{"place":  1, "team": "AVBG", "w": 14, "d": 0, "l":  4, "f": 59, "a": 29, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
+			{"place":  2, "team": "CROD", "w": 11, "d": 2, "l":  5, "f": 65, "a": 32, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
+			{"place":  3, "team": "ADUD", "w": 10, "d": 3, "l":  5, "f": 44, "a": 33, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place":  4, "team": "ARIS", "w": 10, "d": 1, "l":  7, "f": 45, "a": 36, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place":  5, "team": "RBPF", "w":  9, "d": 1, "l":  8, "f": 60, "a": 44, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place":  6, "team": "RPDN", "w":  7, "d": 2, "l":  9, "f": 43, "a": 52, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place":  7, "team": "STET", "w":  6, "d": 3, "l":  9, "f": 35, "a": 38, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place":  8, "team": "USND", "w":  6, "d": 2, "l": 10, "f": 30, "a": 58, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "relegated": true},
+			{"place":  9, "team": "URUM", "w":  5, "d": 2, "l": 11, "f": 31, "a": 65, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "relegated": true},
+			{"place": 10, "team": "AREM", "w":  3, "d": 2, "l": 13, "f": 26, "a": 51, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "relegated": true}
+		]
+	},{
+		"level": 3,
+		"name": "The Promotion",
+		"pts_win": 2,
+		"standings": [
+			{"place":  1, "team": "YBDK", "w": 13, "d": 3, "l":  2, "f": 51, "a": 25, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place":  2, "team": "BBML", "w": 13, "d": 1, "l":  4, "f": 54, "a": 24, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place":  3, "team": "CPET", "w": 12, "d": 2, "l":  4, "f": 71, "a": 25, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place":  4, "team": "SCBT", "w": 11, "d": 2, "l":  5, "f": 61, "a": 29, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place":  5, "team": "MANC", "w": 10, "d": 3, "l":  5, "f": 51, "a": 22, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place":  6, "team": "ETZE", "w":  8, "d": 4, "l":  6, "f": 40, "a": 30, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place":  7, "team": "UESH", "w":  4, "d": 2, "l": 12, "f": 33, "a": 66, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true},
+			{"place":  8, "team": "ASLX", "w":  4, "d": 0, "l": 14, "f": 19, "a": 71, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true},
+			{"place":  9, "team": "BLVL", "w":  3, "d": 1, "l": 14, "f": 13, "a": 45, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true},
+			{"place": 10, "team": "CSHL", "w":  3, "d": 0, "l": 15, "f": 26, "a": 82, "pts_win": 2, "season": "1937-38", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true}
+		]
+	},{
+		"level": 4,
+		"name": "2. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place":  1, "team": "RROD", "w": 16, "d": 2, "l":  0, "f": 76, "a": 11, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place":  2, "team": "CSOB", "w": 14, "d": 2, "l":  2, "f": 76, "a": 20, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place":  3, "team": "ASCH", "w": 11, "d": 2, "l":  5, "f": 64, "a": 33, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place":  4, "team": "UBSH", "w": 10, "d": 1, "l":  7, "f": 47, "a": 45, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place":  5, "team": "SWFT", "w":  8, "d": 2, "l":  8, "f": 36, "a": 46, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place":  6, "team": "PROG", "w":  6, "d": 2, "l": 10, "f": 49, "a": 49, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place":  7, "team": "UNAS", "w":  6, "d": 2, "l": 10, "f": 35, "a": 37, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place":  8, "team": "SPST", "w":  3, "d": 3, "l": 12, "f": 24, "a": 61, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true},
+				{"place":  9, "team": "MAMR", "w":  4, "d": 1, "l": 13, "f": 22, "a": 62, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true},
+				{"place": 10, "team": "DRZV", "w":  3, "d": 1, "l": 14, "f": 14, "a": 79, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place":  1, "team": "JWAS", "w": 17, "d": 1, "l":  0, "f": 99, "a": 16, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place":  2, "team": "GOLD", "w": 12, "d": 1, "l":  5, "f": 79, "a": 32, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place":  3, "team": "TRIM", "w": 10, "d": 2, "l":  6, "f": 55, "a": 40, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place":  4, "team": "EGWM", "w": 10, "d": 0, "l":  8, "f": 39, "a": 36, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place":  5, "team": "DARE", "w":  9, "d": 2, "l":  7, "f": 40, "a": 45, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place":  6, "team": "LLMP", "w":  6, "d": 5, "l":  7, "f": 38, "a": 53, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place":  7, "team": "UMRT", "w":  7, "d": 2, "l":  9, "f": 45, "a": 62, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place":  8, "team": "RUPL", "w":  5, "d": 3, "l": 10, "f": 42, "a": 55, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true},
+				{"place":  9, "team": "JGIL", "w":  3, "d": 2, "l": 13, "f": 35, "a": 76, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true},
+				{"place": 10, "team": "MARM", "w":  1, "d": 2, "l": 15, "f": 21, "a": 78, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true}
+			]
+		}]
+	},{
+		"level": 5,
+		"name": "3. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "CGRV", "w": 11, "d": 1, "l":  0, "f": 52, "a":  9, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "VICR", "w":  9, "d": 0, "l":  3, "f": 41, "a": 18, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "MDLB", "w":  8, "d": 0, "l":  4, "f": 32, "a": 27, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 4, "team": "RBAS", "w":  5, "d": 1, "l":  6, "f": 23, "a": 28, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 5, "team": "FRTA", "w":  4, "d": 0, "l":  8, "f": 19, "a": 30, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 6, "team": "JUNG", "w":  4, "d": 0, "l":  8, "f": 20, "a": 34, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 7, "team": "UWLD", "w":  0, "d": 0, "l": 12, "f":  1, "a": 42, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "JKYL", "w": 12, "d": 0, "l":  2, "f": 76, "a": 20, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "KOPS", "w": 10, "d": 2, "l":  2, "f": 72, "a": 18, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 3, "team": "OYMP", "w":  9, "d": 3, "l":  2, "f": 46, "a": 25, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 4, "team": "ESHW", "w":  5, "d": 1, "l":  8, "f": 29, "a": 56, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 5, "team": "SBRT", "w":  5, "d": 0, "l":  9, "f": 28, "a": 46, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 6, "team": "JKGB", "w":  4, "d": 2, "l":  8, "f": 22, "a": 51, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 7, "team": "HRTB", "w":  3, "d": 1, "l": 10, "f": 19, "a": 46, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 8, "team": "HOBS", "w":  3, "d": 1, "l": 10, "f": 24, "a": 54, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }}
+			]
+		},{
+			"serie": 3,
+			"name": "Series 3",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "WALF", "w": 12, "d": 1, "l":  1, "f": 60, "a": 21, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 2, "team": "TSVG", "w": 10, "d": 2, "l":  2, "f": 57, "a": 24, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 3, "team": "RSML", "w":  8, "d": 0, "l":  6, "f": 63, "a": 33, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 4, "team": "AWDG", "w":  7, "d": 0, "l":  7, "f": 31, "a": 31, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 5, "team": "SAND", "w":  6, "d": 0, "l":  8, "f": 22, "a": 57, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 6, "team": "OVND", "w":  4, "d": 2, "l":  8, "f": 34, "a": 37, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 7, "team": "ASTN", "w":  4, "d": 1, "l":  9, "f": 25, "a": 45, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 8, "team": "MINL", "w":  1, "d": 2, "l": 11, "f": 17, "a": 61, "pts_win": 2, "season": "1937-38", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }}
+			]
+		}]
+	}],
+	"cup": {
+		"luxembourg": {
+			"name": "Luxembourg Cup",
+			"rounds": [{
+				"name": "1st Round",
+				"matches": [
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "UESH", "homeDivision": 3, "away": "ARIS", "awayDivision": 2, "score": "0-6"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "SWFT", "homeDivision": 4, "away": "CSOB", "awayDivision": 4, "score": "2-3"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "AVBG", "homeDivision": 2, "away": "MARM", "awayDivision": 4, "score": "9-2"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "KOPS", "homeDivision": 5, "away": "YBDK", "awayDivision": 3, "score": "2-5"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "LLMP", "homeDivision": 4, "away": "CPET", "awayDivision": 3, "score": "2-3"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RBPF", "homeDivision": 2, "away": "SCBT", "awayDivision": 3, "score": "2-2", "replay": {"score": "2-3","date":"1937-09-19"}},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RPDN", "homeDivision": 2, "away": "JKGB", "awayDivision": 5, "score": "4-0"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "TRIM", "homeDivision": 4, "away": "ASLX", "awayDivision": 3, "score": "4-3"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "SPST", "homeDivision": 4, "away": "CSHL", "awayDivision": 3, "score": "0-2"},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "ADUD", "homeDivision": 2, "away": "BBML", "awayDivision": 3, "score": "3-0", "forfeit": true},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "USND", "homeDivision": 2, "away": "JWAS", "awayDivision": 4, "score": "3-0", "forfeit": true},
+					{"date":"1937-08-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "EGWM", "homeDivision": 4, "away": "RBAS", "awayDivision": 5, "score": "3-0", "forfeit": true},
+					{"bye": "GOLD", "byeDivision": 4}
+				]
+			},{
+				"name": "2nd Round",
+				"matches": [
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "ARIS", "homeDivision": 2, "away": "EGWM", "awayDivision": 4, "score": "3-1"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "RBDF", "homeDivision": 1, "away": "CPET", "awayDivision": 3, "score": "2-0"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "FOLA", "homeDivision": 1, "away": "YBDK", "awayDivision": 3, "score": "3-1"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "ADUD", "homeDivision": 2, "away": "GOLD", "awayDivision": 4, "score": "0-2"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "CSOB", "homeDivision": 4, "away": "NSCH", "awayDivision": 1, "score": "1-5"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "CSHL", "homeDivision": 3, "away": "AVBG", "awayDivision": 2, "score": "0-4"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "RPDN", "homeDivision": 2, "away": "SCBT", "awayDivision": 3, "score": "1-3"},
+					{"date":"1937-10-31","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "USND", "homeDivision": 2, "away": "TRIM", "awayDivision": 4, "score": "1-2"}
+				]
+			},{
+				"name": "3rd Round",
+				"matches": [
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "FOLA", "homeDivision": 1, "away": "TRIM", "awayDivision": 4, "score": "4-1"},
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "AVBG", "homeDivision": 2, "away": "ARIS", "awayDivision": 2, "score": "5-0"},
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "ULUX", "homeDivision": 1, "away": "CSOB", "awayDivision": 4, "score": "8-1"},
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "RBDF", "homeDivision": 1, "away": "SCBT", "awayDivision": 3, "score": "3-1"},
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "USDD", "homeDivision": 1, "away": "ASDF", "awayDivision": 1, "score": "2-1"},
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "GOLD", "homeDivision": 4, "away": "NSCH", "awayDivision": 1, "score": "0-2"},
+					{"date":"1937-11-07","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "PRON", "homeDivision": 1, "away": "SPOR", "awayDivision": 1, "score": "3-2"},
+					{"date":"1938-03-27","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "SDUD", "homeDivision": 1, "away": "JESH", "awayDivision": 1, "score": "3-4","note":"Original match abandoned at 1-2"}
+				]
+			},{
+				"name": "Quarter Final",
+				"matches": [
+					{"season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "AVBG", "homeDivision": 2, "away": "USDD", "awayDivision": 1, "score": "0-10"},
+					{"season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "RBDF", "homeDivision": 1, "away": "NSCH", "awayDivision": 1, "score": "2-5"},
+					{"date":"1938-05-08","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "ULUX", "homeDivision": 1, "away": "PRON", "awayDivision": 1, "score": "3-1","note":"Original match abandoned at 1-6"},
+					{"season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "SDUD", "homeDivision": 1, "away": "FOLA", "awayDivision": 1, "score": "3-1"}
+				]
+			},{
+				"name": "Semi Final",
+				"matches": [
+					{"date":"1938-05-08","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "NSCH", "homeDivision": 1, "away": "USDD", "awayDivision": 1, "score": "5-2"},
+					{"date":"1938-05-22","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "SDUD", "homeDivision": 1, "away": "ULUX", "awayDivision": 1, "score": "4-2"}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1938-06-19","season": "1937-38", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "F", "round": "Final"}, "home": "SDUD", "homeDivision": 1, "away": "NSCH", "awayDivision": 1, "score": "1-0"}
+				]
+			}]
+		}
+	}
+}

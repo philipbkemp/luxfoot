@@ -1,0 +1,10 @@
+{
+    "name": "US Sandweiler",
+    "founded": "1937-01-01",
+    "history": [
+        {"season":"1936-37","event":"FOUNDED"}
+    ],
+    "league": [
+        {"place":5,"team":"SAND","w":6,"d":0,"l":8,"f":22,"a":57,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

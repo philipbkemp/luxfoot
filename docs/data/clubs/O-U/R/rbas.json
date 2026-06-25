@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":4,"team":"RBAS","w":5,"d":1,"l": 6,"f":23,"a":28,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":9,"team":"RBAS","w":4,"d":0,"l":14,"f":38,"a":77,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":7,"team":"RBAS","w":7,"d":1,"l":10,"f":37,"a":44,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":4,"team":"RBAS","w":6,"d":1,"l": 7,"f":35,"a":40,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
@@ -14,6 +15,8 @@
         {"place":4,"team":"RBAS","w":4,"d":2,"l": 4,"f":27,"a":29,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"},"relegated":true}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"EGWM","homeDivision":4,"away":"RBAS","awayDivision":5,"score":"3-0","forfeit":true},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBAS","homeDivision":3,"away":"BBML","awayDivision":4,"score":"1-0"},
 		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"YBDK","homeDivision":4,"away":"RBAS","awayDivision":3,"score":"4-1"},
 

@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":3,"team":"CPET","w":12,"d":2,"l": 4,"f":71,"a":25,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":9,"team":"CPET","w": 4,"d":0,"l":14,"f":28,"a":47,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":4,"team":"CPET","w":10,"d":2,"l": 6,"f":49,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"CPET","w": 3,"d":4,"l": 7,"f":28,"a":51,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
@@ -36,6 +37,9 @@
         {"place":6,"team":"CPET","missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"LLMP","homeDivision":4,"away":"CPET","awayDivision":3,"score":"2-3"},
+		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RBDF","homeDivision":1,"away":"CPET","awayDivision":3,"score":"2-0"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CPET","homeDivision":2,"away":"ASLX","awayDivision":3,"score":"3-2"},
 		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CPET","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"3-0"},
 		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"CPET","homeDivision":2,"away":"MANC","awayDivision":3,"score":"2-1"},

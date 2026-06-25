@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":7,"team":"STET","w": 6,"d":3,"l": 9,"f":35,"a":38,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":7,"team":"STET","w": 5,"d":6,"l": 7,"f":27,"a":39,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":2,"team":"STET","w":11,"d":4,"l": 3,"f":40,"a":25,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":2,"team":"STET","w":10,"d":1,"l": 3,"f":38,"a":25,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},

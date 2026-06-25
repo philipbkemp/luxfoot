@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":5,"team":"SBRT","w":5,"d":0,"l":9,"f":28,"a":46,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":4,"team":"SBRT","w":5,"d":0,"l":7,"f":48,"a":55,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":4,"team":"SBRT","w":7,"d":5,"l":4,"f":48,"a":32,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}},
         {"place":5,"team":"SBRT","w":4,"d":2,"l":6,"f":33,"a":37,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"}}

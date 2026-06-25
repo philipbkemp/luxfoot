@@ -335,7 +335,8 @@
         "name": "US Hostert"
     },
     "HRTB": {
-        "name": "Hertha Beckerich"
+        "name": "Hertha Beckerich",
+        "level": -1
     },
     "HUPP": {
         "name": "FC Hupperdange"
@@ -390,7 +391,8 @@
         "level": -1
     },
     "JKGB": {
-        "name": "Jeunesse Koerich/Goeblange"
+        "name": "Jeunesse Koerich/Goeblange",
+        "level": -1
     },
     "JKYL": {
         "name": "Jeunesse 07 Kayl",
@@ -413,9 +415,6 @@
     "JSCV": {
         "name": "Jeunesse Sportive Clervalloise",
         "level": -1
-    },
-    "JSKH": {
-        "name": "JS Koerich"
     },
     "JSNM": {
         "name": "Jeunesse Sportive Sanem",
@@ -464,11 +463,11 @@
         "name": "FC Kopstal 33",
         "level": 3
     },
-    "KOSM": {
-        "name": "FC Koerich"
-    },
     "KPWW": {
         "name": "Kiischpelt Wilwerwiltz"
+    },
+    "KRCH": {
+        "name": "FC Koerich"
     },
     "KWRM": {
         "name": "Koeppchen Wormeldange"
@@ -558,7 +557,8 @@
         "level": -1
     },
     "OVND": {
-        "name": "Orania Vianden"
+        "name": "Orania Vianden",
+        "levl": 4
     },
     "OYCW": {
         "name": "Olympia Christnach/Waldbillig"
@@ -669,7 +669,8 @@
         "level": -1
     },
     "SAND": {
-        "name": "US Sandweiler"
+        "name": "US Sandweiler",
+        "level": 3
     },
     "SBCK": {
         "name": "Sporting Beckerich"

@@ -1,15 +1,12 @@
 {
     "name": "Stade Dudelange",
-    "history": [{
-        "season": "1911-12",
-        "event": "RENAME_FROM",
-        "old_name": "GDUD"
-    },{
-        "season": "1991-92",
-        "event": "MERGE",
-        "new_name": "F91D"
-    }],
+    "history": [
+        {"season":"1911-12","event":"RENAME_FROM","old_name": "GDUD"},
+        {"season":"1937-38","event":"CUPWINNER"},
+        {"season":"1991-92","event":"MERGE","new_name": "F91D"}
+    ],
     "league": [
+        {"place":3,"team":"SDUD","w":10,"d":2,"l": 6,"f":49,"a":28,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":4,"team":"SDUD","w":11,"d":2,"l": 5,"f":57,"a":33,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":2,"team":"SDUD","w":10,"d":6,"l": 2,"f":55,"a":18,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":4,"team":"SDUD","w": 9,"d":1,"l": 4,"f":36,"a":21,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"},"playoff":"promotion_1|barrage_dh1"},
@@ -35,6 +32,29 @@
         {"place":1,"team":"SDUD","w": 2,"d":0,"l": 0,"f":12,"a": 2,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"home":"SPOR","away":"SDUD","score":"1-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"SDUD","score":"3-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"SPOR","score":"1-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"JESH","score":"1-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"USDD","score":"2-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"PRON","score":"4-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"ULUX","score":"5-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"FOLA","score":"5-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"NSCH","score":"4-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"ASDF","score":"7-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"RBDF","score":"2-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"SDUD","score":"4-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"SDUD","score":"1-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"SDUD","score":"3-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"SDUD","score":"0-3","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"SDUD","score":"4-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ASDF","away":"SDUD","score":"3-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"SDUD","score":"0-5","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1938-03-27","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":1,"away":"JESH","awayDivision":1,"score":"3-4","note":"Original match abandoned at 1-2"},
+		{"season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"SDUD","homeDivision":1,"away":"FOLA","awayDivision":1,"score":"3-1"},
+		{"date":"1938-05-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"SDUD","homeDivision":1,"away":"ULUX","awayDivision":1,"score":"4-2"},
+		{"date":"1938-06-19","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"F","round":"Final"},"home":"SDUD","homeDivision":1,"away":"NSCH","awayDivision":1,"score":"1-0"},
+
         {"home":"JESH","away":"SDUD","score":"5-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"USDD","away":"SDUD","score":"2-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SDUD","away":"JESH","score":"2-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},

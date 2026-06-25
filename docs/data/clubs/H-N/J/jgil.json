@@ -5,8 +5,9 @@
         "event": "FOUNDED"
     }],
     "league": [
-        {"place":5,"team":"JGIL","w":8,"d":3,"l":7,"f":48,"a":58,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":1,"team":"JGIL","w":9,"d":1,"l":2,"f":46,"a":17,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series East"},"promoted":true},
-        {"place":3,"team":"JGIL","w":5,"d":0,"l":5,"f":28,"a":19,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}}
+        {"place":9,"team":"JGIL","w":3,"d":2,"l":13,"f":35,"a":76,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
+        {"place":5,"team":"JGIL","w":8,"d":3,"l": 7,"f":48,"a":58,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
+        {"place":1,"team":"JGIL","w":9,"d":1,"l": 2,"f":46,"a":17,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series East"},"promoted":true},
+        {"place":3,"team":"JGIL","w":5,"d":0,"l": 5,"f":28,"a":19,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"}}
     ]
 }

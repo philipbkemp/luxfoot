@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":2,"team":"CSOB","w":14,"d":2,"l": 2,"f":76,"a":20,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
         {"place":8,"team":"CSOB","w": 7,"d":0,"l":11,"f":28,"a":52,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":4,"team":"CSOB","w": 9,"d":4,"l": 5,"f":50,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":5,"team":"CSOB","w": 7,"d":1,"l": 6,"f":46,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
@@ -14,6 +15,10 @@
         {"place":2,"team":"CSOB","w": 7,"d":1,"l": 2,"f":54,"a":19,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SWFT","homeDivision":4,"away":"CSOB","awayDivision":4,"score":"2-3"},
+		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSOB","homeDivision":4,"away":"NSCH","awayDivision":1,"score":"1-5"},
+		{"date":"1937-11-07","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ULUX","homeDivision":1,"away":"CSOB","awayDivision":4,"score":"8-1"},
+
         {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CSOB","homeDivision":3,"away":"ADUD","awayDivision":3,"score":"4-0"},
 		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSOB","homeDivision":3,"away":"ASDF","awayDivision":2,"score":"0-1"},
 

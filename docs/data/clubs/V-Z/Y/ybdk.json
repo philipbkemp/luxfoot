@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"YBDK","w":13,"d":3,"l": 2,"f":51,"a":25,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":4,"team":"YBDK","w":11,"d":0,"l": 7,"f":50,"a":40,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":1,"team":"YBDK","w":13,"d":3,"l": 2,"f":55,"a":16,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":5,"team":"YBDK","w": 5,"d":4,"l": 5,"f":25,"a":23,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
@@ -30,6 +31,9 @@
         {"place":1,"team":"YBDK","w": 2,"d":0,"l": 0,"f":10,"a": 0,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":5,"league":"1. Division Series 5"},"playoff": "title_playoff"}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"KOPS","homeDivision":5,"away":"YBDK","awayDivision":3,"score":"2-5"},
+		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"FOLA","homeDivision":1,"away":"YBDK","awayDivision":3,"score":"3-1"},
+
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JWAS","homeDivision":3,"away":"YBDK","awayDivision":4,"score":"2-3"},
 		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"YBDK","homeDivision":4,"away":"RBAS","awayDivision":3,"score":"4-1"},
 		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"ARIS","homeDivision":1,"away":"YBDK","awayDivision":4,"score":"3-2"},

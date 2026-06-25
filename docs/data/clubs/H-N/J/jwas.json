@@ -10,6 +10,7 @@
         "new_name": "UNMW"
     }],
     "league": [
+        {"place":1,"team":"JWAS","w":17,"d":1,"l" :0,"f":99,"a":16,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":4,"team":"JWAS","w": 8,"d":4,"l": 6,"f":78,"a":40,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":8,"team":"JWAS","w": 6,"d":1,"l":11,"f":34,"a":58,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":6,"team":"JWAS","w": 2,"d":4,"l": 8,"f":20,"a":43,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"}},
@@ -25,6 +26,8 @@
         {"place":3,"team":"JWAS","w": 5,"d":2,"l": 3,"f":19,"a":18,"pts_win":2,"season":"1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"USND","homeDivision":2,"away":"JWAS","awayDivision":4,"score":"3-0","forfeit":true},
+
         {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"USND","homeDivision":3,"away":"JWAS","awayDivision":4,"score":"6-2"},
 
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JWAS","homeDivision":3,"away":"YBDK","awayDivision":4,"score":"2-3"},

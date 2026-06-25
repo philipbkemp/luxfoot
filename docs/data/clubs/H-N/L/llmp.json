@@ -8,12 +8,15 @@
         "event": "DISSOLVED"
     }],
     "league": [
+        {"place":6,"team":"LLMP","w":6,"d":5,"l": 7,"f":38,"a":53,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":7,"team":"LLMP","w":7,"d":3,"l": 8,"f":25,"a":40,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":2,"team":"LLMP","w":8,"d":0,"l": 4,"f":37,"a":23,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series East"},"promoted":true},
         {"place":6,"team":"LLMP","w":4,"d":1,"l": 7,"f":19,"a":28,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"}},
         {"place":6,"team":"LLMP","w":0,"d":0,"l":10,"f": 6,"a":48,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"LLMP","homeDivision":4,"away":"CPET","awayDivision":3,"score":"2-3"},
+
         {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"URUM","homeDivision":2,"away":"LLMP","awayDivision":4,"score":"4-1"},
 
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":4,"away":"LLMP","awayDivision":5,"score":"3-0"},

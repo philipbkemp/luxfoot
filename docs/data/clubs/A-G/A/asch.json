@@ -5,6 +5,7 @@
         {"season":"1994-95","event":"MERGE","new_name":"SCHF"}
     ],
     "league": [
+        {"place":3,"team":"ASCH","w":11,"d":2,"l":5,"f":64,"a":33,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
         {"place":1,"team":"ASCH","w":12,"d":0,"l":2,"f":47,"a":21,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"promoted":true}
     ],
     "matches": [

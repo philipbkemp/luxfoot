@@ -1,0 +1,9 @@
+{
+    "name": "Orania Vianden",
+    "history": [
+        {"season":"1936-37","event":"FOUNDED"}
+    ],
+    "league": [
+        {"place":6,"team":"OVND","w":4,"d":2,"l":8,"f":34,"a":37,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

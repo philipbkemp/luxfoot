@@ -10,6 +10,7 @@
         "new_name": "F91D"
     }],
     "league": [
+        {"place":4,"team":"USDD","w": 9,"d":3,"l": 6,"f":43,"a":28,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":3,"team":"USDD","w":11,"d":4,"l": 3,"f":55,"a":22,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"},"playoff":"title"},
         {"place":4,"team":"USDD","w": 8,"d":3,"l": 7,"f":55,"a":49,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":4,"team":"USDD","w": 6,"d":2,"l": 6,"f":35,"a":40,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
@@ -31,6 +32,28 @@
         {"place":2,"team":"USDD","w": 0,"d":0,"l": 2,"f": 2,"a":12,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":1,"series":3,"league":"1. Division Series 3"}}
     ],
     "matches": [
+        {"home":"SPOR","away":"USDD","score":"3-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"USDD","score":"2-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"USDD","score":"2-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"SPOR","score":"1-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"JESH","score":"2-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"SDUD","score":"4-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"PRON","score":"0-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"ULUX","score":"4-3","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"FOLA","score":"4-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"NSCH","score":"2-3","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"ASDF","score":"6-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"RBDF","score":"5-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"USDD","score":"3-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"USDD","score":"1-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"USDD","score":"4-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"USDD","score":"0-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ASDF","away":"USDD","score":"1-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"USDD","score":"2-5","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1937-11-07","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"USDD","homeDivision":1,"away":"ASDF","awayDivision":1,"score":"2-1"},
+		{"season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"AVBG","homeDivision":2,"away":"USDD","awayDivision":1,"score":"0-10"},
+		{"date":"1938-05-08","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"NSCH","homeDivision":1,"away":"USDD","awayDivision":1,"score":"5-2"},
+
         {"home":"JESH","away":"USDD","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"USDD","away":"JESH","score":"1-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"USDD","away":"SDUD","score":"2-2","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},

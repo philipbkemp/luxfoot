@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":1,"team":"AVBG","w":14,"d":0,"l": 4,"f":59,"a":29,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":5,"team":"AVBG","w": 7,"d":4,"l": 7,"f":33,"a":40,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"AVBG","w": 7,"d":4,"l": 7,"f":44,"a":34,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":8,"team":"AVBG","w": 3,"d":1,"l":10,"f":25,"a":60,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":2,"league":"1. Division"}},
@@ -29,6 +30,11 @@
         {"place":1,"team":"AVBG","w": 6,"d":0,"l": 0,"f":51,"a": 5,"pts_win":2,"season":"1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"AVBG","homeDivision":2,"away":"MARM","awayDivision":4,"score":"9-2"},
+		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSHL","homeDivision":3,"away":"AVBG","awayDivision":2,"score":"0-4"},
+		{"date":"1937-11-07","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"AVBG","homeDivision":2,"away":"ARIS","awayDivision":2,"score":"5-0"},
+		{"season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"AVBG","homeDivision":2,"away":"USDD","awayDivision":1,"score":"0-10"},
+
         {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ASDF","homeDivision":2,"away":"AVBG","awayDivision":2,"score":"6-1"},
 
         {"date":"1936-01-05","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":2,"away":"AVBG","awayDivision":2,"score":"4-3"},

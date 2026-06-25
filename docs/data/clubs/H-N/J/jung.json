@@ -5,6 +5,7 @@
         {"season":"1934-35","event":"FOUNDED"}
     ],
     "league": [
+        {"place":6,"team":"JUNG","w":4,"d":0,"l":8,"f":20,"a":34,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":6,"team":"JUNG","w":4,"d":1,"l":9,"f":23,"a":43,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
     ]
 }

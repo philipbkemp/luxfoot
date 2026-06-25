@@ -8,6 +8,7 @@
         {"season": "1936-37","event": "DOUBLE"}
     ],
     "league": [
+        {"place":2,"team":"JESH","w":10,"d":4,"l":4,"f":40,"a":26,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":1,"team":"JESH","w":12,"d":2,"l":4,"f":44,"a":20,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"},"playoff":"title","champion":true},
         {"place":2,"team":"JESH","w":12,"d":2,"l":4,"f":50,"a":21,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":3,"team":"JESH","w": 6,"d":2,"l":6,"f":27,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":1,"league":"Division of Honour"}},
@@ -36,6 +37,26 @@
         {"place":4,"team":"JESH","missing": true, "season": "1909-10", "competition":{"type":"league","level":1,"league":"Klasse A"}}
     ],
     "matches": [
+        {"home":"SPOR","away":"JESH","score":"1-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"SPOR","score":"4-3","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"SDUD","score":"3-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"USDD","score":"2-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"PRON","score":"3-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"ULUX","score":"0-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"FOLA","score":"5-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"NSCH","score":"4-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"ASDF","score":"6-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"RBDF","score":"3-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SDUD","away":"JESH","score":"1-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"JESH","score":"2-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"JESH","score":"0-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"JESH","score":"0-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"JESH","score":"3-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"JESH","score":"4-4","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ASDF","away":"JESH","score":"2-3","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"RBDF","away":"JESH","score":"0-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1938-03-27","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SDUD","homeDivision":1,"away":"JESH","awayDivision":1,"score":"3-4","note":"Original match abandoned at 1-2"},
+
         {"home":"JESH","away":"USDD","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"SDUD","score":"5-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"FOLA","score":"1-0","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},

@@ -5,6 +5,7 @@
         {"season":"1939-40","event":"DISSOLVED"}
     ],
     "league": [
+        {"place":7,"team":"UWLD","w":0,"d":0,"l":12,"f": 1,"a":42,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":8,"team":"UWLD","w":3,"d":0,"l":11,"f":22,"a":54,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
     ]
 }

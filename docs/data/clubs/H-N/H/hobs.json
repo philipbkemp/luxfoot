@@ -6,6 +6,7 @@
         {"season":"2006-07","event":"MERGE","new_name":"AAHE"}
     ],
     "league": [
+        {"place":8,"team":"HOBS","w":3,"d":1,"l":10,"f":24,"a":54,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":6,"team":"HOBS","w":5,"d":1,"l" :8,"f":28,"a":46,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":9,"team":"HOBS","w":1,"d":2,"l":13,"f":22,"a":67,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}}
     ]

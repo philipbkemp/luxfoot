@@ -10,6 +10,7 @@
         "new_name": "ASRB"
     }],
     "league": [
+        {"place":8,"team":"ASLX","w": 4,"d":0,"l":14,"f":19,"a":71,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":5,"team":"ASLX","w": 8,"d":1,"l": 9,"f":52,"a":47,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":6,"team":"ASLX","w": 8,"d":2,"l": 8,"f":59,"a":33,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":2,"team":"ASLX","w": 9,"d":1,"l": 4,"f":40,"a":28,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
@@ -29,6 +30,8 @@
         {"place":2,"team":"ASLX","w": 6,"d":2,"l": 2,"f":20,"a":11,"pts_win":2,"season":"1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}}
     ],
     "matches": [
+        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":4,"away":"ASLX","awayDivision":3,"score":"4-3"},
+
         {"date":"1936-08-30","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RSML","homeDivision":4,"away":"ASLX","awayDivision":3,"score":"2-5"},
 		{"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RBPF","homeDivision":1,"away":"ASLX","awayDivision":3,"score":"2-1"},
 
