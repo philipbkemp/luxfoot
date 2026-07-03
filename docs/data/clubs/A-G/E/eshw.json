@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":7,"team":"ESHW","w":5,"d":2,"l": 9,"f":32,"a":43,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":4,"team":"ESHW","w":5,"d":1,"l": 8,"f":29,"a":56,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
         {"place":7,"team":"ESHW","w":2,"d":3,"l": 9,"f":23,"a":59,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":8,"team":"ESHW","w":4,"d":3,"l": 9,"f":29,"a":70,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}},

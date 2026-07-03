@@ -17,6 +17,7 @@
         {"season": "2002-03","event": "MERGE","new_name": "DIFF"}
     ],
     "league": [
+        {"place":1 ,"team":"RBDF","w":14,"d":2,"l": 2,"f":78,"a":22,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":10,"team":"RBDF","w": 3,"d":3,"l":12,"f":23,"a":48,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place": 5,"team":"RBDF","w":10,"d":1,"l": 7,"f":50,"a":47,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place": 3,"team":"RBDF","w":10,"d":2,"l": 6,"f":58,"a":36,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
@@ -38,6 +39,10 @@
         {"place": 1,"team":"RBDF","w": 4,"d":5,"l": 1,"f":20,"a":13,"pts_win":2,"season":"1919-20", "competition": {"type":"league", "level":2, "league":"2. Division"}, "playoff": "promotion_2", "promoted": true}
     ],
     "matches": [
+        {"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"NSCH","homeDivision":1,"away":"RBDF","awayDivision":2,"score":"1-5"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"AVBG","homeDivision":1,"away":"RBDF","awayDivision":2,"score":"3-4"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"SF","round":"Semi Final"},"home":"RBDF","homeDivision":2,"away":"SDUD","awayDivision":1,"score":"2-2","replay":{"score":"1-2"}},
+
         {"home":"SPOR","away":"RBDF","score":"5-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"RBDF","score":"3-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SDUD","away":"RBDF","score":"2-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},

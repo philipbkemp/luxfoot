@@ -9,6 +9,7 @@
         "new_name": "UNRB"
     }],
     "league": [
+        {"place": 6,"team":"AREM","w": 7,"d":6,"l": 5,"f":37,"a":35,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":10,"team":"AREM","w": 3,"d":2,"l":13,"f":26,"a":51,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place": 4,"team":"AREM","w": 8,"d":4,"l": 6,"f":42,"a":38,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place": 1,"team":"AREM","w":15,"d":0,"l": 3,"f":71,"a":24,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},

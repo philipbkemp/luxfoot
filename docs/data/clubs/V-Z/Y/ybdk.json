@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":7,"team":"YBDK","w": 5,"d":4,"l": 9,"f":35,"a":49,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":1,"team":"YBDK","w":13,"d":3,"l": 2,"f":51,"a":25,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":4,"team":"YBDK","w":11,"d":0,"l": 7,"f":50,"a":40,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":1,"team":"YBDK","w":13,"d":3,"l": 2,"f":55,"a":16,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},

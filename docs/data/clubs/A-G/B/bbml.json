@@ -9,11 +9,12 @@
         "new_name": "BENF"
     }],
     "league": [
-        {"place":2,"team":"BBML","w":13,"d":1,"l":4,"f": 54,"a":24,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
-        {"place":1,"team":"BBML","w":14,"d":3,"l":1,"f":103,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
-        {"place":4,"team":"BBML","w": 9,"d":3,"l":6,"f": 58,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
-        {"place":3,"team":"BBML","w": 6,"d":2,"l":4,"f": 38,"a":19,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"},"promoted":true},
-        {"place":3,"team":"BBML","w": 5,"d":2,"l":3,"f": 44,"a":22,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
+        {"place":10,"team":"BBML","w": 5,"d":3,"l":10,"f": 29,"a":46,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
+        {"place": 2,"team":"BBML","w":13,"d":1,"l": 4,"f": 54,"a":24,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
+        {"place": 1,"team":"BBML","w":14,"d":3,"l": 1,"f":103,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
+        {"place": 4,"team":"BBML","w": 9,"d":3,"l": 6,"f": 58,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
+        {"place": 3,"team":"BBML","w": 6,"d":2,"l": 4,"f": 38,"a":19,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"},"promoted":true},
+        {"place": 3,"team":"BBML","w": 5,"d":2,"l": 3,"f": 44,"a":22,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
     ],
     "matches": [
         {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ADUD","homeDivision":2,"away":"BBML","awayDivision":3,"score":"3-0","forfeit":true},

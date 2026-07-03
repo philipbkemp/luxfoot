@@ -1,0 +1,10 @@
+{
+    "name": "FC Hamm 37",
+    "history": [
+        {"season":"1937-38","event":"FOUNDED"},
+        {"season":"2004-05","event":"MERGE","new_name":"RMHM"}
+    ],
+    "league": [
+        {"place":8,"team":"HAMM","w":3,"d":1,"l":12,"f":24,"a":56,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
+    ]
+}

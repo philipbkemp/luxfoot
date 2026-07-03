@@ -9,6 +9,7 @@
         "new_name": "ALLX"
     }],
     "league": [
+        {"place": 7,"team":"CSHL","w": 5,"d":6,"l": 7,"f":40,"a":46,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":10,"team":"CSHL","w": 3,"d":0,"l":15,"f":26,"a":82,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place": 2,"team":"CSHL","w":11,"d":2,"l": 5,"f":48,"a":28,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"playoff":"promotion_2","promoted":true},
         {"place": 9,"team":"CSHL","w": 5,"d":2,"l":11,"f":52,"a":43,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
@@ -34,6 +35,9 @@
         {"place": 1,"team":"CSHL","w": 2,"d":1,"l": 1,"f":14,"a": 9,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series 1"}, "playoff":"promotion_3", "promoted": true}
     ],
     "matches": [
+        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":5,"away":"CSHL","awayDivision":4,"score":"0-2"},
+		{"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ARIS","homeDivision":2,"away":"CSHL","awayDivision":4,"score":"4-1"},
+
         {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":4,"away":"CSHL","awayDivision":3,"score":"0-2"},
 		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"CSHL","homeDivision":3,"away":"AVBG","awayDivision":2,"score":"0-4"},
 

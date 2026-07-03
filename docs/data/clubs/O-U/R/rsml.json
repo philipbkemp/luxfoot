@@ -10,6 +10,7 @@
         "new_name":"RSMB"
     }],
     "league": [
+        {"place": 6,"team":"RSML","w": 5,"d":1,"l":10,"f":41,"a": 43,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place": 3,"team":"RSML","w": 8,"d":0,"l": 6,"f":63,"a": 33,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
         {"place":10,"team":"RSML","w": 1,"d":0,"l":17,"f":12,"a": 86,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":10,"team":"RSML","w": 0,"d":0,"l":18,"f": 7,"a":113,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},

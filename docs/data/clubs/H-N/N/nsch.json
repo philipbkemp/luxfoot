@@ -9,6 +9,7 @@
         "new_name": "SCHF"
     }],
     "league": [
+        {"place": 8,"team":"NSCH","w": 4,"d":3,"l":11,"f":37,"a":52,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place": 8,"team":"NSCH","w": 6,"d":1,"l":11,"f":35,"a":49,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place": 2,"team":"NSCH","w":12,"d":3,"l": 3,"f":58,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":10,"team":"NSCH","w": 4,"d":1,"l":13,"f":27,"a":52,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
@@ -34,6 +35,28 @@
         {"place": 2,"team":"NSCH","w": 3,"d":0,"l": 1,"f":12,"a":12,"pts_win":2,"season":"1915-16", "competition": {"type":"league_series", "level":3, "series":2, "league":"3. Division Series 2"}, "playoff":"promotion_3"}
     ],
     "matches": [
+        {"home":"SDUD","away":"NSCH","score":"4-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"NSCH","score":"7-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SPOR","away":"NSCH","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"NSCH","score":"1-0","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"NSCH","score":"5-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"NSCH","score":"3-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"CROD","away":"NSCH","score":"3-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"SDUD","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"USDD","score":"1-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"SPOR","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"JESH","score":"1-4","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"PRON","score":"2-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"ULUX","score":"7-0","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"CROD","score":"4-4","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"FOLA","score":"3-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"AVBG","score":"2-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"NSCH","score":"2-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"AVBG","away":"NSCH","score":"3-0","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"NSCH","homeDivision":1,"away":"RBDF","awayDivision":2,"score":"1-5"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"flf","cup":"Coupe FLF","round_code":"QF","round":"Quarter Final"},"home":"NSCH","homeDivision":1,"away":"USND","awayDivision":3,"score":"7-0"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"flf","cup":"Coupe FLF","round_code":"SF","round":"Semi Final"},"home":"NSCH","homeDivision":1,"away":"FOLA","awayDivision":1,"score":"3-4"},
+
         {"home":"SPOR","away":"NSCH","score":"6-4","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"NSCH","score":"4-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SDUD","away":"NSCH","score":"4-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},

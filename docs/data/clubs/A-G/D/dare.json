@@ -7,20 +7,21 @@
         "old_name": "CECH"
     }],
     "league": [
-        {"place":5,"team":"DARE","w":9,"d":2,"l": 7,"f":40,"a":45,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":6,"team":"DARE","w":7,"d":4,"l": 7,"f":40,"a":57,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":7,"team":"DARE","w":6,"d":1,"l":11,"f":43,"a":46,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":4,"team":"DARE","w":6,"d":3,"l": 5,"f":23,"a":29,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
-        {"place":1,"team":"DARE","w":9,"d":1,"l": 0,"f":44,"a": 6,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"},"promoted":true},
-        {"place":7,"team":"DARE","w":4,"d":4,"l": 6,"f":30,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
-        {"place":2,"team":"DARE","w":4,"d":0,"l": 2,"f":16,"a": 7,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"}},
-        {"place":4,"team":"DARE","w":2,"d":2,"l": 4,"f":16,"a":20,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
-        {"place":2,"team":"DARE","w":6,"d":2,"l": 2,"f":27,"a": 9,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
+        {"place":3,"team":"DARE","w":11,"d":5,"l": 2,"f":74,"a":30,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
+        {"place":5,"team":"DARE","w": 9,"d":2,"l": 7,"f":40,"a":45,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
+        {"place":6,"team":"DARE","w": 7,"d":4,"l": 7,"f":40,"a":57,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
+        {"place":7,"team":"DARE","w": 6,"d":1,"l":11,"f":43,"a":46,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
+        {"place":4,"team":"DARE","w": 6,"d":3,"l": 5,"f":23,"a":29,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"}},
+        {"place":1,"team":"DARE","w": 9,"d":1,"l": 0,"f":44,"a": 6,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"},"promoted":true},
+        {"place":7,"team":"DARE","w": 4,"d":4,"l": 6,"f":30,"a":33,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
+        {"place":2,"team":"DARE","w": 4,"d":0,"l": 2,"f":16,"a": 7,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"}},
+        {"place":4,"team":"DARE","w": 2,"d":2,"l": 4,"f":16,"a":20,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
+        {"place":2,"team":"DARE","w": 6,"d":2,"l": 2,"f":27,"a": 9,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
         {"gap":true},
-        {"place":8,"team":"DARE","w":1,"d":3,"l":10,"f":11,"a":43,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"relegation_2_2","relegated":true},
-        {"place":1,"team":"DARE","w":5,"d":1,"l": 0,"f":33,"a": 3,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
+        {"place":8,"team":"DARE","w": 1,"d":3,"l":10,"f":11,"a":43,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":3,"series":2,"league":"2. Division Series 2"},"playoff":"relegation_2_2","relegated":true},
+        {"place":1,"team":"DARE","w": 5,"d":1,"l": 0,"f":33,"a": 3,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"gap":true},
-        {"place":6,"team":"DARE","w":2,"d":0,"l": 8,"f": 9,"a":64,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
+        {"place":6,"team":"DARE","w": 2,"d":0,"l": 8,"f": 9,"a":64,"pts_win":2,"season":"1923-24","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}}
     ],
     "matches": [
         {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"DARE","homeDivision":4,"away":"CSHL","awayDivision":3,"score":"1-4"},

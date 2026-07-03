@@ -191,6 +191,10 @@ function drawHistory(history,founded,refounded,rerefounded) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
                 hEvent.innerHTML = "Cup Winners";
                 break;
+            case "OLDFLFCUP":
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
+                hEvent.innerHTML = "(Old) Coupe FLF Winners";
+                break;
             default:
                 console.warn("unknown event",h.event);
                 break;

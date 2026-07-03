@@ -1,0 +1,329 @@
+{
+	"season": "1938-39",
+	"next": "1939-40",
+	"prev": "1937-38",
+	"league": [{
+		"level": 1,
+		"name": "Division of Honour",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "SDUD", "w": 14, "d": 3, "l": 1, "f": 62, "a": 25, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "champion": true},
+			{"place": 2, "team": "USDD", "w": 13, "d": 2, "l": 3, "f": 74, "a": 24, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 3, "team": "SPOR", "w": 10, "d": 3, "l": 5, "f": 57, "a": 31, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 4, "team": "JESH", "w": 9, "d": 1, "l": 8, "f": 52, "a": 41, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 5, "team": "PRON", "w": 8, "d": 3, "l": 7, "f": 48, "a": 41, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 6, "team": "ULUX", "w": 8, "d": 2, "l": 8, "f": 39, "a": 44, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 7, "team": "CROD", "w": 4, "d": 4, "l": 10, "f": 28, "a": 60, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 8, "team": "NSCH", "w": 4, "d": 3, "l": 11, "f": 37, "a": 52, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 9, "team": "FOLA", "w": 5, "d": 0, "l": 13, "f": 31, "a": 63, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "relegated": true},
+			{"place": 10, "team": "AVBG", "w": 4, "d": 1, "l": 13, "f": 32, "a": 79, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "relegated": true}
+		],
+		"matches": [
+			{ "home": "SDUD", "away": "USDD", "score": "0-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "SPOR", "score": "2-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "JESH", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "PRON", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "ULUX", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "CROD", "score": "5-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "NSCH", "score": "4-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "FOLA", "score": "9-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "AVBG", "score": "5-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "SDUD", "score": "0-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "SPOR", "score": "3-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "JESH", "score": "5-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "PRON", "score": "4-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "ULUX", "score": "4-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "CROD", "score": "6-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "NSCH", "score": "7-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "FOLA", "score": "7-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "AVBG", "score": "6-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "SDUD", "score": "4-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "USDD", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "JESH", "score": "4-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "PRON", "score": "2-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "ULUX", "score": "1-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "CROD", "score": "3-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "NSCH", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "FOLA", "score": "7-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "AVBG", "score": "9-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "SDUD", "score": "1-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "USDD", "score": "5-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "SPOR", "score": "4-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "PRON", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "ULUX", "score": "3-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "CROD", "score": "7-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "NSCH", "score": "1-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "FOLA", "score": "7-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "AVBG", "score": "7-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SDUD", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "USDD", "score": "3-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SPOR", "score": "1-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "JESH", "score": "4-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "ULUX", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "CROD", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "NSCH", "score": "5-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "FOLA", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "AVBG", "score": "5-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SDUD", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "USDD", "score": "3-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SPOR", "score": "1-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "JESH", "score": "4-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "PRON", "score": "1-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "CROD", "score": "1-5", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "NSCH", "score": "3-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "FOLA", "score": "3-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "AVBG", "score": "6-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "SDUD", "score": "2-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "USDD", "score": "0-8", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "SPOR", "score": "0-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "JESH", "score": "2-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "PRON", "score": "1-6", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "ULUX", "score": "0-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "NSCH", "score": "3-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "FOLA", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "AVBG", "score": "1-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SDUD", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "USDD", "score": "1-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SPOR", "score": "2-3", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "JESH", "score": "1-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "PRON", "score": "2-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "ULUX", "score": "7-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "CROD", "score": "4-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "FOLA", "score": "3-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "AVBG", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SDUD", "score": "2-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "USDD", "score": "3-9", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SPOR", "score": "3-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "JESH", "score": "1-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "PRON", "score": "5-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "ULUX", "score": "0-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "CROD", "score": "1-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "NSCH", "score": "2-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "AVBG", "score": "4-1", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "SDUD", "score": "1-8", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "USDD", "score": "1-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "SPOR", "score": "0-9", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "JESH", "score": "5-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "PRON", "score": "2-5", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "ULUX", "score": "3-2", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "CROD", "score": "3-4", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "NSCH", "score": "3-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "AVBG", "away": "FOLA", "score": "3-0", "season": "1938-39", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} }
+		]
+	},{
+		"level": 2,
+		"name": "1. Division",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "RBDF", "w": 14, "d": 2, "l": 2, "f": 78, "a": 22, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
+			{"place": 2, "team": "ASDF", "w": 10, "d": 4, "l": 4, "f": 49, "a": 23, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
+			{"place": 3, "team": "CPET", "w": 8, "d": 5, "l": 5, "f": 42, "a": 25, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 4, "team": "RPDN", "w": 8, "d": 2, "l": 8, "f": 53, "a": 49, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 5, "team": "STET", "w": 7, "d": 3, "l": 8, "f": 30, "a": 40, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 6, "team": "RBPF", "w": 5, "d": 5, "l": 8, "f": 36, "a": 50, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 7, "team": "YBDK", "w": 5, "d": 4, "l": 9, "f": 35, "a": 49, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 8, "team": "ADUD", "w": 6, "d": 2, "l": 10, "f": 36, "a": 58, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "relegated": true},
+			{"place": 9, "team": "ARIS", "w": 5, "d": 4, "l": 9, "f": 27, "a": 53, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "relegated": true},
+			{"place": 10, "team": "BBML", "w": 5, "d": 3, "l": 10, "f": 29, "a": 46, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "relegated": true}
+		]
+	},{
+		"level": 3,
+		"name": "The Promotion",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "JWAS", "w": 11, "d": 3, "l": 4, "f": 55, "a": 37, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 2, "team": "RROD", "w": 11, "d": 2, "l": 5, "f": 56, "a": 22, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 3, "team": "SCBT", "w": 11, "d": 0, "l": 7, "f": 51, "a": 33, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 4, "team": "URUM", "w": 9, "d": 3, "l": 6, "f": 35, "a": 27, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 5, "team": "CSOB", "w": 9, "d": 2, "l": 7, "f": 49, "a": 38, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 6, "team": "AREM", "w": 7, "d": 6, "l": 5, "f": 37, "a": 35, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 7, "team": "ETZE", "w": 8, "d": 2, "l": 8, "f": 39, "a": 45, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true},
+			{"place": 8, "team": "GOLD", "w": 6, "d": 2, "l": 10, "f": 33, "a": 44, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true},
+			{"place": 9, "team": "MANC", "w": 3, "d": 2, "l": 13, "f": 29, "a": 59, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true},
+			{"place": 10, "team": "USND", "w": 1, "d": 6, "l": 11, "f": 10, "a": 54, "pts_win": 2, "season": "1938-39", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "relegated": true}
+		]
+	},{
+		"level": 4,
+		"name": "2. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "EGWM", "w": 13, "d": 2, "l": 3, "f": 74, "a": 30, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "CGRV", "w": 13, "d": 2, "l": 3, "f": 70, "a": 26, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "DARE", "w": 11, "d": 5, "l": 2, "f": 74, "a": 30, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 4, "team": "UMRT", "w": 9, "d": 3, "l": 6, "f": 50, "a": 40, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 5, "team": "ASLX", "w": 9, "d": 1, "l": 8, "f": 66, "a": 45, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 6, "team": "VICR", "w": 7, "d": 5, "l": 6, "f": 46, "a": 48, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 7, "team": "PROG", "w": 7, "d": 3, "l": 8, "f": 45, "a": 47, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "playoff": "relegation_2_2"},
+				{"place": 8, "team": "UNAS", "w": 6, "d": 5, "l": 7, "f": 30, "a": 42, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "playoff": "relegation_2_2", "relegated": true},
+				{"place": 9, "team": "WALF", "w": 2, "d": 0, "l": 16, "f": 24, "a": 105, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true},
+				{"place": 10, "team": "TSVG", "w": 0, "d": 0, "l": 18, "f": 4, "a": 70, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "BLVL", "w": 13, "d": 3, "l": 2, "f": 44, "a": 18, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "ASCH", "w": 10, "d": 4, "l": 4, "f": 64, "a": 35, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 3, "team": "UBSH", "w": 8, "d": 5, "l": 5, "f": 52, "a": 39, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 4, "team": "KOPS", "w": 7, "d": 7, "l": 4, "f": 53, "a": 46, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 5, "team": "SWFT", "w": 8, "d": 2, "l": 8, "f": 49, "a": 43, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 6, "team": "JKYL", "w": 8, "d": 2, "l": 8, "f": 44, "a": 40, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 7, "team": "CSHL", "w": 5, "d": 6, "l": 7, "f": 40, "a": 46, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 8, "team": "UESH", "w": 6, "d": 3, "l": 9, "f": 46, "a": 53, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true},
+				{"place": 9, "team": "LLMP", "w": 5, "d": 3, "l": 10, "f": 30, "a": 55, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true},
+				{"place": 10, "team": "TRIM", "w": 1, "d": 3, "l": 14, "f": 26, "a": 73, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true}
+			]
+		}]
+	},{
+		"level": 5,
+		"name": "3. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "RUPL", "w": 13, "d": 0, "l": 1, "f": 87, "a": 18, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "OVND", "w": 10, "d": 2, "l": 2, "f": 43, "a": 21, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "JGIL", "w": 8, "d": 1, "l": 5, "f": 64, "a": 38, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 4, "team": "MARM", "w": 7, "d": 3, "l": 4, "f": 43, "a": 36, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 5, "team": "MINL", "w": 6, "d": 3, "l": 5, "f": 36, "a": 44, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 6, "team": "AWDG", "w": 4, "d": 1, "l": 9, "f": 29, "a": 45, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 7, "team": "FRTA", "w": 3, "d": 0, "l": 11, "f": 21, "a": 51, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 8, "team": "UWLD", "w": 0, "d": 0, "l": 14, "f": 13, "a": 83, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "SPST", "w": 14, "d": 1, "l": 1, "f": 54, "a": 24, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "HESH", "w": 13, "d": 0, "l": 3, "f": 71, "a": 18, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 3, "team": "MOND", "w": 11, "d": 1, "l": 4, "f": 45, "a": 27, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 4, "team": "OYMP", "w": 10, "d": 1, "l": 5, "f": 43, "a": 26, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 5, "team": "HOBS", "w": 7, "d": 1, "l": 8, "f": 50, "a": 45, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 6, "team": "JKGB", "w": 5, "d": 2, "l": 9, "f": 27, "a": 36, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 7, "team": "ESHW", "w": 5, "d": 2, "l": 9, "f": 32, "a": 43, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 8, "team": "HRTB", "w": 3, "d": 0, "l": 13, "f": 13, "a": 63, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 9, "team": "DRZV", "w": 0, "d": 0, "l": 16, "f": 0, "a": 53, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }}
+			]
+		},{
+			"serie": 3,
+			"name": "Series 3",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "MAMR", "w": 15, "d": 0, "l": 1, "f": 99, "a": 24, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 2, "team": "SBRT", "w": 13, "d": 1, "l": 2, "f": 50, "a": 16, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 3, "team": "RBAS", "w": 11, "d": 0, "l": 5, "f": 51, "a": 20, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 4, "team": "ASTN", "w": 8, "d": 2, "l": 6, "f": 35, "a": 37, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 5, "team": "MDLB", "w": 5, "d": 2, "l": 9, "f": 35, "a": 65, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 6, "team": "RSML", "w": 5, "d": 1, "l": 10, "f": 41, "a": 43, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 7, "team": "JUNG", "w": 4, "d": 2, "l": 10, "f": 35, "a": 52, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 8, "team": "HAMM", "w": 3, "d": 1, "l": 12, "f": 24, "a": 56, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 9, "team": "SAND", "w": 3, "d": 1, "l": 12, "f": 16, "a": 73, "pts_win": 2, "season": "1938-39", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }}
+			]
+		}]
+	}],
+    "playoffs": {
+        "relegation_2_2": {
+            "matches": [
+                {"season":"1938-39","competition":{"type":"playoff","playoff":"relegation_2_2"},"home":"PROG","away":"UNAS","score":"5-2","outcome":"UNAS relegated"}
+            ]
+        }
+    },
+	"cup": {
+		"luxembourg": {
+			"name": "Luxembourg Cup",
+			"rounds": [{
+				"name": "1st Round",
+				"matches": [
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RBPF", "homeDivision": 2, "away": "ADUD", "awayDivision": 2, "score": "4-3"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "OVND", "homeDivision": 5, "away": "ASCH", "awayDivision": 4, "score": "2-4"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "ASLX", "homeDivision": 4, "away": "ASDF", "awayDivision": 2, "score": "1-5"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "JKYL", "homeDivision": 4, "away": "CSOB", "awayDivision": 3, "score": "3-2"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "EGWM", "homeDivision": 4, "away": "SWFT", "awayDivision": 4, "score": "11-1"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "JWAS", "homeDivision": 3, "away": "RPDN", "awayDivision": 2, "score": "8-5"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "USND", "homeDivision": 3, "away": "RROD", "awayDivision": 3, "score": "4-3"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "CPET", "homeDivision": 2, "away": "SAND", "awayDivision": 5, "score": "16-0"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "SPST", "homeDivision": 5, "away": "CSHL", "awayDivision": 4, "score": "0-2"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "TRIM", "homeDivision": 4, "away": "LLMP", "awayDivision": 4, "score": "7-0"},
+					{"bye": "ARIS", "byeDivision": 2},
+					{"bye": "GOLD", "byeDivision": 3}
+				]
+			},{
+				"name": "2nd Round",
+				"matches": [
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "USND", "homeDivision": 3, "away": "TRIM", "awayDivision": 4, "score": "5-1"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "ARIS", "homeDivision": 2, "away": "CSHL", "awayDivision": 4, "score": "4-1"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "EGWM", "homeDivision": 4, "away": "CPET", "awayDivision": 2, "score": "2-3"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "CROD", "homeDivision": 1, "away": "JWAS", "awayDivision": 3, "score": "9-0"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "GOLD", "homeDivision": 3, "away": "ASCH", "awayDivision": 4, "score": "1-0"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "ASDF", "homeDivision": 2, "away": "RBPF", "awayDivision": 2, "score": "3-2"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "SPOR", "homeDivision": 1, "away": "SPST", "awayDivision": 5, "score": "6-0"},
+					{"date":"1938-10-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "JKYL", "homeDivision": 4, "away": "JESH", "awayDivision": 1, "score": "0-5"}
+				]
+			},{
+				"name": "3rd Round",
+				"matches": [
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "ULUX", "homeDivision": 1, "away": "CPET", "awayDivision": 2, "score": "10-3"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "USDD", "homeDivision": 1, "away": "SPOR", "awayDivision": 1, "score": "2-1"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "NSCH", "homeDivision": 1, "away": "RBDF", "awayDivision": 2, "score": "1-5"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "PRON", "homeDivision": 1, "away": "USND", "awayDivision": 3, "score": "9-0"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "AVBG", "homeDivision": 1, "away": "ARIS", "awayDivision": 2, "score": "2-1"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "FOLA", "homeDivision": 1, "away": "SDUD", "awayDivision": 1, "score": "1-3"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "GOLD", "homeDivision": 3, "away": "JESH", "awayDivision": 1, "score": "4-11"},
+					{"date":"1938-10-30","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "CROD", "homeDivision": 1, "away": "ASDF", "awayDivision": 2, "score": "3-2"}
+				],
+                "note": "Teams eleminated from the 3rd Round qualified for the Quarter Final of the Coupe FLF"
+			},{
+				"name": "Quarter Final",
+				"matches": [
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "PRON", "homeDivision": 1, "away": "USDD", "awayDivision": 1, "score": "1-7"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "SDUD", "homeDivision": 1, "away": "ULUX", "awayDivision": 1, "score": "15-4"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "AVBG", "homeDivision": 1, "away": "RBDF", "awayDivision": 2, "score": "3-4"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "JESH", "homeDivision": 1, "away": "CROD", "awayDivision": 1, "score": "6-0"}
+				]
+			},{
+				"name": "Semi Final",
+				"matches": [
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "RBDF", "homeDivision": 2, "away": "SDUD", "awayDivision": 1, "score": "2-2", "replay": {"score": "1-2"}},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "JESH", "homeDivision": 1, "away": "USDD", "awayDivision": 1, "score": "1-2"}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1939-04-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "F", "round": "Final"}, "home": "SDUD", "homeDivision": 1, "away": "USDD", "awayDivision": 1, "score": "1-2"}
+				]
+			}]
+		},
+        "flf": {
+            "name": "Coupe FLF",
+            "note": "Eligibility: Teams eliminated in R3 of the Luxembourg Cup",
+            "rounds": [{
+				"name": "Quarter Final",
+				"matches": [
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "GOLD", "homeDivision": 3, "away": "SPOR", "awayDivision": 1, "score": "0-7"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "ARIS", "homeDivision": 2, "away": "FOLA", "awayDivision": 1, "score": "3-5"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "ASDF", "homeDivision": 2, "away": "CPET", "awayDivision": 2, "score": "3-2"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "NSCH", "homeDivision": 1, "away": "USND", "awayDivision": 3, "score": "7-0"}
+				]
+			},{
+				"name": "Semi Final",
+				"matches": [
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "SF", "round": "Semi Final"}, "home": "SPOR", "homeDivision": 1, "away": "ASDF", "awayDivision": 2, "score": "5-4"},
+					{"season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "SF", "round": "Semi Final"}, "home": "NSCH", "homeDivision": 1, "away": "FOLA", "awayDivision": 1, "score": "3-4"}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1939-04-02","season": "1938-39", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "F", "round": "Final"}, "home": "FOLA", "homeDivision": 1, "away": "SPOR", "awayDivision": 1, "score": "1-6"}
+				]
+			}]
+        }
+	}
+}

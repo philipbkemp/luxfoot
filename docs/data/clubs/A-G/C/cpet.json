@@ -10,6 +10,7 @@
         "new_name": "UNTP"
     }],
     "league": [
+        {"place":3,"team":"CPET","w": 8,"d":5,"l": 5,"f":42,"a":25,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":3,"team":"CPET","w":12,"d":2,"l": 4,"f":71,"a":25,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":9,"team":"CPET","w": 4,"d":0,"l":14,"f":28,"a":47,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place":4,"team":"CPET","w":10,"d":2,"l": 6,"f":49,"a":30,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
@@ -37,6 +38,11 @@
         {"place":6,"team":"CPET","missing": true, "season": "1913-14","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"CPET","homeDivision":2,"away":"SAND","awayDivision":5,"score":"16-0"},
+		{"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"EGWM","homeDivision":4,"away":"CPET","awayDivision":2,"score":"2-3"},
+		{"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ULUX","homeDivision":1,"away":"CPET","awayDivision":2,"score":"10-3"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"flf","cup":"Coupe FLF","round_code":"QF","round":"Quarter Final"},"home":"ASDF","homeDivision":2,"away":"CPET","awayDivision":2,"score":"3-2"},
+
         {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"LLMP","homeDivision":4,"away":"CPET","awayDivision":3,"score":"2-3"},
 		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RBDF","homeDivision":1,"away":"CPET","awayDivision":3,"score":"2-0"},
 

@@ -9,6 +9,7 @@
         "new_name": "U5KT"
     }],
     "league": [
+        {"place":6,"team":"JKYL","w": 8,"d":2,"l": 8,"f":44,"a":40,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":1,"team":"JKYL","w":12,"d":0,"l": 2,"f":76,"a":20,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true},
         {"place":8,"team":"JKYL","w": 6,"d":3,"l": 9,"f":36,"a":46,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
         {"place":2,"team":"JKYL","w": 9,"d":6,"l": 1,"f":54,"a":28,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"},"promoted":true},
@@ -30,6 +31,9 @@
         {"place":2,"team":"JKYL","w": 0,"d":0,"l": 2,"f": 3,"a": 7,"pts_win":2,"season":"1914-15", "competition":{"type":"league_series","level":2,"series":2,"league":"2. Division Series 2"}}
     ],
     "matches": [
+        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JKYL","homeDivision":4,"away":"CSOB","awayDivision":3,"score":"3-2"},
+		{"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"JKYL","homeDivision":4,"away":"JESH","awayDivision":1,"score":"0-5"},
+
         {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JKYL","homeDivision":4,"away":"CROD","awayDivision":2,"score":"0-2"},
 
         {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"SPST","homeDivision":4,"away":"JKYL","awayDivision":4,"score":"3-1"},

@@ -89,7 +89,7 @@ allTeams = {
     "Daring Echternach":"DARE","FC Red Black Pfaffenthal":"RBPF","Racing FC Union Luxemburg":"RACE","Ro'de Le'w Niederdonven":"RLND","CS Greiveldange":"GRIV",
     "Fortuna Canach":"FCNC","Jeunesse Flaxweiler":"JFLX","US Dahl":"DAHL","Jeunesse Goesdorf":"JGOS","Sura Michelau":"SURM","Blue Boys Erpeldingen/Ettelbrück":"BBEE",
     "Le Monflin Bigonville":"MONF","FC Everlange":"EVER","FC Ell":"FELL","Koeppchen Wormeldingen":"KWRM","Blue Star Schweicherthal":"BSSW","Jeunesse Useldingen":"JUSE",
-    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU","Jeunesse Sportive Hagen":"JHAG", "Armnia Weidingen":"AWDG","FC Luxembourg Limpertsberg":"LLMP","Jeunesse Goeblange":"JGOB","FC Luxemburg/Limpertsberg":"LLMP","FC Schieren":"SCHR","Union Mertert":"UMRT","US Waldbillig":"UWLD"
+    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU","Jeunesse Sportive Hagen":"JHAG", "Armnia Weidingen":"AWDG","FC Luxembourg Limpertsberg":"LLMP","Jeunesse Goeblange":"JGOB","FC Luxemburg/Limpertsberg":"LLMP","FC Schieren":"SCHR","Union Mertert":"UMRT","US Waldbillig":"UWLD","Stade DÃ¼delingen":"SDUD","US DÃ¼delingen":"USDD","ProgrÃ¨s Niederkorn":"PRON","SC TÃ©tange":"STET","Alliance DÃ¼delingen":"ADUD","US RÃ¼melingen":"URUM","Etzella EttelbrÃ¼ck":"ETZE","EgalitÃ© Weimerskirch":"EGWM","ProgrÃ¨s Grund":"PROG","RÃ©sidence Walferdange":"WALF","HÃ´mecht Esch":"HESH","Jeunesse Koerich/Goeblange":"JKGB","Hertha Beckerich":"HRTB"
 }
 function pullResults(tbl) {
     season = seasonData.season;

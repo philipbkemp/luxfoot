@@ -9,6 +9,7 @@
         "new_name": "DIFF"
     }],
     "league": [
+        {"place":2,"team":"ASDF","w":10,"d":4,"l": 4,"f":49,"a":23,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":9,"team":"ASDF","w": 4,"d":4,"l":10,"f":33,"a":55,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":1,"team":"ASDF","w":15,"d":2,"l": 1,"f":74,"a":20,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
         {"place":9,"team":"ASDF","w": 5,"d":1,"l":12,"f":42,"a":51,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
@@ -28,6 +29,12 @@
         {"place":4,"team":"ASDF","w": 8,"d":3,"l": 3,"f":33,"a":19,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series South"}}
     ],
     "matches": [
+        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"ASLX","homeDivision":4,"away":"ASDF","awayDivision":2,"score":"1-5"},
+		{"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ASDF","homeDivision":2,"away":"RBPF","awayDivision":2,"score":"3-2"},
+		{"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"CROD","homeDivision":1,"away":"ASDF","awayDivision":2,"score":"3-2"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"flf","cup":"Coupe FLF","round_code":"QF","round":"Quarter Final"},"home":"ASDF","homeDivision":2,"away":"CPET","awayDivision":2,"score":"3-2"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"flf","cup":"Coupe FLF","round_code":"SF","round":"Semi Final"},"home":"SPOR","homeDivision":1,"away":"ASDF","awayDivision":2,"score":"5-4"},
+
         {"home":"SPOR","away":"ASDF","score":"4-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"ASDF","score":"6-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SDUD","away":"ASDF","score":"7-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},

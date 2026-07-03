@@ -9,6 +9,7 @@
         "new_name": "RMLX"
     }],
     "league": [
+        {"place":4,"team":"RPDN","w": 8,"d":2,"l": 8,"f":53,"a":49,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":6,"team":"RPDN","w": 7,"d":2,"l": 9,"f":43,"a":52,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":3,"team":"RPDN","w":12,"d":1,"l": 5,"f":48,"a":35,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
         {"place":2,"team":"RPDN","w":14,"d":1,"l": 3,"f":74,"a":29,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
@@ -28,6 +29,8 @@
         {"place":2,"team":"RPDN","w":10,"d":2,"l": 2,"f":40,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"},"promoted":true}
     ],
     "matches": [
+        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JWAS","homeDivision":3,"away":"RPDN","awayDivision":2,"score":"8-5"},
+
         {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":2,"away":"JKGB","awayDivision":5,"score":"4-0"},
 		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"RPDN","homeDivision":2,"away":"SCBT","awayDivision":3,"score":"1-3"},
 

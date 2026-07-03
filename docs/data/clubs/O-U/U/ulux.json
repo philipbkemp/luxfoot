@@ -9,6 +9,7 @@
         "event": "CHAMPION"
     }],
     "league": [
+        {"place":6,"team":"ULUX","w": 8,"d":2,"l": 8,"f":39,"a":44,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":6,"team":"ULUX","w": 8,"d":2,"l": 8,"f":35,"a":38,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":8,"team":"ULUX","w": 5,"d":4,"l": 9,"f":37,"a":56,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":6,"team":"ULUX","w": 8,"d":1,"l": 9,"f":34,"a":48,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
@@ -24,6 +25,27 @@
         {"place":5,"team":"ULUX","w": 7,"d":0,"l": 7,"f":36,"a":24,"pts_win":2,"season":"1925-26","competition":{"type":"league","level":1,"league":"1. Division"}}
     ],
     "matches": [
+        {"home":"SDUD","away":"ULUX","score":"2-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"ULUX","score":"4-0","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SPOR","away":"ULUX","score":"1-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"ULUX","score":"3-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"ULUX","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"SDUD","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"USDD","score":"3-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"SPOR","score":"1-4","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"JESH","score":"4-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"PRON","score":"1-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"CROD","score":"1-5","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"NSCH","score":"3-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"FOLA","score":"3-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"AVBG","score":"6-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"CROD","away":"ULUX","score":"0-4","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"ULUX","score":"7-0","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"ULUX","score":"0-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"AVBG","away":"ULUX","score":"3-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"ULUX","homeDivision":1,"away":"CPET","awayDivision":2,"score":"10-3"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"SDUD","homeDivision":1,"away":"ULUX","awayDivision":1,"score":"15-4"},
+
         {"home":"SPOR","away":"ULUX","score":"5-0","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"ULUX","score":"0-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SDUD","away":"ULUX","score":"5-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},

@@ -144,11 +144,18 @@ function drawCup(cupKey,cupData) {
     compNav.append(thisCupLi);
 
     window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.rounds`);
+    window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.note`);
 
     if ( showComp !== thisComp ) {
         return;
     }
     contentShown = true;
+
+    if ( cupData.note ) {
+        let cupNote = document.createElement("P");
+        cupNote.innerHTML = "Note: " + cupData.note;
+        dataContainer.append(cupNote);
+    }
 
     let clubDivisions = {};
 
@@ -186,6 +193,13 @@ function drawCup(cupKey,cupData) {
                 }
             }
         });
+
+        if ( round.note ) {
+            let roundNote = document.createElement("P");
+            roundNote.innerHTML = "Note: " + round.note;
+            dataContainer.append(roundNote);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.round.note`);
+        }
 
     });
 

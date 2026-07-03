@@ -9,6 +9,7 @@
         "event": "CUPWINNER"
     }],
     "league": [
+        {"place":5,"team":"PRON","w": 8,"d":3,"l": 7,"f":48,"a":41,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":5,"team":"PRON","w": 7,"d":4,"l": 7,"f":35,"a":29,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"place":2,"team":"PRON","w":12,"d":2,"l": 4,"f":57,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"},"playoff":"title"},
         {"place":1,"team":"PRON","w":14,"d":3,"l": 1,"f":70,"a":20,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"promoted":true},
@@ -30,6 +31,27 @@
         {"place":2,"team":"PRON","w": 4,"d":3,"l": 1,"f":19,"a": 9,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":3, "league":"3. Division Series West"}, "playoff": "promotion_3"}
     ],
     "matches": [
+        {"home":"SDUD","away":"PRON","score":"2-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"USDD","away":"PRON","score":"4-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"SPOR","away":"PRON","score":"2-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"JESH","away":"PRON","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"SDUD","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"USDD","score":"3-4","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"SPOR","score":"1-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"JESH","score":"4-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"ULUX","score":"2-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"CROD","score":"2-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"NSCH","score":"5-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"FOLA","score":"2-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"PRON","away":"AVBG","score":"5-3","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"ULUX","away":"PRON","score":"1-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"CROD","away":"PRON","score":"1-6","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"NSCH","away":"PRON","score":"2-2","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"FOLA","away":"PRON","score":"5-1","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"home":"AVBG","away":"PRON","score":"2-5","season":"1938-39","competition":{"type":"league","level":1,"league":"Division of Honour"}},
+        {"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"PRON","homeDivision":1,"away":"USND","awayDivision":3,"score":"9-0"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"QF","round":"Quarter Final"},"home":"PRON","homeDivision":1,"away":"USDD","awayDivision":1,"score":"1-7"},
+
         {"home":"SPOR","away":"PRON","score":"3-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"JESH","away":"PRON","score":"3-1","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},
         {"home":"SDUD","away":"PRON","score":"4-2","season":"1937-38","competition":{"type":"league","level":1,"league":"Division of Honour"}},

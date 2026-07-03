@@ -53,6 +53,19 @@ function doneFetch(data) {
         compNav.append(navLeagueLi);
     }
 
+    if ( data.cup_flf_old ) {
+        let navLeague = document.createElement("A");
+        navLeague.href = "winners.html?comp=cup_flf_old";
+        navLeague.innerHTML = "Coupe FLF (old)";
+        if ( "cup_flf_old" === showComp ) {
+            navLeague.classList.add("active");
+            drawWinnersList(data.cup_flf_old.winners,data.doubles);
+        }
+        let navLeagueLi = document.createElement("LI");
+        navLeagueLi.append(navLeague);
+        compNav.append(navLeagueLi);
+    }
+
     notAwarded.forEach(s=>{
         allSeasons = allSeasons.filter(key => key !== s);
     });

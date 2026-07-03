@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place":7,"team":"ETZE","w": 8,"d":2,"l": 8,"f":39,"a":45,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":6,"team":"ETZE","w": 8,"d":4,"l": 6,"f":40,"a":30,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"}},
         {"place":2,"team":"ETZE","w":11,"d":6,"l": 1,"f":55,"a":18,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":1,"team":"ETZE","w":14,"d":0,"l": 0,"f":73,"a":15,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"},"promoted":true},

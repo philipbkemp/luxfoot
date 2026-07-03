@@ -5,6 +5,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place": 4,"team":"MARM","w":7,"d":3,"l": 4,"f":43,"a":36,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
         {"place":10,"team":"MARM","w":1,"d":2,"l":15,"f":21,"a":78,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
         {"place": 1,"team":"MARM","w":9,"d":1,"l": 2,"f":63,"a":20,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"},"promoted":true},
         {"place": 8,"team":"MARM","w":6,"d":0,"l":12,"f":36,"a":62,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},

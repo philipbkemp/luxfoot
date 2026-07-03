@@ -16,6 +16,7 @@
         "new_name": "RBE7"
     }],
     "league": [
+        {"place":6,"team":"RBPF","w": 5,"d":5,"l": 8,"f":36,"a":50,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":5,"team":"RBPF","w": 9,"d":1,"l": 8,"f":60,"a":44,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":2,"league":"1. Division"}},
         {"place":9,"team":"RBPF","w": 1,"d":2,"l":15,"f":22,"a":61,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"},"relegated":true},
         {"place":7,"team":"RBPF","w": 8,"d":0,"l":10,"f":34,"a":68,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":1,"league":"Division of Honour"}},
@@ -36,6 +37,9 @@
         {"place":1,"team":"RBPF","w": 8,"d":0,"l": 2,"f":37,"a":16,"pts_win":2,"season":"1920-21", "competition": {"type":"league_series","level": 4, "series": 1, "league": "3. Division Series Luxembourg"}, "playoff":"promotion_3","promoted": true}
     ],
     "matches": [
+        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBPF","homeDivision":2,"away":"ADUD","awayDivision":2,"score":"4-3"},
+		{"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ASDF","homeDivision":2,"away":"RBPF","awayDivision":2,"score":"3-2"},
+
         {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RBPF","homeDivision":2,"away":"SCBT","awayDivision":3,"score":"2-2","replay":{"score":"2-3","date":"1937-09-19"}},
 
         {"home":"JESH","away":"RBPF","score":"2-1","season":"1936-37","competition":{"type":"league","level":1,"league":"Division of Honour"}},

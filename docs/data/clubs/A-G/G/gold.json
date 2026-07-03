@@ -10,6 +10,7 @@
         "new_name": "WLTZ"
     }],
     "league": [
+        {"place":8,"team":"GOLD","w": 6,"d":2,"l":10,"f":33,"a":44,"pts_win":2,"season":"1938-39","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":2,"team":"GOLD","w":12,"d":1,"l": 5,"f":79,"a":32,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place":3,"team":"GOLD","w":11,"d":3,"l": 4,"f":59,"a":32,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
         {"place":4,"team":"GOLD","w":12,"d":2,"l": 4,"f":51,"a":24,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
@@ -29,6 +30,10 @@
         {"place":5,"team":"GOLD","w": 3,"d":2,"l": 5,"f": 9,"a":18,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series North"}}
     ],
     "matches": [
+        {"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"GOLD","homeDivision":3,"away":"ASCH","awayDivision":4,"score":"1-0"},
+		{"date":"1938-10-30","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"GOLD","homeDivision":3,"away":"JESH","awayDivision":1,"score":"4-11"},
+		{"season":"1938-39","competition":{"type":"cup","cup_code":"flf","cup":"Coupe FLF","round_code":"QF","round":"Quarter Final"},"home":"GOLD","homeDivision":3,"away":"SPOR","awayDivision":1,"score":"0-7"},
+
         {"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"ADUD","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"0-2"},
 		{"date":"1937-11-07","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"GOLD","homeDivision":4,"away":"NSCH","awayDivision":1,"score":"0-2"},
 

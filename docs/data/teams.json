@@ -308,13 +308,15 @@
         "level": -1
     },
     "HAMM": {
-        "name": "FC Hamm 37"
+        "name": "FC Hamm 37",
+        "level": -1
     },
     "HARL": {
         "name": "FC Harlange"
     },
     "HESH": {
-        "name": "Hômecht Esch"
+        "name": "Hômecht Esch",
+        "level": -1
     },
     "HLBN": {
         "name": "US Hollerich/Bonnevoie",

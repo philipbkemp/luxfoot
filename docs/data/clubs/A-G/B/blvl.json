@@ -6,6 +6,7 @@
         "event": "FOUNDED"
     }],
     "league": [
+        {"place": 1,"team":"BLVL","w":13,"d":3,"l": 2,"f":44,"a":18,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"promoted":true},
         {"place": 9,"team":"BLVL","w": 3,"d":1,"l":14,"f":13,"a":45,"pts_win":2,"season":"1937-38","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
         {"place":10,"team":"BLVL","w": 0,"d":0,"l":18,"f":11,"a":76,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
         {"place": 7,"team":"BLVL","w": 6,"d":4,"l": 8,"f":23,"a":35,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"}},
