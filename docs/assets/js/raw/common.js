@@ -14,7 +14,7 @@ function getClubsPipe() {
         if ( cp ) {
             pipe.push('"'+cp.join("|")+'"');
         }
-        cp.forEach(club=>{
+        /*cp.forEach(club=>{
             let clubMatches = "";
             let clubStanding = "";
             window.rawData.league.forEach(a=>{
@@ -74,7 +74,7 @@ function getClubsPipe() {
             console.warn(club);
             if ( clubStanding !== "" ) { console.log(clubStanding+",") };
             if ( clubMatches !== "" ) { console.log(clubMatches); }
-        });
+        });*/
     });
     console.log("["+pipe.join(",")+"]");
 }
