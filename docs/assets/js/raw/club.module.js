@@ -63,19 +63,19 @@ function doneFetch(data) {
         }
         sectionNav.append(thisSectionNavLiLeague);
 
-        let thisSectionNavPosition = document.createElement("A");
-        thisSectionNavPosition.href = "club.html?club="+club+"&show=chart";
-        thisSectionNavPosition.innerHTML = "Position History";
-        let thisSectionNavLiPosition = document.createElement("LI");
-        thisSectionNavLiPosition.append(thisSectionNavPosition);
-        if ( showSection === "chart" ) {
-            thisSectionNavPosition.classList.add("active");
-            drawChart(club);
-        }
-        sectionNav.append(thisSectionNavLiPosition);
-
         window.dataKeySet = window.dataKeySet.filter(key => key !== 'league');
     }
+
+    let thisSectionNavPosition = document.createElement("A");
+    thisSectionNavPosition.href = "club.html?club="+club+"&show=chart";
+    thisSectionNavPosition.innerHTML = "Position History";
+    let thisSectionNavLiPosition = document.createElement("LI");
+    thisSectionNavLiPosition.append(thisSectionNavPosition);
+    if ( showSection === "chart" ) {
+        thisSectionNavPosition.classList.add("active");
+        drawChart(club);
+    }
+    sectionNav.append(thisSectionNavLiPosition);
 
     if ( data.matches ) {
         let thisSectionNavMatches = document.createElement("A");

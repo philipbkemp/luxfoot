@@ -3,14 +3,5 @@
     "history": [
         {"season":"1934-35","event":"FOUNDED"},
         {"season":"1940-41","event":"DISSOLVED"}
-    ],
-    "league": [
-        {"place": 9,"team":"DRZV","w":0,"d":0,"l":16,"f": 0,"a":53,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
-        {"place":10,"team":"DRZV","w":3,"d":1,"l":14,"f":14,"a":79,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
-        {"place": 2,"team":"DRZV","w":9,"d":1,"l": 4,"f":42,"a":19,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"promoted":true},
-        {"place": 3,"team":"DRZV","w":9,"d":4,"l": 3,"f":55,"a":33,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}}
-    ],
-    "matches": [
-        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"DRZV","homeDivision":5,"away":"SPST","awayDivision":4,"score":"2-2","replay":{"score":"2-4","date":"1935-09-22"}}
     ]
 }

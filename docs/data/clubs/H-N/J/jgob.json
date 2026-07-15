@@ -1,16 +1,7 @@
 {
     "name": "Jeunesse Goeblange",
-    "history": [{
-        "season": "1932-33",
-        "event": "FOUNDED"
-    },{
-        "season": "1937-38",
-        "event": "RENAME",
-        "new_name": "JKGB"
-    }],
-    "league": [
-        {"place":5,"team":"JGOB","w":7,"d":0,"l": 7,"f":33,"a":29,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
-        {"place":7,"team":"JGOB","w":3,"d":5,"l": 8,"f":25,"a":32,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series South"}},
-        {"place":7,"team":"JGOB","w":2,"d":0,"l":10,"f":19,"a":55,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":5,"league":"3. Division West"}}
+    "history": [
+        {"season": "1932-33","event": "FOUNDED"},
+        {"season": "1937-38","event": "RENAME","new_name": "JKGB"}
     ]
 }

@@ -6,11 +6,5 @@
         {"season":"1961-62","event":"DISSOLVED"},
         {"season":"1963-64","event":"REFOUNDED"},
         {"season":"1970-71","event":"DISSOLVED"}
-    ],
-    "league": [
-        {"place":7,"team":"FRTA","w":3,"d":0,"l":11,"f":21,"a":51,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place":5,"team":"FRTA","w":4,"d":0,"l": 8,"f":19,"a":30,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place":2,"team":"FRTA","w":9,"d":3,"l": 2,"f":39,"a":17,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"note":"Declined promotion"},
-        {"place":6,"team":"FRTA","w":2,"d":2,"l": 8,"f":15,"a":39,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series East"}}
     ]
 }

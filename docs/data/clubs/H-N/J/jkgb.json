@@ -3,12 +3,5 @@
     "history": [
         {"season":"1937-38","event":"RENAME_FROM","old_name":"JGOB"},
         {"season":"1939-40","event":"RENAME","new_name":"KRCH"}
-    ],
-    "league": [
-        {"place":6,"team":"JKGB","w":5,"d":2,"l":9,"f":27,"a":36,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
-        {"place":6,"team":"JKGB","w":4,"d":2,"l":8,"f":22,"a":51,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
-    ],
-    "matches": [
-        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"RPDN","homeDivision":2,"away":"JKGB","awayDivision":5,"score":"4-0"}
     ]
 }

@@ -1,13 +1,7 @@
 {
     "name": "Les Ardennais Huldange",
-    "history": [{
-        "season": "1933-34",
-        "event": "FOUNDED"
-    },{
-        "season": "1936-37",
-        "event": "DISSOLVED"
-    }],
-    "league": [
-        {"place":8,"team":"LAHD","w":1,"d":0,"l":13,"f":7,"a":67,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"}}
+    "history": [
+        {"season": "1933-34","event": "FOUNDED"},
+        {"season": "1936-37","event": "DISSOLVED"}
     ]
 }

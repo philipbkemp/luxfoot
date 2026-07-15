@@ -1,14 +1,7 @@
 {
     "name": "Sura Esch/Sauer",
-    "history": [{
-        "season": "1933-34",
-        "event": "FOUNDED"
-    },{
-        "season": "1950-51",
-        "event": "DISSOLVED"
-    }],
-    "league": [
-        {"place":8,"team":"SURA","w":1,"d":2,"l":11,"f":17,"a":41,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"}},
-        {"place":5,"team":"SURA","w":7,"d":1,"l": 6,"f":50,"a":36,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"}}
+    "history": [
+        {"season": "1933-34","event": "FOUNDED"},
+        {"season": "1950-51","event": "DISSOLVED"}
     ]
 }

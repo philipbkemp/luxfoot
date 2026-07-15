@@ -2,85 +2,10 @@
     "name": "Tricolore Muhlenweg",
     "founded": "1919-05-01",
     "refounded": "1930-03-27",
-    "history": [{
-        "season": "1918-19",
-        "event": "FOUNDED"
-    },{
-        "season": "1923-24",
-        "event": "DISSOLVED"
-    },{
-        "season": "1929-30",
-        "event": "REFOUNDED"
-    },{
-        "season": "1945-46",
-        "event": "RENAME",
-        "new_name": "TRIG"
-    }],
-    "league": [
-        {"place":10,"team":"TRIM","w": 1,"d":3,"l":14,"f":26,"a":73,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
-        {"place": 3,"team":"TRIM","w":10,"d":2,"l": 6,"f":55,"a":40,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":10,"team":"TRIM","w": 1,"d":1,"l":16,"f":25,"a":62,"pts_win":2,"season":"1936-37","competition":{"type":"league","level":3,"league":"The Promotion"},"relegated":true},
-        {"place": 9,"team":"TRIM","w": 3,"d":2,"l":13,"f":26,"a":63,"pts_win":2,"season":"1935-36","competition":{"type":"league","level":2,"league":"1. Division"},"relegated":true},
-        {"place": 3,"team":"TRIM","w": 7,"d":4,"l": 3,"f":22,"a":24,"pts_win":2,"season":"1934-35","competition":{"type":"league","level":3,"league":"The Promotion"},"promoted":true},
-        {"place": 1,"team":"TRIM","w":11,"d":0,"l": 3,"f":48,"a":19,"pts_win":2,"season":"1933-34","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"promoted":true},
-        {"place": 2,"team":"TRIM","w": 8,"d":4,"l": 2,"f":36,"a":23,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place": 2,"team":"TRIM","w": 6,"d":2,"l": 2,"f":23,"a":14,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
-        {"place": 6,"team":"TRIM","w": 0,"d":0,"l":10,"f":10,"a":57,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":4,"series":3,"league":"3. Division Series 3"}},
-        {"gap":true},
-        {"place": 8,"team":"TRIM","w": 1,"d":1,"l":12,"f": 8,"a":35,"pts_win":2,"season":"1923-24","competition":{"type":"league","level":2,"league":"The Promotion"},"relegated":true},
-        {"place": 5,"team":"TRIM","w": 6,"d":3,"l": 5,"f":28,"a":28,"pts_win":2,"season":"1922-23","competition":{"type":"league","level":2,"league":"The Promotion"}},
-        {"place": 7,"team":"TRIM","w": 2,"d":1,"l":11,"f":17,"a":63,"pts_win":2,"season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"},"relegated":true},
-        {"place": 1,"team":"TRIM","w":10,"d":2,"l": 2,"f":34,"a":11,"pts_win":2,"season":"1920-21", "competition": {"type":"league","level": 2, "league": "The Promotion"}, "promoted": true},
-        {"place": 2,"team":"TRIM","w": 7,"d":4,"l": 1,"f":26,"a":13,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}, "playoff": "promotion_3", "promoted": true}
-    ],
-    "matches": [
-        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":4,"away":"LLMP","awayDivision":4,"score":"7-0"},
-		{"date":"1938-10-02","season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USND","homeDivision":3,"away":"TRIM","awayDivision":4,"score":"5-1"},
-
-        {"date":"1937-08-22","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":4,"away":"ASLX","awayDivision":3,"score":"4-3"},
-		{"date":"1937-10-31","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"USND","homeDivision":2,"away":"TRIM","awayDivision":4,"score":"1-2"},
-		{"date":"1937-11-07","season":"1937-38","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"FOLA","homeDivision":1,"away":"TRIM","awayDivision":4,"score":"4-1"},
-
-        {"date":"1936-10-04","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"URUM","homeDivision":2,"away":"TRIM","awayDivision":3,"score":"1-3"},
-		{"date":"1937-02-07","season":"1936-37","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R3","round":"3rd Round"},"home":"SPOR","homeDivision":1,"away":"TRIM","awayDivision":3,"score":"8-0"},
-
-        {"date":"1935-09-01","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":2,"away":"MOND","awayDivision":4,"score":"7-0"},
-		{"date":"1935-10-06","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":2,"away":"CSHL","awayDivision":3,"score":"2-0"},
-		{"date":"1935-11-03","season":"1935-36","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"INT","round":"Intermediate Round"},"home":"NSCH","homeDivision":1,"away":"TRIM","awayDivision":2,"score":"3-2"},
-
-        {"date":"1934-10-07","season":"1934-35","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"MDLB","homeDivision":5,"away":"TRIM","awayDivision":3,"score":"2-1"},
-
-        {"date":"1933-11-05","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"TRIM","homeDivision":4,"away":"CROD","awayDivision":2,"score":"2-1"},
-		{"date":"1933-12-03","season":"1933-34","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":4,"away":"RBPF","awayDivision":2,"score":"5-5","replay":{"score":"0-5","date":"1933-12-17"}},
-
-        {"date":"1932-12-04","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"JKYL","homeDivision":3,"away":"TRIM","awayDivision":4,"score":"8-5"},
-		{"date":"1933-01-08","season":"1932-33","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R2","round":"2nd Round"},"home":"TRIM","homeDivision":4,"away":"BLVL","awayDivision":2,"score":"2-2","replay":{"score":"1-2","date":"1933-01-22"}},
-
-        {"date":"1931-11-08","season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"TRIM","homeDivision":4,"away":"VICR","awayDivision":4,"score":"3-1"},
-		{"season":"1931-32","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home":"BLVL","homeDivision":3,"away":"TRIM","awayDivision":4,"score":"3-2"},
-
-        {"date":"1923-09-02","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Preliminary Round","round_code":"PR"},"home":"TRIM","homeDivision":2,"away":"GOLD","awayDivision":4,"score":"3-0","forfeit":true},
-		{"date":"1923-10-07","season":"1923-24","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home":"ADUD","homeDivision":3,"away":"TRIM","awayDivision":2,"score":"3-0","forfeit":true},
-
-        {"date":"1922-09-03","season":"1922-23","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"1st Round","round_code":"R1"},"home":"UESH","homeDivision":3,"away":"TRIM","awayDivision":2,"score":"4-2"},
-
-        {"home":"FOLA","away":"TRIM","score":"8-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"HLBN","away":"TRIM","score":"7-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"JESH","away":"TRIM","score":"3-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"SCLX","away":"TRIM","score":"2-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"SDUD","away":"TRIM","score":"3-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"RBDF","away":"TRIM","score":"6-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"FOLA","score":"0-3","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"HLBN","score":"1-8","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"JESH","score":"0-9","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"SCLX","score":"3-9","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"SDUD","score":"3-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"RBDF","score":"2-1","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"TRIM","away":"NSCH","score":"2-2","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"home":"NSCH","away":"TRIM","score":"1-0","season":"1921-22","competition":{"type":"league","level":1,"league":"1. Division"}},
-        {"date":"1921-10-02","season":"1921-22","competition":{"type":"cup","cup":"Luxembourg Cup","cup_code":"luxembourg","round":"2nd Round","round_code":"R2"},"home":"TRIM","homeDivision":1,"away":"RBDF","awayDivision":1,"score":"0-4"},
-
-        {"home":"TRIM","away":"STET","score":"1-0","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}},
-        {"home":"TRIM","away":"PRON","score":"6-1","season":"1919-20","competition": {"type":"playoff","playoff": "promotion_3"}}
+    "history": [
+        {"season": "1918-19","event": "FOUNDED"},
+        {"season": "1923-24","event": "DISSOLVED"},
+        {"season": "1929-30","event": "REFOUNDED"},
+        {"season": "1945-46","event": "RENAME","new_name": "TRIG"}
     ]
 }

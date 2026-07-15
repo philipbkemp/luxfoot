@@ -3,9 +3,5 @@
     "history": [
         {"season":"1936-37","event":"FOUNDED"},
         {"season":"1940-41","event":"DISSOLVED"}
-    ],
-    "league": [
-        {"place":8,"team":"HRTB","w":3,"d":0,"l":13,"f":13,"a":63,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}},
-        {"place":7,"team":"HRTB","w":3,"d":1,"l":10,"f":19,"a":46,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"}}
     ]
 }

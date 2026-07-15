@@ -1,30 +1,6 @@
 {
     "name": "Résidence Walferdange",
-    "history": [{
-        "season": "1907-08",
-        "event": "FOUNDED"
-    }],
-    "league": [
-        {"place":9,"team":"WALF","w": 2,"d":0,"l":16,"f":24,"a":105,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
-        {"place":1,"team":"WALF","w":12,"d":1,"l": 1,"f":60,"a": 21,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"promoted":true},
-        {"place":8,"team":"WALF","w": 6,"d":3,"l": 9,"f":42,"a": 49,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
-        {"place":6,"team":"WALF","w": 6,"d":3,"l": 9,"f":36,"a": 34,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"}},
-        {"place":1,"team":"WALF","w":10,"d":0,"l": 0,"f":60,"a":  8,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division South"},"promoted":true},
-        {"gap": true},
-        {"place":5,"team":"WALF","w": 6,"d":1,"l": 7,"f":28,"a": 29,"pts_win":2,"season":"1932-33","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place":8,"team":"WALF","w": 1,"d":3,"l":10,"f":15,"a": 37,"pts_win":2,"season":"1931-32","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"},"relegated":true,"relegated_twice":true},
-        {"place":7,"team":"WALF","w": 3,"d":4,"l": 7,"f":30,"a": 47,"pts_win":2,"season":"1930-31","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
-        {"place":7,"team":"WALF","w": 3,"d":6,"l": 5,"f":27,"a": 30,"pts_win":2,"season":"1929-30","competition":{"type":"league_series","level":3,"series":1,"league":"2. Division Series 1"}},
-        {"place":2,"team":"WALF","w": 6,"d":1,"l": 3,"f":30,"a": 20,"pts_win":2,"season":"1928-29","competition":{"type":"league","level":4,"league":"3. Division"},"promoted":true},
-        {"place":4,"team":"WALF","w": 4,"d":0,"l": 4,"f":23,"a": 22,"pts_win":2,"season":"1927-28","competition":{"type":"league_series","level":4,"series":2,"league":"3. Division Series 2"}},
-        {"place":3,"team":"WALF","w": 3,"d":0,"l": 5,"f":11,"a": 26,"pts_win":2,"season":"1926-27","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
-        {"place":4,"team":"WALF","w": 1,"d":1,"l": 4,"f": 3,"a": 19,"pts_win":2,"season":"1925-26","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series 1"}},
-        {"gap":true},
-        {"place":4,"team":"WALF","w": 0,"d":2,"l": 4,"f": 6,"a": 13,"pts_win":2,"season":"1922-23","competition":{"type":"league_series","level":4,"series":4,"league":"3. Division Series 4"}},
-        {"place":4,"team":"WALF","w": 8,"d":4,"l": 2,"f":30,"a": 13,"pts_win":2,"season":"1921-22","competition":{"type":"league_series","level":4,"series":1,"league":"3. Division Series Luxembourg"}},
-        {"gap":true},
-        {"place":6,"team":"WALF","w": 1,"d":3,"l": 8,"f":12,"a": 31,"pts_win":2,"season":"1919-20", "competition": {"type":"league_series", "level":3, "series":1, "league":"3. Division Series Luxembourg"}},
-        {"gap": true},
-        {"place":3,"team":"WALF","w": 2,"d":0,"l": 4,"f": 4,"a": 39,"pts_win":2,"season":"1916-17", "competition": {"type":"league_series", "level":3, "series": 1, "league":"3. Division Series Luxembourg"}}
+    "history": [
+        {"season": "1907-08","event": "FOUNDED"}
     ]
 }

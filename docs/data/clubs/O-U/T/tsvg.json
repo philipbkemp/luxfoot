@@ -1,17 +1,6 @@
 {
     "name": "Racing Troisvierges",
-    "history": [{
-        "season": "1933-34",
-        "event": "FOUNDED"
-    }],
-    "league": [
-        {"place":10,"team":"TSVG","w": 0,"d":0,"l":18,"f": 4,"a":70,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":4,"series":1,"league":"2. Division Series 1"},"relegated":true},
-        {"place": 2,"team":"TSVG","w":10,"d":2,"l": 2,"f":57,"a":24,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"},"promoted":true},
-        {"place": 7,"team":"TSVG","w": 3,"d":1,"l": 8,"f":31,"a":51,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place": 4,"team":"TSVG","w": 7,"d":2,"l": 5,"f":34,"a":31,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"},"playoff":"promotion_3"},
-        {"place": 4,"team":"TSVG","w": 7,"d":1,"l": 6,"f":43,"a":23,"pts_win":2,"season":"1934-35","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division North"}}
-    ],
-    "matches": [
-        {"season":"1935-36","competition":{"type":"playoff","playoff":"promotion_3"},"home":"MINL","away":"TSVG","score":"3-0","forfeit":true,"outcome":"MINL promoted due to forfeit"}
+    "history": [
+        {"season": "1933-34","event": "FOUNDED"}
     ]
 }

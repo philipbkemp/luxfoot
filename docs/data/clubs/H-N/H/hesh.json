@@ -3,8 +3,5 @@
     "history": [
         {"season":"1937-38","event":"FOUNDED"},
         {"season":"1948-49","event":"DISSOLVED"}
-    ],
-    "league": [
-        {"place":2,"team":"HESH","w":13,"d":0,"l":3,"f":71,"a":18,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true}
     ]
 }

@@ -4,10 +4,5 @@
     "history": [
         {"season":"1934-35","event":"FOUNDED"},
         {"season":"1997-98","event":"MERGE","new_name":"RPLL"}
-    ],
-    "league": [
-        {"place":1,"team":"RUPL","w":13,"d":0,"l": 1,"f":87,"a":18,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"},"promoted":true},
-        {"place":8,"team":"RUPL","w": 5,"d":3,"l":10,"f":42,"a":55,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":4,"series":2,"league":"2. Division Series 2"},"relegated":true},
-        {"place":1,"team":"RUPL","w":11,"d":0,"l": 3,"f":59,"a":27,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":2,"league":"3. Division Series 2"},"promoted":true}
     ]
 }

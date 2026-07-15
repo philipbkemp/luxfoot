@@ -2,12 +2,5 @@
     "name": "Orania Vianden",
     "history": [
         {"season":"1936-37","event":"FOUNDED"}
-    ],
-    "league": [
-        {"place":2,"team":"OVND","w":10,"d":2,"l":2,"f":43,"a":21,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"},"promoted":true},
-        {"place":6,"team":"OVND","w": 4,"d":2,"l":8,"f":34,"a":37,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}}
-    ],
-    "matches": [
-        {"season":"1938-39","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"R1","round":"1st Round"},"home":"OVND","homeDivision":5,"away":"ASCH","awayDivision":4,"score":"2-4"}
     ]
 }

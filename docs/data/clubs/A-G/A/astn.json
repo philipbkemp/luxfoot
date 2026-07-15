@@ -2,11 +2,5 @@
     "name": "Alisontia Steinsel",
     "history": [
         {"season":"1933-34","event":"FOUNDED"}
-    ],
-    "league": [
-        {"place":4,"team":"ASTN","w":8,"d":2,"l":6,"f":35,"a":37,"pts_win":2,"season":"1938-39","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
-        {"place":7,"team":"ASTN","w":4,"d":1,"l":9,"f":25,"a":45,"pts_win":2,"season":"1937-38","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series 3"}},
-        {"place":6,"team":"ASTN","w":4,"d":1,"l":7,"f":20,"a":30,"pts_win":2,"season":"1936-37","competition":{"type":"league_series","level":5,"series":1,"league":"3. Division Series 1"}},
-        {"place":5,"team":"ASTN","w":5,"d":3,"l":6,"f":32,"a":29,"pts_win":2,"season":"1935-36","competition":{"type":"league_series","level":5,"series":3,"league":"3. Division Series North"}}
     ]
 }
