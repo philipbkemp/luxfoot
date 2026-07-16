@@ -109,6 +109,18 @@ function doneFetch(data) {
         */
     }
 
+    if ( data.no_record ) {
+        contentShown = true;
+        let note = document.createElement("P");
+        note.innerHTML = data.no_record;
+        dataContainer.append(note);
+        window.dataKeySet = window.dataKeySet.filter(key => key !== 'no_record');
+        const compNav = document.getElementById("competitions");
+        if ( compNav.children.length === 0 ) {
+            compNav.remove();
+        }
+    }
+
     if ( ! contentShown ) {
         let errorP = document.createElement("P");
         errorP.classList.add("error");
