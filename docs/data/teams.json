@@ -53,14 +53,14 @@
     },
     "ASTN": {
         "name": "Alisontia Steinsel",
-        "level": 2
+        "level": 3
     },
     "ATBS": {
         "name": "Atert Bissen"
     },
     "AVBG": {
         "name": "Avenir Beggen",
-        "level": 3
+        "level": 2
     },
     "AWDG": {
         "name": "Arminia Weidingen",
@@ -174,7 +174,7 @@
     },
     "CSOB": {
         "name": "CS Oberkorn",
-        "level": 3
+        "level": 4
     },
     "DAHL": {
         "name": "US Dahl"
@@ -235,7 +235,7 @@
     },
     "ETZE": {
         "name": "Etzella Ettelbréck",
-        "level": 2
+        "level": 1
     },
     "EVER": {
         "name": "FC Everlange"
@@ -253,7 +253,8 @@
         "name": "Flaxweiler/Beyren Udinesina 01"
     },
     "FCBB": {
-        "name": "FC Bauschleiden/Baschleiden"
+        "name": "FC Bauschleiden/Baschleiden",
+        "level": -1
     },
     "FCNC": {
         "name": "Fortuna Canach"
@@ -432,7 +433,7 @@
     },
     "JUNG": {
         "name": "Jeunesse Junglinster",
-        "level": 3
+        "level": 4
     },
     "JUSE": {
         "name": "Jeunesse Useldange"
@@ -506,7 +507,7 @@
     },
     "MAMR": {
         "name": "Mamer 32",
-        "level": 1
+        "level": 2
     },
     "MANC": {
         "name": "Mansfeldia Clausen",
@@ -679,7 +680,7 @@
     },
     "SAND": {
         "name": "US Sandweiler",
-        "level": 3
+        "level": 4
     },
     "SBCK": {
         "name": "Sporting Beckerich"
@@ -798,7 +799,7 @@
     },
     "UESH": {
         "name": "US Esch",
-        "level": 4
+        "level": 5
     },
     "UFLN": {
         "name": "US Feulen"
@@ -826,7 +827,7 @@
     },
     "URUM": {
         "name": "US Rumelange",
-        "level": 2
+        "level": 1
     },
     "USBC": {
         "name": "US Berdorf/Consdorf"
@@ -855,7 +856,7 @@
     },
     "WALF": {
         "name": "Résidence Walferdange",
-        "level": 2
+        "level": 1
     },
     "WGLW": {
         "name": "White-Green Lorentzweiler",
