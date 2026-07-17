@@ -180,31 +180,38 @@ function drawCup(cupKey,cupData) {
         window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.round.name`);
 
         window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.round.matches`);
-        drawMatches(round.matches,`cup.${cupKey}.round.match`,{type:"cup",cup:cupData.name,cup_code:cupKey,round:round.name},{season:season,showDiv:true,highlightWinner:true});
+        let showDivs = true;
+        if ( cupData.matches_as && cupData.matches_as === "NODIV" ) {
+            showDivs = false;
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `cup.${cupKey}.matches_as`);
+        }
+        drawMatches(round.matches,`cup.${cupKey}.round.match`,{type:"cup",cup:cupData.name,cup_code:cupKey,round:round.name},{season:season,showDiv:showDivs,highlightWinner:true});
 
-        round.matches.forEach(m=>{
-            if ( m.bye ) {
-                if ( clubDivisions[m.bye] === undefined ) {
-                    clubDivisions[m.bye] = getTeamLevel(m.bye,m.byeDivision);
+        if ( showDivs ) {
+            round.matches.forEach(m=>{
+                if ( m.bye ) {
+                    if ( clubDivisions[m.bye] === undefined ) {
+                        clubDivisions[m.bye] = getTeamLevel(m.bye,m.byeDivision);
+                    }
+                    if ( m.byeDivision !== clubDivisions[m.bye] ) {
+                        console.warn("Inconsistent division in " + m.competition.round_code,m.bye);
+                    }
+                } else {
+                    if ( clubDivisions[m.home] === undefined ) {
+                        clubDivisions[m.home] = getTeamLevel(m.home,m.homeDivision);
+                    }
+                    if ( m.homeDivision !== clubDivisions[m.home] ) {
+                        console.warn("Inconsistent division in " + m.competition.round_code,m.home);
+                    }
+                    if ( clubDivisions[m.away] === undefined ) {
+                        clubDivisions[m.away] = getTeamLevel(m.away,m.awayDivision);
+                    }
+                    if ( m.awayDivision !== clubDivisions[m.away] ) {
+                        console.warn("Inconsistent division in " + m.competition.round_code,m.away);
+                    }
                 }
-                if ( m.byeDivision !== clubDivisions[m.bye] ) {
-                    console.warn("Inconsistent division in " + m.competition.round_code,m.bye);
-                }
-            } else {
-                if ( clubDivisions[m.home] === undefined ) {
-                    clubDivisions[m.home] = getTeamLevel(m.home,m.homeDivision);
-                }
-                if ( m.homeDivision !== clubDivisions[m.home] ) {
-                    console.warn("Inconsistent division in " + m.competition.round_code,m.home);
-                }
-                if ( clubDivisions[m.away] === undefined ) {
-                    clubDivisions[m.away] = getTeamLevel(m.away,m.awayDivision);
-                }
-                if ( m.awayDivision !== clubDivisions[m.away] ) {
-                    console.warn("Inconsistent division in " + m.competition.round_code,m.away);
-                }
-            }
-        });
+            });
+        }
 
         if ( round.note ) {
             let roundNote = document.createElement("P");
@@ -446,7 +453,15 @@ function drawSeries(series,keyPrefix,league) {
             let matchesTitle = document.createElement("H3");
             matchesTitle.innerHTML = "Matches";
             dataContainer.append(matchesTitle);
-            expectedStandings = drawMatchesGrid(serie.matches,keyPrefix+".matches","league_series",league.level,seriesName.innerHTML,serie.serie)
+            if ( serie.matches_as && serie.matches_as === "LIST" ) {
+                drawMatches(serie.matches,`matches.match`,{type:"league_liberation",level:1,league:seriesName.innerHTML},{season:season});
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.matches_as`);
+            } else if ( serie.matches_as && serie.matches_as === "LIST_WINNERS" ) {
+                drawMatches(serie.matches,`matches.match`,{type:"league_liberation",level:1,league:seriesName.innerHTML},{season:season,highlightWinner:true});
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.matches_as`);
+            } else {
+                expectedStandings = drawMatchesGrid(serie.matches,keyPrefix+".matches","league_series",league.level,seriesName.innerHTML,serie.serie);
+            }
         }
 
         if ( serie.standings && serie.matches ) {
@@ -457,6 +472,18 @@ function drawSeries(series,keyPrefix,league) {
 
         if ( serie.pts_win !== league.pts_win ) {
             console.warn("Inconsistent points per win definition",serie.pts_win,league.pts_win);
+        }
+
+        if ( serie.footnote ) {
+            let notePts = document.createElement("P");
+            let fn = serie.footnote;
+            serie.matches.forEach(m=>{
+                fn = fn.replaceAll(m.home,window.allTeams[m.home].name);
+                fn = fn.replaceAll(m.away,window.allTeams[m.away].name);
+            });
+            notePts.innerHTML = fn;
+            dataContainer.append(notePts);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.footnote`);
         }
     });
 

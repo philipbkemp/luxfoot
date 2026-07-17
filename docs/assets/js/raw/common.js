@@ -483,6 +483,10 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.cup_code`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round`);
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.round_code`);
+            } else if ( match.competition.type === "league_liberation" ) {
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.type`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.level`);
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.competition.league`);
             }
         }
 
@@ -495,10 +499,29 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             let tdBye = document.createElement("TD");
             tdBye.setAttribute("colspan",10);
             tdBye.classList.add("match-bye");
-            tdBye.innerHTML = "Bye: " + window.allTeams[match.bye].name + " (" + match.byeDivision + ")";
+            tdBye.innerHTML = "Bye: " + window.allTeams[match.bye].name;
+            if ( showDiv ) {
+                tdBy.innerHTM += " (" + match.byeDivision + ")";
+            }
             tr.append(tdBye);
 
             table.append(tr);
+
+        } else if ( match.withdrawal ) {
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.withdrawal`);
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.withdrawalDivision`);
+
+            let tdWithdraw = document.createElement("TD");
+            tdWithdraw.setAttribute("colspan",10);
+            tdWithdraw.classList.add("match-bye");
+            tdWithdraw.innerHTML = "Withdrew: " + window.allTeams[match.withdrawal].name;
+            if ( showDiv ) {
+                tdWithdraw.innerHTM += " (" + match.withdrawalDivision + ")";
+            }
+            tr.append(tdWithdraw);
+
+            table.append(tr);
+
 
         } else {
 
@@ -617,7 +640,13 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                     || comp.cup_code !== match.competition.cup_code
                     )) {
                     console.warn("inconsistent cup competition",comp,match.competition);
-                } else if ( ! ["international","playoff","cup"].includes(comp.type)) {
+                } else if ( comp.type === "league_liberation"&& (
+                    comp.type !== match.competition.type
+                    || comp.level !== match.competition.level
+                    || comp.league !== match.competition.league
+                    )) {
+                    console.warn("inconsistent liberation competition",comp,match.competition);
+                } else if ( ! ["international","playoff","cup","league_liberation"].includes(comp.type)) {
                     console.warn("validate match competition data",comp,match.competition);
                 }
             }

@@ -1,0 +1,127 @@
+{
+    "season": "1944-45",
+    "next": "1945-46",
+    "prev": "1943-44",
+    "league": [{
+        "level": 1,
+        "name": "Coupe de la Libération",
+        "note": "Instead of a full season league, a special cup style tournament was played to celebrate the end of World War Two",
+        "series": [{
+            "serie": 1,
+            "name": "Qualification Central Group",
+            "matches_as": "LIST",
+            "matches": [
+                {"home":"AVBG","away":"SWFT","score":"4-3","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Qualification Central Group"}},
+                {"home":"SPOR","away":"AVBG","score":"3-0","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Qualification Central Group"}},
+                {"home":"SPOR","away":"SWFT","score":"6-2","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Qualification Central Group"}}
+            ],
+            "footnote": "SPOR and AVBG qualified"
+        },{
+            "serie": 2,
+            "name": "Qualification Minett Group",
+            "matches_as": "LIST",
+            "matches": [
+                {"home":"NSCH","away":"USDD","score":"3-2","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Qualification Minett Group"}},
+                {"home":"NSCH","away":"PRON","score":"3-1","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Qualification Minett Group"}}
+            ],
+            "footnote": "NSCH qualified"
+        },{
+            "serie": 3,
+            "name": "1st Round",
+            "matches_as": "LIST_WINNERS",
+            "matches": [
+                {"date":"1945-04-30","home":"SDUD","away":"JESH","score":"3-2","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération 1st Round"}},
+                {"date":"1945-04-30","home":"SPOR","away":"RBDF","score":"3-2","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération 1st Round"}},
+                {"date":"1945-04-30","home":"NSCH","away":"AVBG","score":"5-2","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération 1st Round"}}
+            ],
+            "footnote": "RBDF also qualified"
+        },{
+            "serie": 4,
+            "name": "Semi Final",
+            "matches_as": "LIST_WINNERS",
+            "matches": [
+                {"date":"1945-05-06","home":"SDUD","away":"RBDF","score":"7-1","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Semi Final"}},
+                {"date":"1945-05-06","home":"SPOR","away":"NSCH","score":"3-2","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Semi Final"}}
+            ]
+        },{
+            "serie": 5,
+            "name": "Final",
+            "matches_as": "LIST_WINNERS",
+            "matches": [
+                {"date":"1945-06-03","home":"SDUD","away":"SPOR","score":"6-0","season": "1944-45", "competition": {"type":"league_liberation", "level": 1, "league":"Coupe de la Libération Final"}}
+            ]
+        }]
+    }],
+    "cup": {
+        "luxembourg": {
+            "name": "Luxembourg Cup",
+            "matches_as":"NODIV",
+            "rounds": [{
+                "name": "1st Round",
+                "matches": [
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "UESH", "away": "ASCH", "score":"3-0"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "BLVL", "away": "FOLA", "score":"3-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "USDD", "away": "URUM", "score":"2-3"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "SCBT", "away": "JKYL", "score":"1-3"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "STET", "away": "ADUD", "score":"3-0"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "UBSH", "away": "RROD", "score":"0-3","forfeit":true},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "CSOB", "away": "CROD", "score":"0-2"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "CPET", "away": "ASDF", "score":"6-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "PROG", "away": "SWFT", "score":"8-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "ARIS", "away": "RBPF", "score":"0-9"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "EGWM", "away": "RPDN", "score":"3-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "WALF", "away": "BWIT", "score":"0-3","forfeit":true},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "RSML", "away": "UNAS", "score":"3-4"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "CSHL", "away": "TRIM", "score":"2-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "BBML", "away": "ULUX", "score":"4-0"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"1st Round","round_code":"R1"},"home": "MANC", "away": "ASLX", "score":"4-3"}
+                ]
+            },{
+                "name": "2nd Round",
+                "matches": [
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home": "URUM", "away": "STET", "score":"3-0"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home": "RROD", "away": "CPET", "score":"3-0","forfeit":true},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home": "PROG", "away": "EGWM", "score":"3-7"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home": "BWIT", "away": "RBPF", "score":"0-8"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home": "BBML", "away": "UNAS", "score":"5-2"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"},"home": "MANC", "away": "CSHL", "score":"4-3"},
+                    {"bye":"JKYL","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"}},
+                    {"bye":"UESH","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"}},
+                    {"bye":"BLVL","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"}},
+                    {"withdrawal":"CROD","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"2nd Round","round_code":"R2"}}
+                ]
+            },{
+                "name": "Round of 16",
+                "matches": [
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "EGWM", "away": "MANC", "score":"9-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "BBML", "away": "AVBG", "score":"4-6"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "RBPF", "away": "SPOR", "score":"1-4"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "RBDF", "away": "JESH", "score":"3-2"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "NSCH", "away": "UESH", "score":"10-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "JKYL", "away": "PRON", "score":"2-3"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "URUM", "away": "BLVL", "score":"6-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Round of 16","round_code":"R16"},"home": "RROD", "away": "SDUD", "score":"3-4"}
+                ]
+            },{
+                "name": "Quarter Final",
+                "matches": [
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "SDUD", "away": "AVBG", "score":"4-1"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "RBDF", "away": "URUM", "score":"4-3"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "PRON", "away": "NSCH", "score":"4-0"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Quarter Final","round_code":"QF"},"home": "SPOR", "away": "EGWM", "score":"7-1"}
+                ]
+            },{
+                "name": "Semi Final",
+                "matches": [
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home": "PRON", "away": "RBDF", "score":"4-3"},
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Semi Final","round_code":"SF"},"home": "SDUD", "away": "SPOR", "score":"1-3"}
+                ]
+            },{
+                "name": "Final",
+                "matches": [
+                    {"season": "1944-45","competition": {"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round":"Final","round_code":"F"},"home": "PRON", "away": "SPOR", "score":"2-0"}
+                ]
+            }]
+        }
+    }
+}
