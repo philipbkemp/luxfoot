@@ -1,0 +1,351 @@
+{
+	"season": "1945-46",
+	"next": "1946-47",
+	"prev": "1944-45",
+	"league": [{
+		"level": 1,
+		"name": "Division of Honour",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "SDUD", "w": 15, "d": 2, "l": 1, "f": 62, "a": 15, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "champion": true},
+			{"place": 2, "team": "USDD", "w": 11, "d": 2, "l": 5, "f": 53, "a": 32, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 3, "team": "PRON", "w": 9, "d": 3, "l": 6, "f": 45, "a": 41, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 4, "team": "RBDF", "w": 10, "d": 0, "l": 8, "f": 36, "a": 28, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 5, "team": "SPOR", "w": 8, "d": 2, "l": 8, "f": 28, "a": 41, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 6, "team": "CROD", "w": 6, "d": 3, "l": 9, "f": 23, "a": 32, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 7, "team": "NSCH", "w": 6, "d": 3, "l": 9, "f": 35, "a": 53, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 8, "team": "ULUX", "w": 5, "d": 3, "l": 10, "f": 34, "a": 32, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 9, "team": "FOLA", "w": 5, "d": 3, "l": 10, "f": 26, "a": 44, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 10, "team": "CPET", "w": 3, "d": 3, "l": 12, "f": 26, "a": 50, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }}
+		],
+		"matches": [
+			{ "home": "RBDF", "away": "SDUD", "score": "0-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "CPET", "score": "3-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "ULUX", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "CROD", "score": "1-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "USDD", "score": "1-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "FOLA", "score": "0-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "SPOR", "score": "4-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "PRON", "score": "3-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "NSCH", "score": "4-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "RBDF", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "CPET", "score": "3-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "ULUX", "score": "1-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "CROD", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "USDD", "score": "5-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "FOLA", "score": "7-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "SPOR", "score": "5-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "PRON", "score": "5-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "NSCH", "score": "4-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "RBDF", "score": "0-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "SDUD", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "ULUX", "score": "1-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "CROD", "score": "2-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "USDD", "score": "1-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "FOLA", "score": "4-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "SPOR", "score": "1-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "PRON", "score": "1-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CPET", "away": "NSCH", "score": "3-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "RBDF", "score": "2-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SDUD", "score": "2-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "CPET", "score": "5-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "CROD", "score": "4-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "USDD", "score": "1-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "FOLA", "score": "1-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SPOR", "score": "4-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "PRON", "score": "0-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "NSCH", "score": "2-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "RBDF", "score": "0-4", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "SDUD", "score": "1-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "CPET", "score": "3-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "ULUX", "score": "1-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "USDD", "score": "1-4", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "FOLA", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "SPOR", "score": "1-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "PRON", "score": "0-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "CROD", "away": "NSCH", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "RBDF", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "SDUD", "score": "0-4", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "CPET", "score": "1-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "ULUX", "score": "1-4", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "CROD", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "FOLA", "score": "3-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "SPOR", "score": "7-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "PRON", "score": "7-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "USDD", "away": "NSCH", "score": "8-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "RBDF", "score": "1-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SDUD", "score": "1-7", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "CPET", "score": "4-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "ULUX", "score": "1-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "CROD", "score": "1-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "USDD", "score": "2-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SPOR", "score": "0-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "PRON", "score": "2-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "NSCH", "score": "1-3", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "RBDF", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "SDUD", "score": "0-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "CPET", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "ULUX", "score": "1-5", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "CROD", "score": "1-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "USDD", "score": "4-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "FOLA", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "PRON", "score": "3-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "NSCH", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "RBDF", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SDUD", "score": "1-5", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "CPET", "score": "8-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "ULUX", "score": "2-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "CROD", "score": "4-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "USDD", "score": "0-4", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "FOLA", "score": "2-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SPOR", "score": "3-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "NSCH", "score": "6-4", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "RBDF", "score": "2-5", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SDUD", "score": "1-5", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "CPET", "score": "3-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "ULUX", "score": "4-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "CROD", "score": "0-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "USDD", "score": "2-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "FOLA", "score": "3-1", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SPOR", "score": "3-0", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "PRON", "score": "2-2", "season": "1945-46", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} }
+		]
+	},{
+		"level": 2,
+		"name": "1. Division",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "JESH", "w": 14, "d": 1, "l": 3, "f": 87, "a": 25, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
+			{"place": 2, "team": "RROD", "w": 13, "d": 0, "l": 5, "f": 89, "a": 34, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }, "promoted": true},
+			{"place": 3, "team": "URUM", "w": 12, "d": 0, "l": 6, "f": 49, "a": 32, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 4, "team": "RPDN", "w": 10, "d": 2, "l": 6, "f": 51, "a": 44, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 5, "team": "RBPF", "w": 8, "d": 2, "l": 8, "f": 44, "a": 51, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 6, "team": "ADUD", "w": 8, "d": 1, "l": 9, "f": 44, "a": 66, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 7, "team": "AVBG", "w": 7, "d": 1, "l": 10, "f": 48, "a": 59, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 8, "team": "ASDF", "w": 5, "d": 1, "l": 12, "f": 34, "a": 68, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 9, "team": "JWAS", "w": 5, "d": 0, "l": 13, "f": 31, "a": 63, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }},
+			{"place": 10, "team": "ARIS", "w": 4, "d": 0, "l": 14, "f": 30, "a": 65, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 2, "league": "1. Division" }}
+		]
+	},{
+		"level": 3,
+		"name": "The Promotion",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "CSOB", "w": 13, "d": 4, "l": 1, "f": 64, "a": 21, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 2, "team": "STET", "w": 14, "d": 1, "l": 3, "f": 73, "a": 27, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 3, "team": "AREM", "w": 11, "d": 3, "l": 4, "f": 52, "a": 23, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 4, "team": "SCBT", "w": 11, "d": 1, "l": 6, "f": 32, "a": 27, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }, "promoted": true},
+			{"place": 5, "team": "YBDK", "w": 8, "d": 1, "l": 9, "f": 35, "a": 43, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 6, "team": "UBSH", "w": 8, "d": 1, "l": 9, "f": 38, "a": 47, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 7, "team": "EGWM", "w": 5, "d": 3, "l": 10, "f": 29, "a": 43, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 8, "team": "USND", "w": 4, "d": 2, "l": 12, "f": 29, "a": 63, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 9, "team": "JKYL", "w": 4, "d": 2, "l": 12, "f": 30, "a": 46, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }},
+			{"place": 10, "team": "ETZE", "w": 2, "d": 2, "l": 14, "f": 23, "a": 65, "pts_win": 2, "season": "1945-46", "competition": { "type": "league", "level": 3, "league": "The Promotion" }}
+		]
+	},{
+		"level": 4,
+		"name": "2. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "ASCH", "w": 14, "d": 2, "l": 2, "f": 80, "a": 29, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "BLVL", "w": 13, "d": 1, "l": 4, "f": 62, "a": 35, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "UESH", "w": 10, "d": 5, "l": 3, "f": 84, "a": 40, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 4, "team": "SWFT", "w": 12, "d": 1, "l": 5, "f": 82, "a": 43, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 5, "team": "RSML", "w": 9, "d": 1, "l": 8, "f": 60, "a": 73, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 6, "team": "TRIM", "w": 8, "d": 1, "l": 9, "f": 50, "a": 45, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 7, "team": "CSHL", "w": 7, "d": 1, "l": 10, "f": 64, "a": 64, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 8, "team": "KOPS", "w": 6, "d": 1, "l": 11, "f": 48, "a": 62, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 9, "team": "MAMR", "w": 3, "d": 1, "l": 14, "f": 39, "a": 86, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 10, "team": "RBAS", "w": 1, "d": 0, "l": 17, "f": 22, "a": 114, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "PROG", "w": 16, "d": 1, "l": 1, "f": 95, "a": 18, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "ASLX", "w": 15, "d": 1, "l": 2, "f": 79, "a": 15, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 3, "team": "UMRT", "w": 13, "d": 0, "l": 5, "f": 60, "a": 39, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 4, "team": "CGRV", "w": 12, "d": 1, "l": 5, "f": 65, "a": 35, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 5, "team": "BBML", "w": 8, "d": 4, "l": 6, "f": 60, "a": 37, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 6, "team": "MINL", "w": 7, "d": 1, "l": 10, "f": 33, "a": 56, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 7, "team": "MANC", "w": 5, "d": 2, "l": 11, "f": 36, "a": 52, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "promoted": true},
+				{"place": 8, "team": "JGIL", "w": 4, "d": 1, "l": 13, "f": 34, "a": 86, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 9, "team": "RUPL", "w": 4, "d": 1, "l": 13, "f": 33, "a": 67, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 10, "team": "DARE", "w": 0, "d": 0, "l": 18, "f": 0, "a": 90, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }}
+			]
+		}]
+	},{
+		"level": 5,
+		"name": "3. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "SBRT", "w": 12, "d": 0, "l": 0, "f": 42, "a": 6, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "UNAS", "w": 8, "d": 0, "l": 4, "f": 49, "a": 16, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "SPST", "w": 6, "d": 1, "l": 5, "f": 26, "a": 25, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 4, "team": "OYMP", "w": 5, "d": 1, "l": 6, "f": 30, "a": 32, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 5, "team": "JSKO", "w": 3, "d": 4, "l": 5, "f": 20, "a": 37, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 6, "team": "HOBS", "w": 2, "d": 2, "l": 8, "f": 25, "a": 37, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 7, "team": "YBSW", "w": 1, "d": 2, "l": 9, "f": 12, "a": 51, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "MDLB", "w": 11, "d": 0, "l": 1, "f": 51, "a": 18, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "BWIT", "w": 8, "d": 2, "l": 2, "f": 62, "a": 21, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 3, "team": "HAMM", "w": 7, "d": 1, "l": 4, "f": 34, "a": 29, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 4, "team": "JBIW", "w": 5, "d": 3, "l": 4, "f": 27, "a": 23, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 5, "team": "KWRM", "w": 5, "d": 0, "l": 7, "f": 39, "a": 42, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 6, "team": "ESHW", "w": 2, "d": 1, "l": 9, "f": 23, "a": 59, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 7, "team": "MOND", "w": 0, "d": 1, "l": 11, "f": 13, "a": 57, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }}
+			]
+		},{
+			"serie": 3,
+			"name": "Series 3",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "WALF", "w": 8, "d": 1, "l": 3, "f": 44, "a": 19, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 2, "team": "JUNG", "w": 8, "d": 0, "l": 4, "f": 46, "a": 31, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 3, "team": "VICR", "w": 7, "d": 1, "l": 4, "f": 47, "a": 28, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 4, "team": "MARM", "w": 7, "d": 1, "l": 4, "f": 38, "a": 26, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }, "promoted": true},
+				{"place": 5, "team": "FRTA", "w": 5, "d": 1, "l": 6, "f": 32, "a": 46, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 6, "team": "ASTN", "w": 2, "d": 1, "l": 9, "f": 27, "a": 49, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }},
+				{"place": 7, "team": "SAND", "w": 2, "d": 1, "l": 9, "f": 25, "a": 60, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 3, "league": "3. Division Series 3" }}
+			]
+		},{
+			"serie": 4,
+			"name": "Series 4",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "CLVX", "w": 4, "d": 3, "l": 1, "f": 30, "a": 15, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 4, "league": "3. Division Series 4" }, "promoted": true},
+				{"place": 2, "team": "TSVG", "w": 3, "d": 2, "l": 3, "f": 24, "a": 24, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 4, "league": "3. Division Series 4" }, "promoted": true},
+				{"place": 3, "team": "GOLD", "w": 3, "d": 2, "l": 3, "f": 18, "a": 19, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 4, "league": "3. Division Series 4" }, "promoted": true},
+				{"place": 4, "team": "OVND", "w": 3, "d": 1, "l": 4, "f": 22, "a": 32, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 4, "league": "3. Division Series 4" }},
+				{"place": 5, "team": "AWDG", "w": 1, "d": 4, "l": 3, "f": 19, "a": 23, "pts_win": 2, "season": "1945-46", "competition": { "type": "league_series", "level": 5, "series": 4, "league": "3. Division Series 4" }}
+			]
+		}]
+	}],
+	"cup": {
+		"luxembourg": {
+			"name": "Luxembourg Cup",
+			"rounds": [{
+				"name": "1st Round",
+				"matches": [
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "JWAS", "homeDivision": 2, "away": "RBPF", "awayDivision": 2, "score": "2-2","note":"Both teams qualified for the next round","winner":"NULL"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "ASLX", "homeDivision": 4, "away": "BBML", "awayDivision": 4, "score": "0-4"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "EGWM", "homeDivision": 3, "away": "TRIM", "awayDivision": 4, "score": "3-0"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "JESH", "homeDivision": 2, "away": "USND", "awayDivision": 3, "score": "11-0"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "ASDF", "homeDivision": 2, "away": "SBRT", "awayDivision": 5, "score": "1-1","note":"Both teams qualified for the next round","winner":"NULL"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "SWFT", "homeDivision": 4, "away": "BWIT", "awayDivision": 5, "score": "3-1"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "ARIS", "homeDivision": 2, "away": "URUM", "awayDivision": 2, "score": "2-4"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "MDLB", "homeDivision": 5, "away": "CSHL", "awayDivision": 4, "score": "3-2"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "UESH", "homeDivision": 4, "away": "ADUD", "awayDivision": 2, "score": "1-6"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "BLVL", "homeDivision": 4, "away": "RPDN", "awayDivision": 2, "score": "2-2","aet":true,"note":"Both teams qualified for the next round","winner":"NULL"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "UBSH", "homeDivision": 3, "away": "RROD", "awayDivision": 2, "score": "0-4"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "WALF", "homeDivision": 5, "away": "CSOB", "awayDivision": 3, "score": "0-7"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "YBDK", "homeDivision": 3, "away": "ASCH", "awayDivision": 4, "score": "3-2"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "MANC", "homeDivision": 4, "away": "SCBT", "awayDivision": 3, "score": "0-1"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "PROG", "homeDivision": 4, "away": "UNAS", "awayDivision": 5, "score": "8-1"},
+					{"date":"1945-09-02","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "GOLD", "homeDivision": 5, "away": "RSML", "awayDivision": 4, "score": "0-5", "forfeit": true}
+				]
+			},{
+				"name": "2nd Round",
+				"matches": [
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "UNAS", "homeDivision": 5, "away": "JWAS", "awayDivision": 2, "score": "2-6"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "MDLB", "homeDivision": 5, "away": "PROG", "awayDivision": 4, "score": "3-3", "replay": {"date":"1945-10-28","score": "0-5","forfeit":true}},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "SBRT", "homeDivision": 5, "away": "RPDN", "awayDivision": 2, "score": "2-3"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "YBDK", "homeDivision": 3, "away": "SWFT", "awayDivision": 4, "score": "1-1", "replay": {"date":"1945-10-28","score": "5-0"}},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "BBML", "homeDivision": 4, "away": "EGWM", "awayDivision": 3, "score": "3-2"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "RBPF", "homeDivision": 2, "away": "ASLX", "awayDivision": 4, "score": "0-2"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "GOLD", "homeDivision": 5, "away": "BWIT", "awayDivision": 5, "score": "0-4"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "RSML", "homeDivision": 4, "away": "MANC", "awayDivision": 4, "score": "1-2"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "URUM", "homeDivision": 2, "away": "WALF", "awayDivision": 5, "score": "5-1"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "JESH", "homeDivision": 2, "away": "SCBT", "awayDivision": 3, "score": "5-0"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "RROD", "homeDivision": 2, "away": "FOLA", "awayDivision": 1, "score": "5-4"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "NSCH", "homeDivision": 1, "away": "CSOB", "awayDivision": 3, "score": "2-1"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "USDD", "homeDivision": 1, "away": "ASDF", "awayDivision": 2, "score": "10-1"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "BLVL", "homeDivision": 4, "away": "ASCH", "awayDivision": 4, "score": "1-2"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "UBSH", "homeDivision": 3, "away": "ADUD", "awayDivision": 2, "score": "4-1"},
+					{"date":"1945-10-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "CPET", "homeDivision": 1, "away": "UESH", "awayDivision": 4, "score": "6-1"}
+				]
+			},{
+				"name": "3rd Round",
+				"matches": [
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "NSCH", "homeDivision": 1, "away": "RROD", "awayDivision": 2, "score": "3-0"},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "USDD", "homeDivision": 1, "away": "YBDK", "awayDivision": 3, "score": "5-0"},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "BBML", "homeDivision": 4, "away": "RPDN", "awayDivision": 2, "score": "2-1"},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "ASLX", "homeDivision": 4, "away": "MANC", "awayDivision": 4, "score": "5-0", "forfeit": true},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "PROG", "homeDivision": 4, "away": "JESH", "awayDivision": 2, "score": "1-6"},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "CPET", "homeDivision": 1, "away": "UBSH", "awayDivision": 3, "score": "7-4"},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "BWIT", "homeDivision": 5, "away": "JWAS", "awayDivision": 2, "score": "6-3"},
+					{"date":"1945-11-04","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R3", "round": "3rd Round"}, "home": "ASCH", "homeDivision": 4, "away": "URUM", "awayDivision": 2, "score": "5-3","aet":true}
+				]
+			},{
+				"name": "Round of 16",
+				"matches": [
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "ULUX", "homeDivision": 1, "away": "SDUD", "awayDivision": 1, "score": "6-3"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "NSCH", "homeDivision": 1, "away": "AVBG", "awayDivision": 2, "score": "1-4"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "CROD", "homeDivision": 1, "away": "PRON", "awayDivision": 1, "score": "2-4"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "CPET", "homeDivision": 1, "away": "BWIT", "awayDivision": 5, "score": "5-0"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "BBML", "homeDivision": 4, "away": "SPOR", "awayDivision": 1, "score": "4-5"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "JESH", "homeDivision": 2, "away": "RBDF", "awayDivision": 1, "score": "2-1"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "USDD", "homeDivision": 1, "away": "ASCH", "awayDivision": 4, "score": "4-0"},
+					{"date":"1945-12-01","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R16", "round": "Round of 16"}, "home": "RPDN", "homeDivision": 2, "away": "ASLX", "awayDivision": 4, "score": "3-1"}
+				]
+			},{
+				"name": "Quarter Final",
+				"matches": [
+					{"date":"1946-01-13","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "AVBG", "homeDivision": 2, "away": "SPOR", "awayDivision": 1, "score": "2-1"},
+					{"date":"1946-01-13","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "PRON", "homeDivision": 1, "away": "USDD", "awayDivision": 1, "score": "2-1"},
+					{"date":"1946-01-13","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "ULUX", "homeDivision": 1, "away": "CPET", "awayDivision": 1, "score": "5-2"},
+					{"date":"1946-01-13","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "JESH", "homeDivision": 2, "away": "RPDN", "awayDivision": 2, "score": "7-2"}
+				]
+			},{
+				"name": "Semi Final",
+				"matches": [
+					{"season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "ULUX", "homeDivision": 1, "away": "PRON", "awayDivision": 1, "score": "3-3", "replay": {"leg":2,"score":"0-3","agg":"6-3","winner":"PRON"}},
+					{"season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "JESH", "homeDivision": 2, "away": "AVBG", "awayDivision": 2, "score": "2-2", "replay": {"leg":2,"score":"2-1","agg":"4-3","winner":"JESH"}}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1946-04-28","season": "1945-46", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "F", "round": "Final"}, "home": "JESH", "homeDivision": 2, "away": "PRON", "awayDivision": 1, "score": "3-1","aet":true}
+				]
+			}]
+		},
+        "flf": {
+            "name": "Coupe FLF",
+            "note": "Eligibility: Teams eliminated in the Round of 16 of the Luxembourg Cup",
+            "rounds": [{
+				"name": "Quarter Final",
+				"matches": [
+					{"season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "NSCH", "homeDivision": 1, "away": "CROD", "awayDivision": 1, "score": "2-1"},
+					{"season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "RBDF", "homeDivision": 1, "away": "ASCH", "awayDivision": 4, "score": "12-1"},
+					{"season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "BBML", "homeDivision": 4, "away": "BWIT", "awayDivision": 5, "score": "4-3","aet":true},
+					{"season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "QF", "round": "Quarter Final"}, "home": "SDUD", "homeDivision": 1, "away": "ASLX", "awayDivision": 4, "score": "7-0"}
+				]
+			},{
+				"name": "Semi Final",
+				"matches": [
+					{"date":"1946-02-03","season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "SF", "round": "Semi Final"}, "home": "NSCH", "homeDivision": 1, "away": "SDUD", "awayDivision": 1, "score": "1-5"},
+					{"date":"1946-02-03","season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "SF", "round": "Semi Final"}, "home": "RBDF", "homeDivision": 1, "away": "BBML", "awayDivision": 4, "score": "3-3", "replay": {"score":"0-5","forfeit":true}}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1946-04-07","season": "1945-46", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "F", "round": "Final"}, "home": "RBDF", "homeDivision": 1, "away": "SDUD", "awayDivision": 1, "score": "1-0"}
+				]
+			}]
+        }
+	}
+}

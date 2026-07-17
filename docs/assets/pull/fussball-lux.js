@@ -45,7 +45,7 @@ allTeams = {
     "Fola Esch": "FOLA","Forta Beaufort": "FRTA","Gold a Ro't Wiltz": "GOLD","Green Star Wilwerdingen": "GSWW","FC Hamm 37": "HAMM","US Hollerich/Bonnevoie": "HLBN",
     "CS Hobscheid": "HOBS","US Hostert": "HOST","FC Hupperdange": "HUPP","Jeunesse Bettembourg": "JBET","Jeunesse Biwer": "JBIW","Jeunesse Esch": "JESH",
     "Jeunesse Gilsdorf": "JGIL","Jeunesse Heisdorf": "JHSD","Jeunesse Hautcharage": "JHTC","Jeunesse 07 Kayl": "JKYL","Jeunesse Ospern": "JOSP",
-    "Jeunesse Schieren": "JSCH","Jeunesse Sportive Koerich": "JSKH","Jeunesse Steinfort": "JSTF","Jeunesse Junglinster": "JUNG","Jeunesse Useldange":
+    "Jeunesse Schieren": "JSCH","Jeunesse Sportive Koerich": "JSKO","Jeunesse Steinfort": "JSTF","Jeunesse Junglinster": "JUNG","Jeunesse Useldange":
     "JUSE","Jeunesse Verlorenkost": "JVRL","Jeunesse Wasserbillig": "JWAS","Jeunesse Weimerskirch": "JWMK","Jeunesse Wilwerdingen": "JWIL","FC Kehlen": "KHLN",
     "FC Knaphoscheid/Selscheid": "KNAP","FC Kopstal 33": "KOPS","Kiischpelt Wilwerwiltz": "KPWW","Koeppchen Wormeldange": "KWRM","Les Ardoisiers Perlé": "LARD",
     "FC Lorentzweiler": "LRNZ","Luna Oberkorn": "LUNA","Mamer 32": "MAMR","Mansfeldia Clausen": "MANC","Marisca Mersch": "MARM","FC Mondercange": "MOND",
@@ -89,7 +89,11 @@ allTeams = {
     "Daring Echternach":"DARE","FC Red Black Pfaffenthal":"RBPF","Racing FC Union Luxemburg":"RACE","Ro'de Le'w Niederdonven":"RLND","CS Greiveldange":"GRIV",
     "Fortuna Canach":"FCNC","Jeunesse Flaxweiler":"JFLX","US Dahl":"DAHL","Jeunesse Goesdorf":"JGOS","Sura Michelau":"SURM","Blue Boys Erpeldingen/Ettelbrück":"BBEE",
     "Le Monflin Bigonville":"MONF","FC Everlange":"EVER","FC Ell":"FELL","Koeppchen Wormeldingen":"KWRM","Blue Star Schweicherthal":"BSSW","Jeunesse Useldingen":"JUSE",
-    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU","Jeunesse Sportive Hagen":"JHAG", "Armnia Weidingen":"AWDG","FC Luxembourg Limpertsberg":"LLMP","Jeunesse Goeblange":"JGOB","FC Luxemburg/Limpertsberg":"LLMP","FC Schieren":"SCHR","Union Mertert":"UMRT","US Waldbillig":"UWLD","Stade DÃ¼delingen":"SDUD","US DÃ¼delingen":"USDD","ProgrÃ¨s Niederkorn":"PRON","SC TÃ©tange":"STET","Alliance DÃ¼delingen":"ADUD","US RÃ¼melingen":"URUM","Etzella EttelbrÃ¼ck":"ETZE","EgalitÃ© Weimerskirch":"EGWM","ProgrÃ¨s Grund":"PROG","RÃ©sidence Walferdange":"WALF","HÃ´mecht Esch":"HESH","Jeunesse Koerich/Goeblange":"JKGB","Hertha Beckerich":"HRTB","Hômecht Esch":"HESH","D'Rief Schwebsingen":"RIEF"
+    "Sporting Bellain":"SBEL","FC Hoscheid":"HOSC","FC Doncols":"DONC","US Graulinster":"GRAU","Jeunesse Sportive Hagen":"JHAG", "Armnia Weidingen":"AWDG",
+    "FC Luxembourg Limpertsberg":"LLMP","Jeunesse Goeblange":"JGOB","FC Luxemburg/Limpertsberg":"LLMP","FC Schieren":"SCHR","Union Mertert":"UMRT","US Waldbillig":"UWLD",
+    "Stade DÃ¼delingen":"SDUD","US DÃ¼delingen":"USDD","ProgrÃ¨s Niederkorn":"PRON","SC TÃ©tange":"STET","Alliance DÃ¼delingen":"ADUD","US RÃ¼melingen":"URUM",
+    "Etzella EttelbrÃ¼ck":"ETZE","EgalitÃ© Weimerskirch":"EGWM","ProgrÃ¨s Grund":"PROG","RÃ©sidence Walferdange":"WALF","HÃ´mecht Esch":"HESH",
+    "Jeunesse Koerich/Goeblange":"JKGB","Hertha Beckerich":"HRTB","Hômecht Esch":"HESH","D'Rief Schwebsingen":"RIEF"
 }
 function pullResults(tbl) {
     season = seasonData.season;

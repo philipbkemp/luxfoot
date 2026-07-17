@@ -501,7 +501,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             tdBye.classList.add("match-bye");
             tdBye.innerHTML = "Bye: " + window.allTeams[match.bye].name;
             if ( showDiv ) {
-                tdBy.innerHTM += " (" + match.byeDivision + ")";
+                tdBye.innerHTM += " (" + match.byeDivision + ")";
             }
             tr.append(tdBye);
 
@@ -590,7 +590,10 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             }
             tr.append(tdAway);
 
-            if ( highlightWinner ) {
+            let hideWinner = match.winner ? match.winner === "NULL" : false;
+            window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.winner`);
+
+            if ( highlightWinner && ! hideWinner ) {
                 const score = match.score.split("-");
                 let homeScoreParsed = Number.parseInt(score[0]);
                 let awayScoreParsed = Number.parseInt(score[1]);
@@ -687,11 +690,17 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             let trSecondReplay = null;
             if ( match.replay ) {
                 window.dataKeySet = [...window.dataKeySet,...Object.keys(match.replay).map(key => `${keyPrefix}.replay.${key}`)];
-                hasDates = true;
 
                 trReplay = document.createElement("TR");
                 let tdReplayDate = document.createElement("TD");
-                tdReplayDate.innerHTML = match.replay.date ? match.replay.date : "Replay";
+                let replayOrLeg = match.replay.leg ? "" : "Replay";
+                window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.leg`);
+                tdReplayDate.innerHTML = match.replay.date ? match.replay.date : replayOrLeg;
+
+                if ( tdReplayDate.innerHTML !== "" ) {
+                    hasDates = true;
+                }
+
                 trReplay.append(tdReplayDate);
 
                 if ( ! match.replay.home ) {
@@ -720,6 +729,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
 
                 let tdReplayNotes = document.createElement("TD");
                 tdReplayNotes.innerHTML = "";
+                tdReplayNotes.classList.add("align-left");
                 trReplay.append(tdReplayNotes);
 
                 window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay`);
@@ -766,6 +776,17 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
                     window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay`);
                     window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay.date`);
                     window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.replay.score`);
+                }
+
+                if ( match.replay.agg ) {
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.agg`);
+                    window.dataKeySet = window.dataKeySet.filter(key => key !== `${keyPrefix}.replay.winner`);
+
+                    if ( tdReplayNotes.innerHTML !== "" ) {
+                        tdReplayNotes.innerHTML += "<br />";
+                    }
+                    tdReplayNotes.innerHTML += window.allTeams[match.replay.winner].name + " won " + match.replay.agg + " on aggregate";
+                    hasNotes = true;
                 }
             }
 

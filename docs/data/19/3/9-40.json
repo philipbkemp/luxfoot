@@ -286,8 +286,8 @@
 			},{
 				"name": "Semi Final",
 				"matches": [
-					{"date":"1934-03-04","season": "1939-40", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "SPOR", "homeDivision": 1, "away": "ULUX", "awayDivision": 1, "score": "4-1", "replay": {"score": "4-0","date":"1940-04-14"}},
-					{"date":"1934-03-04","season": "1939-40", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "SDUD", "homeDivision": 1, "away": "RBDF", "awayDivision": 1, "score": "7-3", "replay": {"score": "4-1","date":"1940-04-14"}}
+					{"date":"1934-03-04","season": "1939-40", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "SPOR", "homeDivision": 1, "away": "ULUX", "awayDivision": 1, "score": "4-1", "replay": {"leg":2,"score": "4-0","date":"1940-04-14","agg":"8-1","winner":"SPOR"}},
+					{"date":"1934-03-04","season": "1939-40", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "SDUD", "homeDivision": 1, "away": "RBDF", "awayDivision": 1, "score": "7-3", "replay": {"leg":2,"score": "4-1","date":"1940-04-14","agg":"11-4","winner":"SDUD"}}
 				]
 			},{
 				"name": "Final",

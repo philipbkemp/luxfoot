@@ -418,6 +418,10 @@
         "name": "Jeunesse Sportive Clervalloise",
         "level": -1
     },
+    "JSKO": {
+        "name": "Jeunesse Sportive Koerich",
+        "level": -1
+    },
     "JSNM": {
         "name": "Jeunesse Sportive Sanem",
         "level": -1
@@ -470,6 +474,9 @@
     },
     "KRCH": {
         "name": "FC Koerich"
+    },
+    "KSIM": {
+        "name": "Koerich/Simmern"
     },
     "KWRM": {
         "name": "Koeppchen Wormeldange"
