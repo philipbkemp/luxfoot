@@ -383,6 +383,9 @@ function getPlayoffName(po) {
             poName = "Relegation playoff";
             break;
 
+        case "relegation_p_2":
+            poName = "Relegation decider (The Promotion Series 2)";
+            break;
         case "relegation_2_2":
             poName = "Relegation decider (2. Division Series 2)";
             break;
