@@ -400,11 +400,12 @@ function getPlayoffName(po) {
         case "title_2_2":
             poName = "Title decider (2. Division Series 2)";
             break;
-
+        case "title_3_1":
+            poName = "Title decider (3. Division Series 1)";
+            break;
         case "title_3_2":
             poName = "Title decider (3. Division Series 2)";
             break;
-
         case "title_3_S":
             poName = "Title decider (3. Division Series South)";
             break;
@@ -504,7 +505,7 @@ function drawMatches(matches,keyPrefix,comp,options={}) {
             tdBye.classList.add("match-bye");
             tdBye.innerHTML = "Bye: " + window.allTeams[match.bye].name;
             if ( showDiv ) {
-                tdBye.innerHTM += " (" + match.byeDivision + ")";
+                tdBye.innerHTML += " (" + match.byeDivision + ")";
             }
             tr.append(tdBye);
 
