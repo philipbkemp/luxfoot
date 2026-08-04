@@ -376,6 +376,11 @@ function getPlayoffName(po) {
             poName = "Promotion playoff";
             break;
 
+        case "promotion_3_1":
+        case "promotion_3_2":
+            poName = "Promotion playoff Group " + po.split("_")[2];
+            break;
+
         case "relegation":
         case "relegation_p":
         case "relegation_1":
