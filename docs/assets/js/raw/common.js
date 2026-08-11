@@ -419,6 +419,10 @@ function getPlayoffName(po) {
             poName = "Title playoff";
             break;
 
+        case "third_p_1":
+            poName = "Match for 3rd place (Promotion Series 1)";
+            break;
+
         default:
             if ( po.includes("|") ) {
                 str = [];
