@@ -1,0 +1,414 @@
+{
+	"season": "1952-53",
+	"next": "1953-54",
+	"prev": "1951-52",
+	"league": [{
+		"level": 1,
+		"name": "Division of Honour",
+		"pts_win": 2,
+		"standings": [
+			{"place": 1, "team": "PRON", "w": 13, "d": 6, "l": 3, "f": 52, "a": 32, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "champion": true},
+			{"place": 2, "team": "JESH", "w": 13, "d": 5, "l": 4, "f": 41, "a": 24, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 3, "team": "SDUD", "w": 11, "d": 5, "l": 6, "f": 40, "a": 25, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 4, "team": "RBDF", "w": 10, "d": 2, "l": 10, "f": 37, "a": 39, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 5, "team": "FOLA", "w": 10, "d": 2, "l": 10, "f": 25, "a": 31, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 6, "team": "ULUX", "w": 9, "d": 3, "l": 10, "f": 44, "a": 49, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 7, "team": "RSML", "w": 10, "d": 1, "l": 11, "f": 41, "a": 51, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 8, "team": "NSCH", "w": 8, "d": 4, "l": 10, "f": 46, "a": 39, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 9, "team": "SPOR", "w": 9, "d": 0, "l": 13, "f": 44, "a": 42, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }},
+			{"place": 10, "team": "STET", "w": 7, "d": 3, "l": 12, "f": 33, "a": 41, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "playoff":"relegation"},
+			{"place": 11, "team": "ADUD", "w": 7, "d": 3, "l": 12, "f": 39, "a": 47, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "playoff":"relegation", "relegated": true},
+			{"place": 12, "team": "RROD", "w": 5, "d": 6, "l": 11, "f": 32, "a": 54, "pts_win": 2, "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour" }, "relegated": true}
+		],
+		"matches": [
+			{ "home": "RBDF", "away": "ULUX", "score": "3-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "RSML", "score": "3-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "JESH", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "PRON", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "SPOR", "score": "0-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "SDUD", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "NSCH", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "RROD", "score": "5-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "FOLA", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "STET", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RBDF", "away": "ADUD", "score": "0-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "RBDF", "score": "2-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "RSML", "score": "3-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "JESH", "score": "2-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "PRON", "score": "2-4", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SPOR", "score": "2-4", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "SDUD", "score": "3-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "NSCH", "score": "3-8", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "RROD", "score": "4-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "FOLA", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "STET", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ULUX", "away": "ADUD", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "RBDF", "score": "6-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "ULUX", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "JESH", "score": "2-5", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "PRON", "score": "2-6", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "SPOR", "score": "4-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "SDUD", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "NSCH", "score": "4-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "RROD", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "FOLA", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "STET", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RSML", "away": "ADUD", "score": "4-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "RBDF", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "ULUX", "score": "4-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "RSML", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "PRON", "score": "3-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "SPOR", "score": "3-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "SDUD", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "NSCH", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "RROD", "score": "2-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "FOLA", "score": "3-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "STET", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "JESH", "away": "ADUD", "score": "4-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "RBDF", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "ULUX", "score": "6-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "RSML", "score": "2-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "JESH", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SPOR", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "SDUD", "score": "3-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "NSCH", "score": "0-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "RROD", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "FOLA", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "STET", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "PRON", "away": "ADUD", "score": "4-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "RBDF", "score": "1-4", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "ULUX", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "RSML", "score": "3-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "JESH", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "PRON", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "SDUD", "score": "1-4", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "NSCH", "score": "3-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "RROD", "score": "7-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "FOLA", "score": "3-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "STET", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SPOR", "away": "ADUD", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "RBDF", "score": "0-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "ULUX", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "RSML", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "JESH", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "PRON", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "SPOR", "score": "3-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "NSCH", "score": "3-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "RROD", "score": "3-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "FOLA", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "STET", "score": "4-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "SDUD", "away": "ADUD", "score": "3-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "RBDF", "score": "5-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "ULUX", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "RSML", "score": "6-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "JESH", "score": "0-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "PRON", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SPOR", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "SDUD", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "RROD", "score": "2-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "FOLA", "score": "3-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "STET", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "NSCH", "away": "ADUD", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "RBDF", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "ULUX", "score": "3-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "RSML", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "JESH", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "PRON", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "SPOR", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "SDUD", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "NSCH", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "FOLA", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "STET", "score": "4-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "RROD", "away": "ADUD", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "RBDF", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "ULUX", "score": "0-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "RSML", "score": "1-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "JESH", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "PRON", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SPOR", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "SDUD", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "NSCH", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "RROD", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "STET", "score": "0-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "FOLA", "away": "ADUD", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "RBDF", "score": "2-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "ULUX", "score": "1-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "RSML", "score": "4-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "JESH", "score": "0-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "PRON", "score": "0-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "SPOR", "score": "0-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "SDUD", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "NSCH", "score": "2-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "RROD", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "FOLA", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "STET", "away": "ADUD", "score": "3-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "RBDF", "score": "4-0", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "ULUX", "score": "0-4", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "RSML", "score": "0-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "JESH", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "PRON", "score": "4-1", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "SPOR", "score": "1-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "SDUD", "score": "2-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "NSCH", "score": "0-3", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "RROD", "score": "7-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "FOLA", "score": "1-2", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} },
+			{ "home": "ADUD", "away": "STET", "score": "1-5", "season": "1952-53", "competition": { "type": "league", "level": 1, "league": "Division of Honour"} }
+		]
+	},{
+		"level": 2,
+		"name": "1. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "CGRV", "w": 14, "d": 6, "l": 2, "f": 69, "a": 19, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "RBPF", "w": 12, "d": 3, "l": 7, "f": 57, "a": 41, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 3, "team": "PROG", "w": 9, "d": 7, "l": 6, "f": 52, "a": 46, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 4, "team": "WALF", "w": 11, "d": 2, "l": 9, "f": 51, "a": 44, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 5, "team": "YBDK", "w": 9, "d": 5, "l": 8, "f": 49, "a": 43, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 6, "team": "AVBG", "w": 10, "d": 3, "l": 9, "f": 41, "a": 51, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 7, "team": "JWAS", "w": 8, "d": 5, "l": 9, "f": 41, "a": 43, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 8, "team": "BBML", "w": 7, "d": 6, "l": 9, "f": 39, "a": 38, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 9, "team": "ARIS", "w": 6, "d": 8, "l": 8, "f": 53, "a": 54, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 10, "team": "ETZE", "w": 6, "d": 8, "l": 8, "f": 32, "a": 49, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }},
+				{"place": 11, "team": "RPDN", "w": 5, "d": 5, "l": 12, "f": 34, "a": 61, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }, "relegated": true},
+				{"place": 12, "team": "DARE", "w": 4, "d": 4, "l": 14, "f": 32, "a": 61, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 1, "league": "1. Division Series 1" }, "relegated": true}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "USDD", "w": 18, "d": 2, "l": 2, "f": 99, "a": 25, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "URUM", "w": 15, "d": 3, "l": 4, "f": 75, "a": 27, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 3, "team": "BLVL", "w": 11, "d": 4, "l": 7, "f": 52, "a": 47, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 4, "team": "CPET", "w": 12, "d": 1, "l": 9, "f": 55, "a": 39, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 5, "team": "CSOB", "w": 9, "d": 5, "l": 8, "f": 63, "a": 45, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 6, "team": "CROD", "w": 11, "d": 1, "l": 10, "f": 41, "a": 38, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 7, "team": "ASCH", "w": 9, "d": 4, "l": 9, "f": 47, "a": 45, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 8, "team": "TLMD", "w": 9, "d": 2, "l": 11, "f": 42, "a": 53, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 9, "team": "JKYL", "w": 9, "d": 1, "l": 12, "f": 59, "a": 57, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 10, "team": "ASDF", "w": 8, "d": 2, "l": 12, "f": 41, "a": 60, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }},
+				{"place": 11, "team": "SCBT", "w": 7, "d": 3, "l": 12, "f": 42, "a": 60, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }, "relegated": true},
+				{"place": 12, "team": "UESH", "w": 0, "d": 0, "l": 22, "f": 17, "a": 137, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 2, "series": 2, "league": "1. Division Series 2" }, "relegated": true}
+			]
+		}]
+	},{
+		"level": 3,
+		"name": "The Promotion",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "KOPS", "w": 19, "d": 1, "l": 2, "f": 92, "a": 22, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }, "promoted": true},
+				{"place": 2, "team": "MINL", "w": 18, "d": 2, "l": 2, "f": 90, "a": 23, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }, "promoted": true},
+				{"place": 3, "team": "MARM", "w": 9, "d": 7, "l": 6, "f": 40, "a": 37, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 4, "team": "ASTN", "w": 9, "d": 4, "l": 9, "f": 62, "a": 52, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 5, "team": "AWDG", "w": 8, "d": 6, "l": 8, "f": 51, "a": 51, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 6, "team": "OVND", "w": 8, "d": 6, "l": 8, "f": 47, "a": 53, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 7, "team": "USND", "w": 6, "d": 7, "l": 9, "f": 42, "a": 41, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 8, "team": "JBIW", "w": 7, "d": 5, "l": 10, "f": 41, "a": 48, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 9, "team": "RUPL", "w": 8, "d": 2, "l": 12, "f": 41, "a": 56, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 10, "team": "GOLD", "w": 6, "d": 6, "l": 10, "f": 38, "a": 61, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }},
+				{"place": 11, "team": "JSCH", "w": 7, "d": 2, "l": 13, "f": 41, "a": 58, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }, "relegated": true},
+				{"place": 12, "team": "BVAT", "w": 2, "d": 2, "l": 18, "f": 25, "a": 108, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 1, "league": "The Promotion Series 1" }, "relegated": true}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "CSHL", "w": 17, "d": 2, "l": 3, "f": 82, "a": 26, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }, "promoted": true},
+				{"place": 2, "team": "HAMM", "w": 15, "d": 4, "l": 3, "f": 60, "a": 21, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }, "promoted": true},
+				{"place": 3, "team": "MAMR", "w": 14, "d": 2, "l": 6, "f": 62, "a": 34, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 4, "team": "UNAS", "w": 11, "d": 4, "l": 7, "f": 54, "a": 42, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 5, "team": "RBAS", "w": 9, "d": 5, "l": 8, "f": 46, "a": 37, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 6, "team": "SAND", "w": 8, "d": 6, "l": 8, "f": 41, "a": 39, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 7, "team": "AREM", "w": 7, "d": 4, "l": 11, "f": 52, "a": 62, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 8, "team": "SWFT", "w": 7, "d": 4, "l": 11, "f": 36, "a": 67, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 9, "team": "LUNA", "w": 6, "d": 5, "l": 11, "f": 45, "a": 60, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 10, "team": "BWIT", "w": 6, "d": 4, "l": 12, "f": 38, "a": 62, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }},
+				{"place": 11, "team": "MDLB", "w": 5, "d": 3, "l": 14, "f": 36, "a": 69, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }, "relegated": true},
+				{"place": 12, "team": "UBSH", "w": 4, "d": 3, "l": 15, "f": 39, "a": 72, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 3, "series": 2, "league": "The Promotion Series 2" }, "relegated": true}
+			]
+		}]
+	},{
+		"level": 4,
+		"name": "2. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "ARBD", "w": 15, "d": 3, "l": 2, "f": 81, "a": 21, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" },"promoted":true},
+				{"place": 2, "team": "BWMD", "w": 14, "d": 2, "l": 4, "f": 76, "a": 33, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "SRED", "w": 11, "d": 3, "l": 6, "f": 48, "a": 40, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 4, "team": "VICR", "w": 10, "d": 4, "l": 6, "f": 58, "a": 39, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 5, "team": "ATBS", "w": 9, "d": 3, "l": 8, "f": 54, "a": 49, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 6, "team": "WWMP", "w": 8, "d": 3, "l": 9, "f": 58, "a": 54, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 7, "team": "TSVG", "w": 8, "d": 3, "l": 9, "f": 35, "a": 57, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 8, "team": "JUNG", "w": 8, "d": 2, "l": 10, "f": 41, "a": 50, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 9, "team": "LARD", "w": 7, "d": 2, "l": 11, "f": 58, "a": 72, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }},
+				{"place": 10, "team": "JGIL", "w": 5, "d": 2, "l": 13, "f": 30, "a": 61, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true},
+				{"place": 11, "team": "RHDS", "w": 1, "d": 1, "l": 18, "f": 22, "a": 85, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 1, "league": "2. Division Series 1" }, "relegated": true}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "SNEM", "w": 14, "d": 3, "l": 5, "f": 70, "a": 41, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" },"promoted":true},
+				{"place": 2, "team": "EGWM", "w": 12, "d": 6, "l": 4, "f": 78, "a": 33, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" },"promoted":true},
+				{"place": 3, "team": "JHTC", "w": 12, "d": 4, "l": 6, "f": 48, "a": 32, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 4, "team": "JSKO", "w": 12, "d": 3, "l": 7, "f": 82, "a": 46, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 5, "team": "MOND", "w": 9, "d": 8, "l": 5, "f": 61, "a": 50, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 6, "team": "OYMP", "w": 10, "d": 6, "l": 6, "f": 45, "a": 44, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 7, "team": "SPST", "w": 9, "d": 4, "l": 9, "f": 45, "a": 42, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 8, "team": "UMRT", "w": 9, "d": 2, "l": 11, "f": 61, "a": 68, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 9, "team": "KWRM", "w": 6, "d": 5, "l": 11, "f": 51, "a": 69, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 10, "team": "LRNZ", "w": 6, "d": 4, "l": 12, "f": 33, "a": 58, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }},
+				{"place": 11, "team": "SYRA", "w": 5, "d": 4, "l": 13, "f": 32, "a": 60, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true},
+				{"place": 12, "team": "HAGN", "w": 2, "d": 3, "l": 17, "f": 30, "a": 93, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 4, "series": 2, "league": "2. Division Series 2" }, "relegated": true}
+			]
+		}]
+	},{
+		"level": 5,
+		"name": "3. Division",
+		"pts_win": 2,
+		"series": [{
+			"serie": 1,
+			"name": "Series 1",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "OYCW", "w": 19, "d": 0, "l": 3, "f": 102, "a": 33, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 2, "team": "PRTZ", "w": 18, "d": 1, "l": 3, "f": 114, "a": 41, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 3, "team": "BSSW", "w": 16, "d": 4, "l": 2, "f": 93, "a": 42, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }, "promoted": true},
+				{"place": 4, "team": "OBCN", "w": 11, "d": 2, "l": 9, "f": 53, "a": 60, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 5, "team": "REIS", "w": 9, "d": 2, "l": 11, "f": 44, "a": 53, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 6, "team": "FRTA", "w": 8, "d": 3, "l": 11, "f": 61, "a": 69, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 7, "team": "BAST", "w": 8, "d": 3, "l": 11, "f": 47, "a": 66, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 8, "team": "TWTC", "w": 8, "d": 2, "l": 12, "f": 44, "a": 61, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 9, "team": "JOSP", "w": 8, "d": 1, "l": 13, "f": 59, "a": 72, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 10, "team": "CLVX", "w": 7, "d": 1, "l": 14, "f": 45, "a": 68, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 11, "team": "AHOS", "w": 5, "d": 1, "l": 16, "f": 42, "a": 76, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }},
+				{"place": 12, "team": "UFLN", "w": 4, "d": 2, "l": 16, "f": 30, "a": 93, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 1, "league": "3. Division Series 1" }}
+			]
+		},{
+			"serie": 2,
+			"name": "Series 2",
+			"pts_win": 2,
+			"standings": [
+				{"place": 1, "team": "TRIG", "w": 19, "d": 2, "l": 1, "f": 107, "a": 21, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 2, "team": "SBRT", "w": 18, "d": 2, "l": 2, "f": 108, "a": 16, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }, "promoted": true},
+				{"place": 3, "team": "MANC", "w": 12, "d": 3, "l": 7, "f": 49, "a": 40, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" },"playoff":"promotion_3", "promoted": true},
+				{"place": 4, "team": "JHSD", "w": 11, "d": 5, "l": 6, "f": 100, "a": 59, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" },"playoff":"promotion_3"},
+				{"place": 5, "team": "ASLX", "w": 12, "d": 2, "l": 8, "f": 64, "a": 49, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 6, "team": "USMM", "w": 10, "d": 3, "l": 9, "f": 64, "a": 59, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 7, "team": "BDBB", "w": 8, "d": 2, "l": 12, "f": 48, "a": 67, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 8, "team": "MUNS", "w": 8, "d": 2, "l": 12, "f": 30, "a": 62, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 9, "team": "KHLN", "w": 5, "d": 7, "l": 10, "f": 42, "a": 66, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 10, "team": "BOUS", "w": 7, "d": 3, "l": 12, "f": 33, "a": 67, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 11, "team": "HOST", "w": 4, "d": 1, "l": 17, "f": 39, "a": 113, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }},
+				{"place": 12, "team": "FCNC", "w": 2, "d": 0, "l": 20, "f": 15, "a": 80, "pts_win": 2, "season": "1952-53", "competition": { "type": "league_series", "level": 5, "series": 2, "league": "3. Division Series 2" }}
+			]
+		}]
+	}],
+    "playoffs": {
+        "relegation": {
+            "matches": [
+                {"season":"1952-53","competition":{"type":"playoff","playoff":"relegation"},"home":"STET","away":"ADUD","score":"3-2","outcome":"ADUD relegated"}
+            ]
+        },
+        "promotion_3": {
+            "matches": [
+                {"season":"1952-53","competition":{"type":"playoff","playoff":"promotion_3"},"home":"MANC","away":"JSCH","score":"2-1","outcome":"MANC promnoted"}
+            ]
+        }
+    },
+	"cup": {
+		"luxembourg": {
+            "note":" Eligibility: Only teams from the top two tiers took part",
+			"name": "Luxembourg Cup",
+			"rounds": [{
+                "name": "Preliminary Round",
+                "matches": [
+                    {"date":"1952-08-31","season":"1952-53","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"PRE","round":"Preliminary Round"},"home":"SPOR","homeDivision":1,"away":"ADUD","awayDivision":1,"score":"3-2"},
+                    {"date":"1952-08-31","season":"1952-53","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"PRE","round":"Preliminary Round"},"home":"ETZE","homeDivision":2,"away":"BBML","awayDivision":2,"score":"4-3"},
+                    {"date":"1952-08-31","season":"1952-53","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"PRE","round":"Preliminary Round"},"home":"RBPF","homeDivision":2,"away":"ARIS","awayDivision":2,"score":"7-4"},
+                    {"date":"1952-08-31","season":"1952-53","competition":{"type":"cup","cup_code":"luxembourg","cup":"Luxembourg Cup","round_code":"PRE","round":"Preliminary Round"},"home":"WALF","homeDivision":2,"away":"ULUX","awayDivision":1,"score":"0-2"}
+                ]
+            },{
+				"name": "1st Round",
+				"matches": [
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RBPF", "homeDivision": 2, "away": "AVBG", "awayDivision": 2, "score": "1-3"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RROD", "homeDivision": 1, "away": "SPOR", "awayDivision": 1, "score": "4-0"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "UESH", "homeDivision": 2, "away": "ASDF", "awayDivision": 2, "score": "4-2"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "ULUX", "homeDivision": 1, "away": "URUM", "awayDivision": 2, "score": "1-0"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "SCBT", "homeDivision": 2, "away": "ASCH", "awayDivision": 2, "score": "1-1", "replay": {"date":"1952-11-01","score": "2-8"}},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "DARE", "homeDivision": 2, "away": "PRON", "awayDivision": 1, "score": "3-4"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RPDN", "homeDivision": 2, "away": "SDUD", "awayDivision": 1, "score": "0-6"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "FOLA", "homeDivision": 1, "away": "BLVL", "awayDivision": 2, "score": "3-2"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "PROG", "homeDivision": 2, "away": "ETZE", "awayDivision": 2, "score": "4-1"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "JWAS", "homeDivision": 2, "away": "CROD", "awayDivision": 2, "score": "0-2"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "RBDF", "homeDivision": 1, "away": "NSCH", "awayDivision": 1, "score": "1-1", "replay": {"date":"1952-11-01","score": "2-1"}},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "CGRV", "homeDivision": 2, "away": "JKYL", "awayDivision": 2, "score": "3-2"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "YBDK", "homeDivision": 2, "away": "CSOB", "awayDivision": 2, "score": "4-1"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "USDD", "homeDivision": 2, "away": "RSML", "awayDivision": 1, "score": "2-4"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "TLMD", "homeDivision": 2, "away": "CPET", "awayDivision": 2, "score": "3-2"},
+					{"date":"1952-10-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R1", "round": "1st Round"}, "home": "STET", "homeDivision": 1, "away": "JESH", "awayDivision": 1, "score": "1-1", "replay": {"date":"1952-11-01","score": "0-3"}}
+				]
+			},{
+				"name": "2nd Round",
+				"matches": [
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "RSML", "homeDivision": 1, "away": "AVBG", "awayDivision": 2, "score": "5-2"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "JESH", "homeDivision": 1, "away": "YBDK", "awayDivision": 2, "score": "6-3"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "CROD", "homeDivision": 2, "away": "PROG", "awayDivision": 2, "score": "7-2"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "UESH", "homeDivision": 2, "away": "PRON", "awayDivision": 1, "score": "0-2"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "ASCH", "homeDivision": 2, "away": "RBDF", "awayDivision": 1, "score": "1-3"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "SDUD", "homeDivision": 1, "away": "ULUX", "awayDivision": 1, "score": "2-1"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "CGRV", "homeDivision": 2, "away": "FOLA", "awayDivision": 1, "score": "4-2"},
+					{"season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "R2", "round": "2nd Round"}, "home": "TLMD", "homeDivision": 2, "away": "RROD", "awayDivision": 1, "score": "1-5"}
+				]
+			},{
+				"name": "Quarter Final",
+				"matches": [
+					{"date":"1953-01-25","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "CGRV", "homeDivision": 2, "away": "RSML", "awayDivision": 1, "score": "3-2"},
+					{"date":"1953-01-25","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "JESH", "homeDivision": 1, "away": "PRON", "awayDivision": 1, "score": "3-1"},
+					{"date":"1953-01-25","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "SDUD", "homeDivision": 1, "away": "RROD", "awayDivision": 1, "score": "2-0"},
+					{"date":"1953-01-25","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "QF", "round": "Quarter Final"}, "home": "RBDF", "homeDivision": 1, "away": "CROD", "awayDivision": 2, "score": "2-1"}
+				]
+			},{
+				"name": "Semi Final",
+				"matches": [
+					{"date":"1953-03-15","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "RBDF", "homeDivision": 1, "away": "JESH", "awayDivision": 1, "score": "3-0"},
+					{"date":"1953-03-15","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "SF", "round": "Semi Final"}, "home": "CGRV", "homeDivision": 2, "away": "SDUD", "awayDivision": 1, "score": "0-0", "replay": {"date":"1953-03-22","score": "1-1","replay":{"score":"2-1","date":"1953-04-12"}}}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1953-06-07","season": "1952-53", "competition": {"type": "cup", "cup_code": "luxembourg", "cup": "Luxembourg Cup", "round_code": "F", "round": "Final"}, "home": "RBDF", "homeDivision": 1, "away": "CGRV", "awayDivision": 2, "score": "2-1"}
+				]
+			}]
+		},
+        "flf": {
+            "name": "Coupe FLF",
+            "rounds": [{
+				"name": "Semi Final",
+				"matches": [
+					{"date":"1953-01-25","season": "1952-53", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "SF", "round": "Semi Final"}, "home": "UMRT", "homeDivision": 4, "away": "GOLD", "awayDivision": 3, "score": "2-2", "replay": {"date":"1953-03-15","score": "3-1"}},
+					{"date":"1953-01-25","season": "1952-53", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "SF", "round": "Semi Final"}, "home": "MINL", "homeDivision": 3, "away": "RBAS", "awayDivision": 3, "score": "0-4"}
+				]
+			},{
+				"name": "Final",
+				"matches": [
+					{"date":"1953-04-12","season": "1952-53", "competition": {"type": "cup", "cup_code": "flf", "cup": "Coupe FLF", "round_code": "F", "round": "Final"}, "home": "RBAS", "homeDivision": 3, "away": "UMRT", "awayDivision": 4, "score": "1-1","replay":{"score":"1-2","date":"1953-06-07"}}
+				]
+			}]
+        }
+	}
+}

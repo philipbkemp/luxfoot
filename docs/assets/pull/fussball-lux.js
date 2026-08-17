@@ -296,6 +296,10 @@ function pullCup(tbl) {
             if ( txt === "" || txt.startsWith("Aufstellung ") || txt.startsWith("Erklärung") ) {
                 thisRound = "";
                 // padding row
+            } else if ( txt.startsWith("Ausscheidungsspiele ") ) {
+                thisRound = "Preliminary Round";
+                thisRoundCode = "PRE";
+                roundIndex++;
             } else if ( txt.startsWith("1 Runde ") ) {
                 thisRound = "1st Round";
                 thisRoundCode = "R1";
