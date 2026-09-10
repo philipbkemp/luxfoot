@@ -94,7 +94,7 @@ allTeams = {
     "Stade DÃ¼delingen":"SDUD","US DÃ¼delingen":"USDD","ProgrÃ¨s Niederkorn":"PRON","SC TÃ©tange":"STET","Alliance DÃ¼delingen":"ADUD","US RÃ¼melingen":"URUM",
     "Etzella EttelbrÃ¼ck":"ETZE","EgalitÃ© Weimerskirch":"EGWM","ProgrÃ¨s Grund":"PROG","RÃ©sidence Walferdange":"WALF","HÃ´mecht Esch":"HESH",
     "Jeunesse Koerich/Goeblange":"JKGB","Hertha Beckerich":"HRTB","Hômecht Esch":"HESH","D'Rief Schwebsingen":"RIEF",
-    "FC Bauschleiden/Baschleiden":"FCBB"
+    "FC Bauschleiden/Baschleiden":"FCBB","Olympia Christ./Waldbillig":"OYCW"
 }
 function pullResults(tbl) {
     season = seasonData.season;
