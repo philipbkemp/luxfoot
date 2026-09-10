@@ -3,7 +3,7 @@ let seasonCount = 0;
 let leagueSizes = [];
 const positionHeight = 5;
 
-function drawChart(club) {
+function drawChart(club,colour="red") {
 
     const chartTemplate = document.getElementById("pos_chart");
     const chart = chartTemplate.content.cloneNode(true);
@@ -110,17 +110,19 @@ function drawChart(club) {
 	document.getElementById("t5").setAttribute("d",t5d);
 	document.getElementById("t6").setAttribute("d",t6d);
 
-    drawFocus(club);
+    drawFocus(club,colour);
 }
 
-function drawFocus(club) {
+function drawFocus(club,colour="red") {
     const focus = club.toUpperCase();
     const team = clubs[focus];
+	const teamName = window.allTeams[focus].name;
 	if ( ! team ) {
-		console.warn("Club not found in chart");
+		console.warn(`${teamName} not found in chart`);
+		document.getElementById("POS").setAttribute("d","M0 0");
+		document.getElementById("title").innerHTML = teamName + " league history 1909-2025";
 		return;
 	}
-    const teamName = window.allTeams[focus].name;
 	let start = 50;
 	const p0 = 73 - positionHeight;
 	let line = "";
@@ -163,8 +165,33 @@ function drawFocus(club) {
 	if ( consecutive === 1 ) {
 		line += "l2,0";
 	}
-	document.getElementById("POS").setAttribute("d",line);
-	document.getElementById("title").innerHTML = teamName + " league history 1909-2025";
+
+	if ( document.getElementById("POS").getAttribute("d") === "" ) {
+		document.getElementById("POS").setAttribute("d",line);
+		document.getElementById("title").innerHTML = teamName + " league history 1909-2025";
+		if ( colour !== "red" ) {
+			lines = document.querySelectorAll("[stroke='red']");
+			lines.forEach(l=>{
+				l.setAttribute("stroke",colour);
+			});
+		}
+	} else {
+		const SVG_NS = "http://www.w3.org/2000/svg";
+		const g = document.createElementNS(SVG_NS, "g");
+		g.setAttribute("fill","none");
+		g.setAttribute("stroke-linejoin","round");
+		const newLine = document.createElementNS(SVG_NS, "path");
+		newLine.setAttribute("id",`POS_${club}`);
+		newLine.setAttribute("d",line);
+		g.appendChild(newLine);
+		const linecap = document.createElementNS(SVG_NS, "use");
+		linecap.setAttribute("href",`#POS_${club}`);
+		linecap.setAttribute("stroke-width",4);
+		linecap.setAttribute("stroke",`${colour}aa`);
+		linecap.setAttribute("stroke-linecap","round");
+		g.appendChild(linecap);
+		document.querySelector("svg").appendChild(g);
+	}
 }
 
 function loadSeason(season,level1=[],level2=[],level3=[],level4=[],level5=[],level6=[]) {
@@ -197,4 +224,67 @@ function loadSeason(season,level1=[],level2=[],level3=[],level4=[],level5=[],lev
             clubs[c].push( null );
         }
     });
+}
+
+function addLegend(clubs) {
+
+    const SVG_NS = "http://www.w3.org/2000/svg";
+
+    const legend = document.createElementNS(SVG_NS, "g");
+    legend.setAttribute("id", "legend");
+
+    const x = 1220;
+    const y = 70;
+    const boxSize = 18;
+    const rowHeight = 30;
+    const padding = 10;
+    const textOffset = 28;
+
+    // Calculate a reasonable width based on the longest label
+    const maxLabelLength = Math.max(
+        ...clubs.map(item => window.allTeams[ item.split(":")[0] ].name.length)
+    );
+
+    const width = (maxLabelLength * 8) + textOffset + (padding * 2);
+    const height = (clubs.length * rowHeight) + padding;
+
+    // Background
+    const background = document.createElementNS(SVG_NS, "rect");
+    background.setAttribute("x", x);
+    background.setAttribute("y", y);
+    background.setAttribute("width", width);
+    background.setAttribute("height", height);
+    background.setAttribute("fill", "#ffffff");
+    background.setAttribute("stroke", "#b3b3b3");
+    background.setAttribute("rx", 4);
+
+    legend.appendChild(background);
+
+    // Items
+    clubs.forEach((item, i) => {
+        const itemY = y + padding + i * rowHeight;
+
+        const colourBox = document.createElementNS(SVG_NS, "rect");
+        colourBox.setAttribute("x", x + padding);
+        colourBox.setAttribute("y", itemY);
+        colourBox.setAttribute("width", boxSize);
+        colourBox.setAttribute("height", boxSize);
+        colourBox.setAttribute("fill", item.split(":")[1]);
+        colourBox.setAttribute("stroke", item.split(":")[1]);
+        colourBox.setAttribute("stroke-width", "1");
+
+        legend.appendChild(colourBox);
+
+        const label = document.createElementNS(SVG_NS, "text");
+        label.setAttribute("x", x + padding + textOffset);
+        label.setAttribute("y", itemY + boxSize - 3);
+        label.setAttribute("font-family", "sans-serif");
+        label.setAttribute("font-size", "14");
+        label.setAttribute("fill", "#333");
+        label.textContent = window.allTeams[ item.split(":")[0] ].name;
+
+        legend.appendChild(label);
+    });
+
+    document.querySelector("svg").appendChild(legend);
 }

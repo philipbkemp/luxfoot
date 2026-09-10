@@ -71,9 +71,17 @@ function doneFetch(data) {
     thisSectionNavPosition.innerHTML = "Position History";
     let thisSectionNavLiPosition = document.createElement("LI");
     thisSectionNavLiPosition.append(thisSectionNavPosition);
+    window.dataKeySet = window.dataKeySet.filter(key => key !== 'colour');
+    window.dataKeySet = window.dataKeySet.filter(key => key !== 'historical_clubs');
     if ( showSection === "chart" ) {
         thisSectionNavPosition.classList.add("active");
-        drawChart(club);
+        drawChart(club,(data.colour));
+        if ( data.historical_clubs ) {
+            data.historical_clubs.forEach(hs=>{
+               drawFocus(hs.split(":")[0],hs.split(":")[1]);
+            });
+            addLegend([`${club}:${data.colour}`,...data.historical_clubs]);
+        }
     }
     sectionNav.append(thisSectionNavLiPosition);
 

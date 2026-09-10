@@ -1,17 +1,16 @@
 {
     "AAHE": {
-        "name": "Alliance Aischdall Hobscheid/Eischen"
+        "name": "Alliance Aischdall Hobscheid/Eischen",
+        "level": 4
     },
     "ADUD": {
-        "name": "Alliance Dudelange",
-        "level": -1
+        "name": "Alliance Dudelange"
     },
     "AFLX": {
         "name": "Avenir Flaxweiler"
     },
     "AHOS": {
-        "name": "AS Hosingen",
-        "level": 3
+        "name": "AS Hosingen"
     },
     "ALCR": {
         "name": "Alzetta Cruchten"
@@ -26,49 +25,40 @@
         "name": "Arantia Berdorf"
     },
     "AREM": {
-        "name": "AS Remich",
-        "level": -1
+        "name": "AS Remich"
     },
     "ARIS": {
-        "name": "Aris Bonnevoie",
-        "level": -1
+        "name": "Aris Bonnevoie"
     },
     "ASCB": {
         "name": "AS Colmar-Berg"
     },
     "ASCH": {
-        "name": "AS Schifflange",
-        "level": -1
+        "name": "AS Schifflange"
     },
     "ASDF": {
-        "name": "AS Differdange",
-        "level": -1
+        "name": "AS Differdange"
     },
     "ASLX": {
-        "name": "AS Luxembourg",
-        "level": -1
+        "name": "AS Luxembourg"
     },
     "ASRB": {
         "name": "AS Red Black Luxembourg"
     },
     "ASTN": {
-        "name": "Alisontia Steinsel",
-        "level": 3
+        "name": "Alisontia Steinsel"
     },
     "ATBS": {
         "name": "Atert Bissen"
     },
     "AVBG": {
-        "name": "Avenir Beggen",
-        "level": 2
+        "name": "Avenir Beggen"
     },
     "AWDG": {
-        "name": "Arminia Weidingen",
-        "level": -1
+        "name": "Arminia Weidingen"
     },
     "AZST": {
-        "name": "L'Alzette Steinsel",
-        "level": -1
+        "name": "L'Alzette Steinsel"
     },
     "BAST": {
         "name": "FC 47 Bastendorf"
@@ -77,19 +67,16 @@
         "name": "Blue Boys Erpeldingen/Ettelbrück"
     },
     "BBML": {
-        "name": "Blue Boys Muhlenbach",
-        "level": -1
+        "name": "Blue Boys Muhlenbach"
     },
     "BBOY": {
-        "name": "Black Boys Bascharage",
-        "level": -1
+        "name": "Black Boys Bascharage"
     },
     "BDBB": {
         "name": "Berdenia Berbourg"
     },
     "BECH": {
-        "name": "Red Rovers Bech",
-        "level": -1
+        "name": "Red Rovers Bech"
     },
     "BENF": {
         "name": "RM Hamm Benfica"
@@ -108,8 +95,7 @@
         "level": 2
     },
     "BOUS": {
-        "name": "US Bous",
-        "level": -1
+        "name": "US Bous"
     },
     "BRAC": {
         "name": "Bracarense Grund"
@@ -139,53 +125,43 @@
         "name": "CS Bourscheid"
     },
     "CECH": {
-        "name": "CS Echternach",
-        "level": -1
+        "name": "CS Echternach"
     },
     "CESS": {
         "name": "Cessange FC"
     },
     "CGRV": {
-        "name": "CS Grevenmacher",
-        "level": 3
+        "name": "CS Grevenmacher"
     },
     "CLMC": {
-        "name": "ES Clemency",
-        "level": 4
+        "name": "ES Clemency"
     },
     "CLVX": {
         "name": "Claravallis Clervaux"
     },
     "CMLB": {
-        "name": "CS Mondorf-les-Bains",
-        "level": -1
+        "name": "CS Mondorf-les-Bains"
     },
     "CSHL": {
-        "name": "CS Hollerich",
-        "level": -1
+        "name": "CS Hollerich"
     },
     "CPET": {
-        "name": "CS Petange",
-        "level": -1
+        "name": "CS Petange"
     },
     "CROD": {
-        "name": "Chiers Rodange",
-        "level": -1
+        "name": "Chiers Rodange"
     },
     "CSOB": {
-        "name": "CS Oberkorn",
-        "level": 4
+        "name": "CS Oberkorn"
     },
     "DAHL": {
         "name": "US Dahl"
     },
     "DARE": {
-        "name": "Daring Club Echternach",
-        "level": 3
+        "name": "Daring Club Echternach"
     },
     "DEIC": {
-        "name": "Daring Club Eich",
-        "level": -1
+        "name": "Daring Club Eich"
     },
     "DIFF": {
         "name": "Differdange 03"
@@ -194,48 +170,40 @@
         "name": "FC Doncols"
     },
     "DRZV": {
-        "name": "Diables Rouges Zolver",
-        "level": -1
+        "name": "Diables Rouges Zolver"
     },
     "ECBT": {
-        "name": "Eclair Bettembourg",
-        "level": -1
+        "name": "Eclair Bettembourg"
     },
     "EBDU": {
         "name": "Etoile Bleu Dudelange"
     },
     "EGWM": {
-        "name": "Egalité Weimerskirch",
-        "level": -1
+        "name": "Egalité Weimerskirch"
     },
     "EHLR": {
         "name": "FC Ehlerange"
     },
     "EITZ": {
-        "name": "Excelsior Itzig",
-        "level": -1
+        "name": "Excelsior Itzig"
     },
     "ENFM": {
-        "name": "Enfants de la Source Mondorf",
-        "level": -1
+        "name": "Enfants de la Source Mondorf"
     },
     "ERDU": {
-        "name": "Etoile Rouge 1908 Dudelange",
-        "level": -1
+        "name": "Etoile Rouge 1908 Dudelange"
     },
     "ERPL": {
         "name": "FC Erpeldange 72"
     },
     "ESHW": {
-        "name": "ES Schouweiler",
-        "level": 4
+        "name": "ES Schouweiler"
     },
     "ESLX": {
         "name": "Etoile Sportive Luxembourg"
     },
     "ETZE": {
-        "name": "Etzella Ettelbréck",
-        "level": 1
+        "name": "Etzella Ettelbréck"
     },
     "EVER": {
         "name": "FC Everlange"
@@ -253,15 +221,13 @@
         "name": "Flaxweiler/Beyren Udinesina 01"
     },
     "FCBB": {
-        "name": "FC Bauschleiden/Baschleiden",
-        "level": -1
+        "name": "FC Bauschleiden/Baschleiden"
     },
     "FCNC": {
         "name": "Fortuna Canach"
     },
     "FCOB": {
-        "name": "FC Oberkorn",
-        "level": -1
+        "name": "FC Oberkorn"
     },
     "FCPR": {
         "name": "FC Pratzerthal/Rédange"
@@ -270,15 +236,13 @@
         "name": "FC Ell"
     },
     "FOLA": {
-        "name": "Fola Esch",
-        "level": 2
+        "name": "Fola Esch"
     },
     "FOLS": {
         "name": "US Folschette"
     },
     "FRTA": {
-        "name": "Forta Beaufort",
-        "level": -1
+        "name": "Forta Beaufort"
     },
     "GBHT": {
         "name": "GB Harlange/Tarchamps"
@@ -287,12 +251,10 @@
         "name": "Grupo Desportivo dos Lusitanos de Larochette"
     },
     "GDUD": {
-        "name": "Gallia Dudelange",
-        "level": -1
+        "name": "Gallia Dudelange"
     },
     "GOLD": {
-        "name": "Gold a Ro't Wiltz",
-        "level": -1
+        "name": "Gold a Ro't Wiltz"
     },
     "GRAU": {
         "name": "US Graulinster"
@@ -301,35 +263,28 @@
         "name": "CS Greiveldange"
     },
     "GSWW": {
-        "name": "Green Star Wilwerdingen",
-        "level": -1
+        "name": "Green Star Wilwerdingen"
     },
     "HAGN": {
-        "name": "US Hagen",
-        "level": -1
+        "name": "US Hagen"
     },
     "HAMM": {
-        "name": "FC Hamm 37",
-        "level": -1
+        "name": "FC Hamm 37"
     },
     "HARL": {
         "name": "FC Harlange"
     },
     "HESH": {
-        "name": "Hômecht Esch",
-        "level": -1
+        "name": "Hômecht Esch"
     },
     "HLBN": {
-        "name": "US Hollerich/Bonnevoie",
-        "level": -1
+        "name": "US Hollerich/Bonnevoie"
     },
     "HOBS": {
-        "name": "CS Hobscheid",
-        "level": -1
+        "name": "CS Hobscheid"
     },
     "HOPB": {
-        "name": "Hoping Burange",
-        "level": -1
+        "name": "Hoping Burange"
     },
     "HOSC": {
         "name": "FC Hoscheid"
@@ -338,22 +293,19 @@
         "name": "US Hostert"
     },
     "HRTB": {
-        "name": "Hertha Beckerich",
-        "level": -1
+        "name": "Hertha Beckerich"
     },
     "HUPP": {
         "name": "FC Hupperdange"
     },
     "IESH": {
-        "name": "The International Esch",
-        "level": -1
+        "name": "The International Esch"
     },
     "ISKA": {
         "name": "Iska Boys Simmern"
     },
     "JBET": {
-        "name": "Jeunesse Bettembourg",
-        "level": -1
+        "name": "Jeunesse Bettembourg"
     },
     "JBIW": {
         "name": "Jeunesse Biwer"
@@ -362,23 +314,19 @@
         "name": "Jeunesse Canach"
     },
     "JECT": {
-        "name": "Jeunesse Echternach",
-        "level": -1
+        "name": "Jeunesse Echternach"
     },
     "JESH": {
-        "name": "Jeunesse Esch",
-        "level": 1
+        "name": "Jeunesse Esch"
     },
     "JFLX": {
         "name": "Jeunesse Flaxweiler"
     },
     "JGIL": {
-        "name": "Jeunesse Gilsdorf",
-        "level": 3
+        "name": "Jeunesse Gilsdorf"
     },
     "JGOB": {
-        "name": "Jeunesse Goeblange",
-        "level": -1
+        "name": "Jeunesse Goeblange"
     },
     "JGOS": {
         "name": "Jeunesse Goesdorf"
@@ -390,24 +338,19 @@
         "name": "Jeunesse Heisdorf"
     },
     "JHTC": {
-        "name": "Jeunesse Hautcharage",
-        "level": -1
+        "name": "Jeunesse Hautcharage"
     },
     "JKGB": {
-        "name": "Jeunesse Koerich/Goeblange",
-        "level": -1
+        "name": "Jeunesse Koerich/Goeblange"
     },
     "JKYL": {
-        "name": "Jeunesse 07 Kayl",
-        "level": -1
+        "name": "Jeunesse 07 Kayl"
     },
     "JMAM": {
-        "name": "Jeunesse Mamer",
-        "level": -1
+        "name": "Jeunesse Mamer"
     },
     "JMON": {
-        "name": "Jeunesse Mondercange",
-        "level": -1
+        "name": "Jeunesse Mondercange"
     },
     "JOSP": {
         "name": "Jeunesse Ospern"
@@ -416,43 +359,34 @@
         "name": "Jeunesse Schieren"
     },
     "JSCV": {
-        "name": "Jeunesse Sportive Clervalloise",
-        "level": -1
+        "name": "Jeunesse Sportive Clervalloise"
     },
     "JSKO": {
-        "name": "Jeunesse Sportive Koerich",
-        "level": -1
+        "name": "Jeunesse Sportive Koerich"
     },
     "JSNM": {
-        "name": "Jeunesse Sportive Sanem",
-        "level": -1
+        "name": "Jeunesse Sportive Sanem"
     },
     "JSTF": {
-        "name": "Jeunesse Steinfort",
-        "level": -1
+        "name": "Jeunesse Steinfort"
     },
     "JUNG": {
-        "name": "Jeunesse Junglinster",
-        "level": 4
+        "name": "Jeunesse Junglinster"
     },
     "JUSE": {
         "name": "Jeunesse Useldange"
     },
     "JVRL": {
-        "name": "Jeunesse Verlorenkost",
-        "level": -1
+        "name": "Jeunesse Verlorenkost"
     },
     "JWAS": {
-        "name": "Jeunesse Wasserbillig",
-        "level": -1
+        "name": "Jeunesse Wasserbillig"
     },
     "JWMK": {
-        "name": "Jeunesse Weimerskirch",
-        "level": -1
+        "name": "Jeunesse Weimerskirch"
     },
     "JWIL": {
-        "name": "Jeunesse Wilwerdingen",
-        "level": -1
+        "name": "Jeunesse Wilwerdingen"
     },
     "KAER": {
         "name": "UN Käerjéng 97"
@@ -467,8 +401,7 @@
         "name": "FC Koeppchen"
     },
     "KOPS": {
-        "name": "FC Kopstal 33",
-        "level": 3
+        "name": "FC Kopstal 33"
     },
     "KPWW": {
         "name": "Kiischpelt Wilwerwiltz"
@@ -486,15 +419,13 @@
         "name": "Les Aiglons Dalheim"
     },
     "LAHD": {
-        "name": "Les Ardennais Huldange",
-        "level": -1
+        "name": "Les Ardennais Huldange"
     },
     "LARD": {
         "name": "Les Ardoisiers Perlé"
     },
     "LLMP": {
-        "name": "FC Luxembourg Limpertsberg",
-        "level": -1
+        "name": "FC Luxembourg Limpertsberg"
     },
     "LRNZ": {
         "name": "FC Lorentzweiler"
@@ -506,38 +437,31 @@
         "name": "FC Luxembourg City"
     },
     "MAMR": {
-        "name": "Mamer 32",
-        "level": 2
+        "name": "Mamer 32"
     },
     "MANC": {
-        "name": "Mansfeldia Clausen",
-        "level": -1
+        "name": "Mansfeldia Clausen"
     },
     "MARM": {
-        "name": "Marisca Mersch",
-        "level": 2
+        "name": "Marisca Mersch"
     },
     "MDLB": {
-        "name": "US Mondorf-les-Bains",
-        "level": 1
+        "name": "US Mondorf-les-Bains"
     },
     "MERL": {
-        "name": "US Merl",
-        "level": -1
+        "name": "US Merl"
     },
     "MGWW": {
         "name": "Les Montagnards Weiswampach"
     },
     "MINL": {
-        "name": "Minerva Lintgen",
-        "level": 3
+        "name": "Minerva Lintgen"
     },
     "MLSV": {
         "name": "Minière Lasauvage"
     },
     "MOND": {
-        "name": "FC Mondercange",
-        "level": 2
+        "name": "FC Mondercange"
     },
     "MONF": {
         "name": "Le Monflin Bigonville"
@@ -549,8 +473,7 @@
         "name": "FC Munsbach"
     },
     "NESH": {
-        "name": "National Esch",
-        "level": -1
+        "name": "National Esch"
     },
     "NORD": {
         "name": "FF Norden 02"
@@ -559,27 +482,22 @@
         "name": "FC Noertzange HF"
     },
     "NSCH": {
-        "name": "National Schifflange",
-        "level": -1
+        "name": "National Schifflange"
     },
     "OBCN": {
-        "name": "Old Boys Consdorf",
-        "level": -1
+        "name": "Old Boys Consdorf"
     },
     "OVND": {
-        "name": "Orania Vianden",
-        "levl": 4
+        "name": "Orania Vianden"
     },
     "OYCW": {
         "name": "Olympia Christnach/Waldbillig"
     },
     "OYMP": {
-        "name": "Olympique Äischen",
-        "level": -1
+        "name": "Olympique Äischen"
     },
     "PHLK": {
-        "name": "Phalanx Kleinbettingen",
-        "level": -1
+        "name": "Phalanx Kleinbettingen"
     },
     "PRTZ": {
         "name": "AS Pratzerthal"
@@ -588,37 +506,31 @@
         "name": "Progrès Cessange"
     },
     "PROG": {
-        "name": "Progrès Grund",
-        "level": -1
+        "name": "Progrès Grund"
     },
     "PRON": {
-        "name": "Progrès Niederkorn",
-        "level": 1
+        "name": "Progrès Niederkorn"
     },
     "RACE": {
         "name": "Racing Union"
     },
     "RACL": {
-        "name": "Racing Club Luxembourg",
-        "level": -1
+        "name": "Racing Club Luxembourg"
     },
     "RAMB": {
         "name": "US Rambrouch"
     },
     "RBAS": {
-        "name": "Red Boys Aspelt",
-        "level": 3
+        "name": "Red Boys Aspelt"
     },
     "RBDF": {
-        "name": "Red Boys Differdange",
-        "level": -1
+        "name": "Red Boys Differdange"
     },
     "RBE7": {
         "name": "Red Black-Egalité 07"
     },
     "RBPF": {
-        "name": "Red Black Pfaffenthal",
-        "level": -1
+        "name": "Red Black Pfaffenthal"
     },
     "REIS": {
         "name": "US Reisdorf"
@@ -630,8 +542,7 @@
         "name": "Racing Heiderscheid/Eschdorf"
     },
     "RIEF": {
-        "name": "D'Rief Schwebsange",
-        "level": -1
+        "name": "D'Rief Schwebsange"
     },
     "RLCN": {
         "name": "Ro'de Le'w Consthum"
@@ -649,38 +560,31 @@
         "name": "FC Rodange 91"
     },
     "ROLG": {
-        "name": "CS Rollingergrund",
-        "level": -1
+        "name": "CS Rollingergrund"
     },
     "RPDN": {
-        "name": "Rapid Neudorf",
-        "level": -1
+        "name": "Rapid Neudorf"
     },
     "RPLL": {
         "name": "Rupensia Lusitanos Larochette"
     },
     "RROD": {
-        "name": "Racing Rodange",
-        "level": -1
+        "name": "Racing Rodange"
     },
     "RSMB": {
         "name": "Red Star Merl/Belair"
     },
     "RSML": {
-        "name": "Red Star Merl",
-        "level": -1
+        "name": "Red Star Merl"
     },
     "RSSW": {
-        "name": "Red Star Sandweiler",
-        "level": -1
+        "name": "Red Star Sandweiler"
     },
     "RUPL": {
-        "name": "Rupensia Larochette",
-        "level": -1
+        "name": "Rupensia Larochette"
     },
     "SAND": {
-        "name": "US Sandweiler",
-        "level": 4
+        "name": "US Sandweiler"
     },
     "SBCK": {
         "name": "Sporting Beckerich"
@@ -689,38 +593,31 @@
         "name": "Sporting Bellain"
     },
     "SBRT": {
-        "name": "Sporting Bertrange",
-        "level": 3
+        "name": "Sporting Bertrange"
     },
     "SCBT": {
-        "name": "SC Bettembourg",
-        "level": 2
+        "name": "SC Bettembourg"
     },
     "SCHF": {
         "name": "Schifflange 95"
     },
     "SCHR": {
-        "name": "FC Schieren",
-        "level": -1
+        "name": "FC Schieren"
     },
     "SCLX": {
-        "name": "SC Luxembourg",
-        "level": -1
+        "name": "SC Luxembourg"
     },
     "SDIF": {
-        "name": "SC Differdange",
-        "level": -1
+        "name": "SC Differdange"
     },
     "SDUD": {
-        "name": "Stade Dudelange",
-        "level": -1
+        "name": "Stade Dudelange"
     },
     "SELL": {
         "name": "SC Ell"
     },
     "SGRV": {
-        "name": "Stade Mosellan Grevenmacher",
-        "level": -1
+        "name": "Stade Mosellan Grevenmacher"
     },
     "SHGN": {
         "name": "FC Schengen"
@@ -735,12 +632,10 @@
         "name": "Sparta Dudelange"
     },
     "SPOR": {
-        "name": "Spora Luxembourg",
-        "level": -1
+        "name": "Spora Luxembourg"
     },
     "SPST": {
-        "name": "Sporting Steinfort",
-        "level": -1
+        "name": "Sporting Steinfort"
     },
     "SRED": {
         "name": "SC Rédange"
@@ -749,19 +644,16 @@
         "name": "FC Stengefort"
     },
     "STET": {
-        "name": "SC Tétange",
-        "level": -1
+        "name": "SC Tétange"
     },
     "SURA": {
-        "name": "Sura Esch/Sauer",
-        "level": -1
+        "name": "Sura Esch/Sauer"
     },
     "SURM": {
         "name": "Sura Michelau"
     },
     "SWFT": {
-        "name": "Swift Hesperange",
-        "level": 1
+        "name": "Swift Hesperange"
     },
     "SYRA": {
         "name": "Syra Mensdorf"
@@ -773,12 +665,10 @@
         "name": "Tricolore Gasperich"
     },
     "TRIM": {
-        "name": "Tricolore Muhlenweg",
-        "level": -1
+        "name": "Tricolore Muhlenweg"
     },
     "TSVG": {
-        "name": "Racing Troisvierges",
-        "level": 4
+        "name": "Racing Troisvierges"
     },
     "TWTC": {
         "name": "Tarwat Tarchamps"
@@ -787,34 +677,28 @@
         "name": "Union 05 Kayl/Tétange"
     },
     "UBEK": {
-        "name": "Union Beckerich",
-        "level": -1
+        "name": "Union Beckerich"
     },
     "UBSH": {
-        "name": "US Bascharage",
-        "level": -1
+        "name": "US Bascharage"
     },
     "UEDF": {
         "name": "US Eschdorf"
     },
     "UESH": {
-        "name": "US Esch",
-        "level": 5
+        "name": "US Esch"
     },
     "UFLN": {
         "name": "US Feulen"
     },
     "ULUX": {
-        "name": "Union Luxembourg",
-        "level": -1
+        "name": "Union Luxembourg"
     },
     "UMRT": {
-        "name": "US Mertert",
-        "level": -1
+        "name": "US Mertert"
     },
     "UNAS": {
-        "name": "UNA Strassen",
-        "level": 1
+        "name": "UNA Strassen"
     },
     "UNMW": {
         "name": "Union Mertert/Wasserbillig"
@@ -826,41 +710,34 @@
         "name": "Union Titus Petange"
     },
     "URUM": {
-        "name": "US Rumelange",
-        "level": 1
+        "name": "US Rumelange"
     },
     "USBC": {
         "name": "US Berdorf/Consdorf"
     },
     "USDD": {
-        "name": "US Dudelange",
-        "level": -1
+        "name": "US Dudelange"
     },
     "USMM": {
         "name": "US Moutfort/Medingen"
     },
     "USND": {
-        "name": "US Niederwiltz",
-        "level": -1
+        "name": "US Niederwiltz"
     },
     "UWLD": {
-        "name": "US Waldbillig",
-        "level": -1
+        "name": "US Waldbillig"
     },
     "VICR": {
-        "name": "Victoria Rosport",
-        "level": 1
+        "name": "Victoria Rosport"
     },
     "VINE": {
         "name": "Vinesca Ehnen"
     },
     "WALF": {
-        "name": "Résidence Walferdange",
-        "level": 1
+        "name": "Résidence Walferdange"
     },
     "WGLW": {
-        "name": "White-Green Lorentzweiler",
-        "level": -1
+        "name": "White-Green Lorentzweiler"
     },
     "WINC": {
         "name": "AS Wincrange"
@@ -869,20 +746,16 @@
         "name": "FC Wiltz 71"
     },
     "WRMC": {
-        "name": "Weiss a Ro't Michelau",
-        "level": -1
+        "name": "Weiss a Ro't Michelau"
     },
     "WWMP": {
-        "name": "FC Weiswampach",
-        "level": -1
+        "name": "FC Weiswampach"
     },
     "YBDK": {
-        "name": "Young Boys Diekirch",
-        "level": 3
+        "name": "Young Boys Diekirch"
     },
     "YBSL": {
-        "name": "Young Boys Zolver",
-        "level": -1
+        "name": "Young Boys Zolver"
     },
     "YBSW": {
         "name": "Young Boys Schweicherthal"
