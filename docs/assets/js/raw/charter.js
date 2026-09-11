@@ -119,8 +119,10 @@ function drawFocus(club,colour="red") {
 	const teamName = window.allTeams[focus].name;
 	if ( ! team ) {
 		console.warn(`${teamName} not found in chart`);
-		document.getElementById("POS").setAttribute("d","M0 0");
-		document.getElementById("title").innerHTML = teamName + " league history 1909-2025";
+		if ( document.getElementById("POS").getAttribute("d") === "" ) {
+			document.getElementById("POS").setAttribute("d","M0 0");
+			document.getElementById("title").innerHTML = teamName + " league history 1909-2025";
+		}
 		return;
 	}
 	let start = 50;
@@ -187,7 +189,7 @@ function drawFocus(club,colour="red") {
 		const linecap = document.createElementNS(SVG_NS, "use");
 		linecap.setAttribute("href",`#POS_${club}`);
 		linecap.setAttribute("stroke-width",4);
-		linecap.setAttribute("stroke",`${colour}aa`);
+		linecap.setAttribute("stroke",`${colour}88`);
 		linecap.setAttribute("stroke-linecap","round");
 		g.appendChild(linecap);
 		document.querySelector("svg").appendChild(g);

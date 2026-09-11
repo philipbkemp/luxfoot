@@ -4,5 +4,7 @@
     "history": [
         {"season":"1932-33","event":"FOUNDED"},
         {"season":"2006-07","event":"MERGE","new_name":"AAHE"}
-    ]
+    ],
+    "colour": "#ffcc00",
+    "historical_clubs": ["AAHE:#162F4D"]
 }

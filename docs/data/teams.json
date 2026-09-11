@@ -281,7 +281,8 @@
         "name": "US Hollerich/Bonnevoie"
     },
     "HOBS": {
-        "name": "CS Hobscheid"
+        "name": "CS Hobscheid",
+        "level": -1
     },
     "HOPB": {
         "name": "Hoping Burange"
@@ -494,7 +495,8 @@
         "name": "Olympia Christnach/Waldbillig"
     },
     "OYMP": {
-        "name": "Olympique Äischen"
+        "name": "Olympique Äischen",
+        "level": -1
     },
     "PHLK": {
         "name": "Phalanx Kleinbettingen"
