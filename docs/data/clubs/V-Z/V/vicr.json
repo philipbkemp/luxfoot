@@ -5,5 +5,6 @@
         {"season": "1928-29","event": "FOUNDED"},
         {"season": "1940-41","event": "DISSOLVED"},
         {"season": "1944-45","event": "REFOUNDED"}
-    ]
+    ],
+    "colour": "#d30000"
 }

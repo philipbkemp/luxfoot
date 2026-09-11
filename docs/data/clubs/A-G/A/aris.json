@@ -3,5 +3,7 @@
     "history": [
         {"season": "1921-22","event": "FOUNDED"},
         {"season": "2000-01","event": "MERGE","new_name": "ALLX"}
-    ]
+    ],
+    "colour": "#000000",
+    "historical_clubs": ["ALLX:#666666","RACE:#91D4F2"]
 }

@@ -2,5 +2,6 @@
     "name": "Résidence Walferdange",
     "history": [
         {"season": "1907-08","event": "FOUNDED"}
-    ]
+    ],
+    "colour": "#3498db"
 }

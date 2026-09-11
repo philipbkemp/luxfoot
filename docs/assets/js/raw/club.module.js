@@ -153,11 +153,18 @@ function drawHistory(history,founded,refounded,rerefounded) {
             case "FOUNDED_MERGE":
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.clubs');
-                hEvent.innerHTML = "Club founded after merging ";
+                hEvent.innerHTML = "Club founded" + (founded ? (" " + founded) : "") + " after merging ";
                 for ( let c=0 ; c<h.clubs.length ; c++ ) {
                     if ( h.clubs.length === 2 ) {
                         if ( c !== 0 ) {
                             hEvent.innerHTML += " and ";
+                        }
+                    } else if ( h.clubs.length === 3 ) {
+                        if ( c !== 0 ) {
+                            hEvent.innerHTML += ", ";
+                        }
+                        if ( c === 2 ) {
+                            hEvent.innerHTML += "and ";
                         }
                     }
                     hEvent.innerHTML += window.allTeams[h.clubs[c]].name;

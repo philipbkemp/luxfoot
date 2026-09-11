@@ -3,5 +3,7 @@
     "history": [
         {"season": "1912-13","event": "FOUNDED"},
         {"season": "1925-26","event": "MERGE","new_name": "ULUX"}
-    ]
+    ],
+    "colour": "#95b3d7",
+    "historical_clubs": ["ULUX:#0070c0","RACE:#91D4F2"]
 }

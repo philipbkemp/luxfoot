@@ -4,5 +4,7 @@
     "history": [
         {"season": "1919-20","event": "FOUNDED"},
         {"season": "1971-72","event": "MERGE","new_name": "WLTZ"}
-    ]
+    ],
+    "colour": "#0070c0",
+    "historical_clubs": ["WLTZ:#D30000"]
 }

@@ -5,5 +5,7 @@
         {"season": "1934-35","event": "DISSOLVED"},
         {"season": "1946-47","event": "REFOUNDED"},
         {"season": "1996-97","event": "MERGE","new_name": "KAER"}
-    ]
+    ],
+    "colour": "#262626",
+    "historical_clubs": ["KAER:#c0392b"]
 }

@@ -4,5 +4,7 @@
     "history": [
         {"season": "1922-23","event": "FOUNDED_MERGE","clubs": ["RACL","SCLX"]},
         {"season": "2004-05","event": "MERGE","new_name": "RACE"}
-    ]
+    ],
+    "colour": "#003399",
+    "historical_clubs": ["RACL:#31859c","SCLX:#953735","RACE:#91D4F2"]
 }

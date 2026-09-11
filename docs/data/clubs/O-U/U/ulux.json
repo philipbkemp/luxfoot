@@ -1,6 +1,9 @@
 {
     "name": "Union Luxembourg",
     "history": [
-        {"season": "1925-26","event": "FOUNDED_MERGE","clubs": ["JVRL","HLBN"]}
-    ]
+        {"season": "1925-26","event": "FOUNDED_MERGE","clubs": ["JVRL","HLBN"]},
+        {"season": "2004-05","event": "MERGE","new_name": "RACE"}
+    ],
+    "colour": "#0070c0",
+    "historical_clubs": ["JVRL:#95b3d7","HLBN:#ffcc00","RACE:#91D4F2"]
 }

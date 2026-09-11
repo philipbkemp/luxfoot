@@ -3,5 +3,7 @@
     "history": [
         {"season": "1927-28","event": "FOUNDED"},
         {"season":"1996-97","event": "MERGE","new_name": "KAER"}
-    ]
+    ],
+    "colour": "#0070c0",
+    "historical_clubs": ["KAER:#c0392b"]
 }

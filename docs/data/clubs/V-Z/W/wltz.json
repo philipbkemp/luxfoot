@@ -1,0 +1,10 @@
+{
+    "name": "FC Wiltz 71",
+    "founded": "1971-03-12",
+    "history": [
+        {"season": "1970-71","event": "FOUNDED_MERGE","clubs": ["USND","GOLD"]},
+        {"season": "1977-78","event": "ABSORB", "old_name": "AWDG"}
+    ],
+    "colour": "#D30000",
+    "historical_clubs": ["USND:#0070c0","GOLD:#eabb00"]
+}

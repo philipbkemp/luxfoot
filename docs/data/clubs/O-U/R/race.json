@@ -1,0 +1,9 @@
+{
+    "name": "Racing Union",
+    "founded": "2005-05-12",
+    "history": [
+        {"season": "2004-05","event": "FOUNDED_MERGE","clubs": ["SPOR","ULUX","ALLX"]}
+    ],
+    "colour": "#91D4F2",
+    "historical_clubs": ["RACL:#31859c","SCLX:#953735","SPOR:#003399","ALLX:#666666","ULUX:#0070c0","JVRL:#95b3d7","HLBN:#ffcc00","ARIS:#000000","CSHL:#7030a0"]
+}

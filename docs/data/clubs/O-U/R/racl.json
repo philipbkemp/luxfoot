@@ -4,5 +4,7 @@
     "history": [
         {"season": "1906-07","event": "FOUNDED"},
         {"season": "1923-24","event": "MERGE","new_name": "SPOR"}
-    ]
+    ],
+    "colour": "#31859c",
+    "historical_clubs": ["SPOR:#003399","RACE:#91D4F2"]
 }

@@ -1,0 +1,9 @@
+{
+    "name": "Alliance 01 Luxembourg",
+    "history": [
+        {"season": "2000-01","event": "FOUNDED_MERGE","clubs": ["ARIS","CSHL"]},
+        {"season": "2004-05","event": "MERGE","new_name": "RACE"}
+    ],
+    "colour": "#666666",
+    "historical_clubs": ["ARIS:#000000","CSHL:#7030a0","RACE:#91D4F2"]
+}

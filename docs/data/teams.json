@@ -16,7 +16,8 @@
         "name": "Alzetta Cruchten"
     },
     "ALLX": {
-        "name": "Alliance 01 Luxemburg"
+        "name": "Alliance 01 Luxemburg",
+        "level": -1
     },
     "AMRS": {
         "name": "Amis de la Moselle Remerschen"
@@ -28,7 +29,8 @@
         "name": "AS Remich"
     },
     "ARIS": {
-        "name": "Aris Bonnevoie"
+        "name": "Aris Bonnevoie",
+        "level": -1
     },
     "ASCB": {
         "name": "AS Colmar-Berg"
@@ -49,7 +51,8 @@
         "name": "Alisontia Steinsel"
     },
     "ATBS": {
-        "name": "Atert Bissen"
+        "name": "Atert Bissen",
+        "level": 1
     },
     "AVBG": {
         "name": "Avenir Beggen"
@@ -143,7 +146,8 @@
         "name": "CS Mondorf-les-Bains"
     },
     "CSHL": {
-        "name": "CS Hollerich"
+        "name": "CS Hollerich",
+        "level": -1
     },
     "CPET": {
         "name": "CS Petange"
@@ -164,7 +168,8 @@
         "name": "Daring Club Eich"
     },
     "DIFF": {
-        "name": "Differdange 03"
+        "name": "Differdange 03",
+        "level": 0
     },
     "DONC": {
         "name": "FC Doncols"
@@ -203,7 +208,8 @@
         "name": "Etoile Sportive Luxembourg"
     },
     "ETZE": {
-        "name": "Etzella Ettelbréck"
+        "name": "Etzella Ettelbréck",
+        "level": 1
     },
     "EVER": {
         "name": "FC Everlange"
@@ -215,7 +221,8 @@
         "name": "Excelsior Grevels"
     },
     "F91D": {
-        "name": "F91 Dudelange"
+        "name": "F91 Dudelange",
+        "level": 0
     },
     "FBU1": {
         "name": "Flaxweiler/Beyren Udinesina 01"
@@ -254,7 +261,8 @@
         "name": "Gallia Dudelange"
     },
     "GOLD": {
-        "name": "Gold a Ro't Wiltz"
+        "name": "Gold a Ro't Wiltz",
+        "level": -1
     },
     "GRAU": {
         "name": "US Graulinster"
@@ -291,7 +299,8 @@
         "name": "FC Hoscheid"
     },
     "HOST": {
-        "name": "US Hostert"
+        "name": "US Hostert",
+        "level": 1
     },
     "HRTB": {
         "name": "Hertha Beckerich"
@@ -318,7 +327,8 @@
         "name": "Jeunesse Echternach"
     },
     "JESH": {
-        "name": "Jeunesse Esch"
+        "name": "Jeunesse Esch",
+        "level": 1
     },
     "JFLX": {
         "name": "Jeunesse Flaxweiler"
@@ -339,7 +349,8 @@
         "name": "Jeunesse Heisdorf"
     },
     "JHTC": {
-        "name": "Jeunesse Hautcharage"
+        "name": "Jeunesse Hautcharage",
+        "level": -1
     },
     "JKGB": {
         "name": "Jeunesse Koerich/Goeblange"
@@ -378,7 +389,8 @@
         "name": "Jeunesse Useldange"
     },
     "JVRL": {
-        "name": "Jeunesse Verlorenkost"
+        "name": "Jeunesse Verlorenkost",
+        "level": -1
     },
     "JWAS": {
         "name": "Jeunesse Wasserbillig"
@@ -390,7 +402,8 @@
         "name": "Jeunesse Wilwerdingen"
     },
     "KAER": {
-        "name": "UN Käerjéng 97"
+        "name": "UN Käerjéng 97",
+        "level": 1
     },
     "KHLN": {
         "name": "FC Kehlen"
@@ -447,7 +460,8 @@
         "name": "Marisca Mersch"
     },
     "MDLB": {
-        "name": "US Mondorf-les-Bains"
+        "name": "US Mondorf-les-Bains",
+        "level": 1
     },
     "MERL": {
         "name": "US Merl"
@@ -511,13 +525,16 @@
         "name": "Progrès Grund"
     },
     "PRON": {
-        "name": "Progrès Niederkorn"
+        "name": "Progrès Niederkorn",
+        "level": 1
     },
     "RACE": {
-        "name": "Racing Union"
+        "name": "Racing Union",
+        "level": 1
     },
     "RACL": {
-        "name": "Racing Club Luxembourg"
+        "name": "Racing Club Luxembourg",
+        "level": -1
     },
     "RAMB": {
         "name": "US Rambrouch"
@@ -607,7 +624,8 @@
         "name": "FC Schieren"
     },
     "SCLX": {
-        "name": "SC Luxembourg"
+        "name": "SC Luxembourg",
+        "level": -1
     },
     "SDIF": {
         "name": "SC Differdange"
@@ -634,7 +652,8 @@
         "name": "Sparta Dudelange"
     },
     "SPOR": {
-        "name": "Spora Luxembourg"
+        "name": "Spora Luxembourg",
+        "level": -1
     },
     "SPST": {
         "name": "Sporting Steinfort"
@@ -655,7 +674,8 @@
         "name": "Sura Michelau"
     },
     "SWFT": {
-        "name": "Swift Hesperange"
+        "name": "Swift Hesperange",
+        "level": 1
     },
     "SYRA": {
         "name": "Syra Mensdorf"
@@ -682,7 +702,8 @@
         "name": "Union Beckerich"
     },
     "UBSH": {
-        "name": "US Bascharage"
+        "name": "US Bascharage",
+        "level": -1
     },
     "UEDF": {
         "name": "US Eschdorf"
@@ -694,13 +715,15 @@
         "name": "US Feulen"
     },
     "ULUX": {
-        "name": "Union Luxembourg"
+        "name": "Union Luxembourg",
+        "level": -1
     },
     "UMRT": {
         "name": "US Mertert"
     },
     "UNAS": {
-        "name": "UNA Strassen"
+        "name": "UNA Strassen",
+        "level": 1
     },
     "UNMW": {
         "name": "Union Mertert/Wasserbillig"
@@ -712,7 +735,8 @@
         "name": "Union Titus Petange"
     },
     "URUM": {
-        "name": "US Rumelange"
+        "name": "US Rumelange",
+        "level": 1
     },
     "USBC": {
         "name": "US Berdorf/Consdorf"
@@ -724,19 +748,22 @@
         "name": "US Moutfort/Medingen"
     },
     "USND": {
-        "name": "US Niederwiltz"
+        "name": "US Niederwiltz",
+        "level": -1
     },
     "UWLD": {
         "name": "US Waldbillig"
     },
     "VICR": {
-        "name": "Victoria Rosport"
+        "name": "Victoria Rosport",
+        "level": 1
     },
     "VINE": {
         "name": "Vinesca Ehnen"
     },
     "WALF": {
-        "name": "Résidence Walferdange"
+        "name": "Résidence Walferdange",
+        "level": 1
     },
     "WGLW": {
         "name": "White-Green Lorentzweiler"
@@ -745,7 +772,8 @@
         "name": "AS Wincrange"
     },
     "WLTZ": {
-        "name": "FC Wiltz 71"
+        "name": "FC Wiltz 71",
+        "level": 1
     },
     "WRMC": {
         "name": "Weiss a Ro't Michelau"

@@ -1,7 +1,9 @@
 {
     "name": "CS Hollerich",
     "history": [
-        {"season": "1912-14","event": "FOUNDED"},
+        {"season": "1912-13","event": "FOUNDED"},
         {"season": "2000-01","event": "MERGE","new_name": "ALLX"}
-    ]
+    ],
+    "colour": "#7030a0",
+    "historical_clubs": ["ALLX:#666666","RACE:#91D4F2"]
 }
