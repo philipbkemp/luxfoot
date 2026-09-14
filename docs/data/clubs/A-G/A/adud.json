@@ -3,5 +3,7 @@
     "history": [
         {"season": "1916-17","event": "FOUNDED_MERGE","clubs": ["ERDU","EBDU"]},
         {"season": "1991-92","event": "MERGE","new_name": "F91D"}
-    ]
+    ],
+    "colour": "#FF1924",
+    "historical_clubs": ["ERDU:#FF0000","F91D:#FFE500"]
 }

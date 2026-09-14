@@ -2,7 +2,9 @@
     "name": "Red Boys Differdange",
     "founded": "1907-05-25",
     "history": [
-        {"season": "1908-09","event": "FOUNDED"},
+        {"season": "1908-09","event": "RENAME_FROM", "old_name": "SDIF"},
         {"season": "2002-03","event": "MERGE","new_name": "DIFF"}
-    ]
+    ],
+    "colour": "#FF2112",
+    "historical_clubs": ["DIFF:#D30000","SDIF:#ff463d"]
 }

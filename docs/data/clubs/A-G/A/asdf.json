@@ -3,5 +3,7 @@
     "history": [
         {"season": "1920-21","event": "FOUNDED"},
         {"season": "2002-03","event": "MERGE","new_name": "DIFF"}
-    ]
+    ],
+    "colour": "#f7634c",
+    "historical_clubs": ["DIFF:#D30000"]
 }

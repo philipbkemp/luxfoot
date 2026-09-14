@@ -4,5 +4,7 @@
     "history": [
         {"season":"1911-12","event":"FOUNDED"},
         {"season":"1990-91","event":"MERGE","new_name": "F91D"}
-    ]
+    ],
+    "colour": "#FBCE04",
+    "historical_clubs": ["F91D:#FFE500"]
 }

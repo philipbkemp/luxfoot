@@ -3,5 +3,7 @@
     "history": [
         {"season":"1911-12","event":"RENAME_FROM","old_name": "GDUD"},
         {"season":"1991-92","event":"MERGE","new_name": "F91D"}
-    ]
+    ],
+    "colour": "#529F58",
+    "historical_clubs": ["GDUD:#000000","F91D:#FFE500"]
 }

@@ -4,5 +4,7 @@
     "history": [
         {"season": "1906-07","event": "FOUNDED"},
         {"season": "1918-19","event": "RENAME","new_name": "RBDF"}
-    ]
+    ],
+    "colour": "#ff463d",
+    "historical_clubs": ["RBDF:#FF2112","DIFF:#D30000"]
 }

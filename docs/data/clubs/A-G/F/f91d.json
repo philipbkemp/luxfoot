@@ -1,0 +1,9 @@
+{
+    "name": "F91 Dudelange",
+    "founded": "1991-04-26",
+    "history": [
+        {"season": "1990-91","event": "FOUNDED_MERGE","clubs": ["SDUD","USDD","ADUD"]}
+    ],
+    "colour": "#FFE500",
+    "historical_clubs": ["SDUD:#529F58","GDUD:#000000","USDD:#FBCE04","ADUD:#FF1924","ERDU:#FF0000"]
+}

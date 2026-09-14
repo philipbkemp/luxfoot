@@ -3,5 +3,7 @@
     "history": [
         {"season": "1908-09","event": "FOUNDED"},
         {"season": "1916-17","event": "MERGE","new_name": "ADUD"}
-    ]
+    ],
+    "colour": "#FF0000",
+    "historical_clubs": ["ADUD:#FF1924","F91D:#FFE500"]
 }

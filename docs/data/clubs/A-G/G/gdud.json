@@ -3,5 +3,7 @@
     "history": [
         {"season": "1917-08","event": "FOUNDED"},
         {"season": "1911-12","event": "RENAME","new_name": "SDUD"}
-    ]
+    ],
+    "colour":"#000000",
+    "historical_clubs": ["SDUD:#529F58","F91D:#FFE500"]
 }

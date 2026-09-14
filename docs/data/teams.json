@@ -4,7 +4,8 @@
         "level": 4
     },
     "ADUD": {
-        "name": "Alliance Dudelange"
+        "name": "Alliance Dudelange",
+        "level": -1
     },
     "AFLX": {
         "name": "Avenir Flaxweiler"
@@ -39,7 +40,8 @@
         "name": "AS Schifflange"
     },
     "ASDF": {
-        "name": "AS Differdange"
+        "name": "AS Differdange",
+        "level": -1
     },
     "ASLX": {
         "name": "AS Luxembourg"
@@ -169,7 +171,7 @@
     },
     "DIFF": {
         "name": "Differdange 03",
-        "level": 0
+        "level": 1
     },
     "DONC": {
         "name": "FC Doncols"
@@ -181,7 +183,8 @@
         "name": "Eclair Bettembourg"
     },
     "EBDU": {
-        "name": "Etoile Bleu Dudelange"
+        "name": "Etoile Bleu Dudelange",
+        "level": 0
     },
     "EGWM": {
         "name": "Egalité Weimerskirch"
@@ -196,7 +199,8 @@
         "name": "Enfants de la Source Mondorf"
     },
     "ERDU": {
-        "name": "Etoile Rouge 1908 Dudelange"
+        "name": "Etoile Rouge 1908 Dudelange",
+        "level": -1
     },
     "ERPL": {
         "name": "FC Erpeldange 72"
@@ -222,7 +226,7 @@
     },
     "F91D": {
         "name": "F91 Dudelange",
-        "level": 0
+        "level": 1
     },
     "FBU1": {
         "name": "Flaxweiler/Beyren Udinesina 01"
@@ -258,7 +262,8 @@
         "name": "Grupo Desportivo dos Lusitanos de Larochette"
     },
     "GDUD": {
-        "name": "Gallia Dudelange"
+        "name": "Gallia Dudelange",
+        "level": -1
     },
     "GOLD": {
         "name": "Gold a Ro't Wiltz",
@@ -543,7 +548,8 @@
         "name": "Red Boys Aspelt"
     },
     "RBDF": {
-        "name": "Red Boys Differdange"
+        "name": "Red Boys Differdange",
+        "level": -1
     },
     "RBE7": {
         "name": "Red Black-Egalité 07"
@@ -628,10 +634,12 @@
         "level": -1
     },
     "SDIF": {
-        "name": "SC Differdange"
+        "name": "SC Differdange",
+        "level": -1
     },
     "SDUD": {
-        "name": "Stade Dudelange"
+        "name": "Stade Dudelange",
+        "level": -1
     },
     "SELL": {
         "name": "SC Ell"
@@ -647,9 +655,6 @@
     },
     "SNEM": {
         "name": "CS Sanem"
-    },
-    "SPDD": {
-        "name": "Sparta Dudelange"
     },
     "SPOR": {
         "name": "Spora Luxembourg",
@@ -742,7 +747,8 @@
         "name": "US Berdorf/Consdorf"
     },
     "USDD": {
-        "name": "US Dudelange"
+        "name": "US Dudelange",
+        "level": -1
     },
     "USMM": {
         "name": "US Moutfort/Medingen"
