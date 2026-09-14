@@ -50,14 +50,16 @@
         "name": "AS Red Black Luxembourg"
     },
     "ASTN": {
-        "name": "Alisontia Steinsel"
+        "name": "Alisontia Steinsel",
+        "level": 3
     },
     "ATBS": {
         "name": "Atert Bissen",
         "level": 1
     },
     "AVBG": {
-        "name": "Avenir Beggen"
+        "name": "Avenir Beggen",
+        "level": 2
     },
     "AWDG": {
         "name": "Arminia Weidingen"
@@ -435,13 +437,15 @@
         "name": "Koeppchen Wormeldange"
     },
     "LADH": {
-        "name": "Les Aiglons Dalheim"
+        "name": "Les Aiglons Dalheim",
+        "level": 4
     },
     "LAHD": {
         "name": "Les Ardennais Huldange"
     },
     "LARD": {
-        "name": "Les Ardoisiers Perlé"
+        "name": "Les Ardoisiers Perlé",
+        "level": 5
     },
     "LLMP": {
         "name": "FC Luxembourg Limpertsberg"
