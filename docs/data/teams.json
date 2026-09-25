@@ -80,7 +80,8 @@
         "name": "Black Boys Bascharage"
     },
     "BDBB": {
-        "name": "Berdenia Berbourg"
+        "name": "Berdenia Berbourg",
+        "level": 2
     },
     "BECH": {
         "name": "Red Rovers Bech"
@@ -157,7 +158,8 @@
         "name": "CS Petange"
     },
     "CROD": {
-        "name": "Chiers Rodange"
+        "name": "Chiers Rodange",
+        "level": -1
     },
     "CSOB": {
         "name": "CS Oberkorn"
@@ -237,7 +239,8 @@
         "name": "FC Bauschleiden/Baschleiden"
     },
     "FCNC": {
-        "name": "Fortuna Canach"
+        "name": "Fortuna Canach",
+        "level": -1
     },
     "FCOB": {
         "name": "FC Oberkorn"
@@ -249,7 +252,8 @@
         "name": "FC Ell"
     },
     "FOLA": {
-        "name": "Fola Esch"
+        "name": "Fola Esch",
+        "level": 2
     },
     "FOLS": {
         "name": "US Folschette"
@@ -328,7 +332,8 @@
         "name": "Jeunesse Biwer"
     },
     "JCNC": {
-        "name": "Jeunesse Canach"
+        "name": "Jeunesse Canach",
+        "level": 2
     },
     "JECT": {
         "name": "Jeunesse Echternach"
@@ -451,7 +456,8 @@
         "name": "FC Luxembourg Limpertsberg"
     },
     "LRNZ": {
-        "name": "FC Lorentzweiler"
+        "name": "FC Lorentzweiler",
+        "level": 2
     },
     "LUNA": {
         "name": "Luna Oberkorn"
@@ -586,7 +592,8 @@
         "name": "RM 86 Luxembourg"
     },
     "RODG": {
-        "name": "FC Rodange 91"
+        "name": "FC Rodange 91",
+        "level": 2
     },
     "ROLG": {
         "name": "CS Rollingergrund"
@@ -598,7 +605,8 @@
         "name": "Rupensia Lusitanos Larochette"
     },
     "RROD": {
-        "name": "Racing Rodange"
+        "name": "Racing Rodange",
+        "level": -1
     },
     "RSMB": {
         "name": "Red Star Merl/Belair"
@@ -721,7 +729,8 @@
         "name": "US Esch"
     },
     "UFLN": {
-        "name": "US Feulen"
+        "name": "US Feulen",
+        "level": 2
     },
     "ULUX": {
         "name": "Union Luxembourg",

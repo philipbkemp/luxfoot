@@ -188,8 +188,8 @@ function drawFocus(club,colour="red") {
 		g.appendChild(newLine);
 		const linecap = document.createElementNS(SVG_NS, "use");
 		linecap.setAttribute("href",`#POS_${club}`);
-		linecap.setAttribute("stroke-width",2);
-		linecap.setAttribute("stroke",`${colour}88`);
+		linecap.setAttribute("stroke-width",3);
+		linecap.setAttribute("stroke",`${colour}cc`);
 		linecap.setAttribute("stroke-linecap","round");
 		g.appendChild(linecap);
 		document.querySelector("svg").appendChild(g);

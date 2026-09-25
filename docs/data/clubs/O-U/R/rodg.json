@@ -1,0 +1,9 @@
+{
+    "name": "FC Rodange 91",
+    "founded": "1991-04-30",
+    "history": [
+        {"season": "1990-91","event": "FOUNDED_MERGE","clubs": ["CROD","RROD"]}
+    ],
+    "colour": "#DD001D",
+    "historical_clubs": ["RROD:#1648AC","CROD:#5C5232"]
+}

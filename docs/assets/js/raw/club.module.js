@@ -210,6 +210,16 @@ function drawHistory(history,founded,refounded,rerefounded) {
                 window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
                 hEvent.innerHTML = "(Old) Coupe FLF Winners";
                 break;
+            case "PHEONIX_TO":
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.new_name');
+                hEvent.innerHTML = "Pheonixed into " + window.allTeams[h.new_name].name;
+                break;
+            case "PHEONIX_FROM":
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.event');
+                window.dataKeySet = window.dataKeySet.filter(key => key !== 'history.old_name');
+                hEvent.innerHTML = "Pheonixed from " + window.allTeams[h.old_name].name;
+                break;
             default:
                 console.warn("unknown event",h.event);
                 break;

@@ -4,5 +4,7 @@
     "history": [
         {"season": "1932-33","event": "FOUNDED"},
         {"season": "1990-91","event": "MERGE","new_name": "RODG"}
-    ]
+    ],
+    "colour": "#1648AC",
+    "historical_clubs": ["RODG:#DD001D"]
 }

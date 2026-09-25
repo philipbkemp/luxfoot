@@ -1,0 +1,11 @@
+{
+    "name": "Fortuna Canach",
+    "founded": "1946-09-01",
+    "history": [
+        {"season": "1946-47","event": "FOUNDED"},
+        {"season": "1953-54","event": "DISSOLVED"},
+        {"season": "1956-57","event": "PHEONIX_TO","new_name": "JCNC"}
+    ],
+    "colour": "#44579E",
+    "historical_clubs": ["JCNC:#3498DB"]
+}
