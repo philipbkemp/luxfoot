@@ -3,5 +3,7 @@
     "history": [
         {"season": "1931-32","event": "FOUNDED"},
         {"season": "1933-34","event": "RENAME","new_name": "MAMR"}
-    ]
+    ],
+    "colour": "#A31223",
+    "historical_clubs": ["MAMR:#FA0300"]
 }

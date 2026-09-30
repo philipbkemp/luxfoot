@@ -2,5 +2,7 @@
     "name": "Mamer 32",
     "history": [
         {"season": "1933-34","event": "RENAME_FROM","old_name": "JMAM"}
-    ]
+    ],
+    "colour": "#FA0300",
+    "historical_clubs": ["JMAM:#A31223"]
 }

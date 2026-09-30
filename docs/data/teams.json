@@ -371,7 +371,8 @@
         "name": "Jeunesse 07 Kayl"
     },
     "JMAM": {
-        "name": "Jeunesse Mamer"
+        "name": "Jeunesse Mamer",
+        "level": -1
     },
     "JMON": {
         "name": "Jeunesse Mondercange"
@@ -466,7 +467,8 @@
         "name": "FC Luxembourg City"
     },
     "MAMR": {
-        "name": "Mamer 32"
+        "name": "Mamer 32",
+        "level": 2
     },
     "MANC": {
         "name": "Mansfeldia Clausen"
