@@ -10,8 +10,13 @@ function doneFetch(data) {
     data.forEach(s=>{
         let li = document.createElement("LI");
         let link = document.createElement("A");
-        link.href = "season.html?year="+s;
-        link.textContent = s;
+        if ( s ) {
+            link.href = "season.html?year="+s;
+            link.textContent = s;
+        } else {
+            link.textContent = "";
+            link.classList.add("spacer");
+        }
         li.append(link);
         ul.append(li);
     });

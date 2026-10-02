@@ -49,6 +49,8 @@ table.winners abbr {
 }
 
 #seasonlist {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
     margin: 30px 10px;
     padding: 0;
 }
@@ -68,6 +70,8 @@ table.winners abbr {
             padding: 5px 10px;
             margin-bottom: 5px;
             margin-right: 10px;
+            min-width: 55px;
+            text-align: center;
             text-decoration: none;
             &.active {
                 background-color: #dddddd;
@@ -75,6 +79,10 @@ table.winners abbr {
             &:hover {
                 background-color: #eeeeee;
             }
+        }
+        .spacer {
+            opacity: 0;
+            pointer-events: none;
         }
     }
 }
