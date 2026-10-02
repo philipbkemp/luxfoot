@@ -49,10 +49,12 @@ table.winners abbr {
 }
 
 #seasonlist {
-    display: grid;
-    grid-template-columns: repeat(10, auto);
     margin: 30px 10px;
     padding: 0;
+    &.even-spread {
+        display: grid;
+        grid-template-columns: repeat(10, auto);
+    }
 }
 #prev-next,
 #competitions {

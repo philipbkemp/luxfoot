@@ -23,9 +23,15 @@ try {
 function doneFetch(data) {
     const firstSeason = data[showComp].first;
     const notAwarded = data[showComp].not_awarded;
+    const lastSeason = data[showComp].last;
 
     let firstSeasonIndex = allSeasons.indexOf(firstSeason);
     allSeasons = firstSeasonIndex === -1 ? allSeasons : allSeasons.slice(firstSeasonIndex);
+
+    let lastSeasonIndex = lastSeason ? allSeasons.indexOf(lastSeason) : null;
+    if ( lastSeason ) {
+        allSeasons = lastSeasonIndex === -1 ? allSeasons : allSeasons.slice(1,lastSeasonIndex);
+    }
 
     if ( data.league ) {
         let navLeague = document.createElement("A");
